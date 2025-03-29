@@ -48,24 +48,15 @@ jobs:
       
       - name: 提交并推送更改
         run: |
-          # 先拉取远程更改
           git pull --rebase origin main
           
-          # 添加更改
           git add data/ logs/ icons/
           
-          # 检查是否有更改需要提交
           if git diff --staged --quiet; then
             echo "没有更改需要提交"
           else
-            # 获取当前日期用于提交信息
             DATE=$(date +'%Y-%m-%d')
             git commit -m "更新爬取数据: $DATE"
-            
-            # 再次拉取以确保没有新的冲突
-            git pull --rebase origin main
-            
-            # 推送更改
             git push
           fi
       
