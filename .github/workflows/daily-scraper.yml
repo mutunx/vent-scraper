@@ -9,7 +9,9 @@ on:
 jobs:
   scrape-and-store:
     runs-on: ubuntu-latest
-    
+    permissions:
+      contents: write
+      
     steps:
       - name: 检出代码
         uses: actions/checkout@v3
