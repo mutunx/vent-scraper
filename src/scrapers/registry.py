@@ -36,7 +36,10 @@ def run_all_scrapers():
             scraper = get_scraper(source_id)
             results[source_id] = scraper.run()
         except Exception as e:
+            # 记录错误日志
+            import traceback
             import logging
             logging.error(f"运行爬虫 {source_id} 时出错: {str(e)}")
+            logging.error(f"堆栈信息: {traceback.format_exc()}")
             results[source_id] = None
     return results

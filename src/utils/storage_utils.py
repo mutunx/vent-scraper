@@ -123,7 +123,7 @@ def merge_data(source_id, new_data, date=None):
         date (str, optional): 日期字符串，不指定则使用当前日期
     
     Returns:
-        dict: 合并后的数据
+        list: 合并后的数据数组
     """
     if date is None:
         date = datetime.now().strftime("%Y-%m-%d")
@@ -131,9 +131,9 @@ def merge_data(source_id, new_data, date=None):
     week_start = get_week_start_date(date)
     filepath = os.path.join("data", source_id, f"week_{week_start}.json")
     
-    # 如果文件不存在，直接返回新数据
+    # 如果文件不存在，创建包含新数据的数组
     if not os.path.exists(filepath):
-        return new_data
+        return [new_data]
     
     # 读取现有数据
     with open(filepath, 'r', encoding='utf-8') as f:
@@ -141,40 +141,30 @@ def merge_data(source_id, new_data, date=None):
             existing_data = json.load(f)
         except json.JSONDecodeError:
             logger.error(f"解析JSON失败: {filepath}")
-            return new_data
+            return [new_data]
     
-    # 合并元数据
-    existing_data['meta'].update({
-        "updated_at": datetime.now().isoformat(),
-        "last_fetch_date": date
-    })
+    # 确保现有数据是数组
+    if not isinstance(existing_data, list):
+        logger.warning(f"数据格式错误: {filepath}，预期是数组")
+        existing_data = []
     
-    # 按ID索引现有数据项
-    existing_items = {item.get('id'): item for item in existing_data.get('data', [])}
-    new_items = {item.get('id'): item for item in new_data.get('data', [])}
-    
-    # 更新现有数据或添加新数据
-    for item_id, new_item in new_items.items():
-        if item_id in existing_items:
-            # 如果已存在该项，更新其评论和指标
-            if 'tucao' in new_item and 'tucao' in existing_items[item_id]:
-                # 合并评论，使用评论ID去重
-                existing_tucao = {t.get('id'): t for t in existing_items[item_id].get('tucao', [])}
-                new_tucao = {t.get('id'): t for t in new_item.get('tucao', [])}
-                existing_tucao.update(new_tucao)
-                existing_items[item_id]['tucao'] = list(existing_tucao.values())
-            
-            # 更新指标
-            if 'metrics' in new_item and 'metrics' in existing_items[item_id]:
-                existing_items[item_id]['metrics'].update(new_item['metrics'])
+    # 检查并处理嵌套数组，确保是扁平的一维数组
+    flattened_data = []
+    for item in existing_data:
+        if isinstance(item, list):
+            # 如果是嵌套数组，展平它
+            flattened_data.extend(item)
         else:
-            # 如果是新项，直接添加
-            existing_items[item_id] = new_item
+            flattened_data.append(item)
     
-    # 更新数据
-    existing_data['data'] = list(existing_items.values())
+    # 添加新数据
+    flattened_data.append(new_data)
     
-    return existing_data
+    # 写回文件
+    with open(filepath, 'w', encoding='utf-8') as f:
+        json.dump(flattened_data, f, ensure_ascii=False, indent=4)
+    
+    return flattened_data
 
 def save_weekly_data(source_id, data, date=None):
     """保存数据到周文件
