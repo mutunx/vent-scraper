@@ -6520,3 +6520,118 @@ AttributeError: 'list' object has no attribute 'get'
 2025-03-29 17:12:48,374 - scrapers.base_scraper - INFO - 成功爬取 煎蛋网 的数据
 2025-03-29 17:12:48,374 - __main__ - INFO - 完成: 1/1 个爬虫成功运行
 >>>>>>> d011072 (update)
+2025-03-29 17:31:57,341 - __main__ - INFO - 运行所有爬虫
+2025-03-29 17:31:57,341 - scrapers.jandan_scraper - INFO - JandanScraper初始化完成
+2025-03-29 17:31:57,341 - scrapers.base_scraper - INFO - 开始爬取 煎蛋网
+2025-03-29 17:31:57,341 - scrapers.jandan_scraper - INFO - 开始爬取煎蛋热评
+2025-03-29 17:31:57,342 - utils.http_utils - WARNING - 读取缓存出错: Expecting value: line 1 column 1 (char 0)
+2025-03-29 17:32:00,359 - scrapers.jandan_scraper - INFO - 成功获取HTML内容，长度: 135844
+2025-03-29 17:32:00,359 - scrapers.jandan_scraper - INFO - 调试: 手动获取评论 5877984 的吐槽数据
+2025-03-29 17:32:00,359 - scrapers.jandan_scraper - INFO - 获取评论 5877984 的吐槽内容: https://jandan.net/api/tucao/list/5877984
+2025-03-29 17:32:00,360 - utils.http_utils - WARNING - 读取缓存出错: Expecting value: line 1 column 1 (char 0)
+2025-03-29 17:32:02,481 - scrapers.jandan_scraper - INFO - 评论 5877984 获取到 1 条热门吐槽, 3 条普通吐槽
+2025-03-29 17:32:02,482 - scrapers.jandan_scraper - INFO - 调试: 评论 5877984 获取到 1 条热门吐槽, 3 条普通吐槽
+2025-03-29 17:32:02,482 - scrapers.jandan_scraper - INFO - 开始解析页面中的评论
+2025-03-29 17:32:02,482 - scrapers.jandan_scraper - INFO - 开始解析HTML内容, 长度: 135844
+2025-03-29 17:32:02,502 - scrapers.jandan_scraper - INFO - 找到 50 条热门评论
+2025-03-29 17:32:02,502 - scrapers.jandan_scraper - INFO - 开始处理第 1/50 条评论, ID=5879247
+2025-03-29 17:32:02,503 - scrapers.jandan_scraper - INFO - 评论 5879247 有 1 条吐槽，开始获取
+2025-03-29 17:32:02,503 - scrapers.jandan_scraper - INFO - 获取评论 5879247 的吐槽内容: https://jandan.net/api/tucao/list/5879247
+2025-03-29 17:32:02,504 - utils.http_utils - WARNING - 读取缓存出错: Expecting value: line 1 column 1 (char 0)
+2025-03-29 17:32:05,130 - scrapers.jandan_scraper - INFO - 评论 5879247 获取到 1 条热门吐槽, 1 条普通吐槽
+2025-03-29 17:32:05,130 - scrapers.jandan_scraper - INFO - 评论 5879247 成功获取 1 条吐槽
+2025-03-29 17:32:05,130 - scrapers.jandan_scraper - INFO - 评论 5879247 解析完成: 作者=叉烧葡挞, 类别=@树洞, 点赞=88, 踩=2, 吐槽数=1
+2025-03-29 17:32:05,130 - scrapers.jandan_scraper - INFO - 开始处理第 2/50 条评论, ID=5879528
+2025-03-29 17:32:05,131 - scrapers.jandan_scraper - INFO - 评论 5879528 有 3 条吐槽，开始获取
+2025-03-29 17:32:05,131 - scrapers.jandan_scraper - INFO - 获取评论 5879528 的吐槽内容: https://jandan.net/api/tucao/list/5879528
+2025-03-29 17:32:05,132 - utils.http_utils - WARNING - 读取缓存出错: Expecting value: line 1 column 1 (char 0)
+2025-03-29 17:32:06,438 - scrapers.jandan_scraper - INFO - 评论 5879528 获取到 2 条热门吐槽, 3 条普通吐槽
+2025-03-29 17:32:06,439 - scrapers.jandan_scraper - INFO - 评论 5879528 成功获取 3 条吐槽
+2025-03-29 17:32:06,439 - scrapers.jandan_scraper - INFO - 评论 5879528 解析完成: 作者=钢棍解师傅, 类别=@树洞, 点赞=72, 踩=2, 吐槽数=3
+2025-03-29 17:32:06,439 - scrapers.jandan_scraper - INFO - 开始处理第 3/50 条评论, ID=5879391
+2025-03-29 17:32:06,440 - scrapers.jandan_scraper - INFO - 评论 5879391 有 3 条吐槽，开始获取
+2025-03-29 17:32:06,440 - scrapers.jandan_scraper - INFO - 获取评论 5879391 的吐槽内容: https://jandan.net/api/tucao/list/5879391
+2025-03-29 17:32:06,440 - utils.http_utils - WARNING - 读取缓存出错: Expecting value: line 1 column 1 (char 0)
+2025-03-29 17:32:09,129 - scrapers.jandan_scraper - INFO - 评论 5879391 获取到 1 条热门吐槽, 3 条普通吐槽
+2025-03-29 17:32:09,130 - scrapers.jandan_scraper - INFO - 评论 5879391 成功获取 3 条吐槽
+2025-03-29 17:32:09,131 - scrapers.jandan_scraper - INFO - 评论 5879391 解析完成: 作者=Hornpub, 类别=@树洞, 点赞=65, 踩=6, 吐槽数=3
+2025-03-29 17:32:09,131 - scrapers.jandan_scraper - INFO - 开始处理第 4/50 条评论, ID=5879190
+2025-03-29 17:32:09,133 - scrapers.jandan_scraper - INFO - 评论 5879190 有 4 条吐槽，开始获取
+2025-03-29 17:32:09,133 - scrapers.jandan_scraper - INFO - 获取评论 5879190 的吐槽内容: https://jandan.net/api/tucao/list/5879190
+2025-03-29 17:32:09,133 - utils.http_utils - WARNING - 读取缓存出错: Expecting value: line 1 column 1 (char 0)
+2025-03-29 17:32:11,435 - scrapers.jandan_scraper - INFO - 评论 5879190 获取到 2 条热门吐槽, 4 条普通吐槽
+2025-03-29 17:32:11,436 - scrapers.jandan_scraper - INFO - 评论 5879190 成功获取 4 条吐槽
+2025-03-29 17:32:11,436 - scrapers.jandan_scraper - INFO - 评论 5879190 解析完成: 作者=Rinkan, 类别=@树洞, 点赞=53, 踩=0, 吐槽数=4
+2025-03-29 17:32:11,436 - scrapers.jandan_scraper - INFO - 开始处理第 5/50 条评论, ID=5879193
+2025-03-29 17:32:11,437 - scrapers.jandan_scraper - INFO - 评论 5879193 有 2 条吐槽，开始获取
+2025-03-29 17:32:11,437 - scrapers.jandan_scraper - INFO - 获取评论 5879193 的吐槽内容: https://jandan.net/api/tucao/list/5879193
+2025-03-29 17:32:11,438 - utils.http_utils - WARNING - 读取缓存出错: Expecting value: line 1 column 1 (char 0)
+2025-03-29 17:32:14,013 - scrapers.jandan_scraper - INFO - 评论 5879193 获取到 0 条热门吐槽, 2 条普通吐槽
+2025-03-29 17:32:14,013 - scrapers.jandan_scraper - INFO - 评论 5879193 成功获取 2 条吐槽
+2025-03-29 17:32:14,013 - scrapers.jandan_scraper - INFO - 评论 5879193 解析完成: 作者=Wodimaya, 类别=@树洞, 点赞=49, 踩=2, 吐槽数=2
+2025-03-29 17:32:14,013 - scrapers.jandan_scraper - INFO - 开始处理第 6/50 条评论, ID=5879187
+2025-03-29 17:32:14,015 - scrapers.jandan_scraper - INFO - 评论 5879187 有 3 条吐槽，开始获取
+2025-03-29 17:32:14,015 - scrapers.jandan_scraper - INFO - 获取评论 5879187 的吐槽内容: https://jandan.net/api/tucao/list/5879187
+2025-03-29 17:32:14,015 - utils.http_utils - WARNING - 读取缓存出错: Expecting value: line 1 column 1 (char 0)
+2025-03-29 17:32:16,106 - scrapers.jandan_scraper - INFO - 评论 5879187 获取到 2 条热门吐槽, 3 条普通吐槽
+2025-03-29 17:32:16,106 - scrapers.jandan_scraper - INFO - 评论 5879187 成功获取 3 条吐槽
+2025-03-29 17:32:16,107 - scrapers.jandan_scraper - INFO - 评论 5879187 解析完成: 作者=_equinox, 类别=@树洞, 点赞=48, 踩=15, 吐槽数=3
+2025-03-29 17:32:16,107 - scrapers.jandan_scraper - INFO - 开始处理第 7/50 条评论, ID=5879387
+2025-03-29 17:32:16,108 - scrapers.jandan_scraper - INFO - 评论 5879387 有 1 条吐槽，开始获取
+2025-03-29 17:32:16,108 - scrapers.jandan_scraper - INFO - 获取评论 5879387 的吐槽内容: https://jandan.net/api/tucao/list/5879387
+2025-03-29 17:32:16,109 - scrapers.jandan_scraper - INFO - 评论 5879387 获取到 0 条热门吐槽, 1 条普通吐槽
+2025-03-29 17:32:16,109 - scrapers.jandan_scraper - INFO - 评论 5879387 成功获取 1 条吐槽
+2025-03-29 17:32:16,109 - scrapers.jandan_scraper - INFO - 评论 5879387 解析完成: 作者=别骂就分享下, 类别=@树洞, 点赞=43, 踩=0, 吐槽数=1
+2025-03-29 17:32:16,109 - scrapers.jandan_scraper - INFO - 开始处理第 8/50 条评论, ID=5879563
+2025-03-29 17:32:16,111 - scrapers.jandan_scraper - INFO - 评论 5879563 有 7 条吐槽，开始获取
+2025-03-29 17:32:16,111 - scrapers.jandan_scraper - INFO - 获取评论 5879563 的吐槽内容: https://jandan.net/api/tucao/list/5879563
+2025-03-29 17:32:16,111 - utils.http_utils - WARNING - 读取缓存出错: Expecting value: line 1 column 1 (char 0)
+2025-03-29 17:32:19,081 - scrapers.jandan_scraper - INFO - 评论 5879563 获取到 1 条热门吐槽, 7 条普通吐槽
+2025-03-29 17:32:19,081 - scrapers.jandan_scraper - INFO - 评论 5879563 成功获取 7 条吐槽
+2025-03-29 17:32:19,082 - scrapers.jandan_scraper - INFO - 评论 5879563 解析完成: 作者=戒烟爱好者, 类别=@树洞, 点赞=39, 踩=2, 吐槽数=7
+2025-03-29 17:32:19,082 - scrapers.jandan_scraper - INFO - 开始处理第 9/50 条评论, ID=5879314
+2025-03-29 17:32:19,083 - scrapers.jandan_scraper - INFO - 评论 5879314 有 4 条吐槽，开始获取
+2025-03-29 17:32:19,083 - scrapers.jandan_scraper - INFO - 获取评论 5879314 的吐槽内容: https://jandan.net/api/tucao/list/5879314
+2025-03-29 17:32:19,083 - utils.http_utils - WARNING - 读取缓存出错: Expecting value: line 1 column 1 (char 0)
+2025-03-29 17:32:21,789 - scrapers.jandan_scraper - INFO - 评论 5879314 获取到 0 条热门吐槽, 4 条普通吐槽
+2025-03-29 17:32:21,789 - scrapers.jandan_scraper - INFO - 评论 5879314 成功获取 4 条吐槽
+2025-03-29 17:32:21,790 - scrapers.jandan_scraper - INFO - 评论 5879314 解析完成: 作者=霸气小腿子, 类别=@树洞, 点赞=39, 踩=3, 吐槽数=4
+2025-03-29 17:32:21,790 - scrapers.jandan_scraper - INFO - 开始处理第 10/50 条评论, ID=5879607
+2025-03-29 17:32:21,790 - scrapers.jandan_scraper - INFO - 评论 5879607 有 3 条吐槽，开始获取
+2025-03-29 17:32:21,790 - scrapers.jandan_scraper - INFO - 获取评论 5879607 的吐槽内容: https://jandan.net/api/tucao/list/5879607
+2025-03-29 17:32:21,791 - utils.http_utils - WARNING - 读取缓存出错: Expecting value: line 1 column 1 (char 0)
+2025-03-29 17:32:24,547 - scrapers.jandan_scraper - INFO - 评论 5879607 获取到 1 条热门吐槽, 3 条普通吐槽
+2025-03-29 17:32:24,547 - scrapers.jandan_scraper - INFO - 评论 5879607 成功获取 3 条吐槽
+2025-03-29 17:32:24,547 - scrapers.jandan_scraper - INFO - 评论 5879607 解析完成: 作者=貌美如如花, 类别=@树洞, 点赞=38, 踩=1, 吐槽数=3
+2025-03-29 17:32:24,548 - scrapers.jandan_scraper - INFO - 开始处理第 11/50 条评论, ID=5879353
+2025-03-29 17:32:24,548 - scrapers.jandan_scraper - INFO - 评论 5879353 有 1 条吐槽，开始获取
+2025-03-29 17:32:24,548 - scrapers.jandan_scraper - INFO - 获取评论 5879353 的吐槽内容: https://jandan.net/api/tucao/list/5879353
+2025-03-29 17:32:24,549 - utils.http_utils - WARNING - 读取缓存出错: Expecting value: line 1 column 1 (char 0)
+2025-03-29 17:32:27,351 - scrapers.jandan_scraper - INFO - 评论 5879353 获取到 1 条热门吐槽, 1 条普通吐槽
+2025-03-29 17:32:27,351 - scrapers.jandan_scraper - INFO - 评论 5879353 成功获取 1 条吐槽
+2025-03-29 17:32:27,352 - scrapers.jandan_scraper - INFO - 评论 5879353 解析完成: 作者=va23, 类别=@树洞, 点赞=37, 踩=2, 吐槽数=1
+2025-03-29 17:32:27,352 - scrapers.jandan_scraper - INFO - 开始处理第 12/50 条评论, ID=5879449
+2025-03-29 17:32:27,353 - scrapers.jandan_scraper - INFO - 评论 5879449 有 4 条吐槽，开始获取
+2025-03-29 17:32:27,353 - scrapers.jandan_scraper - INFO - 获取评论 5879449 的吐槽内容: https://jandan.net/api/tucao/list/5879449
+2025-03-29 17:32:27,354 - utils.http_utils - WARNING - 读取缓存出错: Expecting value: line 1 column 1 (char 0)
+2025-03-29 17:32:29,721 - scrapers.jandan_scraper - INFO - 评论 5879449 获取到 0 条热门吐槽, 4 条普通吐槽
+2025-03-29 17:32:29,721 - scrapers.jandan_scraper - INFO - 评论 5879449 成功获取 4 条吐槽
+2025-03-29 17:32:29,721 - scrapers.jandan_scraper - INFO - 评论 5879449 解析完成: 作者=Ziyu, 类别=@树洞, 点赞=35, 踩=0, 吐槽数=4
+2025-03-29 17:32:29,721 - scrapers.jandan_scraper - INFO - 开始处理第 13/50 条评论, ID=5879448
+2025-03-29 17:32:29,722 - scrapers.jandan_scraper - INFO - 评论 5879448 有 4 条吐槽，开始获取
+2025-03-29 17:32:29,723 - scrapers.jandan_scraper - INFO - 获取评论 5879448 的吐槽内容: https://jandan.net/api/tucao/list/5879448
+2025-03-29 17:32:29,723 - utils.http_utils - WARNING - 读取缓存出错: Expecting value: line 1 column 1 (char 0)
+2025-03-29 17:32:30,868 - scrapers.jandan_scraper - INFO - 评论 5879448 获取到 3 条热门吐槽, 4 条普通吐槽
+2025-03-29 17:32:30,868 - scrapers.jandan_scraper - INFO - 评论 5879448 成功获取 4 条吐槽
+2025-03-29 17:32:30,868 - scrapers.jandan_scraper - INFO - 评论 5879448 解析完成: 作者=糖鸡磕的, 类别=@树洞, 点赞=33, 踩=3, 吐槽数=4
+2025-03-29 17:32:30,868 - scrapers.jandan_scraper - INFO - 开始处理第 14/50 条评论, ID=5879249
+2025-03-29 17:32:30,869 - scrapers.jandan_scraper - INFO - 评论 5879249 有 3 条吐槽，开始获取
+2025-03-29 17:32:30,869 - scrapers.jandan_scraper - INFO - 获取评论 5879249 的吐槽内容: https://jandan.net/api/tucao/list/5879249
+2025-03-29 17:32:30,869 - utils.http_utils - WARNING - 读取缓存出错: Expecting value: line 1 column 1 (char 0)
+2025-03-29 17:32:32,825 - scrapers.jandan_scraper - INFO - 评论 5879249 获取到 1 条热门吐槽, 3 条普通吐槽
+2025-03-29 17:32:32,825 - scrapers.jandan_scraper - INFO - 评论 5879249 成功获取 3 条吐槽
+2025-03-29 17:32:32,825 - scrapers.jandan_scraper - INFO - 评论 5879249 解析完成: 作者=阿了个乐, 类别=@树洞, 点赞=33, 踩=2, 吐槽数=3
+2025-03-29 17:32:32,825 - scrapers.jandan_scraper - INFO - 开始处理第 15/50 条评论, ID=5879509
+2025-03-29 17:32:32,826 - scrapers.jandan_scraper - INFO - 评论 5879509 有 13 条吐槽，开始获取
+2025-03-29 17:32:32,826 - scrapers.jandan_scraper - INFO - 获取评论 5879509 的吐槽内容: https://jandan.net/api/tucao/list/5879509
+2025-03-29 17:32:32,826 - utils.http_utils - WARNING - 读取缓存出错: Expecting value: line 1 column 1 (char 0)
