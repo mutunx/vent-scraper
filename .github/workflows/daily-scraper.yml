@@ -47,8 +47,9 @@ jobs:
       
       - name: 提交并推送更改
         run: |
-          git add .
+          git add data/ logs/ icons/
           git commit -m "更新爬取数据: $DATE"
+          git stash
           git pull --rebase origin main
           DATE=$(date +'%Y-%m-%d')
           git push
