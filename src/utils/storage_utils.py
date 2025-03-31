@@ -131,9 +131,13 @@ def merge_data(source_id, new_data, date=None):
     week_start = get_week_start_date(date)
     filepath = os.path.join("data", source_id, f"week_{week_start}.json")
     
-    # 如果文件不存在，创建包含新数据的数组
+    # 如果文件不存在，确保以数组形式存储新数据
     if not os.path.exists(filepath):
-        return [new_data]
+        # 确保新数据是一个对象而不是数组，如果是数组则直接使用它
+        if isinstance(new_data, list):
+            return new_data
+        else:
+            return [new_data]
     
     # 读取现有数据
     with open(filepath, 'r', encoding='utf-8') as f:
@@ -141,24 +145,35 @@ def merge_data(source_id, new_data, date=None):
             existing_data = json.load(f)
         except json.JSONDecodeError:
             logger.error(f"解析JSON失败: {filepath}")
-            return [new_data]
+            # 确保新数据是一个对象而不是数组，如果是数组则直接使用它
+            if isinstance(new_data, list):
+                return new_data
+            else:
+                return [new_data]
     
     # 确保现有数据是数组
     if not isinstance(existing_data, list):
         logger.warning(f"数据格式错误: {filepath}，预期是数组")
         existing_data = []
     
-    # 检查并处理嵌套数组，确保是扁平的一维数组
-    flattened_data = []
-    for item in existing_data:
-        if isinstance(item, list):
-            # 如果是嵌套数组，展平它
-            flattened_data.extend(item)
-        else:
-            flattened_data.append(item)
+    # 检查并递归展平嵌套数组，确保是扁平的一维数组
+    def flatten_array(data):
+        flattened = []
+        for item in data:
+            if isinstance(item, list):
+                # 如果是嵌套数组，递归展平
+                flattened.extend(flatten_array(item))
+            else:
+                flattened.append(item)
+        return flattened
     
-    # 添加新数据
-    flattened_data.append(new_data)
+    flattened_data = flatten_array(existing_data)
+    
+    # 添加新数据，确保正确处理数组类型的新数据
+    if isinstance(new_data, list):
+        flattened_data.extend(new_data)
+    else:
+        flattened_data.append(new_data)
     
     # 写回文件
     with open(filepath, 'w', encoding='utf-8') as f:
