@@ -558,3 +558,78 @@
 2025-03-31 16:41:38,390 - scrapers.base_scraper - INFO - 数据已保存到 data/hackernews/week_2025-03-31.json
 2025-03-31 16:41:38,390 - scrapers.base_scraper - INFO - 成功爬取 Hacker News 的数据
 2025-03-31 16:41:38,391 - __main__ - INFO - 爬虫 hackernews 成功运行
+2025-03-31 17:38:07,026 - __main__ - INFO - 运行爬虫: hackernews
+2025-03-31 17:38:07,026 - scrapers.hackernews_scraper - INFO - HackerNewsScraper初始化完成
+2025-03-31 17:38:07,026 - scrapers.base_scraper - INFO - 开始爬取 Hacker News
+2025-03-31 17:38:07,026 - scrapers.hackernews_scraper - INFO - 开始爬取Hacker News Ask HN帖子
+2025-03-31 17:38:07,026 - scrapers.hackernews_scraper - INFO - 获取Ask HN页面: https://news.ycombinator.com/ask
+2025-03-31 17:38:10,611 - scrapers.hackernews_scraper - INFO - 找到 28 个帖子行
+2025-03-31 17:38:10,611 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: What are you working o..., 作者=david927, 点赞=234, 评论=0
+2025-03-31 17:38:10,611 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: If you had 100 hours t..., 作者=erkanerol, 点赞=10, 评论=0
+2025-03-31 17:38:10,612 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: can Wireless-CarPlay d..., 作者=concerned_citi, 点赞=45, 评论=0
+2025-03-31 17:38:10,612 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Any decent open-source..., 作者=CGMthrowaway, 点赞=4, 评论=0
+2025-03-31 17:38:10,612 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Is anyone experiencing..., 作者=benguild, 点赞=47, 评论=0
+2025-03-31 17:38:10,612 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: What's the ideal stack..., 作者=kieloo, 点赞=37, 评论=0
+2025-03-31 17:38:10,612 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Data Usage for Family ..., 作者=nytesky, 点赞=7, 评论=0
+2025-03-31 17:38:10,613 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: How are you dealing wi..., 作者=gtirloni, 点赞=12, 评论=0
+2025-03-31 17:38:10,613 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Share Your Favorite Bo..., 作者=takinola, 点赞=25, 评论=0
+2025-03-31 17:38:10,613 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Building a Non-AI tool..., 作者=tinchox6, 点赞=6, 评论=0
+2025-03-31 17:38:10,613 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: How does Anthropic use..., 作者=dpflan, 点赞=12, 评论=0
+2025-03-31 17:38:10,613 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: How do duplicates get ..., 作者=donnachangstein, 点赞=2, 评论=0
+2025-03-31 17:38:10,614 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Where is all the Chine..., 作者=Havoc, 点赞=16, 评论=0
+2025-03-31 17:38:10,614 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: What is the most secur..., 作者=erkanerol, 点赞=7, 评论=0
+2025-03-31 17:38:10,614 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: How Is Cursor Differen..., 作者=srameshc, 点赞=4, 评论=0
+2025-03-31 17:38:10,614 - scrapers.hackernews_scraper - INFO - 成功解析 15 个Ask HN故事
+2025-03-31 17:38:10,614 - scrapers.hackernews_scraper - INFO - 开始转换 15 个故事到统一格式
+2025-03-31 17:38:10,614 - scrapers.hackernews_scraper - INFO - 转换第 1/15 个故事: Ask HN: What are you working o...
+2025-03-31 17:38:14,901 - scrapers.hackernews_scraper - INFO - 找到 563 条评论
+2025-03-31 17:38:18,158 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: What are you working o... 转换完成，包含 100 条评论
+2025-03-31 17:38:18,158 - scrapers.hackernews_scraper - INFO - 转换第 2/15 个故事: Ask HN: If you had 100 hours t...
+2025-03-31 17:38:21,292 - scrapers.hackernews_scraper - INFO - 找到 14 条评论
+2025-03-31 17:38:21,309 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: If you had 100 hours t... 转换完成，包含 14 条评论
+2025-03-31 17:38:21,309 - scrapers.hackernews_scraper - INFO - 转换第 3/15 个故事: Ask HN: can Wireless-CarPlay d...
+2025-03-31 17:38:23,210 - scrapers.hackernews_scraper - INFO - 找到 31 条评论
+2025-03-31 17:38:23,226 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: can Wireless-CarPlay d... 转换完成，包含 31 条评论
+2025-03-31 17:38:23,226 - scrapers.hackernews_scraper - INFO - 转换第 4/15 个故事: Ask HN: Any decent open-source...
+2025-03-31 17:38:26,323 - scrapers.hackernews_scraper - INFO - 找到 1 条评论
+2025-03-31 17:38:26,324 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Any decent open-source... 转换完成，包含 1 条评论
+2025-03-31 17:38:26,324 - scrapers.hackernews_scraper - INFO - 转换第 5/15 个故事: Ask HN: Is anyone experiencing...
+2025-03-31 17:38:29,099 - scrapers.hackernews_scraper - INFO - 找到 39 条评论
+2025-03-31 17:38:29,120 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Is anyone experiencing... 转换完成，包含 39 条评论
+2025-03-31 17:38:29,120 - scrapers.hackernews_scraper - INFO - 转换第 6/15 个故事: Ask HN: What's the ideal stack...
+2025-03-31 17:38:32,157 - scrapers.hackernews_scraper - INFO - 找到 34 条评论
+2025-03-31 17:38:32,175 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: What's the ideal stack... 转换完成，包含 34 条评论
+2025-03-31 17:38:32,175 - scrapers.hackernews_scraper - INFO - 转换第 7/15 个故事: Ask HN: Data Usage for Family ...
+2025-03-31 17:38:33,785 - scrapers.hackernews_scraper - INFO - 找到 12 条评论
+2025-03-31 17:38:33,790 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Data Usage for Family ... 转换完成，包含 12 条评论
+2025-03-31 17:38:33,790 - scrapers.hackernews_scraper - INFO - 转换第 8/15 个故事: Ask HN: How are you dealing wi...
+2025-03-31 17:38:36,371 - scrapers.hackernews_scraper - INFO - 找到 31 条评论
+2025-03-31 17:38:36,387 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: How are you dealing wi... 转换完成，包含 31 条评论
+2025-03-31 17:38:36,387 - scrapers.hackernews_scraper - INFO - 转换第 9/15 个故事: Ask HN: Share Your Favorite Bo...
+2025-03-31 17:38:37,868 - scrapers.hackernews_scraper - INFO - 找到 9 条评论
+2025-03-31 17:38:37,871 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Share Your Favorite Bo... 转换完成，包含 9 条评论
+2025-03-31 17:38:37,871 - scrapers.hackernews_scraper - INFO - 转换第 10/15 个故事: Ask HN: Building a Non-AI tool...
+2025-03-31 17:38:40,511 - scrapers.hackernews_scraper - INFO - 找到 3 条评论
+2025-03-31 17:38:40,512 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Building a Non-AI tool... 转换完成，包含 3 条评论
+2025-03-31 17:38:40,512 - scrapers.hackernews_scraper - INFO - 转换第 11/15 个故事: Ask HN: How does Anthropic use...
+2025-03-31 17:38:43,425 - scrapers.hackernews_scraper - INFO - 找到 1 条评论
+2025-03-31 17:38:43,425 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: How does Anthropic use... 转换完成，包含 1 条评论
+2025-03-31 17:38:43,425 - scrapers.hackernews_scraper - INFO - 转换第 12/15 个故事: Ask HN: How do duplicates get ...
+2025-03-31 17:38:46,514 - scrapers.hackernews_scraper - INFO - 找到 2 条评论
+2025-03-31 17:38:46,515 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: How do duplicates get ... 转换完成，包含 2 条评论
+2025-03-31 17:38:46,515 - scrapers.hackernews_scraper - INFO - 转换第 13/15 个故事: Ask HN: Where is all the Chine...
+2025-03-31 17:38:48,238 - scrapers.hackernews_scraper - INFO - 找到 12 条评论
+2025-03-31 17:38:48,241 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Where is all the Chine... 转换完成，包含 12 条评论
+2025-03-31 17:38:48,241 - scrapers.hackernews_scraper - INFO - 转换第 14/15 个故事: Ask HN: What is the most secur...
+2025-03-31 17:38:49,629 - scrapers.hackernews_scraper - INFO - 找到 15 条评论
+2025-03-31 17:38:49,633 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: What is the most secur... 转换完成，包含 15 条评论
+2025-03-31 17:38:49,633 - scrapers.hackernews_scraper - INFO - 转换第 15/15 个故事: Ask HN: How Is Cursor Differen...
+2025-03-31 17:38:52,685 - scrapers.hackernews_scraper - INFO - 找到 4 条评论
+2025-03-31 17:38:52,686 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: How Is Cursor Differen... 转换完成，包含 4 条评论
+2025-03-31 17:38:52,686 - scrapers.hackernews_scraper - INFO - 共转换 15 个故事为统一格式
+2025-03-31 17:38:52,686 - scrapers.hackernews_scraper - INFO - 爬取完成，共获取 15 个Ask HN故事
+2025-03-31 17:38:52,708 - utils.storage_utils - INFO - 已更新源索引: hackernews
+2025-03-31 17:38:52,709 - utils.storage_utils - INFO - 数据已保存到 data/hackernews/week_2025-03-31.json
+2025-03-31 17:38:52,709 - scrapers.base_scraper - INFO - 数据已保存到 data/hackernews/week_2025-03-31.json
+2025-03-31 17:38:52,709 - scrapers.base_scraper - INFO - 成功爬取 Hacker News 的数据
+2025-03-31 17:38:52,709 - __main__ - INFO - 爬虫 hackernews 成功运行

@@ -246,7 +246,11 @@ class HackerNewsScraper(BaseScraper):
                     if not comment_div:
                         continue
                         
-                    comment_text = comment_div.decode_contents().strip()
+                    # 保存原始HTML内容
+                    comment_html = str(comment_div)
+                    
+                    # 提取纯文本内容
+                    comment_text = comment_div.get_text(separator=' ', strip=True)
                     
                     # 获取评论作者
                     author_elem = comment_row.select_one('a.hnuser')
@@ -283,7 +287,7 @@ class HackerNewsScraper(BaseScraper):
                         "source_id": comment_id,
                         "content": {
                             "text": comment_text,
-                            "format": "html",
+                            "format": "text",
                             "media": []
                         },
                         "created_at": created_at,
