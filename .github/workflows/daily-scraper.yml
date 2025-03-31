@@ -2,8 +2,8 @@ name: 每日数据爬取
 
 on:
   schedule:
-    # 每天凌晨2点运行 (UTC时间，对应北京时间10点)
-    - cron: '0 2 * * *'
+    # 每天16点运行 对应北京凌晨0点
+    - cron: '0 16 * * *'
   workflow_dispatch: # 允许手动触发
 
 jobs:
