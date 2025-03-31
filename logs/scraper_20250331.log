@@ -394,3 +394,167 @@
 2025-03-31 02:32:15,012 - __main__ - INFO - 完成: 1/1 个爬虫成功运行
 2025-03-31 02:32:15,252 - __main__ - INFO - 归档所有源的旧数据
 2025-03-31 02:32:15,253 - __main__ - INFO - 源 jandan 归档 无需归档
+2025-03-31 15:19:52,281 - __main__ - INFO - 运行爬虫: reddit
+2025-03-31 15:19:52,282 - scrapers.reddit_scraper - INFO - RedditScraper初始化完成
+2025-03-31 15:19:52,282 - scrapers.base_scraper - INFO - 开始爬取 Reddit
+2025-03-31 15:19:52,282 - scrapers.reddit_scraper - INFO - 开始爬取Reddit r/confessions每周热门帖子
+2025-03-31 15:19:55,377 - scrapers.reddit_scraper - INFO - 成功获取HTML内容，长度: 554987
+2025-03-31 15:19:55,410 - scrapers.reddit_scraper - INFO - 找到 0 个帖子
+2025-03-31 15:19:55,410 - scrapers.reddit_scraper - INFO - 成功解析 0 个帖子
+2025-03-31 15:19:55,410 - scrapers.reddit_scraper - INFO - 开始转换 0 个帖子到统一格式
+2025-03-31 15:19:55,410 - scrapers.reddit_scraper - INFO - 共转换 0 个帖子为统一格式
+2025-03-31 15:19:55,410 - scrapers.reddit_scraper - INFO - 爬取完成，共获取 0 个帖子
+2025-03-31 15:19:55,410 - scrapers.base_scraper - ERROR - 爬取 Reddit 失败
+2025-03-31 15:19:55,410 - __main__ - ERROR - 爬虫 reddit 运行失败
+2025-03-31 15:20:10,591 - __main__ - INFO - 运行爬虫: hackernews
+2025-03-31 15:20:10,593 - scrapers.hackernews_scraper - INFO - HackerNewsScraper初始化完成
+2025-03-31 15:20:10,595 - scrapers.base_scraper - INFO - 开始爬取 Hacker News
+2025-03-31 15:20:10,595 - scrapers.hackernews_scraper - INFO - 开始爬取Hacker News Ask HN帖子
+2025-03-31 15:20:14,899 - scrapers.hackernews_scraper - INFO - 成功获取HTML内容，长度: 29840
+2025-03-31 15:20:14,912 - scrapers.hackernews_scraper - INFO - 成功解析 0 个Ask HN帖子
+2025-03-31 15:20:14,913 - scrapers.hackernews_scraper - INFO - 开始转换 0 个帖子到统一格式
+2025-03-31 15:20:14,913 - scrapers.hackernews_scraper - INFO - 共转换 0 个帖子为统一格式
+2025-03-31 15:20:14,913 - scrapers.hackernews_scraper - INFO - 爬取完成，共获取 0 个Ask HN帖子
+2025-03-31 15:20:14,913 - scrapers.base_scraper - ERROR - 爬取 Hacker News 失败
+2025-03-31 15:20:14,913 - __main__ - ERROR - 爬虫 hackernews 运行失败
+2025-03-31 15:54:02,796 - __main__ - INFO - 运行爬虫: reddit
+2025-03-31 15:54:02,796 - scrapers.reddit_scraper - INFO - RedditScraper初始化完成
+2025-03-31 16:27:51,627 - __main__ - INFO - 运行爬虫: reddit
+2025-03-31 16:27:51,627 - scrapers.reddit_scraper - INFO - RedditScraper初始化完成
+2025-03-31 16:27:51,627 - scrapers.base_scraper - INFO - 开始爬取 Reddit
+2025-03-31 16:27:51,627 - scrapers.reddit_scraper - INFO - 开始爬取Reddit r/confessions每周热门帖子
+2025-03-31 16:27:54,968 - scrapers.reddit_scraper - INFO - 找到 10 个帖子
+2025-03-31 16:27:54,968 - scrapers.reddit_scraper - INFO - 成功解析帖子: I quit being a Muslim and left..., 作者=[deleted], 点赞=3542, 评论=231
+2025-03-31 16:27:54,968 - scrapers.reddit_scraper - INFO - 成功解析帖子: My wife gave a man 10 stitches..., 作者=bbhbubkleupp, 点赞=2473, 评论=53
+2025-03-31 16:27:54,968 - scrapers.reddit_scraper - INFO - 成功解析帖子: I watched my mom die while pre..., 作者=Overall-PrettyManly, 点赞=1792, 评论=122
+2025-03-31 16:27:54,968 - scrapers.reddit_scraper - INFO - 成功解析帖子: My son lied on me..., 作者=Sad-Department-78, 点赞=1411, 评论=44
+2025-03-31 16:27:54,968 - scrapers.reddit_scraper - INFO - 成功解析帖子: I’m 38, fit, and everyone I kn..., 作者=ihaveamicropenis0, 点赞=1172, 评论=92
+2025-03-31 16:27:54,968 - scrapers.reddit_scraper - INFO - 成功解析帖子: UPDATE: My (F21) guy best frie..., 作者=Main_Bluejay_2924, 点赞=959, 评论=62
+2025-03-31 16:27:54,968 - scrapers.reddit_scraper - INFO - 成功解析帖子: This girl accidentally flashed..., 作者=Low-Wolverine-3537, 点赞=564, 评论=103
+2025-03-31 16:27:54,968 - scrapers.reddit_scraper - INFO - 成功解析帖子: A younger woman flirted with m..., 作者=Sensitive-Dog82, 点赞=413, 评论=64
+2025-03-31 16:27:54,968 - scrapers.reddit_scraper - INFO - 成功解析帖子: i masturbated for the first ti..., 作者=natalie_444, 点赞=393, 评论=32
+2025-03-31 16:27:54,968 - scrapers.reddit_scraper - INFO - 成功解析帖子: I spent all day crying over my..., 作者=Resident-Truck-8781, 点赞=392, 评论=17
+2025-03-31 16:27:54,968 - scrapers.reddit_scraper - INFO - 成功解析 10 个帖子
+2025-03-31 16:27:54,969 - scrapers.reddit_scraper - INFO - 开始转换 10 个帖子到统一格式
+2025-03-31 16:27:54,969 - scrapers.reddit_scraper - INFO - 转换第 1/10 个帖子: I quit being a Muslim and left...
+2025-03-31 16:27:54,969 - scrapers.reddit_scraper - INFO - 获取帖子评论: https://www.reddit.com/r/confessions/comments/1jlil13/i_quit_being_a_muslim_and_left_the_country_for_my/
+2025-03-31 16:27:57,916 - scrapers.reddit_scraper - INFO - 找到 159 条评论
+2025-03-31 16:27:57,917 - scrapers.reddit_scraper - INFO - 帖子 I quit being a Muslim and left... 转换完成，包含 158 条评论
+2025-03-31 16:27:57,917 - scrapers.reddit_scraper - INFO - 转换第 2/10 个帖子: My wife gave a man 10 stitches...
+2025-03-31 16:27:57,917 - scrapers.reddit_scraper - INFO - 获取帖子评论: https://www.reddit.com/r/confessions/comments/1jlxzuk/my_wife_gave_a_man_10_stitches_on_his_face_alone/
+2025-03-31 16:28:00,344 - scrapers.reddit_scraper - INFO - 找到 27 条评论
+2025-03-31 16:28:00,344 - scrapers.reddit_scraper - INFO - 帖子 My wife gave a man 10 stitches... 转换完成，包含 27 条评论
+2025-03-31 16:28:00,344 - scrapers.reddit_scraper - INFO - 转换第 3/10 个帖子: I watched my mom die while pre...
+2025-03-31 16:28:00,344 - scrapers.reddit_scraper - INFO - 获取帖子评论: https://www.reddit.com/r/confessions/comments/1jjnqo4/i_watched_my_mom_die_while_pretending_i_was_asleep/
+2025-03-31 16:28:03,800 - scrapers.reddit_scraper - INFO - 找到 61 条评论
+2025-03-31 16:28:03,801 - scrapers.reddit_scraper - INFO - 帖子 I watched my mom die while pre... 转换完成，包含 61 条评论
+2025-03-31 16:28:03,801 - scrapers.reddit_scraper - INFO - 转换第 4/10 个帖子: My son lied on me...
+2025-03-31 16:28:03,801 - scrapers.reddit_scraper - INFO - 获取帖子评论: https://www.reddit.com/r/confessions/comments/1jju9if/my_son_lied_on_me/
+2025-03-31 16:28:06,583 - scrapers.reddit_scraper - INFO - 找到 26 条评论
+2025-03-31 16:28:06,583 - scrapers.reddit_scraper - INFO - 帖子 My son lied on me... 转换完成，包含 26 条评论
+2025-03-31 16:28:06,583 - scrapers.reddit_scraper - INFO - 转换第 5/10 个帖子: I’m 38, fit, and everyone I kn...
+2025-03-31 16:28:06,583 - scrapers.reddit_scraper - INFO - 获取帖子评论: https://www.reddit.com/r/confessions/comments/1jkm9oy/im_38_fit_and_everyone_i_know_has_found_out_i/
+2025-03-31 16:28:10,322 - scrapers.reddit_scraper - INFO - 找到 50 条评论
+2025-03-31 16:28:10,322 - scrapers.reddit_scraper - INFO - 帖子 I’m 38, fit, and everyone I kn... 转换完成，包含 50 条评论
+2025-03-31 16:28:10,322 - scrapers.reddit_scraper - INFO - 转换第 6/10 个帖子: UPDATE: My (F21) guy best frie...
+2025-03-31 16:28:10,322 - scrapers.reddit_scraper - INFO - 获取帖子评论: https://www.reddit.com/r/confessions/comments/1jn0bk1/update_my_f21_guy_best_friend_m22_drunk_kissed_me/
+2025-03-31 16:28:13,477 - scrapers.reddit_scraper - INFO - 找到 51 条评论
+2025-03-31 16:28:13,478 - scrapers.reddit_scraper - INFO - 帖子 UPDATE: My (F21) guy best frie... 转换完成，包含 51 条评论
+2025-03-31 16:28:13,478 - scrapers.reddit_scraper - INFO - 转换第 7/10 个帖子: This girl accidentally flashed...
+2025-03-31 16:28:13,478 - scrapers.reddit_scraper - INFO - 获取帖子评论: https://www.reddit.com/r/confessions/comments/1jn0ox7/this_girl_accidentally_flashed_me_and_now_i_cant/
+2025-03-31 16:28:17,611 - scrapers.reddit_scraper - INFO - 找到 56 条评论
+2025-03-31 16:28:17,611 - scrapers.reddit_scraper - INFO - 帖子 This girl accidentally flashed... 转换完成，包含 56 条评论
+2025-03-31 16:28:17,611 - scrapers.reddit_scraper - INFO - 转换第 8/10 个帖子: A younger woman flirted with m...
+2025-03-31 16:28:17,611 - scrapers.reddit_scraper - INFO - 获取帖子评论: https://www.reddit.com/r/confessions/comments/1jniz4j/a_younger_woman_flirted_with_me_while_i_was_out/
+2025-03-31 16:28:21,406 - scrapers.reddit_scraper - INFO - 找到 19 条评论
+2025-03-31 16:28:21,406 - scrapers.reddit_scraper - INFO - 帖子 A younger woman flirted with m... 转换完成，包含 19 条评论
+2025-03-31 16:28:21,406 - scrapers.reddit_scraper - INFO - 转换第 9/10 个帖子: i masturbated for the first ti...
+2025-03-31 16:28:21,407 - scrapers.reddit_scraper - INFO - 获取帖子评论: https://www.reddit.com/r/confessions/comments/1jlcm2m/i_masturbated_for_the_first_time_after_being_sa/
+2025-03-31 16:28:23,788 - scrapers.reddit_scraper - INFO - 找到 17 条评论
+2025-03-31 16:28:23,789 - scrapers.reddit_scraper - INFO - 帖子 i masturbated for the first ti... 转换完成，包含 17 条评论
+2025-03-31 16:28:23,789 - scrapers.reddit_scraper - INFO - 转换第 10/10 个帖子: I spent all day crying over my...
+2025-03-31 16:28:23,789 - scrapers.reddit_scraper - INFO - 获取帖子评论: https://www.reddit.com/r/confessions/comments/1jj8dda/i_spent_all_day_crying_over_my_ex_husbands_death/
+2025-03-31 16:28:26,478 - scrapers.reddit_scraper - INFO - 找到 16 条评论
+2025-03-31 16:28:26,478 - scrapers.reddit_scraper - INFO - 帖子 I spent all day crying over my... 转换完成，包含 16 条评论
+2025-03-31 16:28:26,478 - scrapers.reddit_scraper - INFO - 共转换 10 个帖子为统一格式
+2025-03-31 16:28:26,478 - scrapers.reddit_scraper - INFO - 爬取完成，共获取 10 个帖子
+2025-03-31 16:28:26,493 - utils.storage_utils - INFO - 已更新源索引: reddit
+2025-03-31 16:28:26,494 - utils.storage_utils - INFO - 数据已保存到 data/reddit/week_2025-03-31.json
+2025-03-31 16:28:26,494 - scrapers.base_scraper - INFO - 数据已保存到 data/reddit/week_2025-03-31.json
+2025-03-31 16:28:26,494 - scrapers.base_scraper - INFO - 成功爬取 Reddit 的数据
+2025-03-31 16:28:26,494 - __main__ - INFO - 爬虫 reddit 成功运行
+2025-03-31 16:41:05,186 - __main__ - INFO - 运行爬虫: hackernews
+2025-03-31 16:41:05,186 - scrapers.hackernews_scraper - INFO - HackerNewsScraper初始化完成
+2025-03-31 16:41:05,187 - scrapers.base_scraper - INFO - 开始爬取 Hacker News
+2025-03-31 16:41:05,187 - scrapers.hackernews_scraper - INFO - 开始爬取Hacker News Ask HN帖子
+2025-03-31 16:41:05,187 - scrapers.hackernews_scraper - INFO - 获取Ask HN页面: https://news.ycombinator.com/ask
+2025-03-31 16:41:05,197 - scrapers.hackernews_scraper - INFO - 找到 29 个帖子行
+2025-03-31 16:41:05,198 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: What are you working o..., 作者=david927, 点赞=206, 评论=0
+2025-03-31 16:41:05,198 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Any decent open-source..., 作者=CGMthrowaway, 点赞=4, 评论=0
+2025-03-31 16:41:05,198 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: can Wireless-CarPlay d..., 作者=concerned_citi, 点赞=45, 评论=0
+2025-03-31 16:41:05,198 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Is anyone experiencing..., 作者=benguild, 点赞=46, 评论=0
+2025-03-31 16:41:05,198 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: What's the ideal stack..., 作者=kieloo, 点赞=36, 评论=0
+2025-03-31 16:41:05,198 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Data Usage for Family ..., 作者=nytesky, 点赞=6, 评论=0
+2025-03-31 16:41:05,199 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: How are you dealing wi..., 作者=gtirloni, 点赞=12, 评论=0
+2025-03-31 16:41:05,199 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Share Your Favorite Bo..., 作者=takinola, 点赞=25, 评论=0
+2025-03-31 16:41:05,199 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Building a Non-AI tool..., 作者=tinchox6, 点赞=6, 评论=0
+2025-03-31 16:41:05,199 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: How do duplicates get ..., 作者=donnachangstein, 点赞=2, 评论=0
+2025-03-31 16:41:05,199 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: How does Anthropic use..., 作者=dpflan, 点赞=12, 评论=0
+2025-03-31 16:41:05,199 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Where is all the Chine..., 作者=Havoc, 点赞=16, 评论=0
+2025-03-31 16:41:05,200 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: What is the most secur..., 作者=erkanerol, 点赞=7, 评论=0
+2025-03-31 16:41:05,200 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: How Is Cursor Differen..., 作者=srameshc, 点赞=4, 评论=0
+2025-03-31 16:41:05,200 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Which agentic framewor..., 作者=bobosha, 点赞=5, 评论=0
+2025-03-31 16:41:05,200 - scrapers.hackernews_scraper - INFO - 成功解析 15 个Ask HN故事
+2025-03-31 16:41:05,200 - scrapers.hackernews_scraper - INFO - 开始转换 15 个故事到统一格式
+2025-03-31 16:41:05,200 - scrapers.hackernews_scraper - INFO - 转换第 1/15 个故事: Ask HN: What are you working o...
+2025-03-31 16:41:08,915 - scrapers.hackernews_scraper - INFO - 找到 528 条评论
+2025-03-31 16:41:11,883 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: What are you working o... 转换完成，包含 100 条评论
+2025-03-31 16:41:11,883 - scrapers.hackernews_scraper - INFO - 转换第 2/15 个故事: Ask HN: Any decent open-source...
+2025-03-31 16:41:13,862 - scrapers.hackernews_scraper - INFO - 找到 1 条评论
+2025-03-31 16:41:13,862 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Any decent open-source... 转换完成，包含 1 条评论
+2025-03-31 16:41:13,862 - scrapers.hackernews_scraper - INFO - 转换第 3/15 个故事: Ask HN: can Wireless-CarPlay d...
+2025-03-31 16:41:15,894 - scrapers.hackernews_scraper - INFO - 找到 31 条评论
+2025-03-31 16:41:15,908 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: can Wireless-CarPlay d... 转换完成，包含 31 条评论
+2025-03-31 16:41:15,908 - scrapers.hackernews_scraper - INFO - 转换第 4/15 个故事: Ask HN: Is anyone experiencing...
+2025-03-31 16:41:17,444 - scrapers.hackernews_scraper - INFO - 找到 39 条评论
+2025-03-31 16:41:17,466 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Is anyone experiencing... 转换完成，包含 39 条评论
+2025-03-31 16:41:17,466 - scrapers.hackernews_scraper - INFO - 转换第 5/15 个故事: Ask HN: What's the ideal stack...
+2025-03-31 16:41:19,682 - scrapers.hackernews_scraper - INFO - 找到 34 条评论
+2025-03-31 16:41:19,698 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: What's the ideal stack... 转换完成，包含 34 条评论
+2025-03-31 16:41:19,698 - scrapers.hackernews_scraper - INFO - 转换第 6/15 个故事: Ask HN: Data Usage for Family ...
+2025-03-31 16:41:22,038 - scrapers.hackernews_scraper - INFO - 找到 12 条评论
+2025-03-31 16:41:22,042 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Data Usage for Family ... 转换完成，包含 12 条评论
+2025-03-31 16:41:22,042 - scrapers.hackernews_scraper - INFO - 转换第 7/15 个故事: Ask HN: How are you dealing wi...
+2025-03-31 16:41:24,412 - scrapers.hackernews_scraper - INFO - 找到 31 条评论
+2025-03-31 16:41:24,428 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: How are you dealing wi... 转换完成，包含 31 条评论
+2025-03-31 16:41:24,428 - scrapers.hackernews_scraper - INFO - 转换第 8/15 个故事: Ask HN: Share Your Favorite Bo...
+2025-03-31 16:41:26,329 - scrapers.hackernews_scraper - INFO - 找到 9 条评论
+2025-03-31 16:41:26,332 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Share Your Favorite Bo... 转换完成，包含 9 条评论
+2025-03-31 16:41:26,332 - scrapers.hackernews_scraper - INFO - 转换第 9/15 个故事: Ask HN: Building a Non-AI tool...
+2025-03-31 16:41:27,761 - scrapers.hackernews_scraper - INFO - 找到 3 条评论
+2025-03-31 16:41:27,762 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Building a Non-AI tool... 转换完成，包含 3 条评论
+2025-03-31 16:41:27,762 - scrapers.hackernews_scraper - INFO - 转换第 10/15 个故事: Ask HN: How do duplicates get ...
+2025-03-31 16:41:29,500 - scrapers.hackernews_scraper - INFO - 找到 2 条评论
+2025-03-31 16:41:29,501 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: How do duplicates get ... 转换完成，包含 2 条评论
+2025-03-31 16:41:29,501 - scrapers.hackernews_scraper - INFO - 转换第 11/15 个故事: Ask HN: How does Anthropic use...
+2025-03-31 16:41:31,318 - scrapers.hackernews_scraper - INFO - 找到 1 条评论
+2025-03-31 16:41:31,318 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: How does Anthropic use... 转换完成，包含 1 条评论
+2025-03-31 16:41:31,318 - scrapers.hackernews_scraper - INFO - 转换第 12/15 个故事: Ask HN: Where is all the Chine...
+2025-03-31 16:41:33,298 - scrapers.hackernews_scraper - INFO - 找到 12 条评论
+2025-03-31 16:41:33,301 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Where is all the Chine... 转换完成，包含 12 条评论
+2025-03-31 16:41:33,301 - scrapers.hackernews_scraper - INFO - 转换第 13/15 个故事: Ask HN: What is the most secur...
+2025-03-31 16:41:34,937 - scrapers.hackernews_scraper - INFO - 找到 15 条评论
+2025-03-31 16:41:34,942 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: What is the most secur... 转换完成，包含 15 条评论
+2025-03-31 16:41:34,942 - scrapers.hackernews_scraper - INFO - 转换第 14/15 个故事: Ask HN: How Is Cursor Differen...
+2025-03-31 16:41:36,411 - scrapers.hackernews_scraper - INFO - 找到 4 条评论
+2025-03-31 16:41:36,412 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: How Is Cursor Differen... 转换完成，包含 4 条评论
+2025-03-31 16:41:36,412 - scrapers.hackernews_scraper - INFO - 转换第 15/15 个故事: Ask HN: Which agentic framewor...
+2025-03-31 16:41:38,379 - scrapers.hackernews_scraper - INFO - 找到 2 条评论
+2025-03-31 16:41:38,379 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Which agentic framewor... 转换完成，包含 2 条评论
+2025-03-31 16:41:38,379 - scrapers.hackernews_scraper - INFO - 共转换 15 个故事为统一格式
+2025-03-31 16:41:38,379 - scrapers.hackernews_scraper - INFO - 爬取完成，共获取 15 个Ask HN故事
+2025-03-31 16:41:38,390 - utils.storage_utils - INFO - 已更新源索引: hackernews
+2025-03-31 16:41:38,390 - utils.storage_utils - INFO - 数据已保存到 data/hackernews/week_2025-03-31.json
+2025-03-31 16:41:38,390 - scrapers.base_scraper - INFO - 数据已保存到 data/hackernews/week_2025-03-31.json
+2025-03-31 16:41:38,390 - scrapers.base_scraper - INFO - 成功爬取 Hacker News 的数据
+2025-03-31 16:41:38,391 - __main__ - INFO - 爬虫 hackernews 成功运行

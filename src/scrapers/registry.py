@@ -3,10 +3,14 @@
 """
 
 from .jandan_scraper import JandanScraper
+from .reddit_scraper import RedditScraper
+from .hackernews_scraper import HackerNewsScraper
 
 # 注册所有可用的爬虫
 SCRAPERS = {
     "jandan": JandanScraper,
+    "reddit": RedditScraper, 
+    "hackernews": HackerNewsScraper,
     # 后续可以添加更多爬虫
     # "v2ex": V2EXScraper,
     # "baidu": BaiduScraper,

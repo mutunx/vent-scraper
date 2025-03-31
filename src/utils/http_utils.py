@@ -81,7 +81,8 @@ class HttpClient:
                  user_agents=None,
                  use_cache=True,
                  cache_dir='.cache',
-                 cache_ttl=3600):
+                 cache_ttl=3600,
+                 headers=None):
         """初始化HTTP客户端
         
         Args:
@@ -92,6 +93,7 @@ class HttpClient:
             use_cache (bool): 是否使用请求缓存
             cache_dir (str): 缓存目录
             cache_ttl (int): 缓存过期时间（秒）
+            headers (dict): 默认请求头
         """
         self.retry_config = retry_config or DEFAULT_RETRY_CONFIG
         self.timeout = timeout
@@ -101,6 +103,7 @@ class HttpClient:
         self.use_cache = use_cache
         self.cache_dir = cache_dir
         self.cache_ttl = cache_ttl
+        self.default_headers = headers or {}
         
         if self.use_cache and not os.path.exists(self.cache_dir):
             os.makedirs(self.cache_dir)
@@ -224,9 +227,15 @@ class HttpClient:
         # 随机延迟
         self._add_random_delay()
         
-        # 设置随机用户代理
-        headers = kwargs.get('headers', {})
-        headers['User-Agent'] = headers.get('User-Agent', self._get_random_user_agent())
+        # 合并默认请求头和自定义请求头
+        headers = {**self.default_headers}
+        if 'headers' in kwargs:
+            headers.update(kwargs['headers'])
+        
+        # 设置随机用户代理（如果没有指定）
+        if 'User-Agent' not in headers:
+            headers['User-Agent'] = self._get_random_user_agent()
+        
         kwargs['headers'] = headers
         
         # 设置超时

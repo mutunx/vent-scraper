@@ -1,0 +1,72 @@
+[{
+    "post": {
+      "id": String,
+      "source_id": String,
+      "title": String,
+      "content": {
+        "text": String,
+        "format": String,
+        "media": Array
+      },
+      "created_at": String,
+      "updated_at": String,
+      "category": {
+        "id": String,
+        "name": String
+      },
+      "tags": Array<String>,
+      "author": {
+        "id": String,
+        "source_id": String,
+        "username": String,
+        "avatar": String,
+        "role": String,
+        "signature": String
+      },
+      "stats": {
+        "views": Number,
+        "likes": Number,
+        "dislikes": Number,
+        "replies": Number,
+        "shares": Number
+      }
+    },
+    "source": {
+      "forum": String,
+      "url": String,
+      "section": String
+    },
+    "replies": [
+      {
+        "id": String,
+        "source_id": String,
+        "content": {
+          "text": String,
+          "format": String,
+          "media": Array
+        },
+        "created_at": String,
+        "updated_at": String,
+        "author": {
+          "id": String,
+          "source_id": String,
+          "username": String,
+          "avatar": String,
+          "role": String
+        },
+        "parent_id": String,
+        "quote_id": String,
+        "stats": {
+          "likes": Number,
+          "dislikes": Number
+        },
+        "quoted_users": Array<String>
+      }
+    ],
+    "metadata": {
+      "crawled_at": String,
+      "language": String,
+      "keywords": Array<String>,
+      "is_nsfw": Boolean
+    }
+  }...]
