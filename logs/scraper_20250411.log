@@ -1,0 +1,499 @@
+2025-04-11 16:01:47,315 - __main__ - INFO - 运行所有爬虫
+2025-04-11 16:01:47,315 - scrapers.jandan_scraper - INFO - JandanScraper初始化完成
+2025-04-11 16:01:47,316 - scrapers.base_scraper - INFO - 开始爬取 煎蛋网
+2025-04-11 16:01:47,316 - scrapers.jandan_scraper - INFO - 开始爬取煎蛋热评
+2025-04-11 16:01:50,154 - scrapers.jandan_scraper - INFO - 成功获取HTML内容，长度: 137125
+2025-04-11 16:01:50,154 - scrapers.jandan_scraper - INFO - 调试: 手动获取评论 5877984 的吐槽数据
+2025-04-11 16:01:50,154 - scrapers.jandan_scraper - INFO - 获取评论 5877984 的吐槽内容: https://jandan.net/api/tucao/list/5877984
+2025-04-11 16:01:52,555 - scrapers.jandan_scraper - INFO - 评论 5877984 获取到 1 条热门吐槽, 3 条普通吐槽
+2025-04-11 16:01:52,556 - scrapers.jandan_scraper - INFO - 调试: 评论 5877984 获取到 1 条热门吐槽, 3 条普通吐槽
+2025-04-11 16:01:52,556 - scrapers.jandan_scraper - INFO - 开始解析页面中的评论
+2025-04-11 16:01:52,556 - scrapers.jandan_scraper - INFO - 开始解析HTML内容, 长度: 137125
+2025-04-11 16:01:52,615 - scrapers.jandan_scraper - INFO - 找到 50 条热门评论
+2025-04-11 16:01:52,615 - scrapers.jandan_scraper - INFO - 开始处理第 1/50 条评论, ID=5887920
+2025-04-11 16:01:52,617 - scrapers.jandan_scraper - INFO - 评论 5887920 有 11 条吐槽，开始获取
+2025-04-11 16:01:52,617 - scrapers.jandan_scraper - INFO - 获取评论 5887920 的吐槽内容: https://jandan.net/api/tucao/list/5887920
+2025-04-11 16:01:55,647 - scrapers.jandan_scraper - INFO - 评论 5887920 获取到 5 条热门吐槽, 11 条普通吐槽
+2025-04-11 16:01:55,647 - scrapers.jandan_scraper - INFO - 评论 5887920 成功获取 11 条吐槽
+2025-04-11 16:01:55,647 - scrapers.jandan_scraper - INFO - 评论 5887920 解析完成: 作者=范围, 类别=@树洞, 点赞=227, 踩=4, 吐槽数=11
+2025-04-11 16:01:55,647 - scrapers.jandan_scraper - INFO - 开始处理第 2/50 条评论, ID=5887748
+2025-04-11 16:01:55,648 - scrapers.jandan_scraper - INFO - 评论 5887748 有 7 条吐槽，开始获取
+2025-04-11 16:01:55,649 - scrapers.jandan_scraper - INFO - 获取评论 5887748 的吐槽内容: https://jandan.net/api/tucao/list/5887748
+2025-04-11 16:01:57,570 - scrapers.jandan_scraper - INFO - 评论 5887748 获取到 3 条热门吐槽, 7 条普通吐槽
+2025-04-11 16:01:57,570 - scrapers.jandan_scraper - INFO - 评论 5887748 成功获取 7 条吐槽
+2025-04-11 16:01:57,571 - scrapers.jandan_scraper - INFO - 评论 5887748 解析完成: 作者=道法自然, 类别=@树洞, 点赞=221, 踩=4, 吐槽数=7
+2025-04-11 16:01:57,571 - scrapers.jandan_scraper - INFO - 开始处理第 3/50 条评论, ID=5887970
+2025-04-11 16:01:57,572 - scrapers.jandan_scraper - INFO - 评论 5887970 有 4 条吐槽，开始获取
+2025-04-11 16:01:57,572 - scrapers.jandan_scraper - INFO - 获取评论 5887970 的吐槽内容: https://jandan.net/api/tucao/list/5887970
+2025-04-11 16:02:00,202 - scrapers.jandan_scraper - INFO - 评论 5887970 获取到 3 条热门吐槽, 4 条普通吐槽
+2025-04-11 16:02:00,202 - scrapers.jandan_scraper - INFO - 评论 5887970 成功获取 4 条吐槽
+2025-04-11 16:02:00,202 - scrapers.jandan_scraper - INFO - 评论 5887970 解析完成: 作者=三生, 类别=@树洞, 点赞=169, 踩=2, 吐槽数=4
+2025-04-11 16:02:00,202 - scrapers.jandan_scraper - INFO - 开始处理第 4/50 条评论, ID=5887768
+2025-04-11 16:02:00,204 - scrapers.jandan_scraper - INFO - 评论 5887768 有 5 条吐槽，开始获取
+2025-04-11 16:02:00,204 - scrapers.jandan_scraper - INFO - 获取评论 5887768 的吐槽内容: https://jandan.net/api/tucao/list/5887768
+2025-04-11 16:02:03,734 - scrapers.jandan_scraper - INFO - 评论 5887768 获取到 2 条热门吐槽, 5 条普通吐槽
+2025-04-11 16:02:03,734 - scrapers.jandan_scraper - INFO - 评论 5887768 成功获取 5 条吐槽
+2025-04-11 16:02:03,735 - scrapers.jandan_scraper - INFO - 评论 5887768 解析完成: 作者=我没疯是不正常的, 类别=@树洞, 点赞=137, 踩=3, 吐槽数=5
+2025-04-11 16:02:03,735 - scrapers.jandan_scraper - INFO - 开始处理第 5/50 条评论, ID=5887943
+2025-04-11 16:02:03,736 - scrapers.jandan_scraper - INFO - 评论 5887943 有 11 条吐槽，开始获取
+2025-04-11 16:02:03,736 - scrapers.jandan_scraper - INFO - 获取评论 5887943 的吐槽内容: https://jandan.net/api/tucao/list/5887943
+2025-04-11 16:02:05,702 - scrapers.jandan_scraper - INFO - 评论 5887943 获取到 4 条热门吐槽, 11 条普通吐槽
+2025-04-11 16:02:05,702 - scrapers.jandan_scraper - INFO - 评论 5887943 成功获取 11 条吐槽
+2025-04-11 16:02:05,703 - scrapers.jandan_scraper - INFO - 评论 5887943 解析完成: 作者=何狗蛋, 类别=@树洞, 点赞=135, 踩=5, 吐槽数=11
+2025-04-11 16:02:05,703 - scrapers.jandan_scraper - INFO - 开始处理第 6/50 条评论, ID=5887966
+2025-04-11 16:02:05,704 - scrapers.jandan_scraper - INFO - 评论 5887966 有 3 条吐槽，开始获取
+2025-04-11 16:02:05,704 - scrapers.jandan_scraper - INFO - 获取评论 5887966 的吐槽内容: https://jandan.net/api/tucao/list/5887966
+2025-04-11 16:02:08,688 - scrapers.jandan_scraper - INFO - 评论 5887966 获取到 1 条热门吐槽, 3 条普通吐槽
+2025-04-11 16:02:08,688 - scrapers.jandan_scraper - INFO - 评论 5887966 成功获取 3 条吐槽
+2025-04-11 16:02:08,688 - scrapers.jandan_scraper - INFO - 评论 5887966 解析完成: 作者=一咖喱供, 类别=@树洞, 点赞=118, 踩=1, 吐槽数=3
+2025-04-11 16:02:08,688 - scrapers.jandan_scraper - INFO - 开始处理第 7/50 条评论, ID=5887680
+2025-04-11 16:02:08,690 - scrapers.jandan_scraper - INFO - 评论 5887680 有 9 条吐槽，开始获取
+2025-04-11 16:02:08,690 - scrapers.jandan_scraper - INFO - 获取评论 5887680 的吐槽内容: https://jandan.net/api/tucao/list/5887680
+2025-04-11 16:02:10,575 - scrapers.jandan_scraper - INFO - 评论 5887680 获取到 2 条热门吐槽, 9 条普通吐槽
+2025-04-11 16:02:10,575 - scrapers.jandan_scraper - INFO - 评论 5887680 成功获取 9 条吐槽
+2025-04-11 16:02:10,575 - scrapers.jandan_scraper - INFO - 评论 5887680 解析完成: 作者=爽起来要咬人, 类别=@树洞, 点赞=117, 踩=2, 吐槽数=9
+2025-04-11 16:02:10,575 - scrapers.jandan_scraper - INFO - 开始处理第 8/50 条评论, ID=5887871
+2025-04-11 16:02:10,577 - scrapers.jandan_scraper - INFO - 评论 5887871 有 13 条吐槽，开始获取
+2025-04-11 16:02:10,577 - scrapers.jandan_scraper - INFO - 获取评论 5887871 的吐槽内容: https://jandan.net/api/tucao/list/5887871
+2025-04-11 16:02:13,602 - scrapers.jandan_scraper - INFO - 评论 5887871 获取到 5 条热门吐槽, 13 条普通吐槽
+2025-04-11 16:02:13,603 - scrapers.jandan_scraper - INFO - 评论 5887871 成功获取 13 条吐槽
+2025-04-11 16:02:13,603 - scrapers.jandan_scraper - INFO - 评论 5887871 解析完成: 作者=编号5580, 类别=@树洞, 点赞=104, 踩=2, 吐槽数=13
+2025-04-11 16:02:13,603 - scrapers.jandan_scraper - INFO - 开始处理第 9/50 条评论, ID=5888106
+2025-04-11 16:02:13,605 - scrapers.jandan_scraper - INFO - 评论 5888106 有 5 条吐槽，开始获取
+2025-04-11 16:02:13,605 - scrapers.jandan_scraper - INFO - 获取评论 5888106 的吐槽内容: https://jandan.net/api/tucao/list/5888106
+2025-04-11 16:02:15,749 - scrapers.jandan_scraper - INFO - 评论 5888106 获取到 1 条热门吐槽, 5 条普通吐槽
+2025-04-11 16:02:15,749 - scrapers.jandan_scraper - INFO - 评论 5888106 成功获取 5 条吐槽
+2025-04-11 16:02:15,750 - scrapers.jandan_scraper - INFO - 评论 5888106 解析完成: 作者=传奇耐热王, 类别=@树洞, 点赞=90, 踩=3, 吐槽数=5
+2025-04-11 16:02:15,750 - scrapers.jandan_scraper - INFO - 开始处理第 10/50 条评论, ID=5888168
+2025-04-11 16:02:15,751 - scrapers.jandan_scraper - INFO - 评论 5888168 有 4 条吐槽，开始获取
+2025-04-11 16:02:15,751 - scrapers.jandan_scraper - INFO - 获取评论 5888168 的吐槽内容: https://jandan.net/api/tucao/list/5888168
+2025-04-11 16:02:19,531 - scrapers.jandan_scraper - INFO - 评论 5888168 获取到 3 条热门吐槽, 4 条普通吐槽
+2025-04-11 16:02:19,531 - scrapers.jandan_scraper - INFO - 评论 5888168 成功获取 4 条吐槽
+2025-04-11 16:02:19,531 - scrapers.jandan_scraper - INFO - 评论 5888168 解析完成: 作者=独断万股, 类别=@树洞, 点赞=82, 踩=7, 吐槽数=4
+2025-04-11 16:02:19,531 - scrapers.jandan_scraper - INFO - 开始处理第 11/50 条评论, ID=5888290
+2025-04-11 16:02:19,533 - scrapers.jandan_scraper - INFO - 评论 5888290 解析完成: 作者=和规范化, 类别=@树洞, 点赞=76, 踩=4, 吐槽数=0
+2025-04-11 16:02:19,533 - scrapers.jandan_scraper - INFO - 开始处理第 12/50 条评论, ID=5888085
+2025-04-11 16:02:19,534 - scrapers.jandan_scraper - INFO - 评论 5888085 有 5 条吐槽，开始获取
+2025-04-11 16:02:19,534 - scrapers.jandan_scraper - INFO - 获取评论 5888085 的吐槽内容: https://jandan.net/api/tucao/list/5888085
+2025-04-11 16:02:22,102 - scrapers.jandan_scraper - INFO - 评论 5888085 获取到 3 条热门吐槽, 5 条普通吐槽
+2025-04-11 16:02:22,102 - scrapers.jandan_scraper - INFO - 评论 5888085 成功获取 5 条吐槽
+2025-04-11 16:02:22,103 - scrapers.jandan_scraper - INFO - 评论 5888085 解析完成: 作者=XXX, 类别=@树洞, 点赞=68, 踩=2, 吐槽数=5
+2025-04-11 16:02:22,103 - scrapers.jandan_scraper - INFO - 开始处理第 13/50 条评论, ID=5887661
+2025-04-11 16:02:22,104 - scrapers.jandan_scraper - INFO - 评论 5887661 有 7 条吐槽，开始获取
+2025-04-11 16:02:22,104 - scrapers.jandan_scraper - INFO - 获取评论 5887661 的吐槽内容: https://jandan.net/api/tucao/list/5887661
+2025-04-11 16:02:23,712 - scrapers.jandan_scraper - INFO - 评论 5887661 获取到 2 条热门吐槽, 7 条普通吐槽
+2025-04-11 16:02:23,712 - scrapers.jandan_scraper - INFO - 评论 5887661 成功获取 7 条吐槽
+2025-04-11 16:02:23,712 - scrapers.jandan_scraper - INFO - 评论 5887661 解析完成: 作者=梦里花落知多少, 类别=@树洞, 点赞=60, 踩=1, 吐槽数=7
+2025-04-11 16:02:23,712 - scrapers.jandan_scraper - INFO - 开始处理第 14/50 条评论, ID=5888179
+2025-04-11 16:02:23,714 - scrapers.jandan_scraper - INFO - 评论 5888179 有 2 条吐槽，开始获取
+2025-04-11 16:02:23,714 - scrapers.jandan_scraper - INFO - 获取评论 5888179 的吐槽内容: https://jandan.net/api/tucao/list/5888179
+2025-04-11 16:02:26,443 - scrapers.jandan_scraper - INFO - 评论 5888179 获取到 1 条热门吐槽, 2 条普通吐槽
+2025-04-11 16:02:26,443 - scrapers.jandan_scraper - INFO - 评论 5888179 成功获取 2 条吐槽
+2025-04-11 16:02:26,443 - scrapers.jandan_scraper - INFO - 评论 5888179 解析完成: 作者=moz, 类别=@树洞, 点赞=60, 踩=6, 吐槽数=2
+2025-04-11 16:02:26,443 - scrapers.jandan_scraper - INFO - 开始处理第 15/50 条评论, ID=5888066
+2025-04-11 16:02:26,445 - scrapers.jandan_scraper - INFO - 评论 5888066 有 5 条吐槽，开始获取
+2025-04-11 16:02:26,445 - scrapers.jandan_scraper - INFO - 获取评论 5888066 的吐槽内容: https://jandan.net/api/tucao/list/5888066
+2025-04-11 16:02:28,700 - scrapers.jandan_scraper - INFO - 评论 5888066 获取到 2 条热门吐槽, 5 条普通吐槽
+2025-04-11 16:02:28,700 - scrapers.jandan_scraper - INFO - 评论 5888066 成功获取 5 条吐槽
+2025-04-11 16:02:28,700 - scrapers.jandan_scraper - INFO - 评论 5888066 解析完成: 作者=毒舌小猫咪, 类别=@树洞, 点赞=52, 踩=5, 吐槽数=5
+2025-04-11 16:02:28,700 - scrapers.jandan_scraper - INFO - 开始处理第 16/50 条评论, ID=5887911
+2025-04-11 16:02:28,702 - scrapers.jandan_scraper - INFO - 评论 5887911 有 9 条吐槽，开始获取
+2025-04-11 16:02:28,702 - scrapers.jandan_scraper - INFO - 获取评论 5887911 的吐槽内容: https://jandan.net/api/tucao/list/5887911
+2025-04-11 16:02:30,899 - scrapers.jandan_scraper - INFO - 评论 5887911 获取到 1 条热门吐槽, 9 条普通吐槽
+2025-04-11 16:02:30,899 - scrapers.jandan_scraper - INFO - 评论 5887911 成功获取 9 条吐槽
+2025-04-11 16:02:30,900 - scrapers.jandan_scraper - INFO - 评论 5887911 解析完成: 作者=beerus, 类别=@树洞, 点赞=52, 踩=7, 吐槽数=9
+2025-04-11 16:02:30,900 - scrapers.jandan_scraper - INFO - 开始处理第 17/50 条评论, ID=5887658
+2025-04-11 16:02:30,901 - scrapers.jandan_scraper - INFO - 评论 5887658 有 4 条吐槽，开始获取
+2025-04-11 16:02:30,901 - scrapers.jandan_scraper - INFO - 获取评论 5887658 的吐槽内容: https://jandan.net/api/tucao/list/5887658
+2025-04-11 16:02:32,974 - scrapers.jandan_scraper - INFO - 评论 5887658 获取到 2 条热门吐槽, 4 条普通吐槽
+2025-04-11 16:02:32,974 - scrapers.jandan_scraper - INFO - 评论 5887658 成功获取 4 条吐槽
+2025-04-11 16:02:32,974 - scrapers.jandan_scraper - INFO - 评论 5887658 解析完成: 作者=服务, 类别=@树洞, 点赞=51, 踩=1, 吐槽数=4
+2025-04-11 16:02:32,974 - scrapers.jandan_scraper - INFO - 开始处理第 18/50 条评论, ID=5887764
+2025-04-11 16:02:32,976 - scrapers.jandan_scraper - INFO - 评论 5887764 有 1 条吐槽，开始获取
+2025-04-11 16:02:32,976 - scrapers.jandan_scraper - INFO - 获取评论 5887764 的吐槽内容: https://jandan.net/api/tucao/list/5887764
+2025-04-11 16:02:35,842 - scrapers.jandan_scraper - INFO - 评论 5887764 获取到 1 条热门吐槽, 1 条普通吐槽
+2025-04-11 16:02:35,842 - scrapers.jandan_scraper - INFO - 评论 5887764 成功获取 1 条吐槽
+2025-04-11 16:02:35,843 - scrapers.jandan_scraper - INFO - 评论 5887764 解析完成: 作者=Kikkoman, 类别=@树洞, 点赞=43, 踩=0, 吐槽数=1
+2025-04-11 16:02:35,843 - scrapers.jandan_scraper - INFO - 开始处理第 19/50 条评论, ID=5888008
+2025-04-11 16:02:35,844 - scrapers.jandan_scraper - INFO - 评论 5888008 有 5 条吐槽，开始获取
+2025-04-11 16:02:35,844 - scrapers.jandan_scraper - INFO - 获取评论 5888008 的吐槽内容: https://jandan.net/api/tucao/list/5888008
+2025-04-11 16:02:38,195 - scrapers.jandan_scraper - INFO - 评论 5888008 获取到 3 条热门吐槽, 5 条普通吐槽
+2025-04-11 16:02:38,196 - scrapers.jandan_scraper - INFO - 评论 5888008 成功获取 5 条吐槽
+2025-04-11 16:02:38,196 - scrapers.jandan_scraper - INFO - 评论 5888008 解析完成: 作者=贯革小波雕, 类别=@树洞, 点赞=42, 踩=1, 吐槽数=5
+2025-04-11 16:02:38,196 - scrapers.jandan_scraper - INFO - 开始处理第 20/50 条评论, ID=5887663
+2025-04-11 16:02:38,197 - scrapers.jandan_scraper - INFO - 评论 5887663 有 3 条吐槽，开始获取
+2025-04-11 16:02:38,197 - scrapers.jandan_scraper - INFO - 获取评论 5887663 的吐槽内容: https://jandan.net/api/tucao/list/5887663
+2025-04-11 16:02:41,441 - scrapers.jandan_scraper - INFO - 评论 5887663 获取到 1 条热门吐槽, 3 条普通吐槽
+2025-04-11 16:02:41,441 - scrapers.jandan_scraper - INFO - 评论 5887663 成功获取 3 条吐槽
+2025-04-11 16:02:41,441 - scrapers.jandan_scraper - INFO - 评论 5887663 解析完成: 作者=俱舍莲帝, 类别=@树洞, 点赞=35, 踩=26, 吐槽数=3
+2025-04-11 16:02:41,441 - scrapers.jandan_scraper - INFO - 开始处理第 21/50 条评论, ID=5887972
+2025-04-11 16:02:41,442 - scrapers.jandan_scraper - INFO - 评论 5887972 有 9 条吐槽，开始获取
+2025-04-11 16:02:41,443 - scrapers.jandan_scraper - INFO - 获取评论 5887972 的吐槽内容: https://jandan.net/api/tucao/list/5887972
+2025-04-11 16:02:44,761 - scrapers.jandan_scraper - INFO - 评论 5887972 获取到 4 条热门吐槽, 9 条普通吐槽
+2025-04-11 16:02:44,761 - scrapers.jandan_scraper - INFO - 评论 5887972 成功获取 9 条吐槽
+2025-04-11 16:02:44,761 - scrapers.jandan_scraper - INFO - 评论 5887972 解析完成: 作者=一个人租房的老Five, 类别=@树洞, 点赞=33, 踩=2, 吐槽数=9
+2025-04-11 16:02:44,761 - scrapers.jandan_scraper - INFO - 开始处理第 22/50 条评论, ID=5888145
+2025-04-11 16:02:44,763 - scrapers.jandan_scraper - INFO - 评论 5888145 有 6 条吐槽，开始获取
+2025-04-11 16:02:44,763 - scrapers.jandan_scraper - INFO - 获取评论 5888145 的吐槽内容: https://jandan.net/api/tucao/list/5888145
+2025-04-11 16:02:46,904 - scrapers.jandan_scraper - INFO - 评论 5888145 获取到 3 条热门吐槽, 6 条普通吐槽
+2025-04-11 16:02:46,904 - scrapers.jandan_scraper - INFO - 评论 5888145 成功获取 6 条吐槽
+2025-04-11 16:02:46,905 - scrapers.jandan_scraper - INFO - 评论 5888145 解析完成: 作者=WHAT, 类别=@树洞, 点赞=32, 踩=0, 吐槽数=6
+2025-04-11 16:02:46,905 - scrapers.jandan_scraper - INFO - 开始处理第 23/50 条评论, ID=5888054
+2025-04-11 16:02:46,906 - scrapers.jandan_scraper - INFO - 评论 5888054 有 2 条吐槽，开始获取
+2025-04-11 16:02:46,906 - scrapers.jandan_scraper - INFO - 获取评论 5888054 的吐槽内容: https://jandan.net/api/tucao/list/5888054
+2025-04-11 16:02:48,539 - scrapers.jandan_scraper - INFO - 评论 5888054 获取到 1 条热门吐槽, 2 条普通吐槽
+2025-04-11 16:02:48,539 - scrapers.jandan_scraper - INFO - 评论 5888054 成功获取 2 条吐槽
+2025-04-11 16:02:48,539 - scrapers.jandan_scraper - INFO - 评论 5888054 解析完成: 作者=我是绿老头, 类别=@树洞, 点赞=31, 踩=3, 吐槽数=2
+2025-04-11 16:02:48,539 - scrapers.jandan_scraper - INFO - 开始处理第 24/50 条评论, ID=5887752
+2025-04-11 16:02:48,541 - scrapers.jandan_scraper - INFO - 评论 5887752 有 4 条吐槽，开始获取
+2025-04-11 16:02:48,541 - scrapers.jandan_scraper - INFO - 获取评论 5887752 的吐槽内容: https://jandan.net/api/tucao/list/5887752
+2025-04-11 16:02:50,131 - scrapers.jandan_scraper - INFO - 评论 5887752 获取到 2 条热门吐槽, 4 条普通吐槽
+2025-04-11 16:02:50,131 - scrapers.jandan_scraper - INFO - 评论 5887752 成功获取 4 条吐槽
+2025-04-11 16:02:50,132 - scrapers.jandan_scraper - INFO - 评论 5887752 解析完成: 作者=xXx, 类别=@树洞, 点赞=29, 踩=7, 吐槽数=4
+2025-04-11 16:02:50,132 - scrapers.jandan_scraper - INFO - 开始处理第 25/50 条评论, ID=5887784
+2025-04-11 16:02:50,133 - scrapers.jandan_scraper - INFO - 评论 5887784 有 12 条吐槽，开始获取
+2025-04-11 16:02:50,133 - scrapers.jandan_scraper - INFO - 获取评论 5887784 的吐槽内容: https://jandan.net/api/tucao/list/5887784
+2025-04-11 16:02:52,498 - scrapers.jandan_scraper - INFO - 评论 5887784 获取到 3 条热门吐槽, 12 条普通吐槽
+2025-04-11 16:02:52,499 - scrapers.jandan_scraper - INFO - 评论 5887784 成功获取 12 条吐槽
+2025-04-11 16:02:52,499 - scrapers.jandan_scraper - INFO - 评论 5887784 解析完成: 作者=绫绫, 类别=@树洞, 点赞=29, 踩=2, 吐槽数=12
+2025-04-11 16:02:52,499 - scrapers.jandan_scraper - INFO - 开始处理第 26/50 条评论, ID=5887725
+2025-04-11 16:02:52,500 - scrapers.jandan_scraper - INFO - 评论 5887725 有 9 条吐槽，开始获取
+2025-04-11 16:02:52,500 - scrapers.jandan_scraper - INFO - 获取评论 5887725 的吐槽内容: https://jandan.net/api/tucao/list/5887725
+2025-04-11 16:02:55,041 - scrapers.jandan_scraper - INFO - 评论 5887725 获取到 1 条热门吐槽, 9 条普通吐槽
+2025-04-11 16:02:55,041 - scrapers.jandan_scraper - INFO - 评论 5887725 成功获取 9 条吐槽
+2025-04-11 16:02:55,041 - scrapers.jandan_scraper - INFO - 评论 5887725 解析完成: 作者=呼呼呼, 类别=@树洞, 点赞=29, 踩=0, 吐槽数=9
+2025-04-11 16:02:55,042 - scrapers.jandan_scraper - INFO - 开始处理第 27/50 条评论, ID=5887657
+2025-04-11 16:02:55,043 - scrapers.jandan_scraper - INFO - 评论 5887657 有 3 条吐槽，开始获取
+2025-04-11 16:02:55,043 - scrapers.jandan_scraper - INFO - 获取评论 5887657 的吐槽内容: https://jandan.net/api/tucao/list/5887657
+2025-04-11 16:02:58,344 - scrapers.jandan_scraper - INFO - 评论 5887657 获取到 1 条热门吐槽, 3 条普通吐槽
+2025-04-11 16:02:58,344 - scrapers.jandan_scraper - INFO - 评论 5887657 成功获取 3 条吐槽
+2025-04-11 16:02:58,344 - scrapers.jandan_scraper - INFO - 评论 5887657 解析完成: 作者=小树洞, 类别=@树洞, 点赞=27, 踩=22, 吐槽数=3
+2025-04-11 16:02:58,344 - scrapers.jandan_scraper - INFO - 开始处理第 28/50 条评论, ID=5887786
+2025-04-11 16:02:58,346 - scrapers.jandan_scraper - INFO - 评论 5887786 有 8 条吐槽，开始获取
+2025-04-11 16:02:58,346 - scrapers.jandan_scraper - INFO - 获取评论 5887786 的吐槽内容: https://jandan.net/api/tucao/list/5887786
+2025-04-11 16:03:00,505 - scrapers.jandan_scraper - INFO - 评论 5887786 获取到 1 条热门吐槽, 8 条普通吐槽
+2025-04-11 16:03:00,505 - scrapers.jandan_scraper - INFO - 评论 5887786 成功获取 8 条吐槽
+2025-04-11 16:03:00,506 - scrapers.jandan_scraper - INFO - 评论 5887786 解析完成: 作者=Defined, 类别=@树洞, 点赞=26, 踩=0, 吐槽数=8
+2025-04-11 16:03:00,506 - scrapers.jandan_scraper - INFO - 开始处理第 29/50 条评论, ID=5887831
+2025-04-11 16:03:00,507 - scrapers.jandan_scraper - INFO - 评论 5887831 有 1 条吐槽，开始获取
+2025-04-11 16:03:00,507 - scrapers.jandan_scraper - INFO - 获取评论 5887831 的吐槽内容: https://jandan.net/api/tucao/list/5887831
+2025-04-11 16:03:02,861 - scrapers.jandan_scraper - INFO - 评论 5887831 获取到 0 条热门吐槽, 1 条普通吐槽
+2025-04-11 16:03:02,861 - scrapers.jandan_scraper - INFO - 评论 5887831 成功获取 1 条吐槽
+2025-04-11 16:03:02,861 - scrapers.jandan_scraper - INFO - 评论 5887831 解析完成: 作者=几句, 类别=@树洞, 点赞=22, 踩=1, 吐槽数=1
+2025-04-11 16:03:02,861 - scrapers.jandan_scraper - INFO - 开始处理第 30/50 条评论, ID=5887879
+2025-04-11 16:03:02,862 - scrapers.jandan_scraper - INFO - 评论 5887879 有 3 条吐槽，开始获取
+2025-04-11 16:03:02,862 - scrapers.jandan_scraper - INFO - 获取评论 5887879 的吐槽内容: https://jandan.net/api/tucao/list/5887879
+2025-04-11 16:03:05,331 - scrapers.jandan_scraper - INFO - 评论 5887879 获取到 2 条热门吐槽, 3 条普通吐槽
+2025-04-11 16:03:05,331 - scrapers.jandan_scraper - INFO - 评论 5887879 成功获取 3 条吐槽
+2025-04-11 16:03:05,331 - scrapers.jandan_scraper - INFO - 评论 5887879 解析完成: 作者=Oliver, 类别=@树洞, 点赞=22, 踩=0, 吐槽数=3
+2025-04-11 16:03:05,331 - scrapers.jandan_scraper - INFO - 开始处理第 31/50 条评论, ID=5887684
+2025-04-11 16:03:05,333 - scrapers.jandan_scraper - INFO - 评论 5887684 有 13 条吐槽，开始获取
+2025-04-11 16:03:05,334 - scrapers.jandan_scraper - INFO - 获取评论 5887684 的吐槽内容: https://jandan.net/api/tucao/list/5887684
+2025-04-11 16:03:08,085 - scrapers.jandan_scraper - INFO - 评论 5887684 获取到 2 条热门吐槽, 13 条普通吐槽
+2025-04-11 16:03:08,086 - scrapers.jandan_scraper - INFO - 评论 5887684 成功获取 13 条吐槽
+2025-04-11 16:03:08,086 - scrapers.jandan_scraper - INFO - 评论 5887684 解析完成: 作者=绫绫, 类别=@树洞, 点赞=22, 踩=6, 吐槽数=13
+2025-04-11 16:03:08,086 - scrapers.jandan_scraper - INFO - 开始处理第 32/50 条评论, ID=5887755
+2025-04-11 16:03:08,087 - scrapers.jandan_scraper - INFO - 评论 5887755 有 8 条吐槽，开始获取
+2025-04-11 16:03:08,087 - scrapers.jandan_scraper - INFO - 获取评论 5887755 的吐槽内容: https://jandan.net/api/tucao/list/5887755
+2025-04-11 16:03:11,578 - scrapers.jandan_scraper - INFO - 评论 5887755 获取到 3 条热门吐槽, 8 条普通吐槽
+2025-04-11 16:03:11,578 - scrapers.jandan_scraper - INFO - 评论 5887755 成功获取 8 条吐槽
+2025-04-11 16:03:11,579 - scrapers.jandan_scraper - INFO - 评论 5887755 解析完成: 作者=一个人租房的老Five, 类别=@树洞, 点赞=21, 踩=2, 吐槽数=8
+2025-04-11 16:03:11,579 - scrapers.jandan_scraper - INFO - 开始处理第 33/50 条评论, ID=5887802
+2025-04-11 16:03:11,580 - scrapers.jandan_scraper - INFO - 评论 5887802 有 10 条吐槽，开始获取
+2025-04-11 16:03:11,580 - scrapers.jandan_scraper - INFO - 获取评论 5887802 的吐槽内容: https://jandan.net/api/tucao/list/5887802
+2025-04-11 16:03:14,666 - scrapers.jandan_scraper - INFO - 评论 5887802 获取到 4 条热门吐槽, 10 条普通吐槽
+2025-04-11 16:03:14,666 - scrapers.jandan_scraper - INFO - 评论 5887802 成功获取 10 条吐槽
+2025-04-11 16:03:14,666 - scrapers.jandan_scraper - INFO - 评论 5887802 解析完成: 作者=大白猫, 类别=@树洞, 点赞=21, 踩=20, 吐槽数=10
+2025-04-11 16:03:14,666 - scrapers.jandan_scraper - INFO - 开始处理第 34/50 条评论, ID=5888087
+2025-04-11 16:03:14,668 - scrapers.jandan_scraper - INFO - 评论 5888087 有 5 条吐槽，开始获取
+2025-04-11 16:03:14,668 - scrapers.jandan_scraper - INFO - 获取评论 5888087 的吐槽内容: https://jandan.net/api/tucao/list/5888087
+2025-04-11 16:03:17,551 - scrapers.jandan_scraper - INFO - 评论 5888087 获取到 0 条热门吐槽, 5 条普通吐槽
+2025-04-11 16:03:17,551 - scrapers.jandan_scraper - INFO - 评论 5888087 成功获取 5 条吐槽
+2025-04-11 16:03:17,552 - scrapers.jandan_scraper - INFO - 评论 5888087 解析完成: 作者=翻蒜导嗨, 类别=@树洞, 点赞=21, 踩=0, 吐槽数=5
+2025-04-11 16:03:17,552 - scrapers.jandan_scraper - INFO - 开始处理第 35/50 条评论, ID=5887716
+2025-04-11 16:03:17,553 - scrapers.jandan_scraper - INFO - 评论 5887716 有 1 条吐槽，开始获取
+2025-04-11 16:03:17,553 - scrapers.jandan_scraper - INFO - 获取评论 5887716 的吐槽内容: https://jandan.net/api/tucao/list/5887716
+2025-04-11 16:03:19,825 - scrapers.jandan_scraper - INFO - 评论 5887716 获取到 0 条热门吐槽, 1 条普通吐槽
+2025-04-11 16:03:19,826 - scrapers.jandan_scraper - INFO - 评论 5887716 成功获取 1 条吐槽
+2025-04-11 16:03:19,826 - scrapers.jandan_scraper - INFO - 评论 5887716 解析完成: 作者=俱舍莲帝, 类别=@树洞, 点赞=21, 踩=32, 吐槽数=1
+2025-04-11 16:03:19,826 - scrapers.jandan_scraper - INFO - 开始处理第 36/50 条评论, ID=5888034
+2025-04-11 16:03:19,828 - scrapers.jandan_scraper - INFO - 评论 5888034 有 1 条吐槽，开始获取
+2025-04-11 16:03:19,828 - scrapers.jandan_scraper - INFO - 获取评论 5888034 的吐槽内容: https://jandan.net/api/tucao/list/5888034
+2025-04-11 16:03:21,687 - scrapers.jandan_scraper - INFO - 评论 5888034 获取到 0 条热门吐槽, 1 条普通吐槽
+2025-04-11 16:03:21,687 - scrapers.jandan_scraper - INFO - 评论 5888034 成功获取 1 条吐槽
+2025-04-11 16:03:21,688 - scrapers.jandan_scraper - INFO - 评论 5888034 解析完成: 作者=土豆炖牛肉最好吃, 类别=@树洞, 点赞=20, 踩=0, 吐槽数=1
+2025-04-11 16:03:21,688 - scrapers.jandan_scraper - INFO - 开始处理第 37/50 条评论, ID=5888069
+2025-04-11 16:03:21,689 - scrapers.jandan_scraper - INFO - 评论 5888069 有 3 条吐槽，开始获取
+2025-04-11 16:03:21,689 - scrapers.jandan_scraper - INFO - 获取评论 5888069 的吐槽内容: https://jandan.net/api/tucao/list/5888069
+2025-04-11 16:03:23,695 - scrapers.jandan_scraper - INFO - 评论 5888069 获取到 0 条热门吐槽, 3 条普通吐槽
+2025-04-11 16:03:23,695 - scrapers.jandan_scraper - INFO - 评论 5888069 成功获取 3 条吐槽
+2025-04-11 16:03:23,695 - scrapers.jandan_scraper - INFO - 评论 5888069 解析完成: 作者=喵叔, 类别=@树洞, 点赞=20, 踩=0, 吐槽数=3
+2025-04-11 16:03:23,695 - scrapers.jandan_scraper - INFO - 开始处理第 38/50 条评论, ID=5888285
+2025-04-11 16:03:23,697 - scrapers.jandan_scraper - INFO - 评论 5888285 有 4 条吐槽，开始获取
+2025-04-11 16:03:23,697 - scrapers.jandan_scraper - INFO - 获取评论 5888285 的吐槽内容: https://jandan.net/api/tucao/list/5888285
+2025-04-11 16:03:25,278 - scrapers.jandan_scraper - INFO - 评论 5888285 获取到 2 条热门吐槽, 4 条普通吐槽
+2025-04-11 16:03:25,278 - scrapers.jandan_scraper - INFO - 评论 5888285 成功获取 4 条吐槽
+2025-04-11 16:03:25,278 - scrapers.jandan_scraper - INFO - 评论 5888285 解析完成: 作者=说点什么, 类别=@树洞, 点赞=19, 踩=4, 吐槽数=4
+2025-04-11 16:03:25,278 - scrapers.jandan_scraper - INFO - 开始处理第 39/50 条评论, ID=5887654
+2025-04-11 16:03:25,280 - scrapers.jandan_scraper - INFO - 评论 5887654 有 6 条吐槽，开始获取
+2025-04-11 16:03:25,280 - scrapers.jandan_scraper - INFO - 获取评论 5887654 的吐槽内容: https://jandan.net/api/tucao/list/5887654
+2025-04-11 16:03:27,780 - scrapers.jandan_scraper - INFO - 评论 5887654 获取到 2 条热门吐槽, 6 条普通吐槽
+2025-04-11 16:03:27,780 - scrapers.jandan_scraper - INFO - 评论 5887654 成功获取 6 条吐槽
+2025-04-11 16:03:27,780 - scrapers.jandan_scraper - INFO - 评论 5887654 解析完成: 作者=易推倒白毛, 类别=@树洞, 点赞=18, 踩=3, 吐槽数=6
+2025-04-11 16:03:27,780 - scrapers.jandan_scraper - INFO - 开始处理第 40/50 条评论, ID=5888166
+2025-04-11 16:03:27,782 - scrapers.jandan_scraper - INFO - 评论 5888166 有 3 条吐槽，开始获取
+2025-04-11 16:03:27,782 - scrapers.jandan_scraper - INFO - 获取评论 5888166 的吐槽内容: https://jandan.net/api/tucao/list/5888166
+2025-04-11 16:03:29,435 - scrapers.jandan_scraper - INFO - 评论 5888166 获取到 0 条热门吐槽, 3 条普通吐槽
+2025-04-11 16:03:29,435 - scrapers.jandan_scraper - INFO - 评论 5888166 成功获取 3 条吐槽
+2025-04-11 16:03:29,436 - scrapers.jandan_scraper - INFO - 评论 5888166 解析完成: 作者=张无双, 类别=@树洞, 点赞=18, 踩=3, 吐槽数=3
+2025-04-11 16:03:29,436 - scrapers.jandan_scraper - INFO - 开始处理第 41/50 条评论, ID=5887757
+2025-04-11 16:03:29,437 - scrapers.jandan_scraper - INFO - 评论 5887757 有 2 条吐槽，开始获取
+2025-04-11 16:03:29,437 - scrapers.jandan_scraper - INFO - 获取评论 5887757 的吐槽内容: https://jandan.net/api/tucao/list/5887757
+2025-04-11 16:03:31,342 - scrapers.jandan_scraper - INFO - 评论 5887757 获取到 0 条热门吐槽, 2 条普通吐槽
+2025-04-11 16:03:31,343 - scrapers.jandan_scraper - INFO - 评论 5887757 成功获取 2 条吐槽
+2025-04-11 16:03:31,343 - scrapers.jandan_scraper - INFO - 评论 5887757 解析完成: 作者=+, 类别=@树洞, 点赞=17, 踩=2, 吐槽数=2
+2025-04-11 16:03:31,343 - scrapers.jandan_scraper - INFO - 开始处理第 42/50 条评论, ID=5887656
+2025-04-11 16:03:31,344 - scrapers.jandan_scraper - INFO - 评论 5887656 有 7 条吐槽，开始获取
+2025-04-11 16:03:31,344 - scrapers.jandan_scraper - INFO - 获取评论 5887656 的吐槽内容: https://jandan.net/api/tucao/list/5887656
+2025-04-11 16:03:34,096 - scrapers.jandan_scraper - INFO - 评论 5887656 获取到 2 条热门吐槽, 7 条普通吐槽
+2025-04-11 16:03:34,096 - scrapers.jandan_scraper - INFO - 评论 5887656 成功获取 7 条吐槽
+2025-04-11 16:03:34,096 - scrapers.jandan_scraper - INFO - 评论 5887656 解析完成: 作者=满街乱逛者, 类别=@树洞, 点赞=17, 踩=20, 吐槽数=7
+2025-04-11 16:03:34,096 - scrapers.jandan_scraper - INFO - 开始处理第 43/50 条评论, ID=5888090
+2025-04-11 16:03:34,098 - scrapers.jandan_scraper - INFO - 评论 5888090 有 9 条吐槽，开始获取
+2025-04-11 16:03:34,098 - scrapers.jandan_scraper - INFO - 获取评论 5888090 的吐槽内容: https://jandan.net/api/tucao/list/5888090
+2025-04-11 16:03:36,456 - scrapers.jandan_scraper - INFO - 评论 5888090 获取到 1 条热门吐槽, 9 条普通吐槽
+2025-04-11 16:03:36,456 - scrapers.jandan_scraper - INFO - 评论 5888090 成功获取 9 条吐槽
+2025-04-11 16:03:36,457 - scrapers.jandan_scraper - INFO - 评论 5888090 解析完成: 作者=北河, 类别=@树洞, 点赞=16, 踩=1, 吐槽数=9
+2025-04-11 16:03:36,457 - scrapers.jandan_scraper - INFO - 开始处理第 44/50 条评论, ID=5887754
+2025-04-11 16:03:36,458 - scrapers.jandan_scraper - INFO - 评论 5887754 有 1 条吐槽，开始获取
+2025-04-11 16:03:36,458 - scrapers.jandan_scraper - INFO - 获取评论 5887754 的吐槽内容: https://jandan.net/api/tucao/list/5887754
+2025-04-11 16:03:48,658 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='jandan.net', port=443): Read timed out. (read timeout=10)")': /api/tucao/list/5887754
+2025-04-11 16:03:49,299 - scrapers.jandan_scraper - INFO - 评论 5887754 获取到 0 条热门吐槽, 1 条普通吐槽
+2025-04-11 16:03:49,300 - scrapers.jandan_scraper - INFO - 评论 5887754 成功获取 1 条吐槽
+2025-04-11 16:03:49,300 - scrapers.jandan_scraper - INFO - 评论 5887754 解析完成: 作者=一个人租房的老Five, 类别=@树洞, 点赞=15, 踩=1, 吐槽数=1
+2025-04-11 16:03:49,300 - scrapers.jandan_scraper - INFO - 开始处理第 45/50 条评论, ID=5888132
+2025-04-11 16:03:49,301 - scrapers.jandan_scraper - INFO - 评论 5888132 有 3 条吐槽，开始获取
+2025-04-11 16:03:49,302 - scrapers.jandan_scraper - INFO - 获取评论 5888132 的吐槽内容: https://jandan.net/api/tucao/list/5888132
+2025-04-11 16:03:51,702 - scrapers.jandan_scraper - INFO - 评论 5888132 获取到 0 条热门吐槽, 3 条普通吐槽
+2025-04-11 16:03:51,702 - scrapers.jandan_scraper - INFO - 评论 5888132 成功获取 3 条吐槽
+2025-04-11 16:03:51,702 - scrapers.jandan_scraper - INFO - 评论 5888132 解析完成: 作者=大骨头, 类别=@树洞, 点赞=15, 踩=6, 吐槽数=3
+2025-04-11 16:03:51,702 - scrapers.jandan_scraper - INFO - 开始处理第 46/50 条评论, ID=5887665
+2025-04-11 16:03:51,704 - scrapers.jandan_scraper - INFO - 评论 5887665 解析完成: 作者=BigDaddy, 类别=@树洞, 点赞=15, 踩=8, 吐槽数=0
+2025-04-11 16:03:51,704 - scrapers.jandan_scraper - INFO - 开始处理第 47/50 条评论, ID=5888028
+2025-04-11 16:03:51,705 - scrapers.jandan_scraper - INFO - 评论 5888028 有 5 条吐槽，开始获取
+2025-04-11 16:03:51,705 - scrapers.jandan_scraper - INFO - 获取评论 5888028 的吐槽内容: https://jandan.net/api/tucao/list/5888028
+2025-04-11 16:03:53,146 - scrapers.jandan_scraper - INFO - 评论 5888028 获取到 2 条热门吐槽, 5 条普通吐槽
+2025-04-11 16:03:53,146 - scrapers.jandan_scraper - INFO - 评论 5888028 成功获取 5 条吐槽
+2025-04-11 16:03:53,146 - scrapers.jandan_scraper - INFO - 评论 5888028 解析完成: 作者=rock, 类别=@树洞, 点赞=14, 踩=9, 吐槽数=5
+2025-04-11 16:03:53,146 - scrapers.jandan_scraper - INFO - 开始处理第 48/50 条评论, ID=5887863
+2025-04-11 16:03:53,147 - scrapers.jandan_scraper - INFO - 评论 5887863 有 3 条吐槽，开始获取
+2025-04-11 16:03:53,147 - scrapers.jandan_scraper - INFO - 获取评论 5887863 的吐槽内容: https://jandan.net/api/tucao/list/5887863
+2025-04-11 16:03:54,908 - scrapers.jandan_scraper - INFO - 评论 5887863 获取到 1 条热门吐槽, 3 条普通吐槽
+2025-04-11 16:03:54,908 - scrapers.jandan_scraper - INFO - 评论 5887863 成功获取 3 条吐槽
+2025-04-11 16:03:54,908 - scrapers.jandan_scraper - INFO - 评论 5887863 解析完成: 作者=摸摸鱼, 类别=@树洞, 点赞=14, 踩=1, 吐槽数=3
+2025-04-11 16:03:54,908 - scrapers.jandan_scraper - INFO - 开始处理第 49/50 条评论, ID=5888009
+2025-04-11 16:03:54,910 - scrapers.jandan_scraper - INFO - 评论 5888009 有 2 条吐槽，开始获取
+2025-04-11 16:03:54,910 - scrapers.jandan_scraper - INFO - 获取评论 5888009 的吐槽内容: https://jandan.net/api/tucao/list/5888009
+2025-04-11 16:03:57,394 - scrapers.jandan_scraper - INFO - 评论 5888009 获取到 0 条热门吐槽, 2 条普通吐槽
+2025-04-11 16:03:57,394 - scrapers.jandan_scraper - INFO - 评论 5888009 成功获取 2 条吐槽
+2025-04-11 16:03:57,394 - scrapers.jandan_scraper - INFO - 评论 5888009 解析完成: 作者=摸摸鱼, 类别=@树洞, 点赞=13, 踩=12, 吐槽数=2
+2025-04-11 16:03:57,394 - scrapers.jandan_scraper - INFO - 开始处理第 50/50 条评论, ID=5887771
+2025-04-11 16:03:57,395 - scrapers.jandan_scraper - INFO - 评论 5887771 有 4 条吐槽，开始获取
+2025-04-11 16:03:57,395 - scrapers.jandan_scraper - INFO - 获取评论 5887771 的吐槽内容: https://jandan.net/api/tucao/list/5887771
+2025-04-11 16:04:09,278 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='jandan.net', port=443): Read timed out. (read timeout=10)")': /api/tucao/list/5887771
+2025-04-11 16:04:11,365 - scrapers.jandan_scraper - INFO - 评论 5887771 获取到 3 条热门吐槽, 4 条普通吐槽
+2025-04-11 16:04:11,365 - scrapers.jandan_scraper - INFO - 评论 5887771 成功获取 4 条吐槽
+2025-04-11 16:04:11,365 - scrapers.jandan_scraper - INFO - 评论 5887771 解析完成: 作者=不想上班, 类别=@树洞, 点赞=13, 踩=1, 吐槽数=4
+2025-04-11 16:04:11,365 - scrapers.jandan_scraper - INFO - 解析完成，获取到 50 条评论
+2025-04-11 16:04:11,365 - scrapers.jandan_scraper - INFO - 开始转换评论为统一格式
+2025-04-11 16:04:11,365 - scrapers.jandan_scraper - INFO - 开始转换 50 条评论到统一格式
+2025-04-11 16:04:11,365 - scrapers.jandan_scraper - INFO - 转换第 1/50 条评论: ID=5887920
+2025-04-11 16:04:11,367 - scrapers.jandan_scraper - INFO - 评论 5887920 成功转换，包含 11 条吐槽回复
+2025-04-11 16:04:11,367 - scrapers.jandan_scraper - INFO - 转换第 2/50 条评论: ID=5887748
+2025-04-11 16:04:11,368 - scrapers.jandan_scraper - INFO - 评论 5887748 成功转换，包含 7 条吐槽回复
+2025-04-11 16:04:11,368 - scrapers.jandan_scraper - INFO - 转换第 3/50 条评论: ID=5887970
+2025-04-11 16:04:11,369 - scrapers.jandan_scraper - INFO - 评论 5887970 成功转换，包含 4 条吐槽回复
+2025-04-11 16:04:11,369 - scrapers.jandan_scraper - INFO - 转换第 4/50 条评论: ID=5887768
+2025-04-11 16:04:11,370 - scrapers.jandan_scraper - INFO - 评论 5887768 成功转换，包含 5 条吐槽回复
+2025-04-11 16:04:11,370 - scrapers.jandan_scraper - INFO - 转换第 5/50 条评论: ID=5887943
+2025-04-11 16:04:11,371 - scrapers.jandan_scraper - INFO - 评论 5887943 成功转换，包含 11 条吐槽回复
+2025-04-11 16:04:11,371 - scrapers.jandan_scraper - INFO - 转换第 6/50 条评论: ID=5887966
+2025-04-11 16:04:11,372 - scrapers.jandan_scraper - INFO - 评论 5887966 成功转换，包含 3 条吐槽回复
+2025-04-11 16:04:11,372 - scrapers.jandan_scraper - INFO - 转换第 7/50 条评论: ID=5887680
+2025-04-11 16:04:11,373 - scrapers.jandan_scraper - INFO - 评论 5887680 成功转换，包含 9 条吐槽回复
+2025-04-11 16:04:11,373 - scrapers.jandan_scraper - INFO - 转换第 8/50 条评论: ID=5887871
+2025-04-11 16:04:11,375 - scrapers.jandan_scraper - INFO - 评论 5887871 成功转换，包含 13 条吐槽回复
+2025-04-11 16:04:11,375 - scrapers.jandan_scraper - INFO - 转换第 9/50 条评论: ID=5888106
+2025-04-11 16:04:11,376 - scrapers.jandan_scraper - INFO - 评论 5888106 成功转换，包含 5 条吐槽回复
+2025-04-11 16:04:11,376 - scrapers.jandan_scraper - INFO - 转换第 10/50 条评论: ID=5888168
+2025-04-11 16:04:11,376 - scrapers.jandan_scraper - INFO - 评论 5888168 成功转换，包含 4 条吐槽回复
+2025-04-11 16:04:11,376 - scrapers.jandan_scraper - INFO - 转换第 11/50 条评论: ID=5888290
+2025-04-11 16:04:11,377 - scrapers.jandan_scraper - INFO - 评论 5888290 成功转换，包含 0 条吐槽回复
+2025-04-11 16:04:11,377 - scrapers.jandan_scraper - INFO - 转换第 12/50 条评论: ID=5888085
+2025-04-11 16:04:11,377 - scrapers.jandan_scraper - INFO - 评论 5888085 成功转换，包含 5 条吐槽回复
+2025-04-11 16:04:11,377 - scrapers.jandan_scraper - INFO - 转换第 13/50 条评论: ID=5887661
+2025-04-11 16:04:11,379 - scrapers.jandan_scraper - INFO - 评论 5887661 成功转换，包含 7 条吐槽回复
+2025-04-11 16:04:11,379 - scrapers.jandan_scraper - INFO - 转换第 14/50 条评论: ID=5888179
+2025-04-11 16:04:11,379 - scrapers.jandan_scraper - INFO - 评论 5888179 成功转换，包含 2 条吐槽回复
+2025-04-11 16:04:11,379 - scrapers.jandan_scraper - INFO - 转换第 15/50 条评论: ID=5888066
+2025-04-11 16:04:11,380 - scrapers.jandan_scraper - INFO - 评论 5888066 成功转换，包含 5 条吐槽回复
+2025-04-11 16:04:11,380 - scrapers.jandan_scraper - INFO - 转换第 16/50 条评论: ID=5887911
+2025-04-11 16:04:11,382 - scrapers.jandan_scraper - INFO - 评论 5887911 成功转换，包含 9 条吐槽回复
+2025-04-11 16:04:11,382 - scrapers.jandan_scraper - INFO - 转换第 17/50 条评论: ID=5887658
+2025-04-11 16:04:11,383 - scrapers.jandan_scraper - INFO - 评论 5887658 成功转换，包含 4 条吐槽回复
+2025-04-11 16:04:11,383 - scrapers.jandan_scraper - INFO - 转换第 18/50 条评论: ID=5887764
+2025-04-11 16:04:11,383 - scrapers.jandan_scraper - INFO - 评论 5887764 成功转换，包含 1 条吐槽回复
+2025-04-11 16:04:11,383 - scrapers.jandan_scraper - INFO - 转换第 19/50 条评论: ID=5888008
+2025-04-11 16:04:11,384 - scrapers.jandan_scraper - INFO - 评论 5888008 成功转换，包含 5 条吐槽回复
+2025-04-11 16:04:11,384 - scrapers.jandan_scraper - INFO - 转换第 20/50 条评论: ID=5887663
+2025-04-11 16:04:11,385 - scrapers.jandan_scraper - INFO - 评论 5887663 成功转换，包含 3 条吐槽回复
+2025-04-11 16:04:11,385 - scrapers.jandan_scraper - INFO - 转换第 21/50 条评论: ID=5887972
+2025-04-11 16:04:11,386 - scrapers.jandan_scraper - INFO - 评论 5887972 成功转换，包含 9 条吐槽回复
+2025-04-11 16:04:11,386 - scrapers.jandan_scraper - INFO - 转换第 22/50 条评论: ID=5888145
+2025-04-11 16:04:11,387 - scrapers.jandan_scraper - INFO - 评论 5888145 成功转换，包含 6 条吐槽回复
+2025-04-11 16:04:11,387 - scrapers.jandan_scraper - INFO - 转换第 23/50 条评论: ID=5888054
+2025-04-11 16:04:11,387 - scrapers.jandan_scraper - INFO - 评论 5888054 成功转换，包含 2 条吐槽回复
+2025-04-11 16:04:11,387 - scrapers.jandan_scraper - INFO - 转换第 24/50 条评论: ID=5887752
+2025-04-11 16:04:11,388 - scrapers.jandan_scraper - INFO - 评论 5887752 成功转换，包含 4 条吐槽回复
+2025-04-11 16:04:11,388 - scrapers.jandan_scraper - INFO - 转换第 25/50 条评论: ID=5887784
+2025-04-11 16:04:11,390 - scrapers.jandan_scraper - INFO - 评论 5887784 成功转换，包含 12 条吐槽回复
+2025-04-11 16:04:11,390 - scrapers.jandan_scraper - INFO - 转换第 26/50 条评论: ID=5887725
+2025-04-11 16:04:11,391 - scrapers.jandan_scraper - INFO - 评论 5887725 成功转换，包含 9 条吐槽回复
+2025-04-11 16:04:11,391 - scrapers.jandan_scraper - INFO - 转换第 27/50 条评论: ID=5887657
+2025-04-11 16:04:11,392 - scrapers.jandan_scraper - INFO - 评论 5887657 成功转换，包含 3 条吐槽回复
+2025-04-11 16:04:11,392 - scrapers.jandan_scraper - INFO - 转换第 28/50 条评论: ID=5887786
+2025-04-11 16:04:11,393 - scrapers.jandan_scraper - INFO - 评论 5887786 成功转换，包含 8 条吐槽回复
+2025-04-11 16:04:11,393 - scrapers.jandan_scraper - INFO - 转换第 29/50 条评论: ID=5887831
+2025-04-11 16:04:11,393 - scrapers.jandan_scraper - INFO - 评论 5887831 成功转换，包含 1 条吐槽回复
+2025-04-11 16:04:11,393 - scrapers.jandan_scraper - INFO - 转换第 30/50 条评论: ID=5887879
+2025-04-11 16:04:11,394 - scrapers.jandan_scraper - INFO - 评论 5887879 成功转换，包含 3 条吐槽回复
+2025-04-11 16:04:11,394 - scrapers.jandan_scraper - INFO - 转换第 31/50 条评论: ID=5887684
+2025-04-11 16:04:11,396 - scrapers.jandan_scraper - INFO - 评论 5887684 成功转换，包含 13 条吐槽回复
+2025-04-11 16:04:11,396 - scrapers.jandan_scraper - INFO - 转换第 32/50 条评论: ID=5887755
+2025-04-11 16:04:11,398 - scrapers.jandan_scraper - INFO - 评论 5887755 成功转换，包含 8 条吐槽回复
+2025-04-11 16:04:11,398 - scrapers.jandan_scraper - INFO - 转换第 33/50 条评论: ID=5887802
+2025-04-11 16:04:11,399 - scrapers.jandan_scraper - INFO - 评论 5887802 成功转换，包含 10 条吐槽回复
+2025-04-11 16:04:11,399 - scrapers.jandan_scraper - INFO - 转换第 34/50 条评论: ID=5888087
+2025-04-11 16:04:11,400 - scrapers.jandan_scraper - INFO - 评论 5888087 成功转换，包含 5 条吐槽回复
+2025-04-11 16:04:11,400 - scrapers.jandan_scraper - INFO - 转换第 35/50 条评论: ID=5887716
+2025-04-11 16:04:11,400 - scrapers.jandan_scraper - INFO - 评论 5887716 成功转换，包含 1 条吐槽回复
+2025-04-11 16:04:11,400 - scrapers.jandan_scraper - INFO - 转换第 36/50 条评论: ID=5888034
+2025-04-11 16:04:11,400 - scrapers.jandan_scraper - INFO - 评论 5888034 成功转换，包含 1 条吐槽回复
+2025-04-11 16:04:11,401 - scrapers.jandan_scraper - INFO - 转换第 37/50 条评论: ID=5888069
+2025-04-11 16:04:11,401 - scrapers.jandan_scraper - INFO - 评论 5888069 成功转换，包含 3 条吐槽回复
+2025-04-11 16:04:11,401 - scrapers.jandan_scraper - INFO - 转换第 38/50 条评论: ID=5888285
+2025-04-11 16:04:11,402 - scrapers.jandan_scraper - INFO - 评论 5888285 成功转换，包含 4 条吐槽回复
+2025-04-11 16:04:11,402 - scrapers.jandan_scraper - INFO - 转换第 39/50 条评论: ID=5887654
+2025-04-11 16:04:11,403 - scrapers.jandan_scraper - INFO - 评论 5887654 成功转换，包含 6 条吐槽回复
+2025-04-11 16:04:11,403 - scrapers.jandan_scraper - INFO - 转换第 40/50 条评论: ID=5888166
+2025-04-11 16:04:11,403 - scrapers.jandan_scraper - INFO - 评论 5888166 成功转换，包含 3 条吐槽回复
+2025-04-11 16:04:11,403 - scrapers.jandan_scraper - INFO - 转换第 41/50 条评论: ID=5887757
+2025-04-11 16:04:11,404 - scrapers.jandan_scraper - INFO - 评论 5887757 成功转换，包含 2 条吐槽回复
+2025-04-11 16:04:11,404 - scrapers.jandan_scraper - INFO - 转换第 42/50 条评论: ID=5887656
+2025-04-11 16:04:11,405 - scrapers.jandan_scraper - INFO - 评论 5887656 成功转换，包含 7 条吐槽回复
+2025-04-11 16:04:11,405 - scrapers.jandan_scraper - INFO - 转换第 43/50 条评论: ID=5888090
+2025-04-11 16:04:11,406 - scrapers.jandan_scraper - INFO - 评论 5888090 成功转换，包含 9 条吐槽回复
+2025-04-11 16:04:11,406 - scrapers.jandan_scraper - INFO - 转换第 44/50 条评论: ID=5887754
+2025-04-11 16:04:11,406 - scrapers.jandan_scraper - INFO - 评论 5887754 成功转换，包含 1 条吐槽回复
+2025-04-11 16:04:11,407 - scrapers.jandan_scraper - INFO - 转换第 45/50 条评论: ID=5888132
+2025-04-11 16:04:11,407 - scrapers.jandan_scraper - INFO - 评论 5888132 成功转换，包含 3 条吐槽回复
+2025-04-11 16:04:11,407 - scrapers.jandan_scraper - INFO - 转换第 46/50 条评论: ID=5887665
+2025-04-11 16:04:11,407 - scrapers.jandan_scraper - INFO - 评论 5887665 成功转换，包含 0 条吐槽回复
+2025-04-11 16:04:11,407 - scrapers.jandan_scraper - INFO - 转换第 47/50 条评论: ID=5888028
+2025-04-11 16:04:11,408 - scrapers.jandan_scraper - INFO - 评论 5888028 成功转换，包含 5 条吐槽回复
+2025-04-11 16:04:11,408 - scrapers.jandan_scraper - INFO - 转换第 48/50 条评论: ID=5887863
+2025-04-11 16:04:11,409 - scrapers.jandan_scraper - INFO - 评论 5887863 成功转换，包含 3 条吐槽回复
+2025-04-11 16:04:11,409 - scrapers.jandan_scraper - INFO - 转换第 49/50 条评论: ID=5888009
+2025-04-11 16:04:11,409 - scrapers.jandan_scraper - INFO - 评论 5888009 成功转换，包含 2 条吐槽回复
+2025-04-11 16:04:11,409 - scrapers.jandan_scraper - INFO - 转换第 50/50 条评论: ID=5887771
+2025-04-11 16:04:11,410 - scrapers.jandan_scraper - INFO - 评论 5887771 成功转换，包含 4 条吐槽回复
+2025-04-11 16:04:11,410 - scrapers.jandan_scraper - INFO - 共转换 50 条评论为统一格式
+2025-04-11 16:04:11,410 - scrapers.jandan_scraper - INFO - 爬取完成，共获取 50 条热评
+2025-04-11 16:04:11,577 - utils.storage_utils - INFO - 已更新源索引: jandan
+2025-04-11 16:04:11,578 - utils.storage_utils - INFO - 数据已保存到 data/jandan/week_2025-04-07.json
+2025-04-11 16:04:11,579 - scrapers.base_scraper - INFO - 数据已保存到 data/jandan/week_2025-04-07.json
+2025-04-11 16:04:11,579 - scrapers.base_scraper - INFO - 成功爬取 煎蛋网 的数据
+2025-04-11 16:04:11,579 - scrapers.reddit_scraper - INFO - RedditScraper初始化完成
+2025-04-11 16:04:11,579 - scrapers.base_scraper - INFO - 开始爬取 Reddit
+2025-04-11 16:04:11,580 - scrapers.reddit_scraper - INFO - 开始爬取Reddit r/confessions每周热门帖子
+2025-04-11 16:04:13,721 - utils.http_utils - ERROR - 请求失败: https://www.reddit.com/r/confessions/top/.json?t=week&limit=10, 错误: 403 Client Error: Blocked for url: https://www.reddit.com/r/confessions/top/.json?t=week&limit=10
+2025-04-11 16:04:13,721 - scrapers.reddit_scraper - ERROR - 获取API数据失败: 403 Client Error: Blocked for url: https://www.reddit.com/r/confessions/top/.json?t=week&limit=10
+2025-04-11 16:04:13,721 - scrapers.base_scraper - ERROR - 爬取 Reddit 失败
+2025-04-11 16:04:13,721 - scrapers.hackernews_scraper - INFO - HackerNewsScraper初始化完成
+2025-04-11 16:04:13,722 - scrapers.base_scraper - INFO - 开始爬取 Hacker News
+2025-04-11 16:04:13,722 - scrapers.hackernews_scraper - INFO - 开始爬取Hacker News Ask HN帖子
+2025-04-11 16:04:13,722 - scrapers.hackernews_scraper - INFO - 获取Ask HN页面: https://news.ycombinator.com/ask
+2025-04-11 16:04:15,734 - scrapers.hackernews_scraper - INFO - 找到 30 个帖子行
+2025-04-11 16:04:15,735 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: What made your favorit..., 作者=TimTheTinker, 点赞=5, 评论=0
+2025-04-11 16:04:15,735 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Does any one know if F..., 作者=pritambarhate, 点赞=17, 评论=0
+2025-04-11 16:04:15,736 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Why Is Every Company B..., 作者=notaiagent, 点赞=5, 评论=0
+2025-04-11 16:04:15,736 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Windows IT knowledge f..., 作者=andyjohnson0, 点赞=3, 评论=0
+2025-04-11 16:04:15,737 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Do you still use searc..., 作者=davidkuennen, 点赞=335, 评论=0
+2025-04-11 16:04:15,737 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Who is hiring? (April ..., 作者=whoishiring, 点赞=277, 评论=0
+2025-04-11 16:04:15,738 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Who wants to be hired?..., 作者=whoishiring, 点赞=80, 评论=0
+2025-04-11 16:04:15,738 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Analyzing the behavior..., 作者=loyai, 点赞=2, 评论=0
+2025-04-11 16:04:15,739 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Why is uptalk intonati..., 作者=hbarka, 点赞=47, 评论=0
+2025-04-11 16:04:15,740 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Best developer guides ..., 作者=aristofun, 点赞=6, 评论=0
+2025-04-11 16:04:15,740 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: What Tech Have You Rem..., 作者=schappim, 点赞=11, 评论=0
+2025-04-11 16:04:15,741 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: I'm an MIT senior and ..., 作者=MITthrow123, 点赞=193, 评论=0
+2025-04-11 16:04:15,741 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Where do you reliably ..., 作者=yu3zhou4, 点赞=90, 评论=0
+2025-04-11 16:04:15,742 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Dealing with SPAM emai..., 作者=magnetic, 点赞=6, 评论=0
+2025-04-11 16:04:15,742 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: How will the tariffs a..., 作者=dlivingston, 点赞=46, 评论=0
+2025-04-11 16:04:15,742 - scrapers.hackernews_scraper - INFO - 成功解析 15 个Ask HN故事
+2025-04-11 16:04:15,742 - scrapers.hackernews_scraper - INFO - 开始转换 15 个故事到统一格式
+2025-04-11 16:04:15,743 - scrapers.hackernews_scraper - INFO - 转换第 1/15 个故事: Ask HN: What made your favorit...
+2025-04-11 16:04:18,181 - scrapers.hackernews_scraper - INFO - 找到 0 条评论
+2025-04-11 16:04:18,181 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: What made your favorit... 转换完成，包含 0 条评论
+2025-04-11 16:04:18,181 - scrapers.hackernews_scraper - INFO - 转换第 2/15 个故事: Ask HN: Does any one know if F...
+2025-04-11 16:04:19,513 - scrapers.hackernews_scraper - INFO - 找到 11 条评论
+2025-04-11 16:04:19,521 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Does any one know if F... 转换完成，包含 11 条评论
+2025-04-11 16:04:19,522 - scrapers.hackernews_scraper - INFO - 转换第 3/15 个故事: Ask HN: Why Is Every Company B...
+2025-04-11 16:04:21,444 - scrapers.hackernews_scraper - INFO - 找到 10 条评论
+2025-04-11 16:04:21,451 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Why Is Every Company B... 转换完成，包含 10 条评论
+2025-04-11 16:04:21,451 - scrapers.hackernews_scraper - INFO - 转换第 4/15 个故事: Ask HN: Windows IT knowledge f...
+2025-04-11 16:04:23,647 - scrapers.hackernews_scraper - INFO - 找到 1 条评论
+2025-04-11 16:04:23,648 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Windows IT knowledge f... 转换完成，包含 1 条评论
+2025-04-11 16:04:23,648 - scrapers.hackernews_scraper - INFO - 转换第 5/15 个故事: Ask HN: Do you still use searc...
+2025-04-11 16:04:26,593 - scrapers.hackernews_scraper - INFO - 找到 571 条评论
+2025-04-11 16:04:33,042 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Do you still use searc... 转换完成，包含 100 条评论
+2025-04-11 16:04:33,042 - scrapers.hackernews_scraper - INFO - 转换第 6/15 个故事: Ask HN: Who is hiring? (April ...
+2025-04-11 16:04:37,334 - scrapers.hackernews_scraper - INFO - 找到 464 条评论
+2025-04-11 16:04:41,905 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Who is hiring? (April ... 转换完成，包含 100 条评论
+2025-04-11 16:04:41,905 - scrapers.hackernews_scraper - INFO - 转换第 7/15 个故事: Ask HN: Who wants to be hired?...
+2025-04-11 16:04:45,162 - scrapers.hackernews_scraper - INFO - 找到 315 条评论
+2025-04-11 16:04:47,423 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Who wants to be hired?... 转换完成，包含 100 条评论
+2025-04-11 16:04:47,423 - scrapers.hackernews_scraper - INFO - 转换第 8/15 个故事: Ask HN: Analyzing the behavior...
+2025-04-11 16:04:49,501 - scrapers.hackernews_scraper - INFO - 找到 8 条评论
+2025-04-11 16:04:49,506 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Analyzing the behavior... 转换完成，包含 8 条评论
+2025-04-11 16:04:49,506 - scrapers.hackernews_scraper - INFO - 转换第 9/15 个故事: Ask HN: Why is uptalk intonati...
+2025-04-11 16:04:52,567 - scrapers.hackernews_scraper - INFO - 找到 63 条评论
+2025-04-11 16:04:52,666 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Why is uptalk intonati... 转换完成，包含 63 条评论
+2025-04-11 16:04:52,666 - scrapers.hackernews_scraper - INFO - 转换第 10/15 个故事: Ask HN: Best developer guides ...
+2025-04-11 16:04:55,321 - scrapers.hackernews_scraper - INFO - 找到 4 条评论
+2025-04-11 16:04:55,324 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Best developer guides ... 转换完成，包含 4 条评论
+2025-04-11 16:04:55,324 - scrapers.hackernews_scraper - INFO - 转换第 11/15 个故事: Ask HN: What Tech Have You Rem...
+2025-04-11 16:04:56,766 - scrapers.hackernews_scraper - INFO - 找到 23 条评论
+2025-04-11 16:04:56,786 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: What Tech Have You Rem... 转换完成，包含 23 条评论
+2025-04-11 16:04:56,786 - scrapers.hackernews_scraper - INFO - 转换第 12/15 个故事: Ask HN: I'm an MIT senior and ...
+2025-04-11 16:05:00,089 - scrapers.hackernews_scraper - INFO - 找到 212 条评论
+2025-04-11 16:05:00,984 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: I'm an MIT senior and ... 转换完成，包含 100 条评论
+2025-04-11 16:05:00,984 - scrapers.hackernews_scraper - INFO - 转换第 13/15 个故事: Ask HN: Where do you reliably ...
+2025-04-11 16:05:02,444 - scrapers.hackernews_scraper - INFO - 找到 47 条评论
+2025-04-11 16:05:02,506 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Where do you reliably ... 转换完成，包含 47 条评论
+2025-04-11 16:05:02,506 - scrapers.hackernews_scraper - INFO - 转换第 14/15 个故事: Ask HN: Dealing with SPAM emai...
+2025-04-11 16:05:05,547 - scrapers.hackernews_scraper - INFO - 找到 17 条评论
+2025-04-11 16:05:05,561 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Dealing with SPAM emai... 转换完成，包含 17 条评论
+2025-04-11 16:05:05,561 - scrapers.hackernews_scraper - INFO - 转换第 15/15 个故事: Ask HN: How will the tariffs a...
+2025-04-11 16:05:06,933 - scrapers.hackernews_scraper - INFO - 找到 19 条评论
+2025-04-11 16:05:06,949 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: How will the tariffs a... 转换完成，包含 19 条评论
+2025-04-11 16:05:06,949 - scrapers.hackernews_scraper - INFO - 共转换 15 个故事为统一格式
+2025-04-11 16:05:06,949 - scrapers.hackernews_scraper - INFO - 爬取完成，共获取 15 个Ask HN故事
+2025-04-11 16:05:07,220 - utils.storage_utils - INFO - 已更新源索引: hackernews
+2025-04-11 16:05:07,221 - utils.storage_utils - INFO - 数据已保存到 data/hackernews/week_2025-04-07.json
+2025-04-11 16:05:07,223 - scrapers.base_scraper - INFO - 数据已保存到 data/hackernews/week_2025-04-07.json
+2025-04-11 16:05:07,223 - scrapers.base_scraper - INFO - 成功爬取 Hacker News 的数据
+2025-04-11 16:05:07,224 - __main__ - INFO - 完成: 2/3 个爬虫成功运行
+2025-04-11 16:05:07,469 - __main__ - INFO - 归档所有源的旧数据
+2025-04-11 16:05:07,470 - __main__ - INFO - 源 jandan 归档 无需归档
+2025-04-11 16:05:07,470 - __main__ - INFO - 源 reddit 归档 无需归档
+2025-04-11 16:05:07,470 - __main__ - INFO - 源 hackernews 归档 无需归档
