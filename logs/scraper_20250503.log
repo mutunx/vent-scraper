@@ -1,0 +1,102 @@
+2025-05-03 16:01:36,181 - __main__ - INFO - 运行所有爬虫
+2025-05-03 16:01:36,182 - scrapers.jandan_scraper - INFO - JandanScraper初始化完成
+2025-05-03 16:01:36,182 - scrapers.base_scraper - INFO - 开始爬取 煎蛋网
+2025-05-03 16:01:36,182 - scrapers.jandan_scraper - INFO - 开始爬取煎蛋热评
+2025-05-03 16:01:40,085 - scrapers.jandan_scraper - INFO - 成功获取HTML内容，长度: 25423
+2025-05-03 16:01:40,085 - scrapers.jandan_scraper - INFO - 调试: 手动获取评论 5877984 的吐槽数据
+2025-05-03 16:01:40,085 - scrapers.jandan_scraper - INFO - 获取评论 5877984 的吐槽内容: https://jandan.net/api/tucao/list/5877984
+2025-05-03 16:01:41,907 - scrapers.jandan_scraper - INFO - 评论 5877984 获取到 1 条热门吐槽, 3 条普通吐槽
+2025-05-03 16:01:41,907 - scrapers.jandan_scraper - INFO - 调试: 评论 5877984 获取到 1 条热门吐槽, 3 条普通吐槽
+2025-05-03 16:01:41,907 - scrapers.jandan_scraper - INFO - 开始解析页面中的评论
+2025-05-03 16:01:41,907 - scrapers.jandan_scraper - INFO - 开始解析HTML内容, 长度: 25423
+2025-05-03 16:01:41,915 - scrapers.jandan_scraper - INFO - 找到 0 条热门评论
+2025-05-03 16:01:41,915 - scrapers.jandan_scraper - INFO - 解析完成，获取到 0 条评论
+2025-05-03 16:01:41,915 - scrapers.jandan_scraper - INFO - 开始转换评论为统一格式
+2025-05-03 16:01:41,915 - scrapers.jandan_scraper - INFO - 开始转换 0 条评论到统一格式
+2025-05-03 16:01:41,915 - scrapers.jandan_scraper - INFO - 共转换 0 条评论为统一格式
+2025-05-03 16:01:41,916 - scrapers.jandan_scraper - INFO - 爬取完成，共获取 0 条热评
+2025-05-03 16:01:41,916 - scrapers.base_scraper - ERROR - 爬取 煎蛋网 失败
+2025-05-03 16:01:41,917 - scrapers.reddit_scraper - INFO - RedditScraper初始化完成
+2025-05-03 16:01:41,917 - scrapers.base_scraper - INFO - 开始爬取 Reddit
+2025-05-03 16:01:41,917 - scrapers.reddit_scraper - INFO - 开始爬取Reddit r/confessions每周热门帖子
+2025-05-03 16:01:43,260 - utils.http_utils - ERROR - 请求失败: https://www.reddit.com/r/confessions/top/.json?t=week&limit=10, 错误: 403 Client Error: Blocked for url: https://www.reddit.com/r/confessions/top/.json?t=week&limit=10
+2025-05-03 16:01:43,260 - scrapers.reddit_scraper - ERROR - 获取API数据失败: 403 Client Error: Blocked for url: https://www.reddit.com/r/confessions/top/.json?t=week&limit=10
+2025-05-03 16:01:43,260 - scrapers.base_scraper - ERROR - 爬取 Reddit 失败
+2025-05-03 16:01:43,260 - scrapers.hackernews_scraper - INFO - HackerNewsScraper初始化完成
+2025-05-03 16:01:43,261 - scrapers.base_scraper - INFO - 开始爬取 Hacker News
+2025-05-03 16:01:43,261 - scrapers.hackernews_scraper - INFO - 开始爬取Hacker News Ask HN帖子
+2025-05-03 16:01:43,261 - scrapers.hackernews_scraper - INFO - 获取Ask HN页面: https://news.ycombinator.com/ask
+2025-05-03 16:01:45,022 - scrapers.hackernews_scraper - INFO - 找到 30 个帖子行
+2025-05-03 16:01:45,024 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Who wants to be hired?..., 作者=whoishiring, 点赞=120, 评论=0
+2025-05-03 16:01:45,024 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Who is hiring? (May 20..., 作者=whoishiring, 点赞=247, 评论=0
+2025-05-03 16:01:45,025 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: What are you working o..., 作者=david927, 点赞=404, 评论=0
+2025-05-03 16:01:45,026 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: AI tools to help you l..., 作者=ilmoi, 点赞=9, 评论=0
+2025-05-03 16:01:45,026 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: When do tariffs get le..., 作者=givemeethekeys, 点赞=5, 评论=0
+2025-05-03 16:01:45,027 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: 3rd Week at FAANG and ..., 作者=HowDoesSound, 点赞=42, 评论=0
+2025-05-03 16:01:45,028 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Can't launch my Androi..., 作者=Naomarik, 点赞=3, 评论=0
+2025-05-03 16:01:45,028 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Memory-safe low level ..., 作者=hyperbrainer, 点赞=53, 评论=0
+2025-05-03 16:01:45,029 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Just turned 20 any adv..., 作者=sonderotis, 点赞=5, 评论=0
+2025-05-03 16:01:45,030 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: What's a good system t..., 作者=dottjt, 点赞=5, 评论=0
+2025-05-03 16:01:45,031 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: CS degrees, do they ma..., 作者=platevoltage, 点赞=86, 评论=0
+2025-05-03 16:01:45,031 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Are there any apps to ..., 作者=cantrobot, 点赞=23, 评论=0
+2025-05-03 16:01:45,032 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Parents of young kids:..., 作者=recursiverogue, 点赞=7, 评论=0
+2025-05-03 16:01:45,033 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Sold my company, paren..., 作者=throwaway84321, 点赞=18, 评论=0
+2025-05-03 16:01:45,033 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Email Client..., 作者=gabeyaw, 点赞=4, 评论=0
+2025-05-03 16:01:45,034 - scrapers.hackernews_scraper - INFO - 成功解析 15 个Ask HN故事
+2025-05-03 16:01:45,034 - scrapers.hackernews_scraper - INFO - 开始转换 15 个故事到统一格式
+2025-05-03 16:01:45,034 - scrapers.hackernews_scraper - INFO - 转换第 1/15 个故事: Ask HN: Who wants to be hired?...
+2025-05-03 16:01:49,103 - scrapers.hackernews_scraper - INFO - 找到 295 条评论
+2025-05-03 16:01:51,551 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Who wants to be hired?... 转换完成，包含 100 条评论
+2025-05-03 16:01:51,551 - scrapers.hackernews_scraper - INFO - 转换第 2/15 个故事: Ask HN: Who is hiring? (May 20...
+2025-05-03 16:01:54,939 - scrapers.hackernews_scraper - INFO - 找到 304 条评论
+2025-05-03 16:01:57,460 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Who is hiring? (May 20... 转换完成，包含 100 条评论
+2025-05-03 16:01:57,460 - scrapers.hackernews_scraper - INFO - 转换第 3/15 个故事: Ask HN: What are you working o...
+2025-05-03 16:02:04,226 - scrapers.hackernews_scraper - INFO - 找到 1191 条评论
+2025-05-03 16:02:39,056 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: What are you working o... 转换完成，包含 100 条评论
+2025-05-03 16:02:39,057 - scrapers.hackernews_scraper - INFO - 转换第 4/15 个故事: Ask HN: AI tools to help you l...
+2025-05-03 16:02:41,474 - scrapers.hackernews_scraper - INFO - 找到 1 条评论
+2025-05-03 16:02:41,474 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: AI tools to help you l... 转换完成，包含 1 条评论
+2025-05-03 16:02:41,474 - scrapers.hackernews_scraper - INFO - 转换第 5/15 个故事: Ask HN: When do tariffs get le...
+2025-05-03 16:02:43,471 - scrapers.hackernews_scraper - INFO - 找到 2 条评论
+2025-05-03 16:02:43,473 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: When do tariffs get le... 转换完成，包含 2 条评论
+2025-05-03 16:02:43,473 - scrapers.hackernews_scraper - INFO - 转换第 6/15 个故事: Ask HN: 3rd Week at FAANG and ...
+2025-05-03 16:02:45,168 - scrapers.hackernews_scraper - INFO - 找到 39 条评论
+2025-05-03 16:02:45,215 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: 3rd Week at FAANG and ... 转换完成，包含 39 条评论
+2025-05-03 16:02:45,215 - scrapers.hackernews_scraper - INFO - 转换第 7/15 个故事: Ask HN: Can't launch my Androi...
+2025-05-03 16:02:47,733 - scrapers.hackernews_scraper - INFO - 找到 0 条评论
+2025-05-03 16:02:47,733 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Can't launch my Androi... 转换完成，包含 0 条评论
+2025-05-03 16:02:47,733 - scrapers.hackernews_scraper - INFO - 转换第 8/15 个故事: Ask HN: Memory-safe low level ...
+2025-05-03 16:02:50,767 - scrapers.hackernews_scraper - INFO - 找到 112 条评论
+2025-05-03 16:02:51,062 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Memory-safe low level ... 转换完成，包含 100 条评论
+2025-05-03 16:02:51,062 - scrapers.hackernews_scraper - INFO - 转换第 9/15 个故事: Ask HN: Just turned 20 any adv...
+2025-05-03 16:02:53,183 - scrapers.hackernews_scraper - INFO - 找到 15 条评论
+2025-05-03 16:02:53,195 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Just turned 20 any adv... 转换完成，包含 15 条评论
+2025-05-03 16:02:53,195 - scrapers.hackernews_scraper - INFO - 转换第 10/15 个故事: Ask HN: What's a good system t...
+2025-05-03 16:02:55,884 - scrapers.hackernews_scraper - INFO - 找到 22 条评论
+2025-05-03 16:02:55,903 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: What's a good system t... 转换完成，包含 22 条评论
+2025-05-03 16:02:55,903 - scrapers.hackernews_scraper - INFO - 转换第 11/15 个故事: Ask HN: CS degrees, do they ma...
+2025-05-03 16:02:58,515 - scrapers.hackernews_scraper - INFO - 找到 234 条评论
+2025-05-03 16:02:59,575 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: CS degrees, do they ma... 转换完成，包含 100 条评论
+2025-05-03 16:02:59,575 - scrapers.hackernews_scraper - INFO - 转换第 12/15 个故事: Ask HN: Are there any apps to ...
+2025-05-03 16:03:01,378 - scrapers.hackernews_scraper - INFO - 找到 15 条评论
+2025-05-03 16:03:01,389 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Are there any apps to ... 转换完成，包含 15 条评论
+2025-05-03 16:03:01,389 - scrapers.hackernews_scraper - INFO - 转换第 13/15 个故事: Ask HN: Parents of young kids:...
+2025-05-03 16:03:03,175 - scrapers.hackernews_scraper - INFO - 找到 25 条评论
+2025-05-03 16:03:03,200 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Parents of young kids:... 转换完成，包含 25 条评论
+2025-05-03 16:03:03,200 - scrapers.hackernews_scraper - INFO - 转换第 14/15 个故事: Ask HN: Sold my company, paren...
+2025-05-03 16:03:06,075 - scrapers.hackernews_scraper - INFO - 找到 16 条评论
+2025-05-03 16:03:06,088 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Sold my company, paren... 转换完成，包含 16 条评论
+2025-05-03 16:03:06,088 - scrapers.hackernews_scraper - INFO - 转换第 15/15 个故事: Ask HN: Email Client...
+2025-05-03 16:03:09,177 - scrapers.hackernews_scraper - INFO - 找到 17 条评论
+2025-05-03 16:03:09,191 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Email Client... 转换完成，包含 17 条评论
+2025-05-03 16:03:09,191 - scrapers.hackernews_scraper - INFO - 共转换 15 个故事为统一格式
+2025-05-03 16:03:09,191 - scrapers.hackernews_scraper - INFO - 爬取完成，共获取 15 个Ask HN故事
+2025-05-03 16:03:09,632 - utils.storage_utils - INFO - 已更新源索引: hackernews
+2025-05-03 16:03:09,635 - utils.storage_utils - INFO - 数据已保存到 data/hackernews/week_2025-04-28.json
+2025-05-03 16:03:09,638 - scrapers.base_scraper - INFO - 数据已保存到 data/hackernews/week_2025-04-28.json
+2025-05-03 16:03:09,638 - scrapers.base_scraper - INFO - 成功爬取 Hacker News 的数据
+2025-05-03 16:03:09,639 - __main__ - INFO - 完成: 1/3 个爬虫成功运行
+2025-05-03 16:03:09,880 - __main__ - INFO - 归档所有源的旧数据
+2025-05-03 16:03:09,881 - __main__ - INFO - 源 jandan 归档 无需归档
+2025-05-03 16:03:09,881 - __main__ - INFO - 源 reddit 归档 无需归档
+2025-05-03 16:03:09,881 - __main__ - INFO - 源 hackernews 归档 无需归档
