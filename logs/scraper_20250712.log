@@ -1,0 +1,102 @@
+2025-07-12 16:01:36,034 - __main__ - INFO - 运行所有爬虫
+2025-07-12 16:01:36,035 - scrapers.jandan_scraper - INFO - JandanScraper初始化完成
+2025-07-12 16:01:36,035 - scrapers.base_scraper - INFO - 开始爬取 煎蛋网
+2025-07-12 16:01:36,035 - scrapers.jandan_scraper - INFO - 开始爬取煎蛋热评
+2025-07-12 16:01:38,590 - scrapers.jandan_scraper - INFO - 成功获取HTML内容，长度: 26180
+2025-07-12 16:01:38,590 - scrapers.jandan_scraper - INFO - 调试: 手动获取评论 5877984 的吐槽数据
+2025-07-12 16:01:38,590 - scrapers.jandan_scraper - INFO - 获取评论 5877984 的吐槽内容: https://jandan.net/api/tucao/list/5877984
+2025-07-12 16:01:40,980 - scrapers.jandan_scraper - INFO - 评论 5877984 获取到 1 条热门吐槽, 3 条普通吐槽
+2025-07-12 16:01:40,980 - scrapers.jandan_scraper - INFO - 调试: 评论 5877984 获取到 1 条热门吐槽, 3 条普通吐槽
+2025-07-12 16:01:40,980 - scrapers.jandan_scraper - INFO - 开始解析页面中的评论
+2025-07-12 16:01:40,981 - scrapers.jandan_scraper - INFO - 开始解析HTML内容, 长度: 26180
+2025-07-12 16:01:40,989 - scrapers.jandan_scraper - INFO - 找到 0 条热门评论
+2025-07-12 16:01:40,989 - scrapers.jandan_scraper - INFO - 解析完成，获取到 0 条评论
+2025-07-12 16:01:40,989 - scrapers.jandan_scraper - INFO - 开始转换评论为统一格式
+2025-07-12 16:01:40,989 - scrapers.jandan_scraper - INFO - 开始转换 0 条评论到统一格式
+2025-07-12 16:01:40,989 - scrapers.jandan_scraper - INFO - 共转换 0 条评论为统一格式
+2025-07-12 16:01:40,989 - scrapers.jandan_scraper - INFO - 爬取完成，共获取 0 条热评
+2025-07-12 16:01:40,989 - scrapers.base_scraper - ERROR - 爬取 煎蛋网 失败
+2025-07-12 16:01:40,989 - scrapers.reddit_scraper - INFO - RedditScraper初始化完成
+2025-07-12 16:01:40,990 - scrapers.base_scraper - INFO - 开始爬取 Reddit
+2025-07-12 16:01:40,990 - scrapers.reddit_scraper - INFO - 开始爬取Reddit r/confessions每周热门帖子
+2025-07-12 16:01:43,136 - utils.http_utils - ERROR - 请求失败: https://www.reddit.com/r/confessions/top/.json?t=week&limit=10, 错误: 403 Client Error: Blocked for url: https://www.reddit.com/r/confessions/top/.json?t=week&limit=10
+2025-07-12 16:01:43,136 - scrapers.reddit_scraper - ERROR - 获取API数据失败: 403 Client Error: Blocked for url: https://www.reddit.com/r/confessions/top/.json?t=week&limit=10
+2025-07-12 16:01:43,136 - scrapers.base_scraper - ERROR - 爬取 Reddit 失败
+2025-07-12 16:01:43,136 - scrapers.hackernews_scraper - INFO - HackerNewsScraper初始化完成
+2025-07-12 16:01:43,136 - scrapers.base_scraper - INFO - 开始爬取 Hacker News
+2025-07-12 16:01:43,136 - scrapers.hackernews_scraper - INFO - 开始爬取Hacker News Ask HN帖子
+2025-07-12 16:01:43,137 - scrapers.hackernews_scraper - INFO - 获取Ask HN页面: https://news.ycombinator.com/ask
+2025-07-12 16:01:45,306 - scrapers.hackernews_scraper - INFO - 找到 27 个帖子行
+2025-07-12 16:01:45,307 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: To what extend have yo..., 作者=dosco189, 点赞=23, 评论=0
+2025-07-12 16:01:45,308 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: How did Soham Parekh g..., 作者=jshchnz, 点赞=312, 评论=0
+2025-07-12 16:01:45,308 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: What do you do with yo..., 作者=electricant, 点赞=4, 评论=0
+2025-07-12 16:01:45,309 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: How to Create Data Flo..., 作者=shivajikobardan, 点赞=4, 评论=0
+2025-07-12 16:01:45,310 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Good non tech companie..., 作者=nzmkk, 点赞=4, 评论=0
+2025-07-12 16:01:45,310 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: What techniques do you..., 作者=anonymzz, 点赞=5, 评论=0
+2025-07-12 16:01:45,311 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Bug Bounty Dilemma – T..., 作者=deep_thinker26, 点赞=21, 评论=0
+2025-07-12 16:01:45,311 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: People who work differ..., 作者=tetris11, 点赞=17, 评论=0
+2025-07-12 16:01:45,312 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Worth leaving position..., 作者=NotAnOtter, 点赞=78, 评论=0
+2025-07-12 16:01:45,312 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: How can I invest in So..., 作者=idontwantthis, 点赞=4, 评论=0
+2025-07-12 16:01:45,313 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Does your on-call rota..., 作者=asciifree, 点赞=11, 评论=0
+2025-07-12 16:01:45,314 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: What's the verdict on ..., 作者=NewUser76312, 点赞=14, 评论=0
+2025-07-12 16:01:45,314 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Any resources for find..., 作者=everyone, 点赞=156, 评论=0
+2025-07-12 16:01:45,315 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Advice for Starting a ..., 作者=pkdpic, 点赞=36, 评论=0
+2025-07-12 16:01:45,315 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: What are some cool or ..., 作者=hao_liu, 点赞=11, 评论=0
+2025-07-12 16:01:45,315 - scrapers.hackernews_scraper - INFO - 成功解析 15 个Ask HN故事
+2025-07-12 16:01:45,316 - scrapers.hackernews_scraper - INFO - 开始转换 15 个故事到统一格式
+2025-07-12 16:01:45,316 - scrapers.hackernews_scraper - INFO - 转换第 1/15 个故事: Ask HN: To what extend have yo...
+2025-07-12 16:01:46,806 - scrapers.hackernews_scraper - INFO - 找到 37 条评论
+2025-07-12 16:01:46,845 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: To what extend have yo... 转换完成，包含 37 条评论
+2025-07-12 16:01:46,845 - scrapers.hackernews_scraper - INFO - 转换第 2/15 个故事: Ask HN: How did Soham Parekh g...
+2025-07-12 16:01:49,621 - scrapers.hackernews_scraper - INFO - 找到 411 条评论
+2025-07-12 16:01:52,619 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: How did Soham Parekh g... 转换完成，包含 100 条评论
+2025-07-12 16:01:52,620 - scrapers.hackernews_scraper - INFO - 转换第 3/15 个故事: Ask HN: What do you do with yo...
+2025-07-12 16:01:54,793 - scrapers.hackernews_scraper - INFO - 找到 6 条评论
+2025-07-12 16:01:54,796 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: What do you do with yo... 转换完成，包含 6 条评论
+2025-07-12 16:01:54,796 - scrapers.hackernews_scraper - INFO - 转换第 4/15 个故事: Ask HN: How to Create Data Flo...
+2025-07-12 16:01:57,007 - scrapers.hackernews_scraper - INFO - 找到 2 条评论
+2025-07-12 16:01:57,008 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: How to Create Data Flo... 转换完成，包含 2 条评论
+2025-07-12 16:01:57,008 - scrapers.hackernews_scraper - INFO - 转换第 5/15 个故事: Ask HN: Good non tech companie...
+2025-07-12 16:01:59,555 - scrapers.hackernews_scraper - INFO - 找到 9 条评论
+2025-07-12 16:01:59,561 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Good non tech companie... 转换完成，包含 9 条评论
+2025-07-12 16:01:59,561 - scrapers.hackernews_scraper - INFO - 转换第 6/15 个故事: Ask HN: What techniques do you...
+2025-07-12 16:02:01,425 - scrapers.hackernews_scraper - INFO - 找到 3 条评论
+2025-07-12 16:02:01,428 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: What techniques do you... 转换完成，包含 3 条评论
+2025-07-12 16:02:01,428 - scrapers.hackernews_scraper - INFO - 转换第 7/15 个故事: Ask HN: Bug Bounty Dilemma – T...
+2025-07-12 16:02:04,063 - scrapers.hackernews_scraper - INFO - 找到 14 条评论
+2025-07-12 16:02:04,073 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Bug Bounty Dilemma – T... 转换完成，包含 14 条评论
+2025-07-12 16:02:04,074 - scrapers.hackernews_scraper - INFO - 转换第 8/15 个故事: Ask HN: People who work differ...
+2025-07-12 16:02:05,220 - scrapers.hackernews_scraper - INFO - 找到 26 条评论
+2025-07-12 16:02:05,243 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: People who work differ... 转换完成，包含 26 条评论
+2025-07-12 16:02:05,243 - scrapers.hackernews_scraper - INFO - 转换第 9/15 个故事: Ask HN: Worth leaving position...
+2025-07-12 16:02:07,805 - scrapers.hackernews_scraper - INFO - 找到 94 条评论
+2025-07-12 16:02:07,991 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Worth leaving position... 转换完成，包含 94 条评论
+2025-07-12 16:02:07,991 - scrapers.hackernews_scraper - INFO - 转换第 10/15 个故事: Ask HN: How can I invest in So...
+2025-07-12 16:02:09,669 - scrapers.hackernews_scraper - INFO - 找到 8 条评论
+2025-07-12 16:02:09,674 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: How can I invest in So... 转换完成，包含 8 条评论
+2025-07-12 16:02:09,674 - scrapers.hackernews_scraper - INFO - 转换第 11/15 个故事: Ask HN: Does your on-call rota...
+2025-07-12 16:02:12,303 - scrapers.hackernews_scraper - INFO - 找到 23 条评论
+2025-07-12 16:02:12,323 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Does your on-call rota... 转换完成，包含 23 条评论
+2025-07-12 16:02:12,323 - scrapers.hackernews_scraper - INFO - 转换第 12/15 个故事: Ask HN: What's the verdict on ...
+2025-07-12 16:02:14,220 - scrapers.hackernews_scraper - INFO - 找到 18 条评论
+2025-07-12 16:02:14,234 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: What's the verdict on ... 转换完成，包含 18 条评论
+2025-07-12 16:02:14,234 - scrapers.hackernews_scraper - INFO - 转换第 13/15 个故事: Ask HN: Any resources for find...
+2025-07-12 16:02:17,602 - scrapers.hackernews_scraper - INFO - 找到 132 条评论
+2025-07-12 16:02:17,937 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Any resources for find... 转换完成，包含 100 条评论
+2025-07-12 16:02:17,937 - scrapers.hackernews_scraper - INFO - 转换第 14/15 个故事: Ask HN: Advice for Starting a ...
+2025-07-12 16:02:21,053 - scrapers.hackernews_scraper - INFO - 找到 36 条评论
+2025-07-12 16:02:21,090 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Advice for Starting a ... 转换完成，包含 36 条评论
+2025-07-12 16:02:21,091 - scrapers.hackernews_scraper - INFO - 转换第 15/15 个故事: Ask HN: What are some cool or ...
+2025-07-12 16:02:22,314 - scrapers.hackernews_scraper - INFO - 找到 4 条评论
+2025-07-12 16:02:22,316 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: What are some cool or ... 转换完成，包含 4 条评论
+2025-07-12 16:02:22,316 - scrapers.hackernews_scraper - INFO - 共转换 15 个故事为统一格式
+2025-07-12 16:02:22,316 - scrapers.hackernews_scraper - INFO - 爬取完成，共获取 15 个Ask HN故事
+2025-07-12 16:02:22,948 - utils.storage_utils - INFO - 已更新源索引: hackernews
+2025-07-12 16:02:22,949 - utils.storage_utils - INFO - 数据已保存到 data/hackernews/week_2025-07-07.json
+2025-07-12 16:02:22,952 - scrapers.base_scraper - INFO - 数据已保存到 data/hackernews/week_2025-07-07.json
+2025-07-12 16:02:22,952 - scrapers.base_scraper - INFO - 成功爬取 Hacker News 的数据
+2025-07-12 16:02:22,952 - __main__ - INFO - 完成: 1/3 个爬虫成功运行
+2025-07-12 16:02:23,206 - __main__ - INFO - 归档所有源的旧数据
+2025-07-12 16:02:23,206 - __main__ - INFO - 源 jandan 归档 无需归档
+2025-07-12 16:02:23,206 - __main__ - INFO - 源 reddit 归档 无需归档
+2025-07-12 16:02:23,206 - __main__ - INFO - 源 hackernews 归档 无需归档
