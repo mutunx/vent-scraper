@@ -1,0 +1,102 @@
+2025-09-04 16:02:22,405 - __main__ - INFO - 运行所有爬虫
+2025-09-04 16:02:22,406 - scrapers.jandan_scraper - INFO - JandanScraper初始化完成
+2025-09-04 16:02:22,406 - scrapers.base_scraper - INFO - 开始爬取 煎蛋网
+2025-09-04 16:02:22,406 - scrapers.jandan_scraper - INFO - 开始爬取煎蛋热评
+2025-09-04 16:02:26,111 - scrapers.jandan_scraper - INFO - 成功获取HTML内容，长度: 24792
+2025-09-04 16:02:26,111 - scrapers.jandan_scraper - INFO - 调试: 手动获取评论 5877984 的吐槽数据
+2025-09-04 16:02:26,111 - scrapers.jandan_scraper - INFO - 获取评论 5877984 的吐槽内容: https://jandan.net/api/tucao/list/5877984
+2025-09-04 16:02:27,884 - scrapers.jandan_scraper - INFO - 评论 5877984 获取到 1 条热门吐槽, 3 条普通吐槽
+2025-09-04 16:02:27,884 - scrapers.jandan_scraper - INFO - 调试: 评论 5877984 获取到 1 条热门吐槽, 3 条普通吐槽
+2025-09-04 16:02:27,884 - scrapers.jandan_scraper - INFO - 开始解析页面中的评论
+2025-09-04 16:02:27,884 - scrapers.jandan_scraper - INFO - 开始解析HTML内容, 长度: 24792
+2025-09-04 16:02:27,892 - scrapers.jandan_scraper - INFO - 找到 0 条热门评论
+2025-09-04 16:02:27,892 - scrapers.jandan_scraper - INFO - 解析完成，获取到 0 条评论
+2025-09-04 16:02:27,893 - scrapers.jandan_scraper - INFO - 开始转换评论为统一格式
+2025-09-04 16:02:27,893 - scrapers.jandan_scraper - INFO - 开始转换 0 条评论到统一格式
+2025-09-04 16:02:27,893 - scrapers.jandan_scraper - INFO - 共转换 0 条评论为统一格式
+2025-09-04 16:02:27,893 - scrapers.jandan_scraper - INFO - 爬取完成，共获取 0 条热评
+2025-09-04 16:02:27,893 - scrapers.base_scraper - ERROR - 爬取 煎蛋网 失败
+2025-09-04 16:02:27,893 - scrapers.reddit_scraper - INFO - RedditScraper初始化完成
+2025-09-04 16:02:27,894 - scrapers.base_scraper - INFO - 开始爬取 Reddit
+2025-09-04 16:02:27,895 - scrapers.reddit_scraper - INFO - 开始爬取Reddit r/confessions每周热门帖子
+2025-09-04 16:02:29,482 - utils.http_utils - ERROR - 请求失败: https://www.reddit.com/r/confessions/top/.json?t=week&limit=10, 错误: 403 Client Error: Blocked for url: https://www.reddit.com/r/confessions/top/.json?t=week&limit=10
+2025-09-04 16:02:29,483 - scrapers.reddit_scraper - ERROR - 获取API数据失败: 403 Client Error: Blocked for url: https://www.reddit.com/r/confessions/top/.json?t=week&limit=10
+2025-09-04 16:02:29,484 - scrapers.base_scraper - ERROR - 爬取 Reddit 失败
+2025-09-04 16:02:29,484 - scrapers.hackernews_scraper - INFO - HackerNewsScraper初始化完成
+2025-09-04 16:02:29,484 - scrapers.base_scraper - INFO - 开始爬取 Hacker News
+2025-09-04 16:02:29,484 - scrapers.hackernews_scraper - INFO - 开始爬取Hacker News Ask HN帖子
+2025-09-04 16:02:29,484 - scrapers.hackernews_scraper - INFO - 获取Ask HN页面: https://news.ycombinator.com/ask
+2025-09-04 16:02:31,438 - scrapers.hackernews_scraper - INFO - 找到 30 个帖子行
+2025-09-04 16:02:31,440 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Looking for headless C..., 作者=rakshithbellare, 点赞=70, 评论=0
+2025-09-04 16:02:31,440 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: What is your average a..., 作者=srameshc, 点赞=2, 评论=0
+2025-09-04 16:02:31,441 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Who wants to be hired?..., 作者=whoishiring, 点赞=118, 评论=0
+2025-09-04 16:02:31,442 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Why does Google word p..., 作者=matesz, 点赞=26, 评论=0
+2025-09-04 16:02:31,442 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Who is hiring? (Septem..., 作者=whoishiring, 点赞=252, 评论=0
+2025-09-04 16:02:31,443 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: The government of my c..., 作者=rickybule, 点赞=1332, 评论=0
+2025-09-04 16:02:31,443 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Why is ChatGPT worse n..., 作者=nunocoracao, 点赞=6, 评论=0
+2025-09-04 16:02:31,444 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Is your company still ..., 作者=wafflemaker, 点赞=40, 评论=0
+2025-09-04 16:02:31,444 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Best foundation model ..., 作者=philomath868, 点赞=27, 评论=0
+2025-09-04 16:02:31,445 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Is Google AI Overview ..., 作者=CreepGin, 点赞=6, 评论=0
+2025-09-04 16:02:31,445 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Why are developers swi..., 作者=just_human, 点赞=7, 评论=0
+2025-09-04 16:02:31,446 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: How to Harden Your Pho..., 作者=mandeepj, 点赞=6, 评论=0
+2025-09-04 16:02:31,446 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: A memory challenge/ner..., 作者=KolmogorovComp, 点赞=4, 评论=0
+2025-09-04 16:02:31,447 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: How do you fight YouTu..., 作者=angelochecked, 点赞=144, 评论=0
+2025-09-04 16:02:31,447 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: I got fired from 100k ..., 作者=martinlistiak, 点赞=12, 评论=0
+2025-09-04 16:02:31,448 - scrapers.hackernews_scraper - INFO - 成功解析 15 个Ask HN故事
+2025-09-04 16:02:31,448 - scrapers.hackernews_scraper - INFO - 开始转换 15 个故事到统一格式
+2025-09-04 16:02:31,448 - scrapers.hackernews_scraper - INFO - 转换第 1/15 个故事: Ask HN: Looking for headless C...
+2025-09-04 16:02:33,622 - scrapers.hackernews_scraper - INFO - 找到 72 条评论
+2025-09-04 16:02:33,736 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Looking for headless C... 转换完成，包含 72 条评论
+2025-09-04 16:02:33,736 - scrapers.hackernews_scraper - INFO - 转换第 2/15 个故事: Ask HN: What is your average a...
+2025-09-04 16:02:35,047 - scrapers.hackernews_scraper - INFO - 找到 6 条评论
+2025-09-04 16:02:35,051 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: What is your average a... 转换完成，包含 6 条评论
+2025-09-04 16:02:35,051 - scrapers.hackernews_scraper - INFO - 转换第 3/15 个故事: Ask HN: Who wants to be hired?...
+2025-09-04 16:02:37,583 - scrapers.hackernews_scraper - INFO - 找到 304 条评论
+2025-09-04 16:02:39,467 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Who wants to be hired?... 转换完成，包含 100 条评论
+2025-09-04 16:02:39,467 - scrapers.hackernews_scraper - INFO - 转换第 4/15 个故事: Ask HN: Why does Google word p...
+2025-09-04 16:02:41,652 - scrapers.hackernews_scraper - INFO - 找到 18 条评论
+2025-09-04 16:02:41,665 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Why does Google word p... 转换完成，包含 18 条评论
+2025-09-04 16:02:41,665 - scrapers.hackernews_scraper - INFO - 转换第 5/15 个故事: Ask HN: Who is hiring? (Septem...
+2025-09-04 16:02:45,954 - scrapers.hackernews_scraper - INFO - 找到 337 条评论
+2025-09-04 16:02:48,178 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Who is hiring? (Septem... 转换完成，包含 100 条评论
+2025-09-04 16:02:48,178 - scrapers.hackernews_scraper - INFO - 转换第 6/15 个故事: Ask HN: The government of my c...
+2025-09-04 16:02:52,747 - scrapers.hackernews_scraper - INFO - 找到 730 条评论
+2025-09-04 16:03:01,119 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: The government of my c... 转换完成，包含 100 条评论
+2025-09-04 16:03:01,119 - scrapers.hackernews_scraper - INFO - 转换第 7/15 个故事: Ask HN: Why is ChatGPT worse n...
+2025-09-04 16:03:03,617 - scrapers.hackernews_scraper - INFO - 找到 7 条评论
+2025-09-04 16:03:03,622 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Why is ChatGPT worse n... 转换完成，包含 7 条评论
+2025-09-04 16:03:03,622 - scrapers.hackernews_scraper - INFO - 转换第 8/15 个故事: Ask HN: Is your company still ...
+2025-09-04 16:03:04,943 - scrapers.hackernews_scraper - INFO - 找到 52 条评论
+2025-09-04 16:03:05,007 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Is your company still ... 转换完成，包含 52 条评论
+2025-09-04 16:03:05,007 - scrapers.hackernews_scraper - INFO - 转换第 9/15 个故事: Ask HN: Best foundation model ...
+2025-09-04 16:03:06,141 - scrapers.hackernews_scraper - INFO - 找到 18 条评论
+2025-09-04 16:03:06,155 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Best foundation model ... 转换完成，包含 18 条评论
+2025-09-04 16:03:06,155 - scrapers.hackernews_scraper - INFO - 转换第 10/15 个故事: Ask HN: Is Google AI Overview ...
+2025-09-04 16:03:08,039 - scrapers.hackernews_scraper - INFO - 找到 4 条评论
+2025-09-04 16:03:08,042 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Is Google AI Overview ... 转换完成，包含 4 条评论
+2025-09-04 16:03:08,042 - scrapers.hackernews_scraper - INFO - 转换第 11/15 个故事: Ask HN: Why are developers swi...
+2025-09-04 16:03:09,359 - scrapers.hackernews_scraper - INFO - 找到 10 条评论
+2025-09-04 16:03:09,366 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Why are developers swi... 转换完成，包含 10 条评论
+2025-09-04 16:03:09,366 - scrapers.hackernews_scraper - INFO - 转换第 12/15 个故事: Ask HN: How to Harden Your Pho...
+2025-09-04 16:03:11,502 - scrapers.hackernews_scraper - INFO - 找到 12 条评论
+2025-09-04 16:03:11,510 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: How to Harden Your Pho... 转换完成，包含 12 条评论
+2025-09-04 16:03:11,510 - scrapers.hackernews_scraper - INFO - 转换第 13/15 个故事: Ask HN: A memory challenge/ner...
+2025-09-04 16:03:13,903 - scrapers.hackernews_scraper - INFO - 找到 3 条评论
+2025-09-04 16:03:13,905 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: A memory challenge/ner... 转换完成，包含 3 条评论
+2025-09-04 16:03:13,905 - scrapers.hackernews_scraper - INFO - 转换第 14/15 个故事: Ask HN: How do you fight YouTu...
+2025-09-04 16:03:17,433 - scrapers.hackernews_scraper - INFO - 找到 145 条评论
+2025-09-04 16:03:17,805 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: How do you fight YouTu... 转换完成，包含 100 条评论
+2025-09-04 16:03:17,805 - scrapers.hackernews_scraper - INFO - 转换第 15/15 个故事: Ask HN: I got fired from 100k ...
+2025-09-04 16:03:19,487 - scrapers.hackernews_scraper - INFO - 找到 32 条评论
+2025-09-04 16:03:19,516 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: I got fired from 100k ... 转换完成，包含 32 条评论
+2025-09-04 16:03:19,516 - scrapers.hackernews_scraper - INFO - 共转换 15 个故事为统一格式
+2025-09-04 16:03:19,516 - scrapers.hackernews_scraper - INFO - 爬取完成，共获取 15 个Ask HN故事
+2025-09-04 16:03:20,089 - utils.storage_utils - INFO - 已更新源索引: hackernews
+2025-09-04 16:03:20,091 - utils.storage_utils - INFO - 数据已保存到 data/hackernews/week_2025-09-01.json
+2025-09-04 16:03:20,092 - scrapers.base_scraper - INFO - 数据已保存到 data/hackernews/week_2025-09-01.json
+2025-09-04 16:03:20,092 - scrapers.base_scraper - INFO - 成功爬取 Hacker News 的数据
+2025-09-04 16:03:20,093 - __main__ - INFO - 完成: 1/3 个爬虫成功运行
+2025-09-04 16:03:20,312 - __main__ - INFO - 归档所有源的旧数据
+2025-09-04 16:03:20,313 - __main__ - INFO - 源 jandan 归档 无需归档
+2025-09-04 16:03:20,313 - __main__ - INFO - 源 reddit 归档 无需归档
+2025-09-04 16:03:20,313 - __main__ - INFO - 源 hackernews 归档 无需归档
