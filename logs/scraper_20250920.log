@@ -1,0 +1,98 @@
+2025-09-20 16:02:06,758 - __main__ - INFO - 运行所有爬虫
+2025-09-20 16:02:06,759 - scrapers.jandan_scraper - INFO - JandanScraper初始化完成
+2025-09-20 16:02:06,759 - scrapers.base_scraper - INFO - 开始爬取 煎蛋网
+2025-09-20 16:02:06,759 - scrapers.jandan_scraper - INFO - 开始爬取煎蛋热评
+2025-09-20 16:02:11,326 - scrapers.jandan_scraper - INFO - 成功获取HTML内容，长度: 24792
+2025-09-20 16:02:11,326 - scrapers.jandan_scraper - INFO - 调试: 手动获取评论 5877984 的吐槽数据
+2025-09-20 16:02:11,326 - scrapers.jandan_scraper - INFO - 获取评论 5877984 的吐槽内容: https://jandan.net/api/tucao/list/5877984
+2025-09-20 16:02:14,322 - scrapers.jandan_scraper - INFO - 评论 5877984 获取到 1 条热门吐槽, 3 条普通吐槽
+2025-09-20 16:02:14,322 - scrapers.jandan_scraper - INFO - 调试: 评论 5877984 获取到 1 条热门吐槽, 3 条普通吐槽
+2025-09-20 16:02:14,322 - scrapers.jandan_scraper - INFO - 开始解析页面中的评论
+2025-09-20 16:02:14,322 - scrapers.jandan_scraper - INFO - 开始解析HTML内容, 长度: 24792
+2025-09-20 16:02:14,330 - scrapers.jandan_scraper - INFO - 找到 0 条热门评论
+2025-09-20 16:02:14,331 - scrapers.jandan_scraper - INFO - 解析完成，获取到 0 条评论
+2025-09-20 16:02:14,331 - scrapers.jandan_scraper - INFO - 开始转换评论为统一格式
+2025-09-20 16:02:14,331 - scrapers.jandan_scraper - INFO - 开始转换 0 条评论到统一格式
+2025-09-20 16:02:14,331 - scrapers.jandan_scraper - INFO - 共转换 0 条评论为统一格式
+2025-09-20 16:02:14,331 - scrapers.jandan_scraper - INFO - 爬取完成，共获取 0 条热评
+2025-09-20 16:02:14,331 - scrapers.base_scraper - ERROR - 爬取 煎蛋网 失败
+2025-09-20 16:02:14,331 - scrapers.reddit_scraper - INFO - RedditScraper初始化完成
+2025-09-20 16:02:14,333 - scrapers.base_scraper - INFO - 开始爬取 Reddit
+2025-09-20 16:02:14,333 - scrapers.reddit_scraper - INFO - 开始爬取Reddit r/confessions每周热门帖子
+2025-09-20 16:02:15,954 - utils.http_utils - ERROR - 请求失败: https://www.reddit.com/r/confessions/top/.json?t=week&limit=10, 错误: 403 Client Error: Blocked for url: https://www.reddit.com/r/confessions/top/.json?t=week&limit=10
+2025-09-20 16:02:15,955 - scrapers.reddit_scraper - ERROR - 获取API数据失败: 403 Client Error: Blocked for url: https://www.reddit.com/r/confessions/top/.json?t=week&limit=10
+2025-09-20 16:02:15,956 - scrapers.base_scraper - ERROR - 爬取 Reddit 失败
+2025-09-20 16:02:15,956 - scrapers.hackernews_scraper - INFO - HackerNewsScraper初始化完成
+2025-09-20 16:02:15,956 - scrapers.base_scraper - INFO - 开始爬取 Hacker News
+2025-09-20 16:02:15,956 - scrapers.hackernews_scraper - INFO - 开始爬取Hacker News Ask HN帖子
+2025-09-20 16:02:15,956 - scrapers.hackernews_scraper - INFO - 获取Ask HN页面: https://news.ycombinator.com/ask
+2025-09-20 16:02:19,151 - scrapers.hackernews_scraper - INFO - 找到 23 个帖子行
+2025-09-20 16:02:19,152 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: How to use Codex for m..., 作者=ionwake, 点赞=2, 评论=0
+2025-09-20 16:02:19,153 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Has anyone else been u..., 作者=ncarlson, 点赞=402, 评论=0
+2025-09-20 16:02:19,153 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: What's a good 3D Print..., 作者=lucideng, 点赞=232, 评论=0
+2025-09-20 16:02:19,154 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: What is the actual sta..., 作者=SilverbeardUnix, 点赞=58, 评论=0
+2025-09-20 16:02:19,155 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Books that helped you ..., 作者=tetris11, 点赞=7, 评论=0
+2025-09-20 16:02:19,155 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Should I upgrade to ta..., 作者=boars_tiffs, 点赞=3, 评论=0
+2025-09-20 16:02:19,156 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Does anyone else notic..., 作者=NooneAtAll3, 点赞=112, 评论=0
+2025-09-20 16:02:19,157 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: What are examples of a..., 作者=RossBencina, 点赞=17, 评论=0
+2025-09-20 16:02:19,158 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: How were graphics card..., 作者=ferguess_k, 点赞=4, 评论=0
+2025-09-20 16:02:19,158 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Feel stuck and overwhe..., 作者=alex_x, 点赞=9, 评论=0
+2025-09-20 16:02:19,159 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: I don't think I want t..., 作者=wanttoquittech, 点赞=15, 评论=0
+2025-09-20 16:02:19,159 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: How would you lint nat..., 作者=ceyhunkazel, 点赞=4, 评论=0
+2025-09-20 16:02:19,160 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Generalists, when do y..., 作者=AbstractH24, 点赞=32, 评论=0
+2025-09-20 16:02:19,161 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: LLM Prompt Engineering..., 作者=Scotrix, 点赞=5, 评论=0
+2025-09-20 16:02:19,161 - scrapers.hackernews_scraper - INFO - 成功解析 14 个Ask HN故事
+2025-09-20 16:02:19,161 - scrapers.hackernews_scraper - INFO - 开始转换 14 个故事到统一格式
+2025-09-20 16:02:19,161 - scrapers.hackernews_scraper - INFO - 转换第 1/14 个故事: Ask HN: How to use Codex for m...
+2025-09-20 16:02:21,614 - scrapers.hackernews_scraper - INFO - 找到 1 条评论
+2025-09-20 16:02:21,615 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: How to use Codex for m... 转换完成，包含 1 条评论
+2025-09-20 16:02:21,615 - scrapers.hackernews_scraper - INFO - 转换第 2/14 个故事: Ask HN: Has anyone else been u...
+2025-09-20 16:02:24,982 - scrapers.hackernews_scraper - INFO - 找到 472 条评论
+2025-09-20 16:02:29,765 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Has anyone else been u... 转换完成，包含 100 条评论
+2025-09-20 16:02:29,765 - scrapers.hackernews_scraper - INFO - 转换第 3/14 个故事: Ask HN: What's a good 3D Print...
+2025-09-20 16:02:32,629 - scrapers.hackernews_scraper - INFO - 找到 285 条评论
+2025-09-20 16:02:34,436 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: What's a good 3D Print... 转换完成，包含 100 条评论
+2025-09-20 16:02:34,437 - scrapers.hackernews_scraper - INFO - 转换第 4/14 个故事: Ask HN: What is the actual sta...
+2025-09-20 16:02:37,217 - scrapers.hackernews_scraper - INFO - 找到 37 条评论
+2025-09-20 16:02:37,257 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: What is the actual sta... 转换完成，包含 37 条评论
+2025-09-20 16:02:37,257 - scrapers.hackernews_scraper - INFO - 转换第 5/14 个故事: Ask HN: Books that helped you ...
+2025-09-20 16:02:39,510 - scrapers.hackernews_scraper - INFO - 找到 7 条评论
+2025-09-20 16:02:39,514 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Books that helped you ... 转换完成，包含 7 条评论
+2025-09-20 16:02:39,515 - scrapers.hackernews_scraper - INFO - 转换第 6/14 个故事: Ask HN: Should I upgrade to ta...
+2025-09-20 16:02:42,622 - scrapers.hackernews_scraper - INFO - 找到 3 条评论
+2025-09-20 16:02:42,624 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Should I upgrade to ta... 转换完成，包含 3 条评论
+2025-09-20 16:02:42,624 - scrapers.hackernews_scraper - INFO - 转换第 7/14 个故事: Ask HN: Does anyone else notic...
+2025-09-20 16:02:44,192 - scrapers.hackernews_scraper - INFO - 找到 121 条评论
+2025-09-20 16:02:44,477 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Does anyone else notic... 转换完成，包含 100 条评论
+2025-09-20 16:02:44,477 - scrapers.hackernews_scraper - INFO - 转换第 8/14 个故事: Ask HN: What are examples of a...
+2025-09-20 16:02:46,291 - scrapers.hackernews_scraper - INFO - 找到 6 条评论
+2025-09-20 16:02:46,295 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: What are examples of a... 转换完成，包含 6 条评论
+2025-09-20 16:02:46,295 - scrapers.hackernews_scraper - INFO - 转换第 9/14 个故事: Ask HN: How were graphics card...
+2025-09-20 16:02:49,204 - scrapers.hackernews_scraper - INFO - 找到 11 条评论
+2025-09-20 16:02:49,211 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: How were graphics card... 转换完成，包含 11 条评论
+2025-09-20 16:02:49,211 - scrapers.hackernews_scraper - INFO - 转换第 10/14 个故事: Ask HN: Feel stuck and overwhe...
+2025-09-20 16:02:52,520 - scrapers.hackernews_scraper - INFO - 找到 12 条评论
+2025-09-20 16:02:52,529 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Feel stuck and overwhe... 转换完成，包含 12 条评论
+2025-09-20 16:02:52,529 - scrapers.hackernews_scraper - INFO - 转换第 11/14 个故事: Ask HN: I don't think I want t...
+2025-09-20 16:02:53,711 - scrapers.hackernews_scraper - INFO - 找到 11 条评论
+2025-09-20 16:02:53,721 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: I don't think I want t... 转换完成，包含 11 条评论
+2025-09-20 16:02:53,721 - scrapers.hackernews_scraper - INFO - 转换第 12/14 个故事: Ask HN: How would you lint nat...
+2025-09-20 16:02:56,194 - scrapers.hackernews_scraper - INFO - 找到 2 条评论
+2025-09-20 16:02:56,195 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: How would you lint nat... 转换完成，包含 2 条评论
+2025-09-20 16:02:56,195 - scrapers.hackernews_scraper - INFO - 转换第 13/14 个故事: Ask HN: Generalists, when do y...
+2025-09-20 16:02:58,921 - scrapers.hackernews_scraper - INFO - 找到 86 条评论
+2025-09-20 16:02:59,083 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Generalists, when do y... 转换完成，包含 86 条评论
+2025-09-20 16:02:59,083 - scrapers.hackernews_scraper - INFO - 转换第 14/14 个故事: Ask HN: LLM Prompt Engineering...
+2025-09-20 16:03:01,934 - scrapers.hackernews_scraper - INFO - 找到 4 条评论
+2025-09-20 16:03:01,937 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: LLM Prompt Engineering... 转换完成，包含 4 条评论
+2025-09-20 16:03:01,937 - scrapers.hackernews_scraper - INFO - 共转换 14 个故事为统一格式
+2025-09-20 16:03:01,937 - scrapers.hackernews_scraper - INFO - 爬取完成，共获取 14 个Ask HN故事
+2025-09-20 16:03:02,453 - utils.storage_utils - INFO - 已更新源索引: hackernews
+2025-09-20 16:03:02,456 - utils.storage_utils - INFO - 数据已保存到 data/hackernews/week_2025-09-15.json
+2025-09-20 16:03:02,458 - scrapers.base_scraper - INFO - 数据已保存到 data/hackernews/week_2025-09-15.json
+2025-09-20 16:03:02,458 - scrapers.base_scraper - INFO - 成功爬取 Hacker News 的数据
+2025-09-20 16:03:02,459 - __main__ - INFO - 完成: 1/3 个爬虫成功运行
+2025-09-20 16:03:02,685 - __main__ - INFO - 归档所有源的旧数据
+2025-09-20 16:03:02,686 - __main__ - INFO - 源 jandan 归档 无需归档
+2025-09-20 16:03:02,686 - __main__ - INFO - 源 reddit 归档 无需归档
+2025-09-20 16:03:02,686 - __main__ - INFO - 源 hackernews 归档 无需归档
