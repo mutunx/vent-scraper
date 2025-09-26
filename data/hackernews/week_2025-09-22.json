@@ -38045,5 +38045,4384 @@
       ],
       "is_nsfw": false
     }
+  },
+  {
+    "post": {
+      "id": "6b816676f3edb3cbd2713da8f720757b",
+      "source_id": "45386691",
+      "title": "Ask HN: Are LLMs an Acceptable Lisp?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">I say this in jest, but it's a fun little idea.<p>It's easy to make the case that an LLM 'program' is homoiconic, as the code and the data are all just plain text.<p>LLMs also offer rich metaprogramming (prompts that write prompts).<p>They even arguably offer features like CL's condition system.<p>Of course, they don't operate on symbolic expressions, so it's a stretch to actually call them a lisp (or any other programming language), but they seem to share a lot of the same properties.</p></p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2025-09-26T16:02:35.021266",
+      "updated_at": "2025-09-26T16:02:35.021266",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "8de74fd98261c3d77cf1efb826ee6dca",
+        "source_id": "tdfirth",
+        "username": "tdfirth",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 4,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=45386691",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2025-09-26T16:02:37.182512",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "ecac6f10630d2ebbd4a44f9604575a21",
+      "source_id": "45386596",
+      "title": "Ask HN: Are there any non-SPA front end developers left?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">Back in \"my days\" we would get an in-house web designer to create assets, styles, and a demo HTML document demonstrating all necessary components to implement the planned content.<p>We would then break down the demo HTML into templates, which we would render in the backend, and work from there.<p>There would be JS for interactive components - first Knockout (viewmodels, terrible idea), then React (which would let you separate the state from presentation).<p>Backend templates + React frontend components was IMO the optimum, as long as your POST handling logic was sensible and data-oriented rather than some OO nightmare (https://wtforms.readthedocs.io/en/3.2.x/fields/#the-field-base-class).<p>You didn't have to implement the API separately from the frontend to later discover that your frontend developer worked really... fast. And implemented their own understanding of the problem domain. These days, if you're super unlucky, you discover that your frontend has been blessed with some non-standard component wrappers, which wrap components, which wrap components, which wrap... And somehow types in TS docs still have no links, so good luck finding what they mean by TData, especially if TData comes from a different codebase.<p>tl;dr: The tldr is in the title. I want sanity back :D</p></p></p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2025-09-26T16:02:35.021943",
+      "updated_at": "2025-09-26T16:02:35.021943",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "3062687906b3fb0e5c3d9a68f8558065",
+        "source_id": "karolinepauls",
+        "username": "karolinepauls",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 6,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=45386596",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "40ed8317aa368dffae44086748fbdb62",
+        "source_id": "45386741",
+        "content": {
+          "text": "I'm starting to get into building .onion sites and my general experience is people on Tor all have js disabled. So I'm looking for a js-free framework that works with node.js (ironically) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:38.343577",
+        "updated_at": "2025-09-26T16:02:38.343577",
+        "author": {
+          "id": "a926f05fc4f38d691b61831242ae4311",
+          "source_id": "cranberryturkey",
+          "username": "cranberryturkey",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2025-09-26T16:02:38.343722",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "993ef134324ac057145eac081280ded4",
+      "source_id": "45386593",
+      "title": "Ask HN: Stuck on Cloudflare's Human Verification",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">I can't access some services because of Cloudflare's human verification. It just keeps trying to verify me.<p>Well, I'm a human. Now what? Never open internet again because I'm not welcome?</p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2025-09-26T16:02:35.022502",
+      "updated_at": "2025-09-26T16:02:35.022502",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "39321b228a733c88fb0b87b81c4548b5",
+        "source_id": "emerongi",
+        "username": "emerongi",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 3,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=45386593",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "d62cd6d0c020c9f8df004ad971c2a783",
+        "source_id": "45386630",
+        "content": {
+          "text": "Likely an IP reputation thing.  If you are using a VPN or routing your network through a cloud IP or VPS, try not doing that.  Also check your devices if they've been compromised.  Maybe you're part of a botnet. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:40.730567",
+        "updated_at": "2025-09-26T16:02:40.730567",
+        "author": {
+          "id": "ae2a9a661894c1164c28114764faf599",
+          "source_id": "marginalia_nu",
+          "username": "marginalia_nu",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f0d5af51163ba89afb7b4dd7bd36f6cd",
+        "source_id": "45386666",
+        "content": {
+          "text": "Probably by this point my fingerprint is tainted. I appreciate the suggestions, thank you. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:40.731121",
+        "updated_at": "2025-09-26T16:02:40.731121",
+        "author": {
+          "id": "39321b228a733c88fb0b87b81c4548b5",
+          "source_id": "emerongi",
+          "username": "emerongi",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0bc664bce75f38d222756ee4d868683f",
+        "source_id": "45386718",
+        "content": {
+          "text": "I used to run a search engine out of my living room, so I know the experience. IP reputation is usually reset after a while assuming whatever got you flagged stops, so it's not necessarily permanent. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:40.731654",
+        "updated_at": "2025-09-26T16:02:40.731654",
+        "author": {
+          "id": "ae2a9a661894c1164c28114764faf599",
+          "source_id": "marginalia_nu",
+          "username": "marginalia_nu",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f7c8350aaf24d558231de1e55417ead2",
+        "source_id": "45386642",
+        "content": {
+          "text": "Assuming of the CF members on HN look into it they would likely need the URL and the time you got the error and any error codes present before the verification loop. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:40.732207",
+        "updated_at": "2025-09-26T16:02:40.732207",
+        "author": {
+          "id": "50365049936728cea84bd3a29c56297c",
+          "source_id": "Bender",
+          "username": "Bender",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2025-09-26T16:02:40.732404",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "bcd8d8b3743844ddb2249acd9b72bebe",
+      "source_id": "45385723",
+      "title": "Ask HN: Accessibility tools for knowledge workers with low vision",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">I spend my days in classic knowledge worker apps: Office 365, Teams, Google docs, Confluence, Salesforce, PowerBI etc. I'm also slowly losing my eyesight, and I want to use the time to adapt. The end state will be a sort of fuzzy frosted glass vision rather than total blindness.<p>What tools should I be looking at to make the transition to a low vision future?<p>To date, I've been experimenting with voice control and keyboard shortcuts on Mac and Windows. Mac seems quite bad, or perhaps more kindly, it can't do much with modern browser web apps like PowerBI or Salesforce because they have no keybindings. I wonder if Windows would be any better? Overall the transition from standalone desktop apps to web apps seems to have been bad for accessibility, but maybe I'm missing something.<p>I use Android for my cellphone and with magnification and simple mode I can get by, but maybe iPhone is better. I do notice that many Android apps do not work well when blown up with large type, etc.<p>What coaching, tools, and tips would you give someone who is trying to get ready for the low vision future?</p></p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2025-09-26T16:02:35.023059",
+      "updated_at": "2025-09-26T16:02:35.023059",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "8b318f81249bd9a499dc35b33d94612c",
+        "source_id": "kjellsbells",
+        "username": "kjellsbells",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 2,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=45385723",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "2682dd13fa32aee6a241691c4c7a3b36",
+        "source_id": "45386823",
+        "content": {
+          "text": "> What tools should I be looking at to make the transition to a low vision future? Text readers.  The popular is Jaws, which I believe and could be wrong, is Windows only and super expensive.  The ones considered best are Apple VoiceOver (already installed with MacOS) and NVDA (free, open source). The screen readers will take practice navigating around the OS and navigating around web sites.  There are still many websites that are garbage at accessibility.  Through practice you will also find yourself cranking up the speed from regular of around 150 words per minute to 600-700 words per minute. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:41.833281",
+        "updated_at": "2025-09-26T16:02:41.833281",
+        "author": {
+          "id": "0ae492937dcc65e2e9ad4e3b8663757f",
+          "source_id": "austin-cheney",
+          "username": "austin-cheney",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "908a6c2111e77cc1eae3a68b2b8b0725",
+        "source_id": "45387151",
+        "content": {
+          "text": "bad eyes here due to corneal erosions and cataracts, but I don't use voiceover, just large fonts+ inverted contrast - on linux anyway, Gnome. \nI think windows have way better (quality) text2speech at least than linux reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:41.833837",
+        "updated_at": "2025-09-26T16:02:41.833837",
+        "author": {
+          "id": "38613090315867416fa62d393afb1b24",
+          "source_id": "CTOSian",
+          "username": "CTOSian",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2025-09-26T16:02:41.833990",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "aa64b14e4b34b799fdea2b82953d7d7e",
+      "source_id": "45382372",
+      "title": "Ask HN: Anyone else's short-term memory gone to hell?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">I don’t know if this is a post COVID thing, the result of years of paying attention to something for a fraction of a second and then scrolling on, or something else, but damn is it noticeable now.</div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2025-09-26T16:02:35.023746",
+      "updated_at": "2025-09-26T16:02:35.023746",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "54c00b942df181034a0bfc574b13a3ce",
+        "source_id": "pupppet",
+        "username": "pupppet",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 16,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=45382372",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "956107cce0e0839b85276fcecf9d4e7a",
+        "source_id": "45382402",
+        "content": {
+          "text": "Go camping for 1 night and go screen-free. Or just go somewhere without TV/smartphone/internet/smartwatch (you have to really disconnect) You'll magically find that your brain works just like you remember within a very short period of hours. Sadly, even knowing the detriment to my life, it is still extremely hard for me to stay away from smartphones and note others seem to have the same issue. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:44.069974",
+        "updated_at": "2025-09-26T16:02:44.069974",
+        "author": {
+          "id": "19ac23c3379c9b33c101ea3d61dffed7",
+          "source_id": "leakycap",
+          "username": "leakycap",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "bd5af8b384413b3ac740f35c218f5ac9",
+        "source_id": "45386364",
+        "content": {
+          "text": "Not particularly. On the one hand, I'm retired, my days are in many ways much alike, and \"what did you do last Thursday\" could leave me mumbling. On the other hand, I've met about a dozen people in the last three weeks, and remember their names. (I did write them down.) [Edit: changed the first \"on the other hand\" to \"on the one hand\".] reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:44.070568",
+        "updated_at": "2025-09-26T16:02:44.070568",
+        "author": {
+          "id": "3e273de5f6a6f04923633e401c41f4ae",
+          "source_id": "cafard",
+          "username": "cafard",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d41731285bf21df74629c3787eb62578",
+        "source_id": "45383815",
+        "content": {
+          "text": "Mine did. I can't remember telling the same stories multiple times. I even laughed at my own joke after it was told to me, not realising it came from me. If someone asks me what I've done yesterday or last weekend, I blank out completely. I struggle with journaling because I don't easily recall how my day was. I can't tell if it's new. My mother is the same, and I don't remember ever having an especially good memory. Maybe it just get pointed out more? At least my behaviour is consistent. What I'm told I've said always checks out. I am also obsessively organised, so things rarely slip through. I would be a terrible liar though. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:44.071132",
+        "updated_at": "2025-09-26T16:02:44.071132",
+        "author": {
+          "id": "95c7810f5068a7f6553a5ebcb0e954d1",
+          "source_id": "nicbou",
+          "username": "nicbou",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9cd5dde7a2ddce1bc6b58edce05e8a35",
+        "source_id": "45382703",
+        "content": {
+          "text": "Mine has been patchy for a long time, but I've come up with various rationalisations: - Work item priorities changing on a semi-regular basis means that \"working memory\" can need to be purged at the drop of a hat. Happens enough times and you just start, not even necessarily consciously, not committing some things to memory. - Having kids has meant there's always something on \"soon\", so we try to keep all the things in a shared calendar. It's not possible for me to remember all the things, so there's no point remembering some of them, so I don't. The calendar is the singular source of truth. - My wife tends to recount the entirety of her day to me, randomly interspersed with a couple of pieces of information that are critically important to our lives between now and three months from now, as soon as either she or I walk in the door after work. I don't try to remember any of it any more because I just don't, and never did, have the throughput capability. - I've heard that making memories (and this might be specific to long term behavioural type memories, so maybe moot) has a relationship with adrenaline production - you'll remember something scary or exciting or dangerous or unusual. I'm a fairly chill mf, so my assumption is that I don't pump adrenaline quite a easily as most people, and therefore memories are less likely to be \"sticky\" (tenuous reasoning). - Life and work are increasingly busy and complex. Short term memory may be getting saturated by things we don't realise are using short term memory, and so it feels as if short term memory is worse, when actually it's just at capacity all the time. - There is always something else on our minds. If you're thinking about X (which is important to you) and someone else starts explaining Y, then there's a fair period of mental wind down of X in order to start processing Y, during which time they've already kinda got to the middle. An analogy I've used when discussing \"remembering details\" with work colleagues: We're having 50 tennis balls thrown at us all at once. We shouldn't be expected to be catching more than one - and it may not even be the one you were trying to catch. In the case of my wife's rapid fire information delivery, I'm being thrown 50 tennis balls, two of which are invisibly marked as critical, and I'm expected to catch both. (This is only slightly hyperbolic) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:44.071803",
+        "updated_at": "2025-09-26T16:02:44.071803",
+        "author": {
+          "id": "fd001280368eab0c2b610f9b4165e291",
+          "source_id": "BLKNSLVR",
+          "username": "BLKNSLVR",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3fbaf0f668aacad4c7432927ff9b9f1d",
+        "source_id": "45386184",
+        "content": {
+          "text": "Try going for a long run(10km) or a walk(2h). NO HEADPHONES! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:44.072387",
+        "updated_at": "2025-09-26T16:02:44.072387",
+        "author": {
+          "id": "ce6bcc721520f69a21d5f574f3d25cec",
+          "source_id": "gethly",
+          "username": "gethly",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "740ed61235507db2e803c19e13856a8d",
+        "source_id": "45383436",
+        "content": {
+          "text": "https://news.ycombinator.com/item?id=45379292 : https://medicalxpress.com/news/2025-09-sharp-memory-problems... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:44.073034",
+        "updated_at": "2025-09-26T16:02:44.073034",
+        "author": {
+          "id": "978d23a2d9cf5e1fcf051e25f0c1fd97",
+          "source_id": "throwaway81523",
+          "username": "throwaway81523",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "16cee4d77372983177d828ad7ed97c11",
+        "source_id": "45382537",
+        "content": {
+          "text": "long covid really hits your memory faculties hard. the only things that help: deep-breathing exercises, dexketoprofen, creatine, staying warm, and years of time for recovery. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:44.073691",
+        "updated_at": "2025-09-26T16:02:44.073691",
+        "author": {
+          "id": "ad5b96a112acf3969f7f09cb2904b7ce",
+          "source_id": "boltzmann-brain",
+          "username": "boltzmann-brain",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "85a2967b60a3b50d7251bc3ad04adda5",
+        "source_id": "45386577",
+        "content": {
+          "text": "Do you drink alcohol? I took a pause and found my memory was better, I suspect people get into a cycle of drinking, being kind of \"bleh\" then starting the cycle over and don't realize it because they're not like... hung over. They're not alcoholics. But even small amounts of alcohol fuck with you REM sleep. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:44.074368",
+        "updated_at": "2025-09-26T16:02:44.074368",
+        "author": {
+          "id": "9d1237be63cf6e7f58907f4a4af572c2",
+          "source_id": "firefax",
+          "username": "firefax",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "31f0fb2ba60f5c82c0b92e739bc3d9fa",
+        "source_id": "45382689",
+        "content": {
+          "text": "I have always had some mindless habits, like putting something down without thinking, and then having to wonder where it is. I just never filed it. Now that I am old as in 76, I find that things which should be instantly retrievable from memory have a 5 second or so lag, and then they are right there. If I try to search the web for a hint (this sometimes triggers recall) but with the current sad state of search, I have to scroll past pages of “this shit’s for sale” if not downright ads instead of something I seek. That just angers me. I find that I can remember things faster than the internet of sh—t. It seems to have (you guessed it, ADHD). When I discussed some of my macro behaviors with my daughter, the psych grad, such as putting off a move decision (because things are stable here though with serous distance and loneliness limitations, compared to the risk and effort of moving) and some other things (that I forgot … ) she said that was textbook ADHD, though on a large scale rather than moment to moment. I’ll look this up. A boring day today, then a double rainbow appeared along with a fine sunset (those fluffy clouds make one) each on the other side of the ridge here, so hiking was involved, and then took a shot at some Rachmaninoff, so I can’t say anything’s duller upstairs. Most of us are infovores, and can’t possibly thoroughly read every article we see. I file stuff as PDF’s for computer search (you know what I think of web search) and later reading. I am OK with this because I don’t actually NEED the vast majority of it, and some gets filed on the desktop because it’s the outlier that really wants me to act on it. It’s the gold in the pan. Scanning through the mass of photos or reading those hundreds (thousands) of musical notes on the page (iPad) really does take attention, and I take breaks. I think I underestimate what goes into touching up photos, and reading so many notes that always seem too small. The only really annoying thing is the delay in recall, but I am expecting instant recall, and that’s a lot for anyone. The summer heat kept me inside too much, and that means staring at screens. Cooler now, so I’ll get outside more, and don’t forget sunshine for vitamin D. And short term? I am slowly downsizing, and there’s just too much lying around to keep track of. The few moments when things are better organized, things are easier to find. And guess who’s posting on Hacker News instead of straightening up the kitchen? Well, that must be attended to. Good luck. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:44.075304",
+        "updated_at": "2025-09-26T16:02:44.075304",
+        "author": {
+          "id": "833d9183e1fefad47087684dd98b93e6",
+          "source_id": "k310",
+          "username": "k310",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "865ca7d379081e1587704cc00e73d023",
+        "source_id": "45387941",
+        "content": {
+          "text": "> Most of us are infovores I haven't heard the term \"infovore\" before. It definitely describes me. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:44.076121",
+        "updated_at": "2025-09-26T16:02:44.076121",
+        "author": {
+          "id": "88eaf1d8ab8d27f2c205ec52fac9d5ea",
+          "source_id": "RiverCrochet",
+          "username": "RiverCrochet",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d6aebd9c73d29f6a5b2d977c9ccfd60a",
+        "source_id": "45382956",
+        "content": {
+          "text": "I will give a basic advice: go see a professional! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:44.076893",
+        "updated_at": "2025-09-26T16:02:44.076893",
+        "author": {
+          "id": "91d8f0dda4962cc516d6eae694146fa8",
+          "source_id": "lordkrandel",
+          "username": "lordkrandel",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7edace4feafb90715e850be937f6c55f",
+        "source_id": "45385280",
+        "content": {
+          "text": "my mom is in a nursing home, ended up there after dad fell and got hurt, and her memory was shot, and the rest of her cognitive performance was going to hell, and through whatever combination of factors, PLUS getting the shingles vacine she has made a very very significant recovery, my dad got the same vacine, and has also had a significant cognitive improvement, which has translated into physical improvements, as he was stuck in bed after breaking his 11'th vertebra after the fall, prognosis was \"death\" and he is able to struggle to his feet and is getting stronger, he's 97, mom's 82, were both hospitalised during covid.\n point bieng: if they can bounce back, whats your fucking excuse? get.off.your.fucking.ass. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:44.077715",
+        "updated_at": "2025-09-26T16:02:44.077715",
+        "author": {
+          "id": "778bc6764c1738a2743abbc4b43cda4a",
+          "source_id": "metalman",
+          "username": "metalman",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2025-09-26T16:02:44.078159",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "0b5ead8b47ebc5353f51b4ec062f632f",
+      "source_id": "45383508",
+      "title": "Ask HN: How do you analyze conversations with AI agents in your products?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">Question to devs who have chat interfaces in their products. Do you monitor what your users are asking for? How do you do it?<p>Yesterday, a friend asked me this question; he would like to know things like \"What users ask that my agent can't accomplish?\", \"What users hate?\", \"What do they love?\".<p>A quick insight from another small startup - they are quite small so they just copied all the conversations from their database and asked ChatGPT to analyze them. They found out that the most requested missing feature was being able to use URLs in messages.<p>I also found an attempt to build a product around this but it looks like the project has been abandoned: https://web.archive.org/web/20240307011502/https://simplyanalyze.ai/<p>If there's indeed no solution to this and there are more people other than my friends who want this, I'd be happy to build an open-source tool for this.</p></p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2025-09-26T16:02:35.024285",
+      "updated_at": "2025-09-26T16:02:35.024285",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "f133ec7e24a40a0678ea80e5292687e6",
+        "source_id": "BohdanPetryshyn",
+        "username": "BohdanPetryshyn",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 3,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=45383508",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "50c309eb4edf17167df3ef3f329a16a5",
+        "source_id": "45384237",
+        "content": {
+          "text": "I'm sure there are better approaches, but we do this at our company so if it's useful this is what we do: We have config defining the various topics of interests – so in your case that would be \"things users hate\" and \"things users love\" - then as a nightly job we'll get an LLM to extract values based on those topics for any active conversations that occurred during the previous 24 hours. When that job finishes we have a list of conversation ids paired with the raw extracted values from conversations. We then run a second job to analyse what we've extracted, asking the LLM to dedupe, categorise, tag and count the extracted values. So \"I hate your website\" and \"your site sucks\" might become \"doesn't like website\" with a category of \"website feedback\". Then when clients view their analysis we show them those deduped values for each topic of interest, ordered by the the total count. We also maintain links back to the conversation so they can dig deeper to understand the context. They can filter on tags and categories. Like I say, probably better approaches, but this works well enough for us. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:46.138367",
+        "updated_at": "2025-09-26T16:02:46.138367",
+        "author": {
+          "id": "9d5f521e1ee045d5ce6d2cfe9b2c9018",
+          "source_id": "kypro",
+          "username": "kypro",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2a14abd9714738709eafa638566adc57",
+        "source_id": "45386303",
+        "content": {
+          "text": "Thanks for sharing! I think your approach makes sense. Who are your clients if you don't mind? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:46.138885",
+        "updated_at": "2025-09-26T16:02:46.138885",
+        "author": {
+          "id": "f133ec7e24a40a0678ea80e5292687e6",
+          "source_id": "BohdanPetryshyn",
+          "username": "BohdanPetryshyn",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2025-09-26T16:02:46.139023",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "77323db80b0d1b04010b82e17be01f60",
+      "source_id": "45324324",
+      "title": "Ask HN: Local hostnames without root/admin",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">I'm looking for a simple way to locally define hostnames for internal use, think /etc/hosts, but without the requirement of superuser privileges. Running a resolver locally, or within the LAN, falls outside the realm of \"simple\". The subject is primarily the web browser, so a clever browser extension for Firefox and/or Chromium would work great. If resolution could also happen outside the browser that would be a nice bonus.<p>Thankful for any suggestions.</p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2025-09-26T16:02:35.025171",
+      "updated_at": "2025-09-26T16:02:35.025171",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "bb8efe8f60be65f69233df2f80270578",
+        "source_id": "terry_hc",
+        "username": "terry_hc",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 13,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=45324324",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "9fe2d34a269a41b30c25a3e883643056",
+        "source_id": "45367233",
+        "content": {
+          "text": "You've excluded the answer. Running a local resolver is quite simple. One tiny process running with a single config file is going to be as simple as (if not more so) any other possible solution you'll find. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:48.887544",
+        "updated_at": "2025-09-26T16:02:48.887544",
+        "author": {
+          "id": "a8f073b0ce4ffc5deb3e1e2f5a172d73",
+          "source_id": "denkmoon",
+          "username": "denkmoon",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "419848815b1e270d12d2671d02cdac5c",
+        "source_id": "45325611",
+        "content": {
+          "text": "> As noted in the ingress, the web browser is the primary application. In Firefox, about:networking and about:networking#dns are the http cache and dns cache. I have never considered writing values to these directly. Could there be a method for doing so within the developer console? Perhaps someone knows. There are replies in the below link that touch on it for Chrome. The top suggestion, however, is using a socks 5 proxy server as a workaround. https://superuser.com/questions/184643/override-dns-in-firef... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:48.888143",
+        "updated_at": "2025-09-26T16:02:48.888143",
+        "author": {
+          "id": "d2cf3f0b96ff36c4b8515e7613d332ff",
+          "source_id": "WarOnPrivacy",
+          "username": "WarOnPrivacy",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7a74a64b8481c348325a6ba84fa004c7",
+        "source_id": "45368730",
+        "content": {
+          "text": "You can use the linker to preload `nss_wrapper`[0] and overwrite anything using `nss`. Here's an example: > cat hosts\n  198.51.100.33 test.tld\n  2001:db8::33 test.tld\n  198.51.100.12 test4.tld\n  2001:db8::12 test6.tld\n\n  > LD_PRELOAD=/nix/store/sw2r0gpi9c9rsvqgvi4906yxh948ydsv-nss_wrapper-1.1.16/lib/libnss_wrapper.so NSS_WRAPPER_HOSTS=hosts getent ahosts test.tld\n  198.51.100.33   DGRAM  test.tld\n  198.51.100.33   STREAM test.tld\n  2001:db8::33    DGRAM\n  2001:db8::33    STREAM\n\n  > LD_PRELOAD=/nix/store/sw2r0gpi9c9rsvqgvi4906yxh948ydsv-nss_wrapper-1.1.16/lib/libnss_wrapper.so NSS_WRAPPER_HOSTS=hosts getent ahosts test4.tld\n  198.51.100.12   DGRAM  test4.tld\n  198.51.100.12   STREAM test4.tld\n\n  > LD_PRELOAD=/nix/store/sw2r0gpi9c9rsvqgvi4906yxh948ydsv-nss_wrapper-1.1.16/lib/libnss_wrapper.so NSS_WRAPPER_HOSTS=hosts getent ahosts test6.tld\n  2001:db8::12    DGRAM  test6.tld\n  2001:db8::12    STREAM test6.tld\n\n  > LD_PRELOAD=/nix/store/sw2r0gpi9c9rsvqgvi4906yxh948ydsv-nss_wrapper-1.1.16/lib/libnss_wrapper.so NSS_WRAPPER_HOSTS=hosts curl -v test.tld\n  * Host test.tld:80 was resolved.\n  * IPv6: 2001:db8::33\n  * IPv4: 198.51.100.33\n  *   Trying [2001:db8::33]:80...\n  *   Trying 198.51.100.33:80... [0] https://cwrap.org/nss_wrapper.html reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:48.888757",
+        "updated_at": "2025-09-26T16:02:48.888757",
+        "author": {
+          "id": "b45d82f0700d43ca040f17b1b17911a0",
+          "source_id": "2bluesc",
+          "username": "2bluesc",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "93149d2dd13587f3b94b05ffd9e74db7",
+        "source_id": "45367618",
+        "content": {
+          "text": "> think /etc/hosts, but without the requirement of superuser privileges. It would help if you could expand on this. Is this a \"don't want devs to need to mess with their boxes\" thing, or a \"we're doing shadow IT and can't run things the normal way\" thing, or something else? > Running a resolver locally, or within the LAN, falls outside the realm of \"simple\". No, it really doesn't. A DNS server can be a single file binary pointed at a simple text file, optionally pointed directly at a hosts-format file. I suggest coredns personally but there are other options. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:48.889370",
+        "updated_at": "2025-09-26T16:02:48.889370",
+        "author": {
+          "id": "55cd88b7c6d08149a5501d45268854c8",
+          "source_id": "yjftsjthsd-h",
+          "username": "yjftsjthsd-h",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "217e55c8b217fc426ff5df2587ea8d9b",
+        "source_id": "45367783",
+        "content": {
+          "text": ">without the requirement of superuser privileges Like you want to be able to update it without su or that you cant access it at all? Like you could have a cron running as root that updates etc/hosts every minute based on a userspace text document if you felt like it. It would be incredibly bad practice but I dont get the impression that this is a concern. >Running a resolver locally, or within the LAN, falls outside the realm of \"simple\". Running your own DNS server isnt simple? The standard Microsoft DHCP/DNS process is to take DHCP leases and turn them into DNS entries. Part of the reason a lot of answers are going to challenge your simple requirements, is that theres a great deal of malware that would love to do what you want to do, and these systems are largely hardened to prevent it. If this is for an application you want to deploy, I believe \"Simple\" for userspace, is quite complex to overcome all the things trying to prevent exactly this. My gut feeling is that this desire will evolve into a docker container with a DNS resolver, and just present some kind of interface for adding records. Then just pipe all your DNS requests through the container. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:48.890011",
+        "updated_at": "2025-09-26T16:02:48.890011",
+        "author": {
+          "id": "5100387ca587217731edb3f14960f17b",
+          "source_id": "protocolture",
+          "username": "protocolture",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e4c1d95547e07ce16c719c681262f281",
+        "source_id": "45367251",
+        "content": {
+          "text": "You are probably running a resolver on the LAN already, in your router. Now you just have to login and add an entry. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:48.890639",
+        "updated_at": "2025-09-26T16:02:48.890639",
+        "author": {
+          "id": "44220d7e5eeaef728ebac99f4abb9d5a",
+          "source_id": "simpaticoder",
+          "username": "simpaticoder",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "cd37e0ef25ca1044f61b3e58baa06a26",
+        "source_id": "45367392",
+        "content": {
+          "text": "This is the correct answer. You can’t have a DNS resolver without, er, using a DNS resolver. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:48.891294",
+        "updated_at": "2025-09-26T16:02:48.891294",
+        "author": {
+          "id": "b9870e19e0082ca6fc9f34f60bb84669",
+          "source_id": "urbandw311er",
+          "username": "urbandw311er",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0969c4e8d1a2fce01281d4083a43f513",
+        "source_id": "45364911",
+        "content": {
+          "text": "1. Buy domain for your service 2. Make wildcard record to point to 127.0.0.1 3. User can apply any.thing.here.yourcompanyinternal.xxx reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:48.892026",
+        "updated_at": "2025-09-26T16:02:48.892026",
+        "author": {
+          "id": "290a99792627c1ea8e1a11674d52d16d",
+          "source_id": "galaxy_gas",
+          "username": "galaxy_gas",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "55f965ea390208d26f9dc50c4b8f300a",
+        "source_id": "45366778",
+        "content": {
+          "text": "https://en.wikipedia.org/wiki/DNS_rebinding protection will stop this from working \"hopefully\" ;) but `--host-resolver-rules` may work, https://chromium.googlesource.com/chromium/src/+/main/net/ba... @terry_hc reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:48.892802",
+        "updated_at": "2025-09-26T16:02:48.892802",
+        "author": {
+          "id": "a21056f4da8be4f79990b610e448e111",
+          "source_id": "g4cg54g54",
+          "username": "g4cg54g54",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e98a4593ece22e1fe1b5c3d5b78f497d",
+        "source_id": "45366843",
+        "content": {
+          "text": "> https://en.wikipedia.org/wiki/DNS_rebinding protection will stop this from working \"hopefully\" ;) Does anyone actually ban 127 resolution to stop dns rebinding? I feel like that would probably break a lot of things while not actually preventing dns rebinding. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:48.893578",
+        "updated_at": "2025-09-26T16:02:48.893578",
+        "author": {
+          "id": "df1df0c946b0a384e63034bfcc702d50",
+          "source_id": "bawolff",
+          "username": "bawolff",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4f61e1ae2da8ea68ce9672b202895c2d",
+        "source_id": "45366861",
+        "content": {
+          "text": "https://docs.google.com/document/d/1QQkqehw8umtAgz5z0um7THx-... is in Beta channel now reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:48.894365",
+        "updated_at": "2025-09-26T16:02:48.894365",
+        "author": {
+          "id": "290a99792627c1ea8e1a11674d52d16d",
+          "source_id": "galaxy_gas",
+          "username": "galaxy_gas",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "522c26357d447f8c83ac91e89efdf8e5",
+        "source_id": "45372930",
+        "content": {
+          "text": "As far as i understand, that does not ban resolving dns addresses to localhost. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:48.895178",
+        "updated_at": "2025-09-26T16:02:48.895178",
+        "author": {
+          "id": "df1df0c946b0a384e63034bfcc702d50",
+          "source_id": "bawolff",
+          "username": "bawolff",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d4ab9fb122fdfc71ac6b2ec44bac01a8",
+        "source_id": "45366645",
+        "content": {
+          "text": "_Someone_ must have already done this, right? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:48.895982",
+        "updated_at": "2025-09-26T16:02:48.895982",
+        "author": {
+          "id": "3250f1c24bc461665af5a68cfae4c72b",
+          "source_id": "DougN7",
+          "username": "DougN7",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e689eb570ed7d72fbfe9553b8bc50d42",
+        "source_id": "45368088",
+        "content": {
+          "text": "Only your domain ! You would not want to use other people. They can see what you request from their DNS server. Since they own the domain they can also get valid certificate .. Look they are requesting owa.mydomain Why don't I replace it with internet accessible phishing for outlook page ? Why it's bad idea reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:48.896840",
+        "updated_at": "2025-09-26T16:02:48.896840",
+        "author": {
+          "id": "290a99792627c1ea8e1a11674d52d16d",
+          "source_id": "galaxy_gas",
+          "username": "galaxy_gas",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8de418791232e48f2ccaf37b49c739b3",
+        "source_id": "45367180",
+        "content": {
+          "text": "*.lndo.site  127.0.0.1 This domain is used by https://lando.dev/ which is a docker/docker-compose wrapper for local development. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:48.897750",
+        "updated_at": "2025-09-26T16:02:48.897750",
+        "author": {
+          "id": "738169636edcaa04bf3fce1d7af3ff09",
+          "source_id": "NationOfJoe",
+          "username": "NationOfJoe",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "655f3c6b18af7cbac3391c675e7b7ff0",
+        "source_id": "45366919",
+        "content": {
+          "text": "Would it be a problem to disclose it, in terms of it getting shutdown? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:48.898676",
+        "updated_at": "2025-09-26T16:02:48.898676",
+        "author": {
+          "id": "accc669cc966f14377e90f2d86719b09",
+          "source_id": "pacifika",
+          "username": "pacifika",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6ad425b3d25da5156a9b5f01682022e2",
+        "source_id": "45366725",
+        "content": {
+          "text": "*.fbi.com reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:48.899642",
+        "updated_at": "2025-09-26T16:02:48.899642",
+        "author": {
+          "id": "2c78ab168ce55d39011a39b415cb2b1d",
+          "source_id": "k1t",
+          "username": "k1t",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9cf232ad7765e5f0ed7bd3a671d355ec",
+        "source_id": "45366738",
+        "content": {
+          "text": "Since you can't edit hosts, or setup a resolver, maybe bookmark directly the ips on your browser? I understand you asked for hostnames but given the context you might aswell internalize some local ips. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:48.900598",
+        "updated_at": "2025-09-26T16:02:48.900598",
+        "author": {
+          "id": "13663e766f9a582d80074f41fa257f99",
+          "source_id": "ogig",
+          "username": "ogig",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5b8c937c5b01adb52bba24e9f897110c",
+        "source_id": "45366890",
+        "content": {
+          "text": "This feels like an X-Y problem. What's preventing you from running a local copy of Dnsmasq? It's really not difficult reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:48.901581",
+        "updated_at": "2025-09-26T16:02:48.901581",
+        "author": {
+          "id": "e8017b5a4e088cbd138a980446e50a53",
+          "source_id": "ranger207",
+          "username": "ranger207",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b0416a8abaeb56364aeb4b03ff50d0fd",
+        "source_id": "45367856",
+        "content": {
+          "text": "Depending on the details of your setup and precisely why you're attempting this, I would also recommend Avahi/Zeroconf (lets you type \"$HOSTNAME.local\" or simply populate some favorites/bookmarks on the client machines (typing the bookmark name will generally autocomplete). reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:48.902597",
+        "updated_at": "2025-09-26T16:02:48.902597",
+        "author": {
+          "id": "ef7e080add107f52f4163ac85eb81347",
+          "source_id": "Poiesis",
+          "username": "Poiesis",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "144dbd3af05b4affb53ddda3ef5167bf",
+        "source_id": "45324521",
+        "content": {
+          "text": "I want to note that I mean to use such internal hostnames to reach services inside a VPN. If solutions such as IPsec or OpenVPN can somehow push and manifest host->IP correlations for the OS, as an alternative to pushing an additional DNS resolver living inside the VPN, that would also be a viable solution. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:48.903658",
+        "updated_at": "2025-09-26T16:02:48.903658",
+        "author": {
+          "id": "bb8efe8f60be65f69233df2f80270578",
+          "source_id": "terry_hc",
+          "username": "terry_hc",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "359d47d3573a1323eef784eb17990de3",
+        "source_id": "45366748",
+        "content": {
+          "text": "Tailscale is very easy to set up and provides resolvable hostnames (at an OS level) for all connected devices. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:48.904732",
+        "updated_at": "2025-09-26T16:02:48.904732",
+        "author": {
+          "id": "370c3491acf68ada8d32c8392306fedb",
+          "source_id": "LorenDB",
+          "username": "LorenDB",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0e183651bd6f650c4b682636ce3bb914",
+        "source_id": "45366908",
+        "content": {
+          "text": "Tailscale requires superuser/admin reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:48.905833",
+        "updated_at": "2025-09-26T16:02:48.905833",
+        "author": {
+          "id": "98d48c875f8eb90480c82fec5c1696c1",
+          "source_id": "Cheer2171",
+          "username": "Cheer2171",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "462ded804f6df9ca072c548e4e890ed4",
+        "source_id": "45366762",
+        "content": {
+          "text": "https://nip.io/ reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:48.906964",
+        "updated_at": "2025-09-26T16:02:48.906964",
+        "author": {
+          "id": "58fb186ea611688b3df0d5490391692c",
+          "source_id": "moondev",
+          "username": "moondev",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e8aad3943ec3f942d5836bddbc16fab7",
+        "source_id": "45366882",
+        "content": {
+          "text": "Or if you need records other than A/AAAA, like MX for delivering email: https://anyz.one e.g. 10.2.3.4.anyz.one will refer the recursive resolver to query 10.2.3.4 for the answer to the query. You can also buy a domain and configure it to do that, but this is quicker Disclosure: I wrote anyzone reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:48.908175",
+        "updated_at": "2025-09-26T16:02:48.908175",
+        "author": {
+          "id": "f7e0aadeca12e59fdb35b0e19aef14e7",
+          "source_id": "lucgommans",
+          "username": "lucgommans",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1195d833a62dfc342510fe3e88fe1a9e",
+        "source_id": "45368157",
+        "content": {
+          "text": "Perhaps you can enable a default local domain on your router? Openwrt certainly lets you choose a local domain and the router then replies to DNS requests for somehost.local names. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:48.909355",
+        "updated_at": "2025-09-26T16:02:48.909355",
+        "author": {
+          "id": "9a77f9bc2473ac822277a4b20a61c8b9",
+          "source_id": "drpixie",
+          "username": "drpixie",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "33f5ee554263e1c379f37af7843b712e",
+        "source_id": "45325197",
+        "content": {
+          "text": "anything that could capture the traffic of another application outside of that application is likely gonna need super user privs. the ports it flows on need those to capture it, and running a program which could capture it also likely needs it. that being said: more context would thus help. what application is making the request, and at what point do you expect to intercept or get that request? is that outside the same app or not? edit:\nalso, can you atleast set it up as root or does everything need to happen as user? (and the OS might also matter) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:48.910660",
+        "updated_at": "2025-09-26T16:02:48.910660",
+        "author": {
+          "id": "26bf3490a998a4be6679aab895e019e5",
+          "source_id": "sim7c00",
+          "username": "sim7c00",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d5ede808d5f988a598897d4bae043c39",
+        "source_id": "45325463",
+        "content": {
+          "text": "As noted in the ingress, the web browser is the primary application. It must work for an end-user lacking the technical facilities or even sufficient administrative access to install a resolver or edit the system's hosts file. A browser extension would be a great solution. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:48.911910",
+        "updated_at": "2025-09-26T16:02:48.911910",
+        "author": {
+          "id": "bb8efe8f60be65f69233df2f80270578",
+          "source_id": "terry_hc",
+          "username": "terry_hc",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a8d084aabf16c87160a996eeb01e92d9",
+        "source_id": "45366936",
+        "content": {
+          "text": "If your programs use glibc, it supports hosts overrides in an environment variable, forgot which. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:48.913187",
+        "updated_at": "2025-09-26T16:02:48.913187",
+        "author": {
+          "id": "e490c4b5ea37a83eacf73813a2521187",
+          "source_id": "GoblinSlayer",
+          "username": "GoblinSlayer",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b656a9df40c913f214d8bf73ec1d0002",
+        "source_id": "45368804",
+        "content": {
+          "text": "`HOSTALIASES` lets you alias hostnames, but not map hostnames to IPs. Docs at `man gethostbyname` https://man7.org/linux/man-pages/man3/gethostbyname.3.html reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:48.914531",
+        "updated_at": "2025-09-26T16:02:48.914531",
+        "author": {
+          "id": "b45d82f0700d43ca040f17b1b17911a0",
+          "source_id": "2bluesc",
+          "username": "2bluesc",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "489987aa2869192c8eef3ae37a91ef0b",
+        "source_id": "45380109",
+        "content": {
+          "text": "https://github.com/Riant/host-switch-plus or --host-resolver-rules to chrome, FoxyProxy for Firefox. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:48.915867",
+        "updated_at": "2025-09-26T16:02:48.915867",
+        "author": {
+          "id": "4b918371ac4bee063c7010a77dd84146",
+          "source_id": "fragmede",
+          "username": "fragmede",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2025-09-26T16:02:48.916837",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "471bd18c7a2507bd17d76bc383f75df9",
+      "source_id": "45381744",
+      "title": "Ask HN: Substack version history deleted a week of my work",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">SS says they don't do backup, but their version history save my file back to three days ago, losing about 40 hours of work. Any optons?<p>What kind of a system runs out of room and keeps the old version but quits saving the new one?<p>Thanks</p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2025-09-26T16:02:35.025804",
+      "updated_at": "2025-09-26T16:02:35.025804",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "959bab7e1521bab3cfcf9408f9924173",
+        "source_id": "richardatlarge",
+        "username": "richardatlarge",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 4,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=45381744",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "dc1912a59ed17647b9a3d77e189ccd8e",
+        "source_id": "45382479",
+        "content": {
+          "text": "Did you reach out to support to see if they have any options or are you saying what the helpdocs tell you? I think we've all been burned by typing long-form anything into a web browser form, but it is very upsetting when it happens. The only solution I've ever found is typing in something like TextEdit/Notepad and copying it over when ready to post/save/upload/whatever. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:51.128339",
+        "updated_at": "2025-09-26T16:02:51.128339",
+        "author": {
+          "id": "19ac23c3379c9b33c101ea3d61dffed7",
+          "source_id": "leakycap",
+          "username": "leakycap",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8815e6bc357aa529dd2bf7f151cd37b2",
+        "source_id": "45383210",
+        "content": {
+          "text": "Thanks - SS has basically zero support Yes, it's a nightmare. Usually I have all kinds of duplication, but this time I got busy and distracted. Appreciate it reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:51.128871",
+        "updated_at": "2025-09-26T16:02:51.128871",
+        "author": {
+          "id": "959bab7e1521bab3cfcf9408f9924173",
+          "source_id": "richardatlarge",
+          "username": "richardatlarge",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2025-09-26T16:02:51.129000",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "dc5500dd78a6fe9a4fc3009fd24cbbc1",
+      "source_id": "45374313",
+      "title": "Ask HN: Anyone switched from software to physical world engineering?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">Most of the people I know have gone the other way, from mechanical, civil, or electrical into software, but I’m curious if anyone here has managed the reverse: leaving a software development career for mechanical, civil, mechatronics, robotics, or related fields where you design and build physical things. If you’ve done it, how did you navigate the skills gap, credential requirements, and job market, and what was the experience like compared to staying in tech?</div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2025-09-26T16:02:35.026369",
+      "updated_at": "2025-09-26T16:02:35.026369",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "3061f2296f850d3bf6e1d5571e30bbb3",
+        "source_id": "pesfandiar",
+        "username": "pesfandiar",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 6,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=45374313",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "5cc7e84896ca62187797b4ee3a6ea8e4",
+        "source_id": "45381686",
+        "content": {
+          "text": "As someone who went from structural engineering (in the UK) to software (in Australia) I can say that that path is trivial because it's possible to get a job in software without substantial qualifications or training. I was a self taught programmer, took a computing master's just to have a piece of paper and then started working. The reverse is much harder because you wouldn't get a job without a dedicated degree and the process of gaining your professional qualifications is very onerous. So unless you made the switch in your 20s you are going to be playing catch-up for a very long time. Just my 2c reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:54.044163",
+        "updated_at": "2025-09-26T16:02:54.044163",
+        "author": {
+          "id": "3b316764a0e61ee78798ca37ef6e6f59",
+          "source_id": "abstractspoon",
+          "username": "abstractspoon",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b357fd1741abb9c02a7fefb1ede47afd",
+        "source_id": "45378875",
+        "content": {
+          "text": "The normal approach would be: 1. Get a college degree in the engineering field of interest. 2. Get a job as an engineer in that field. 3. Optionally, become a licensed Professional Engineer (PE) according to however that is done in your location. It's not really like software engineering, in which liberal arts or self-taught people get to be called engineers without the matching blood, sweat, and tears. (If all you want to do is make stuff, you could learn the requisite sciences to know how things work, teach yourself CAD to design something close enough, and then either put in the hours at community hacker spaces or contract someone overseas to actually make whatever you came up with.  But, it seems like you are considering a much more serious career shift?) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:54.044753",
+        "updated_at": "2025-09-26T16:02:54.044753",
+        "author": {
+          "id": "5a0ba4d006fe7fdff6866712f57e9070",
+          "source_id": "entrepy123",
+          "username": "entrepy123",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "09d1f83b9264dbe0b1bed05db97ac1bd",
+        "source_id": "45375788",
+        "content": {
+          "text": "Studied EE and went into software after college. Started out system programming and now I work on high level backend services and frontend SDKs. I've been drown more to engines and power generation. Specifically, control systems that are able to maintain stable operation despite changing conditions. Few pieces of software I've worked on operate as \"control systems\". Most have been business logic. Lately, I've been viewing \"keeping the lights on\", more important that \"keeping engagement up\". Maybe I'll try to get into embedded/FPGA programming. Last time I applied I got passed up due to lack of experience. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:54.045327",
+        "updated_at": "2025-09-26T16:02:54.045327",
+        "author": {
+          "id": "d137f6d7db4d466b7ac940c3142947c8",
+          "source_id": "oldsklgdfth",
+          "username": "oldsklgdfth",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "48aca7284ff31494e84f5c19572f0ade",
+        "source_id": "45374337",
+        "content": {
+          "text": "Transitioning to civil. There's a lot more laws, discipline and regulations involved as opposed to tech. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:54.045861",
+        "updated_at": "2025-09-26T16:02:54.045861",
+        "author": {
+          "id": "4fbccde4d32aaf3bfcd1f2f6607496ed",
+          "source_id": "gpi",
+          "username": "gpi",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b2fb19390d905a47a55a2cee8f3ab33f",
+        "source_id": "45374643",
+        "content": {
+          "text": "But lower pay right? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:54.046436",
+        "updated_at": "2025-09-26T16:02:54.046436",
+        "author": {
+          "id": "538dd614bef10b28d711d687c06ae00c",
+          "source_id": "Poomba",
+          "username": "Poomba",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c9316f08a2b9f1589e04d0579405b4fb",
+        "source_id": "45374699",
+        "content": {
+          "text": "For sure. The engineering jobs typically have a lower pay and you'd have to start out as a junior, so higher income won't be a reason for the switch. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:54.047027",
+        "updated_at": "2025-09-26T16:02:54.047027",
+        "author": {
+          "id": "3061f2296f850d3bf6e1d5571e30bbb3",
+          "source_id": "pesfandiar",
+          "username": "pesfandiar",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "75903a8e7d26c03e067d4a8acf27badd",
+        "source_id": "45376485",
+        "content": {
+          "text": "Lower pay but different sector with pension. WLB is much better overall. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:54.047682",
+        "updated_at": "2025-09-26T16:02:54.047682",
+        "author": {
+          "id": "4fbccde4d32aaf3bfcd1f2f6607496ed",
+          "source_id": "gpi",
+          "username": "gpi",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9207969c593128c0c789ab5556fdd21c",
+        "source_id": "45375139",
+        "content": {
+          "text": "Can I ask what drew you to civil? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:54.048350",
+        "updated_at": "2025-09-26T16:02:54.048350",
+        "author": {
+          "id": "3061f2296f850d3bf6e1d5571e30bbb3",
+          "source_id": "pesfandiar",
+          "username": "pesfandiar",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1c2bc75216ea7a59043bdf70e91503f0",
+        "source_id": "45374516",
+        "content": {
+          "text": "I’m wondering if anyone goes from a high level programming such as data engineering to very low level like OS or compiler or embedded in profession. Hobbies don’t count but major OSS contributions count. How did you achieve that? Is there any spring board profession you need to hop to and from? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:54.049038",
+        "updated_at": "2025-09-26T16:02:54.049038",
+        "author": {
+          "id": "e26822514495bfa8721731ec06ee07bb",
+          "source_id": "markus_zhang",
+          "username": "markus_zhang",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2c4cea86df1e125081869cc3b390c312",
+        "source_id": "45382212",
+        "content": {
+          "text": "it's very difficult as real engineers need to follow an ethical and moral code reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:54.049755",
+        "updated_at": "2025-09-26T16:02:54.049755",
+        "author": {
+          "id": "82f6843e5218c9fcf2e6e81b394d6a60",
+          "source_id": "drsalt",
+          "username": "drsalt",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2025-09-26T16:02:54.050124",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "1e07229bb4e0c8c43a54730ae2520ddb",
+      "source_id": "45376210",
+      "title": "Ask HN: What are you working on (September 2025)?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">What are you working on in September 2025?</div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2025-09-26T16:02:35.026887",
+      "updated_at": "2025-09-26T16:02:35.026887",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "294497c2264ac42a22b7cfc0c02040ac",
+        "source_id": "iryndin",
+        "username": "iryndin",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 13,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=45376210",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "4da456fa5cd7c51001fbc6bf494ccd45",
+        "source_id": "45383420",
+        "content": {
+          "text": "I'm working on Habitat. It's a free and open source, self-hosted platform for communities to discover and discuss their local area. The plan is for it to be federated. In the last month or so I've been solely focused on plans and content for my instance for my local town, so there hasn't been any programming for a little while but I'll be jumping back into it in weeks to come. - The idea: https://carlnewton.github.io/posts/location-based-social-net... - A build update and plan: https://carlnewton.github.io/posts/building-habitat/ - The repository: https://github.com/carlnewton/habitat - The project board: https://github.com/users/carlnewton/projects/2 reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:55.222787",
+        "updated_at": "2025-09-26T16:02:55.222787",
+        "author": {
+          "id": "bf46fb17ba2c8c82e5fe3ea32bc5bae0",
+          "source_id": "carlnewton",
+          "username": "carlnewton",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4b8d0b3bc451b5e66c114f37ea7dc157",
+        "source_id": "45383667",
+        "content": {
+          "text": "I love this \"local first\" focus, which for me translates into \"relevant first\". My app Plantshare (posted about it in this HN post) is not very useful if you're the only user for 40km around, but I've seen local pockets of signups that gain momentum and are then useful in that locality and the users make local connections. I think the biggest hurdle for this would be to gain traffic in place of an existing entrenched local Facebook group or similar. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:55.223362",
+        "updated_at": "2025-09-26T16:02:55.223362",
+        "author": {
+          "id": "d171dc5caef35aa2d8158752e3687b05",
+          "source_id": "asdfbank",
+          "username": "asdfbank",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3e97660deac7b8a708c08ec25eab497d",
+        "source_id": "45385050",
+        "content": {
+          "text": "Yeah I think established Facebook groups are probably the biggest hurdle. To me, the benefits of not using Facebook are self evident, but a lot of people don't know about the issues around that or don't care. I think creating features that can't be achieved on Facebook could help. Outside of that, I think it's just a matter of providing meaningful content yourself. For Plantshare, I imagine it would be beneficial to be close to you because you, the developer of the app, presumably have a wide variety of plants because that's your interest. And if it's a success for you and your local community, you've succeeded, and any other pockets of success are a bonus. This is at least the way I'm looking at my project here. I still do intend to continue to work on the open source side of things though of course. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:55.223884",
+        "updated_at": "2025-09-26T16:02:55.223884",
+        "author": {
+          "id": "bf46fb17ba2c8c82e5fe3ea32bc5bae0",
+          "source_id": "carlnewton",
+          "username": "carlnewton",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "911f5f9346e84dc48784754894ac6c79",
+        "source_id": "45386353",
+        "content": {
+          "text": "Myself and my partner are working on a new type of STEM kit for people who want to learn electronics! https://inventronix.club/?utm_source=hn It stated as a bit of a toy but we've got 200 people signed up to the waiting list, so we're doing a kickstarter in November! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:55.224495",
+        "updated_at": "2025-09-26T16:02:55.224495",
+        "author": {
+          "id": "7690fc4a848843a95bfad0ac6d927903",
+          "source_id": "jakelsaunders94",
+          "username": "jakelsaunders94",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3aa75bbeb19dc1d744f2bbd58be25617",
+        "source_id": "45383841",
+        "content": {
+          "text": "A few years ago I've made an appointment finder for the Berlin Bürgeramt. It got blocked by anti bot measures last month so I'm now fixing it. Basically, I'm moving from Python requests to running an actual browser with Playwright. I actually get help from city employees who tell me why it's getting blocked, since my bot follows the rules. I am going to try vibe coding this one, simply because I know how to do the job but don't feel like doing it. https://github.com/All-About-Berlin/burgeramt-appointments https://nicolasbouliane.com/projects/appointment-finder reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:55.225148",
+        "updated_at": "2025-09-26T16:02:55.225148",
+        "author": {
+          "id": "95c7810f5068a7f6553a5ebcb0e954d1",
+          "source_id": "nicbou",
+          "username": "nicbou",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4c42266fcec7981d6c4fbee333caf495",
+        "source_id": "45384371",
+        "content": {
+          "text": "Working on Overcentric, a toolkit that simplifies growth for startups - especially for solo founders and small teams. \"Overcentric is like Google Analytics + Mixpanel + Hotjar + Intercom, in a single, cohesive, clutter-free package.\" - as one of the users described it. Our vision is for Overcentric to work on autopilot: integrate it in minutes and it works around the clock to understand, support and empower your users - so you get the relevant insights on how to grow and retain more users. https://overcentric.com/ reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:55.225807",
+        "updated_at": "2025-09-26T16:02:55.225807",
+        "author": {
+          "id": "4ae692e73544b6cbc98fef37ae60c884",
+          "source_id": "harundu",
+          "username": "harundu",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f9b458890574b1a1862a46e84eed9926",
+        "source_id": "45382946",
+        "content": {
+          "text": "In the past month, I came to the discovery that my BitGrid project couldn't meet it's goal of being more power efficient than TPUs, but it took years to figure that out. It could be a quite efficient FPGA like compute fabric, but that's not something I'm super interested in right now. I've helped a friend get an IFR/Aeroflex/Marconi 2947A Communications Analyzer working, and am now in the process of using Ghidra to disassemble the firmware that runs on the main CPU. (There are several, including a 68000 based cellular option). I think of it as a million piece jigsaw puzzle. On the way to Vintage Computer Fest, MidWest, my car became the middle of a 5 car sandwich. We all walked away, thanks to modern crumple zones and restraint systems. So, the car is a total loss, now I'm filing forms, and will be looking for a replacement car. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:55.226479",
+        "updated_at": "2025-09-26T16:02:55.226479",
+        "author": {
+          "id": "cf2bd8bbc1ac7fac6aa1daa41272d5d3",
+          "source_id": "mikewarot",
+          "username": "mikewarot",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a39fa7182896d916b7a4cc99e1fc44b7",
+        "source_id": "45384837",
+        "content": {
+          "text": "Working on a Saas project( https://hpyhn.xyz ) help me to learn fast on HN.\nOn this journey I've became a full-stack dev from a c++ back-end dev thanks for LLM making that happen.\nBy the way the back-end of tech stack of this project is nodejs and python haha-_-'. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:55.227186",
+        "updated_at": "2025-09-26T16:02:55.227186",
+        "author": {
+          "id": "b387f5eb56184add19087b46f0310238",
+          "source_id": "liqilin1567",
+          "username": "liqilin1567",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ed08e739080bb9f80597c6b78af38367",
+        "source_id": "45382662",
+        "content": {
+          "text": "I've been working on Plantshare, a free app that aims to help gardeners share plants with other local gardeners. If you do gardening, it's likely that your plants are making more plants all by themselves; use this app to share them and see what others near you are sharing. I basically made the app that I couldn't find. Android and iOS are in a working beta, might do a web front end eventually too. I'm not a professional at any of this (accounting day job) and there has been a lot of learning but in the end, what a trip, I made a software!\nI've had a ton of help to bring it to life from a friend who is an actual professional at the back-end stuff (thanks Balthromaw) and copilot too. https://ps-prod.bloodys.cc/links/getplantshare reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:55.227927",
+        "updated_at": "2025-09-26T16:02:55.227927",
+        "author": {
+          "id": "d171dc5caef35aa2d8158752e3687b05",
+          "source_id": "asdfbank",
+          "username": "asdfbank",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f6ebbc6ee2ffeadefc4b2373cc223ddf",
+        "source_id": "45381000",
+        "content": {
+          "text": "I'm working on Happy Coder, an open source Codex and Claude Code native mobile app (plus a web app). Happy lets you spawn and control multiple Codex/Claude Code sessions in parallel. Happy Coder runs on your hardware, works from your phone and desktop, costs nothing, End to End encrypted, and permissive MIT License. https://github.com/slopus/happy Happy Coder is a unix style \"do one thing well\" project. The goal is zero workflow disruption. I want to be able to run CLI coding agents on any internet connected computer, and control them with my phone. Happy has a command line wrapper for Codex and Claude Code that let you start a session in your terminal, and then continue it from your phone with real time sync. So type in your terminal and see it on the phone, type into your phone and see it in your terminal. So you can switch back and forth. There is an optional voice agent some contributors have been hacking on that lets you talk to the voice agent first, and the voice agent then writes prompts for Codex/Claude Code and answers questions about what the coding agent running on your computer is doing/did. The voice agent feature is pretty neat, but in my opinion needs a bit more iteration, so any ideas or help would be awesome. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:55.228751",
+        "updated_at": "2025-09-26T16:02:55.228751",
+        "author": {
+          "id": "b716747ceeaba7f27d0adf489438d3df",
+          "source_id": "marxism",
+          "username": "marxism",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f027184eaea1645e81ef32bb5640ace3",
+        "source_id": "45376520",
+        "content": {
+          "text": "Working on creating open-source stack for developing agents. Started a year ago with playing with CrewAI, Langgraph , Ango and others..\nThen realised the learning curve is more than necessary and I do not use most of their fancy things.\nSo I started building tinyAgent inspired by a post on Huggingface. https://github.com/askbudi/tinyagent Later on, I find myself switching between Claude, Cursor, Codex and Gemini-cli. (Not much gemini-cli to be honest:D )\nAnd wanted to play with MCP Servers, so I built Roundtable https://askbudi.ai/roundtable , and when I face a bug, or I need to brainstorm, I task it to create subagents from Claude, Codex,...\nAnd task each of them to analyze the issue and then aggregate their opinion. It is fun, and I feel I get more out of what I have already paid for. ( Paid for Cursor 1-year plan, later on switched to Claude Code, and codex is a part of the Plus plan that I have access to) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:55.229594",
+        "updated_at": "2025-09-26T16:02:55.229594",
+        "author": {
+          "id": "0a8edb6379e7173fefe6fa5c0fab7fae",
+          "source_id": "mahdiyar",
+          "username": "mahdiyar",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "cbd3f2fbfa0ea9706ebe45ded58ad571",
+        "source_id": "45380531",
+        "content": {
+          "text": "I've been building an app to replace a long-suffering Excel sheet I've used for retirement planning. Started off as a calculator, eventually turned into something like ProjectionLab, though with a focus on what-if scenarios (e.g., how many years can I knock off my working life if I downsize to a smaller house or relocate to another state?) and risk evaluation specifically for early retirement. Not super fancy, but it's already flagged some risks that my spreadsheet didn't, and it's fun to have a codebase that's fully owned/controlled by me. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:55.230393",
+        "updated_at": "2025-09-26T16:02:55.230393",
+        "author": {
+          "id": "94dab9158a04f8f2ab6cade7f0c51607",
+          "source_id": "annoyingcyclist",
+          "username": "annoyingcyclist",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b0c354bfc7019050a57216a17d86ec36",
+        "source_id": "45381705",
+        "content": {
+          "text": "sounds cool! you should build an app that helps you save towards a goal and shows you losses and wins in real time for the future when you add more or remove from savings in an app or even \"what if \" i make extra 20 dollars on my 7% car note reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:55.231216",
+        "updated_at": "2025-09-26T16:02:55.231216",
+        "author": {
+          "id": "532c1251ea3b8d5b0c96f333ca87f089",
+          "source_id": "nahide07",
+          "username": "nahide07",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e0c87a4d954c14d57154e528571ed901",
+        "source_id": "45376309",
+        "content": {
+          "text": "Been working on https://phrasing.app for about 18 months now. I wanted a way where I could learn a maintain multiple languages, all in one place. I wanted the power of spaced repetition, the frictionless experience of social media, and the joy of a beautifully designed application. It’s built and I’ve been using it daily for about 8 months now, and lately it’s been working remarkably well. I’m learning several languages, and dabbling in even more, all in just an hour a day. Now I just have to get all the marketing assets up and marketing it. Working on a new landing page at https://phrasing.app/next — not at all ready to be shared but the question is what am I working on! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:55.232167",
+        "updated_at": "2025-09-26T16:02:55.232167",
+        "author": {
+          "id": "d5edc6d11cf54f07859d32963338fd30",
+          "source_id": "barrell",
+          "username": "barrell",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c9ae143982bdbea81a591e561a37d8bb",
+        "source_id": "45381716",
+        "content": {
+          "text": "this sounds kind of cool I just dont understand what your company does right away... i get it but there is a lot of words on the site but love the color scheme and the site !!! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:55.233037",
+        "updated_at": "2025-09-26T16:02:55.233037",
+        "author": {
+          "id": "532c1251ea3b8d5b0c96f333ca87f089",
+          "source_id": "nahide07",
+          "username": "nahide07",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "cda6e696688cc30e9cacbf91913913c3",
+        "source_id": "45376712",
+        "content": {
+          "text": "Working on https://donethat.ai - a fully automated work tracker and in the future also AI coach. The concept is pretty simple: It takes screenshots every few minutes and reconstructs a calendar of what actually happened. On top of that features to set goals for how much time to spend on topics and a social feed. This is obviously super sensitive data. I built it in a way that it never stores raw data and you can also bring your own Gemini key, plus a lot more privacy features. Tried to make it fully local but found that it takes too much energy and only works on high end machines. I have a few first users, iterating with them, and right now exploring if it’s possible to make this work in team settings without sacrificing privacy. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:55.234010",
+        "updated_at": "2025-09-26T16:02:55.234010",
+        "author": {
+          "id": "5beec5f6a2d4c77ef91eb00b48c9dc44",
+          "source_id": "christoph123",
+          "username": "christoph123",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2e24656f390d33dad669917363270ef8",
+        "source_id": "45376940",
+        "content": {
+          "text": "Playing around with code visualization. Built a vscode extension to generate architecture diagrams for terraform - https://marketplace.visualstudio.com/items?itemName=infragra... Now exploring on extending this to general programming languages. Software is getting increasingly complex, but I don't think we have figured out many ways of navigating large codebases. Would love to hear about your favourite tools in this space and what would you like to see? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:55.234974",
+        "updated_at": "2025-09-26T16:02:55.234974",
+        "author": {
+          "id": "0ac7f33f108027afc540689c083d0703",
+          "source_id": "aqula",
+          "username": "aqula",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "430097e2c8a07b58e5be9375fc554ace",
+        "source_id": "45382530",
+        "content": {
+          "text": "Making rent as an open source developer. Attracting new monthly sponsors and people willing to buy me the occasional pizza with my poor HTML skills. https://brynet.ca/wallofpizza.html reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:55.235977",
+        "updated_at": "2025-09-26T16:02:55.235977",
+        "author": {
+          "id": "15f441d19d08e901ad1e4616f54aea2e",
+          "source_id": "brynet",
+          "username": "brynet",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d3169f02ed1b21f3635708b8691842a5",
+        "source_id": "45377356",
+        "content": {
+          "text": "Right now, I’m focused on a personal project where I’m building an AI-driven agent platform. I’ve been working with LangGraph for workflow orchestration and MCP for coordinating multiple agents and models. Through this, I’ve gained practical experience integrating LLMs, vector databases, and external APIs into a scalable backend system. I’m looking for a remote role where I can apply this hands-on experience with Full Stack engineering and AI agent orchestration to real-world production environments. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:55.236984",
+        "updated_at": "2025-09-26T16:02:55.236984",
+        "author": {
+          "id": "8ef78e3dc283d832d3a587dcd12d6974",
+          "source_id": "ericreyes217",
+          "username": "ericreyes217",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "114083dc7e8a81858db8ab98cc917a16",
+        "source_id": "45386256",
+        "content": {
+          "text": "I am adding OAuth and Open ID Connect to Gethly.com ..which is essentially done, in order to add support for \"paywall as a service\" feature to enable content creators to host their content outside of the platform. I'll be rolling it out next month. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:55.238004",
+        "updated_at": "2025-09-26T16:02:55.238004",
+        "author": {
+          "id": "ce6bcc721520f69a21d5f574f3d25cec",
+          "source_id": "gethly",
+          "username": "gethly",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4f844f85d436f3fb1adb5f50f86fd594",
+        "source_id": "45378996",
+        "content": {
+          "text": "I am building a Builtwith alternative (but for all types of SaaS products and backend tech, not just frontend): https://bloomberry.com/ Mostly targeted to sales platforms and tools, but getting some early interest from individual GTM teams and agencies as well. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:55.239080",
+        "updated_at": "2025-09-26T16:02:55.239080",
+        "author": {
+          "id": "b91b1e5960b2c484291ae310b7f58ab3",
+          "source_id": "AznHisoka",
+          "username": "AznHisoka",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "515b4465ceaf6f5095ab3cf6990d48df",
+        "source_id": "45378416",
+        "content": {
+          "text": "For the past 5 years, almost every day I'm working on https://folge.me - desktop and offline alternative to scribehow, tango and similar apps for creating step by step guides and SOPs reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:55.240216",
+        "updated_at": "2025-09-26T16:02:55.240216",
+        "author": {
+          "id": "5b49eeb1448c8cc749dfca291c13ad66",
+          "source_id": "oleksii88",
+          "username": "oleksii88",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "515d58bc0b820a9b678161ad6aa89a7d",
+        "source_id": "45378783",
+        "content": {
+          "text": "Working on a web based online radio station player. I wanted just a very simple interface for finding, favouriting and playing online radio stations and figured would be easy enough to build one. Will be launched in the next month or so. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:55.241327",
+        "updated_at": "2025-09-26T16:02:55.241327",
+        "author": {
+          "id": "309092a78efe74e180c4f0517cadd7b4",
+          "source_id": "devrundown",
+          "username": "devrundown",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c3cc14905ad47389fde1bb2a3cd860aa",
+        "source_id": "45378002",
+        "content": {
+          "text": "I have been experimenting with AI for photos a lot and built a linkedin profile generator. - https://thelinkedlens.com/ reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:55.242490",
+        "updated_at": "2025-09-26T16:02:55.242490",
+        "author": {
+          "id": "06b59ca23ffde35934e707d674955708",
+          "source_id": "psikomanjak",
+          "username": "psikomanjak",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "fce3904629c4b2c3fa3502a3fea6fd13",
+        "source_id": "45381685",
+        "content": {
+          "text": "hey!! I am working on rent savy city :) I would love it you guys checked it out www.rentsavycity.com and sent feedback, we are also building a community where renters can easily attend events,find discounts in local markets and agents can purchase leads. follow our journey!! :P reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:55.243651",
+        "updated_at": "2025-09-26T16:02:55.243651",
+        "author": {
+          "id": "532c1251ea3b8d5b0c96f333ca87f089",
+          "source_id": "nahide07",
+          "username": "nahide07",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5a50b251c841f71f4c8f3111708dde0f",
+        "source_id": "45383809",
+        "content": {
+          "text": "Thinking about a general strike for open source. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:55.244846",
+        "updated_at": "2025-09-26T16:02:55.244846",
+        "author": {
+          "id": "867933a737a587ddfe50dec2f32d6bb5",
+          "source_id": "pabs3",
+          "username": "pabs3",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c2fab36d96610228b3bc42918182aaf9",
+        "source_id": "45379804",
+        "content": {
+          "text": "I'm building a compliance orchestration platform. It would help coordinate multiple security detectors and map outputs to frameworks. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:55.246076",
+        "updated_at": "2025-09-26T16:02:55.246076",
+        "author": {
+          "id": "f4071a864b0c36ca223d645810537d6f",
+          "source_id": "dawans99",
+          "username": "dawans99",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4e46f0bed7db827280e1281026b1855f",
+        "source_id": "45376272",
+        "content": {
+          "text": "A bitcoin risk simulation model reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:55.247349",
+        "updated_at": "2025-09-26T16:02:55.247349",
+        "author": {
+          "id": "2845ad0a586c89a9cc07525be66375d7",
+          "source_id": "chistev",
+          "username": "chistev",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "38ded7eafd6c9b2b29e35b7e9998aaac",
+        "source_id": "45376639",
+        "content": {
+          "text": "Code Input - https://codeinput.com Currently working on a better CodeOwners for GitHub. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:55.248653",
+        "updated_at": "2025-09-26T16:02:55.248653",
+        "author": {
+          "id": "6d42080e3893ce643870c551b073a4f8",
+          "source_id": "csomar",
+          "username": "csomar",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2025-09-26T16:02:55.249573",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "0f20c21f85dfbeb97831a3d00b5a9e80",
+      "source_id": "45365420",
+      "title": "Ask HN: Where can I genetically test myself without risking privacy?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">I've been meaning to screen myself for genetic diseases and do not trust services like 23andMe. What options do I have?</div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2025-09-26T16:02:35.027417",
+      "updated_at": "2025-09-26T16:02:35.027417",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "6334c3d53b27d2000da4175f87a7f087",
+        "source_id": "technocrat8080",
+        "username": "technocrat8080",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 9,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=45365420",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "27fa19264e80f23d03666d16e07d8367",
+        "source_id": "45386304",
+        "content": {
+          "text": "I think that as long as you can provide physical address where you are able to receive mail under pseudonym, you can use nay service. The main point with these DNS testing services is to prevent them form linking your DNA with your identity. You could maybe even use your company's address or a friend or a family member. It should not matter much. Or try renting a Post Office Box. Or even using one of the mail forwarding services as they are usually able to forward your mail based on id on the recipient without then name of the recipient mattering at all. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:57.091589",
+        "updated_at": "2025-09-26T16:02:57.091589",
+        "author": {
+          "id": "ce6bcc721520f69a21d5f574f3d25cec",
+          "source_id": "gethly",
+          "username": "gethly",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "230f10de19ce64930811a4fca033cc13",
+        "source_id": "45376571",
+        "content": {
+          "text": "Maybe Color Health? They’re clinical and HIPAA compliant but you’ll need to read their policies for the details. https://www.color.com/genomics reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:57.092170",
+        "updated_at": "2025-09-26T16:02:57.092170",
+        "author": {
+          "id": "1cd1201ad7fecee8ad39ed7fc2d108b5",
+          "source_id": "ampham",
+          "username": "ampham",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "463cef816c235987bfcad2b2f53f5004",
+        "source_id": "45369195",
+        "content": {
+          "text": "We're building this at Monadic DNA. I recently posted about our first stab at this at https://vishakh.blog/2025/07/08/using-mpc-for-anonymous-and-... . We'll have a waitlist up pretty soon for people to sign up for a batch of private sequencing. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:57.092732",
+        "updated_at": "2025-09-26T16:02:57.092732",
+        "author": {
+          "id": "fce5e1bfa19d9e707d786bf2dcd68eeb",
+          "source_id": "vishakh82",
+          "username": "vishakh82",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "05af1a4e0e0ecc86ebe2495421986533",
+        "source_id": "45369010",
+        "content": {
+          "text": "MyHeritage has a long and detailed privacy policy. Seems like that they are aiming to meet EU standards. Don't have personal experience though, and they might not provide everything what you are looking for. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:57.093272",
+        "updated_at": "2025-09-26T16:02:57.093272",
+        "author": {
+          "id": "f5430fa9f98786b7db78c62a445cd103",
+          "source_id": "pajko",
+          "username": "pajko",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "deb4804a16dcbc1efd5c7c5d2f0f077f",
+        "source_id": "45372682",
+        "content": {
+          "text": "no, not in the sense of total privacy. Outside of that, I would at least go with someone that's HIPAA compliance. Your doctor probably is the shortest path. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:57.093827",
+        "updated_at": "2025-09-26T16:02:57.093827",
+        "author": {
+          "id": "c6005191e7138d83aa27c668e41db888",
+          "source_id": "aynyc",
+          "username": "aynyc",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0db42b94b9f6369f1e67dcd06b4c21bb",
+        "source_id": "45370000",
+        "content": {
+          "text": "It's a bad idea for a bunch of reasons but you could always do it yourself: https://nanoporetech.com/products/sequence/minion reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:57.094449",
+        "updated_at": "2025-09-26T16:02:57.094449",
+        "author": {
+          "id": "e58f5a8058300d27234c2aa974c92944",
+          "source_id": "a_tartaruga",
+          "username": "a_tartaruga",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9c451664034af40ced26fe8b76ac966e",
+        "source_id": "45372386",
+        "content": {
+          "text": "Suggesting ONT is like suggesting getting a cpu without mentioning everything else that's required. Even then, you'll need expertise in analysing the output reads. And EVEN then it's difficult to accurately assess variants. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:57.095061",
+        "updated_at": "2025-09-26T16:02:57.095061",
+        "author": {
+          "id": "e63a4c7a1bde1e78aecd331c2ca08812",
+          "source_id": "greazy",
+          "username": "greazy",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e45db789af8a845c9e9c1478c3226f54",
+        "source_id": "45370221",
+        "content": {
+          "text": "Why is a bad idea for a bunch of reasons? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:57.095709",
+        "updated_at": "2025-09-26T16:02:57.095709",
+        "author": {
+          "id": "e63b06be19df11ca743741cb1d65a148",
+          "source_id": "leoh",
+          "username": "leoh",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2aa272dbfd9aacc8afc3a70c736467b9",
+        "source_id": "45374956",
+        "content": {
+          "text": "It is an expensive research project. Actually doing this starting from no experience or tools you're probably looking at 6 months - 1 year and 10k. A little support from trained biologists would help a lot though. Using DIY tools and not being a trained biostatistician or whoever usually looks at these things you are very likely to face errors you don't know how to account for.  I would guess the odds are high you'll encounter scary false positives for example. It sounds really fun though, something I've always wanted to do with more time. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:57.096416",
+        "updated_at": "2025-09-26T16:02:57.096416",
+        "author": {
+          "id": "e58f5a8058300d27234c2aa974c92944",
+          "source_id": "a_tartaruga",
+          "username": "a_tartaruga",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9d476b5fd8c90777d8d1dc11d9d0edc8",
+        "source_id": "45369851",
+        "content": {
+          "text": "Your doctor ? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:57.097092",
+        "updated_at": "2025-09-26T16:02:57.097092",
+        "author": {
+          "id": "417bf962f3d126fff00cdf5915ffe41b",
+          "source_id": "Davidbrcz",
+          "username": "Davidbrcz",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "825aaabb59a2d475e635abb99bfff767",
+        "source_id": "45371254",
+        "content": {
+          "text": "The privacy issue still exists in this scenario. All doctors (including concierge) use 3rd party services for practically everything from blood work to imaging to application products. It’s safe to say that it’s very likely that they’ll outsource the genetic testing to a 3rd party reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:57.097883",
+        "updated_at": "2025-09-26T16:02:57.097883",
+        "author": {
+          "id": "8b3f3c6d996e6801b606c02f0e016f77",
+          "source_id": "clemailacct1",
+          "username": "clemailacct1",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f5c2ad279d2bded8e314bb05ef7c323c",
+        "source_id": "45372696",
+        "content": {
+          "text": "All of them need to follow HIPAA. That's as close to a protection as you can get right now. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:57.098639",
+        "updated_at": "2025-09-26T16:02:57.098639",
+        "author": {
+          "id": "c6005191e7138d83aa27c668e41db888",
+          "source_id": "aynyc",
+          "username": "aynyc",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "79beb1070bab4563ce562ce18b3a9c9b",
+        "source_id": "45370230",
+        "content": {
+          "text": "That's the best advice. I have seen some genetic test results. They are not simple to interpret and it is not easy to know what to test for- every person has natural defects and mutations which not always translates to real diseases. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:57.099424",
+        "updated_at": "2025-09-26T16:02:57.099424",
+        "author": {
+          "id": "9af9dc488e110be0cbd449c6a3ff8d66",
+          "source_id": "2rsf",
+          "username": "2rsf",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2025-09-26T16:02:57.099851",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "301c84ecf7aeae0c5cf5657babd19d31",
+      "source_id": "45366446",
+      "title": "Ask HN: Times the world has dodged a bullet",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">I sometimes find myself frustrated, looking at ways history turned on a tiny unlucky break, resulting in things being, from my perspective, significantly worse than they otherwise might have been but for a bit of bad luck.<p>I was thinking it might be helpful to consider cases of the opposite, when we got lucky and maybe I don't even realize it, since we wouldn't necessarily spend a lot of time thinking about, or even necessarily be aware of, a bad thing that merely <i>almost</i> happened. (Or even more so, a good thing that never did.)<p>The most obvious examples are the two instances of possibly averted nuclear war: Vasily Arkhipov blocking the launch of a nuclear strike from a Soviet sub during the Cuban missile crisis, and Stanislav Petrov choosing not to report an apparent missile launch from the US in the (correct) belief that it was a false alarm.<p>Are there any others that come to mind? I suppose someone with a very different belief system than mine might count some of my unlucky happenings instead as lucky ones, but are there any other reasonably objective ones? Discoveries made by chance that likely would not have been made for a long time otherwise? Wars narrowly averted? Other sorts of positive events I'm not even considering?<p>As a final aside, this wasn't in my mind when I started writing, but I'm now reminded of the Apple TV series For All Mankind. While it's obviously fiction and takes a lot of liberties, I think it does pretty well at showing how significantly history might be altered by individual events.</p></p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2025-09-26T16:02:35.028042",
+      "updated_at": "2025-09-26T16:02:35.028042",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "26a2d8944cb10b16e6524a4b7999e62a",
+        "source_id": "tempestn",
+        "username": "tempestn",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 13,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=45366446",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "8959127425740bd1e8c71f4e0e6038a2",
+        "source_id": "45386693",
+        "content": {
+          "text": "https://en.wikipedia.org/wiki/1983_Soviet_nuclear_false_alar... : “On 26 September 1983, during the Cold War, the Soviet nuclear early warning system Oko reported the launch of one intercontinental ballistic missile with four more missiles behind it, from the United States. These missile attack warnings were suspected to be false alarms by Stanislav Petrov, an engineer of the Soviet Air Defence Forces on duty at the command center of the early-warning system. He decided to wait for corroborating evidence—of which none arrived—rather than immediately relaying the warning up the chain of command. This decision is seen as having prevented a retaliatory nuclear strike against the United States and its NATO allies, which would likely have resulted in a full-scale nuclear war. Investigation of the satellite warning system later determined that the system had indeed malfunctioned.” reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:59.886270",
+        "updated_at": "2025-09-26T16:02:59.886270",
+        "author": {
+          "id": "e37081a4249d90c70ca1f5bfe761f74c",
+          "source_id": "Someone",
+          "username": "Someone",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "afe5c4701041f6200a4c47965e1f5a73",
+        "source_id": "45366496",
+        "content": {
+          "text": "One other one that just came to mind is the Chernobyl disaster. Obviously it was still a disaster (it's in the name!), but if I recall correctly, there was a water reservoir below the meltdown, which if reached (and I think it came close?) would likely have caused an explosion that would have spread enough radiation to make much of eastern Europe uninhabitable, among other disastrous effects. That's quite a dodged bullet. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:59.886810",
+        "updated_at": "2025-09-26T16:02:59.886810",
+        "author": {
+          "id": "26a2d8944cb10b16e6524a4b7999e62a",
+          "source_id": "tempestn",
+          "username": "tempestn",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "51f8dd2c3b4eb38ca41a4dbbdb8cd56a",
+        "source_id": "45367042",
+        "content": {
+          "text": "I bet this question would also get a lot of fun answers on the AskHistorians subreddit. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:59.887367",
+        "updated_at": "2025-09-26T16:02:59.887367",
+        "author": {
+          "id": "bd9c0023ac6d77f0d1ed18565ffc1bdc",
+          "source_id": "karlshea",
+          "username": "karlshea",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "bc2cd2ca78d45d91a385f4cf3ba593f9",
+        "source_id": "45377667",
+        "content": {
+          "text": "Someone (OP it's your question) should post this question there. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:59.887906",
+        "updated_at": "2025-09-26T16:02:59.887906",
+        "author": {
+          "id": "32cb79ce86a6bc1b119cc56b43cee171",
+          "source_id": "bawis",
+          "username": "bawis",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c558fc60606951498b50df97d1bca438",
+        "source_id": "45380083",
+        "content": {
+          "text": "Done! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:59.888486",
+        "updated_at": "2025-09-26T16:02:59.888486",
+        "author": {
+          "id": "26a2d8944cb10b16e6524a4b7999e62a",
+          "source_id": "tempestn",
+          "username": "tempestn",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c03efef838e2c67c9a4d6c5b2de5ed54",
+        "source_id": "45381548",
+        "content": {
+          "text": "And removed because they don't allow \"hypothetical questions\". reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:59.889075",
+        "updated_at": "2025-09-26T16:02:59.889075",
+        "author": {
+          "id": "26a2d8944cb10b16e6524a4b7999e62a",
+          "source_id": "tempestn",
+          "username": "tempestn",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f9f2722d3086cac022fb70ecbcf1ae06",
+        "source_id": "45383685",
+        "content": {
+          "text": ":( reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:59.889709",
+        "updated_at": "2025-09-26T16:02:59.889709",
+        "author": {
+          "id": "bd9c0023ac6d77f0d1ed18565ffc1bdc",
+          "source_id": "karlshea",
+          "username": "karlshea",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c3c558b6a832a16e9fbc515e91d66090",
+        "source_id": "45367017",
+        "content": {
+          "text": "HIV being relatively intransmissible. I don’t know the biodynamics of a virus with its case fatality rate and latency period being susceptible to airborne transmission, but if it had been… reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:59.890381",
+        "updated_at": "2025-09-26T16:02:59.890381",
+        "author": {
+          "id": "e6cbe1d57e2aa9558f753125af7edaf4",
+          "source_id": "nocoiner",
+          "username": "nocoiner",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "fc97a24ad564b8fa9ab875d9d9d50311",
+        "source_id": "45368750",
+        "content": {
+          "text": "I have often thought about the timing of HIV's emergence. Retroviruses were discovered only a few years before the first AIDS cases.  The molecular amplification technologies that form the basis of HIV testing were only developed in the 1970s.  The first antivirals that worked against HIV had been developed to treat other retroviruses, just a few years before, too. If it had emerged in the early 20th century, there would have been no tests for it and no treatments for it.  It would have been impossible to control.  (We don't do a very good job of it even with all the tools we have now.) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:59.891080",
+        "updated_at": "2025-09-26T16:02:59.891080",
+        "author": {
+          "id": "206f8e07f461cb59a1cbb899c3a76f46",
+          "source_id": "retrac",
+          "username": "retrac",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8da5d3c681e279dfb06d0ad9a5f032a7",
+        "source_id": "45367063",
+        "content": {
+          "text": "The discovery of penicillin in dirty petris that had been left out over vacation: https://time.com/4049403/alexander-fleming-history/ reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:59.891813",
+        "updated_at": "2025-09-26T16:02:59.891813",
+        "author": {
+          "id": "d4583c0914283548320364e00b088f12",
+          "source_id": "RickS",
+          "username": "RickS",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1f2d6e256e1fb4c2492bfacd6d34fbbd",
+        "source_id": "45369365",
+        "content": {
+          "text": "I wonder how much later antibiotics would have been discovered if not for that. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:59.892565",
+        "updated_at": "2025-09-26T16:02:59.892565",
+        "author": {
+          "id": "26a2d8944cb10b16e6524a4b7999e62a",
+          "source_id": "tempestn",
+          "username": "tempestn",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9781c8f239280f0fce0f90fe08f8c793",
+        "source_id": "45373789",
+        "content": {
+          "text": "It took thousands of years for people to discover agriculture. Eventually they all do or they get assimilated by the ones who do. But I think this might have taken a very, very long time as well. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:59.893415",
+        "updated_at": "2025-09-26T16:02:59.893415",
+        "author": {
+          "id": "65547db35ad470ce1d9e44d413173434",
+          "source_id": "muzani",
+          "username": "muzani",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c1e093844ee20a2eeb829519255ff1f6",
+        "source_id": "45367307",
+        "content": {
+          "text": "Stanislav Petrov reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:59.894265",
+        "updated_at": "2025-09-26T16:02:59.894265",
+        "author": {
+          "id": "8f7c85d58c523732ed26a77e04dab4f8",
+          "source_id": "getlawgdon",
+          "username": "getlawgdon",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "914f18ffb3a232d11a3405e4adb4cf05",
+        "source_id": "45367440",
+        "content": {
+          "text": "Your heart is in the right place, and Stanislav Petrov deserves all of our respect. However, the reality is more complicated. Due to geography, USSR used a system called dead hand [0] to detect a nuclear attack and to retaliate. In particular, SLBMs launched by US off the coast of Norway needed only 5 minutes travel time to Moscow. Similarly, US Pershing missiles stationed in West Germany required about 6-7 minutes to reach Moscow. All of these meant USSR required a nuclear retaliatory system that could prevent hasty decisions. Hence Dead Hand system. On the other hand, Vasily Arkhipov probably stopped a nuclear war in Oct 1962 [1]... [0] https://en.wikipedia.org/wiki/Dead_Hand [1] https://en.wikipedia.org/wiki/Vasily_Arkhipov reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:59.895159",
+        "updated_at": "2025-09-26T16:02:59.895159",
+        "author": {
+          "id": "1e211b3784fb11fd268a038e429a8675",
+          "source_id": "dh2022",
+          "username": "dh2022",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c54530c9832f992c1314935cae40c2ba",
+        "source_id": "45366952",
+        "content": {
+          "text": "I just finished Hot Zone by Richard Preston, which is about some of the origins of Ebola and an example case of potential disaster being thwarted by the hair of our chin. Fun read. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:59.895988",
+        "updated_at": "2025-09-26T16:02:59.895988",
+        "author": {
+          "id": "ef25495e87933ff1f7303151617454f8",
+          "source_id": "codyro",
+          "username": "codyro",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "74d2261488f9cf97d69d296c943d9aa9",
+        "source_id": "45370614",
+        "content": {
+          "text": "The Battle of Vienna The Battle of Plataea reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:59.896875",
+        "updated_at": "2025-09-26T16:02:59.896875",
+        "author": {
+          "id": "fde01731e78b288548829b525bb8dbe2",
+          "source_id": "seydor",
+          "username": "seydor",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "65aac9b5a9c8537c841beea6503a1083",
+        "source_id": "45368103",
+        "content": {
+          "text": "Hitler didn't get the nuke. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:02:59.897783",
+        "updated_at": "2025-09-26T16:02:59.897783",
+        "author": {
+          "id": "b2e8d903776f124bf9c526e98f9f75d1",
+          "source_id": "ivape",
+          "username": "ivape",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2025-09-26T16:02:59.898363",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "f514aad411077d494c5c3d94d298551c",
+      "source_id": "45370850",
+      "title": "Ask HN: How do you control internet access for your kids?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">There are so many different approaches that I find it difficult to feel comfortable about her using the internet without my 10-year-old daughter feeling like I'm constantly looking over her shoulder. She's generally sensible and doesn't go searching for age-inappropriate stuff, for which I'm grateful, but recently she said she was searching for butterfly pictures and came across something that freaked her out a bit. (She doesn't want to tell me what it was because she's embarrassed - I've not forced her to tell me because I want to give her time to tell me in her own time, but I know she'll tell me eventually and we'll be able to have a conversation about it. In general she'll ask if she's not sure about something, which is also reassuring.)<p>Currently on her laptop I have the kids version of Kagi and uBlock Origin on Firefox, as well as a browser extension that you have to explicitly whitelist domains before they're available. It's the last of these that I'd like to drop somehow - it feels too limiting that every time she goes to a new domain I have to whitelist it, and I'd like to delegate that to a service that approximates my feeling about what's appropriate, or works that out from a few settings, so she's freer to explore the web.<p>A while ago I tried setting up a Google account for her to filter what she could watch on YouTube, but (a) had issues with my personal Workspace account not being able to be used as a parent account and (b) at the time the filtering was too restrictive because it was like a Google-approved whitelisting approach that excluded lots of channels that weren't specifically targeted at kids, but she was still interested in. (There was an interesting discussion of what you can do with YouTube and whitelisting here - https://news.ycombinator.com/item?id=44740380 - that didn't quite seem to resolve itself.)<p>I used Claude to write a browser extension that allowed me to do what I mention above - whitelisting YouTube channels - as well as hiding shorts by default, but I'm not convinced it'll function consistently given that it's just a CSS / JS layer over the YouTube UI. I could just feed it back into Claude if it starts failing, but I won't know when that's happens because I won't be the one using it.<p>I'd be interested to hear everyone's approaches and ideas about how to do this because I'm sure there are some good ideas I haven't thought of.</p></p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2025-09-26T16:02:35.028580",
+      "updated_at": "2025-09-26T16:02:35.028580",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "7d659ef8487237d4260e76aab730d460",
+        "source_id": "frereubu",
+        "username": "frereubu",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 5,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=45370850",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "3d8c3f66ff5d4d544778da5f536a0263",
+        "source_id": "45382518",
+        "content": {
+          "text": "My experience as a child was that my parents installed a second monitor on an extron display signal splitter to another monitor in the living room -- so you were always being watched. It worked until I learned about extended desktop. So, the conversation and respect to help your child find their way is the way. Control is rarely helpful, although I see what you're doing now as protection and am glad you're looking to lift it as you can. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:03:01.908054",
+        "updated_at": "2025-09-26T16:03:01.908054",
+        "author": {
+          "id": "19ac23c3379c9b33c101ea3d61dffed7",
+          "source_id": "leakycap",
+          "username": "leakycap",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4f5d00a1a4b38d320b60b02905047315",
+        "source_id": "45371108",
+        "content": {
+          "text": "You can configure a Pi-hole with filter lists. Alternatively, Cloudflare, Mullvad and Adguard offer public DNS resolvers with family-friendly filter lists. For YouTube there's the BlockTube browser extension. You'll need to configure it yourself, but it's very flexible. It lets you block channels, videos and keywords. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:03:01.908609",
+        "updated_at": "2025-09-26T16:03:01.908609",
+        "author": {
+          "id": "50f5063e693788afc95a516bde3179b2",
+          "source_id": "uyzstvqs",
+          "username": "uyzstvqs",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "30a58d61c35b2ecf233622ca44d138f1",
+        "source_id": "45371194",
+        "content": {
+          "text": "Thanks for the DNS resolver idea - will look into that. The issue with having to actively block YouTube channels is that there are so many! I really want something where all channels are blocked by default and I can whitelist them, but without actually hiding the channels themselves, just stopping the videos from playing so discovery isn't affected. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:03:01.909147",
+        "updated_at": "2025-09-26T16:03:01.909147",
+        "author": {
+          "id": "7d659ef8487237d4260e76aab730d460",
+          "source_id": "frereubu",
+          "username": "frereubu",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8de1729a92bf8293bf5827b2b9440a8b",
+        "source_id": "45371955",
+        "content": {
+          "text": "BlockTube also has an advanced blocking feature[0], which lets you define blocks using JavaScript if statements. You can flip it around to a whitelist-system by returning true (block) by default, and returning false (don't block) on your rules. But this does hide videos from search, recommended, homepage, etc. What you're suggesting could potentially be done by creating an extension which checks the channel_id, then blocks calls to the /videoplayback endpoint if the channel is not whitelisted. Though do be aware that titles and thumbnails could also be explicit. Side note: All of this is very technical and not suitable for the average parent, which is not great. [0] https://github.com/amitbl/blocktube/wiki/Advanced-Blocking reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:03:01.909742",
+        "updated_at": "2025-09-26T16:03:01.909742",
+        "author": {
+          "id": "50f5063e693788afc95a516bde3179b2",
+          "source_id": "uyzstvqs",
+          "username": "uyzstvqs",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7a39cb2255c12f7b05c30ed5b09400d0",
+        "source_id": "45373166",
+        "content": {
+          "text": "1. Don't buy your kids a cell phone until they are ready to drive. 2. Force all home network traffic through a DNS service you manage, for example a PiHole. 3. Back up the PiHole with a commercial DNS point that also filters like CloudFlare Family DNS (its free). 4. Every few months inspect your children's devices for their internet activity, VPNs, and other things. I suspect there will be many excuses about how children cannot possibly live life without a cellphone or about how draconian these rules are.  The reality is you are either being an active parent or you just don't really care. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:03:01.910361",
+        "updated_at": "2025-09-26T16:03:01.910361",
+        "author": {
+          "id": "0ae492937dcc65e2e9ad4e3b8663757f",
+          "source_id": "austin-cheney",
+          "username": "austin-cheney",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "91fa2af50eac399887a60c83ff7511ef",
+        "source_id": "45372295",
+        "content": {
+          "text": "we'll be able to have a conversation about it That is all you really have. Conversation. Trust. Everything else is pretending their peers don’t have internet access. Pretending your child isn’t clever. Isn’t an autonomous person. Every bit of time you spend shopping for solutions, spend writing code, spend configuring firewalls is time you don’t spend on your peer to peer relationship with your child. Time you don’t spend building trust. Time you don’t spend talking. Ten years old is about the end of reliable “because I said so” parenting. Good luck. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:03:01.911000",
+        "updated_at": "2025-09-26T16:03:01.911000",
+        "author": {
+          "id": "9a688e4c7583fd52091f8f5b41db97b2",
+          "source_id": "brudgers",
+          "username": "brudgers",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a42a4a53207096f486c9ad07641c4f6d",
+        "source_id": "45373702",
+        "content": {
+          "text": "When I was in university, there were a whole bunch of people who \"gooned\" and failed exams. Most were from conservative families and were not given any internet access whatsoever. They never built the \"antibodies\" for the wild wild web. I do restrict my kids' phone access, but often it's with discussion. I tell them I'm shutting down their phone access. Usually when they don't do their homework or when they start getting emotional. They'll build the self control muscle. And when they find the hard stuff, they'll be a little more prepared. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:03:01.911647",
+        "updated_at": "2025-09-26T16:03:01.911647",
+        "author": {
+          "id": "65547db35ad470ce1d9e44d413173434",
+          "source_id": "muzani",
+          "username": "muzani",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "784b3acd0ca89633648ee19ff902ac17",
+        "source_id": "45372534",
+        "content": {
+          "text": "I think this is the way... OP is already doing the things that can be done. You could try to educate more on how to do things right instead of trying to block anything that might freak her out, e.g. searching for pictures only on curated sites like pixabay. However, basic filtering (adblock, kagi, DNS filter), trust and communication are the only things required in my opinion... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:03:01.912340",
+        "updated_at": "2025-09-26T16:03:01.912340",
+        "author": {
+          "id": "b7886d1878c24de9ae3d054b051f0cf3",
+          "source_id": "sandreas",
+          "username": "sandreas",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "004ad223b3357be1d0661e7bdb2a468f",
+        "source_id": "45371110",
+        "content": {
+          "text": "trying to use youtube kids but haven't tried filters as i want to filter certain things like cocomelon bebefinn and blippi. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:03:01.913016",
+        "updated_at": "2025-09-26T16:03:01.913016",
+        "author": {
+          "id": "b957d5765353f8bfa5af58c3bb2c1642",
+          "source_id": "majortennis",
+          "username": "majortennis",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2025-09-26T16:03:01.913372",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "c2eff91d061cf1d11db362d0d58a7f61",
+      "source_id": "45371249",
+      "title": "Ask HN: Software jobs with high barriers of entry?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">Are there any software jobs that actually have a high barrier of entry? Besides maybe an LLM Engineer?<p>I feel like no matter what type of engineer you become there is always gonna be a bunch of ppl who you’re competing with. Perhaps someone are slightly more competitive than others like a devops person, but overall, i feel like the entire SWE field has become a commodity<p>Are there actually any software jobs that require a ton of schooling, or a ton of self education? Like literally years and years like you need to become a pediatrician or a lawyer</p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2025-09-26T16:02:35.029329",
+      "updated_at": "2025-09-26T16:02:35.029329",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "538dd614bef10b28d711d687c06ae00c",
+        "source_id": "Poomba",
+        "username": "Poomba",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 4,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=45371249",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "85d323778cdf3ec0409692a85e722b71",
+        "source_id": "45384067",
+        "content": {
+          "text": "You could go into \"low code\" integration platforms, the ones where you code with your mouse (i.e. webMethods) As it is a mess this is probably pretty LLM save at the moment. On the other hand they will probably serve some tools for that in the future :-D reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:03:03.806026",
+        "updated_at": "2025-09-26T16:03:03.806026",
+        "author": {
+          "id": "774b782e36bf548df58843da96250a1d",
+          "source_id": "ensocode",
+          "username": "ensocode",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c381e8a173533dd1548f8135ac469b62",
+        "source_id": "45372018",
+        "content": {
+          "text": "You are looking at jobs where you are paid to deliver something and where coding is just a tool towards that end, but not the deliverable itself. For example, consider computational research in a domain like healthcare: the job is to find new insights about patients or diseases that allow you to develop better treatments. Most of the time is spent on coding data analysis pipelines, but the truly vauable professional also knows enough about the domain that they are able to interpret the results, conduct follow up analyses and talk at eye level with medical doctors and biologists. The skill ceiling for this kind of position is thus quite high since you need to be proficient in three distinct domains (coding, biology, statistics). reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:03:03.806571",
+        "updated_at": "2025-09-26T16:03:03.806571",
+        "author": {
+          "id": "ce14eb46a8962472e80865e634387995",
+          "source_id": "blackbear_",
+          "username": "blackbear_",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8efd5ca2cc3e631329e3a3e3dee67bbc",
+        "source_id": "45384903",
+        "content": {
+          "text": "from my perspective some 'low level' job like compiler, os kernel, performance tuning may require rich experience. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:03:03.807073",
+        "updated_at": "2025-09-26T16:03:03.807073",
+        "author": {
+          "id": "b387f5eb56184add19087b46f0310238",
+          "source_id": "liqilin1567",
+          "username": "liqilin1567",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2025-09-26T16:03:03.807250",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "8b8ea58c25b1588cf8c1b94a989498c8",
+      "source_id": "45360537",
+      "title": "Ask HN: How do you expose telemetry data to non-tech?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">Hey,<p>We have a ton of logging/metrics in kibana/prometheus, so whenever there is an issue with some client data feed or whatever, support asks us to check what happened.\nSince the problem might not be on our side, developers started giving non-tech teams access to those tools. Feels a bit weird to have a non-tech build a grafana dashboard, and do some sort of debugging, but even if it's clumsy they do seem to enjoy the visibility they get over the system, and developers are no longer in charge of debugging every little thing.<p>Is this specific to our business ? Or is this something you have experienced as well ? If so how were you able to expose this data to non-tech people.</p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2025-09-26T16:02:35.029837",
+      "updated_at": "2025-09-26T16:02:35.029837",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "9f895201545d76d1eb704e7e6d71d735",
+        "source_id": "mehdig10",
+        "username": "mehdig10",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 10,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=45360537",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "254f7b0ee1bb8f8b2f576a9a89b2092c",
+        "source_id": "45362041",
+        "content": {
+          "text": "Here's what I did that worked for last two teams I managed. We used slack as a hub for everything, we had some brittle [1] services so there were cron scripts that ran every minute and would alert to slack when it was down @ing someone. Likewise rolled own dumb logger that just simply existed as a middleware initially to capture requests and responses and certain events were logged to slack and disk in the code with `event(enum, json)`. This slack bot could also dump certain info for users or events with some slash commands provided you had an id. From these logs and other bits added over time could see when execs connected or someone had difficulty with auth, a job or method took abnormally long and current active sessions etc. This grew to support ceo, marketing and other devs and got pretty involved at some point we had small services tied in that could visualize geojson over a map for a trip completed, dump a replay session or get all stacktraces for the day. Also for 3rd party services we couldn't tie into directly used a proxy setup where we didn't call it directly but inside a wrapper where we could capture data so a call to `api.somesite.com/v1/events` became `mysite.com/proxy?site=api.somesite.com/v1/events` in our apps so when our clients called this we knew and could again log. Since this seems close enough to the similar problem I had you could take a look at this approach and start with what's being requested or the repeating problems and have a central hub for others ingest these via discord or slack and appropriate channels #3rd-party-uptimes, #backups, #raw-logs, #events. From this we rarely used our dashboards, bugsnag or had the need to ssh into any server to pull access or error logs. - [1] This one was particularly so because they had a org policy to randomly reset vpn passwords and the only way to change it was using a desktop client to basically set the same password again. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:03:08.487243",
+        "updated_at": "2025-09-26T16:03:08.487243",
+        "author": {
+          "id": "4cc4761e94171bb23756003a1383acad",
+          "source_id": "iKlsR",
+          "username": "iKlsR",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2011d6cf0e89618b8648a3ac80ea0d1f",
+        "source_id": "45361793",
+        "content": {
+          "text": "I'd argue this is an issue not just with \"non-tech\" folks, but even engineers who don't have experience with Prometheus and other time-series databases. Learning promql always seemed like a hard thing to ask of other engineers. Grafana has made it easier to explore and build queries over time, but there are still quirks and nuances that can be difficult to explain to people whose role doesn't typically involve scouring through metrics. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:03:08.487761",
+        "updated_at": "2025-09-26T16:03:08.487761",
+        "author": {
+          "id": "cf1f512e6e612ca98a37b345f50d01dd",
+          "source_id": "garettmd",
+          "username": "garettmd",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "449d34815058cfd7383f4e463d19c86c",
+        "source_id": "45361853",
+        "content": {
+          "text": "yeah promql is a nightmare... don't know if datadog's better at that reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:03:08.488290",
+        "updated_at": "2025-09-26T16:03:08.488290",
+        "author": {
+          "id": "9f895201545d76d1eb704e7e6d71d735",
+          "source_id": "mehdig10",
+          "username": "mehdig10",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "08ff0a7605607c5edb83a264c65eab42",
+        "source_id": "45360560",
+        "content": {
+          "text": "https://www.statuspage.io/ or an open equivalent ( https://github.com/oneuptime/oneuptime ) perhaps? It's a straightforward implementation shim to distill from engineering telemetry to the non tech interface in my experience. Think of this as scaling engineering comms to non engineering parts of the org. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:03:08.488857",
+        "updated_at": "2025-09-26T16:03:08.488857",
+        "author": {
+          "id": "4ca46018a23adaa01543351cde9925a8",
+          "source_id": "toomuchtodo",
+          "username": "toomuchtodo",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c0af89634418e7c09fbbbf94874683cc",
+        "source_id": "45360675",
+        "content": {
+          "text": "yeah but in my experience it's either the information is very shallow (like status page) or too technical (like traces). i feel like non engineering parts of the org still want to have a view of what's slow, what's fast, how much data we ingested and things like that reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:03:08.489415",
+        "updated_at": "2025-09-26T16:03:08.489415",
+        "author": {
+          "id": "9f895201545d76d1eb704e7e6d71d735",
+          "source_id": "mehdig10",
+          "username": "mehdig10",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e8a2c886478b01b57f525eab32635e80",
+        "source_id": "45360870",
+        "content": {
+          "text": "Engineering is always about tradeoffs. Observe, measure, and iterate accordingly. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2025-09-26T16:03:08.489997",
+        "updated_at": "2025-09-26T16:03:08.489997",
+        "author": {
+          "id": "4ca46018a23adaa01543351cde9925a8",
+          "source_id": "toomuchtodo",
+          "username": "toomuchtodo",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2025-09-26T16:03:08.490246",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
   }
 ]
