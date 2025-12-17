@@ -1,0 +1,37 @@
+2025-12-17 16:02:38,619 - __main__ - INFO - 运行所有爬虫
+2025-12-17 16:02:38,619 - scrapers.jandan_scraper - INFO - JandanScraper初始化完成
+2025-12-17 16:02:38,619 - scrapers.base_scraper - INFO - 开始爬取 煎蛋网
+2025-12-17 16:02:38,619 - scrapers.jandan_scraper - INFO - 开始爬取煎蛋热评
+2025-12-17 16:02:43,085 - scrapers.jandan_scraper - INFO - 成功获取HTML内容，长度: 24797
+2025-12-17 16:02:43,085 - scrapers.jandan_scraper - INFO - 调试: 手动获取评论 5877984 的吐槽数据
+2025-12-17 16:02:43,085 - scrapers.jandan_scraper - INFO - 获取评论 5877984 的吐槽内容: https://jandan.net/api/tucao/list/5877984
+2025-12-17 16:02:44,810 - scrapers.jandan_scraper - INFO - 评论 5877984 获取到 1 条热门吐槽, 3 条普通吐槽
+2025-12-17 16:02:44,810 - scrapers.jandan_scraper - INFO - 调试: 评论 5877984 获取到 1 条热门吐槽, 3 条普通吐槽
+2025-12-17 16:02:44,810 - scrapers.jandan_scraper - INFO - 开始解析页面中的评论
+2025-12-17 16:02:44,810 - scrapers.jandan_scraper - INFO - 开始解析HTML内容, 长度: 24797
+2025-12-17 16:02:44,819 - scrapers.jandan_scraper - INFO - 找到 0 条热门评论
+2025-12-17 16:02:44,819 - scrapers.jandan_scraper - INFO - 解析完成，获取到 0 条评论
+2025-12-17 16:02:44,819 - scrapers.jandan_scraper - INFO - 开始转换评论为统一格式
+2025-12-17 16:02:44,819 - scrapers.jandan_scraper - INFO - 开始转换 0 条评论到统一格式
+2025-12-17 16:02:44,819 - scrapers.jandan_scraper - INFO - 共转换 0 条评论为统一格式
+2025-12-17 16:02:44,819 - scrapers.jandan_scraper - INFO - 爬取完成，共获取 0 条热评
+2025-12-17 16:02:44,819 - scrapers.base_scraper - ERROR - 爬取 煎蛋网 失败
+2025-12-17 16:02:44,819 - scrapers.reddit_scraper - INFO - RedditScraper初始化完成
+2025-12-17 16:02:44,820 - scrapers.base_scraper - INFO - 开始爬取 Reddit
+2025-12-17 16:02:44,821 - scrapers.reddit_scraper - INFO - 开始爬取Reddit r/confessions每周热门帖子
+2025-12-17 16:02:47,353 - utils.http_utils - ERROR - 请求失败: https://www.reddit.com/r/confessions/top/.json?t=week&limit=10, 错误: 403 Client Error: Blocked for url: https://www.reddit.com/r/confessions/top/.json?t=week&limit=10
+2025-12-17 16:02:47,354 - scrapers.reddit_scraper - ERROR - 获取API数据失败: 403 Client Error: Blocked for url: https://www.reddit.com/r/confessions/top/.json?t=week&limit=10
+2025-12-17 16:02:47,354 - scrapers.base_scraper - ERROR - 爬取 Reddit 失败
+2025-12-17 16:02:47,354 - scrapers.hackernews_scraper - INFO - HackerNewsScraper初始化完成
+2025-12-17 16:02:47,355 - scrapers.base_scraper - INFO - 开始爬取 Hacker News
+2025-12-17 16:02:47,355 - scrapers.hackernews_scraper - INFO - 开始爬取Hacker News Ask HN帖子
+2025-12-17 16:02:47,355 - scrapers.hackernews_scraper - INFO - 获取Ask HN页面: https://news.ycombinator.com/ask
+2025-12-17 16:02:53,676 - utils.http_utils - ERROR - 请求失败: https://news.ycombinator.com/ask, 错误: HTTPSConnectionPool(host='news.ycombinator.com', port=443): Max retries exceeded with url: /ask (Caused by ResponseError('too many 502 error responses'))
+2025-12-17 16:02:53,677 - scrapers.hackernews_scraper - ERROR - 获取Ask HN页面失败
+2025-12-17 16:02:53,677 - scrapers.hackernews_scraper - ERROR - 未能获取Ask HN页面内容
+2025-12-17 16:02:53,677 - scrapers.base_scraper - ERROR - 爬取 Hacker News 失败
+2025-12-17 16:02:53,678 - __main__ - INFO - 完成: 0/3 个爬虫成功运行
+2025-12-17 16:02:53,892 - __main__ - INFO - 归档所有源的旧数据
+2025-12-17 16:02:53,892 - __main__ - INFO - 源 jandan 归档 无需归档
+2025-12-17 16:02:53,892 - __main__ - INFO - 源 reddit 归档 无需归档
+2025-12-17 16:02:53,892 - __main__ - INFO - 源 hackernews 归档 无需归档
