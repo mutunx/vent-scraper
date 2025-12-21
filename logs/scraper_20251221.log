@@ -1,0 +1,102 @@
+2025-12-21 16:02:07,798 - __main__ - INFO - 运行所有爬虫
+2025-12-21 16:02:07,798 - scrapers.jandan_scraper - INFO - JandanScraper初始化完成
+2025-12-21 16:02:07,798 - scrapers.base_scraper - INFO - 开始爬取 煎蛋网
+2025-12-21 16:02:07,798 - scrapers.jandan_scraper - INFO - 开始爬取煎蛋热评
+2025-12-21 16:02:12,038 - scrapers.jandan_scraper - INFO - 成功获取HTML内容，长度: 24797
+2025-12-21 16:02:12,038 - scrapers.jandan_scraper - INFO - 调试: 手动获取评论 5877984 的吐槽数据
+2025-12-21 16:02:12,038 - scrapers.jandan_scraper - INFO - 获取评论 5877984 的吐槽内容: https://jandan.net/api/tucao/list/5877984
+2025-12-21 16:02:14,099 - scrapers.jandan_scraper - INFO - 评论 5877984 获取到 1 条热门吐槽, 3 条普通吐槽
+2025-12-21 16:02:14,100 - scrapers.jandan_scraper - INFO - 调试: 评论 5877984 获取到 1 条热门吐槽, 3 条普通吐槽
+2025-12-21 16:02:14,100 - scrapers.jandan_scraper - INFO - 开始解析页面中的评论
+2025-12-21 16:02:14,100 - scrapers.jandan_scraper - INFO - 开始解析HTML内容, 长度: 24797
+2025-12-21 16:02:14,108 - scrapers.jandan_scraper - INFO - 找到 0 条热门评论
+2025-12-21 16:02:14,108 - scrapers.jandan_scraper - INFO - 解析完成，获取到 0 条评论
+2025-12-21 16:02:14,108 - scrapers.jandan_scraper - INFO - 开始转换评论为统一格式
+2025-12-21 16:02:14,108 - scrapers.jandan_scraper - INFO - 开始转换 0 条评论到统一格式
+2025-12-21 16:02:14,108 - scrapers.jandan_scraper - INFO - 共转换 0 条评论为统一格式
+2025-12-21 16:02:14,108 - scrapers.jandan_scraper - INFO - 爬取完成，共获取 0 条热评
+2025-12-21 16:02:14,109 - scrapers.base_scraper - ERROR - 爬取 煎蛋网 失败
+2025-12-21 16:02:14,109 - scrapers.reddit_scraper - INFO - RedditScraper初始化完成
+2025-12-21 16:02:14,110 - scrapers.base_scraper - INFO - 开始爬取 Reddit
+2025-12-21 16:02:14,110 - scrapers.reddit_scraper - INFO - 开始爬取Reddit r/confessions每周热门帖子
+2025-12-21 16:02:15,257 - utils.http_utils - ERROR - 请求失败: https://www.reddit.com/r/confessions/top/.json?t=week&limit=10, 错误: 403 Client Error: Blocked for url: https://www.reddit.com/r/confessions/top/.json?t=week&limit=10
+2025-12-21 16:02:15,257 - scrapers.reddit_scraper - ERROR - 获取API数据失败: 403 Client Error: Blocked for url: https://www.reddit.com/r/confessions/top/.json?t=week&limit=10
+2025-12-21 16:02:15,258 - scrapers.base_scraper - ERROR - 爬取 Reddit 失败
+2025-12-21 16:02:15,258 - scrapers.hackernews_scraper - INFO - HackerNewsScraper初始化完成
+2025-12-21 16:02:15,258 - scrapers.base_scraper - INFO - 开始爬取 Hacker News
+2025-12-21 16:02:15,258 - scrapers.hackernews_scraper - INFO - 开始爬取Hacker News Ask HN帖子
+2025-12-21 16:02:15,258 - scrapers.hackernews_scraper - INFO - 获取Ask HN页面: https://news.ycombinator.com/ask
+2025-12-21 16:02:17,193 - scrapers.hackernews_scraper - INFO - 找到 30 个帖子行
+2025-12-21 16:02:17,195 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: What's a book that fun..., 作者=brihati, 点赞=3, 评论=0
+2025-12-21 16:02:17,195 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: What is still hard abo..., 作者=brihati, 点赞=2, 评论=0
+2025-12-21 16:02:17,196 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Those making $500/mont..., 作者=cvbox, 点赞=454, 评论=0
+2025-12-21 16:02:17,197 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: What are your predicti..., 作者=mfrw, 点赞=102, 评论=0
+2025-12-21 16:02:17,197 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: What public Claude Cod..., 作者=franze, 点赞=2, 评论=0
+2025-12-21 16:02:17,198 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Who here is not workin..., 作者=ex-aws-dude, 点赞=83, 评论=0
+2025-12-21 16:02:17,198 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Does anyone understand..., 作者=jannesblobel, 点赞=163, 评论=0
+2025-12-21 16:02:17,199 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Is GitHub becoming mor..., 作者=pavish, 点赞=6, 评论=0
+2025-12-21 16:02:17,200 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Is building a calm, no..., 作者=hussein-khalil, 点赞=87, 评论=0
+2025-12-21 16:02:17,201 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: How do you deal with l..., 作者=jack_ruru, 点赞=9, 评论=0
+2025-12-21 16:02:17,202 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: How are you LLM-coding..., 作者=adam_gyroscope, 点赞=70, 评论=0
+2025-12-21 16:02:17,202 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Should I start a softw..., 作者=strgcmc, 点赞=13, 评论=0
+2025-12-21 16:02:17,203 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Is Stack Overflow Dead..., 作者=raphar, 点赞=12, 评论=0
+2025-12-21 16:02:17,203 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: What would you call a ..., 作者=ctc24, 点赞=7, 评论=0
+2025-12-21 16:02:17,204 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Do you allow vibecoded..., 作者=sneas, 点赞=3, 评论=0
+2025-12-21 16:02:17,204 - scrapers.hackernews_scraper - INFO - 成功解析 15 个Ask HN故事
+2025-12-21 16:02:17,204 - scrapers.hackernews_scraper - INFO - 开始转换 15 个故事到统一格式
+2025-12-21 16:02:17,204 - scrapers.hackernews_scraper - INFO - 转换第 1/15 个故事: Ask HN: What's a book that fun...
+2025-12-21 16:02:18,862 - scrapers.hackernews_scraper - INFO - 找到 2 条评论
+2025-12-21 16:02:18,864 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: What's a book that fun... 转换完成，包含 2 条评论
+2025-12-21 16:02:18,864 - scrapers.hackernews_scraper - INFO - 转换第 2/15 个故事: Ask HN: What is still hard abo...
+2025-12-21 16:02:20,734 - scrapers.hackernews_scraper - INFO - 找到 2 条评论
+2025-12-21 16:02:20,735 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: What is still hard abo... 转换完成，包含 2 条评论
+2025-12-21 16:02:20,735 - scrapers.hackernews_scraper - INFO - 转换第 3/15 个故事: Ask HN: Those making $500/mont...
+2025-12-21 16:02:23,816 - scrapers.hackernews_scraper - INFO - 找到 529 条评论
+2025-12-21 16:02:28,283 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Those making $500/mont... 转换完成，包含 100 条评论
+2025-12-21 16:02:28,283 - scrapers.hackernews_scraper - INFO - 转换第 4/15 个故事: Ask HN: What are your predicti...
+2025-12-21 16:02:30,695 - scrapers.hackernews_scraper - INFO - 找到 189 条评论
+2025-12-21 16:02:31,324 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: What are your predicti... 转换完成，包含 100 条评论
+2025-12-21 16:02:31,325 - scrapers.hackernews_scraper - INFO - 转换第 5/15 个故事: Ask HN: What public Claude Cod...
+2025-12-21 16:02:33,122 - scrapers.hackernews_scraper - INFO - 找到 4 条评论
+2025-12-21 16:02:33,125 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: What public Claude Cod... 转换完成，包含 4 条评论
+2025-12-21 16:02:33,125 - scrapers.hackernews_scraper - INFO - 转换第 6/15 个故事: Ask HN: Who here is not workin...
+2025-12-21 16:02:34,950 - scrapers.hackernews_scraper - INFO - 找到 94 条评论
+2025-12-21 16:02:35,122 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Who here is not workin... 转换完成，包含 94 条评论
+2025-12-21 16:02:35,122 - scrapers.hackernews_scraper - INFO - 转换第 7/15 个故事: Ask HN: Does anyone understand...
+2025-12-21 16:02:38,745 - scrapers.hackernews_scraper - INFO - 找到 227 条评论
+2025-12-21 16:02:39,641 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Does anyone understand... 转换完成，包含 100 条评论
+2025-12-21 16:02:39,641 - scrapers.hackernews_scraper - INFO - 转换第 8/15 个故事: Ask HN: Is GitHub becoming mor...
+2025-12-21 16:02:41,135 - scrapers.hackernews_scraper - INFO - 找到 2 条评论
+2025-12-21 16:02:41,136 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Is GitHub becoming mor... 转换完成，包含 2 条评论
+2025-12-21 16:02:41,136 - scrapers.hackernews_scraper - INFO - 转换第 9/15 个故事: Ask HN: Is building a calm, no...
+2025-12-21 16:02:44,038 - scrapers.hackernews_scraper - INFO - 找到 122 条评论
+2025-12-21 16:02:44,321 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Is building a calm, no... 转换完成，包含 100 条评论
+2025-12-21 16:02:44,321 - scrapers.hackernews_scraper - INFO - 转换第 10/15 个故事: Ask HN: How do you deal with l...
+2025-12-21 16:02:47,172 - scrapers.hackernews_scraper - INFO - 找到 10 条评论
+2025-12-21 16:02:47,179 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: How do you deal with l... 转换完成，包含 10 条评论
+2025-12-21 16:02:47,179 - scrapers.hackernews_scraper - INFO - 转换第 11/15 个故事: Ask HN: How are you LLM-coding...
+2025-12-21 16:02:49,898 - scrapers.hackernews_scraper - INFO - 找到 66 条评论
+2025-12-21 16:02:49,994 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: How are you LLM-coding... 转换完成，包含 66 条评论
+2025-12-21 16:02:49,994 - scrapers.hackernews_scraper - INFO - 转换第 12/15 个故事: Ask HN: Should I start a softw...
+2025-12-21 16:02:51,365 - scrapers.hackernews_scraper - INFO - 找到 1 条评论
+2025-12-21 16:02:51,365 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Should I start a softw... 转换完成，包含 1 条评论
+2025-12-21 16:02:51,366 - scrapers.hackernews_scraper - INFO - 转换第 13/15 个故事: Ask HN: Is Stack Overflow Dead...
+2025-12-21 16:02:53,414 - scrapers.hackernews_scraper - INFO - 找到 17 条评论
+2025-12-21 16:02:53,427 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Is Stack Overflow Dead... 转换完成，包含 17 条评论
+2025-12-21 16:02:53,427 - scrapers.hackernews_scraper - INFO - 转换第 14/15 个故事: Ask HN: What would you call a ...
+2025-12-21 16:02:55,473 - scrapers.hackernews_scraper - INFO - 找到 9 条评论
+2025-12-21 16:02:55,479 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: What would you call a ... 转换完成，包含 9 条评论
+2025-12-21 16:02:55,479 - scrapers.hackernews_scraper - INFO - 转换第 15/15 个故事: Ask HN: Do you allow vibecoded...
+2025-12-21 16:02:56,938 - scrapers.hackernews_scraper - INFO - 找到 10 条评论
+2025-12-21 16:02:56,945 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Do you allow vibecoded... 转换完成，包含 10 条评论
+2025-12-21 16:02:56,945 - scrapers.hackernews_scraper - INFO - 共转换 15 个故事为统一格式
+2025-12-21 16:02:56,945 - scrapers.hackernews_scraper - INFO - 爬取完成，共获取 15 个Ask HN故事
+2025-12-21 16:02:57,594 - utils.storage_utils - INFO - 已更新源索引: hackernews
+2025-12-21 16:02:57,597 - utils.storage_utils - INFO - 数据已保存到 data/hackernews/week_2025-12-15.json
+2025-12-21 16:02:57,599 - scrapers.base_scraper - INFO - 数据已保存到 data/hackernews/week_2025-12-15.json
+2025-12-21 16:02:57,599 - scrapers.base_scraper - INFO - 成功爬取 Hacker News 的数据
+2025-12-21 16:02:57,600 - __main__ - INFO - 完成: 1/3 个爬虫成功运行
+2025-12-21 16:02:57,816 - __main__ - INFO - 归档所有源的旧数据
+2025-12-21 16:02:57,817 - __main__ - INFO - 源 jandan 归档 无需归档
+2025-12-21 16:02:57,817 - __main__ - INFO - 源 reddit 归档 无需归档
+2025-12-21 16:02:57,817 - __main__ - INFO - 源 hackernews 归档 无需归档
