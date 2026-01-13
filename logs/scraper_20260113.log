@@ -1,0 +1,102 @@
+2026-01-13 16:03:39,780 - __main__ - INFO - 运行所有爬虫
+2026-01-13 16:03:39,780 - scrapers.jandan_scraper - INFO - JandanScraper初始化完成
+2026-01-13 16:03:39,781 - scrapers.base_scraper - INFO - 开始爬取 煎蛋网
+2026-01-13 16:03:39,781 - scrapers.jandan_scraper - INFO - 开始爬取煎蛋热评
+2026-01-13 16:03:43,123 - scrapers.jandan_scraper - INFO - 成功获取HTML内容，长度: 24777
+2026-01-13 16:03:43,123 - scrapers.jandan_scraper - INFO - 调试: 手动获取评论 5877984 的吐槽数据
+2026-01-13 16:03:43,123 - scrapers.jandan_scraper - INFO - 获取评论 5877984 的吐槽内容: https://jandan.net/api/tucao/list/5877984
+2026-01-13 16:03:44,616 - scrapers.jandan_scraper - INFO - 评论 5877984 获取到 1 条热门吐槽, 3 条普通吐槽
+2026-01-13 16:03:44,616 - scrapers.jandan_scraper - INFO - 调试: 评论 5877984 获取到 1 条热门吐槽, 3 条普通吐槽
+2026-01-13 16:03:44,616 - scrapers.jandan_scraper - INFO - 开始解析页面中的评论
+2026-01-13 16:03:44,616 - scrapers.jandan_scraper - INFO - 开始解析HTML内容, 长度: 24777
+2026-01-13 16:03:44,625 - scrapers.jandan_scraper - INFO - 找到 0 条热门评论
+2026-01-13 16:03:44,625 - scrapers.jandan_scraper - INFO - 解析完成，获取到 0 条评论
+2026-01-13 16:03:44,625 - scrapers.jandan_scraper - INFO - 开始转换评论为统一格式
+2026-01-13 16:03:44,625 - scrapers.jandan_scraper - INFO - 开始转换 0 条评论到统一格式
+2026-01-13 16:03:44,625 - scrapers.jandan_scraper - INFO - 共转换 0 条评论为统一格式
+2026-01-13 16:03:44,625 - scrapers.jandan_scraper - INFO - 爬取完成，共获取 0 条热评
+2026-01-13 16:03:44,625 - scrapers.base_scraper - ERROR - 爬取 煎蛋网 失败
+2026-01-13 16:03:44,626 - scrapers.reddit_scraper - INFO - RedditScraper初始化完成
+2026-01-13 16:03:44,627 - scrapers.base_scraper - INFO - 开始爬取 Reddit
+2026-01-13 16:03:44,627 - scrapers.reddit_scraper - INFO - 开始爬取Reddit r/confessions每周热门帖子
+2026-01-13 16:03:46,546 - utils.http_utils - ERROR - 请求失败: https://www.reddit.com/r/confessions/top/.json?t=week&limit=10, 错误: 403 Client Error: Blocked for url: https://www.reddit.com/r/confessions/top/.json?t=week&limit=10
+2026-01-13 16:03:46,547 - scrapers.reddit_scraper - ERROR - 获取API数据失败: 403 Client Error: Blocked for url: https://www.reddit.com/r/confessions/top/.json?t=week&limit=10
+2026-01-13 16:03:46,547 - scrapers.base_scraper - ERROR - 爬取 Reddit 失败
+2026-01-13 16:03:46,547 - scrapers.hackernews_scraper - INFO - HackerNewsScraper初始化完成
+2026-01-13 16:03:46,548 - scrapers.base_scraper - INFO - 开始爬取 Hacker News
+2026-01-13 16:03:46,548 - scrapers.hackernews_scraper - INFO - 开始爬取Hacker News Ask HN帖子
+2026-01-13 16:03:46,548 - scrapers.hackernews_scraper - INFO - 获取Ask HN页面: https://news.ycombinator.com/ask
+2026-01-13 16:03:49,408 - scrapers.hackernews_scraper - INFO - 找到 30 个帖子行
+2026-01-13 16:03:49,409 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: What are you working o..., 作者=david927, 点赞=251, 评论=0
+2026-01-13 16:03:49,410 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Where is all the prote..., 作者=swiper_lux, 点赞=4, 评论=0
+2026-01-13 16:03:49,411 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Job seekers, what's wo..., 作者=Jabbs, 点赞=16, 评论=0
+2026-01-13 16:03:49,411 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: When has a "dumb" solu..., 作者=amadeuswoo, 点赞=12, 评论=0
+2026-01-13 16:03:49,412 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Erratic HN front page ..., 作者=7777777phil, 点赞=6, 评论=0
+2026-01-13 16:03:49,412 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: How do you automate yo..., 作者=dustfinger, 点赞=9, 评论=0
+2026-01-13 16:03:49,413 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Speculate About a Hypo..., 作者=burnerToBetOut, 点赞=3, 评论=0
+2026-01-13 16:03:49,413 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Should I shutdown my 2..., 作者=pohwp, 点赞=3, 评论=0
+2026-01-13 16:03:49,414 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Senior engineering mng..., 作者=kitetm, 点赞=35, 评论=0
+2026-01-13 16:03:49,415 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Has anyone built payme..., 作者=wasiyc, 点赞=6, 评论=0
+2026-01-13 16:03:49,415 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Best way to find chill..., 作者=digitdiglet, 点赞=35, 评论=0
+2026-01-13 16:03:49,416 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Is Programming as a Pr..., 作者=fnoef, 点赞=19, 评论=0
+2026-01-13 16:03:49,416 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: What business processe..., 作者=lzr_mihnea, 点赞=5, 评论=0
+2026-01-13 16:03:49,417 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Is it time for HN to i..., 作者=Rooster61, 点赞=89, 评论=0
+2026-01-13 16:03:49,418 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: What are you proud of ..., 作者=nemath, 点赞=11, 评论=0
+2026-01-13 16:03:49,418 - scrapers.hackernews_scraper - INFO - 成功解析 15 个Ask HN故事
+2026-01-13 16:03:49,418 - scrapers.hackernews_scraper - INFO - 开始转换 15 个故事到统一格式
+2026-01-13 16:03:49,418 - scrapers.hackernews_scraper - INFO - 转换第 1/15 个故事: Ask HN: What are you working o...
+2026-01-13 16:03:53,303 - scrapers.hackernews_scraper - INFO - 找到 820 条评论
+2026-01-13 16:04:07,036 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: What are you working o... 转换完成，包含 100 条评论
+2026-01-13 16:04:07,036 - scrapers.hackernews_scraper - INFO - 转换第 2/15 个故事: Ask HN: Where is all the prote...
+2026-01-13 16:04:08,552 - scrapers.hackernews_scraper - INFO - 找到 9 条评论
+2026-01-13 16:04:08,558 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Where is all the prote... 转换完成，包含 9 条评论
+2026-01-13 16:04:08,558 - scrapers.hackernews_scraper - INFO - 转换第 3/15 个故事: Ask HN: Job seekers, what's wo...
+2026-01-13 16:04:10,690 - scrapers.hackernews_scraper - INFO - 找到 15 条评论
+2026-01-13 16:04:10,701 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Job seekers, what's wo... 转换完成，包含 15 条评论
+2026-01-13 16:04:10,701 - scrapers.hackernews_scraper - INFO - 转换第 4/15 个故事: Ask HN: When has a "dumb" solu...
+2026-01-13 16:04:13,136 - scrapers.hackernews_scraper - INFO - 找到 15 条评论
+2026-01-13 16:04:13,148 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: When has a "dumb" solu... 转换完成，包含 15 条评论
+2026-01-13 16:04:13,148 - scrapers.hackernews_scraper - INFO - 转换第 5/15 个故事: Ask HN: Erratic HN front page ...
+2026-01-13 16:04:16,027 - scrapers.hackernews_scraper - INFO - 找到 3 条评论
+2026-01-13 16:04:16,029 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Erratic HN front page ... 转换完成，包含 3 条评论
+2026-01-13 16:04:16,029 - scrapers.hackernews_scraper - INFO - 转换第 6/15 个故事: Ask HN: How do you automate yo...
+2026-01-13 16:04:17,783 - scrapers.hackernews_scraper - INFO - 找到 13 条评论
+2026-01-13 16:04:17,792 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: How do you automate yo... 转换完成，包含 13 条评论
+2026-01-13 16:04:17,792 - scrapers.hackernews_scraper - INFO - 转换第 7/15 个故事: Ask HN: Speculate About a Hypo...
+2026-01-13 16:04:18,841 - scrapers.hackernews_scraper - INFO - 找到 1 条评论
+2026-01-13 16:04:18,842 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Speculate About a Hypo... 转换完成，包含 1 条评论
+2026-01-13 16:04:18,842 - scrapers.hackernews_scraper - INFO - 转换第 8/15 个故事: Ask HN: Should I shutdown my 2...
+2026-01-13 16:04:21,455 - scrapers.hackernews_scraper - INFO - 找到 12 条评论
+2026-01-13 16:04:21,463 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Should I shutdown my 2... 转换完成，包含 12 条评论
+2026-01-13 16:04:21,463 - scrapers.hackernews_scraper - INFO - 转换第 9/15 个故事: Ask HN: Senior engineering mng...
+2026-01-13 16:04:24,147 - scrapers.hackernews_scraper - INFO - 找到 8 条评论
+2026-01-13 16:04:24,153 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Senior engineering mng... 转换完成，包含 8 条评论
+2026-01-13 16:04:24,153 - scrapers.hackernews_scraper - INFO - 转换第 10/15 个故事: Ask HN: Has anyone built payme...
+2026-01-13 16:04:25,222 - scrapers.hackernews_scraper - INFO - 找到 1 条评论
+2026-01-13 16:04:25,223 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Has anyone built payme... 转换完成，包含 1 条评论
+2026-01-13 16:04:25,223 - scrapers.hackernews_scraper - INFO - 转换第 11/15 个故事: Ask HN: Best way to find chill...
+2026-01-13 16:04:26,792 - scrapers.hackernews_scraper - INFO - 找到 43 条评论
+2026-01-13 16:04:26,841 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Best way to find chill... 转换完成，包含 43 条评论
+2026-01-13 16:04:26,841 - scrapers.hackernews_scraper - INFO - 转换第 12/15 个故事: Ask HN: Is Programming as a Pr...
+2026-01-13 16:04:28,191 - scrapers.hackernews_scraper - INFO - 找到 32 条评论
+2026-01-13 16:04:28,222 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Is Programming as a Pr... 转换完成，包含 32 条评论
+2026-01-13 16:04:28,222 - scrapers.hackernews_scraper - INFO - 转换第 13/15 个故事: Ask HN: What business processe...
+2026-01-13 16:04:29,700 - scrapers.hackernews_scraper - INFO - 找到 9 条评论
+2026-01-13 16:04:29,706 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: What business processe... 转换完成，包含 9 条评论
+2026-01-13 16:04:29,706 - scrapers.hackernews_scraper - INFO - 转换第 14/15 个故事: Ask HN: Is it time for HN to i...
+2026-01-13 16:04:32,515 - scrapers.hackernews_scraper - INFO - 找到 138 条评论
+2026-01-13 16:04:32,861 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Is it time for HN to i... 转换完成，包含 100 条评论
+2026-01-13 16:04:32,861 - scrapers.hackernews_scraper - INFO - 转换第 15/15 个故事: Ask HN: What are you proud of ...
+2026-01-13 16:04:35,505 - scrapers.hackernews_scraper - INFO - 找到 14 条评论
+2026-01-13 16:04:35,515 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: What are you proud of ... 转换完成，包含 14 条评论
+2026-01-13 16:04:35,515 - scrapers.hackernews_scraper - INFO - 共转换 15 个故事为统一格式
+2026-01-13 16:04:35,515 - scrapers.hackernews_scraper - INFO - 爬取完成，共获取 15 个Ask HN故事
+2026-01-13 16:04:35,920 - utils.storage_utils - INFO - 已更新源索引: hackernews
+2026-01-13 16:04:35,922 - utils.storage_utils - INFO - 数据已保存到 data/hackernews/week_2026-01-12.json
+2026-01-13 16:04:35,923 - scrapers.base_scraper - INFO - 数据已保存到 data/hackernews/week_2026-01-12.json
+2026-01-13 16:04:35,923 - scrapers.base_scraper - INFO - 成功爬取 Hacker News 的数据
+2026-01-13 16:04:35,924 - __main__ - INFO - 完成: 1/3 个爬虫成功运行
+2026-01-13 16:04:36,149 - __main__ - INFO - 归档所有源的旧数据
+2026-01-13 16:04:36,150 - __main__ - INFO - 源 jandan 归档 无需归档
+2026-01-13 16:04:36,150 - __main__ - INFO - 源 reddit 归档 无需归档
+2026-01-13 16:04:36,150 - __main__ - INFO - 源 hackernews 归档 无需归档
