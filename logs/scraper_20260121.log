@@ -1,0 +1,102 @@
+2026-01-21 16:05:41,915 - __main__ - INFO - 运行所有爬虫
+2026-01-21 16:05:41,915 - scrapers.jandan_scraper - INFO - JandanScraper初始化完成
+2026-01-21 16:05:41,915 - scrapers.base_scraper - INFO - 开始爬取 煎蛋网
+2026-01-21 16:05:41,916 - scrapers.jandan_scraper - INFO - 开始爬取煎蛋热评
+2026-01-21 16:05:46,605 - scrapers.jandan_scraper - INFO - 成功获取HTML内容，长度: 24777
+2026-01-21 16:05:46,605 - scrapers.jandan_scraper - INFO - 调试: 手动获取评论 5877984 的吐槽数据
+2026-01-21 16:05:46,605 - scrapers.jandan_scraper - INFO - 获取评论 5877984 的吐槽内容: https://jandan.net/api/tucao/list/5877984
+2026-01-21 16:05:49,105 - scrapers.jandan_scraper - INFO - 评论 5877984 获取到 1 条热门吐槽, 3 条普通吐槽
+2026-01-21 16:05:49,105 - scrapers.jandan_scraper - INFO - 调试: 评论 5877984 获取到 1 条热门吐槽, 3 条普通吐槽
+2026-01-21 16:05:49,105 - scrapers.jandan_scraper - INFO - 开始解析页面中的评论
+2026-01-21 16:05:49,105 - scrapers.jandan_scraper - INFO - 开始解析HTML内容, 长度: 24777
+2026-01-21 16:05:49,113 - scrapers.jandan_scraper - INFO - 找到 0 条热门评论
+2026-01-21 16:05:49,114 - scrapers.jandan_scraper - INFO - 解析完成，获取到 0 条评论
+2026-01-21 16:05:49,114 - scrapers.jandan_scraper - INFO - 开始转换评论为统一格式
+2026-01-21 16:05:49,114 - scrapers.jandan_scraper - INFO - 开始转换 0 条评论到统一格式
+2026-01-21 16:05:49,114 - scrapers.jandan_scraper - INFO - 共转换 0 条评论为统一格式
+2026-01-21 16:05:49,114 - scrapers.jandan_scraper - INFO - 爬取完成，共获取 0 条热评
+2026-01-21 16:05:49,114 - scrapers.base_scraper - ERROR - 爬取 煎蛋网 失败
+2026-01-21 16:05:49,114 - scrapers.reddit_scraper - INFO - RedditScraper初始化完成
+2026-01-21 16:05:49,115 - scrapers.base_scraper - INFO - 开始爬取 Reddit
+2026-01-21 16:05:49,115 - scrapers.reddit_scraper - INFO - 开始爬取Reddit r/confessions每周热门帖子
+2026-01-21 16:05:50,354 - utils.http_utils - ERROR - 请求失败: https://www.reddit.com/r/confessions/top/.json?t=week&limit=10, 错误: 403 Client Error: Blocked for url: https://www.reddit.com/r/confessions/top/.json?t=week&limit=10
+2026-01-21 16:05:50,355 - scrapers.reddit_scraper - ERROR - 获取API数据失败: 403 Client Error: Blocked for url: https://www.reddit.com/r/confessions/top/.json?t=week&limit=10
+2026-01-21 16:05:50,355 - scrapers.base_scraper - ERROR - 爬取 Reddit 失败
+2026-01-21 16:05:50,355 - scrapers.hackernews_scraper - INFO - HackerNewsScraper初始化完成
+2026-01-21 16:05:50,355 - scrapers.base_scraper - INFO - 开始爬取 Hacker News
+2026-01-21 16:05:50,355 - scrapers.hackernews_scraper - INFO - 开始爬取Hacker News Ask HN帖子
+2026-01-21 16:05:50,355 - scrapers.hackernews_scraper - INFO - 获取Ask HN页面: https://news.ycombinator.com/ask
+2026-01-21 16:05:52,202 - scrapers.hackernews_scraper - INFO - 找到 30 个帖子行
+2026-01-21 16:05:52,203 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Do you have any eviden..., 作者=terabytest, 点赞=356, 评论=0
+2026-01-21 16:05:52,204 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Revive a mostly dead D..., 作者=movedx, 点赞=17, 评论=0
+2026-01-21 16:05:52,204 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Is it even possible to..., 作者=artur_makly, 点赞=2, 评论=0
+2026-01-21 16:05:52,205 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: COBOL devs, how are AI..., 作者=zkid18, 点赞=166, 评论=0
+2026-01-21 16:05:52,206 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Is retreq / retspec a ..., 作者=foobarbecue, 点赞=2, 评论=0
+2026-01-21 16:05:52,206 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Which common map proje..., 作者=jimnotgym, 点赞=17, 评论=0
+2026-01-21 16:05:52,207 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Why don't tech compani..., 作者=alcasa, 点赞=4, 评论=0
+2026-01-21 16:05:52,207 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: How do you keep system..., 作者=kennethops, 点赞=15, 评论=0
+2026-01-21 16:05:52,208 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: How to introduce Claud..., 作者=9dev, 点赞=8, 评论=0
+2026-01-21 16:05:52,208 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: What are the recommend..., 作者=haensi, 点赞=14, 评论=0
+2026-01-21 16:05:52,209 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: What's an API that you..., 作者=tornikeo, 点赞=9, 评论=0
+2026-01-21 16:05:52,209 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Did past "bubbles" hav..., 作者=bmau5, 点赞=16, 评论=0
+2026-01-21 16:05:52,210 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Local models to suppor..., 作者=DrAwdeOccarim, 点赞=5, 评论=0
+2026-01-21 16:05:52,210 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Breaking into tech pro..., 作者=conner_h5, 点赞=4, 评论=0
+2026-01-21 16:05:52,211 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: How worried should I b..., 作者=scoofy, 点赞=9, 评论=0
+2026-01-21 16:05:52,211 - scrapers.hackernews_scraper - INFO - 成功解析 15 个Ask HN故事
+2026-01-21 16:05:52,211 - scrapers.hackernews_scraper - INFO - 开始转换 15 个故事到统一格式
+2026-01-21 16:05:52,211 - scrapers.hackernews_scraper - INFO - 转换第 1/15 个故事: Ask HN: Do you have any eviden...
+2026-01-21 16:05:54,998 - scrapers.hackernews_scraper - INFO - 找到 365 条评论
+2026-01-21 16:05:57,259 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Do you have any eviden... 转换完成，包含 100 条评论
+2026-01-21 16:05:57,259 - scrapers.hackernews_scraper - INFO - 转换第 2/15 个故事: Ask HN: Revive a mostly dead D...
+2026-01-21 16:05:59,450 - scrapers.hackernews_scraper - INFO - 找到 23 条评论
+2026-01-21 16:05:59,469 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Revive a mostly dead D... 转换完成，包含 23 条评论
+2026-01-21 16:05:59,469 - scrapers.hackernews_scraper - INFO - 转换第 3/15 个故事: Ask HN: Is it even possible to...
+2026-01-21 16:06:01,488 - scrapers.hackernews_scraper - INFO - 找到 0 条评论
+2026-01-21 16:06:01,488 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Is it even possible to... 转换完成，包含 0 条评论
+2026-01-21 16:06:01,488 - scrapers.hackernews_scraper - INFO - 转换第 4/15 个故事: Ask HN: COBOL devs, how are AI...
+2026-01-21 16:06:04,613 - scrapers.hackernews_scraper - INFO - 找到 183 条评论
+2026-01-21 16:06:05,206 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: COBOL devs, how are AI... 转换完成，包含 100 条评论
+2026-01-21 16:06:05,206 - scrapers.hackernews_scraper - INFO - 转换第 5/15 个故事: Ask HN: Is retreq / retspec a ...
+2026-01-21 16:06:06,848 - scrapers.hackernews_scraper - INFO - 找到 0 条评论
+2026-01-21 16:06:06,848 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Is retreq / retspec a ... 转换完成，包含 0 条评论
+2026-01-21 16:06:06,848 - scrapers.hackernews_scraper - INFO - 转换第 6/15 个故事: Ask HN: Which common map proje...
+2026-01-21 16:06:08,900 - scrapers.hackernews_scraper - INFO - 找到 13 条评论
+2026-01-21 16:06:08,909 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Which common map proje... 转换完成，包含 13 条评论
+2026-01-21 16:06:08,909 - scrapers.hackernews_scraper - INFO - 转换第 7/15 个故事: Ask HN: Why don't tech compani...
+2026-01-21 16:06:10,486 - scrapers.hackernews_scraper - INFO - 找到 7 条评论
+2026-01-21 16:06:10,491 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Why don't tech compani... 转换完成，包含 7 条评论
+2026-01-21 16:06:10,491 - scrapers.hackernews_scraper - INFO - 转换第 8/15 个故事: Ask HN: How do you keep system...
+2026-01-21 16:06:11,842 - scrapers.hackernews_scraper - INFO - 找到 19 条评论
+2026-01-21 16:06:11,856 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: How do you keep system... 转换完成，包含 19 条评论
+2026-01-21 16:06:11,856 - scrapers.hackernews_scraper - INFO - 转换第 9/15 个故事: Ask HN: How to introduce Claud...
+2026-01-21 16:06:14,059 - scrapers.hackernews_scraper - INFO - 找到 3 条评论
+2026-01-21 16:06:14,061 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: How to introduce Claud... 转换完成，包含 3 条评论
+2026-01-21 16:06:14,061 - scrapers.hackernews_scraper - INFO - 转换第 10/15 个故事: Ask HN: What are the recommend...
+2026-01-21 16:06:16,083 - scrapers.hackernews_scraper - INFO - 找到 1 条评论
+2026-01-21 16:06:16,083 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: What are the recommend... 转换完成，包含 1 条评论
+2026-01-21 16:06:16,084 - scrapers.hackernews_scraper - INFO - 转换第 11/15 个故事: Ask HN: What's an API that you...
+2026-01-21 16:06:18,901 - scrapers.hackernews_scraper - INFO - 找到 14 条评论
+2026-01-21 16:06:18,911 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: What's an API that you... 转换完成，包含 14 条评论
+2026-01-21 16:06:18,911 - scrapers.hackernews_scraper - INFO - 转换第 12/15 个故事: Ask HN: Did past "bubbles" hav...
+2026-01-21 16:06:20,098 - scrapers.hackernews_scraper - INFO - 找到 18 条评论
+2026-01-21 16:06:20,112 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Did past "bubbles" hav... 转换完成，包含 18 条评论
+2026-01-21 16:06:20,113 - scrapers.hackernews_scraper - INFO - 转换第 13/15 个故事: Ask HN: Local models to suppor...
+2026-01-21 16:06:21,388 - scrapers.hackernews_scraper - INFO - 找到 3 条评论
+2026-01-21 16:06:21,390 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Local models to suppor... 转换完成，包含 3 条评论
+2026-01-21 16:06:21,390 - scrapers.hackernews_scraper - INFO - 转换第 14/15 个故事: Ask HN: Breaking into tech pro...
+2026-01-21 16:06:23,417 - scrapers.hackernews_scraper - INFO - 找到 4 条评论
+2026-01-21 16:06:23,420 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Breaking into tech pro... 转换完成，包含 4 条评论
+2026-01-21 16:06:23,420 - scrapers.hackernews_scraper - INFO - 转换第 15/15 个故事: Ask HN: How worried should I b...
+2026-01-21 16:06:25,005 - scrapers.hackernews_scraper - INFO - 找到 4 条评论
+2026-01-21 16:06:25,008 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: How worried should I b... 转换完成，包含 4 条评论
+2026-01-21 16:06:25,008 - scrapers.hackernews_scraper - INFO - 共转换 15 个故事为统一格式
+2026-01-21 16:06:25,008 - scrapers.hackernews_scraper - INFO - 爬取完成，共获取 15 个Ask HN故事
+2026-01-21 16:06:25,480 - utils.storage_utils - INFO - 已更新源索引: hackernews
+2026-01-21 16:06:25,483 - utils.storage_utils - INFO - 数据已保存到 data/hackernews/week_2026-01-19.json
+2026-01-21 16:06:25,485 - scrapers.base_scraper - INFO - 数据已保存到 data/hackernews/week_2026-01-19.json
+2026-01-21 16:06:25,485 - scrapers.base_scraper - INFO - 成功爬取 Hacker News 的数据
+2026-01-21 16:06:25,486 - __main__ - INFO - 完成: 1/3 个爬虫成功运行
+2026-01-21 16:06:25,703 - __main__ - INFO - 归档所有源的旧数据
+2026-01-21 16:06:25,703 - __main__ - INFO - 源 jandan 归档 无需归档
+2026-01-21 16:06:25,703 - __main__ - INFO - 源 reddit 归档 无需归档
+2026-01-21 16:06:25,704 - __main__ - INFO - 源 hackernews 归档 无需归档
