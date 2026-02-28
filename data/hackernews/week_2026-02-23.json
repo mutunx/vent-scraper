@@ -34912,5 +34912,3020 @@
       ],
       "is_nsfw": false
     }
+  },
+  {
+    "post": {
+      "id": "52e1b807e54367f87b327164f019d52f",
+      "source_id": "47192394",
+      "title": "Ask HN: Why are some websites locking or using the audio device on Windows?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">When X or Aliexpress is open on a tab even if they are not the active tab or the browser is minimize I can't change the input device or output device because they are using the audio device even if they are not playing sounds.  Do they use it to stream data or they use for other purpose?</div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-02-28T16:02:17.800775",
+      "updated_at": "2026-02-28T16:02:17.800775",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "7186d5a9d0161e01294ea5b6239da522",
+        "source_id": "ezconnect",
+        "username": "ezconnect",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 3,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47192394",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-02-28T16:02:19.256015",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "27db9465e7cb40e2bebca8f07533f961",
+      "source_id": "47175746",
+      "title": "Ask HN: How do you handle duplicate side effects when jobs, workflows retry?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">Quick context: I'm building background job automation and keep hitting this pattern:<p>1. Job calls external API (Stripe, SendGrid, AWS)\n2. API call succeeds\n3. Job crashes before recording success\n4. Job retries → calls API again → duplicate<p>Example: process refund, send email notification, crash. Retry does both again. Customer gets duplicate refund email (or worse, duplicate refund).<p>I see a few approaches:<p>Option A: Store processed IDs in database\nProblem: Race between \"check DB\" and \"call API\" can still duplicate<p>Option B: Use API idempotency keys (Stripe supports this)\nProblem: Not all APIs support it (legacy systems, third-party)<p>Option C: Build deduplication layer that checks external system first\nProblem: Extra latency, extra complexity<p>What do you do in production? Accept some duplicates? Only use APIs \nwith idempotency? Something else?<p>(I built something for Option C, but trying to understand if this is actually a common-enough problem or if I'm over-engineering.)</p></p></p></p></p></p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-02-28T16:02:17.801950",
+      "updated_at": "2026-02-28T16:02:17.801950",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "18bd324e2c3ecb41f56e1b3161fee18c",
+        "source_id": "shineDaPoker",
+        "username": "shineDaPoker",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 9,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47175746",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "2b0e3493a6f047f4f140c885dac95188",
+        "source_id": "47194041",
+        "content": {
+          "text": "This is one of those problems that gets significantly harder when your system spans multiple runtimes or platforms. A few patterns that have worked well in practice: 1. Idempotency keys at the API boundary — every side-effecting call gets a client-generated UUID, and the receiver deduplicates. Simple, but think carefully about the TTL of your dedup window. 2. Outbox pattern — instead of directly calling the external service, write the intent to a local \"outbox\" table in the same transaction as your state change. A separate process polls the outbox and delivers. Debezium + CDC makes this quite clean. 3. For cross-system workflows: treat the saga orchestrator as the single source of truth for step completion. Each step checks its completion status before executing, so steps must be idempotent OR the orchestrator tracks state. In practice, designing for at-least-once delivery + idempotent receivers is more reliable than trying to achieve exactly-once through distributed coordination. Exactly-once across system boundaries is effectively a myth outside of systems that support two-phase commit (and even then it's fragile). reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:21.735786",
+        "updated_at": "2026-02-28T16:02:21.735786",
+        "author": {
+          "id": "1f7eeb5f18d8dff85c0c6e29ab25250f",
+          "source_id": "jnbridge",
+          "username": "jnbridge",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c5bad61ceb5d21be65c55ab807948768",
+        "source_id": "47179165",
+        "content": {
+          "text": "Idempotency is the only sustainable answer here. Whether it's at the database level using unique constraints or implementing idempotency keys in your API headers, you have to design for the 'at-least-once' delivery reality. I usually implement a 'processed_requests' table that stores the unique ID of the job. Before the worker executes any side effect (like a payment or email), it checks if that ID exists. If it does, it skips the execution and returns the previous result. It adds a bit of latency, but it's much cheaper than dealing with double-billing or corrupted data reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:21.736359",
+        "updated_at": "2026-02-28T16:02:21.736359",
+        "author": {
+          "id": "3ef59b75a971c392a4317d172cbe1653",
+          "source_id": "codebitdaily",
+          "username": "codebitdaily",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "420322a0cd69e2121d2d1cae232af99d",
+        "source_id": "47176682",
+        "content": {
+          "text": "Use something like Temporal reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:21.736892",
+        "updated_at": "2026-02-28T16:02:21.736892",
+        "author": {
+          "id": "7126ba4b864ddfedb16d01c4c0e933a4",
+          "source_id": "babelfish",
+          "username": "babelfish",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f29a5054fc2abc0333a7e5899e02807d",
+        "source_id": "47178432",
+        "content": {
+          "text": "I actually talked to someone in temporal about this recently. Temporal gives you the primitives to handle it (activities, configure retries, interceptors), but you still have to implement the deduplication logic yourself for each external integration. His advice was: Temporal solves orchestration, but making the external API calls idempotent is on you. For simple cases, write observe activities manually. For complex cases, build abstraction. That's what led me down this path - trying to figure out if the abstraction is worth building or if manual is good enough. Have you used Temporal for this? How do you handle the idempotency of external calls? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:21.737507",
+        "updated_at": "2026-02-28T16:02:21.737507",
+        "author": {
+          "id": "18bd324e2c3ecb41f56e1b3161fee18c",
+          "source_id": "shineDaPoker",
+          "username": "shineDaPoker",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "15499b57948a049836055797564b0488",
+        "source_id": "47176225",
+        "content": {
+          "text": "You proxy those api calls yourself and have idempotency to cover you for those APIs that don’t have it. If you architect it right you won’t have more than a ms latency addition. You can avoid the race condition issues by using atomic records so if something else tries they’d see it’s in progress and exit. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:21.738111",
+        "updated_at": "2026-02-28T16:02:21.738111",
+        "author": {
+          "id": "a30a8695019e97e5413f4a0335aae62a",
+          "source_id": "moomoo11",
+          "username": "moomoo11",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4475fd1040b946fa00b7bbc8f638df5e",
+        "source_id": "47178415",
+        "content": {
+          "text": "This is exactly the approach I took. Proxy layer that:\n- Uses atomic records (fence tokens) to prevent concurrent execution\n- Checks external system first before retrying (the retrieval step)\n- Records result for future lookups The atomic records part is critical - I learned the hard way that just checking a DB flag isn't enough (process can freeze between check and execute, lease expires, another process takes over, both execute). How do you handle the case where:\n1. Process acquires atomic lock\n2. Calls external API successfully  \n3. Process freezes before releasing lock\n4. Lock expires, new process acquires it\n5. New process calls API again → duplicate Do you just accept this edge case (rare but possible)? Or is there a mitigation I'm missing? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:21.738774",
+        "updated_at": "2026-02-28T16:02:21.738774",
+        "author": {
+          "id": "18bd324e2c3ecb41f56e1b3161fee18c",
+          "source_id": "shineDaPoker",
+          "username": "shineDaPoker",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2a518f28cf0b59c030c76b82df9096c8",
+        "source_id": "47186910",
+        "content": {
+          "text": "yeah, this is a common edge case in this scenario and as you say it will be rare but possible. however i don't think its that complicated (idk your system obv, so I could be off base) but i think your best bet is to not retry blindly and instead just query to see if already happened. If it already happened you're good and if not you handle it appropriately. considering it will be rare i don't think handling it how i suggest it will affect you that badly. keep it simple should be your priority imo with these kinds of operations. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:21.739474",
+        "updated_at": "2026-02-28T16:02:21.739474",
+        "author": {
+          "id": "a30a8695019e97e5413f4a0335aae62a",
+          "source_id": "moomoo11",
+          "username": "moomoo11",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "71d7710e044600054ca3d89eaa172dba",
+        "source_id": "47177803",
+        "content": {
+          "text": "I think the answer is probably like most things: it depends. - If the external service supports idempotent operations, use that option. - If the external service doesn't , but has a \"retrieval\" feature (i.e. lookup if the thing already exists, e.g fetch refunds on a given payment), use that first. - If the system has neither, assess how critical it is to avoid duplicates. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:21.740222",
+        "updated_at": "2026-02-28T16:02:21.740222",
+        "author": {
+          "id": "eb1c39740e6c527e8b590c737a4a698a",
+          "source_id": "stephenr",
+          "username": "stephenr",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0dd29036bdb718ff53afdd820b9d64b4",
+        "source_id": "47178441",
+        "content": {
+          "text": "This matches my thinking. The retrieval/lookup approach is exactly what I built - basically Option C with an observe-before-act pattern. For APIs that support idempotency keys (Stripe, etc.), I use those. For ones that don't but have retrieval (most do), I check first before retrying. The question I'm wrestling with: is the extra round-trip for the lookup worth it? Or should I just accept the edge cases where it duplicates? What's your threshold for \"critical enough to avoid duplicates\"? Payments obviously yes, but what about notifications, reporting, analytics events? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:21.740952",
+        "updated_at": "2026-02-28T16:02:21.740952",
+        "author": {
+          "id": "18bd324e2c3ecb41f56e1b3161fee18c",
+          "source_id": "shineDaPoker",
+          "username": "shineDaPoker",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-02-28T16:02:21.741307",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "4cede3c7a0d42db09c3024ca45bd9718",
+      "source_id": "47173773",
+      "title": "Ask HN: My competitor wants to buy us out, recommend a lawyer?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">My tech company has grown to the point where has become a significant threat to the industry leader. They have reacted by asking if we are open to acquisition. I’m looking for suggestions of lawyers who are experienced with this type of transaction, as this is significantly outside of my wheelhouse.</div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-02-28T16:02:17.802550",
+      "updated_at": "2026-02-28T16:02:17.802550",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "5c4fc0331caa622d6000eb16b757f89c",
+        "source_id": "VladVladikoff",
+        "username": "VladVladikoff",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 6,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47173773",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "cd6cdb6c266fd8096d2b26a18ff77f17",
+        "source_id": "47194951",
+        "content": {
+          "text": "Congratulations on being approached—that is a major milestone. Beyond a standard lawyer, you specifically need an M&A (Mergers & Acquisitions) attorney who understands IP tech transfers. General corporate lawyers often miss the nuances of 'Earn-out' clauses and post-acquisition liability. Also, ensure your data room is audit-ready before the due diligence starts. Good luck with the negotiations! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:24.430161",
+        "updated_at": "2026-02-28T16:02:24.430161",
+        "author": {
+          "id": "ad688f16669696e64d6eca7979f5667f",
+          "source_id": "CodeBit26",
+          "username": "CodeBit26",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "33e7ae9a1677ebd0f981fce322e3b151",
+        "source_id": "47181890",
+        "content": {
+          "text": "Before you think about lawyers, I would say be careful dealing with industry leaders because they may just be sniffing and not really serious. There are plenty of cases where a larger industry leader reaches out in disguise of acquisition and then gets the details and does it on their own. Not saying it is the case necessarily here but just be careful of that. For example, ask yourself why they really need to buy you out. Why can't they build it themselves ? Is it really your customer base they want ? Is it your technology ? Do they just want you (acquihire) ? What is the moat here that they want to acquire you ? If you cannot answer that clearly, they may not be serious. In terms of finding a lawyer, you need to find a lawyer who has experience in tech acquisitions especially in your jurisdiction/area (for example, in US, even the state of residence will come into play). Selling a business involves various things including whether it will be asset vs stock sale (you will need to learn the difference),what will be the terms (all cash upfront vs earn out/equity etc). Be ready to spend $1000s or even $10,000+ on lawyers and the deal may still fall through. So are you ready to spend your own cash ($10,000+ or higher) and still be ready for the fact that deal falls ? Just some things to keep in mind. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:24.430746",
+        "updated_at": "2026-02-28T16:02:24.430746",
+        "author": {
+          "id": "73b2b8fc1fce788a8ef2cd612a35dd6c",
+          "source_id": "codegeek",
+          "username": "codegeek",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "eed396fad43c0658c78f88e53d528eee",
+        "source_id": "47182650",
+        "content": {
+          "text": "Definitely get a lawyer who has handled founder-side acquisitions, not just general corporate work. The structure, earn-outs, and control terms matter a lot more than people expect. A good lawyer can easily change the outcome of the deal. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:24.431291",
+        "updated_at": "2026-02-28T16:02:24.431291",
+        "author": {
+          "id": "2cd653acb0f63ece1e126a7e0c08b41d",
+          "source_id": "allinonetools_",
+          "username": "allinonetools_",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8fd80a37bbd385769adceac40cef0cef",
+        "source_id": "47178751",
+        "content": {
+          "text": "In what jurisdiction are you and they domiciled? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:24.431831",
+        "updated_at": "2026-02-28T16:02:24.431831",
+        "author": {
+          "id": "a4f3d0f93a06946e96e6913f77865da7",
+          "source_id": "joefarish",
+          "username": "joefarish",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "12f35b0b5f66decb41e20249e13b5334",
+        "source_id": "47184433",
+        "content": {
+          "text": "We are based in Canada but do business throughout North America. They are based in USA and want the Canadian market, but they have failed to break into it. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:24.432406",
+        "updated_at": "2026-02-28T16:02:24.432406",
+        "author": {
+          "id": "5c4fc0331caa622d6000eb16b757f89c",
+          "source_id": "VladVladikoff",
+          "username": "VladVladikoff",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c96701a6ce07afa199e79554cc4c2fea",
+        "source_id": "47177561",
+        "content": {
+          "text": "We've sold off what we call \"Verticals\" of our company to a competitor in the past. A competitor that previously we had helped co-found and had very horrible interactions with. So we had zero trust in dealing with them and wanted the contracts to be rock solid. The process took forever to agree on a contract, the payment process, putting the money in escrow, etc.... Part of us didn't want to have anything to do with selling something to this company because we despised them. But business is business and their offer was higher than what we could get from anyone else. Long story short, the process went fine. We ended up selling another vertical to them, and then another. All 3 sales went through fine. This is the lawyer we used and he also happened to be local. https://www.gregorprivate.com/ reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:24.433035",
+        "updated_at": "2026-02-28T16:02:24.433035",
+        "author": {
+          "id": "492c52d64614eda7b248900d3f71c004",
+          "source_id": "johng",
+          "username": "johng",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "fccbc2f76f044c6f9a7aeb310741d7a6",
+        "source_id": "47182049",
+        "content": {
+          "text": "If selling, you can get away with bad buyers as long as the deal is mostly cash upfront. However, I would highly advise against buying from a seller you cannot trust. Imagine they already showed you during the deal process when they have an incentive to be nicer. Once you wire the money, you are in for a lot more surprises. I would never buy from a seller who gave me bad vibes. Regardless of how good the deal sounds. Source: I have bought 3 smaller projects (one for 500k so i guess not indie but still small) and in all 3 cases, the sellers were incredible genuine and truly cared about their company/product. Just because of how trustworthy and helpful they were, I closed the deals quickly after fair negotiations. I declined 1 deal where the product was a great fit to my exiting business and it would have been a great transition but the seller was too arrogant and I just couldn't trust him. I backed out after exchanging a couple of messages with him. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:24.433691",
+        "updated_at": "2026-02-28T16:02:24.433691",
+        "author": {
+          "id": "73b2b8fc1fce788a8ef2cd612a35dd6c",
+          "source_id": "codegeek",
+          "username": "codegeek",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-02-28T16:02:24.433957",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "43c65d9b66389a6750e1edc45ea332ea",
+      "source_id": "47153207",
+      "title": "Ask HN: Who Is Using XMPP?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">Hello,<p>Are you using XMPP?<p>If so, what are your favorite servers to connect?</p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-02-28T16:02:17.803239",
+      "updated_at": "2026-02-28T16:02:17.803239",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "572e0206ccf26fcb5574455310f54199",
+        "source_id": "nunobrito",
+        "username": "nunobrito",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 23,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47153207",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "9cf7eed590c3f7abf5d8bbe93ccdf5cd",
+        "source_id": "47154776",
+        "content": {
+          "text": "I was I heavy XMPP user back in the 00s. But on the whole it never really took off, and when Google killed XMPP support in their chat it was a severe blow. As for why it didn’t reach a larger userbase, I think the reasons that Moxie described in The ecosystem is moving [0] are spot on. [0] https://signal.org/blog/the-ecosystem-is-moving/ reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:26.903223",
+        "updated_at": "2026-02-28T16:02:26.903223",
+        "author": {
+          "id": "c4cd774e8577e5201c7b9739d2e9c23c",
+          "source_id": "cpach",
+          "username": "cpach",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "efa84887d7ac262d5ba19c3d6d9c2e54",
+        "source_id": "47158319",
+        "content": {
+          "text": "I use JMP.chat[0] for my primary phone number.  Being able to text from my PC with a real keyboard is very convenient.  If I ever bite the bullet and use Discord I want to set up Slidcord[1] so that I don't have to use a separate app.  I'm still figuring out how to migrate people to XMPP natively. [0]: https://jmp.chat [1]: https://slidge.im/docs/slidcord/main reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:26.903820",
+        "updated_at": "2026-02-28T16:02:26.903820",
+        "author": {
+          "id": "458f6de2d6944727e6fcaeefce73a12e",
+          "source_id": "MarsIronPI",
+          "username": "MarsIronPI",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1b07a3dfc6aaba22a68cb59fc2f8f1a5",
+        "source_id": "47159763",
+        "content": {
+          "text": "Doesn't Discord require every user to create a new account, even if they're already using Discord in some other community?  So when they say \"a Discord server\", they really mean it--they're like droplets running independent deployments or whatever (albeit managed/hosted instances run by and upgraded by Discord the company); not like subreddits, right? So isn't the best way to migrate people to XMPP to prop up a Discord clone that's as close a copy as the Discord-clone community can manage, and then tell all the people \"Join my Discord server\", with the trick being that it's really your server, not Discord's, and that server is powered by XMPP? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:26.904413",
+        "updated_at": "2026-02-28T16:02:26.904413",
+        "author": {
+          "id": "4fa85fa277b8e6b147cbfd0e1a016caf",
+          "source_id": "pwdisswordfishy",
+          "username": "pwdisswordfishy",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "efb42f61a20bb8360d6014a3c3e11d10",
+        "source_id": "47161406",
+        "content": {
+          "text": "> Doesn't Discord require every user to create a new account, even if they're already using Discord in some other community? So when they say \"a Discord server\", they really mean it--they're like droplets running independent deployments or whatever (albeit managed/hosted instances run by and upgraded by Discord the company); not like subreddits, right? No, it works exactly like subreddits.  One of the major lock-ins Discord has is that all the communities are there, and people access them all with one account and one app.  It's very convenient, which, as RMS says, is a bad thing when it comes to proprietary software. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:26.904981",
+        "updated_at": "2026-02-28T16:02:26.904981",
+        "author": {
+          "id": "458f6de2d6944727e6fcaeefce73a12e",
+          "source_id": "MarsIronPI",
+          "username": "MarsIronPI",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "93395d3744300dece69c6336952465f6",
+        "source_id": "47174906",
+        "content": {
+          "text": ">Doesn't Discord require every user to create a new account, even if they're already using Discord in some other community? No, the same account is used. You get prompted to choose a nickname each time you join a server though. >So when they say \"a Discord server\", they really mean it--they're like droplets running independent deployments or whatever No, they're probably all run on the same compute. The \"official\" name for a discord server from the API documentation is actually a \"discord guild\" and it works pretty much like a subreddit. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:26.905643",
+        "updated_at": "2026-02-28T16:02:26.905643",
+        "author": {
+          "id": "104bdb7f520fa51b1b69ab119707de00",
+          "source_id": "ycombinatrix",
+          "username": "ycombinatrix",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9b2da9e8188703d4746c24993651a366",
+        "source_id": "47156321",
+        "content": {
+          "text": "Last week I selfhosted Snikket: https://snikket.org , me and my partner use it to text. It has been smooth, everything works without issue: read receipts, audio/video calls, status. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:26.906299",
+        "updated_at": "2026-02-28T16:02:26.906299",
+        "author": {
+          "id": "bdef187d14838e2d7004ea620ec694f8",
+          "source_id": "0x5FC3",
+          "username": "0x5FC3",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "74af46198fa7cdebba2a5b8993e0333d",
+        "source_id": "47159247",
+        "content": {
+          "text": "Several years ago I put up an XMPP server (Prosody) to chat with some friends in a private group, and it's still going strong. Years ago we used to have a mailing-list to keep in touch, but that eventually went quiet. I had run an XMPP server ~10 years ago (ejabberd), but that was before mobile chat utterly displaced everything else, it never took hold among my friends, and I stopped using it when Google Talk stopped federating, cutting me off from most of the people I had been occassionally chatting with. The modern chat experience is all about the clients, and the mobile clients in particular, especially push notification support and seamless setup, so direct comparisons with XMPP to Matrix, et al, kinda misses the point, IMO. Conversations is a really amazing Android client. Our one iPhone member is content with Modal (I use the desktop version sometimes, but it's clearly designed for the iPhone). A new member uses, I think, Gajim on Windows; they don't want the distraction of chatting on their phone. I host a bunch of other services on OpenBSD, all using the integrated base daemons--httpd, OpenSMTPD, NSD, etc--that sandbox themselves. I was hesitant to run a daemon like Prosody that didn't integrate OpenBSD security features, so I wrote my own module (mod_unveil) that uses pledge and unveil to sandbox Prosody: https://github.com/wahern/prosody-openbsd Most Prosody users host on Linux, and many of them seem to use Docker containers, which presumably offers some isolation, but I can't really speak to it. The only non-private, large group chat I've joined recently has been the Prosody support MUC. I'm not a chat power user, but it seems to work just as well as any large chatroom. I've was content with ntalk and IRC back in the day, so I don't really get all the chat protocol bike shedding. In any event, I expect XMPP momentum (such as it is) to outlast all the interest in Discord, Matrix, etc. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:26.907003",
+        "updated_at": "2026-02-28T16:02:26.907003",
+        "author": {
+          "id": "674bc85f1d0c6b96e13513946fc584ba",
+          "source_id": "wahern",
+          "username": "wahern",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "11b15be428aa81a80b8d5476340adb7e",
+        "source_id": "47159021",
+        "content": {
+          "text": "I use Gajim which is a linux desktop implementation of XMPP. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:26.907713",
+        "updated_at": "2026-02-28T16:02:26.907713",
+        "author": {
+          "id": "815ba066d95157e77fcf47b8a77f161b",
+          "source_id": "ekjhgkejhgk",
+          "username": "ekjhgkejhgk",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9bfc955cda886b020e18042e641ce224",
+        "source_id": "47153978",
+        "content": {
+          "text": "Favorite server is localhost reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:26.908423",
+        "updated_at": "2026-02-28T16:02:26.908423",
+        "author": {
+          "id": "6e2f55121d6c9e62314c43a61b3d62bb",
+          "source_id": "hilti",
+          "username": "hilti",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9c4d49d6105dba9b675f66f09df7c368",
+        "source_id": "47158261",
+        "content": {
+          "text": "Sorry ... I read XAMPP! Now I know why I got downvoted reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:26.909153",
+        "updated_at": "2026-02-28T16:02:26.909153",
+        "author": {
+          "id": "6e2f55121d6c9e62314c43a61b3d62bb",
+          "source_id": "hilti",
+          "username": "hilti",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0637630bc53aebbe651154eac521aa01",
+        "source_id": "47156570",
+        "content": {
+          "text": "Using with JMP.chat/Snikket for family. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:26.909894",
+        "updated_at": "2026-02-28T16:02:26.909894",
+        "author": {
+          "id": "0ab7872c6b867d0989eaf007fe21f546",
+          "source_id": "a456463",
+          "username": "a456463",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-02-28T16:02:26.910300",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "9b57f5648aba3cc279d1ca070ee6e2d4",
+      "source_id": "47160641",
+      "title": "Ask HN: What's it like working in big tech recently with all the AI tools?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">Curious to hear how have things changed day-to-day with the recent push to use AI coding tools.<p>Have you noticed faster pace of development?<p>Have you seen changes to code quality or code review?<p>Do teammates that use these tools complete sprint tasks faster than those who don't?</p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-02-28T16:02:17.803784",
+      "updated_at": "2026-02-28T16:02:17.803784",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "a9a2a5f05ea1ec03572c069094ebe64c",
+        "source_id": "ex-aws-dude",
+        "username": "ex-aws-dude",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 21,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47160641",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "318c714a60ff6a3cf6e253939518afeb",
+        "source_id": "47181408",
+        "content": {
+          "text": "I work in big-tech and we’re only allowed to use our companies internal tools that mimic Claude Code etc. There is certainly a push to use it, and I’ve noticed a significant increase in bugs that have come along. There are so many PRs now that no one reviews them and just slaps a LGTM. Specifically with junior or less strong engineers. It’s like they don’t code anymore and push everything on the AI and say ship it without a second thought. I’ve watched engineers push AI code with a nasty NPE and then they also had it write unit tests where the AI caught the NPE and passed the test. Literally if anyone spent the time reading the code you’d see it was a ticking bomb. We went from production breakages every couple of months to every couple of days.\n It’s so bad but no one is saying the hard thing that less strong engineers need to be restricted on their use of these tools. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:28.755647",
+        "updated_at": "2026-02-28T16:02:28.755647",
+        "author": {
+          "id": "8cb7c37836b456243f12fa6ff4173154",
+          "source_id": "aeriose",
+          "username": "aeriose",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7f94bd2e319057c03f303efdedc08eb8",
+        "source_id": "47160979",
+        "content": {
+          "text": "I work for a $20 billion tech company (not a big tech company, but not a small one either). Our company strongly encourages us to incorporate agentic tools like Claude Code and Codex into our daily routines. Management has made it easy to use Anthropic and OpenAI products with an enterprise subscription. I can sense that our business leaders want us to move more swiftly and be more productive to avoid falling behind in the AI race. My team has adopted Claude Code extensively, and the number of daily and weekly PRs we have closed has increased significantly. I’ve noticed that we’re also more willing to commit to more projects. My team benefits from most of our code being written in TypeScript. However, some other teams with legacy code bases seem to have a bit of a harder time using these tools compared to us. One thing that surprises me with a AI is you can have people working on the same code base. Some can be very effective with AI, yet there are others working on the exact same code base who cannot get good results. Some people don’t really seem to be taking the time to get good at writing prompts and plans before having agents execute on them. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:28.756218",
+        "updated_at": "2026-02-28T16:02:28.756218",
+        "author": {
+          "id": "c4a4957215b381c611ceba5370e8c7c2",
+          "source_id": "cebert",
+          "username": "cebert",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "13334795a7ba1ae420971e8a0ebf298f",
+        "source_id": "47164071",
+        "content": {
+          "text": "Your experiences reflect mine. My employer has a slack channel where we can share prompts, tips about how to use AI outside of coding, Q&A. I've learned a lot from my coworkers there. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:28.756743",
+        "updated_at": "2026-02-28T16:02:28.756743",
+        "author": {
+          "id": "58f2f696acb164ab553160f752e0b0dd",
+          "source_id": "rithdmc",
+          "username": "rithdmc",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f7b18f6fc7217d05cb6223bb66103572",
+        "source_id": "47160901",
+        "content": {
+          "text": "I work for a $50B+ company (is this big tech? idk), but I’ll answer this because we are fully embracing AI (Cursor, Claude Code, cloud agents, AI reviews, you name it) > Have you noticed faster pace of development? Yes, our org has had a 50% increase in PRs since Opus 4.5 released. > Have you seen changes to code quality or code review? Yes, significantly more bugs (no exact number), but consider it maybe 3-4x in volume. However, nothing catastrophic and everyone just uses AI for fast-follow fixes anyways. The company as a whole is embracing this style of development for better or worse. > Do teammates that use these tools complete sprint tasks faster than those who don't? Yes, but my entire team uses them. I’d say the ones who use it more effectively (crazy skill setups, better tooling/commands, better scaffolding) finish much faster. Probably 80% of my team still uses Cursor in the one-shot way with very vague requirements, and don’t have the AI connected to github, jira, slack, etc which can actually feed really important context into decision making. If I do something more than once a day, I write a custom slash command for it. This has personally 2x’d my pace. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:28.757380",
+        "updated_at": "2026-02-28T16:02:28.757380",
+        "author": {
+          "id": "074f6ed015b7300b1774ff8b9338699a",
+          "source_id": "with",
+          "username": "with",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2c3ed70c176af870bee46ba649a38abd",
+        "source_id": "47162475",
+        "content": {
+          "text": "The biggest shift isn't the speed of coding, but the shift in 'seniority' expectations. You're no longer just a writer of code; you're an editor of high-volume output. The mental fatigue has shifted from 'how do I solve this' to 'is this generated solution actually robust for our scale'. Big tech feels more like orchestrating a fleet of junior agents than solo deep-work now. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:28.757936",
+        "updated_at": "2026-02-28T16:02:28.757936",
+        "author": {
+          "id": "ad688f16669696e64d6eca7979f5667f",
+          "source_id": "CodeBit26",
+          "username": "CodeBit26",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1765944d41709443ee98ad3b7933a5cf",
+        "source_id": "47161055",
+        "content": {
+          "text": "I work at a large social media company - it has become a popularity contest on who can ship more AI slop the fastest. Real productivity gains are questionable tbh. Slop is replacing more slop. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:28.758545",
+        "updated_at": "2026-02-28T16:02:28.758545",
+        "author": {
+          "id": "a35c4ae493c0c12ebd616f098912d8af",
+          "source_id": "umairnadeem123",
+          "username": "umairnadeem123",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6ade17c66ef0a0efda52be340ce437c3",
+        "source_id": "47164273",
+        "content": {
+          "text": "I work for large tech company, not FAANG. > Have you noticed faster pace of development? Yes, and it terrifies me. > Have you seen changes to code quality or code review? Yes, because of the volume of PRs, I am sure some people are just approving changes with a quick glance > Do teammates that use these tools complete sprint tasks faster than those who don't? Best engineers got better What terrifies me more like cultural thing: 1. Engineers who push a lot of code are trying to get promoted faster so they won't feel the pain 2. Engineers who genuinely care and trying to land high quality work are getting labeled as \"progress blockers\" and getting negative outlook, because they won't be promoted, they need to support the slop added by other engineers. And I don't like this state of the culture. Also engineers who want to get promoted quickly, usually they are very good at talking and can present a tiny skill template as something huge developed over 2 quarters of experience with latest and greatest, while people who actually do the work are more silent and heads down executing, I want them to be promoted but can't impact a lot of things reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:28.759301",
+        "updated_at": "2026-02-28T16:02:28.759301",
+        "author": {
+          "id": "a18163a85ec11a78da9618c57a5581a4",
+          "source_id": "throwaw12",
+          "username": "throwaw12",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2faa187037c9dbd09c28603e193f2124",
+        "source_id": "47168388",
+        "content": {
+          "text": "This reminds me of the pendulum that swings between every company I've worked at For a time, its all about shipping faster. And rushing things out. Then there's a major bug/incident/unhappy customer, and management swings back to code quality reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:28.759960",
+        "updated_at": "2026-02-28T16:02:28.759960",
+        "author": {
+          "id": "d51a6fc1b88e0387f63191816cd49032",
+          "source_id": "softwaredoug",
+          "username": "softwaredoug",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "274936bd431400d00d37a041edcacaf7",
+        "source_id": "47172250",
+        "content": {
+          "text": "I work at Google as a SWE SRE.  That means a lot of the code I touch is on tangly complicated projects doing bug fixes and improving things. Not so much greenfield development unless it's a smaller tool change. AI coding is definitely speeding me up, but not quite in the magic way people at smaller companies might be used to. As a good code complete it's awesome.  As a brain storm buddy, very good.  AI code reviews are awesome and very low risk - if it makes a mistake it's usually just being too cautious. As an end to end agentic coder -pretty bad track record.  Giving it smaller tasks? Pretty good, saving me many hours of boilerplate/cruft a week at least. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:28.760690",
+        "updated_at": "2026-02-28T16:02:28.760690",
+        "author": {
+          "id": "e2a161f3ba5ccc4f77b77167f57263e2",
+          "source_id": "VirusNewbie",
+          "username": "VirusNewbie",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-02-28T16:02:28.761265",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "c48cdf8654fad2413b6a1268f66b2afd",
+      "source_id": "47188727",
+      "title": "Ask HN: 2026, where is the best place in the world to create a startup?",
+      "content": {
+        "text": "<div class=\"toptext\"></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-02-28T16:02:17.804333",
+      "updated_at": "2026-02-28T16:02:17.804333",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "6354964c93039e008fa60a6c534f6096",
+        "source_id": "wewewedxfgdf",
+        "username": "wewewedxfgdf",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 3,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47188727",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "f9d3a52565c12dbd431c2cf1bb4953cf",
+        "source_id": "47192011",
+        "content": {
+          "text": "Agree that physical location matters less, but timezone overlap is underrated. For US-focused startups building engineering teams, LATAM is worth a serious look. Brazil, Argentina, and Mexico have strong developer talent pools, and the timezone alignment with US business hours means real-time collaboration without the async overhead of APAC. We've seen LATAM dev salaries rise 20-30% over the past two years, but there's still a significant cost advantage compared to US remote rates. The catch is understanding country-by-country dynamics — Argentina's economic volatility creates different dynamics than Brazil's more stable market. Incorporate in Delaware or SG for legal/fundraising, but consider LATAM for engineering. The talent density in São Paulo and Buenos Aires rivals many US tech hubs now. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:30.727536",
+        "updated_at": "2026-02-28T16:02:30.727536",
+        "author": {
+          "id": "e076d19549f9f97e6e4df7299e269908",
+          "source_id": "iriisatremotely",
+          "username": "iriisatremotely",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0fc53073129c1d1344666afeff1dd625",
+        "source_id": "47190580",
+        "content": {
+          "text": "In 2026, the 'best place' isn't a physical city like SF anymore, but the jurisdiction that offers the best AI-compute subsidies and clear data privacy frameworks. We’re seeing a massive shift toward 'distributed hubs' in places that prioritize NPU-native infrastructure. If you're building hardware-adjacent software, look where the energy is cheap and the AI regulations are stable. The physical location is becoming secondary to the digital infrastructure you're plugged into reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:30.728100",
+        "updated_at": "2026-02-28T16:02:30.728100",
+        "author": {
+          "id": "3ef59b75a971c392a4317d172cbe1653",
+          "source_id": "codebitdaily",
+          "username": "codebitdaily",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ac2c9f448ff0e2ec72207041f99ce7f6",
+        "source_id": "47188768",
+        "content": {
+          "text": "China if its not politically sensitive. Singapore otherwise. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:30.728626",
+        "updated_at": "2026-02-28T16:02:30.728626",
+        "author": {
+          "id": "473a6a02be8899f1cb9cdc4dbd95af7b",
+          "source_id": "RegnisGnaw",
+          "username": "RegnisGnaw",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "cd27dfdba8a2286a36276907a33aa565",
+        "source_id": "47191064",
+        "content": {
+          "text": "I would say Singapore too. Lots of funds. Smart people. There both Chinese and Americans working in tech companies there, often trying to access the other market. It's a bit of a proxy. Some people consider it some kind of betrayal, but it's been like that for many years. Both English and the Chinese dialects are well known in SG. It's a common middle ground for east and west negotiations too. The downside is market and cost. So raise money in SG. Make use of the better laws and low corruption. Engineering can move to one of the nearby countries. Even Australia is cheaper than Singapore these days, and there's a large bucket of untapped talent there. But Malaysia is nearby, and some people literally drive over the bridge to work in SG. Hybrid with 1 day in the office is also very doable. Indonesia is a fine nearby market, projected to be top 5 highest GDP in 2050. If you're building a unicorn, you'd be good there. Though some people incorporate in SG, market to EU/US too. On a list of foreign tech, people generally have a positive view of Made in Singapore. The region is AI-friendly too. Doesn't have the talent to build another Anthropic or Google, but enough to build a second degree one like ElevenLabs or Cursor. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:30.729243",
+        "updated_at": "2026-02-28T16:02:30.729243",
+        "author": {
+          "id": "65547db35ad470ce1d9e44d413173434",
+          "source_id": "muzani",
+          "username": "muzani",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5ccfdc6774e3825ee39deb62519852c8",
+        "source_id": "47190045",
+        "content": {
+          "text": "Overall probably still SV. But depending on the circumstances China, Singapore, Dubai are all good. The physical location matters so little from a business perspective now though. So I think it's actually more of a lifestyle choice vs a business one. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:30.729806",
+        "updated_at": "2026-02-28T16:02:30.729806",
+        "author": {
+          "id": "85011c9f74b4d55a9e6df59ec6f3b5ee",
+          "source_id": "jackyli02",
+          "username": "jackyli02",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-02-28T16:02:30.730023",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "d8d16aa20f46f32cabf242fd7d0e3b5b",
+      "source_id": "47152724",
+      "title": "Ask HN: Starting a New Role with Ada",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">So, good news. After a unexpectedly long absence from employment, I am 95% certain that I will receive an offer for a contract job as a product owner. This position will largely involve supervising the development/maintenance of code written in Ada. Even though I have over a decade of experience with C/C++/Assembly, I have ZERO experience with Ada. I doubt I will be writing much Ada myself, but I believe I will need to learn Ada.<p>So here are my questions:<p>1. Reading code is usually pretty straightforward. However, all software requires domain knowledge. When starting a new role, how do you bring yourself up on domain knowledge quickly?<p>2. If you know Ada, what resources to learn Ada do you recommend?<p>3. What Ada pitfalls do you advise to look out for?</p></p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-02-28T16:02:17.804984",
+      "updated_at": "2026-02-28T16:02:17.804984",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "2c0b713bb6335530036ee6a6c1baa9c1",
+        "source_id": "NoNameHaveI",
+        "username": "NoNameHaveI",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 10,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47152724",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "5c6f00043f638af45eb8b14248b72596",
+        "source_id": "47192568",
+        "content": {
+          "text": "Coming from more mainstream languages, the first thing you’ll notice about Ada is that the compiler is your most rigorous code reviewer. My advice: lean into the type system early. Don't try to fight the constraints; they are there because Ada is designed for systems where failure isn't an option.\n Focus on understanding 'Packages' and 'Tasking' models, as they handle concurrency much more safely than the primitive threading models in C. Also, keep the 'Reference Manual' (ARM) handy. It’s dense, but it’s the ultimate source of truth. Starting with Ada in 2026 is actually a great career move—as system complexity grows, the industry is rediscovering the value of languages that prioritize safety by design. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:32.218250",
+        "updated_at": "2026-02-28T16:02:32.218250",
+        "author": {
+          "id": "ad688f16669696e64d6eca7979f5667f",
+          "source_id": "CodeBit26",
+          "username": "CodeBit26",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1a3f873f09522ca0b9ac6d172847aeb9",
+        "source_id": "47157420",
+        "content": {
+          "text": "1. Ask questions, and write down the answers in a way that you will find them again. Anki and spaced repetition is useful to learn the terminology or any info that isn't intuitive. 2. https://github.com/ohenley/awesome-ada has links to pretty much every Ada topic and resource; if you want to try Ada using open source tools, the best starting point is https://alire.ada.dev/docs/ 3. Compared to C/C++ I can't really think of any pitfalls. It requires more discipline and formal reasoning, but you will get used to it (and appreciate the lack of footguns, at least I did). Congrats and good luck. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:32.218845",
+        "updated_at": "2026-02-28T16:02:32.218845",
+        "author": {
+          "id": "a624ce3ea5b927d60d117813c923f3b4",
+          "source_id": "phba",
+          "username": "phba",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "440ed3dddb88927de0477a345010a74b",
+        "source_id": "47164129",
+        "content": {
+          "text": "Just need to check if it's plain Ada or one specific profile or  SPARK reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:32.219382",
+        "updated_at": "2026-02-28T16:02:32.219382",
+        "author": {
+          "id": "417bf962f3d126fff00cdf5915ffe41b",
+          "source_id": "Davidbrcz",
+          "username": "Davidbrcz",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a7ae0f415485feb184816ecd56f69c48",
+        "source_id": "47158631",
+        "content": {
+          "text": "I would try Claude Code with an Ada LSP server. Use AI to get the high-level architecture diagrams, question the codebase. You can write a new skill with all your findings about Ada best practices. Also try CodeRabbit if it already supports Ada. Congratulations on the new job, best of luck. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:32.219924",
+        "updated_at": "2026-02-28T16:02:32.219924",
+        "author": {
+          "id": "46d0c9228351522ad9090cd598f43a10",
+          "source_id": "ezulabs",
+          "username": "ezulabs",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "fc1a670a3f3fd500de32414543f57d63",
+        "source_id": "47152838",
+        "content": {
+          "text": "I learned Ada in 1990. It looks like it was based on Pascal. I used Janus Ada for DOS. There is a free Learn Ada ebook here: https://learn.adacore.com/pdf_books/courses/intro-to-ada.pdf reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:32.220531",
+        "updated_at": "2026-02-28T16:02:32.220531",
+        "author": {
+          "id": "be159f034e7316060230b86254c974ea",
+          "source_id": "orionblastar",
+          "username": "orionblastar",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-02-28T16:02:32.220751",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "b9dda9e0c94cafe61d0d72792b8194d6",
+      "source_id": "47159394",
+      "title": "Ask HN: What will happen with Anthropics ultimatum?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">As we are all aware, anthropic has it's ultimatum from the US government: drop their anti-killing TOS or else get in trouble this Friday.<p>I'm sure whatever happens it'll seem much more obvious that that's what was always going to happen, in hindsight, than it does now.<p>So as an experiment, I'm curious to hear from the hn community, in advance of Friday, what we think will happen.<p>Will they concede? Will they ignore and suffer the consequences (and what might those be)? Will we even find out or will it be shrouded in mystery for the foreseeable future?...<p>This is admittedly somewhat sensationalist so I'm not sure whether it fits with hn guidelines, but as one of the best places I know of for genuine online discussion, I think it would be interesting to hear reasoned predictions.</p></p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-02-28T16:02:17.805656",
+      "updated_at": "2026-02-28T16:02:17.805656",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "a750bb0d02e67ac895ac4e1bdee1a052",
+        "source_id": "maniacwhat",
+        "username": "maniacwhat",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 7,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47159394",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "9cddb0b0daaf6fed42749d6f25594aec",
+        "source_id": "47191973",
+        "content": {
+          "text": "It looks like their contract was canceled and given to OpenAI. OpenAI agreed to roughly the same red lines, but I guess for emotional purposes they chose to switch. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:35.139523",
+        "updated_at": "2026-02-28T16:02:35.139523",
+        "author": {
+          "id": "65547db35ad470ce1d9e44d413173434",
+          "source_id": "muzani",
+          "username": "muzani",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "347bb89d388e141878de2b484a72df3b",
+        "source_id": "47162839",
+        "content": {
+          "text": "Situations like this usually end in some kind of quiet compromise. Companies rarely take a hard public stance if it risks access to key infrastructure or partnerships. What we’ll probably see is subtle policy changes rather than a dramatic announcement. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:35.140042",
+        "updated_at": "2026-02-28T16:02:35.140042",
+        "author": {
+          "id": "2cd653acb0f63ece1e126a7e0c08b41d",
+          "source_id": "allinonetools_",
+          "username": "allinonetools_",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "396ebc009de0a91fe57b5b11a8519f8d",
+        "source_id": "47160482",
+        "content": {
+          "text": "no one knows, just wait until the real news hits, the story will be on the front, it's all speculation until then (and can happen sooner, Friday is the deadline) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:35.140583",
+        "updated_at": "2026-02-28T16:02:35.140583",
+        "author": {
+          "id": "0555c16ed7f938be906cf20d79b97096",
+          "source_id": "verdverm",
+          "username": "verdverm",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "27cde229e5eb6d4663eef57fcae47b2a",
+        "source_id": "47160656",
+        "content": {
+          "text": "Is this a prediction on Kalshi yet ? I see currently: \"Will the Pentagon designate Anthropic a supply chain risk? \" I would bet $$ they \"cave\", morals and ethics be damned. Next up on Kalshi: Where will the next genocide be accomplished ? Cuba ?  Nicaragua ? Who will be the US proxy ? Blackwater ? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:35.141181",
+        "updated_at": "2026-02-28T16:02:35.141181",
+        "author": {
+          "id": "66bdf96cf9027a01ed29199a2e4a94eb",
+          "source_id": "DivingForGold",
+          "username": "DivingForGold",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-02-28T16:02:35.141370",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "cf84c274a538719caba76493afb6e753",
+      "source_id": "47188520",
+      "title": "Ask HN: Anthropic has stood its ground. What excuse is left for other companies?",
+      "content": {
+        "text": "<div class=\"toptext\"></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-02-28T16:02:17.806432",
+      "updated_at": "2026-02-28T16:02:17.806432",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "6ad80ba80927e3574a4085e4c433a93f",
+        "source_id": "chirau",
+        "username": "chirau",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 5,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47188520",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "60dcf548fdeb96b90a039e9a341aca88",
+        "source_id": "47188595",
+        "content": {
+          "text": "They won the first round of a PR battle in a years-long war. People thought Tesla \"stood its ground\" before Elon went crazy, given two years who knows where Anthropic will be. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:37.566168",
+        "updated_at": "2026-02-28T16:02:37.566168",
+        "author": {
+          "id": "6f8a0ef01950f54a2a0192e326613555",
+          "source_id": "bigyabai",
+          "username": "bigyabai",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "707ceaf27248d9f41722262d822d7848",
+        "source_id": "47191986",
+        "content": {
+          "text": "I remember the good old days when Google said they were not evil. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:37.566685",
+        "updated_at": "2026-02-28T16:02:37.566685",
+        "author": {
+          "id": "65547db35ad470ce1d9e44d413173434",
+          "source_id": "muzani",
+          "username": "muzani",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7742866ca3ee8ce0087abc0fa9191218",
+        "source_id": "47189807",
+        "content": {
+          "text": "\"Stood its ground\" to some. Don't forget there are still lots (even in SV) who can't stop glazing companies like Palantir and Anduril. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:37.567213",
+        "updated_at": "2026-02-28T16:02:37.567213",
+        "author": {
+          "id": "85011c9f74b4d55a9e6df59ec6f3b5ee",
+          "source_id": "jackyli02",
+          "username": "jackyli02",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-02-28T16:02:37.567371",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "d50057f19ee270279eaad0cee502ea83",
+      "source_id": "47137029",
+      "title": "Ask HN: How do you think about financial runway before quitting?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">I have been thinking about changing jobs.<p>What surprised me is that I was not afraid of the change itself. I was unsure how long I could realistically sustain myself if my income dropped.<p>Most tools I found were full budgeting systems or complex financial software. I did not need tracking. I needed clarity about how many months my current situation could hold under different scenarios.<p>How do you approach this?<p>Do you run detailed spreadsheets?\nDo you assume a conservative burn rate?\nDo you factor in best and worst case?<p>I am exploring this problem and building something simple around scenario based runway calculations, but I am mainly interested in how others here think about it.<p>If anyone is curious about what I am working on, it is here:\nhttps://tryeaseful.com</p></p></p></p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-02-28T16:02:17.807095",
+      "updated_at": "2026-02-28T16:02:17.807095",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "949117cf43f5e7999a8a8f938ad6eaf8",
+        "source_id": "Rooksoni",
+        "username": "Rooksoni",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 2,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47137029",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "103169e971fee92a2d1a40ed80ec92a5",
+        "source_id": "47137092",
+        "content": {
+          "text": "If you have some time to prepare, put your spending on a single credit card.  After a few years you’ll have a very good estimate of your expenditures. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:38.690136",
+        "updated_at": "2026-02-28T16:02:38.690136",
+        "author": {
+          "id": "76731477b327871a38fe1e5298a8fa95",
+          "source_id": "RickJWagner",
+          "username": "RickJWagner",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5052440553ecd9cc43480a52686d572d",
+        "source_id": "47154414",
+        "content": {
+          "text": "I have an Excel (actually, a Google Sheet) with that data. Each credit card, and the total, each month. [My university changed their official bank a few times, so I have a few free credit cards, and each one has different discounts.] reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:38.690663",
+        "updated_at": "2026-02-28T16:02:38.690663",
+        "author": {
+          "id": "851b0a301970b5ad319b0814d1286f40",
+          "source_id": "gus_massa",
+          "username": "gus_massa",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9ebc1f339a6068207ea62312fc0a8c76",
+        "source_id": "47191176",
+        "content": {
+          "text": "I’m bootstrapping my company and my investments income/compounding basically paid me to do my own thing. Soul crushing work at tech company playing office bullshit (performative shit to get promotions and salary bumps) or just focus on doing something interesting I actually care about? I cared about the mission at my previous employers but day to day sucked the later stage the company went. I’ll take funding if/when I need capital boost because it’s way more satisfying building from scratch. And my customers think it’s kinda cool and ofc AI helps me a lot for sure. Imagine if I become the first person to do a solo billion dollar company lol. Me of all people, I would think that would be pretty hilarious. That’s how I thought about it at least. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:38.691236",
+        "updated_at": "2026-02-28T16:02:38.691236",
+        "author": {
+          "id": "a30a8695019e97e5413f4a0335aae62a",
+          "source_id": "moomoo11",
+          "username": "moomoo11",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-02-28T16:02:38.691398",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "5505bf329a6ecccd86b720781bc8942e",
+      "source_id": "47160050",
+      "title": "Ask HN: Could you create a competitor to your company at 10% of the cost?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">I'm trying to wrap my mind about the AI tools, and while I believe there is way too much hype, I'm quite impressed with the progress.<p>The current mood seem to be that big companies will automate away many white collar jobs and just get bigger profits. My question is - what if it's the other way around ? Could said white collar workers just spin off competitors much more easily than before ? Obviously this mostly apply to software, but I'm curious what people think about it in all industries.</p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-02-28T16:02:17.807855",
+      "updated_at": "2026-02-28T16:02:17.807855",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "72a19fc212193b790932267de621570b",
+        "source_id": "TheAlchemist",
+        "username": "TheAlchemist",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 9,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47160050",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "884c3c8cb4498289b4c18cd3ea5f0eb2",
+        "source_id": "47164920",
+        "content": {
+          "text": "Technically speaking? Sure, most of the companies I've worked at aren't exactly doing rocket science. Creating media websites and doing work for clients as a marketing company are things that have a very low barrier to entry. The challenge is that in most of these cases, success is based on trust and long-term reputation building rather than pure technical skill. And doing a good job in either industry requires a lot more time, resources and effort than a single person may be able to provide. So, while I could definitely spin up some very similar sites, creating the actual content at a level of quality that people would even bother to read would be a chore, as would finding an audience in general. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:41.214735",
+        "updated_at": "2026-02-28T16:02:41.214735",
+        "author": {
+          "id": "3d509052e9aaa50bf89c10f559327f4f",
+          "source_id": "CM30",
+          "username": "CM30",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2df82b640054cadebd1c56a7affcb8bc",
+        "source_id": "47162481",
+        "content": {
+          "text": "Technically? Probably. But the 10% cost isn't where the battle is. It's the 90% trust and 'organizational gravity' that legacy companies hold. You can replicate the stack with AI agents in a weekend, but you can't replicate the compliance, the sales relationships, and the 'nobody ever got fired for buying IBM' safety net. AI has lowered the floor for entry, but it hasn't lowered the ceiling for enterprise trust. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:41.215303",
+        "updated_at": "2026-02-28T16:02:41.215303",
+        "author": {
+          "id": "ad688f16669696e64d6eca7979f5667f",
+          "source_id": "CodeBit26",
+          "username": "CodeBit26",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3c4bd8bab6d385a807686309f83edff8",
+        "source_id": "47160535",
+        "content": {
+          "text": "A toy-version MVP might be cheap. What happens when you need to deploy it, scale it, secure it, support it, upgrade it, market it, etc. A large company is more than a single GitHub repo. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:41.215863",
+        "updated_at": "2026-02-28T16:02:41.215863",
+        "author": {
+          "id": "fb6fae387d9dabe783668f9009982cf3",
+          "source_id": "al_borland",
+          "username": "al_borland",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "809f5b14ca36312697e7241b616d72af",
+        "source_id": "47161082",
+        "content": {
+          "text": "Exactly. This is like the greenfield vs brownfield or 'Twitter clone in a weekend' arguments. Cost and complexity grow drastically with success and scale. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:41.216417",
+        "updated_at": "2026-02-28T16:02:41.216417",
+        "author": {
+          "id": "339633bd3e601ddd7f37c630649dd597",
+          "source_id": "radioshakeshack",
+          "username": "radioshakeshack",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ee5aa5dd165f32ce34a25f3975890bec",
+        "source_id": "47161190",
+        "content": {
+          "text": "I know that, that's why I'm asking the question. But if cost and complexity grow drastically with scale, my question is even more relevant, isn't it ? \nIf it's easy to spin up a competitor, we should rather see more small companies, not less. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:41.217012",
+        "updated_at": "2026-02-28T16:02:41.217012",
+        "author": {
+          "id": "72a19fc212193b790932267de621570b",
+          "source_id": "TheAlchemist",
+          "username": "TheAlchemist",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c111ca36c78edbcb7a6c5585a71a62c1",
+        "source_id": "47162173",
+        "content": {
+          "text": "From a pure numbers standpoint, absolutely. We're already seeing a wave of folks shipping more PoC products with AI tools. The distinction is that most of these aren't true \"competitors\" to established companies, more filling gaps and niches if they aren't just a toy clone. That's the more interesting angle here to me. Rather than building a direct competitor at 10% the cost, agent assisted tooling could make it individually profitable to target small cap, cottage industry type problems that have too much nuance for a one size product. Areas where someone already has deep business insight that provides the value proposition moreso than the labor around coding. Not competitors at 10% the cost, but filling niches that wouldn't have been profitable otherwise. The danger is that if agents get more capable, the niche markets start to erode. If a generic solution agent can acquire domain knowledge and coordinate with customers, even these 'competitors' become risky again. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:41.217654",
+        "updated_at": "2026-02-28T16:02:41.217654",
+        "author": {
+          "id": "339633bd3e601ddd7f37c630649dd597",
+          "source_id": "radioshakeshack",
+          "username": "radioshakeshack",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "885bc838a60db66680328aa64151556e",
+        "source_id": "47161231",
+        "content": {
+          "text": "There have always been a million small POC clones of popular apps. Twitter, Trello, <insert popular todo app>, etc. Doing a subset of what a market leader is doing, but worse, with no path to scale or support, isn’t going to go anywhere. Yesterday someone vibe coded a password manager in 20 minutes and posted it here. Should anyone use it? Absolutely not. It’s a security nightmare, won’t get support, and the architecture is complete trash, requiring the use to run a local server the background that the app and browser extension talk to. Not to mention it will likely never see an update. Successful competitors do something new. A lazy vibe coded clone doesn’t nothing new, and they don’t even do all the basics. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:41.218341",
+        "updated_at": "2026-02-28T16:02:41.218341",
+        "author": {
+          "id": "fb6fae387d9dabe783668f9009982cf3",
+          "source_id": "al_borland",
+          "username": "al_borland",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "06d77afe50493410249dd1da9fce3665",
+        "source_id": "47164066",
+        "content": {
+          "text": "As a former JavaScript developer yes I could reduce costs by 99%, but it’s not what business wants. They want the able to hire/fire people and not train them, so there are your inefficiencies: a bunch of lower confidence people that need a lot of hand holding. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:41.218988",
+        "updated_at": "2026-02-28T16:02:41.218988",
+        "author": {
+          "id": "0ae492937dcc65e2e9ad4e3b8663757f",
+          "source_id": "austin-cheney",
+          "username": "austin-cheney",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ba2067ed7fd9245663ba4e7a786207e4",
+        "source_id": "47160331",
+        "content": {
+          "text": "I think you're onto something.  I started my own firm on a shoe-string compared to my boss' existing company and have been doing quite well.  The hardest thing may be lead generation, but I poached a bunch of those too. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:41.219681",
+        "updated_at": "2026-02-28T16:02:41.219681",
+        "author": {
+          "id": "973dbc691acc2fd0f0da294e58588f00",
+          "source_id": "Eaglo",
+          "username": "Eaglo",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ba859598d47329dec6ed73e18beae3cf",
+        "source_id": "47172770",
+        "content": {
+          "text": "Weirdly enough, no. 1) Pricing too low would actually discourage buyers. Half of the time someone says this, it's nonsense; customers prefer cheaper. But 10% is too low. Would you buy a Slack clone at $0.50/head or a $2/month TalkGPT? 2) A good amount of cost would be non-software. Hardware is becoming a larger portion of costs. 3) Software development isn't just writing code. Most of my day now is just writing notes to verify what AI is doing, i.e. actual engineering. AI has gotten so damn good that fixes are about 1-10 lines or so per ticket, but now the comments become longer than the code. You do save time, but now we're tackling Highest Priority bugs that have been around since 2023. 4) Parkinson's Law: work expands to fill the space. Your competitors also have the same tools. You'll see companies like Stripe drop from #1 to #4. The market share will be taken by new players willing to work 996 but using AI to cut it down to 40 hours/week. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:41.220462",
+        "updated_at": "2026-02-28T16:02:41.220462",
+        "author": {
+          "id": "65547db35ad470ce1d9e44d413173434",
+          "source_id": "muzani",
+          "username": "muzani",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "73a684e3a06e9e1abc5252186c82bac3",
+        "source_id": "47162351",
+        "content": {
+          "text": "I AIed a new currency coin and am currently llmmaxxing an airline rooted around no assumption models. Traditional moats have crumbled.  New norms challenge established truths.  What were barriers are now entry. A phase shift across industry where entrepreneur becomes the incumbent.  This time it is different.   I say go for it! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:41.221235",
+        "updated_at": "2026-02-28T16:02:41.221235",
+        "author": {
+          "id": "e0349c7c382109ff6ae585766215cbe5",
+          "source_id": "throwaway5465",
+          "username": "throwaway5465",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4fba71e171e86bab3b6c816065e6899a",
+        "source_id": "47172160",
+        "content": {
+          "text": "My website is just text on a page, for the most part, but the text solves a problem really well, and requires a lot of infrastructure to surface important knowledge that isn't already on the internet. So far most competitors just repeat what's already said, but without the careful writing and information architecture. It's a bit like travel guides. Eventually they all parrot each other, except for that one local who makes the effort of discovering and curating new places. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:41.222026",
+        "updated_at": "2026-02-28T16:02:41.222026",
+        "author": {
+          "id": "95c7810f5068a7f6553a5ebcb0e954d1",
+          "source_id": "nicbou",
+          "username": "nicbou",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d9fafb557dd5f367612f296c0bffb815",
+        "source_id": "47161156",
+        "content": {
+          "text": "Nope. 90% of my company’s employees are doing highly skilled work that requires interacting with other humans face to face with physical presence. And turning our tech over to AI would undoubtedly be a disaster of security and compliance fails in a highly regulated industry — if it didn’t simply hit a complexity wall that it couldn’t spaghetti code its way through. And that’s setting aside UX. We have in-depth conversations around twice a week to make decisions at the intersection of data needed for business logic, compliance constraints, and managing both of those while keeping UX “delightful”. I’m not convinced an LLM will ever be able to handle those with halfway decent judgement. YMMV if your product is an issue tracker, CRM less complex than salesforce, or newsletter platform, etc. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:41.222896",
+        "updated_at": "2026-02-28T16:02:41.222896",
+        "author": {
+          "id": "6b7f6c219ea995fc6ef3e9e6eae719d5",
+          "source_id": "apothegm",
+          "username": "apothegm",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8874a1d2b4df9c40eba28b167b7d951e",
+        "source_id": "47163611",
+        "content": {
+          "text": "No - it costs $0 already reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:41.223741",
+        "updated_at": "2026-02-28T16:02:41.223741",
+        "author": {
+          "id": "9066d6dc0600382de03092666a33094e",
+          "source_id": "sprobertson",
+          "username": "sprobertson",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-02-28T16:02:41.224234",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "f800940ef49a058f1f7d12b2fdd8bef6",
+      "source_id": "47138336",
+      "title": "Ask HN: Who has seen productivity increases from AI",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">I would love examples of positions and industries where AI has been revolutionary. I have a friend at one of the largest consulting firms who has said it'd been a game-changer in terms of processing huge amounts of documentation over a short period of time. Whether or not that gives better results is another question, but I would love to hear more stories of AI actually making things better.</div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-02-28T16:02:17.808520",
+      "updated_at": "2026-02-28T16:02:17.808520",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "95e7c83ee80ef9ceb07eee2bd5cece14",
+        "source_id": "Kapura",
+        "username": "Kapura",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 12,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47138336",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "96ea62ac5c32f11c813055c63706d1cd",
+        "source_id": "47182861",
+        "content": {
+          "text": "One data point from the extreme end: gave Claude Code $0 budget and let it run autonomously every 2 hours for 6 days. Productivity at tasks: yes — it built 2 full products from scratch, ran DB migrations, wrote SEO pages, set up analytics, deployed everything on its own. Productivity at outcomes: no — still at $0 revenue after 18 runs. It kept optimizing things nobody was using. The key insight: AI productivity is massive when the task is well-defined. But left to its own judgment, it tends to choose building over selling, and polishing over distribution. Same trap junior engineers fall into. Full writeup: https://dev.to/wpmultitool/my-ai-agent-has-been-trying-to-ma... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:42.878555",
+        "updated_at": "2026-02-28T16:02:42.878555",
+        "author": {
+          "id": "74243ea59d711e2ba4ba5f59d6a73dfc",
+          "source_id": "agenthustler",
+          "username": "agenthustler",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8587de217f8e5c10a5f2e459ddeb20cb",
+        "source_id": "47150174",
+        "content": {
+          "text": "I'm an engineer in the oil and gas industry. Some of my job involves messy judgement calls that I would never involve LLMs in, but some of my job boils down to integrating different items of data that exist across documents, drawings and a few databases that are in different formats and don't cross reference each other. At times I have used LLMs as a kind of \"highly enhanced search engine\" to do semantic search across documentation of every different types. My alternative was opening each document and using ctrl+f, along with my intuition of knowing what document titles to search for. For a more concrete example, I have an interface to the data that comes from every sensor on the oil processing facility. It has a built in \"AI\" (I try not to use that term!) but it has a feature where I ask how to process data in plain language and it'll give me the calculations, then it'll also provide a plain language summary of all the calculations I conducted. That saved me 10 hours of work. I am a negative nancy on LLMs in general but I still passionately believe that they're a tool which every white collar employee will need to learn to use effectively. I cringe when I hear engineers say \"I didn't know the answer so I asked ChatGPT\" but I also do worry that I could be significantly outperformed by another engineer with 10 years less experience in engineering and 1 year more experience in judicious use of LLMs. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:42.879131",
+        "updated_at": "2026-02-28T16:02:42.879131",
+        "author": {
+          "id": "166bf71de506469c49628be58f6723a5",
+          "source_id": "iamthemonster",
+          "username": "iamthemonster",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c4cf14ab456b76fcaa1eb5ed6cdd617d",
+        "source_id": "47180682",
+        "content": {
+          "text": "What's an example of a messy judgement call? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:42.879687",
+        "updated_at": "2026-02-28T16:02:42.879687",
+        "author": {
+          "id": "b60164f81f7be4893ae8898ba5e5e1b6",
+          "source_id": "iridione",
+          "username": "iridione",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "208a8965a16fe128262a984f21bc6e4b",
+        "source_id": "47150554",
+        "content": {
+          "text": "I find that I mostly use AI to compensate for Google search becoming unusable. I use it more and more as advanced API documentation and writing code snippet. It made me a little bolder, and reduced friction from coding. I will test Claude Code in the upcoming weeks. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:42.880266",
+        "updated_at": "2026-02-28T16:02:42.880266",
+        "author": {
+          "id": "95c7810f5068a7f6553a5ebcb0e954d1",
+          "source_id": "nicbou",
+          "username": "nicbou",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2a98dc47920d0c97e3dfc89ad847a5e1",
+        "source_id": "47138894",
+        "content": {
+          "text": "Me! I'm in a leadership position at a marketing agency. I'm a self-taught programmer (just found it interesting and started on my TI-83 in high school doing BASIC and then some Z80 assembly) and studied creative writing in college. I used to hand-write a lot of the scripts we used to automate processes (mostly Google Apps Scripts and Python). It was very helpful to us but slow going and sometimes frustrating. In the past, I was limited by my programming knowledge and ability. Now I am limited by my knowledge of our business and ability to explain what I want to happen. With LLMs, I can generally 1-shot most things I want to automate, including things that would've taken me days to figure out in the past. I generally just say that I'll spend 30 minutes on something and more often than not, it's either done or very close at the end of that time. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:42.880865",
+        "updated_at": "2026-02-28T16:02:42.880865",
+        "author": {
+          "id": "73ce5d46ac1e90cb5f42afece52aba72",
+          "source_id": "paulcole",
+          "username": "paulcole",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1c80dfb0a5a18bbe279b23482e11734c",
+        "source_id": "47153122",
+        "content": {
+          "text": "Three key things in coding which has helped recently: 1) Debug mode from Cursor. It highlights all possible hypotheses based on the steps to reproduce and whatever you know from the code. It slaps down logs and tests all these hypotheses at once. 2) Log reading, though this is a variant of the above. At times we get massive logs, like 10k lines for a bug. We go through what may possibly cause the bug - what screens, threads, race conditions, improper handling of ANY_KEY or default or something. Then we ask Opus to compare the logs to see if it matches the story. I ain't manually checking Line 314, Line 500, Line 44 to see if it shows in logs, but AI is just great at piecing together this whodunit. 3) Finding documentation. So there's been a few bugs unsolved around how very specific Android devices handle wifi reconnection or bluetooth or Ethernet. Instead of making assumptions, I can dig into the AOSP source code directly and see the conditions that trigger these. AI will even point out the exact lines. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:42.881517",
+        "updated_at": "2026-02-28T16:02:42.881517",
+        "author": {
+          "id": "65547db35ad470ce1d9e44d413173434",
+          "source_id": "muzani",
+          "username": "muzani",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "33786291986d8a339c7c05707b226f98",
+        "source_id": "47144920",
+        "content": {
+          "text": "As a founder, it helps me keep track of things by understanding our user session recordings and telling me where exactly they're going wrong. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:42.882167",
+        "updated_at": "2026-02-28T16:02:42.882167",
+        "author": {
+          "id": "84a7328f36a933de2a2a42500c62fcf1",
+          "source_id": "shubhamintech",
+          "username": "shubhamintech",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e19cd34c04e41cc519c0c011d99a7273",
+        "source_id": "47145298",
+        "content": {
+          "text": "I work in cloud consulting + app dev.  I’m always responsible for the full life cycle of a project - team lead, discovery sessions with the clients, working with them through the project and handoff. I can now do everything by myself on most projects. Up to ones that would have taken at least 2-3 other people before.  Before I would have had to delegate it just because I couldn’t do it all by myself on time.  I know how to develop (professionally did 30 years) and I know cloud (professionally for 8 years). I just didn’t have time. On the other hand, I haven’t done web dev in a decade.  But I can vibe code an internal website for operations and authentication via Amazon Cognito.  It’s just a free feature that I give them even when it’s not in the contract reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:42.882850",
+        "updated_at": "2026-02-28T16:02:42.882850",
+        "author": {
+          "id": "646941a85e859767254d97ee8f8f4eec",
+          "source_id": "raw_anon_1111",
+          "username": "raw_anon_1111",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3899821a6bc18f0ff46cf1f873d775e1",
+        "source_id": "47148321",
+        "content": {
+          "text": "Has it affected how you calculate/charge your rates in any way? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:42.883549",
+        "updated_at": "2026-02-28T16:02:42.883549",
+        "author": {
+          "id": "4bb862d40f11b5e996185d8f504ecc91",
+          "source_id": "shinryuu",
+          "username": "shinryuu",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1ddbf406070903f1f189f27d7caf6b65",
+        "source_id": "47150493",
+        "content": {
+          "text": "I don’t have a good comparison of what rates are like for independent consultants.  I have only worked full time salaried for consulting departments - at AWS directly (Professional Services - full time blue badge RSU earning employee) and now for a third party AWS partner. But let’s say I make more as a staff consultant considering my actual billed hours, benefits (401K, health insurance, paid time off etc) than I would make working independently and I always know how much I’m going to get paid. But I will say in today’s cloud consulting environment, it is a race to the bottom unless you can lead projects and even then there are relatively few high paying (over $200K with benefits and  80% utilization not including PTO) outside of being a full time employee working in the consulting divisions of AWS, Google (they had an RTO mandate so I ignored recruiters) or maybe Oracle. The only reason they can justify American rates for someone like me who knows cloud but who is mostly a developer is because I can lead projects and churn out code quickly - thanks to AI. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:42.884327",
+        "updated_at": "2026-02-28T16:02:42.884327",
+        "author": {
+          "id": "646941a85e859767254d97ee8f8f4eec",
+          "source_id": "raw_anon_1111",
+          "username": "raw_anon_1111",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c874236c1a00959d3ff3ff370a8b877b",
+        "source_id": "47140196",
+        "content": {
+          "text": "These \"questions\" just seem like a trap/disingenuous. The people \"asking\" commonly have decided the answer and are just looking to reinforce that by playing \"No true Scotsman\" with other people's productivity increases. We have software written in what is essentially an obsolete platform (a RAD solution from the 1990s). We've been slowly hand rewriting it into React. A single developer converts one a week by hand, and the results are good (we still have over a hundred). We've developed an internal tool to turn the software's definition files into a single XML, and then are feeding it through a multi-process Codex pipeline (multiple instruction files, that product intermediaries), which ultimately outputs a \"90%\" working React page. Our developers then PR the output, fix/adjust/test, and release. We've gone from one per week for a single developer, to roughly three per week without a marked quality loss. It is taking care of most of the repetitive parts of the work, and allowing our developers to spend more time in technology they're familiar with (React) instead of legacy stuff. Is it perfect, no, but the cost/benefit is clear. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:42.885125",
+        "updated_at": "2026-02-28T16:02:42.885125",
+        "author": {
+          "id": "e9efefb03d571676bb26bfb2a965b128",
+          "source_id": "Someone1234",
+          "username": "Someone1234",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "05b757222bfc2002e4e7be83a4be8478",
+        "source_id": "47182105",
+        "content": {
+          "text": "What you described is that your team is producing software. That is exactly what a team of developers did 10 or 20 years ago. Doing X in Y days does not mean much, same thing happened with Ruby on Rails. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:42.885902",
+        "updated_at": "2026-02-28T16:02:42.885902",
+        "author": {
+          "id": "132f87c184e816deee8ffd6d5d71927e",
+          "source_id": "brazukadev",
+          "username": "brazukadev",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "08a2803239f40b44a34137f522910113",
+        "source_id": "47166383",
+        "content": {
+          "text": "It’s made search a little easier. I don’t know if it’s enough to call it a productivity gain, but more of a quality of life improvement, surfacing more pages with added context in the results. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:42.886781",
+        "updated_at": "2026-02-28T16:02:42.886781",
+        "author": {
+          "id": "fb6fae387d9dabe783668f9009982cf3",
+          "source_id": "al_borland",
+          "username": "al_borland",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "572d7cb320c195ab2d017b2564afb6b7",
+        "source_id": "47142625",
+        "content": {
+          "text": "I got same results in few minutes and cents that I got from a lawyer in few days and thousand dollars. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:42.887631",
+        "updated_at": "2026-02-28T16:02:42.887631",
+        "author": {
+          "id": "ddc8070c49ef7d2a9f42017d8fdef6dc",
+          "source_id": "aristofun",
+          "username": "aristofun",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3f3fb5003b43dada362acef6e2e6e80b",
+        "source_id": "47176261",
+        "content": {
+          "text": "Surely you realize that the same result does not mean that the process leading to the conclusion was the same. Even if the processes were identical, using an LLM arguably likely broke any privilege and confidentiality protections you might previously have enjoyed. See, e.g. , United States v. Heppner (S.D.N.Y.) (recent case of first impression). So there's that. I was also going to comment separately that LLMs have been great to identify opposing counsel whom I suspected of not litigating in good faith / actually reading the cases and applying them. Now the confabulated cases are proof positive! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:42.888562",
+        "updated_at": "2026-02-28T16:02:42.888562",
+        "author": {
+          "id": "6748a5988ec0e2df178375650603a80d",
+          "source_id": "treetalker",
+          "username": "treetalker",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d245fda9042dbfb580f6f6e15b56f079",
+        "source_id": "47179487",
+        "content": {
+          "text": "I didn’t understand half of your comment and guess what - I don’t care. As long as it is not a privacy sensitive, high stakes or human factor related matter, I choose LLM any time of day. All the bullshit lawyers made up to protect their own job I deeply can not care less about. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:42.889483",
+        "updated_at": "2026-02-28T16:02:42.889483",
+        "author": {
+          "id": "ddc8070c49ef7d2a9f42017d8fdef6dc",
+          "source_id": "aristofun",
+          "username": "aristofun",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "95c90b5841516410cd0e8d657e39f2a2",
+        "source_id": "47138834",
+        "content": {
+          "text": "I imagine content farms, social media bots, at-scale scam operations, blackhat seo, busywork homework, social media propaganda botnetworks have all seen a significant boost of oroductivity. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:42.890435",
+        "updated_at": "2026-02-28T16:02:42.890435",
+        "author": {
+          "id": "48ae4e5e8feda1ae906c384d2d3556aa",
+          "source_id": "andrei_says_",
+          "username": "andrei_says_",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-02-28T16:02:42.891003",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "c22b0cd92b49c670dbd7b42d35552cc5",
+      "source_id": "47135806",
+      "title": "Ask HN: Any DIY open-source Alexa/Google alternatives?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">I'm looking to replace my Alexa with an alternative where I can use a realtime model like Gemini or an STT -&gt; LLM -&gt; TTS pipeline. Should be easy to build with an Arduino or I'd even be happy buying an already made solution.<p>Basic functions should include playing Spotify, asking questions, settings timers.</p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-02-28T16:02:17.809078",
+      "updated_at": "2026-02-28T16:02:17.809078",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "e0b36e719fc4a517d189ea58df7c3203",
+        "source_id": "personality0",
+        "username": "personality0",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 9,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47135806",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "dac99a66b6f2497d3ec2e13b0f9cc2b5",
+        "source_id": "47136313",
+        "content": {
+          "text": "The ESP32S3 has wake word support: https://components.espressif.com/components/espressif/esp-sr... The rest is just some vibe coding… reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:44.450665",
+        "updated_at": "2026-02-28T16:02:44.450665",
+        "author": {
+          "id": "4637b536466ed957c8b23e2797dc857c",
+          "source_id": "iamflimflam1",
+          "username": "iamflimflam1",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4d319d80904b010a334f29e40ea2c409",
+        "source_id": "47137982",
+        "content": {
+          "text": "If it's possible via vibe coding, then there are a few projects out there that do just exactly that. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:44.451200",
+        "updated_at": "2026-02-28T16:02:44.451200",
+        "author": {
+          "id": "57271295b4ab9e4ddae5afc446404000",
+          "source_id": "worldsavior",
+          "username": "worldsavior",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ba5222062e779ac999d44e2a2c66cdd3",
+        "source_id": "47136647",
+        "content": {
+          "text": "Perhaps https://rhasspy.readthedocs.io/en/latest/ reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:44.451790",
+        "updated_at": "2026-02-28T16:02:44.451790",
+        "author": {
+          "id": "69ce45334ac4bd67bca431b95879d7cf",
+          "source_id": "wonger_",
+          "username": "wonger_",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "52eb622d78ba71fec2dcf317b5c3a278",
+        "source_id": "47135941",
+        "content": {
+          "text": "I believe home assistant, is/was working on a physical products for this, but no idea if it available yet reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-02-28T16:02:44.452350",
+        "updated_at": "2026-02-28T16:02:44.452350",
+        "author": {
+          "id": "e865a43dfaebeb14793397bb7979158a",
+          "source_id": "Zekio",
+          "username": "Zekio",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-02-28T16:02:44.452536",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
   }
 ]
