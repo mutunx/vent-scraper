@@ -37927,5 +37927,2431 @@
       ],
       "is_nsfw": false
     }
+  },
+  {
+    "post": {
+      "id": "dbae57562f6d410aa282e316627e8a57",
+      "source_id": "47204278",
+      "title": "Ask HN: How do we solve the bot flooding problem without destroying anonymity?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">AI posts are becoming indistinguishable from human posts, and we can see it here on HN. The conventional response by website operators is to put in progressively tighter verification systems to distinguish bots and humans, but that eventually leads to the end of anonymity.<p>This is not an anti-AI rant. If a future AI agent truly has high quality posts and wants to use the site normally, that's fine. I'm talking about spam campaigns with hundreds of new accounts. We need new solutions to this problem.<p>I'll start by proposing a solution that could work for HN and similar forums. Feel free to iterate on it or propose your different ideas in the comments. Here goes:<p>For logged-in users, instead of ranking posts and comments on the server-side, the server only delivers a chronological feed + the current logged-in user's voting history.<p>Using the chronological feed as the base, each of your past votes changes the ranking of your feed by a tiny bit, and that's calculated client-side. You're more likely to see posts and comments from users you've upvoted in the past at the top.<p>In short, this means a new account will see a completely chronological feed, while an established account will see a feed modified by only their own past votes.<p>The public feed for non-logged-in users would still be ranked by the server. No changes there.<p>So each user gets a fully personalized bubble when logged in, except it's not a bubble because n=1. And it's really easy to break out of the bubble by logging out.<p>Spam bots can post and vote all they want, but they won't change the core userbase's experience that much, because the bots will only have access to a chronological feed. It has no taste, which is accumulated over time, and therefore can't spam votes and replies on real conversations nearly as much.</p></p></p></p></p></p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-03-01T16:02:34.947669",
+      "updated_at": "2026-03-01T16:02:34.947669",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "0dd0f8d51b32db71db0f72cf11dfb269",
+        "source_id": "txrx0000",
+        "username": "txrx0000",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 7,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47204278",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "ceab981644fec9bafd24a5b91d593aa7",
+        "source_id": "47207692",
+        "content": {
+          "text": "OP, you're on the right track. The question you need to ask yourself is \"What's the end game?\" What happens when users' feeds are full of users that they already know? You think they'll be satisfied with that? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:37.084033",
+        "updated_at": "2026-03-01T16:02:37.084033",
+        "author": {
+          "id": "579c9cd64e386cd043d95e40c0d4f6bf",
+          "source_id": "judahmeek",
+          "username": "judahmeek",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4b2fa06996246be06ba5e2a56127745d",
+        "source_id": "47205260",
+        "content": {
+          "text": "The biggest signal I have noticed over time is consistency, not just one good post. Accounts that participate normally for weeks build a kind of trust naturally. Maybe weighting activity history more than identity verification could help without hurting anonymity. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:37.084556",
+        "updated_at": "2026-03-01T16:02:37.084556",
+        "author": {
+          "id": "2cd653acb0f63ece1e126a7e0c08b41d",
+          "source_id": "allinonetools_",
+          "username": "allinonetools_",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "297b7bdcdf2441b5199c4d421745f9c6",
+        "source_id": "47205493",
+        "content": {
+          "text": "Creates echo chambers, karma whoring 'power' accounts, rewards ego-posting and generally  makes the experience about who says what not what is said.  Worsens the problem. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:37.085111",
+        "updated_at": "2026-03-01T16:02:37.085111",
+        "author": {
+          "id": "e0349c7c382109ff6ae585766215cbe5",
+          "source_id": "throwaway5465",
+          "username": "throwaway5465",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "cddf02b51d6a1916897158de11cf31c0",
+        "source_id": "47206906",
+        "content": {
+          "text": "Echo chambers exist no matter what & \"who says what\" is an essential aspect of determining transferrable credibility. Without transferrable credibility, any ratings system simply becomes a question of which side spams the most. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:37.085687",
+        "updated_at": "2026-03-01T16:02:37.085687",
+        "author": {
+          "id": "579c9cd64e386cd043d95e40c0d4f6bf",
+          "source_id": "judahmeek",
+          "username": "judahmeek",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0b64edbb79173d8c2737cd7715e54430",
+        "source_id": "47204906",
+        "content": {
+          "text": "One issue I keep noticing is that most anti-bot systems optimize\nfor blocking instead of increasing friction progressively. Rate limits tied to behavioral patterns rather than identity\nseem to work better — especially interaction timing,\nnavigation flow, or session consistency. We experimented with something similar while building HiveHQ\nand found bots usually fail when systems require small\ncontextual actions humans do naturally. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:37.086337",
+        "updated_at": "2026-03-01T16:02:37.086337",
+        "author": {
+          "id": "fc49d0e48bb24cae8f27c843ca32811b",
+          "source_id": "fernando_campos",
+          "username": "fernando_campos",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "db6c659782ddd0232b0fa64da30a5135",
+        "source_id": "47206851",
+        "content": {
+          "text": "So... use advanced pattern matching to determine human patterns & reject outliers? Interaction timing is like rate limiting, but more granular Navigation flow is a basically requiring bots to use a headless browser instead of API's What does session consistency mean in this context? Restricting to a limited number of interests & activity times? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:37.087014",
+        "updated_at": "2026-03-01T16:02:37.087014",
+        "author": {
+          "id": "579c9cd64e386cd043d95e40c0d4f6bf",
+          "source_id": "judahmeek",
+          "username": "judahmeek",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "28fb0b5094f1c9ac7756143220577cc2",
+        "source_id": "47205112",
+        "content": {
+          "text": "could solve bot flooding by raising the cost of automation, not by removing anonymity. Techniques like behavioral detection, rate limiting, proof‑of‑work, reputation systems, and AI‑based anomaly detection can filter bots without requiring real‑world identity. The goal isn’t to know who you are — it’s to know whether you’re human. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:37.087678",
+        "updated_at": "2026-03-01T16:02:37.087678",
+        "author": {
+          "id": "64b94b4f315d531e0d4ed6307fa40304",
+          "source_id": "bruceyao1984",
+          "username": "bruceyao1984",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "da94906d2f2a98f46060241a6ed11816",
+        "source_id": "47204288",
+        "content": {
+          "text": "Read this comment and use the script in the linked subject: https://news.ycombinator.com/item?id=47203918 reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:37.088375",
+        "updated_at": "2026-03-01T16:02:37.088375",
+        "author": {
+          "id": "0ae492937dcc65e2e9ad4e3b8663757f",
+          "source_id": "austin-cheney",
+          "username": "austin-cheney",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a95ece5291a9925c2f9e24f2d7faf082",
+        "source_id": "47205507",
+        "content": {
+          "text": "Haven't noticed any negative changes. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:37.089076",
+        "updated_at": "2026-03-01T16:02:37.089076",
+        "author": {
+          "id": "2845ad0a586c89a9cc07525be66375d7",
+          "source_id": "chistev",
+          "username": "chistev",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2c565c0fc72f9e01f9f4fcce57393069",
+        "source_id": "47204632",
+        "content": {
+          "text": "make spamming illegal give severe punishments and enforce the law reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:37.089820",
+        "updated_at": "2026-03-01T16:02:37.089820",
+        "author": {
+          "id": "82f6843e5218c9fcf2e6e81b394d6a60",
+          "source_id": "drsalt",
+          "username": "drsalt",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3513673ee7b6609f483c88a2af1d1441",
+        "source_id": "47207264",
+        "content": {
+          "text": "There is no way to solve it without going to tribalism. Bots and AI right now as good as the \"average\" joe. All the places that can move the perception of real people about products, politics or any form of power will and is being flooded with bots. The reason for the \"ID\" on internet is not because of the children . \nBut because the bots are soo good they need to use ID to filter what is bot or not. Avoiding the dead internet. The powers that be NEED to sway perception and narrative to their liking. think about the children! Epstein list, patriot act, etc. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:37.090637",
+        "updated_at": "2026-03-01T16:02:37.090637",
+        "author": {
+          "id": "3d9b0125d0f858f61fffef25d95839b3",
+          "source_id": "hash07e",
+          "username": "hash07e",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-03-01T16:02:37.091038",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "88f70cb3249d781529cf4826937d00b0",
+      "source_id": "47200827",
+      "title": "Ask HN: Builder.ai ($1B Microsoft-backed AI company) who's lookin at the assets?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">Builder.ai raised $450M from Microsoft and \nthe Qatar Investment Authority. Peak \nvaluation $1B+. Filed insolvency May 2025.<p>Administrator: Alvarez &amp; Marsal (Jul 2025)<p>Assets available:\n- builder.ai domain ($50K-$200K est.)\n- Natasha AI platform ($100K-$500K est.)\n- Full source code ($500K-$5M est.)\n- Enterprise clients: NBCUniversal, Fujitsu, \n  Virgin Unite ($50K-$300K est.)<p>Total estimated: $830K-$6.65M+<p>Full intelligence report available covering \ncollapse timeline, assets, administrator \ncontacts, acquisition guide.<p>Report: selar.com/s2121g2629</p></p></p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-03-01T16:02:34.948450",
+      "updated_at": "2026-03-01T16:02:34.948450",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "cf4b60f2ddb320505fb80b318fcddc68",
+        "source_id": "gamelock",
+        "username": "gamelock",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 6,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47200827",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "7fa16442465b9f4b1799a00e3972fe07",
+        "source_id": "47203479",
+        "content": {
+          "text": "yeah idk about clicking any links, but im just struggling to understand why anyone would pay anywhere close to any of these estimated valuations for the source code or platform, unless the enterprise client's contracts/work will come with the purchase. I'd have a completely different opinion on its valuation if the sale was happening a few months within when insolvency was declared. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:39.100980",
+        "updated_at": "2026-03-01T16:02:39.100980",
+        "author": {
+          "id": "d8297227c327535e2c1efec05bbc44c8",
+          "source_id": "harris-012",
+          "username": "harris-012",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d9d003fb2c6fa59af92db3cb815d9a17",
+        "source_id": "47204234",
+        "content": {
+          "text": "That's a fair point. The valuations are \nestimates based on comparable distressed \nasset transactions - the actual sale price \nwill depend heavily on what the administrator \npackages together. You're right that client contracts are the \nkey variable. The report notes that the \nenterprise client database value is \ncontingent on whether Alvarez & Marsal can \ntransfer existing relationships. Source code \nalone without clients is worth significantly \nless. The timing concern is also valid - assets \ndepreciate the longer they sit in \nadministration. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:39.101543",
+        "updated_at": "2026-03-01T16:02:39.101543",
+        "author": {
+          "id": "cf4b60f2ddb320505fb80b318fcddc68",
+          "source_id": "gamelock",
+          "username": "gamelock",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "adb6f842c79607c90b7ac31fcdd0390e",
+        "source_id": "47203389",
+        "content": {
+          "text": "I’m curious about the report but 30 years on the internet have honed my instincts and they say not to paste that link on my url bar reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:39.102104",
+        "updated_at": "2026-03-01T16:02:39.102104",
+        "author": {
+          "id": "74e48e7b0d3a94650d14378b154b8e30",
+          "source_id": "kokken",
+          "username": "kokken",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2ae0b617ef1bd0c91bb5fb5674140d4f",
+        "source_id": "47204237",
+        "content": {
+          "text": "Completely understandable - healthy \nskepticism is warranted. The report is \nhosted on Selar.co, a Nigerian creator \nplatform similar to Gumroad. All the core information in the post is \nverifiable independently - the Alvarez & \nMarsal appointment was covered by \nBusinessCloud, the collapse by Sifted and \nBloomberg. Happy to answer any questions \nhere directly. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:39.102661",
+        "updated_at": "2026-03-01T16:02:39.102661",
+        "author": {
+          "id": "cf4b60f2ddb320505fb80b318fcddc68",
+          "source_id": "gamelock",
+          "username": "gamelock",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-03-01T16:02:39.102862",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "da7abbd597a560dd43d38832789de2b3",
+      "source_id": "47200535",
+      "title": "Ask HN: Article to share with a technical manager about modern AI coding tools?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">I’m on an IT team, and my manager uses ChatGPT’s chat interface for some tasks, (IAC) so he’s generally aware of AI.<p>However, he’s not familiar with more advanced tools like Claude Code, Codex, or other development tools.<p>I’m looking for a, balanced article that explains:<p>What these tools can realistically do today<p>Where they still struggle or fall short<p>Any recommendations?</p></p></p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-03-01T16:02:34.949176",
+      "updated_at": "2026-03-01T16:02:34.949176",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "e2a4978790aa8d1c7c415be56ff799ea",
+        "source_id": "killmill",
+        "username": "killmill",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 5,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47200535",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "603ea527cf57c8ce60ae6be3ad6dc4e5",
+        "source_id": "47207319",
+        "content": {
+          "text": "One angle that's often missing from these articles: what happens to the codebase after AI writes the code.\nThe articles I've seen focus on velocity — how fast AI generates features. But the harder conversation with managers is about comprehension: AI can produce 10x more code than a human, but nobody has built the tooling to understand the 10x more complex system it creates.\nThe best framing I've found for non-technical managers: \"We're getting better at writing code. We're not getting better at reading it.\" That gap is where the real risk lives. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:42.030674",
+        "updated_at": "2026-03-01T16:02:42.030674",
+        "author": {
+          "id": "0c316d040acbb3a0fd25b3449c6d9010",
+          "source_id": "Nathanf22",
+          "username": "Nathanf22",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d7fc2a1668daed434cd2b63abf9c8040",
+        "source_id": "47205282",
+        "content": {
+          "text": "In my experience, the biggest shift is not just code generation but how these tools help with exploration and refactoring. They are great for speeding up routine work, but you still need judgment around architecture and edge cases. Treating them as assistants, not replacements, sets the right expectations. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:42.031207",
+        "updated_at": "2026-03-01T16:02:42.031207",
+        "author": {
+          "id": "2cd653acb0f63ece1e126a7e0c08b41d",
+          "source_id": "allinonetools_",
+          "username": "allinonetools_",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b6b3d1dc8c0f36fad4c582f6d8c75315",
+        "source_id": "47202443",
+        "content": {
+          "text": "Pointing to internet articles are slightly tricky today, due to the too many of them. I would break this into broadly two categories:\n1. Chat Interface based - All General Purpose. All questions are good questions. However, each of these Chat GPT, Grok, Gemini, and Claude have personality. One more resonate more with someone than other. \n2. Claude Code, Co pilot - Here you want to talk to the tool in fairly closed context based.  These are called RAG Based. You can ask #1 about it. \n3. LLM Direct - you already are deep into coding, and u want to leverage the power of LLMs, like Open AI, Opus, Sonnet, Grok etc. Short answer, there is single path, key lies in asking open ended questions and Chat Interface provides very good path forward. They are very good in directing about itself or even other chat interface. Hope this helps reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:42.031749",
+        "updated_at": "2026-03-01T16:02:42.031749",
+        "author": {
+          "id": "e3939b27a28e775619d3cc76edd71186",
+          "source_id": "aisreal0",
+          "username": "aisreal0",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "df53c034cf7d668e8b1d5651e96523ab",
+        "source_id": "47202591",
+        "content": {
+          "text": "Honestly, the biggest challenge with AI tools isn't just picking one, it's explaining to management that they don't replace the need for deep architectural knowledge. Most managers think Copilot means 2x speed, but they forget about the \"review debt\" it creates. I’ve found that focusing on the ecosystem rather than just the syntax is the only way to stay ahead. I actually wrote a breakdown on why the Python ecosystem remains the backbone of this shift, which might be exactly what your manager needs to see to understand the bigger picture: https://codebit-daily.hashnode.dev/why-python-is-still-the-k... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:42.032313",
+        "updated_at": "2026-03-01T16:02:42.032313",
+        "author": {
+          "id": "ad688f16669696e64d6eca7979f5667f",
+          "source_id": "CodeBit26",
+          "username": "CodeBit26",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-03-01T16:02:42.032499",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "52e1b807e54367f87b327164f019d52f",
+      "source_id": "47192394",
+      "title": "Ask HN: Why are some websites locking or using the audio device on Windows?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">When X or Aliexpress is open on a tab even if they are not the active tab or the browser is minimize I can't change the input device or output device because they are using the audio device even if they are not playing sounds.  Do they use it to stream data or they use for other purpose?</div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-03-01T16:02:34.950393",
+      "updated_at": "2026-03-01T16:02:34.950393",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "7186d5a9d0161e01294ea5b6239da522",
+        "source_id": "ezconnect",
+        "username": "ezconnect",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 4,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47192394",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "c1936d819b599b7d51f56b5dc2694316",
+        "source_id": "47203942",
+        "content": {
+          "text": "Their use of your audio device via browser tab should never be blocking. It sounds like you might have something else happening on your machine. Use of the audio device via browser tab is not impacted by changes to the display state of the page/tab/browser, such as minimizing, so long as they are not closed or terminated. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:43.583411",
+        "updated_at": "2026-03-01T16:02:43.583411",
+        "author": {
+          "id": "0ae492937dcc65e2e9ad4e3b8663757f",
+          "source_id": "austin-cheney",
+          "username": "austin-cheney",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-03-01T16:02:43.583529",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "43c65d9b66389a6750e1edc45ea332ea",
+      "source_id": "47153207",
+      "title": "Ask HN: Who Is Using XMPP?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">Hello,<p>Are you using XMPP?<p>If so, what are your favorite servers to connect?</p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-03-01T16:02:34.951091",
+      "updated_at": "2026-03-01T16:02:34.951091",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "572e0206ccf26fcb5574455310f54199",
+        "source_id": "nunobrito",
+        "username": "nunobrito",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 23,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47153207",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "9cf7eed590c3f7abf5d8bbe93ccdf5cd",
+        "source_id": "47154776",
+        "content": {
+          "text": "I was I heavy XMPP user back in the 00s. But on the whole it never really took off, and when Google killed XMPP support in their chat it was a severe blow. As for why it didn’t reach a larger userbase, I think the reasons that Moxie described in The ecosystem is moving [0] are spot on. [0] https://signal.org/blog/the-ecosystem-is-moving/ reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:45.733409",
+        "updated_at": "2026-03-01T16:02:45.733409",
+        "author": {
+          "id": "c4cd774e8577e5201c7b9739d2e9c23c",
+          "source_id": "cpach",
+          "username": "cpach",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "efa84887d7ac262d5ba19c3d6d9c2e54",
+        "source_id": "47158319",
+        "content": {
+          "text": "I use JMP.chat[0] for my primary phone number.  Being able to text from my PC with a real keyboard is very convenient.  If I ever bite the bullet and use Discord I want to set up Slidcord[1] so that I don't have to use a separate app.  I'm still figuring out how to migrate people to XMPP natively. [0]: https://jmp.chat [1]: https://slidge.im/docs/slidcord/main reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:45.734033",
+        "updated_at": "2026-03-01T16:02:45.734033",
+        "author": {
+          "id": "458f6de2d6944727e6fcaeefce73a12e",
+          "source_id": "MarsIronPI",
+          "username": "MarsIronPI",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1b07a3dfc6aaba22a68cb59fc2f8f1a5",
+        "source_id": "47159763",
+        "content": {
+          "text": "Doesn't Discord require every user to create a new account, even if they're already using Discord in some other community?  So when they say \"a Discord server\", they really mean it--they're like droplets running independent deployments or whatever (albeit managed/hosted instances run by and upgraded by Discord the company); not like subreddits, right? So isn't the best way to migrate people to XMPP to prop up a Discord clone that's as close a copy as the Discord-clone community can manage, and then tell all the people \"Join my Discord server\", with the trick being that it's really your server, not Discord's, and that server is powered by XMPP? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:45.734587",
+        "updated_at": "2026-03-01T16:02:45.734587",
+        "author": {
+          "id": "4fa85fa277b8e6b147cbfd0e1a016caf",
+          "source_id": "pwdisswordfishy",
+          "username": "pwdisswordfishy",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "efb42f61a20bb8360d6014a3c3e11d10",
+        "source_id": "47161406",
+        "content": {
+          "text": "> Doesn't Discord require every user to create a new account, even if they're already using Discord in some other community? So when they say \"a Discord server\", they really mean it--they're like droplets running independent deployments or whatever (albeit managed/hosted instances run by and upgraded by Discord the company); not like subreddits, right? No, it works exactly like subreddits.  One of the major lock-ins Discord has is that all the communities are there, and people access them all with one account and one app.  It's very convenient, which, as RMS says, is a bad thing when it comes to proprietary software. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:45.736403",
+        "updated_at": "2026-03-01T16:02:45.736403",
+        "author": {
+          "id": "458f6de2d6944727e6fcaeefce73a12e",
+          "source_id": "MarsIronPI",
+          "username": "MarsIronPI",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "93395d3744300dece69c6336952465f6",
+        "source_id": "47174906",
+        "content": {
+          "text": ">Doesn't Discord require every user to create a new account, even if they're already using Discord in some other community? No, the same account is used. You get prompted to choose a nickname each time you join a server though. >So when they say \"a Discord server\", they really mean it--they're like droplets running independent deployments or whatever No, they're probably all run on the same compute. The \"official\" name for a discord server from the API documentation is actually a \"discord guild\" and it works pretty much like a subreddit. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:45.737038",
+        "updated_at": "2026-03-01T16:02:45.737038",
+        "author": {
+          "id": "104bdb7f520fa51b1b69ab119707de00",
+          "source_id": "ycombinatrix",
+          "username": "ycombinatrix",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9b2da9e8188703d4746c24993651a366",
+        "source_id": "47156321",
+        "content": {
+          "text": "Last week I selfhosted Snikket: https://snikket.org , me and my partner use it to text. It has been smooth, everything works without issue: read receipts, audio/video calls, status. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:45.737652",
+        "updated_at": "2026-03-01T16:02:45.737652",
+        "author": {
+          "id": "bdef187d14838e2d7004ea620ec694f8",
+          "source_id": "0x5FC3",
+          "username": "0x5FC3",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "74af46198fa7cdebba2a5b8993e0333d",
+        "source_id": "47159247",
+        "content": {
+          "text": "Several years ago I put up an XMPP server (Prosody) to chat with some friends in a private group, and it's still going strong. Years ago we used to have a mailing-list to keep in touch, but that eventually went quiet. I had run an XMPP server ~10 years ago (ejabberd), but that was before mobile chat utterly displaced everything else, it never took hold among my friends, and I stopped using it when Google Talk stopped federating, cutting me off from most of the people I had been occassionally chatting with. The modern chat experience is all about the clients, and the mobile clients in particular, especially push notification support and seamless setup, so direct comparisons with XMPP to Matrix, et al, kinda misses the point, IMO. Conversations is a really amazing Android client. Our one iPhone member is content with Modal (I use the desktop version sometimes, but it's clearly designed for the iPhone). A new member uses, I think, Gajim on Windows; they don't want the distraction of chatting on their phone. I host a bunch of other services on OpenBSD, all using the integrated base daemons--httpd, OpenSMTPD, NSD, etc--that sandbox themselves. I was hesitant to run a daemon like Prosody that didn't integrate OpenBSD security features, so I wrote my own module (mod_unveil) that uses pledge and unveil to sandbox Prosody: https://github.com/wahern/prosody-openbsd Most Prosody users host on Linux, and many of them seem to use Docker containers, which presumably offers some isolation, but I can't really speak to it. The only non-private, large group chat I've joined recently has been the Prosody support MUC. I'm not a chat power user, but it seems to work just as well as any large chatroom. I've was content with ntalk and IRC back in the day, so I don't really get all the chat protocol bike shedding. In any event, I expect XMPP momentum (such as it is) to outlast all the interest in Discord, Matrix, etc. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:45.738375",
+        "updated_at": "2026-03-01T16:02:45.738375",
+        "author": {
+          "id": "674bc85f1d0c6b96e13513946fc584ba",
+          "source_id": "wahern",
+          "username": "wahern",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "11b15be428aa81a80b8d5476340adb7e",
+        "source_id": "47159021",
+        "content": {
+          "text": "I use Gajim which is a linux desktop implementation of XMPP. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:45.739040",
+        "updated_at": "2026-03-01T16:02:45.739040",
+        "author": {
+          "id": "815ba066d95157e77fcf47b8a77f161b",
+          "source_id": "ekjhgkejhgk",
+          "username": "ekjhgkejhgk",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9bfc955cda886b020e18042e641ce224",
+        "source_id": "47153978",
+        "content": {
+          "text": "Favorite server is localhost reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:45.739716",
+        "updated_at": "2026-03-01T16:02:45.739716",
+        "author": {
+          "id": "6e2f55121d6c9e62314c43a61b3d62bb",
+          "source_id": "hilti",
+          "username": "hilti",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9c4d49d6105dba9b675f66f09df7c368",
+        "source_id": "47158261",
+        "content": {
+          "text": "Sorry ... I read XAMPP! Now I know why I got downvoted reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:45.740439",
+        "updated_at": "2026-03-01T16:02:45.740439",
+        "author": {
+          "id": "6e2f55121d6c9e62314c43a61b3d62bb",
+          "source_id": "hilti",
+          "username": "hilti",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0637630bc53aebbe651154eac521aa01",
+        "source_id": "47156570",
+        "content": {
+          "text": "Using with JMP.chat/Snikket for family. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:45.741191",
+        "updated_at": "2026-03-01T16:02:45.741191",
+        "author": {
+          "id": "0ab7872c6b867d0989eaf007fe21f546",
+          "source_id": "a456463",
+          "username": "a456463",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-03-01T16:02:45.741581",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "27db9465e7cb40e2bebca8f07533f961",
+      "source_id": "47175746",
+      "title": "Ask HN: How do you handle duplicate side effects when jobs, workflows retry?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">Quick context: I'm building background job automation and keep hitting this pattern:<p>1. Job calls external API (Stripe, SendGrid, AWS)\n2. API call succeeds\n3. Job crashes before recording success\n4. Job retries → calls API again → duplicate<p>Example: process refund, send email notification, crash. Retry does both again. Customer gets duplicate refund email (or worse, duplicate refund).<p>I see a few approaches:<p>Option A: Store processed IDs in database\nProblem: Race between \"check DB\" and \"call API\" can still duplicate<p>Option B: Use API idempotency keys (Stripe supports this)\nProblem: Not all APIs support it (legacy systems, third-party)<p>Option C: Build deduplication layer that checks external system first\nProblem: Extra latency, extra complexity<p>What do you do in production? Accept some duplicates? Only use APIs \nwith idempotency? Something else?<p>(I built something for Option C, but trying to understand if this is actually a common-enough problem or if I'm over-engineering.)</p></p></p></p></p></p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-03-01T16:02:34.951634",
+      "updated_at": "2026-03-01T16:02:34.951634",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "18bd324e2c3ecb41f56e1b3161fee18c",
+        "source_id": "shineDaPoker",
+        "username": "shineDaPoker",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 10,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47175746",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "2b0e3493a6f047f4f140c885dac95188",
+        "source_id": "47194041",
+        "content": {
+          "text": "This is one of those problems that gets significantly harder when your system spans multiple runtimes or platforms. A few patterns that have worked well in practice: 1. Idempotency keys at the API boundary — every side-effecting call gets a client-generated UUID, and the receiver deduplicates. Simple, but think carefully about the TTL of your dedup window. 2. Outbox pattern — instead of directly calling the external service, write the intent to a local \"outbox\" table in the same transaction as your state change. A separate process polls the outbox and delivers. Debezium + CDC makes this quite clean. 3. For cross-system workflows: treat the saga orchestrator as the single source of truth for step completion. Each step checks its completion status before executing, so steps must be idempotent OR the orchestrator tracks state. In practice, designing for at-least-once delivery + idempotent receivers is more reliable than trying to achieve exactly-once through distributed coordination. Exactly-once across system boundaries is effectively a myth outside of systems that support two-phase commit (and even then it's fragile). reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:48.201888",
+        "updated_at": "2026-03-01T16:02:48.201888",
+        "author": {
+          "id": "1f7eeb5f18d8dff85c0c6e29ab25250f",
+          "source_id": "jnbridge",
+          "username": "jnbridge",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e03ad8ecddf0014799fb95178bcc51b2",
+        "source_id": "47204915",
+        "content": {
+          "text": "Retries become dangerous when workflows aren't designed\nto be idempotent from the beginning. What helped us was treating every job execution as replayable\nand attaching a unique operation key instead of relying\non execution state alone. Otherwise retries silently create data inconsistencies\nthat only appear much later. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:48.202434",
+        "updated_at": "2026-03-01T16:02:48.202434",
+        "author": {
+          "id": "fc49d0e48bb24cae8f27c843ca32811b",
+          "source_id": "fernando_campos",
+          "username": "fernando_campos",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "15499b57948a049836055797564b0488",
+        "source_id": "47176225",
+        "content": {
+          "text": "You proxy those api calls yourself and have idempotency to cover you for those APIs that don’t have it. If you architect it right you won’t have more than a ms latency addition. You can avoid the race condition issues by using atomic records so if something else tries they’d see it’s in progress and exit. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:48.202994",
+        "updated_at": "2026-03-01T16:02:48.202994",
+        "author": {
+          "id": "a30a8695019e97e5413f4a0335aae62a",
+          "source_id": "moomoo11",
+          "username": "moomoo11",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4475fd1040b946fa00b7bbc8f638df5e",
+        "source_id": "47178415",
+        "content": {
+          "text": "This is exactly the approach I took. Proxy layer that:\n- Uses atomic records (fence tokens) to prevent concurrent execution\n- Checks external system first before retrying (the retrieval step)\n- Records result for future lookups The atomic records part is critical - I learned the hard way that just checking a DB flag isn't enough (process can freeze between check and execute, lease expires, another process takes over, both execute). How do you handle the case where:\n1. Process acquires atomic lock\n2. Calls external API successfully  \n3. Process freezes before releasing lock\n4. Lock expires, new process acquires it\n5. New process calls API again → duplicate Do you just accept this edge case (rare but possible)? Or is there a mitigation I'm missing? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:48.203596",
+        "updated_at": "2026-03-01T16:02:48.203596",
+        "author": {
+          "id": "18bd324e2c3ecb41f56e1b3161fee18c",
+          "source_id": "shineDaPoker",
+          "username": "shineDaPoker",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2a518f28cf0b59c030c76b82df9096c8",
+        "source_id": "47186910",
+        "content": {
+          "text": "yeah, this is a common edge case in this scenario and as you say it will be rare but possible. however i don't think its that complicated (idk your system obv, so I could be off base) but i think your best bet is to not retry blindly and instead just query to see if already happened. If it already happened you're good and if not you handle it appropriately. considering it will be rare i don't think handling it how i suggest it will affect you that badly. keep it simple should be your priority imo with these kinds of operations. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:48.204227",
+        "updated_at": "2026-03-01T16:02:48.204227",
+        "author": {
+          "id": "a30a8695019e97e5413f4a0335aae62a",
+          "source_id": "moomoo11",
+          "username": "moomoo11",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c5bad61ceb5d21be65c55ab807948768",
+        "source_id": "47179165",
+        "content": {
+          "text": "Idempotency is the only sustainable answer here. Whether it's at the database level using unique constraints or implementing idempotency keys in your API headers, you have to design for the 'at-least-once' delivery reality. I usually implement a 'processed_requests' table that stores the unique ID of the job. Before the worker executes any side effect (like a payment or email), it checks if that ID exists. If it does, it skips the execution and returns the previous result. It adds a bit of latency, but it's much cheaper than dealing with double-billing or corrupted data reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:48.204852",
+        "updated_at": "2026-03-01T16:02:48.204852",
+        "author": {
+          "id": "3ef59b75a971c392a4317d172cbe1653",
+          "source_id": "codebitdaily",
+          "username": "codebitdaily",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "71d7710e044600054ca3d89eaa172dba",
+        "source_id": "47177803",
+        "content": {
+          "text": "I think the answer is probably like most things: it depends. - If the external service supports idempotent operations, use that option. - If the external service doesn't , but has a \"retrieval\" feature (i.e. lookup if the thing already exists, e.g fetch refunds on a given payment), use that first. - If the system has neither, assess how critical it is to avoid duplicates. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:48.205532",
+        "updated_at": "2026-03-01T16:02:48.205532",
+        "author": {
+          "id": "eb1c39740e6c527e8b590c737a4a698a",
+          "source_id": "stephenr",
+          "username": "stephenr",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0dd29036bdb718ff53afdd820b9d64b4",
+        "source_id": "47178441",
+        "content": {
+          "text": "This matches my thinking. The retrieval/lookup approach is exactly what I built - basically Option C with an observe-before-act pattern. For APIs that support idempotency keys (Stripe, etc.), I use those. For ones that don't but have retrieval (most do), I check first before retrying. The question I'm wrestling with: is the extra round-trip for the lookup worth it? Or should I just accept the edge cases where it duplicates? What's your threshold for \"critical enough to avoid duplicates\"? Payments obviously yes, but what about notifications, reporting, analytics events? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:48.206240",
+        "updated_at": "2026-03-01T16:02:48.206240",
+        "author": {
+          "id": "18bd324e2c3ecb41f56e1b3161fee18c",
+          "source_id": "shineDaPoker",
+          "username": "shineDaPoker",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "420322a0cd69e2121d2d1cae232af99d",
+        "source_id": "47176682",
+        "content": {
+          "text": "Use something like Temporal reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:48.206962",
+        "updated_at": "2026-03-01T16:02:48.206962",
+        "author": {
+          "id": "7126ba4b864ddfedb16d01c4c0e933a4",
+          "source_id": "babelfish",
+          "username": "babelfish",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f29a5054fc2abc0333a7e5899e02807d",
+        "source_id": "47178432",
+        "content": {
+          "text": "I actually talked to someone in temporal about this recently. Temporal gives you the primitives to handle it (activities, configure retries, interceptors), but you still have to implement the deduplication logic yourself for each external integration. His advice was: Temporal solves orchestration, but making the external API calls idempotent is on you. For simple cases, write observe activities manually. For complex cases, build abstraction. That's what led me down this path - trying to figure out if the abstraction is worth building or if manual is good enough. Have you used Temporal for this? How do you handle the idempotency of external calls? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:48.207723",
+        "updated_at": "2026-03-01T16:02:48.207723",
+        "author": {
+          "id": "18bd324e2c3ecb41f56e1b3161fee18c",
+          "source_id": "shineDaPoker",
+          "username": "shineDaPoker",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-03-01T16:02:48.208106",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "4cede3c7a0d42db09c3024ca45bd9718",
+      "source_id": "47173773",
+      "title": "Ask HN: My competitor wants to buy us out, recommend a lawyer?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">My tech company has grown to the point where has become a significant threat to the industry leader. They have reacted by asking if we are open to acquisition. I’m looking for suggestions of lawyers who are experienced with this type of transaction, as this is significantly outside of my wheelhouse.</div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-03-01T16:02:34.952225",
+      "updated_at": "2026-03-01T16:02:34.952225",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "5c4fc0331caa622d6000eb16b757f89c",
+        "source_id": "VladVladikoff",
+        "username": "VladVladikoff",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 7,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47173773",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "33e7ae9a1677ebd0f981fce322e3b151",
+        "source_id": "47181890",
+        "content": {
+          "text": "Before you think about lawyers, I would say be careful dealing with industry leaders because they may just be sniffing and not really serious. There are plenty of cases where a larger industry leader reaches out in disguise of acquisition and then gets the details and does it on their own. Not saying it is the case necessarily here but just be careful of that. For example, ask yourself why they really need to buy you out. Why can't they build it themselves ? Is it really your customer base they want ? Is it your technology ? Do they just want you (acquihire) ? What is the moat here that they want to acquire you ? If you cannot answer that clearly, they may not be serious. In terms of finding a lawyer, you need to find a lawyer who has experience in tech acquisitions especially in your jurisdiction/area (for example, in US, even the state of residence will come into play). Selling a business involves various things including whether it will be asset vs stock sale (you will need to learn the difference),what will be the terms (all cash upfront vs earn out/equity etc). Be ready to spend $1000s or even $10,000+ on lawyers and the deal may still fall through. So are you ready to spend your own cash ($10,000+ or higher) and still be ready for the fact that deal falls ? Just some things to keep in mind. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:49.396512",
+        "updated_at": "2026-03-01T16:02:49.396512",
+        "author": {
+          "id": "73b2b8fc1fce788a8ef2cd612a35dd6c",
+          "source_id": "codegeek",
+          "username": "codegeek",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "cd6cdb6c266fd8096d2b26a18ff77f17",
+        "source_id": "47194951",
+        "content": {
+          "text": "Congratulations on being approached—that is a major milestone. Beyond a standard lawyer, you specifically need an M&A (Mergers & Acquisitions) attorney who understands IP tech transfers. General corporate lawyers often miss the nuances of 'Earn-out' clauses and post-acquisition liability. Also, ensure your data room is audit-ready before the due diligence starts. Good luck with the negotiations! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:49.397062",
+        "updated_at": "2026-03-01T16:02:49.397062",
+        "author": {
+          "id": "ad688f16669696e64d6eca7979f5667f",
+          "source_id": "CodeBit26",
+          "username": "CodeBit26",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "eed396fad43c0658c78f88e53d528eee",
+        "source_id": "47182650",
+        "content": {
+          "text": "Definitely get a lawyer who has handled founder-side acquisitions, not just general corporate work. The structure, earn-outs, and control terms matter a lot more than people expect. A good lawyer can easily change the outcome of the deal. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:49.397579",
+        "updated_at": "2026-03-01T16:02:49.397579",
+        "author": {
+          "id": "2cd653acb0f63ece1e126a7e0c08b41d",
+          "source_id": "allinonetools_",
+          "username": "allinonetools_",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8fd80a37bbd385769adceac40cef0cef",
+        "source_id": "47178751",
+        "content": {
+          "text": "In what jurisdiction are you and they domiciled? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:49.398136",
+        "updated_at": "2026-03-01T16:02:49.398136",
+        "author": {
+          "id": "a4f3d0f93a06946e96e6913f77865da7",
+          "source_id": "joefarish",
+          "username": "joefarish",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "12f35b0b5f66decb41e20249e13b5334",
+        "source_id": "47184433",
+        "content": {
+          "text": "We are based in Canada but do business throughout North America. They are based in USA and want the Canadian market, but they have failed to break into it. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:49.398721",
+        "updated_at": "2026-03-01T16:02:49.398721",
+        "author": {
+          "id": "5c4fc0331caa622d6000eb16b757f89c",
+          "source_id": "VladVladikoff",
+          "username": "VladVladikoff",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c96701a6ce07afa199e79554cc4c2fea",
+        "source_id": "47177561",
+        "content": {
+          "text": "We've sold off what we call \"Verticals\" of our company to a competitor in the past. A competitor that previously we had helped co-found and had very horrible interactions with. So we had zero trust in dealing with them and wanted the contracts to be rock solid. The process took forever to agree on a contract, the payment process, putting the money in escrow, etc.... Part of us didn't want to have anything to do with selling something to this company because we despised them. But business is business and their offer was higher than what we could get from anyone else. Long story short, the process went fine. We ended up selling another vertical to them, and then another. All 3 sales went through fine. This is the lawyer we used and he also happened to be local. https://www.gregorprivate.com/ reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:49.399402",
+        "updated_at": "2026-03-01T16:02:49.399402",
+        "author": {
+          "id": "492c52d64614eda7b248900d3f71c004",
+          "source_id": "johng",
+          "username": "johng",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "fccbc2f76f044c6f9a7aeb310741d7a6",
+        "source_id": "47182049",
+        "content": {
+          "text": "If selling, you can get away with bad buyers as long as the deal is mostly cash upfront. However, I would highly advise against buying from a seller you cannot trust. Imagine they already showed you during the deal process when they have an incentive to be nicer. Once you wire the money, you are in for a lot more surprises. I would never buy from a seller who gave me bad vibes. Regardless of how good the deal sounds. Source: I have bought 3 smaller projects (one for 500k so i guess not indie but still small) and in all 3 cases, the sellers were incredible genuine and truly cared about their company/product. Just because of how trustworthy and helpful they were, I closed the deals quickly after fair negotiations. I declined 1 deal where the product was a great fit to my exiting business and it would have been a great transition but the seller was too arrogant and I just couldn't trust him. I backed out after exchanging a couple of messages with him. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:49.400059",
+        "updated_at": "2026-03-01T16:02:49.400059",
+        "author": {
+          "id": "73b2b8fc1fce788a8ef2cd612a35dd6c",
+          "source_id": "codegeek",
+          "username": "codegeek",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4649c041781cdf2108f931098a392c8c",
+        "source_id": "47199553",
+        "content": {
+          "text": "I can see that. We were the sellers and the deals were all cash, after the handoff with the money in escrow prior and a binding arbitration clause if there were disagreements on the hand off. We had zero issues though. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:49.400701",
+        "updated_at": "2026-03-01T16:02:49.400701",
+        "author": {
+          "id": "492c52d64614eda7b248900d3f71c004",
+          "source_id": "johng",
+          "username": "johng",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-03-01T16:02:49.401006",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "9b57f5648aba3cc279d1ca070ee6e2d4",
+      "source_id": "47160641",
+      "title": "Ask HN: What's it like working in big tech recently with all the AI tools?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">Curious to hear how have things changed day-to-day with the recent push to use AI coding tools.<p>Have you noticed faster pace of development?<p>Have you seen changes to code quality or code review?<p>Do teammates that use these tools complete sprint tasks faster than those who don't?</p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-03-01T16:02:34.952902",
+      "updated_at": "2026-03-01T16:02:34.952902",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "a9a2a5f05ea1ec03572c069094ebe64c",
+        "source_id": "ex-aws-dude",
+        "username": "ex-aws-dude",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 22,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47160641",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "7479faf80ca76ff8a60c93020c02522f",
+        "source_id": "47204930",
+        "content": {
+          "text": "From conversations with teams recently, AI seems to be\nreducing implementation time but increasing decision fatigue. People can build faster, but choosing what to build\nand maintaining consistency across tools is becoming harder. The coordination problem feels bigger than the coding problem now. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:51.693333",
+        "updated_at": "2026-03-01T16:02:51.693333",
+        "author": {
+          "id": "fc49d0e48bb24cae8f27c843ca32811b",
+          "source_id": "fernando_campos",
+          "username": "fernando_campos",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7f94bd2e319057c03f303efdedc08eb8",
+        "source_id": "47160979",
+        "content": {
+          "text": "I work for a $20 billion tech company (not a big tech company, but not a small one either). Our company strongly encourages us to incorporate agentic tools like Claude Code and Codex into our daily routines. Management has made it easy to use Anthropic and OpenAI products with an enterprise subscription. I can sense that our business leaders want us to move more swiftly and be more productive to avoid falling behind in the AI race. My team has adopted Claude Code extensively, and the number of daily and weekly PRs we have closed has increased significantly. I’ve noticed that we’re also more willing to commit to more projects. My team benefits from most of our code being written in TypeScript. However, some other teams with legacy code bases seem to have a bit of a harder time using these tools compared to us. One thing that surprises me with a AI is you can have people working on the same code base. Some can be very effective with AI, yet there are others working on the exact same code base who cannot get good results. Some people don’t really seem to be taking the time to get good at writing prompts and plans before having agents execute on them. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:51.693956",
+        "updated_at": "2026-03-01T16:02:51.693956",
+        "author": {
+          "id": "c4a4957215b381c611ceba5370e8c7c2",
+          "source_id": "cebert",
+          "username": "cebert",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "13334795a7ba1ae420971e8a0ebf298f",
+        "source_id": "47164071",
+        "content": {
+          "text": "Your experiences reflect mine. My employer has a slack channel where we can share prompts, tips about how to use AI outside of coding, Q&A. I've learned a lot from my coworkers there. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:51.695474",
+        "updated_at": "2026-03-01T16:02:51.695474",
+        "author": {
+          "id": "58f2f696acb164ab553160f752e0b0dd",
+          "source_id": "rithdmc",
+          "username": "rithdmc",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3e8d361d540022d30a2e9073d687a6f7",
+        "source_id": "47204036",
+        "content": {
+          "text": "This feels so dystopian and cruel how our own machines are superseding us. Time to somehow supersede these machines!! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:51.696045",
+        "updated_at": "2026-03-01T16:02:51.696045",
+        "author": {
+          "id": "5b886564f7cb0420ba9a5869c24a6887",
+          "source_id": "K-Tai",
+          "username": "K-Tai",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f7b18f6fc7217d05cb6223bb66103572",
+        "source_id": "47160901",
+        "content": {
+          "text": "I work for a $50B+ company (is this big tech? idk), but I’ll answer this because we are fully embracing AI (Cursor, Claude Code, cloud agents, AI reviews, you name it) > Have you noticed faster pace of development? Yes, our org has had a 50% increase in PRs since Opus 4.5 released. > Have you seen changes to code quality or code review? Yes, significantly more bugs (no exact number), but consider it maybe 3-4x in volume. However, nothing catastrophic and everyone just uses AI for fast-follow fixes anyways. The company as a whole is embracing this style of development for better or worse. > Do teammates that use these tools complete sprint tasks faster than those who don't? Yes, but my entire team uses them. I’d say the ones who use it more effectively (crazy skill setups, better tooling/commands, better scaffolding) finish much faster. Probably 80% of my team still uses Cursor in the one-shot way with very vague requirements, and don’t have the AI connected to github, jira, slack, etc which can actually feed really important context into decision making. If I do something more than once a day, I write a custom slash command for it. This has personally 2x’d my pace. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:51.696697",
+        "updated_at": "2026-03-01T16:02:51.696697",
+        "author": {
+          "id": "074f6ed015b7300b1774ff8b9338699a",
+          "source_id": "with",
+          "username": "with",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "12dd098f6618fcbac2386b7311b1dfe0",
+        "source_id": "47198803",
+        "content": {
+          "text": "Working in big tech right now feels like being a pilot on autopilot. AI tools like Copilot and Cursor have definitely removed the \"syntax friction,\" but they’ve added a massive \"architectural burden.\" We are spending less time writing boilerplate and much more time debugging complex RAG pipelines and agentic workflows.\n The real challenge isn't the code generation itself; it's the integration and knowing where the AI's \"hallucination boundary\" lies. I’ve noticed that engineers who don’t master the underlying ecosystems (especially the Python/AI stack) are the ones struggling most with the transition.\n I recently did a deep dive into why Python’s ecosystem is still the critical \"glue\" for AI innovation in 2026, despite the rise of newer languages. It might add some context to this discussion: https://codebit-daily.hashnode.dev/why-python-is-still-the-k... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:51.697359",
+        "updated_at": "2026-03-01T16:02:51.697359",
+        "author": {
+          "id": "ad688f16669696e64d6eca7979f5667f",
+          "source_id": "CodeBit26",
+          "username": "CodeBit26",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "318c714a60ff6a3cf6e253939518afeb",
+        "source_id": "47181408",
+        "content": {
+          "text": "I work in big-tech and we’re only allowed to use our companies internal tools that mimic Claude Code etc. There is certainly a push to use it, and I’ve noticed a significant increase in bugs that have come along. There are so many PRs now that no one reviews them and just slaps a LGTM. Specifically with junior or less strong engineers. It’s like they don’t code anymore and push everything on the AI and say ship it without a second thought. I’ve watched engineers push AI code with a nasty NPE and then they also had it write unit tests where the AI caught the NPE and passed the test. Literally if anyone spent the time reading the code you’d see it was a ticking bomb. We went from production breakages every couple of months to every couple of days.\n It’s so bad but no one is saying the hard thing that less strong engineers need to be restricted on their use of these tools. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:51.698008",
+        "updated_at": "2026-03-01T16:02:51.698008",
+        "author": {
+          "id": "8cb7c37836b456243f12fa6ff4173154",
+          "source_id": "aeriose",
+          "username": "aeriose",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2c3ed70c176af870bee46ba649a38abd",
+        "source_id": "47162475",
+        "content": {
+          "text": "The biggest shift isn't the speed of coding, but the shift in 'seniority' expectations. You're no longer just a writer of code; you're an editor of high-volume output. The mental fatigue has shifted from 'how do I solve this' to 'is this generated solution actually robust for our scale'. Big tech feels more like orchestrating a fleet of junior agents than solo deep-work now. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:51.698660",
+        "updated_at": "2026-03-01T16:02:51.698660",
+        "author": {
+          "id": "ad688f16669696e64d6eca7979f5667f",
+          "source_id": "CodeBit26",
+          "username": "CodeBit26",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1b0021989735719e59af1d3464fcf12e",
+        "source_id": "47198470",
+        "content": {
+          "text": "i recently joined a new company. using ai coding assistants has allowed me to onboard faster because i can take a new ticket and ask the agent to help orient me in the codebase about where to start looking. BUT the downside is that i'm much slower at building a cohesive mental model of the codebase. this has two problems: - it encourages continued dependence on the ai tools because its hard to fall back on my own knowledge - imposter syndrome is magnified 100x reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:51.699410",
+        "updated_at": "2026-03-01T16:02:51.699410",
+        "author": {
+          "id": "4db1612b9245c08cab4be4fdd161bed1",
+          "source_id": "parpfish",
+          "username": "parpfish",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1765944d41709443ee98ad3b7933a5cf",
+        "source_id": "47161055",
+        "content": {
+          "text": "I work at a large social media company - it has become a popularity contest on who can ship more AI slop the fastest. Real productivity gains are questionable tbh. Slop is replacing more slop. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:51.700132",
+        "updated_at": "2026-03-01T16:02:51.700132",
+        "author": {
+          "id": "a35c4ae493c0c12ebd616f098912d8af",
+          "source_id": "umairnadeem123",
+          "username": "umairnadeem123",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6ade17c66ef0a0efda52be340ce437c3",
+        "source_id": "47164273",
+        "content": {
+          "text": "I work for large tech company, not FAANG. > Have you noticed faster pace of development? Yes, and it terrifies me. > Have you seen changes to code quality or code review? Yes, because of the volume of PRs, I am sure some people are just approving changes with a quick glance > Do teammates that use these tools complete sprint tasks faster than those who don't? Best engineers got better What terrifies me more like cultural thing: 1. Engineers who push a lot of code are trying to get promoted faster so they won't feel the pain 2. Engineers who genuinely care and trying to land high quality work are getting labeled as \"progress blockers\" and getting negative outlook, because they won't be promoted, they need to support the slop added by other engineers. And I don't like this state of the culture. Also engineers who want to get promoted quickly, usually they are very good at talking and can present a tiny skill template as something huge developed over 2 quarters of experience with latest and greatest, while people who actually do the work are more silent and heads down executing, I want them to be promoted but can't impact a lot of things reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:51.700996",
+        "updated_at": "2026-03-01T16:02:51.700996",
+        "author": {
+          "id": "a18163a85ec11a78da9618c57a5581a4",
+          "source_id": "throwaw12",
+          "username": "throwaw12",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2faa187037c9dbd09c28603e193f2124",
+        "source_id": "47168388",
+        "content": {
+          "text": "This reminds me of the pendulum that swings between every company I've worked at For a time, its all about shipping faster. And rushing things out. Then there's a major bug/incident/unhappy customer, and management swings back to code quality reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:51.701796",
+        "updated_at": "2026-03-01T16:02:51.701796",
+        "author": {
+          "id": "d51a6fc1b88e0387f63191816cd49032",
+          "source_id": "softwaredoug",
+          "username": "softwaredoug",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "274936bd431400d00d37a041edcacaf7",
+        "source_id": "47172250",
+        "content": {
+          "text": "I work at Google as a SWE SRE.  That means a lot of the code I touch is on tangly complicated projects doing bug fixes and improving things. Not so much greenfield development unless it's a smaller tool change. AI coding is definitely speeding me up, but not quite in the magic way people at smaller companies might be used to. As a good code complete it's awesome.  As a brain storm buddy, very good.  AI code reviews are awesome and very low risk - if it makes a mistake it's usually just being too cautious. As an end to end agentic coder -pretty bad track record.  Giving it smaller tasks? Pretty good, saving me many hours of boilerplate/cruft a week at least. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:51.702633",
+        "updated_at": "2026-03-01T16:02:51.702633",
+        "author": {
+          "id": "e2a161f3ba5ccc4f77b77167f57263e2",
+          "source_id": "VirusNewbie",
+          "username": "VirusNewbie",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f53c141ec600a41fba6a0d29fb8c3e88",
+        "source_id": "47204039",
+        "content": {
+          "text": "World's fucked less we somehow all become geniuses and level shit out right? I don't know throwing stuff out of my head. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:51.703493",
+        "updated_at": "2026-03-01T16:02:51.703493",
+        "author": {
+          "id": "5b886564f7cb0420ba9a5869c24a6887",
+          "source_id": "K-Tai",
+          "username": "K-Tai",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-03-01T16:02:51.704041",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "63652de8a508513bfeaa84c679fae98d",
+      "source_id": "47198798",
+      "title": "Ask HN: What Happened to HTTPS://Www.keyvalues.com/?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">Does anyone know what happened to https://www.keyvalues.com/? It was a nice project to inspect values of some startups, it had some traction, does anyone know why it’s not around anymore?</div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-03-01T16:02:34.953459",
+      "updated_at": "2026-03-01T16:02:34.953459",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "96065a9825e0264192a81b9c7b816dd6",
+        "source_id": "alexgotoi",
+        "username": "alexgotoi",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 4,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47198798",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-03-01T16:02:54.022431",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "d8d16aa20f46f32cabf242fd7d0e3b5b",
+      "source_id": "47152724",
+      "title": "Ask HN: Starting a New Role with Ada",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">So, good news. After a unexpectedly long absence from employment, I am 95% certain that I will receive an offer for a contract job as a product owner. This position will largely involve supervising the development/maintenance of code written in Ada. Even though I have over a decade of experience with C/C++/Assembly, I have ZERO experience with Ada. I doubt I will be writing much Ada myself, but I believe I will need to learn Ada.<p>So here are my questions:<p>1. Reading code is usually pretty straightforward. However, all software requires domain knowledge. When starting a new role, how do you bring yourself up on domain knowledge quickly?<p>2. If you know Ada, what resources to learn Ada do you recommend?<p>3. What Ada pitfalls do you advise to look out for?</p></p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-03-01T16:02:34.954125",
+      "updated_at": "2026-03-01T16:02:34.954125",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "2c0b713bb6335530036ee6a6c1baa9c1",
+        "source_id": "NoNameHaveI",
+        "username": "NoNameHaveI",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 10,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47152724",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "5c6f00043f638af45eb8b14248b72596",
+        "source_id": "47192568",
+        "content": {
+          "text": "Coming from more mainstream languages, the first thing you’ll notice about Ada is that the compiler is your most rigorous code reviewer. My advice: lean into the type system early. Don't try to fight the constraints; they are there because Ada is designed for systems where failure isn't an option.\n Focus on understanding 'Packages' and 'Tasking' models, as they handle concurrency much more safely than the primitive threading models in C. Also, keep the 'Reference Manual' (ARM) handy. It’s dense, but it’s the ultimate source of truth. Starting with Ada in 2026 is actually a great career move—as system complexity grows, the industry is rediscovering the value of languages that prioritize safety by design. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:56.114226",
+        "updated_at": "2026-03-01T16:02:56.114226",
+        "author": {
+          "id": "ad688f16669696e64d6eca7979f5667f",
+          "source_id": "CodeBit26",
+          "username": "CodeBit26",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1a3f873f09522ca0b9ac6d172847aeb9",
+        "source_id": "47157420",
+        "content": {
+          "text": "1. Ask questions, and write down the answers in a way that you will find them again. Anki and spaced repetition is useful to learn the terminology or any info that isn't intuitive. 2. https://github.com/ohenley/awesome-ada has links to pretty much every Ada topic and resource; if you want to try Ada using open source tools, the best starting point is https://alire.ada.dev/docs/ 3. Compared to C/C++ I can't really think of any pitfalls. It requires more discipline and formal reasoning, but you will get used to it (and appreciate the lack of footguns, at least I did). Congrats and good luck. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:56.114890",
+        "updated_at": "2026-03-01T16:02:56.114890",
+        "author": {
+          "id": "a624ce3ea5b927d60d117813c923f3b4",
+          "source_id": "phba",
+          "username": "phba",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "440ed3dddb88927de0477a345010a74b",
+        "source_id": "47164129",
+        "content": {
+          "text": "Just need to check if it's plain Ada or one specific profile or  SPARK reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:56.115423",
+        "updated_at": "2026-03-01T16:02:56.115423",
+        "author": {
+          "id": "417bf962f3d126fff00cdf5915ffe41b",
+          "source_id": "Davidbrcz",
+          "username": "Davidbrcz",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "fc1a670a3f3fd500de32414543f57d63",
+        "source_id": "47152838",
+        "content": {
+          "text": "I learned Ada in 1990. It looks like it was based on Pascal. I used Janus Ada for DOS. There is a free Learn Ada ebook here: https://learn.adacore.com/pdf_books/courses/intro-to-ada.pdf reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:56.116074",
+        "updated_at": "2026-03-01T16:02:56.116074",
+        "author": {
+          "id": "be159f034e7316060230b86254c974ea",
+          "source_id": "orionblastar",
+          "username": "orionblastar",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a7ae0f415485feb184816ecd56f69c48",
+        "source_id": "47158631",
+        "content": {
+          "text": "I would try Claude Code with an Ada LSP server. Use AI to get the high-level architecture diagrams, question the codebase. You can write a new skill with all your findings about Ada best practices. Also try CodeRabbit if it already supports Ada. Congratulations on the new job, best of luck. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:56.116665",
+        "updated_at": "2026-03-01T16:02:56.116665",
+        "author": {
+          "id": "46d0c9228351522ad9090cd598f43a10",
+          "source_id": "ezulabs",
+          "username": "ezulabs",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-03-01T16:02:56.116914",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "b9dda9e0c94cafe61d0d72792b8194d6",
+      "source_id": "47159394",
+      "title": "Ask HN: What will happen with Anthropics ultimatum?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">As we are all aware, anthropic has it's ultimatum from the US government: drop their anti-killing TOS or else get in trouble this Friday.<p>I'm sure whatever happens it'll seem much more obvious that that's what was always going to happen, in hindsight, than it does now.<p>So as an experiment, I'm curious to hear from the hn community, in advance of Friday, what we think will happen.<p>Will they concede? Will they ignore and suffer the consequences (and what might those be)? Will we even find out or will it be shrouded in mystery for the foreseeable future?...<p>This is admittedly somewhat sensationalist so I'm not sure whether it fits with hn guidelines, but as one of the best places I know of for genuine online discussion, I think it would be interesting to hear reasoned predictions.</p></p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-03-01T16:02:34.954820",
+      "updated_at": "2026-03-01T16:02:34.954820",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "a750bb0d02e67ac895ac4e1bdee1a052",
+        "source_id": "maniacwhat",
+        "username": "maniacwhat",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 7,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47159394",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "9cddb0b0daaf6fed42749d6f25594aec",
+        "source_id": "47191973",
+        "content": {
+          "text": "It looks like their contract was canceled and given to OpenAI. OpenAI agreed to roughly the same red lines, but I guess for emotional purposes they chose to switch. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:57.966640",
+        "updated_at": "2026-03-01T16:02:57.966640",
+        "author": {
+          "id": "65547db35ad470ce1d9e44d413173434",
+          "source_id": "muzani",
+          "username": "muzani",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "347bb89d388e141878de2b484a72df3b",
+        "source_id": "47162839",
+        "content": {
+          "text": "Situations like this usually end in some kind of quiet compromise. Companies rarely take a hard public stance if it risks access to key infrastructure or partnerships. What we’ll probably see is subtle policy changes rather than a dramatic announcement. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:57.967220",
+        "updated_at": "2026-03-01T16:02:57.967220",
+        "author": {
+          "id": "2cd653acb0f63ece1e126a7e0c08b41d",
+          "source_id": "allinonetools_",
+          "username": "allinonetools_",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "396ebc009de0a91fe57b5b11a8519f8d",
+        "source_id": "47160482",
+        "content": {
+          "text": "no one knows, just wait until the real news hits, the story will be on the front, it's all speculation until then (and can happen sooner, Friday is the deadline) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:57.967758",
+        "updated_at": "2026-03-01T16:02:57.967758",
+        "author": {
+          "id": "0555c16ed7f938be906cf20d79b97096",
+          "source_id": "verdverm",
+          "username": "verdverm",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "27cde229e5eb6d4663eef57fcae47b2a",
+        "source_id": "47160656",
+        "content": {
+          "text": "Is this a prediction on Kalshi yet ? I see currently: \"Will the Pentagon designate Anthropic a supply chain risk? \" I would bet $$ they \"cave\", morals and ethics be damned. Next up on Kalshi: Where will the next genocide be accomplished ? Cuba ?  Nicaragua ? Who will be the US proxy ? Blackwater ? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-03-01T16:02:57.968330",
+        "updated_at": "2026-03-01T16:02:57.968330",
+        "author": {
+          "id": "66bdf96cf9027a01ed29199a2e4a94eb",
+          "source_id": "DivingForGold",
+          "username": "DivingForGold",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-03-01T16:02:57.968512",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
   }
 ]
