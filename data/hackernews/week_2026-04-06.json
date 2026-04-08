@@ -15516,5 +15516,3677 @@
       ],
       "is_nsfw": false
     }
+  },
+  {
+    "post": {
+      "id": "0857d388ed9ac2b9889e0c5de24000a5",
+      "source_id": "47688712",
+      "title": "Ask HN: Should AI credits be refunded on mistakes?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">Something I’ve noticed (I’m using Claude subscription so no refunds but it applies to usage windows) is that sometimes AI makes mistakes so if something is important I tell Claude code to spin up a couple of sub agents and verify the information, often there will be a mistake and it gets rectified.<p>It feels unfair I have to pay (or lose some usage) for this.<p>Interested in other people’s thoughts.</p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-08T16:23:09.814436",
+      "updated_at": "2026-04-08T16:23:09.814436",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "f5a1d7794628b626856a30f667590b96",
+        "source_id": "ed_elliott_asc",
+        "username": "ed_elliott_asc",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 8,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47688712",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "d6070018eb992d05478e243e406720d5",
+        "source_id": "47691492",
+        "content": {
+          "text": "I think it would be expensive to check. For a coding task any reviewer would need to understand programming (these people aren't cheap), the domain context, cultural differences (e.g. American \"cookie\" vs British \"biscuit\"), and make a determination. If the AI companies just paid all of that out of the goodness of their pocketbook I'd be fine with it, but in reality I think they'd just pass on the costs. The same way that basically every business passes on spoilage, theft, return rates, etc.. So I think the value would be risk mitigation rather than cost (as in, you know if you pay for $10 worth of tokens, it will $10 worth of good tokens, but the individual token cost would need to account for all the tokens that the company doesn't get paid for) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:12.532479",
+        "updated_at": "2026-04-08T16:23:12.532479",
+        "author": {
+          "id": "00e781938924c44911493276ee420a96",
+          "source_id": "bauldursdev",
+          "username": "bauldursdev",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "097228a1bb80f3f315664dcba9f3a1cd",
+        "source_id": "47688737",
+        "content": {
+          "text": "Do you pay your employer when you introduce bugs?\nI think you're lucky if you get usable output which you don't consider a mistake.\nAlso, you might be mistaken if you think that you pay for a deterministic service. edit: typo reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:12.533020",
+        "updated_at": "2026-04-08T16:23:12.533020",
+        "author": {
+          "id": "ce277fa452174866a2212811670c24e5",
+          "source_id": "sturza",
+          "username": "sturza",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "075e6fcc25349d97720ed2d42a2ac5fd",
+        "source_id": "47689730",
+        "content": {
+          "text": "Interesting, you have just identified a potential market distinction.  First we need a group (ala consumers report) to evaluate different services.  Then different services would be motivated to perform the sub agent verification automatically as a Competitive Advantage, reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:12.533581",
+        "updated_at": "2026-04-08T16:23:12.533581",
+        "author": {
+          "id": "a0ef6b425a6925776cc96c6c36cef4c6",
+          "source_id": "sloaken",
+          "username": "sloaken",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "de5027271f17e978e98172d3ec69d9c3",
+        "source_id": "47692318",
+        "content": {
+          "text": "Just parse responses for \"sorry about that\"! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:12.534149",
+        "updated_at": "2026-04-08T16:23:12.534149",
+        "author": {
+          "id": "f5a1d7794628b626856a30f667590b96",
+          "source_id": "ed_elliott_asc",
+          "username": "ed_elliott_asc",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b034881d31cc310cc2651a205ba4143f",
+        "source_id": "47688897",
+        "content": {
+          "text": "It's interesting on the grounds of aligning incentives. It's not interesting due to the fact that it suggests humans are still in the loop of some slow-cycle improvements. That'd never get by any board. In fact, selection of model modes implies it's your responsibility, so that meal was scraped into your flowerpot years ago. I'd say fat chance. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:12.534765",
+        "updated_at": "2026-04-08T16:23:12.534765",
+        "author": {
+          "id": "43c990d1deadab15f5ce95356461c187",
+          "source_id": "meltyness",
+          "username": "meltyness",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c3490f4fb129a716d4c298dd361e3b07",
+        "source_id": "47691179",
+        "content": {
+          "text": "LLMs hallucinate - This is known. If you choose to use them, you go in knowing they need help to be accurate. You clearly know how to use the tools to reach the accuracy you desire, but asking for that usage to be free seems to be based on a false premise. There has never been an expectation of accuracy in the first place when it comes to LLM output. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:12.535402",
+        "updated_at": "2026-04-08T16:23:12.535402",
+        "author": {
+          "id": "b676d1bf3770c1a06ca92e42765f5c91",
+          "source_id": "codingdave",
+          "username": "codingdave",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "761ee8de6e323f18060b928dd9e65521",
+        "source_id": "47689501",
+        "content": {
+          "text": "No, you should know that no man or machine writes bug or mistake free code. You are paying for tokens (electricity and cooling), not what those tokens represent. How would you define mistakes in non code tasks? Would you give money back to your employer when you make a mistake? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:12.536049",
+        "updated_at": "2026-04-08T16:23:12.536049",
+        "author": {
+          "id": "0555c16ed7f938be906cf20d79b97096",
+          "source_id": "verdverm",
+          "username": "verdverm",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-04-08T16:23:12.536339",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "b2e4bd8ed0996f47dced4405bc8d8eac",
+      "source_id": "47689759",
+      "title": "Ask HN: How do you manage your digital legacy for after you die?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">Ofc after you die, doesnt matter in the first place, but to be honest, I've been thinking about what my wife would have to deal with digitally when I'm gone. All accounts on the internet, my old pictures in Google Drive, documentation and things like that.<p>I have password manager, so I pass this to my wife it can be easy to reach the profiles, but what else can I do to help / easier the whole process?</p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-08T16:23:09.815205",
+      "updated_at": "2026-04-08T16:23:09.815205",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "af89c3c25d7b31323933749e06340705",
+        "source_id": "orbanlevi",
+        "username": "orbanlevi",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 6,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47689759",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "a446b709223bb4494a89d295138261f1",
+        "source_id": "47690188",
+        "content": {
+          "text": "I set up a Dead Man's Switch. It sends me an email with a link every day. If I click it, I acknowledge that I am alive and nothing happens. If I do not, after a grace period and more reminders, it sends an email to my wife with a password-protected file. I have listed all our accounts, passwords, assets, etc., along with instructions on what to do and whom to ask for help. Disclaimer: I sell digital legacy products. However, I also honestly use them, and some of these tools I distribute for free and have made open-source. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:14.760835",
+        "updated_at": "2026-04-08T16:23:14.760835",
+        "author": {
+          "id": "cabaddc5fd5a6f446ed9e2de0157fc90",
+          "source_id": "alcazar",
+          "username": "alcazar",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "284e3ed66846c334847a41bfd98beee4",
+        "source_id": "47690955",
+        "content": {
+          "text": "Wow, why every day and not weekly? Every day seems too frequent. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:14.761376",
+        "updated_at": "2026-04-08T16:23:14.761376",
+        "author": {
+          "id": "2845ad0a586c89a9cc07525be66375d7",
+          "source_id": "chistev",
+          "username": "chistev",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "689f668039058361bcdefc9461a0c3c4",
+        "source_id": "47691759",
+        "content": {
+          "text": "I also thought that, but I like it this way. It supports weekly checks as well. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:14.761889",
+        "updated_at": "2026-04-08T16:23:14.761889",
+        "author": {
+          "id": "cabaddc5fd5a6f446ed9e2de0157fc90",
+          "source_id": "alcazar",
+          "username": "alcazar",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4f81a39eaeb0859f5948c816db9cf567",
+        "source_id": "47690479",
+        "content": {
+          "text": "You better watch out for is 2FA, sometimes even with passwords people still get locked out, so backup codes can help. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:14.762443",
+        "updated_at": "2026-04-08T16:23:14.762443",
+        "author": {
+          "id": "95aeb0a786cea4fdb211d4ad10a5f81d",
+          "source_id": "zplb",
+          "username": "zplb",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "eaaabf0d498e2f0c911efa2c3e549612",
+        "source_id": "47690090",
+        "content": {
+          "text": "I want to know too, mine is using pure iCloud reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:14.763000",
+        "updated_at": "2026-04-08T16:23:14.763000",
+        "author": {
+          "id": "3e7c447a3ea15fdb266362e507b3d082",
+          "source_id": "tombelieber",
+          "username": "tombelieber",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-04-08T16:23:14.763228",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "ebee5c213af95b27adb6a66e41db5ae7",
+      "source_id": "47667504",
+      "title": "Ask HN: How do you handle marketing as a solo technical founder?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-08T16:23:09.816173",
+      "updated_at": "2026-04-08T16:23:09.816173",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "23aaf55378a0a9c2e5777a36368bc283",
+        "source_id": "lazarkap",
+        "username": "lazarkap",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 124,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47667504",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-04-08T16:23:18.682894",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "3ddd6e5d71973460de85cd605c2b73f6",
+      "source_id": "47679021",
+      "title": "Ask HN: What are you working on? (April 2026) (Non AI)",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">Tell me about your latest non-AI project and I'll check it out</div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-08T16:23:09.816863",
+      "updated_at": "2026-04-08T16:23:09.816863",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "40ebc58ccf46f811ffe9d8d6b4aba045",
+        "source_id": "cousin_it",
+        "username": "cousin_it",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 14,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47679021",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "e9fb31243aa8cef8e92a62eb4ba3ff0c",
+        "source_id": "47691618",
+        "content": {
+          "text": "I am building Sensonym ( https://sensonym.com ), a vocabulary learning app that uses phone sensors (gyroscope, camera, mic, accelerometer) to tie physical interactions to words. For example, you tilt your phone like a glass to learn \"drink\", shake your phone to learn \"earthquake\", charge it to learn \"eat\". The idea is that these associations help improve recall. I've just launched it on iOS and Android in Germany with support for 10 languages. Happy to receive any feedback reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:19.887825",
+        "updated_at": "2026-04-08T16:23:19.887825",
+        "author": {
+          "id": "7a3a9223fe0fa5558e8e49c82dea18c7",
+          "source_id": "mparas",
+          "username": "mparas",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "63bd8f611da2d0eb639d7f1646c3690e",
+        "source_id": "47689084",
+        "content": {
+          "text": "https://www.salaryconfidential.com which allows you to run private small-size peer compensation surveys without leaking identity (anonymous forms aren't that anonymous when you pick up any context. You can get incredibly niche, as long as a survey peer group is at least 4 people. And hopefully, this sets you up to negotiate hard based in real-life evidence, not broad ranges from Glassdoor We use data models and release rules borrowed from k-anonymity techniques, batched releases and privacy pass cryptographic tokens to create super safe surveys, and everyone who participates as an invite peer gains access to the same full-fat report. Our form supports specific benefits extension by geography, an extended equity compensation set of questions for packages where equity is significant; and performance pay questions for groups (like sales, execs) where performance pay is also a significant part of the package Also, we make it easy to explore pay gaps (gender, ethnicity, gender identity, whatever it is) because you can run several peer groups under one poll. no person gets tagged but you do know which respondent was in which peer group - so you can keep context in view (but size needs to be at least 4) but also have a broader view by rolling up results. Knowledge is power, and all that reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:19.888439",
+        "updated_at": "2026-04-08T16:23:19.888439",
+        "author": {
+          "id": "b9102a5f11646b98dd734bf2e535918d",
+          "source_id": "ariuser8434",
+          "username": "ariuser8434",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e8275515c3ffb9bf7581bf5706ddc291",
+        "source_id": "47690198",
+        "content": {
+          "text": "First skills matrix software on the market that actually helps you build a process that supports people growth and allows managers to manage without heavy, and expensive HR tools. Main page: https://matricsy.com and just started working on PL version: https://matryca-kompetencji.pl/ reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:19.888998",
+        "updated_at": "2026-04-08T16:23:19.888998",
+        "author": {
+          "id": "496b593ccf6970f35b9f5c7723ac697f",
+          "source_id": "riddu",
+          "username": "riddu",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6fa5eccc21e2f641ab9a6d21e1ec7d7e",
+        "source_id": "47688022",
+        "content": {
+          "text": "I’ve been working on an open-source tool to help visualize JavaScript/TypeScript codebases (React, Next.js, Node.js).\nThe core idea is building a dependency graph at the function/component level and exploring relationships across the codebase. One feature that turned out to be particularly useful is what I think of as “blast radius”, If you change a function or component, what other parts of the system are affected? This has been especially helpful when thinking about PR reviews, not just what changed, but what the change might impact indirectly. It’s still early, and I am working on the cloud version which will include LLM interface to interact with graph and other team collaboration feature and github connection but I’d really appreciate feedback from others who might find this tool useful, and I invite anyone and everyone to contribute to the open source github repo. Github: https://github.com/devlensio/devlensOSS Landing page: https://devlens.io/ reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:19.889661",
+        "updated_at": "2026-04-08T16:23:19.889661",
+        "author": {
+          "id": "62b234c36c99bc2e55fca73463db8c6a",
+          "source_id": "shivang2607",
+          "username": "shivang2607",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3c0445044178b8838134cc51034b0385",
+        "source_id": "47685410",
+        "content": {
+          "text": "Just finished building a side project that utilizes Android's captive portals, The main idea was an offline space for strangers who would randomly connect to an open wifi network. From there their device would open the captive portal webview in full screen, and from there they can explore the platform. I used a unique modern matrix and polished everything with another project I built which's a deterministic picture generator used to let people interact with something interesting, already using it to produce their default profile picture using their id as the seed. It meant to run on raspberry pi and I already built an img for the first release. https://github.com/remohexa/rematrix-gallery And there's also a demo: https://rematrix.remohexa.com/ reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:19.890335",
+        "updated_at": "2026-04-08T16:23:19.890335",
+        "author": {
+          "id": "2d8b5681a666bc79f75d4e6acb690fcc",
+          "source_id": "remohexa",
+          "username": "remohexa",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2c6d977fe981d0d844c8bfa508f6cf4c",
+        "source_id": "47680483",
+        "content": {
+          "text": "I'm building free immigration software for DIY applicants [1] It's a free USCIS form-filling web-app(no Adobe required). USCIS forms still use XFA PDFs, which don’t let you edit in most browsers. Even with Adobe, fields break, and getting the signature is hard. So I converted the PDF form into modern, browser-friendly web forms - and kept every field 1:1 with the original. You fill the form, submit it, and get the official USCIS PDF filled. I found out SimpleCitizen(YC S16) offers a DIY plan for $529 [2] So, a free (and local-only) version might be a good alternative [1] https://fillvisa.com/demo [2] https://www.simplecitizen.com/pricing/ reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:19.891049",
+        "updated_at": "2026-04-08T16:23:19.891049",
+        "author": {
+          "id": "6f11ca3b0eb4a3cdec47cc511ceac76e",
+          "source_id": "junaid_97",
+          "username": "junaid_97",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3ada2a1e98fc0da5bcd9d4c3020b65bf",
+        "source_id": "47681172",
+        "content": {
+          "text": "Wow! I'm not in the target audience, but this is exactly what I love to see :-) Thanks for doing this! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:19.891724",
+        "updated_at": "2026-04-08T16:23:19.891724",
+        "author": {
+          "id": "40ebc58ccf46f811ffe9d8d6b4aba045",
+          "source_id": "cousin_it",
+          "username": "cousin_it",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b903f2ced6702965d19c8ea927d83b4a",
+        "source_id": "47685445",
+        "content": {
+          "text": ":) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:19.892424",
+        "updated_at": "2026-04-08T16:23:19.892424",
+        "author": {
+          "id": "6f11ca3b0eb4a3cdec47cc511ceac76e",
+          "source_id": "junaid_97",
+          "username": "junaid_97",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4703120f66331f0e2b34a1816dac1f0c",
+        "source_id": "47688139",
+        "content": {
+          "text": "Something like Windows Task Manager but it also works in Linux, monitors Docker containers, provides logging, and spins up web servers. It’s web servers serve http and web sockets from the same port and includes streaming proxies. https://github.com/prettydiff/aphorio reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:19.893179",
+        "updated_at": "2026-04-08T16:23:19.893179",
+        "author": {
+          "id": "0ae492937dcc65e2e9ad4e3b8663757f",
+          "source_id": "austin-cheney",
+          "username": "austin-cheney",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7e8f1e68c3435ac04f0c357e1b8263c5",
+        "source_id": "47686226",
+        "content": {
+          "text": "Still OnlineOrNot ( https://onlineornot.com/ ) - I've been working on adding more and more configurability to the browser checks feature. More recently, I've made it so you can drop your existing playwright test suites into the code editor, and it'll Just Work. A whole bunch more work to do around that, but I think letting folks drop code in makes more sense than continuously updating the UI. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:19.893962",
+        "updated_at": "2026-04-08T16:23:19.893962",
+        "author": {
+          "id": "f0c2085975a3b6f2d43a3f6fb29daed4",
+          "source_id": "rozenmd",
+          "username": "rozenmd",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0329d1653d70cf5d56e2a5f21f7c2148",
+        "source_id": "47687933",
+        "content": {
+          "text": "My wife and I continue to work on Uruky, a EU-based Kagi and Google Search alternative [1]. Since last month we finally got our production API Key for EUSP/STAAN (it was certainly the slowest and most complicated search provider to adopt, so far), and that brought us to 5 search providers you can choose from and sort as you prefer. We already have got over 40 paying customers (excluding family and friends, we’re guessing these paying customers came from some privacy listings and HN comments) and have exited beta last month! Customers seem to really enjoy the simple UI (search can be used without JS) and search personalization (from choosing the providers to the domain boosting and exclusion). We also have hashbangs (like \"!g\", \"!d\", or “!e”) when something doesn’t quite give you what you’d expect, though. You can see the main differences between Kagi and Uruky in the linked page, but one huge difference is that with Uruky, after being a paying customer for 12 months, you get a copy of the source code! One thing we’re struggling with is outreach because we want to do it ethically, and it’s hard to find communities or places to sponsor which are privacy-focused and don’t require €5k+ deals. Ideas are welcome! Because of bots there isn’t a free trial easily available, but if you’re a human and you’d like to try it for a couple of days for free, reach out with your account number and we’ll set that up! Thanks. P.S.: Because people have asked before, our tech stack is intentionally very \"boring\" (as in, it generates and serves the HTML + bits of JS to enhance settings and such), using Deno in the backend (for easier TypeScript), PostgreSQL for the DB, and Docker for easier deploying. P.P.S.: Because this has been also brought up before, the name has no special meaning but we read it like \"Euro-key\" in English. Names are hard, and we’re aware it can remind people of Uruk and Uruk-hai. That’s OK. P.P.P.S.: Another frequent question here is “how does it work?” When you search, we query the first search provider on your list, and if it yields less than X results (only Mojeek really gives us a total count, we have to try + estimate for the others), we try the second, and so on. We then merge the results in a round-robin fashion (first of first, first of second, second of first, second of second, and so on). There’s a bit of more nuanced logic to also properly rank the results with the pin/exclude/raise/lower preferences, because it works differently across providers and not all of them support that, for example. [1] https://uruky.com reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:19.894897",
+        "updated_at": "2026-04-08T16:23:19.894897",
+        "author": {
+          "id": "f202cf58148469b2848db50a7d14ae51",
+          "source_id": "BrunoBernardino",
+          "username": "BrunoBernardino",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d10c3507696b95b3dec2d52ae2f9e600",
+        "source_id": "47689771",
+        "content": {
+          "text": "gardening, raking leaves, composting things, burning branches and woods, chopping trees, weeding, manuring, and planting flowers.  that's the april project reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:19.895706",
+        "updated_at": "2026-04-08T16:23:19.895706",
+        "author": {
+          "id": "0fd324f82c3ca04a7991a1e8611531a4",
+          "source_id": "segmondy",
+          "username": "segmondy",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4ef058360dcb15775cbcc2721a3aa448",
+        "source_id": "47680236",
+        "content": {
+          "text": "I’m building DataJelly.com — a visibility layer for AI-built and JS-heavy sites. A lot of tools like Lovable and Bolt generate apps that look great but don’t expose content well to search or AI crawlers. The impact is lower search ranking, fewer AI citations, and broken social links. We fix all of that by returning fully rendered HTML to SEO bots and clean Markdown to AI crawlers so they can actually understand the content. We also fix the Social Sharing broken links with custom HTML generated just for sharing your links on social. Quick setup, no code required. Free: visibility test: https://datajelly.com/#visibility-test Our Edge Product: https://datajelly.com/products/edge Happy to answer questions. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:19.896661",
+        "updated_at": "2026-04-08T16:23:19.896661",
+        "author": {
+          "id": "c177c1288ee10b2207d045cf6b898ac1",
+          "source_id": "jmacduff42",
+          "username": "jmacduff42",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "711355ca60ef94c4503f9df401a97971",
+        "source_id": "47679334",
+        "content": {
+          "text": "I've also worked on this. Manage Cloudflare, Anywhere https://apps.apple.com/us/app/cloudflare-remote/id6743181258 https://play.google.com/store/apps/details?id=com.emrekeles.... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:19.897589",
+        "updated_at": "2026-04-08T16:23:19.897589",
+        "author": {
+          "id": "e8d0a3d8990c79ed95a89c7fd5441e36",
+          "source_id": "cloudflareapp",
+          "username": "cloudflareapp",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "45923b258992ba144b6e8c0956b29495",
+        "source_id": "47679335",
+        "content": {
+          "text": "I am working on https://spatialsheets.com Think geodata formulas + excel. Mostly for my own use just to quickly debug geodata. Used to heavily use geojson.io for it but it is not very good at handling large datasets and couldn't enrich data so I started working on this thing. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:19.898536",
+        "updated_at": "2026-04-08T16:23:19.898536",
+        "author": {
+          "id": "adaf89daf386a264c5fc749b7ab28d09",
+          "source_id": "kriz9",
+          "username": "kriz9",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "fbf95579072c7e96c28fd2e6fea9327f",
+        "source_id": "47679474",
+        "content": {
+          "text": "I'm working on https://suggestionboard.io , a simple live polling and Q&A webapp that doesn't require an account. Just launched the first version and trying to figure out if there's a market. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:19.899519",
+        "updated_at": "2026-04-08T16:23:19.899519",
+        "author": {
+          "id": "40ebc58ccf46f811ffe9d8d6b4aba045",
+          "source_id": "cousin_it",
+          "username": "cousin_it",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "982808d1a116f38884d3a11cc022a5bc",
+        "source_id": "47680320",
+        "content": {
+          "text": "https://ShipmentPlanner.com - optimizing shipments to Amazon and 3PL. Got some clients and now I'm on to marketing (mostly emailing and LinkedIn outreach). It's tough. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:19.900517",
+        "updated_at": "2026-04-08T16:23:19.900517",
+        "author": {
+          "id": "eee14cfe82b78815a2d73f6dac4906e7",
+          "source_id": "twooclock",
+          "username": "twooclock",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "599a00deed5bef8773f1fbe9aaaec6e9",
+        "source_id": "47679094",
+        "content": {
+          "text": "I built a zero-backend CDN for hotlinking SVGs. Unlimited bandwidth. https://svg.inbondz.com I was tired of copying and pasting SVGs over and over again for my projects and social links. So I built that. Tell me if you need any other SVGs. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:19.901556",
+        "updated_at": "2026-04-08T16:23:19.901556",
+        "author": {
+          "id": "e01d0b823373cca5ea1da2a40be09866",
+          "source_id": "wasimsk",
+          "username": "wasimsk",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f24ee845539c91e137a0a057542e21cf",
+        "source_id": "47688999",
+        "content": {
+          "text": "We're building a repairable, connected and fireproof e-bike battery at https://infinite-battery.com :) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:19.902611",
+        "updated_at": "2026-04-08T16:23:19.902611",
+        "author": {
+          "id": "2ddbf4537036c6403b50e30cfa831b17",
+          "source_id": "oulipo2",
+          "username": "oulipo2",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "19e67ce1709722d4950dd4bd60ada689",
+        "source_id": "47679411",
+        "content": {
+          "text": "Understand an entire codebase instantly : www.ix-infra.com reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:19.903667",
+        "updated_at": "2026-04-08T16:23:19.903667",
+        "author": {
+          "id": "5679a9aa0edefe9e5bb652104fbe9371",
+          "source_id": "frog437",
+          "username": "frog437",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "63206f44f3b9ee21454c86ab12a23372",
+        "source_id": "47688034",
+        "content": {
+          "text": "I've been building something similar to visualize the codebase. https://github.com/devlensio/devlensOSS reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:19.904770",
+        "updated_at": "2026-04-08T16:23:19.904770",
+        "author": {
+          "id": "62b234c36c99bc2e55fca73463db8c6a",
+          "source_id": "shivang2607",
+          "username": "shivang2607",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "cc0ac44fbcecdf3250af83f7a18b0f13",
+        "source_id": "47679426",
+        "content": {
+          "text": "It's a CLI tool.  It plays well with AI but it works great without it. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:19.905886",
+        "updated_at": "2026-04-08T16:23:19.905886",
+        "author": {
+          "id": "5679a9aa0edefe9e5bb652104fbe9371",
+          "source_id": "frog437",
+          "username": "frog437",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0752cc78898786830ddf2bca70c7a558",
+        "source_id": "47679170",
+        "content": {
+          "text": "Not me but good friend of mine is building https://onepilotapp.com , genuinely looking for it going live.. me I m testing SEO, unsuccessfuly so far ^^ reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:19.907065",
+        "updated_at": "2026-04-08T16:23:19.907065",
+        "author": {
+          "id": "fabed447ca2e8582051deac53b1da829",
+          "source_id": "elmlabs",
+          "username": "elmlabs",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1f7aa5f844a5cc3afe432c06bb8623bb",
+        "source_id": "47679277",
+        "content": {
+          "text": "Mobile first IDE! I would love to use it, it will certainly help me when I am not able to use my laptop. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:19.908264",
+        "updated_at": "2026-04-08T16:23:19.908264",
+        "author": {
+          "id": "e01d0b823373cca5ea1da2a40be09866",
+          "source_id": "wasimsk",
+          "username": "wasimsk",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5bf0504d971e65362e2724f23dfa33d3",
+        "source_id": "47679236",
+        "content": {
+          "text": "Mhm. Great! Btw. Nice to meet you. So what did you learn in SEO?\nI generally don't have much knowledge about it. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:19.909482",
+        "updated_at": "2026-04-08T16:23:19.909482",
+        "author": {
+          "id": "e01d0b823373cca5ea1da2a40be09866",
+          "source_id": "wasimsk",
+          "username": "wasimsk",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "828b1874ca28dae45aeaf227b8fe8382",
+        "source_id": "47679331",
+        "content": {
+          "text": "Litteraly started 2 days ago ahaha, I spent a lot of time building things but never making them visible, so far I got nice results on the news aggregators feeds. I ll not try so hard in it, I still think bringing genuine interest about a topic is a more respectful way of doing reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:19.910704",
+        "updated_at": "2026-04-08T16:23:19.910704",
+        "author": {
+          "id": "fabed447ca2e8582051deac53b1da829",
+          "source_id": "elmlabs",
+          "username": "elmlabs",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "baee66bc890b60ef5fa53c25b81d0760",
+        "source_id": "47679395",
+        "content": {
+          "text": "I got it. Are you a developer?\nHave GitHub? X or something? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:19.911951",
+        "updated_at": "2026-04-08T16:23:19.911951",
+        "author": {
+          "id": "e01d0b823373cca5ea1da2a40be09866",
+          "source_id": "wasimsk",
+          "username": "wasimsk",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5c925d0153873fd6b9652143b4e2346e",
+        "source_id": "47680022",
+        "content": {
+          "text": "I just created an X account @elmlabs1 we can catch up! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:19.913275",
+        "updated_at": "2026-04-08T16:23:19.913275",
+        "author": {
+          "id": "fabed447ca2e8582051deac53b1da829",
+          "source_id": "elmlabs",
+          "username": "elmlabs",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-04-08T16:23:19.914210",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "ae7d9deaceea85e26e98e00dbd41dfbf",
+      "source_id": "47654062",
+      "title": "Ask HN: Any Interesting Niche Hobbies?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">I'm looking for something novel and interesting, that isn't absolutely crowded that I could meaningfully contribute to.<p>In 2022 I was toying around with OpenAI's RL Gym, right when the first non-instruct GPT3 model came out. I was thinking about getting into ML a lot more, but hesitated.\nBefore that it was 3D printers, mechanical keyboards, drones, etc.\nAll of these have exploded, and while they are still very interesting, I do love my Browns and manage Prusas for my local hackerspace, they have just, for the lack of a better term, industrialized.\nI'm also now in a position where I have time and money for it, not like when I was 15 and rating Ender motherboard upgrades I knew I'd never buy.<p>Right now I'm making a chess engine, but that's already a solved problem.\nThere's also biohacking, and while designing chips to go into my body is really interesting, I only have one, and don't want to push it too far.\nOne promising idea is a kind of 'Personal Computer 2', where people try to innovate HCI, and while I really like that and do have some research ideas, I'd like to explore a bit more before delving deep into it.</p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-08T16:23:09.817879",
+      "updated_at": "2026-04-08T16:23:09.817879",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "d70bc14b097da3e5ea3b980ee0da5ef1",
+        "source_id": "e-topy",
+        "username": "e-topy",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 39,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47654062",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "b7eb4291712ab05d2686945268fd81b4",
+        "source_id": "47654145",
+        "content": {
+          "text": "My hobby is organizing in-person meetups for random people to get together, chat and make friends. Barely structured, if at all. I've found this rewarding and ended up making friends this way. You have to accept that 5-15% of the people who would show up to something like this are genuine weirdos you probably don't want to be around. And another 10% at any given meetup are autistic or neuro-divergent but well-meaning, kind and full of interesting insights and hobbies, although perhaps difficult to socialize with, at least until they get to know you're well-meaning too. These challenges come with the territory. You end up talking to people you'd otherwise never meet in the normal course of your life, and it's neutral at worst and wonderful at best. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:21.637180",
+        "updated_at": "2026-04-08T16:23:21.637180",
+        "author": {
+          "id": "d8cfefaf385df1927f38489ada82b356",
+          "source_id": "unsupp0rted",
+          "username": "unsupp0rted",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2e152197ecf70d00b4e80ce8f3ee3955",
+        "source_id": "47661314",
+        "content": {
+          "text": "I'm on the other side of this, in that I attend a lot of these. I made a big effort about 12 years ago to go to a bunch of these (like three meetups a week and trying out a variety of different meetups), but now I mostly stick to a couple of them as I don't have as much time or energy for it anymore. But I've met most of my current friends through those meetups. Find one you like and keep showing up until you're a regular, and get to know people slowly, and if they like you they start inviting you to things outside of the meetup, and then eventually you end up being friends. I've done this with three different groups over the years and despite naturally being shy and an introvert I've ended up making friends at each one. At the height of me doing this (like ten years ago), it got to the point where I'd go about my daily life and about once every other month I'd run into random people I've met at meetups also out and about. Like go out to dinner and spot someone I knew from a meetup also showing up to the same place, or run into them shopping at a Best Buy or something. Meetups where you do a shared activity seems to be the best, like hikes or movies (+ dinner afterwards) or board games, since you can always focus on the activity if you don't feel like being social, and you have that activity you can always talk about as a subject. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:21.637769",
+        "updated_at": "2026-04-08T16:23:21.637769",
+        "author": {
+          "id": "68353c46d0d9a62dfe42f5e20a30ac27",
+          "source_id": "cableshaft",
+          "username": "cableshaft",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6c6986adf01ddf1c6aaffa27046684d9",
+        "source_id": "47657979",
+        "content": {
+          "text": "Great idea - a lot of the problems in the world are from social isolation, and people finding silos online I think the 10% neuro-divergent is a positive as it being ND can be very isolating for people Makes me think a focus around ND alone would be a great idea reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:21.638337",
+        "updated_at": "2026-04-08T16:23:21.638337",
+        "author": {
+          "id": "831f87faca6f9264bf8558e995657225",
+          "source_id": "fiftyacorn",
+          "username": "fiftyacorn",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2c5173e0a34abd2383364790f13ec15c",
+        "source_id": "47668927",
+        "content": {
+          "text": "> You have to accept that 5-15% of the people who would show up to something like this are genuine weirdos you probably don't want to be around. How have you handled this in past meetups? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:21.638906",
+        "updated_at": "2026-04-08T16:23:21.638906",
+        "author": {
+          "id": "946fb7b3821a552029dcc9390e234f30",
+          "source_id": "gaws",
+          "username": "gaws",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5d815809b097db3298603481a1cf5e01",
+        "source_id": "47654464",
+        "content": {
+          "text": "This reminds me of [0], basically just inviting the most interesting people I know (also transitively the most interesting people they know), and just getting to meet people.\nI would really like to do this, but half the most interesting people I know are PhD professors I rant with because I'm next to them in a lab. Maybe once my network gets bigger.\nBut I would still like to know more about how you do this, as other people doing this accidentally made me some good friendships, and I'd like to repay this favor to others [0] https://takes.jamesomalley.co.uk/p/this-might-be-oversharing reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:21.639558",
+        "updated_at": "2026-04-08T16:23:21.639558",
+        "author": {
+          "id": "d70bc14b097da3e5ea3b980ee0da5ef1",
+          "source_id": "e-topy",
+          "username": "e-topy",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "cda70773cdde654bf0b802ec3cbaa9ed",
+        "source_id": "47654803",
+        "content": {
+          "text": "How I do it is context-specific. I used to live in a place where it's undoable and I was very lonely there. I moved to a place where people are much more open to it culturally and there's enough population to +/- bring in a constant flow of 4:1 regulars to newbies. I advertise on local meetup platforms and in local social media. And I go to so many meetups myself that when people ask me what my hobbies are and I tell them, they get curious and self-invite. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:21.640201",
+        "updated_at": "2026-04-08T16:23:21.640201",
+        "author": {
+          "id": "d8cfefaf385df1927f38489ada82b356",
+          "source_id": "unsupp0rted",
+          "username": "unsupp0rted",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "55f288debf47f90fe3c1edd85a66c8db",
+        "source_id": "47683614",
+        "content": {
+          "text": "I organise events as well and I'm wondering if you ever charged for them. I used to do them for free but so many people signed up and didn't attend later that it was hard to put numbers to book a venue to meet. How did you solve this? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:21.640837",
+        "updated_at": "2026-04-08T16:23:21.640837",
+        "author": {
+          "id": "208c431e415d9ac4a8a13b414468009d",
+          "source_id": "Gooblebrai",
+          "username": "Gooblebrai",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9c0700f5aa8130cb7f1e19fe1446369a",
+        "source_id": "47676630",
+        "content": {
+          "text": "What are the meetup themes? What brings the interesting people in? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:21.641535",
+        "updated_at": "2026-04-08T16:23:21.641535",
+        "author": {
+          "id": "48ae4e5e8feda1ae906c384d2d3556aa",
+          "source_id": "andrei_says_",
+          "username": "andrei_says_",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "add5b1ee40a99e99a5dbe575ae356f75",
+        "source_id": "47654191",
+        "content": {
+          "text": "How do you do this? And do you find people within tech industry or just random-people, I am sort of curious to know! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:21.642237",
+        "updated_at": "2026-04-08T16:23:21.642237",
+        "author": {
+          "id": "69bd53a5c687056238a07a5afcab4df5",
+          "source_id": "Imustaskforhelp",
+          "username": "Imustaskforhelp",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "27d3d3c76efe796d7f0978d7891536a8",
+        "source_id": "47654792",
+        "content": {
+          "text": "Just random people, but because of where I post my events I tend to get about 30% ~ 50% tech-adjacent people reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:21.642949",
+        "updated_at": "2026-04-08T16:23:21.642949",
+        "author": {
+          "id": "d8cfefaf385df1927f38489ada82b356",
+          "source_id": "unsupp0rted",
+          "username": "unsupp0rted",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9a98d56b18dbd65e4fe7c3220735c06e",
+        "source_id": "47690694",
+        "content": {
+          "text": "I was into woodworking, then I got into building fly fishing rods from bamboo. Fly fishing has been around for a long time. They used to build rods by hand out of bamboo - a specific species of bamboo native to southern China - before factories started making them out of graphite, fiberglass, etc. for cheap. Modern fly rods are a few hundred bucks. If you try to buy a bamboo rod in a store, they run $2K-$5K. They take a lot of time and meticulous work to build, and the result is a functional work of art. Woodworking is a ton of fun, and challenging. Bamboo rod making is a niche within a niche, and there are not a whole lot of people who still do it ... mostly retired guys with a lot of time. It's a great tradition, and it's about as far away from computers and technology as I can get. I didn't even know how to fly fish until I built my first bamboo rod. Here's a great video showing the process: https://www.youtube.com/watch?v=lfTvRxcTuV0 reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:21.643784",
+        "updated_at": "2026-04-08T16:23:21.643784",
+        "author": {
+          "id": "8d9afc24402c140be9f3bf858ceb86ad",
+          "source_id": "duckkg5",
+          "username": "duckkg5",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "258c38ab603b6efa0e95590bd79188f7",
+        "source_id": "47691145",
+        "content": {
+          "text": "That's a wonderful video, thanks for sharing reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:21.644575",
+        "updated_at": "2026-04-08T16:23:21.644575",
+        "author": {
+          "id": "e7f96dc0a5c0cc4034cacbcaf2bb210c",
+          "source_id": "oddsockmachine",
+          "username": "oddsockmachine",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f281758c97ecd2d3ddf217f86f1a8d38",
+        "source_id": "47690891",
+        "content": {
+          "text": "This is very cool. Thank you.\n...and that video is a pill-quality destressor. thanks again. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:21.645418",
+        "updated_at": "2026-04-08T16:23:21.645418",
+        "author": {
+          "id": "8f7c85d58c523732ed26a77e04dab4f8",
+          "source_id": "getlawgdon",
+          "username": "getlawgdon",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "734b7ee12227a71e6ef0c32288ed7b35",
+        "source_id": "47690963",
+        "content": {
+          "text": "I come back to the video every once in a while and it is total zen. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:21.646276",
+        "updated_at": "2026-04-08T16:23:21.646276",
+        "author": {
+          "id": "8d9afc24402c140be9f3bf858ceb86ad",
+          "source_id": "duckkg5",
+          "username": "duckkg5",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "308148d49cd9598b8b86091f3681bc80",
+        "source_id": "47690826",
+        "content": {
+          "text": "Traditional archery. I started a few years back and have been doing it off and on since. It's challenging but a lot of fun. I shoot a lot of older style \"recurve\" bows, but the main style I shoot are horsebows, that is, bows that were historically shot from horseback. They're very lightweight and you can shoot much more rapidly than you can with a more modern/mechanical recurve or compound. Right now I shoot around 20-25 arrows a minute. Not amazing compared to experienced archers, but a lot of fun. I have a number of bows, but here are my favorites: Assyrian: https://www.bogararchery.sk/image/cache/catalog/product/boga... Buryat: (No longer available) I also shoot an English longbow from time to time. The horsebows use a technique called \"thumb draw\" which is very different from the way most bows are shot in the west. Here's a great YouTube channel if you want to explore getting into it: https://www.youtube.com/@ArminHirmer reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:21.647296",
+        "updated_at": "2026-04-08T16:23:21.647296",
+        "author": {
+          "id": "1cc7c015628023b4b1cba3b7546cc069",
+          "source_id": "SunshineTheCat",
+          "username": "SunshineTheCat",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3458759bb9ff92b3ebea0ea6fe1bc14b",
+        "source_id": "47690820",
+        "content": {
+          "text": "Synthesizers! I like it because it's tactile and immediate, and you're not glued to a screen, but can create fun-sounding beats. Nowadays there are nice, cheapish groove boxes that are perfect for noodling on the couch. I started with the Novation Circuit Tracks, and also really enjoy the Teenage Engineering EP-133. Not to say that I am any good at this, but it's an enjoyable hobby! Bonus if you are friends who are also into it and you can jam together :) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:21.648223",
+        "updated_at": "2026-04-08T16:23:21.648223",
+        "author": {
+          "id": "beccbc8eed4197fe7aa05448e2a1979b",
+          "source_id": "patapong",
+          "username": "patapong",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f21494d964bf9b72d75d710bafc8d7cd",
+        "source_id": "47691010",
+        "content": {
+          "text": "> Bonus if you are friends who are also into it and you can jam together :) How does one find these people? Asking for a friend! :D I've also gone down the synthesizer rabbit hole: prophet-6, full modular setup (rip bank account), subsequent 37. It's great fun! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:21.649196",
+        "updated_at": "2026-04-08T16:23:21.649196",
+        "author": {
+          "id": "ae8740d9968f046016afaf36156d61c4",
+          "source_id": "vectordust",
+          "username": "vectordust",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2820c665b03630813957db74df4cdb01",
+        "source_id": "47692198",
+        "content": {
+          "text": "Go to modular meets, music instrument expos like Superbooth, dj sets and live concerts.\nI met all my best friends this way, everybody is a record collector, beat maker or techno producer.\nRecord conventions are also fun, after couple of occasions you will realize how small the scene is. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:21.650165",
+        "updated_at": "2026-04-08T16:23:21.650165",
+        "author": {
+          "id": "7d079b4bb0c9a2c15f6112e1c05b83f4",
+          "source_id": "rumori",
+          "username": "rumori",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "04c556d39152ce108cfeed159b180459",
+        "source_id": "47691165",
+        "content": {
+          "text": "I don't think chess engines are a solved problem for some use cases. Yes you can make something strong, maybe even the strongest, but can you create a chess engine perfectly tuned to actually teaching a player? Instead of superhuman perfect lines and inscrutable long-horizon strategy, can you teach nearly optimal human play in a way that's actionable, modular and memorable? Can you improve on tournament prep for players against particular opponents or within a particular metagame? Also, obviously it's your life, and we're here on Earth to fart around, but I have spent a good portion of my life dipping into one hobby after another, as my dad did before me, so I'm half speaking to myself when I ask this: why do you think you can't meaningfully contribute to any of these realms, even now? To me that sounds like some deep seated fear or doubt, some aversion to competition, some overriding bitterness. I'm slightly worried you'll just be back here in another couple of years trying to find another new hobby, unsullied by the efforts and achievements of others. You won't find that! I would actually suggest a particularly expensive hobby: going to therapy. Try that, and learn that you're already enough, and if your contributions are meaningful to you, that's all that matters. Happy to be way off the mark here though. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:21.651175",
+        "updated_at": "2026-04-08T16:23:21.651175",
+        "author": {
+          "id": "a3e058d55df344b2e2e108dcf0cc4c02",
+          "source_id": "thom",
+          "username": "thom",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9e00f8376699d918c02d867213b27c28",
+        "source_id": "47690690",
+        "content": {
+          "text": "I started designing my own clothes. The insight was that I spend 80% money on suits that I wear 2 times a year, and the rest was low quality clothing I actually wore. I flipped it, and made suits and pants that I could wear everyday. The fast fashion stores were crap quality, my body is not a template size and I care about fabric and comfort. The process was to learn how to sketch, to determine fabrics, colors and fit. I made pants that stay comfortable even after I eat food, I made suits that I can wear casually. I don’t stitch myself, for that I worked with multiple workshops, until I found one that works for me. Took me about 3 years to reach a point where all my wardrobe is designed by and for me. There were multiple side effects on my confidence, my life, and the opportunities coming my way. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:21.652275",
+        "updated_at": "2026-04-08T16:23:21.652275",
+        "author": {
+          "id": "d65a70ac45cd72de19336ee1d67b9fe0",
+          "source_id": "shivekkhurana",
+          "username": "shivekkhurana",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f1d25c31360a8fcb807e14def880c2fc",
+        "source_id": "47690825",
+        "content": {
+          "text": "I want to hear more reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:21.653333",
+        "updated_at": "2026-04-08T16:23:21.653333",
+        "author": {
+          "id": "c93aa47b2774dcb5038fb298b46ab542",
+          "source_id": "ribs",
+          "username": "ribs",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "25ccceab95cf1fa07d3f5513b4d4a5fb",
+        "source_id": "47691415",
+        "content": {
+          "text": "Fast fashion forces you to dress for the masses. Loose shirts, baggy pants and shallow pockets is not fashion, its cost optimisation for brands. I didn't want to dress up like a boy. Me and my friend were in Paris when we got inspired by the floor(fashion_sense). I was already working on my clothing, but that day we promised each other that we will not be underdressed anymore. He opted for off-the-shelf formal clothing: high quality shirts, and pants. I went all in. First I found markets that sell cheap fabrics, so I can experiment. I travel a lot, so my clothing had to be designed for all weathers. I'm Indian (Bharat), but look racially ambiguous, so I also wanted my clothing to reflect my roots and culture, yet be modern enough for any room in the world. I run a company, and write code, so comfort was paramount. But I also had meetings or presentations so I wanted to be presentable. Started with pants, because I thought pants are easy to optimise, and I just need a black, gray and dark blue one. Over 5 iterations, I reached a design with elastic straps on the side (because when I eat food, my tummy bloats a little and its uncomfortable to sit down), and loose on the thighs. Imagine pyjamas, that look like pants. Then next step was to experiment with jackets and shirts. I played with fabric, patterns, and finish (zippers, titch buttons, different cuff lengths and styles, different collars). My friends started noticing, and I also consulted some clients. Then I gave a talk about it. This is one of my skills that I discovered by first principles. The best part is that I met my girlfriend because she noticed my aesthetics, and she told me that she makes her own clothes too. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:21.654510",
+        "updated_at": "2026-04-08T16:23:21.654510",
+        "author": {
+          "id": "d65a70ac45cd72de19336ee1d67b9fe0",
+          "source_id": "shivekkhurana",
+          "username": "shivekkhurana",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4df6663f4cb1e941a30d3443456c8fd3",
+        "source_id": "47690734",
+        "content": {
+          "text": "My strange hobby was going on what I called \"leak walks\". I lived in a town where on any sunny day I could go for a walk and be almost guaranteed to spot a water mains leak I hadn't seen before, which I'd then report and see how long it would be before it was fixed. The record was over a year for one of them. ( Yes, it was a Thames Water area. ) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:21.655696",
+        "updated_at": "2026-04-08T16:23:21.655696",
+        "author": {
+          "id": "fcea0736da29dd53fca8187ee122bf7f",
+          "source_id": "xnorswap",
+          "username": "xnorswap",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "fd359ee8f73429cf13e05b2c0bcf300a",
+        "source_id": "47690744",
+        "content": {
+          "text": "Railway preservation (full size, not model).  It looks crowded when a steam train is running and the moths gather around.  The reality, when the trains are not running, is typically quite different, with a small dedicated group.  If a place looks too crowded, pick a smaller museum. Think of all the jobs that have to be done to run a railway and you will be able to find a museum that does it:  heavy maintenance, boiler work, fitting and turning, blacksmithing, woodwork, upholstering, painting, catering, engine driving, fireman, signalling, customer service, ... It's a great way to meet people, learn new skills and work with physical things. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:21.656869",
+        "updated_at": "2026-04-08T16:23:21.656869",
+        "author": {
+          "id": "28347ad23640118a5d72d9c499636553",
+          "source_id": "femto",
+          "username": "femto",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "778770d490e66e2d1251a9c1b6be4a06",
+        "source_id": "47677493",
+        "content": {
+          "text": "I'm into innovation in HCI as a hobby, but it does get expensive so I would like to bring in some additional financial support for my unusual builds. I didn't really plan to build HCI as a hobby, but I have a strong interest in hardware engineering and eventually I wanted to switch back to building things that anyone can physically see. Years ago I built a hemisphere keyboard and now I've built an LED globe with a viewing portal. I started building visible things again because I had a vision and it's very satisfying to use the result. I spend more time using it now than I did originally building it, although it is definitely a work in progress. I want to build it again for a 2.0 version. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:21.658081",
+        "updated_at": "2026-04-08T16:23:21.658081",
+        "author": {
+          "id": "1252968ee17dcb14d39f7d98b7028ee1",
+          "source_id": "skyberrys",
+          "username": "skyberrys",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ad4c44400014acab0f8486aaf41435bb",
+        "source_id": "47690857",
+        "content": {
+          "text": "HCI innovation is definitely an interesting hobby - anything you can share or point me towards? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:21.659322",
+        "updated_at": "2026-04-08T16:23:21.659322",
+        "author": {
+          "id": "5520be0fbd5cc16e5ac28ba8317baca8",
+          "source_id": "ZTX",
+          "username": "ZTX",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b72a81684e5d1465791d6910b58f3293",
+        "source_id": "47656739",
+        "content": {
+          "text": "If chess is a solved problem, think about skating to where the puck is going to be, an interest area a bit further away from relatively easier verifiability such as coding, math, and hard sciences. Do you have any interest in digital humanities? Knowledge work where verification is still important but not as black-and-white as does the math check out, does the code run. Do you have any interest in family history or genealogy? https://vibegenealogy.ai/p/the-genealogical-research-assista... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:21.660612",
+        "updated_at": "2026-04-08T16:23:21.660612",
+        "author": {
+          "id": "eacbef527055c7e27afc650e9f34bf55",
+          "source_id": "DigitalArchivst",
+          "username": "DigitalArchivst",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6f2376e8daaa165559b45cb3fdabca6e",
+        "source_id": "47690794",
+        "content": {
+          "text": "Animal tracking. I picked it up in college and it has been a real source of joy and a true challenge. It's also something you can do almost anywhere: urban, suburban, rural, out in \"the wild.\" A lot of people think of it as looking for paw/hoof marks in the mud, but tracking can actually be quite involved, requiring you to understand the environment and ecology as a whole. For example, tracking birds is outrageously difficult and when I first started out I didn't think it was possible. But the more I learned about birds, their habits (per species), their environment, I started to see signs everywhere. It really got my eyes open and I started seeing the same old places in completely new ways! And in terms of contributing something, there are all sorts of apps/organization that can help you identify different species and in turn you give them data in the form of pictures, location, etc. I use iNaturalist myself, but there are others. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:21.661924",
+        "updated_at": "2026-04-08T16:23:21.661924",
+        "author": {
+          "id": "d60d7d66db33deaa33730f9b7b64573e",
+          "source_id": "davenporten",
+          "username": "davenporten",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b2f6a67600733e79b1ac19636900b529",
+        "source_id": "47691177",
+        "content": {
+          "text": "Since you mentioned biohacking but are wary of \"wetware\" risks, consider Personal Bioinformatics via 30x Whole Genome Sequencing. Now that sequencing costs have dropped significantly, you can use AI to take a deep dive into the latest research surrounding your own genomic data. While severall open medical databases and open-source tools exist, they are often fragmented or built for academia. There is significant room to contribute by hacking together better toolsets, localized databases, or AI-driven interfaces to make this data truly accessible. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:21.663251",
+        "updated_at": "2026-04-08T16:23:21.663251",
+        "author": {
+          "id": "212fa1a7520485cf76350bae70eaf30a",
+          "source_id": "mleroy",
+          "username": "mleroy",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f86e26d18815b8d7ec2ea1af458d5392",
+        "source_id": "47656513",
+        "content": {
+          "text": "Hang gliding. It's good if you are in an area with some hills and consistent winds. There are maybe a dozen well-established launch sites around the U.S.  Sadly, I broke down my glider around 2001 -- and did a post-mortem on it to discover it had a minor dent in it. Recommendation -- don't stall the glider at heights between 10 and 25 feet from the ground. Also, avoid barbed wire fences. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:21.664596",
+        "updated_at": "2026-04-08T16:23:21.664596",
+        "author": {
+          "id": "b43adcd18a1f805bdd50fe0232d108c5",
+          "source_id": "powerbroker",
+          "username": "powerbroker",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "22f5ff8edaf7a017bbc62858a1984a5c",
+        "source_id": "47690723",
+        "content": {
+          "text": "My brother-in-law did a lot of hang gliding, and was part of a big community that did. That community had a tendency to walk around - if they could walk around - in casts for a large part of their life. He also ended up having a heart attack mid-glide, which was no fun at all. (He survived it, though!) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:21.666000",
+        "updated_at": "2026-04-08T16:23:21.666000",
+        "author": {
+          "id": "c8d2122337a8595577f0f31ee07bb26d",
+          "source_id": "pavel_lishin",
+          "username": "pavel_lishin",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6113dba4b879a02a27fdfa88662ecf30",
+        "source_id": "47690949",
+        "content": {
+          "text": "Despite AI starting to crowd this space, I've been spending all of my free time learning music production (doing it the old fashion way without AI). It's a great mix of technical and creative problem solving. Mostly focusing on dark ambient/cinematic composition, playing around hardware synths (Prophet 6, Subsequent 37, modular / eurorack, Digitone II). If anyone is curious, I put out a single recently (remaster from last year): https://soundcloud.com/vectordust/ion-dunes-1 My main personal goal right now is to release a full length album this year. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:21.667425",
+        "updated_at": "2026-04-08T16:23:21.667425",
+        "author": {
+          "id": "ae8740d9968f046016afaf36156d61c4",
+          "source_id": "vectordust",
+          "username": "vectordust",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "456f50edaf6e9ef120f425f2555c05c1",
+        "source_id": "47691794",
+        "content": {
+          "text": "I got into improv theatre. There are groups in every city, at least here in the EU. It is both fun and developing creativity, alertness, etc. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:21.668830",
+        "updated_at": "2026-04-08T16:23:21.668830",
+        "author": {
+          "id": "b05bff4bf20b9d841e24b0f795f8f83c",
+          "source_id": "warpech",
+          "username": "warpech",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3ae326f7f01647f385fd1ffb12e3d89f",
+        "source_id": "47690824",
+        "content": {
+          "text": "Someone needs to solve barbecue. The entire industry is based on feel and experience. Why can't a beginner replicate Franklin's brisket by following a recipe online? It's probably because the main measuring instrument (a probe thermometer) doesn't provide any feedback about fat rendering, moisture, etc. Plus, every brisket cut has different fat ratios and thickness, which means a recipe can't guarantee identical inputs like bread baking. I'd love for someone to throw some over the top engineering & experimentation at this. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:21.670356",
+        "updated_at": "2026-04-08T16:23:21.670356",
+        "author": {
+          "id": "94884c99c2fc19f8fde7baa7edff144b",
+          "source_id": "joshuakcockrell",
+          "username": "joshuakcockrell",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "28243ffe103bd1c6f3f059cef3d9833b",
+        "source_id": "47668386",
+        "content": {
+          "text": "I view hobbies as something that I derive value or pleasure from.  I do not approach them from the perspective of “meaningfully contributing”.  IMO, that sounds more like compensation for career dissatisfaction.  I’m not being critical.  I just recommend choosing hobbies that you derive value and meaning from, regardless of what the world may think of it.  For example, a friend of mine, with high pressure tech management job, quilts in the evening.  He says it helps him relax.  Doesn’t matter if anyone likes what he does or wants to buy it.  As for myself, now that I’m retired I delve into a number of areas, just for me, and absolutely have no interest in sharing them or being recognized for what I do.   Good luck on your quest. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:21.671871",
+        "updated_at": "2026-04-08T16:23:21.671871",
+        "author": {
+          "id": "58a5e94f84f5db7fb5aad5541c0c19b9",
+          "source_id": "Blackstrat",
+          "username": "Blackstrat",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e03fc59aa98b88729e67a2e45b97a1f8",
+        "source_id": "47667334",
+        "content": {
+          "text": "You might look into applying RL in the domain of low cost robotics and drones. That would draw on some of your past experience but applied to a domain (robotics) which I perceive is seeing renewed interest. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:21.673388",
+        "updated_at": "2026-04-08T16:23:21.673388",
+        "author": {
+          "id": "e1e47fa2c2cdf74b54eb2f6347de2e0c",
+          "source_id": "caprock",
+          "username": "caprock",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "917017a27a0526ac3d854f90815f6a38",
+        "source_id": "47690777",
+        "content": {
+          "text": "There's a surprisingly high number of people in my extended social circle who picked up archery as a sport. It's actually a complex discipline with a huge range of bows and projectiles to choose from, each having unique characteristics you have to train for. Training using VR equipment is picking up steam, as typically you need a sizeable amount of real estate to practice when the weather is bad. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:21.674935",
+        "updated_at": "2026-04-08T16:23:21.674935",
+        "author": {
+          "id": "ef8050746cd75bf30ea143c27bb7e2f8",
+          "source_id": "Tade0",
+          "username": "Tade0",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "452c96f625a08e5859ff2847319d0359",
+        "source_id": "47691557",
+        "content": {
+          "text": "Archery is a lot of fun - I go to a monthly archery gathering where the host has a bunch of really nice recurves. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:21.676495",
+        "updated_at": "2026-04-08T16:23:21.676495",
+        "author": {
+          "id": "6f1543384b3dc70bf413bca7a60f378f",
+          "source_id": "peishang",
+          "username": "peishang",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3d6e7aa56c885bf725f67ffd3cc03f2a",
+        "source_id": "47681863",
+        "content": {
+          "text": "> that isn't absolutely crowded I'm sure there are field that should be absolutely crowded but where you can do something meaningful. If I had free time, I would write an app to learn foreign languages I'm interested in. I'm pretty sure that there are good apps, but I tried a few ones, and none really fit my needs. There are also software that I use a lot, like transcribe! which works well, but that I could see how to improve. So as others mentioned, do something that you would be interested in. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:21.678164",
+        "updated_at": "2026-04-08T16:23:21.678164",
+        "author": {
+          "id": "8f5c7cb2015050e9a895940f3d4540a3",
+          "source_id": "yodsanklai",
+          "username": "yodsanklai",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c57bb3393732e1a1e30007b6a2e7fd92",
+        "source_id": "47690658",
+        "content": {
+          "text": "I used to play Pokémon cards competitively. It was fun going to local tournaments and flying with friends for Regional tournaments. I stopped to focus on night school, and I want to pick it back up with the card legality change happening Friday. Pokémon Champions just came out, so I might give up cards for the video game. We'll see. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:21.679799",
+        "updated_at": "2026-04-08T16:23:21.679799",
+        "author": {
+          "id": "e2f8b9e78cdf1c6cdb04286f966133d4",
+          "source_id": "abadar",
+          "username": "abadar",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9cd296275f91fdf351779dc15fa835a7",
+        "source_id": "47690793",
+        "content": {
+          "text": "Bellringing, specifically change ringing. It’s a type of church bell ringing that is rather algorithmic in nature. Tends to attract mathy types. Religion not required or expected! If you have English-style tower bells near you, it's worth checking out, even if only to listen. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:21.681462",
+        "updated_at": "2026-04-08T16:23:21.681462",
+        "author": {
+          "id": "2eb8df11a1db267a60e00a26086ac615",
+          "source_id": "cmdrk",
+          "username": "cmdrk",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3e84b0559dd059e11ab9531746cf67d3",
+        "source_id": "47686859",
+        "content": {
+          "text": "After binging on youtube, I am working on learning to do leatherwork, small stuff at first like making your own wallet etc. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:21.683183",
+        "updated_at": "2026-04-08T16:23:21.683183",
+        "author": {
+          "id": "daf489d7d92bb79f556958e2c4709a7e",
+          "source_id": "ApolloRising",
+          "username": "ApolloRising",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "72eeceee4314b754bfb78eef5a3873cd",
+        "source_id": "47690764",
+        "content": {
+          "text": "Hydrophonic farming at home. You can play with sensors (acidity, humidity etc), LED lighting (frequencies, intensity, etc), vision processing (maybe throw in some AI buzzword here) to keep track of your plants and do some decision making. Bonus: You get to eat the stuff you grow :) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:21.684890",
+        "updated_at": "2026-04-08T16:23:21.684890",
+        "author": {
+          "id": "3cc9c25e6d9f571b5aa464439a7dacb6",
+          "source_id": "laydn",
+          "username": "laydn",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f6b4dce2c4de060dd69e369a9515c6a2",
+        "source_id": "47690970",
+        "content": {
+          "text": "Design whistle sequences to get dolphins to respond in ways that will help you figure out their meaning. A few multi-million $ projects could use that, such as Google, Baidu, and SDRP. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:21.686630",
+        "updated_at": "2026-04-08T16:23:21.686630",
+        "author": {
+          "id": "c50de82282be6acd7130c2865bee768e",
+          "source_id": "sm001",
+          "username": "sm001",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0f96a974b61311fe307b77d02f012505",
+        "source_id": "47690938",
+        "content": {
+          "text": "Nowadays, apart from stockpicking as a value investor, I use LLMs to develop AIs that don’t use backpropagation and that support continuous learning. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:21.688385",
+        "updated_at": "2026-04-08T16:23:21.688385",
+        "author": {
+          "id": "23d5d3d6cf15f5dbe9fa0cf58d954b7b",
+          "source_id": "Findeton",
+          "username": "Findeton",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "886227716d2606b7d0de08d9556ae6d5",
+        "source_id": "47654132",
+        "content": {
+          "text": "You mention chess, Chessboxing is an interesting niche hobby where you play both chess and boxing. I play chess but not chessboxing but hey, you asked for some interesting niche hobbies! It seems that what you do is mostly related to computers within the niche hobbies but what if you can do something else too? > Right now I'm making a chess engine, but that's already a solved problem Not everything should be done for the end-result, sometimes its the process which matters, there was a great hackernews post about it ( https://ergosphere.blog/posts/the-machines-are-fine/ ) If you want something niche, perhaps make some portal-2 mods or make more efficient versions of using GlaDOS TTS within browser etc. (this is just something that I want to be honest, but I feel like it can be a niche hobby in its regards seeing your interests) Let me know if you want more ideas and have fun and have a nice day man! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:21.690262",
+        "updated_at": "2026-04-08T16:23:21.690262",
+        "author": {
+          "id": "69bd53a5c687056238a07a5afcab4df5",
+          "source_id": "Imustaskforhelp",
+          "username": "Imustaskforhelp",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3b4cb9170bfb1aec7a3c6277b33520b2",
+        "source_id": "47654335",
+        "content": {
+          "text": "I do boxing as a form of cardio so I'm not weightlifting all the time.\nSo I've just invited a friend for a 1v1 and he accepted, time to start training both properly I guess. I do want something related to computers because that's where I'm skilled the most, but it being mixed with something else is fine (i.e., biohacking).\nBut computers generally are becoming stale, considering how much money has been poured into everything digital, it's going to be hard to find something novel.\nMaybe the next frontier is becoming an electrician? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:21.692117",
+        "updated_at": "2026-04-08T16:23:21.692117",
+        "author": {
+          "id": "d70bc14b097da3e5ea3b980ee0da5ef1",
+          "source_id": "e-topy",
+          "username": "e-topy",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "fd7f465c389ba3a787ff45b8fd3f6dd5",
+        "source_id": "47654512",
+        "content": {
+          "text": "> But computers generally are becoming stale, considering how much money has been poured into everything digital, it's going to be hard to find something novel I feel like it depends, there are many sorts of projects which are still low hanging fruits. you might not get appreciated to do things anymore because of the amount of competition but you can feel proud of yourself. Breaking NATs without root permissions (try searching dropbear without root and building it and running it with something like pinggy to then make a minecraft server beneath a nat work), making a free crypto chain have data embedded within a loop of transactions to embed data on crypto for free, recently using single-file to somehow archive archive.is pages on archive.org* anonymously using piping-server. I have used AI/LLM assistance in most of these but I feel like aside from being frustrated at the code aspects, I had some good ideas and even with everyone else having AI, I didn't see anyone else doing these things (the reason I say this is because if they did, I would've just used their services :] ) Not sure if a lot of these things sound novel, programmatically not, but idea-wise I think* they might-be novel. A lot of my novel ideas come out of proving things. Can I prove that I can run minecraft on a free intel server that me and my friends can play on? Can I prove that I can save archive.is pages on archive.org anonymously-ish since the issue with archive.is So my point is, out of personal experience, there are so many novel-ideas within things which seem obvious but nobody has really implemented them and to be honest, everyone is just creating yet another chatgpt wrapper with AI. Much of these experiments are prototyping/proving these ideas and I believe that there are some low hanging fruits in such sense of these ideas which can be interesting to think about. So I don't suppose that you have to go bio-hacking to find things which pique your interest, there are some practical things too in my opinion which can pique your interest. Not sure if this might be the answer you are looking for, but I hope this helps within the context you asked it. Sometimes two normal things combined together can be the novel thing to do. My opinion is that people with money chase money oriented things, the people with passion/hobby-tinkering will do things that chase passion and so sometimes you have nothing to worry about :-) So are there any things that you feel is similar to this for you, perhaps? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:21.694117",
+        "updated_at": "2026-04-08T16:23:21.694117",
+        "author": {
+          "id": "69bd53a5c687056238a07a5afcab4df5",
+          "source_id": "Imustaskforhelp",
+          "username": "Imustaskforhelp",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8af90c460fcfc6461db65853167b3aee",
+        "source_id": "47654657",
+        "content": {
+          "text": "What you're doing is interesting but those are side-projects.\nI have plenty of random side-projects, just now after reading Gibson's Burning Chrome, I'm making an OpenBSD server where you can only log in using SSH keys in my implant, and logging in makes you a completely new but very restricted user with 1GB of free storage. Kinda like Johnny Mnemonic. But I feel very disorganized when most of my attention is on distinct one-off side projects, I want to work on something novel and big.\nBut thanks for your suggestions.\nIt is true that most industries begin when passion oriented people finally meet money oriented people, but most time they are separate. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:21.695987",
+        "updated_at": "2026-04-08T16:23:21.695987",
+        "author": {
+          "id": "d70bc14b097da3e5ea3b980ee0da5ef1",
+          "source_id": "e-topy",
+          "username": "e-topy",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "581a8a059a42d336864fe009848849cf",
+        "source_id": "47690716",
+        "content": {
+          "text": "I decided to run for congressional representative. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:21.697904",
+        "updated_at": "2026-04-08T16:23:21.697904",
+        "author": {
+          "id": "5561aa7f49331c7c03e4fdc679e5b820",
+          "source_id": "chad_strategic",
+          "username": "chad_strategic",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4fa4eb2f7eddb430b38c27690b7656ef",
+        "source_id": "47690773",
+        "content": {
+          "text": "How's it going? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:21.699832",
+        "updated_at": "2026-04-08T16:23:21.699832",
+        "author": {
+          "id": "a2308ba133efae410536a8e9194773be",
+          "source_id": "forshaper",
+          "username": "forshaper",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "02fc693ab9bb268716d215b72cb59187",
+        "source_id": "47690872",
+        "content": {
+          "text": "I had a route around San Francisco that I would visit, and all the places on the route were where there were good blackberry bushes. I’d take a bucket. Around Golden Gate Park and the Inner Sunset mostly, heading down into the Forest Hills area as well. I did that for a few years. Would pick up some plums along the way as well. Now on the other side of the Bay I have a couple spots, not as dense a network. About an hour away there are masses. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:21.701816",
+        "updated_at": "2026-04-08T16:23:21.701816",
+        "author": {
+          "id": "c93aa47b2774dcb5038fb298b46ab542",
+          "source_id": "ribs",
+          "username": "ribs",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "249d0aa5c95850ba23c64a71e077e336",
+        "source_id": "47688771",
+        "content": {
+          "text": "Postcrossing reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:21.703825",
+        "updated_at": "2026-04-08T16:23:21.703825",
+        "author": {
+          "id": "e692c28c186a47e6e5a8b12ab334e567",
+          "source_id": "mkbkn",
+          "username": "mkbkn",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-04-08T16:23:21.705549",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "39ca8d01e2cdd8337ba3300ab0df163b",
+      "source_id": "47666811",
+      "title": "Ask HN: Alternatives to Claude (Code)?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-08T16:23:09.818428",
+      "updated_at": "2026-04-08T16:23:09.818428",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "2cb47961e42b7813a1265e548aba7721",
+        "source_id": "vixalien",
+        "username": "vixalien",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 10,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47666811",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-04-08T16:23:25.621764",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "41d95c00459c62c32dc1943e6d235a51",
+      "source_id": "47671453",
+      "title": "Ask HN: How are you controlling costs and enforcing limits for LLM calls?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-08T16:23:09.818959",
+      "updated_at": "2026-04-08T16:23:09.818959",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "f1c6001280c5051f717027a9259c2cdf",
+        "source_id": "8dazo",
+        "username": "8dazo",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 3,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47671453",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-04-08T16:23:29.721016",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "441fed70b080049eb860b4b6cb24db9a",
+      "source_id": "47660705",
+      "title": "Ask HN: How are you orchestrating multi-agent AI workflows in production?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-08T16:23:09.819617",
+      "updated_at": "2026-04-08T16:23:09.819617",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "4270e9c8282849b4fba80b1294355e97",
+        "source_id": "swrly",
+        "username": "swrly",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 6,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47660705",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-04-08T16:23:33.166191",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "4c1f039eadf29c9efe4597ad1a549b53",
+      "source_id": "47651140",
+      "title": "Ask HN: Where are all the disruptive software that AI promised?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-08T16:23:09.820178",
+      "updated_at": "2026-04-08T16:23:09.820178",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "7cc2cc33e98b03ac766918832055923d",
+        "source_id": "p-o",
+        "username": "p-o",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 20,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47651140",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-04-08T16:23:36.330373",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "eb43a1e0894ab15bd528c9788bfa054b",
+      "source_id": "47659469",
+      "title": "Ask HN: SoTA of Context Building Methods",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">Hi HN, I am a very minimal AI user (I use stock vscode chat with no MCPs to ideate on plans), but recently I've been coming across context building MCPs/tools that build a knowledge graph of your codebase.<p>This is really interesting because I am working on pretty large codebases simultaneously and the idea that my agent won't have to re-index and re-read all my files over and over again is pretty enticing.<p>My question is what methods are you using to index and connect these to your agents?<p>My research has led me to the following but I am basically very confused by what metric to measure how good they are.<p>1. https://github.com/abhigyanpatwari/GitNexus - seems like the most popular<p>2. https://github.com/DeusData/codebase-memory-mcp - also interesting/new<p>3. https://github.com/JaredStewart/coderlm - the tree-sitter based approach seems really good.<p>Would love to know how people actively using frontier models and methods navigate this domain.</p></p></p></p></p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-08T16:23:09.821277",
+      "updated_at": "2026-04-08T16:23:09.821277",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "12774ec123f18109ebc248b5ea9ec2e4",
+        "source_id": "h4ch1",
+        "username": "h4ch1",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 5,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47659469",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "fe3d1fb18d8f101345685997876c2f49",
+        "source_id": "47665702",
+        "content": {
+          "text": "You should add Serena https://github.com/oraios/serena to your list. Serena gives you symbol-level navigation, reading, and editing via tree-sitter. So you're already getting much of what CoderLM offers — plus Serena has editing capabilities(replace symbol body, insert before/after symbol, rename). GitNexus goes further with the graph/impact analysis layer on top. I personally use Serena and GitNexus. The case for using both - GitNexus tells you what to change (impact analysis, dependency maps, blast radius)\n  - Serena makes the change (symbol-level editing, safe renames)\n\n  That's a strong workflow: understand first, then act precisely. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:38.201325",
+        "updated_at": "2026-04-08T16:23:38.201325",
+        "author": {
+          "id": "d019abce93f11948a0ecab4273ac097a",
+          "source_id": "ipiyer",
+          "username": "ipiyer",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-04-08T16:23:38.201456",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "4edb3ff8e6b7dd9c94e0fa62952607e9",
+      "source_id": "47642541",
+      "title": "Ask HN: How Do You Relax?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">Bit of a different question than most of what usually gets discussed on HN, but I find myself occupied with work a lot and while I enjoy it a lot, it's draining.<p>On top of that, I have ADHD, which makes it more difficult for me to really relax.<p>What do you do for relaxation?</p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-08T16:23:09.821802",
+      "updated_at": "2026-04-08T16:23:09.821802",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "d5fdf939267b913db69ac25ef80f83b4",
+        "source_id": "azeirah",
+        "username": "azeirah",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 22,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47642541",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "be25ca9e3b45bbe1d0325744559514f7",
+        "source_id": "47645982",
+        "content": {
+          "text": "I walk to the park during slow hours, sit on a bench, wait for a bunch of sparrows to come, and then I give them some sunflower seeds. Sometimes -but not often- a magpie will approach too. You have to be quiet for birds to come near and fairly calm for them to approach you at all. Others can only be spotted from a distance. Wagtails are quite timid but can be seen running around sometimes, and the blackbirds can be heard a lot even if you don't see them. I've also spotted a couple of woodpeckers. And once the park fell suddenly still and I looked up and there was a kite passing by (they have been spotted nesting in a much larger park a couple of miles away). If the park is busy, then I'll watch the dogs, people going by. I ponder about the futility of life. Just sit there silently, doing nothing. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:40.658683",
+        "updated_at": "2026-04-08T16:23:40.658683",
+        "author": {
+          "id": "8d313dd4b60c81e5e867a7c8c7ba8956",
+          "source_id": "genezeta",
+          "username": "genezeta",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4a3e17681406d98efdbb582a3c011358",
+        "source_id": "47647309",
+        "content": {
+          "text": "This sounds lovely! This definitely sounds like the kind of thing that would really work well to let all the stresses of the everyday wash off! It reminds me a lot of the YouTube channel \"life in jars\", he normally makes videos about microbiology and freshwater ecology in... jars! But on top of that he also had a short series on gaining the trust of and befriending crows in his city. Good incentive for me to try this out! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:40.659284",
+        "updated_at": "2026-04-08T16:23:40.659284",
+        "author": {
+          "id": "d5fdf939267b913db69ac25ef80f83b4",
+          "source_id": "azeirah",
+          "username": "azeirah",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "224f3c854a1d5322b7e1f5522da736fb",
+        "source_id": "47689656",
+        "content": {
+          "text": "Force yourself to take time off work. You are human after all. Don’t feel guilty about sitting and doing nothing. Relaxation takes some time to set in, tell yourself you are just out of practice. The constantly online/being available culture we have isn’t sustainable. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:40.659822",
+        "updated_at": "2026-04-08T16:23:40.659822",
+        "author": {
+          "id": "fd6c1a6fe6bfe72c77c6492e428a2a07",
+          "source_id": "gnz11",
+          "username": "gnz11",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0c48209de800ef11a3e933de25f642cd",
+        "source_id": "47642585",
+        "content": {
+          "text": "- Programming and/or documenting personal projects - Tabletop games, though probably 90% of this means either tinkering with games (as opposed to playing them, e.g. creating inserts or new pieces for them) and/or hanging out on BoardGameGeek dot com. - Reading, mostly anthologies of fiction from Wildside Press which collect many works from the early/mid 20th century, purchasable DRM-free for $1-2 each (for anywhere from 300 to 1500 pages). (Not associated with them, but am a long-time happy customer.) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:40.660412",
+        "updated_at": "2026-04-08T16:23:40.660412",
+        "author": {
+          "id": "4836e6194fb39775b994fae8304d34ff",
+          "source_id": "sgbeal",
+          "username": "sgbeal",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3f9b381e5b1d7f57e4c35761ebb854d6",
+        "source_id": "47682203",
+        "content": {
+          "text": "> hanging out on BoardGameGeek dot com What does this entail? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:40.661019",
+        "updated_at": "2026-04-08T16:23:40.661019",
+        "author": {
+          "id": "946fb7b3821a552029dcc9390e234f30",
+          "source_id": "gaws",
+          "username": "gaws",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "37b0b7b13d61ef8839bcab6b87211ce0",
+        "source_id": "47645194",
+        "content": {
+          "text": "My job is social and deadline driven. Here's what works for me: Lifting some weights in a deserted gym - no music or people. Stretching for 20 minutes before bed each day. Getting a full night's sleep. Going to a favourite restaurant once or twice a week. The rest of the time a simple, high fibre diet with lots of water, no alcohol, cigarettes or drugs. Doing a part-time postgraduate course to boost some depth and variety to the often-times surface-level demands of work work. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:40.661712",
+        "updated_at": "2026-04-08T16:23:40.661712",
+        "author": {
+          "id": "e0349c7c382109ff6ae585766215cbe5",
+          "source_id": "throwaway5465",
+          "username": "throwaway5465",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a3c4745ac17414472a663b91a26366bc",
+        "source_id": "47650342",
+        "content": {
+          "text": "I go watch trains.  I often wander around while I'm waiting for a train to show up.  I think about things, pray, look around.  Sometimes I bring a book to read. I play ultimate frisbee.  The read-and-react way you play that game was a nice reset from the push-my-brain-through-concrete-walls character of my work. Before I retired, I started taking smoke breaks at work.  I don't smoke, but if smokers can go outside for 15 minutes, so could I. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:40.662389",
+        "updated_at": "2026-04-08T16:23:40.662389",
+        "author": {
+          "id": "4cbca4a5fa16748dbdfd70b770eba7a3",
+          "source_id": "AnimalMuppet",
+          "username": "AnimalMuppet",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b1efced9d8c3e293c5d72524065617c6",
+        "source_id": "47642923",
+        "content": {
+          "text": "When i feel i need to totally turn off, I'll turn on a podcast of something im somewhat interested in, and play a game that commands just a slight amount of attention, and pay a slight amount of attention to both things. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:40.663051",
+        "updated_at": "2026-04-08T16:23:40.663051",
+        "author": {
+          "id": "8ab09af912f59be2854e85cf482399e5",
+          "source_id": "sidrag22",
+          "username": "sidrag22",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "11db42367a4d313856a4cfa80a7c5246",
+        "source_id": "47647801",
+        "content": {
+          "text": "Try to actively relax, not passively. Go for walks, socialize, do hobbies. Don't get sucked into to algorithms, it will fry your brain and you will never have time to rejuvenate. Baths/Sauna/Sports also work, do something that genuinely refreshes you. The mind/body is an ecosystem, not a linear battery. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:40.663779",
+        "updated_at": "2026-04-08T16:23:40.663779",
+        "author": {
+          "id": "f7f41bde2cbe201cc123506690d46ce5",
+          "source_id": "stochtinkerer",
+          "username": "stochtinkerer",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "10d36c5d94161ca215b6e8a8a5e47335",
+        "source_id": "47644263",
+        "content": {
+          "text": "Exercise, travel - including “nomading”, learning  Spanish, hanging out with my wife and friends - anything not involving computers. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:40.664529",
+        "updated_at": "2026-04-08T16:23:40.664529",
+        "author": {
+          "id": "646941a85e859767254d97ee8f8f4eec",
+          "source_id": "raw_anon_1111",
+          "username": "raw_anon_1111",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "85d3be6d07ace44832ade8964df0f5bc",
+        "source_id": "47647463",
+        "content": {
+          "text": "I used to run long distance, no music, no headphones, no trackers, no watch. Let your mind drift, or focus on the rest of the course. Or go swimming and count laps. Or go bouldering (in doors), pick a route and focus on it. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:40.665299",
+        "updated_at": "2026-04-08T16:23:40.665299",
+        "author": {
+          "id": "2439034cc2913ebd514a4de0f3405a1d",
+          "source_id": "i_don_t_know",
+          "username": "i_don_t_know",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8704416771a4efe2783b2ae576fdafcc",
+        "source_id": "47656719",
+        "content": {
+          "text": "Assuming you work from home, if not doing already, separate your workspace from living area. Do not sit with your laptop on the couch. Just listening to your own breathing pattern itself is one simple technique to reduce stress and relax. Then, you can definitely follow all the other suggestions in this thread. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:40.666069",
+        "updated_at": "2026-04-08T16:23:40.666069",
+        "author": {
+          "id": "861c742d2d0b96adaffd08332907288b",
+          "source_id": "chevuru",
+          "username": "chevuru",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c8ed7e81103ea56ab8dc21366761ace5",
+        "source_id": "47648443",
+        "content": {
+          "text": "In weekdays, laying on the couch after eating a healthy and tasteful dinner after an intensive strength training session at the gym.\nWeekends usually allow more freedom and I have more cognitive energy available too, so besides \"usual\" weekend activities I work on some side projects while discovering cool ambient music or study some interesting topics (usually CS). reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:40.666883",
+        "updated_at": "2026-04-08T16:23:40.666883",
+        "author": {
+          "id": "983df4a8e02e36590fd02329a717e153",
+          "source_id": "labarilem",
+          "username": "labarilem",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7933bd7ddae4f1731291e422d5fbf81a",
+        "source_id": "47645538",
+        "content": {
+          "text": "Hiking through the woods, mountain-biking through the back country.\nSoaking in the bathtub reading books or short stories. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:40.667769",
+        "updated_at": "2026-04-08T16:23:40.667769",
+        "author": {
+          "id": "95ada50d39838d43b23b903031022f64",
+          "source_id": "wanderingpixel",
+          "username": "wanderingpixel",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "42f901a786127800c83d2d4b8fe284a8",
+        "source_id": "47660560",
+        "content": {
+          "text": "Chess with my kids. It's good for spending time with them and helps with strategic thinking in a dynamic environment. My oldest regularly beats me. :D reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:40.668641",
+        "updated_at": "2026-04-08T16:23:40.668641",
+        "author": {
+          "id": "b9a34278102215893ec44bebdd48cec1",
+          "source_id": "jbrogers63",
+          "username": "jbrogers63",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b01b055a7bf39b6c0d22cd8de1230893",
+        "source_id": "47649562",
+        "content": {
+          "text": "I play airsfot every Sunday it's the perfect reset. Equal parts sport, adrenaline, and pain from getting hit by those little plastic balls. But honestly, there's so much laughter that you forget the bruises. Highly recommend if you've never tried it. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:40.669538",
+        "updated_at": "2026-04-08T16:23:40.669538",
+        "author": {
+          "id": "6d47b2601760415adac7c7998c4acd5f",
+          "source_id": "KaiLetov",
+          "username": "KaiLetov",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1ae07a171335e67e4c1bf7ffe5d3f886",
+        "source_id": "47649566",
+        "content": {
+          "text": "Also, surfing. Nothing clears your head quite like getting tossed around by the ocean. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:40.670461",
+        "updated_at": "2026-04-08T16:23:40.670461",
+        "author": {
+          "id": "6d47b2601760415adac7c7998c4acd5f",
+          "source_id": "KaiLetov",
+          "username": "KaiLetov",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7c267de187dd1c01ceed8a7d14f7b456",
+        "source_id": "47691167",
+        "content": {
+          "text": "This is true. I was in the ocean this past weekend for the first time in almost a year and though the water was cold, the 20 minutes or so I was in there felt like an eternity and left me feeling much better. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:40.671432",
+        "updated_at": "2026-04-08T16:23:40.671432",
+        "author": {
+          "id": "fd09b94226bfd07bc7e2819ceb2a4e6f",
+          "source_id": "scaredreally",
+          "username": "scaredreally",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f321b85030bcb2560f325a78ccbce992",
+        "source_id": "47644420",
+        "content": {
+          "text": "Have you tried shotgunning a couple beers? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:40.672453",
+        "updated_at": "2026-04-08T16:23:40.672453",
+        "author": {
+          "id": "fb28afdc057276a5c1694f5dcab79b76",
+          "source_id": "ksherlock",
+          "username": "ksherlock",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e90a783176fbbadb510b8ea544c4e4af",
+        "source_id": "47649028",
+        "content": {
+          "text": "Nice try, Mr. Secretary. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:40.673466",
+        "updated_at": "2026-04-08T16:23:40.673466",
+        "author": {
+          "id": "6748a5988ec0e2df178375650603a80d",
+          "source_id": "treetalker",
+          "username": "treetalker",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0140ff8eb8430b2c74e87adef75dca39",
+        "source_id": "47650206",
+        "content": {
+          "text": "I like running, it's the thing that makes me feel the most \"right\". reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:40.674497",
+        "updated_at": "2026-04-08T16:23:40.674497",
+        "author": {
+          "id": "1e87f26bd0c428a51d4210d2363e5abe",
+          "source_id": "Rendello",
+          "username": "Rendello",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "31b96ffd8b443eb2f7c9e0dde9119a05",
+        "source_id": "47645795",
+        "content": {
+          "text": "Reading hacker news and playing civilization.  Then a long walk. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:40.675559",
+        "updated_at": "2026-04-08T16:23:40.675559",
+        "author": {
+          "id": "a0ef6b425a6925776cc96c6c36cef4c6",
+          "source_id": "sloaken",
+          "username": "sloaken",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f08ed4c19fa0f0263c38557b284bdc3c",
+        "source_id": "47648021",
+        "content": {
+          "text": "It might sound strange, but the best relaxing time for me is that sometimes I go to the office on Saturday or Sunday, turn off email and phone and write a blog post or make a short video about our product. https://www.pragmatech.it/blog-home/all/index.html https://youtube.com/@pragmatech-srl?si=k5Dvw855pE3int4s reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:40.676686",
+        "updated_at": "2026-04-08T16:23:40.676686",
+        "author": {
+          "id": "e7c67f381902917e6407d3eff286fc6b",
+          "source_id": "ok1984",
+          "username": "ok1984",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "fb62eb8aa2bb80c6169a29b8e2b9e729",
+        "source_id": "47654202",
+        "content": {
+          "text": "This reply belongs on /r/LinkedInLunatics reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:40.677794",
+        "updated_at": "2026-04-08T16:23:40.677794",
+        "author": {
+          "id": "957c1e6d4ce56757f826959b30f9edd8",
+          "source_id": "aosaigh",
+          "username": "aosaigh",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "455aab3ebb99025616e00801ffd2260f",
+        "source_id": "47662615",
+        "content": {
+          "text": "I don’t understand why, some people have fun doing their job and feel joy when blogging about products they create and believe in, for me it’s a hubby. Wish you joy and happiness in your live. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:40.678945",
+        "updated_at": "2026-04-08T16:23:40.678945",
+        "author": {
+          "id": "e7c67f381902917e6407d3eff286fc6b",
+          "source_id": "ok1984",
+          "username": "ok1984",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ec964a9cb9a036931fac6dbe7da016dd",
+        "source_id": "47648863",
+        "content": {
+          "text": "How about meditation? It's worth to try. You can use guide videos on Youtube or app such as Calm and Headspace. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:40.680150",
+        "updated_at": "2026-04-08T16:23:40.680150",
+        "author": {
+          "id": "681378de4b7677c08e4155d5f4b21a33",
+          "source_id": "Shogo_Kaneda",
+          "username": "Shogo_Kaneda",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "02084e8d02e3f1d75fcc22435784cd6f",
+        "source_id": "47647312",
+        "content": {
+          "text": "* walk around my various fruit trees * converse with my cat and dogs * play games * refactor personal code reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:40.681386",
+        "updated_at": "2026-04-08T16:23:40.681386",
+        "author": {
+          "id": "0ae492937dcc65e2e9ad4e3b8663757f",
+          "source_id": "austin-cheney",
+          "username": "austin-cheney",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "72eb938b6edd12a6411b71c8508460c0",
+        "source_id": "47668877",
+        "content": {
+          "text": "Go outside and spend time with animals. I find watching and interacting with animals brings me back down to Earth. If I could talk to them I know all of the things I worry about would seem so strange to them. They just live in the moment and when I'm with them I live in the moment through them. Other things I do I find my mind is still in worry mode – walking, reading, cooking, sleeping, etc. Something about observing animals, thinking about what they're thinking and interacting with them turns that off for me. It's temporary, but it's nice. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-08T16:23:40.682654",
+        "updated_at": "2026-04-08T16:23:40.682654",
+        "author": {
+          "id": "9d5f521e1ee045d5ce6d2cfe9b2c9018",
+          "source_id": "kypro",
+          "username": "kypro",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-04-08T16:23:40.683527",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
   }
 ]
