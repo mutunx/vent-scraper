@@ -34921,5 +34921,4031 @@
       ],
       "is_nsfw": false
     }
+  },
+  {
+    "post": {
+      "id": "9b6fc16bdb4f0cf1a727427e40372332",
+      "source_id": "47728352",
+      "title": "Ask HN: Best books on building a programming language",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">I have this long thought about building a language for the age of ai.<p>Here is a non-exhaustive list of features i would love to have it included:\n- separate effect full code from pure logic\n- separate state and code\n- ai native debugger\n- native deterministic simulation testing\n- coding proofs\n- explicit type system\n- repl\n- wasm target<p>I have no background in compiler building or similar. I would just like to spend some weeks reading the best resource about this topic.<p>Please share any resource you recommend reading.</p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-11T16:05:51.255219",
+      "updated_at": "2026-04-11T16:05:51.255219",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "23f9d49028ec018f8873e26cda6af683",
+        "source_id": "ezzato",
+        "username": "ezzato",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 10,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47728352",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "a2682634c9fcf1d98a32d96fae6ba169",
+        "source_id": "47729765",
+        "content": {
+          "text": "Crafting interpreters. Very well written and free of cost, but ofc I’d recommend purchasing a copy. If you find it a bit hard to chew, there is a simpler book using Python: https://www.amazon.ca/Anthony-J-Dos-Reis/e/B001KE4SU8/ref=dp... Another book: Game Scripting Mastery. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:05:53.106706",
+        "updated_at": "2026-04-11T16:05:53.106706",
+        "author": {
+          "id": "e26822514495bfa8721731ec06ee07bb",
+          "source_id": "markus_zhang",
+          "username": "markus_zhang",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "34b8d98ae3c3d21bdfc5ae1eaa4b268d",
+        "source_id": "47730897",
+        "content": {
+          "text": "Crafting Interpreters is a good recommendation, and in the same spirit \"Writing an Interpreter in Go\" (and it's followup about writing a virtual machine) is a good addition. A lot of the complexity and front-work of these kinda things is the parsing step though, so you can follow MAL (or any other make a lisp tutorial) though that won't necessarily help with other languages it frees you to jump to the interesting parts. FORTH, mentioned in another comment, has that same appeal.  I wrote a quick tutorial here, back in the day: https://github.com/skx/foth reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:05:53.107301",
+        "updated_at": "2026-04-11T16:05:53.107301",
+        "author": {
+          "id": "d82a14c406c14664ddb6a7e587791f60",
+          "source_id": "stevekemp",
+          "username": "stevekemp",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3be5fc907d870a1fdf7cf520327cb7a3",
+        "source_id": "47728482",
+        "content": {
+          "text": "I tried reading the dragon book in my teens, never really understood it, it was too much theory for me. I'd recommend starting with implementing a forth since it's the easiest language to write an interpreter/compiler for. From there you'll have enough experience to go for something bigger. Making your own bytecode is really fun. Ultimately you'll probably want your compiler to target llvm bytecode so that it works on every target automatically. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:05:53.107862",
+        "updated_at": "2026-04-11T16:05:53.107862",
+        "author": {
+          "id": "acd0dace129c5fbe08ea1837b0084a5e",
+          "source_id": "tnelsond4",
+          "username": "tnelsond4",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-04-11T16:05:53.108060",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "58bf74c9e607192e92133ad340a727d2",
+      "source_id": "47722081",
+      "title": "Ask HN: Hiring in the age of AI-assisted coding: what works?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">I saw the HackerRank (YC S11) hiring post (https://news.ycombinator.com/item?id=47667011) and it made me realize I no longer understand how to evaluate candidates effectively.<p>Specifically, we are changing hiring across 3 dimensions:\n&gt; Tasks: Real-world tasks on code repositories vs standard algorithmic-style puzzles\n&gt; Evaluation: AI fluency, orchestration skills vs functional correctness\n&gt; Candidate experience: Agentic IDE vs a simple code editor<p>In the “old world,” you could ask multiple questions and triangulate skill from answers. Now it seems like evaluation depends heavily on tools and models that keep changing month to month.<p>So I’m curious:\n&gt; What signals actually correlate with strong engineers today?\n&gt; How do you design interviews that don’t become obsolete with the next model release?\n&gt; Are algorithmic interviews still useful at all?<p>Would love to hear from people who have recently changed their hiring process or have been interviewed using this new approach.</p></p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-11T16:05:51.255903",
+      "updated_at": "2026-04-11T16:05:51.255903",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "7a26ef85f262f24435cebcacbdd0755a",
+        "source_id": "nitramm",
+        "username": "nitramm",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 22,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47722081",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "00a513be031b88367542170e0aae5da5",
+        "source_id": "47724105",
+        "content": {
+          "text": "How to interview in the age of AI is one of the top questions in a manager peer group that I'm in. Several hiring managers in the group went all in on AI-assisted interviews because they wanted the interviews to match the tools that engineers can use on their work. Most of them have gone full circle and returned back to no-AI interviews. The main problem with AI-assisted interviews is that they become a test of how familiar the candidate is with the specific AI tool you're letting them use. They started getting inverted signals because the hardcore vibecoders knew all the tricks to brute force the problem with high token spend. They'd do things like spend the interview trying to spin up parallel subagents to brute force a solution. Then the careful coders who tried to understand the problem and do it right were penalized because every minute they spent trying to do the problem (instead of offloading all cognitive load to AI) was time lost to letting AI do the work. There were also simpler problems like when someone was familiar with some visual LLM interface tool but didn't have a familiar workflow for the CLI tool used in the interview. Most people went back to coding interviews that forbid AI and test coding skills, combined with a discussion about their AI experience. My takeaway was that it's easy to teach new hires how to use AI tools on the job, but it's much harder to bring someone with weak coding skills up to the level of someone with strong coding skills. It's even harder when that person is leaning on AI so much that they're not learning how to code anything. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:05:55.829096",
+        "updated_at": "2026-04-11T16:05:55.829096",
+        "author": {
+          "id": "4160cc4d4a2c3d64422f6670f6a240a3",
+          "source_id": "Aurornis",
+          "username": "Aurornis",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7211a9e3b520c87bb6672b3973b28d8e",
+        "source_id": "47726416",
+        "content": {
+          "text": "> They started getting inverted signals because the hardcore vibecoders knew all the tricks to brute force the problem with high token spend. They'd do things like spend the interview trying to spin up parallel subagents to brute force a solution. Can’t you just…tell them not do this? Or give them limited model access instead of full Claude Code / Codex? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:05:55.829641",
+        "updated_at": "2026-04-11T16:05:55.829641",
+        "author": {
+          "id": "0aa034f969a84b1bae035985ad1d152c",
+          "source_id": "adavid17",
+          "username": "adavid17",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e3d73a8c373fdfead25340173f5855a2",
+        "source_id": "47723526",
+        "content": {
+          "text": "I'm interviewing currently. I've come across the following. * Non-technical recruiters using a list of technical trivia questions and a keywords list to check if you answer correctly (e.g. what is the default isolation level in postgres) - this is the worst. * Code reviews but on non-generic code, like on a specific framework/product/SDK code in which you may or may not have prior experience - slightly less worse, but if you are going to do this, it is counter intuitive to hire someone who doesn't have production experience in that area. * take home assignments where they say \"we recommend you to not spend more than x hours on this\", but then, they expect a very sophisticated work and will reject you if you turn-in a \"simple\" implementation. Maybe they expect speed and quality? * leetcode is still a thing. * non-leetcode, but livecoding, on a likely OOP many to many relationship problem * give a spec in the first x minutes and leave the interview, you do your thing and then they join in the last y minutes - this is my favorite. I haven't yet participated in a Agentic AI interview. It is not that common AFAIK. a coding interview that is objective, repeatable, doesn't put the interviewee under pressure (and doesn't trigger unconscious bias based on accent/appearence) * take home assigment with minimum requirements criteria and tell them \"add a feature of  your own\" or \"any extra work is appreciated\". * Pay them for their time and tokens. * Use a custom agent to review the code and see how many \"high\", \"medium\", \"low\" issues the agent identifies. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:05:55.830310",
+        "updated_at": "2026-04-11T16:05:55.830310",
+        "author": {
+          "id": "016f4b1c5ad2132cb61cbd6e34e01e6f",
+          "source_id": "eleventhborn",
+          "username": "eleventhborn",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1dae13b2769825cd2a4e8c44581da494",
+        "source_id": "47722210",
+        "content": {
+          "text": "Even if you said AI programming is based on \"knowing what to prompt\" this still comes down to: (1) understanding software engineering (for one thing knowing if answers make sense) (2) subject matter expertise and the ability to communicate with SMEs, fake being an SME by reading books,  see the old \"knowledge engineer\" construct from the 1980s. (3) knowing specifics about AI coding. I think (1) and (2) are 80-90% of what leads to success in the long term.  My guess is the models are going to get better so (3) skills have a short half life and will matter less,  but (1) and (2) will stay the same. Maybe I'm cynical but if I was designing screeners for this thing I would ask people things like \"How many accounts do you follow on X about AI?\" where the right answer is \"I don't have an X account\" and the higher the count the worse it is. \"What percent of your programming time do you spend thinking about AI programming tools?\" and anything over 20% is suspect (but maybe it is a tooling job or something in which case I'd drop it) That is,  I want to see that somebody used AI tools to deliver something 100% done end-to-end that worked and I'd like to see them spending 80% of their time doing. I'd also be thinking about screeners designed to detect FOMO attitudes and reject people for it. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:05:55.830981",
+        "updated_at": "2026-04-11T16:05:55.830981",
+        "author": {
+          "id": "e760097489e9389b620772b6f7bd8da6",
+          "source_id": "PaulHoule",
+          "username": "PaulHoule",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "191744cf84f741dd55c5ebdaf42a9f10",
+        "source_id": "47724821",
+        "content": {
+          "text": "What is an example of that 100% end to end that worked? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:05:55.831576",
+        "updated_at": "2026-04-11T16:05:55.831576",
+        "author": {
+          "id": "01af9fd242826ec1dae4dac9de3ffc35",
+          "source_id": "mewpmewp2",
+          "username": "mewpmewp2",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7cab364dd1a7d191377a40d223618ea9",
+        "source_id": "47724904",
+        "content": {
+          "text": "Could be as simple as “completed some tickets with quality code that I understood and that passed rigorous review and didn’t add technical debt” The trouble w/ AI slop is that the people who make it don’t know it is AI slop, not that it was AI generated. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:05:55.832250",
+        "updated_at": "2026-04-11T16:05:55.832250",
+        "author": {
+          "id": "e760097489e9389b620772b6f7bd8da6",
+          "source_id": "PaulHoule",
+          "username": "PaulHoule",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "dbf2ddac9cc977544a35ddf1102c7f17",
+        "source_id": "47725672",
+        "content": {
+          "text": "So if I use only Claude Code for everything I do, what would that mean to you? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:05:55.832886",
+        "updated_at": "2026-04-11T16:05:55.832886",
+        "author": {
+          "id": "01af9fd242826ec1dae4dac9de3ffc35",
+          "source_id": "mewpmewp2",
+          "username": "mewpmewp2",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e86bb66b077a0c26e12de0a1a404f305",
+        "source_id": "47726092",
+        "content": {
+          "text": "I’d want to look at the output. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:05:55.833574",
+        "updated_at": "2026-04-11T16:05:55.833574",
+        "author": {
+          "id": "e760097489e9389b620772b6f7bd8da6",
+          "source_id": "PaulHoule",
+          "username": "PaulHoule",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6c5e6f246b7bcb9f3ba61e90a485a13a",
+        "source_id": "47722889",
+        "content": {
+          "text": "I believe that the new interviews will just get more questions, related to AI.\nI read it in an article: the AI amplifies. It amplifies the success of the good professionals and it amplifies the failure of the bad. Good developer will give good prompts, because knows what to ask, and what might be the problem. Good developer can read the code and point badly generated one, and learn the AI how to perform better, which style =to follow. Good developer can evaluate if the used algorithm is the proper for the task and give suggestions, if needed. Good developer can optimize token usage, by using scripts, for example. Yes, skills in prompting, knowing about new tools and how to use them is also mandatory, but not the most important one, in my opinion. I guess better soft/social skill are needed. Some people just can't express themselves in real world, and probably they will have difficulties expressing themselves in free texts as well reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:05:55.834378",
+        "updated_at": "2026-04-11T16:05:55.834378",
+        "author": {
+          "id": "44812e0fc82d045a4105706f1f268de1",
+          "source_id": "sminchev",
+          "username": "sminchev",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9e08147b3f4eef4db4d24ce64d490456",
+        "source_id": "47723160",
+        "content": {
+          "text": "I used to ask them to code a binary search in 1 hour Now I ask them to code Google Search in 1 hour reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:05:55.835284",
+        "updated_at": "2026-04-11T16:05:55.835284",
+        "author": {
+          "id": "a9a2a5f05ea1ec03572c069094ebe64c",
+          "source_id": "ex-aws-dude",
+          "username": "ex-aws-dude",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5f9909c996c71e0d011e48be9d686946",
+        "source_id": "47727822",
+        "content": {
+          "text": "When I find problems at that AI does a bad job at, I take note, and those are exactly the kind of problems I give in a take-home assignment + interview. If the candidate turns in AI slop and doesn't understand the fundamentals of what they're working on, reject. If they took the time to learn the subject matter and feed it their own ideas to improve the output, awesome. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:05:55.836806",
+        "updated_at": "2026-04-11T16:05:55.836806",
+        "author": {
+          "id": "856ecc2f8fc099fa0a144ce4d813279f",
+          "source_id": "pants2",
+          "username": "pants2",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "eec365a1dc8b1133bb93541c9969de23",
+        "source_id": "47726557",
+        "content": {
+          "text": "You should interview for the skill that is required in the age of AI-assisted coding. That is, looking at code that's been written by AI and see what's wrong, what's superfluous and what's missing. For preparing the code for the interview, I would suggest prompting Claude Code using a requirements document that's purposefully a bit vague so that the AI will have to make choices when writing that code. When you have the interviewee come over, show them the code and have them criticize those choices and edit the code manually (I know) so that they can demonstrate that they can intervene in the AI process at the correct inflection points. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:05:55.838551",
+        "updated_at": "2026-04-11T16:05:55.838551",
+        "author": {
+          "id": "74e48e7b0d3a94650d14378b154b8e30",
+          "source_id": "kokken",
+          "username": "kokken",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-04-11T16:05:55.839429",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "ae7d9deaceea85e26e98e00dbd41dfbf",
+      "source_id": "47654062",
+      "title": "Ask HN: Any interesting niche hobbies?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">I'm looking for something novel and interesting, that isn't absolutely crowded that I could meaningfully contribute to.<p>In 2022 I was toying around with OpenAI's RL Gym, right when the first non-instruct GPT3 model came out. I was thinking about getting into ML a lot more, but hesitated.\nBefore that it was 3D printers, mechanical keyboards, drones, etc.\nAll of these have exploded, and while they are still very interesting, I do love my Browns and manage Prusas for my local hackerspace, they have just, for the lack of a better term, industrialized.\nI'm also now in a position where I have time and money for it, not like when I was 15 and rating Ender motherboard upgrades I knew I'd never buy.<p>Right now I'm making a chess engine, but that's already a solved problem.\nThere's also biohacking, and while designing chips to go into my body is really interesting, I only have one, and don't want to push it too far.\nOne promising idea is a kind of 'Personal Computer 2', where people try to innovate HCI, and while I really like that and do have some research ideas, I'd like to explore a bit more before delving deep into it.</p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-11T16:05:51.256545",
+      "updated_at": "2026-04-11T16:05:51.256545",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "d70bc14b097da3e5ea3b980ee0da5ef1",
+        "source_id": "e-topy",
+        "username": "e-topy",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 471,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47654062",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "74feaa2ecf3d3530910c598aa3408c50",
+        "source_id": "47694725",
+        "content": {
+          "text": "I got myself involved with a nonprofit local group preserving local pioneer era apple trees. They've been DNA testing and cataloging the trees, and had all the info stashed away in google drive and onedrive folders. The founder was looking to step back so they asked me if I wanted to step up as project lead, which I did. I took the info and organized it into a nice wiki-style site with maps and descriptions so everyone in the community can learn about the old orchards. https://heritageapplecorps.org/index.php/Main_Page I've also learned how to prune and graft hundred year old apple trees and now have a couple dozen young grafted trees growing in my garage, all clones of local hundred year old trees, some of which genetically tested unique and are of currently unknown varieties. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.257052",
+        "updated_at": "2026-04-11T16:06:00.257052",
+        "author": {
+          "id": "93bd99bbda02aec4f790db303b369705",
+          "source_id": "biotinker",
+          "username": "biotinker",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "dbdb6498f0d6dfd4d7707786a9bee8bb",
+        "source_id": "47695648",
+        "content": {
+          "text": "Thats awesome! I'm doing apple stuff on the other side of the Cascades (Eugene), starting a cidery and trying to find rare varieties to graft. And doing little software projects like https://pomological.art/ . Would love to get in touch if you want people to propagate these varieties you're finding and would potentially be interested in sharing some scion wood! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.257653",
+        "updated_at": "2026-04-11T16:06:00.257653",
+        "author": {
+          "id": "2524d579b52ca3bbcf66d7f5502fd920",
+          "source_id": "andrewhaupt",
+          "username": "andrewhaupt",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7c7ae936197b70a69140f5c93d9b8550",
+        "source_id": "47695777",
+        "content": {
+          "text": "Oh cool! I've used pomological.art! Great site! I'm in the middle of building out a similar big project that takes a different tack: looking through every period pomological text (e.g. Apple of New York, Fruits and Fruit Trees of America) and pulling the images, descriptions, etc for every heritage apple variety. Includes the watercolors too. I also pull in every scanned catalog from nurseries selling fruit trees in the PNW from the late 1800s. The goal is a tool we can use to identify apples, and also have comprehensive info on every variety, using public domain period content. It's not fully done yet, there are bugs/issues right now but you can take a look here: https://heritageapplecorps.org/varieties/ I think we grafted ~90 scions this year. A lot of them we haven't actually DNA tested yet so no idea what they are. So many of these trees are on their last legs, so our priority is cloning them first, and then once the clones grow, DNA test those as funds are available. I make my own cider too (though as a hobby). If we ever find ourselves in the same city I'd love to meet up and we can swap scions/cider/etc. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.258310",
+        "updated_at": "2026-04-11T16:06:00.258310",
+        "author": {
+          "id": "93bd99bbda02aec4f790db303b369705",
+          "source_id": "biotinker",
+          "username": "biotinker",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0dd69f71bbb7b6e3094af135d2b9d7be",
+        "source_id": "47696048",
+        "content": {
+          "text": "I love that idea, actually started something similar awhile back but didn't get far and ran out of time/energy. If you need any help/contributions I'd love to pitch in. And sounds great! I'll shoot you an email with my contact info reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.258862",
+        "updated_at": "2026-04-11T16:06:00.258862",
+        "author": {
+          "id": "2524d579b52ca3bbcf66d7f5502fd920",
+          "source_id": "andrewhaupt",
+          "username": "andrewhaupt",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8ed360ba5db9be68803aae642211b3cc",
+        "source_id": "47697497",
+        "content": {
+          "text": "Small world!  I’m doing it on the mid/south Oregon coast! Started with a late neighbors trees and went from there! My work and operation is small, limited to residential yards/gardens and particularly focused on dwarf and columnar varieties. Used your site quite a bit! Thanks for making it. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.259501",
+        "updated_at": "2026-04-11T16:06:00.259501",
+        "author": {
+          "id": "2c8cb9c815d43fcd23afa1186afb75a6",
+          "source_id": "jamiek88",
+          "username": "jamiek88",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0d91e6bf9443bef3fc40da8ff3c174e9",
+        "source_id": "47704949",
+        "content": {
+          "text": "Good stuff! I honestly didn't know anyone used it so I'm happy to hear that reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.260140",
+        "updated_at": "2026-04-11T16:06:00.260140",
+        "author": {
+          "id": "2524d579b52ca3bbcf66d7f5502fd920",
+          "source_id": "andrewhaupt",
+          "username": "andrewhaupt",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ee95749927fb2a0a1a7a66131c6e44d0",
+        "source_id": "47696622",
+        "content": {
+          "text": "You’re in Eugene!? Me too. I’d love to meet up some time to talk about your software over coffee. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.260790",
+        "updated_at": "2026-04-11T16:06:00.260790",
+        "author": {
+          "id": "19df725d34a13ac866fd63e756c81c8e",
+          "source_id": "joshmarinacci",
+          "username": "joshmarinacci",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9482a300b091370c39670272373753e8",
+        "source_id": "47704931",
+        "content": {
+          "text": "Nice! Sounds good, shoot me an email: haupt.andrew@protonmail.com reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.261487",
+        "updated_at": "2026-04-11T16:06:00.261487",
+        "author": {
+          "id": "2524d579b52ca3bbcf66d7f5502fd920",
+          "source_id": "andrewhaupt",
+          "username": "andrewhaupt",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "44546276751ac4541e6f8fbfb4734d16",
+        "source_id": "47698967",
+        "content": {
+          "text": "There are tens of us! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.262205",
+        "updated_at": "2026-04-11T16:06:00.262205",
+        "author": {
+          "id": "54a177ebf010423433b50aa07de9201c",
+          "source_id": "Westley_Winks",
+          "username": "Westley_Winks",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "581c100437422360f3c60ed03e35d469",
+        "source_id": "47695834",
+        "content": {
+          "text": "Chuck Wendig's 2023 novel Black River Orchard has an apple historian as one of the protagonists. Lots of talk of scion wood and girdling and colonial era apple varieties. You may find this interesting. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.262971",
+        "updated_at": "2026-04-11T16:06:00.262971",
+        "author": {
+          "id": "6f8d4e740ae32d84b4a763531e46d1db",
+          "source_id": "1-more",
+          "username": "1-more",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "878cda61787880b21f5ef0ea5fa051f1",
+        "source_id": "47702520",
+        "content": {
+          "text": "I have done similar grafting experiments, although at present I am navigating a change in motivation. I got into apples through cider, but gave up alcohol this year. (As an aside, this was a long time coming and absolutely worth some small sacrifices!) While I’m interested in heritage apples, I think it’s probably more important to find and cultivate wild apples showing attributes that can keep them hardy in 21st century climate. An apple that thrived over a century ago depended on conditions that are different today and are continuing to change. Some cool people active in this space include: - https://gnarlypippins.com/6th-pomological-exhibition-high-hi... - https://www.mofga.org/trainings/annual-events/seed-swap-and-... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.263824",
+        "updated_at": "2026-04-11T16:06:00.263824",
+        "author": {
+          "id": "84b1970dedc5e8bcd3eb900e525025ce",
+          "source_id": "subpixel",
+          "username": "subpixel",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "67180a6f6f608d2dba6e305ce3efb12b",
+        "source_id": "47706568",
+        "content": {
+          "text": "> I think it’s probably more important to find and cultivate wild apples showing attributes that can keep them hardy in 21st century climate. The neat thing is that these tend to be self-selecting! These older orchards drop a lot of fruit and can self-propagate new seedlings. The ones that manage to survive are the ones well adapted to current local conditions. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.264646",
+        "updated_at": "2026-04-11T16:06:00.264646",
+        "author": {
+          "id": "93bd99bbda02aec4f790db303b369705",
+          "source_id": "biotinker",
+          "username": "biotinker",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "90334b34e0b5b008045aa52d3ae76adf",
+        "source_id": "47698937",
+        "content": {
+          "text": "Anyway to petition Washington State to RELEASE the Cosmic Crisps? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.265483",
+        "updated_at": "2026-04-11T16:06:00.265483",
+        "author": {
+          "id": "0b7057e07dce19dcc9bd1996968be3c9",
+          "source_id": "hatmanstack",
+          "username": "hatmanstack",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e26c241e86aba66b25778e528f95d5a7",
+        "source_id": "47700231",
+        "content": {
+          "text": "WSU faculty here. The Cosmic Crisp is under license to Washington state growers for ten years, starting in about 2019, so it will be a few years yet. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.266403",
+        "updated_at": "2026-04-11T16:06:00.266403",
+        "author": {
+          "id": "a48d8b27fe2e164b7f8e15d63e3f3f80",
+          "source_id": "Fomite",
+          "username": "Fomite",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7fbbcb646a2339190c009c5a76d2aec0",
+        "source_id": "47703127",
+        "content": {
+          "text": "I have to ask, how often is tissue culture used? I'm not sure of it's exact usecases like respawning old tree samples but it does seem very related. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.267339",
+        "updated_at": "2026-04-11T16:06:00.267339",
+        "author": {
+          "id": "acebdb983478af81b59774eb7838dba9",
+          "source_id": "hopinhopout",
+          "username": "hopinhopout",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6a5ee4819bcbc0665435149a6390b8e0",
+        "source_id": "47706547",
+        "content": {
+          "text": "It isn't, really, at least not by us. Apple trees are pretty easy to propagate if they're alive. Snip off a twig, graft it onto another tree, and away it goes. Some poor-condition trees can certainly present a challenge in terms of finding ideal graftable wood, but even a poor-quality scion is a lot easier to propagate via grafting than trying to culture in a petri dish. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.268305",
+        "updated_at": "2026-04-11T16:06:00.268305",
+        "author": {
+          "id": "93bd99bbda02aec4f790db303b369705",
+          "source_id": "biotinker",
+          "username": "biotinker",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "cc977329453dc102152113d1f51ab1eb",
+        "source_id": "47714373",
+        "content": {
+          "text": "I've never done it but apparently if you graft branches of different varieties on one tree, you can produce a number of different varieties of apples on one tree. This would be especially good if you could get some of the tastiest heirloom varieties. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.269250",
+        "updated_at": "2026-04-11T16:06:00.269250",
+        "author": {
+          "id": "aba7abf5ff9bd64f96cbea0ad13e9364",
+          "source_id": "lostworld",
+          "username": "lostworld",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d1bb0af67637e1fdcbf00d81260b53d7",
+        "source_id": "47699098",
+        "content": {
+          "text": "A friend in Palouse has found several heritage apple trees and has spent at least a decade grafting and working with them. It’s an interesting hobby to watch him experiment with. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.270242",
+        "updated_at": "2026-04-11T16:06:00.270242",
+        "author": {
+          "id": "972072b3caf608c55990e51937bdaf74",
+          "source_id": "RyJones",
+          "username": "RyJones",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "75a3cdfc08c55e9e9ce404f815531ebb",
+        "source_id": "47695294",
+        "content": {
+          "text": "That sounds really cool, how did they do the DNA testing out of interest? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.271247",
+        "updated_at": "2026-04-11T16:06:00.271247",
+        "author": {
+          "id": "ccc75fd9de1cc95b9a7d61ea8b3d9fc1",
+          "source_id": "anfractuosity",
+          "username": "anfractuosity",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f9842f9228fd3c8a00254ec185c8ea56",
+        "source_id": "47695371",
+        "content": {
+          "text": "We work with Dr Cameron Peace's lab at WSU. They send us test tubes, we send the tubes back with leaves in them, they run the DNA tests and compare against an apple ID database they've built. We pay ~$50 per test, which is what most of the groups budget goes towards. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.272276",
+        "updated_at": "2026-04-11T16:06:00.272276",
+        "author": {
+          "id": "93bd99bbda02aec4f790db303b369705",
+          "source_id": "biotinker",
+          "username": "biotinker",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9e00f8376699d918c02d867213b27c28",
+        "source_id": "47690690",
+        "content": {
+          "text": "I started designing my own clothes. The insight was that I spend 80% money on suits that I wear 2 times a year, and the rest was low quality clothing I actually wore. I flipped it, and made suits and pants that I could wear everyday. The fast fashion stores were crap quality, my body is not a template size and I care about fabric and comfort. The process was to learn how to sketch, to determine fabrics, colors and fit. I made pants that stay comfortable even after I eat food, I made suits that I can wear casually. I don’t stitch myself, for that I worked with multiple workshops, until I found one that works for me. Took me about 3 years to reach a point where all my wardrobe is designed by and for me. There were multiple side effects on my confidence, my life, and the opportunities coming my way. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.273422",
+        "updated_at": "2026-04-11T16:06:00.273422",
+        "author": {
+          "id": "d65a70ac45cd72de19336ee1d67b9fe0",
+          "source_id": "shivekkhurana",
+          "username": "shivekkhurana",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4d277682055fb70a398ed384d2a18719",
+        "source_id": "47693152",
+        "content": {
+          "text": "That's pretty neat, and we should talk. In my household we are currently producing about 75% of our clothing, mostly out of a desire to avoid using fabrics that generate a lot of microplastic waste + observing that newer clothes/fabrics wear out quickly. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.274557",
+        "updated_at": "2026-04-11T16:06:00.274557",
+        "author": {
+          "id": "9653d631fafa84055e7ec122df322fc6",
+          "source_id": "trollbridge",
+          "username": "trollbridge",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "055eb7b647b1da9a2bb14ce856f51acb",
+        "source_id": "47699294",
+        "content": {
+          "text": "Would love to talk. My goals are not anchored around sustainability, but I optimise against synthetic fibres. My website is shivekkhurana.com. My email is on my github. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.275704",
+        "updated_at": "2026-04-11T16:06:00.275704",
+        "author": {
+          "id": "d65a70ac45cd72de19336ee1d67b9fe0",
+          "source_id": "shivekkhurana",
+          "username": "shivekkhurana",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "69baa2f1f38dc50e66484039b85ea681",
+        "source_id": "47704592",
+        "content": {
+          "text": "OK, fairly specific question - how did You get to that pants silouhete? It seems from the pics You went for something like a straight leg plus some extra room and fairly fitted waist / butt. Is that a response to a trend (oversized work clothes seem to be the thing these past few years), or is there some practical reason too (mainly for the extra room in the leg shape)? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.276866",
+        "updated_at": "2026-04-11T16:06:00.276866",
+        "author": {
+          "id": "eb57ffaf6bfc59c20308deb0ecc099bf",
+          "source_id": "MezzoDelCammin",
+          "username": "MezzoDelCammin",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3306f6f73fbd4702748f54402b5dc389",
+        "source_id": "47721957",
+        "content": {
+          "text": "Two reasons: 1. My thighs are bigger than usual for my waist size, so I adapted. 2. Indians (Bharat) have a culture of wearing lose clothes, and I also like lose clothes. They are more comfortable. The waist is fitted, but with elastic bands on the side for added comfort (my belly gets bigger during evening, when I sit down and after I eat). reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.278071",
+        "updated_at": "2026-04-11T16:06:00.278071",
+        "author": {
+          "id": "d65a70ac45cd72de19336ee1d67b9fe0",
+          "source_id": "shivekkhurana",
+          "username": "shivekkhurana",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8dd29220f53845de1fe985458e115b2b",
+        "source_id": "47703185",
+        "content": {
+          "text": "Hey, I looked you up online and ... you dress real well! Congratulations! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.279275",
+        "updated_at": "2026-04-11T16:06:00.279275",
+        "author": {
+          "id": "a8eb022a3a97cd430ccc8838d3bec31f",
+          "source_id": "moralestapia",
+          "username": "moralestapia",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7dcbc84b020d31d34e6190868cacc3e1",
+        "source_id": "47693904",
+        "content": {
+          "text": "How did you start out? Was it through local classes? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.280498",
+        "updated_at": "2026-04-11T16:06:00.280498",
+        "author": {
+          "id": "1e8e1d21106ce8751202a25078f886e4",
+          "source_id": "PotassiumHacker",
+          "username": "PotassiumHacker",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d070a90e326bfaa473f97ef322d68ebf",
+        "source_id": "47702107",
+        "content": {
+          "text": "No classes. I was probably hyper aware of how my body reacts to clothing. For example, the waist of almost every pant became uncomfortable when I sat down after eating food. The area below arm pits and close to thighs was always tight. The length of pants was always long for the waist. -\nTo determine my taste, I looked at various styles of women clothing (on Pinterest). Then for the models I found most attractive, I imagined what would the clothes they have put on look like if they were men. That led me to the realisation that I like formal aesthetic, reserved and subtle colors. Everything else was experimental reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.281810",
+        "updated_at": "2026-04-11T16:06:00.281810",
+        "author": {
+          "id": "d65a70ac45cd72de19336ee1d67b9fe0",
+          "source_id": "shivekkhurana",
+          "username": "shivekkhurana",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4a5f07b1153a77b9c7b4618ad24e8e6d",
+        "source_id": "47702232",
+        "content": {
+          "text": "I would love to talk to you if you're willing, email in my profile, I'm in SL right now and was thinking of trying something like this but it sounds like you've gone through this journey and are a lot more experienced than me Would love to get your perspective reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.283129",
+        "updated_at": "2026-04-11T16:06:00.283129",
+        "author": {
+          "id": "8b9d294052368b35f558463dec309c86",
+          "source_id": "Folcon",
+          "username": "Folcon",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c4c6f71fd5a590e1b2d0476ce8977d97",
+        "source_id": "47702807",
+        "content": {
+          "text": "Hello fellow Clojurist, I sent you an email. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.284448",
+        "updated_at": "2026-04-11T16:06:00.284448",
+        "author": {
+          "id": "d65a70ac45cd72de19336ee1d67b9fe0",
+          "source_id": "shivekkhurana",
+          "username": "shivekkhurana",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ab22ba15cdc2e735b3c6b7625c361848",
+        "source_id": "47703119",
+        "content": {
+          "text": "Pinged! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.285807",
+        "updated_at": "2026-04-11T16:06:00.285807",
+        "author": {
+          "id": "8b9d294052368b35f558463dec309c86",
+          "source_id": "Folcon",
+          "username": "Folcon",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f1d25c31360a8fcb807e14def880c2fc",
+        "source_id": "47690825",
+        "content": {
+          "text": "I want to hear more reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.287207",
+        "updated_at": "2026-04-11T16:06:00.287207",
+        "author": {
+          "id": "c93aa47b2774dcb5038fb298b46ab542",
+          "source_id": "ribs",
+          "username": "ribs",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "25ccceab95cf1fa07d3f5513b4d4a5fb",
+        "source_id": "47691415",
+        "content": {
+          "text": "Fast fashion forces you to dress for the masses. Loose shirts, baggy pants and shallow pockets is not fashion, its cost optimisation for brands. I didn't want to dress up like a boy. Me and my friend were in Paris when we got inspired by the floor(fashion_sense). I was already working on my clothing, but that day we promised each other that we will not be underdressed anymore. He opted for off-the-shelf formal clothing: high quality shirts, and pants. I went all in. First I found markets that sell cheap fabrics, so I can experiment. I travel a lot, so my clothing had to be designed for all weathers. I'm Indian (Bharat), but look racially ambiguous, so I also wanted my clothing to reflect my roots and culture, yet be modern enough for any room in the world. I run a company, and write code, so comfort was paramount. But I also had meetings or presentations so I wanted to be presentable. Started with pants, because I thought pants are easy to optimise, and I just need a black, gray and dark blue one. Over 5 iterations, I reached a design with elastic straps on the side (because when I eat food, my tummy bloats a little and its uncomfortable to sit down), and loose on the thighs. Imagine pyjamas, that look like pants. Then next step was to experiment with jackets and shirts. I played with fabric, patterns, and finish (zippers, titch buttons, different cuff lengths and styles, different collars). My friends started noticing, and I also consulted some clients. Then I gave a talk about it. This is one of my skills that I discovered by first principles. The best part is that I met my girlfriend because she noticed my aesthetics, and she told me that she makes her own clothes too. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.288686",
+        "updated_at": "2026-04-11T16:06:00.288686",
+        "author": {
+          "id": "d65a70ac45cd72de19336ee1d67b9fe0",
+          "source_id": "shivekkhurana",
+          "username": "shivekkhurana",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c6cbb4bb31e81d9fe7747898f8231b36",
+        "source_id": "47702163",
+        "content": {
+          "text": "Alternatively, one can create bespoke patterns. There is a lovely little open source community of pattern designers at https://seamly.io I got myself a pattern drafting book and started working on shirts and pants. The neat thing is one can design the draft pieces to be completely parametric, so adapting the pattern to different persons is as simple as entering new measurements. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.290161",
+        "updated_at": "2026-04-11T16:06:00.290161",
+        "author": {
+          "id": "ff969c8b834adf2c42fa6d5b2049dd7a",
+          "source_id": "knerz",
+          "username": "knerz",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "500163eb460125ae29f3a996f713ad87",
+        "source_id": "47693315",
+        "content": {
+          "text": "Was the talk recorded? I'd love to see it. No pressure if it isn't public. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.291619",
+        "updated_at": "2026-04-11T16:06:00.291619",
+        "author": {
+          "id": "c7a0b8f7651990e49399d36173ffdbb5",
+          "source_id": "mastermedo",
+          "username": "mastermedo",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "aff8f6f9ad334caa0db3fb92f8a21ec5",
+        "source_id": "47699009",
+        "content": {
+          "text": "No. I expected 5 people to show up, but there were almost 50. I took care of the stage but couldn’t manage operations. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.293139",
+        "updated_at": "2026-04-11T16:06:00.293139",
+        "author": {
+          "id": "d65a70ac45cd72de19336ee1d67b9fe0",
+          "source_id": "shivekkhurana",
+          "username": "shivekkhurana",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6a5ea881de5dacd0d1b89725e9a22756",
+        "source_id": "47696753",
+        "content": {
+          "text": "+1 also very interested reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.294666",
+        "updated_at": "2026-04-11T16:06:00.294666",
+        "author": {
+          "id": "06cb98cedbf38343cde28a28ce0e99eb",
+          "source_id": "testycool",
+          "username": "testycool",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "76e19f97b2ee8d35593db08e14cb33d1",
+        "source_id": "47695333",
+        "content": {
+          "text": "Put it on Etsy and see what others are willing to pay! :)) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.296239",
+        "updated_at": "2026-04-11T16:06:00.296239",
+        "author": {
+          "id": "f565d4d6295bbf07f86670201b050586",
+          "source_id": "KellyCriterion",
+          "username": "KellyCriterion",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "fc5a5d90b6d6a6308db5cccf48149e6f",
+        "source_id": "47698984",
+        "content": {
+          "text": "I do make clothes for close friends and family, but I don’t intend to make money of it. Playing this game for the game sake. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.297851",
+        "updated_at": "2026-04-11T16:06:00.297851",
+        "author": {
+          "id": "d65a70ac45cd72de19336ee1d67b9fe0",
+          "source_id": "shivekkhurana",
+          "username": "shivekkhurana",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "70eab187d9d43e38d2ad92ae0434c313",
+        "source_id": "47700779",
+        "content": {
+          "text": "As someone who has monetized hobbies before, I think it's smart to keep doing things the way you are currently. When you have to start optimising things for efficiency, it generally stops being relaxing and fun. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.299482",
+        "updated_at": "2026-04-11T16:06:00.299482",
+        "author": {
+          "id": "52abb920e871be4de155ff482716817e",
+          "source_id": "AussieWog93",
+          "username": "AussieWog93",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "daf1b9fb041ed6b5434f7f2b39bbdc24",
+        "source_id": "47696685",
+        "content": {
+          "text": "they are customized for his body. if he started catering to a mass audience he'd be creating the exact thing he is avoiding reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.301129",
+        "updated_at": "2026-04-11T16:06:00.301129",
+        "author": {
+          "id": "9bec8a109c7c655bfbf92be4588ba2e3",
+          "source_id": "AuthAuth",
+          "username": "AuthAuth",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "fb4ee57442e7a3f339f6938952fd8fd5",
+        "source_id": "47694660",
+        "content": {
+          "text": "Have you shared any photos online? Id love to see reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.302896",
+        "updated_at": "2026-04-11T16:06:00.302896",
+        "author": {
+          "id": "3db438936ecb30f7751457e24ff1e1e0",
+          "source_id": "csallen",
+          "username": "csallen",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "26524eabd74d1e847278e6c6e366f4d7",
+        "source_id": "47698988",
+        "content": {
+          "text": "https://shivekkhurana.com/about . 3/4 photos are my custom made clothes. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.304634",
+        "updated_at": "2026-04-11T16:06:00.304634",
+        "author": {
+          "id": "d65a70ac45cd72de19336ee1d67b9fe0",
+          "source_id": "shivekkhurana",
+          "username": "shivekkhurana",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2cc7bdef8acf1a0bfb4de16b179f9c2e",
+        "source_id": "47704923",
+        "content": {
+          "text": "Incredible, thanks for sharing! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.306365",
+        "updated_at": "2026-04-11T16:06:00.306365",
+        "author": {
+          "id": "3db438936ecb30f7751457e24ff1e1e0",
+          "source_id": "csallen",
+          "username": "csallen",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "91ebf64918aaeaddc2ce1131dca40d00",
+        "source_id": "47700852",
+        "content": {
+          "text": "this is super cool, well done reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.308140",
+        "updated_at": "2026-04-11T16:06:00.308140",
+        "author": {
+          "id": "2c85d53b273a50862dc3a8beb1ac9fd3",
+          "source_id": "nojs",
+          "username": "nojs",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b7eb4291712ab05d2686945268fd81b4",
+        "source_id": "47654145",
+        "content": {
+          "text": "My hobby is organizing in-person meetups for random people to get together, chat and make friends. Barely structured, if at all. I've found this rewarding and ended up making friends this way. You have to accept that 5-15% of the people who would show up to something like this are genuine weirdos you probably don't want to be around. And another 10% at any given meetup are autistic or neuro-divergent but well-meaning, kind and full of interesting insights and hobbies, although perhaps difficult to socialize with, at least until they get to know you're well-meaning too. These challenges come with the territory. You end up talking to people you'd otherwise never meet in the normal course of your life, and it's neutral at worst and wonderful at best. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.309952",
+        "updated_at": "2026-04-11T16:06:00.309952",
+        "author": {
+          "id": "d8cfefaf385df1927f38489ada82b356",
+          "source_id": "unsupp0rted",
+          "username": "unsupp0rted",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2e152197ecf70d00b4e80ce8f3ee3955",
+        "source_id": "47661314",
+        "content": {
+          "text": "I'm on the other side of this, in that I attend a lot of these. I made a big effort about 12 years ago to go to a bunch of these (like three meetups a week and trying out a variety of different meetups), but now I mostly stick to a couple of them as I don't have as much time or energy for it anymore. But I've met most of my current friends through those meetups. Find one you like and keep showing up until you're a regular, and get to know people slowly, and if they like you they start inviting you to things outside of the meetup, and then eventually you end up being friends. I've done this with three different groups over the years and despite naturally being shy and an introvert I've ended up making friends at each one. At the height of me doing this (like ten years ago), it got to the point where I'd go about my daily life and about once every other month I'd run into random people I've met at meetups also out and about. Like go out to dinner and spot someone I knew from a meetup also showing up to the same place, or run into them shopping at a Best Buy or something. Meetups where you do a shared activity seems to be the best, like hikes or movies (+ dinner afterwards) or board games, since you can always focus on the activity if you don't feel like being social, and you have that activity you can always talk about as a subject. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.311814",
+        "updated_at": "2026-04-11T16:06:00.311814",
+        "author": {
+          "id": "68353c46d0d9a62dfe42f5e20a30ac27",
+          "source_id": "cableshaft",
+          "username": "cableshaft",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6cf63ff31a854881690992bba5ec81e0",
+        "source_id": "47693352",
+        "content": {
+          "text": "Between the genuine weirdos, the autistic and/or the neuro-divergent, is there anyone left, really? Do the \"normies\" genuinely exist? Happy-go-lucky, knows a bit about everything but doesn't nerd out on anything, picks up every conversation subject and listens and holds their own in a manner that is just right? I am genuinely curious about the existence of these \"superhumans\". reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.313663",
+        "updated_at": "2026-04-11T16:06:00.313663",
+        "author": {
+          "id": "346c80a9ce66cac3409b9ea953ed2c5a",
+          "source_id": "hackrmn",
+          "username": "hackrmn",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "60ab977553118ee934f45fceca9260c6",
+        "source_id": "47693534",
+        "content": {
+          "text": "There are many many of these socially-skilled normies. But, by virtue of being socially skilled, most have already pretty much filled up their social capacity and don't tend to show up at the kind of venues dedicated to helping under-socialized people meet up. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.315547",
+        "updated_at": "2026-04-11T16:06:00.315547",
+        "author": {
+          "id": "43f21dc31a8bee915dd81507230379f9",
+          "source_id": "munificent",
+          "username": "munificent",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1c86bc250397723d2f7fb873b8da6ced",
+        "source_id": "47693833",
+        "content": {
+          "text": "While there is often a \"normal\" (bell-curve fitting) distribution for individual factors, putting them together can be counter-intuitive. > Even when considering just three dimensions, fewer than 5% of pilots were “average” in all. [1] I would guess many/most people probably think they fall into either (1) the normal bucket or (変) the weird/fringe bucket. Either \"I am pretty normal\" or \"I am an outsider\". How many think \"We're all fairly different once you cluster in any 3 interesting dimensions!\"? But people feel that dichotomy, which makes me think it is largely about perception relative to a dominant culture: the in-group versus out-group feeling. For example, atheists might feel like outsiders in many parts of the U.S., but less so in big cities and in other countries. In dense urban walkable cities (like NYC), people see diversity more directly and more often. Seeing a bunch of people is different than seeing a bunch of cars. [1]: From \"Curse of Dimensionality: Lessons from the U.S. Air Force Cockpit Design\" by Maciej Nasinski (2025): https://polkas.github.io/posts/cursedim/ reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.317585",
+        "updated_at": "2026-04-11T16:06:00.317585",
+        "author": {
+          "id": "6579d92e4ce6c9aee05ee22dbb43b891",
+          "source_id": "xpe",
+          "username": "xpe",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b525f11cd5da834d3f9718e8d12600ad",
+        "source_id": "47700762",
+        "content": {
+          "text": "Curious how that character 変 made it in there. Is that a typo for 2? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.319516",
+        "updated_at": "2026-04-11T16:06:00.319516",
+        "author": {
+          "id": "d8509e12be20e25cabf54a86e43105fe",
+          "source_id": "croemer",
+          "username": "croemer",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "72b3cbe1fd22df0547b377f9ec8f1b86",
+        "source_id": "47702690",
+        "content": {
+          "text": "it's a Japanese word for \"weird\". I'm guessing that OP is a bit of an Otaku (aka \"obsessed with Japan\") -- which is either ironic or completely appropriate. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.321568",
+        "updated_at": "2026-04-11T16:06:00.321568",
+        "author": {
+          "id": "5d11d98749bb941b9eedf5d9379ce643",
+          "source_id": "timr",
+          "username": "timr",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5dee3ad5517ac78e194a0595006bde1f",
+        "source_id": "47708374",
+        "content": {
+          "text": "I thought it would be weird to replace (b) with something, so I decided to search for characters from other languages. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.323579",
+        "updated_at": "2026-04-11T16:06:00.323579",
+        "author": {
+          "id": "6579d92e4ce6c9aee05ee22dbb43b891",
+          "source_id": "xpe",
+          "username": "xpe",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e42254f2c87e7431cc4466d3ea5a810d",
+        "source_id": "47702485",
+        "content": {
+          "text": "I thought it was an aposite joke. A, \"you're local weirdo, or you, might count in a foreign language\". reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.325612",
+        "updated_at": "2026-04-11T16:06:00.325612",
+        "author": {
+          "id": "7b2b08f37a5afc155bc536241e337e4d",
+          "source_id": "malnourish",
+          "username": "malnourish",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c19ff96b9084a4aacf4fecf0a4820836",
+        "source_id": "47700813",
+        "content": {
+          "text": "My first thought was that they were an LLM, but then checking their profile it seems they've been around since 2012 and have a comment expressing that they seem to get accused of being an LLM a lot, and suggesting people don't do that. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.327664",
+        "updated_at": "2026-04-11T16:06:00.327664",
+        "author": {
+          "id": "52abb920e871be4de155ff482716817e",
+          "source_id": "AussieWog93",
+          "username": "AussieWog93",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c4802c524453e106f90bb4edaf2b4163",
+        "source_id": "47701363",
+        "content": {
+          "text": "Any sufficiently interesting person eventually gets accused of being an AI. Quite soon these accusations will nearly always be accurate. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.329838",
+        "updated_at": "2026-04-11T16:06:00.329838",
+        "author": {
+          "id": "d8cfefaf385df1927f38489ada82b356",
+          "source_id": "unsupp0rted",
+          "username": "unsupp0rted",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1c64c1c66f4cfa35645300115b3c911e",
+        "source_id": "47708419",
+        "content": {
+          "text": "> Quite soon these accusations will nearly always be accurate. /headscratching They don't have to be, do they? It is possible that some people will build identity systems with norms that e.g. humans type with their own hands. These could become popular, at least conceivably, in certain areas. Hard to enforce for sure. And getting harder and harder to distinguish reliably. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.331999",
+        "updated_at": "2026-04-11T16:06:00.331999",
+        "author": {
+          "id": "6579d92e4ce6c9aee05ee22dbb43b891",
+          "source_id": "xpe",
+          "username": "xpe",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "78e73646a4882450e3fcb907ffb03a47",
+        "source_id": "47714699",
+        "content": {
+          "text": "I think it should be fairly easy to determine if atheists really are outsiders in parts of the US or if it's just perception: just look at voting results, and church attendance for any given area.  I don't think it's merely perception at all; visit any rural area and you'll likely see a surprising number of churches relative to the population. Also, seeing people walking around in public doesn't tell you anything about their religious beliefs unless they're in some sect where they make it obvious with their clothing or hairstyle. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.334180",
+        "updated_at": "2026-04-11T16:06:00.334180",
+        "author": {
+          "id": "2a5ca359550a3786a8b3d9e974c12e84",
+          "source_id": "shiroiuma",
+          "username": "shiroiuma",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "cbccd2b2f1823d1cae05346403a0b908",
+        "source_id": "47695218",
+        "content": {
+          "text": "> Between the genuine weirdos, the autistic and/or the neuro-divergent, is there anyone left, really? Heh this has a total “nobody goes there anymore, it’s too crowded” vibe. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.336414",
+        "updated_at": "2026-04-11T16:06:00.336414",
+        "author": {
+          "id": "2bdf17b37691683c2c8bb8542f762353",
+          "source_id": "loloquwowndueo",
+          "username": "loloquwowndueo",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b9524a5450404b5e875b81fc6e4f7705",
+        "source_id": "47700174",
+        "content": {
+          "text": "The \"normie\" doesn't really exist. Everyone is kind of weird in some aspect, which might not be obvious on a surface level. But having gone to a bunch of programming meetups, the majority of people are perfectly pleasant and good to socialise with. The weirdos are usually non tech people who have an app or crypto idea they want help with. Or just total crazy people who just showed up to the first event they could find regardless of topic. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.338717",
+        "updated_at": "2026-04-11T16:06:00.338717",
+        "author": {
+          "id": "7230aeb792dfd6e3c3197ad3e4f7907b",
+          "source_id": "Gigachad",
+          "username": "Gigachad",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "fd2ab441bc84d0a58f4a15a022dbd039",
+        "source_id": "47693773",
+        "content": {
+          "text": "that describes me but i would never say i'm a \"superhuman\". I feel like i'm a boring glue guy. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.340958",
+        "updated_at": "2026-04-11T16:06:00.340958",
+        "author": {
+          "id": "fd5a9f7b67e4a92a1265bc2bfa4ff15b",
+          "source_id": "joewhale",
+          "username": "joewhale",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e0c94671193e210df9734fe295bd8bd1",
+        "source_id": "47699392",
+        "content": {
+          "text": "People new to cities look for community. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.343207",
+        "updated_at": "2026-04-11T16:06:00.343207",
+        "author": {
+          "id": "d948b9b5d823ea2507c4150a694d730a",
+          "source_id": "itake",
+          "username": "itake",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d1f6e2662e081c0eedb16d4ec2d5f1c2",
+        "source_id": "47700568",
+        "content": {
+          "text": "The OGs in the group tend to be well adjusted normal people. ie the people that started the group reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.345486",
+        "updated_at": "2026-04-11T16:06:00.345486",
+        "author": {
+          "id": "21231fcd34fa464dfa18b63ba53917dd",
+          "source_id": "Havoc",
+          "username": "Havoc",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7ab58082c78f6b2549debf06efaabc89",
+        "source_id": "47694011",
+        "content": {
+          "text": "Sounds like a really cool idea. How do you organize the meetup and promote it to people if it ends up being random people? Do you set it up on meetup.com and have a theme at the minimum? I've been to a lot of meetups and it's definitely hit or miss and obviously depends on the sociability of the people that show up. The better ones I've attended are generally ones where people aren't trying to network for work purposes and are there literally to just socialize. The networking ones I find very dull as it's people just talking shop and career and if you've nothing to offer them on the career front, they move on quickly. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.347819",
+        "updated_at": "2026-04-11T16:06:00.347819",
+        "author": {
+          "id": "ea58e0c57f902b78fc90bc0c8c0a0ca4",
+          "source_id": "allenu",
+          "username": "allenu",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e73daf59f75c38f50e271eb773305624",
+        "source_id": "47694214",
+        "content": {
+          "text": "> ones where people aren't trying to network I have literally never been to any kind of organized gathering where this wasn't the objective of most of the people there. Family and children's events excluded (sometimes). reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.350193",
+        "updated_at": "2026-04-11T16:06:00.350193",
+        "author": {
+          "id": "09e4935f62f4a4b1c17fb25be787e5cf",
+          "source_id": "SoftTalker",
+          "username": "SoftTalker",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7c0aba7765766a30af018fc7a896bcd5",
+        "source_id": "47694327",
+        "content": {
+          "text": "That’s crazy, you’ve never been to a party? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.352543",
+        "updated_at": "2026-04-11T16:06:00.352543",
+        "author": {
+          "id": "1778e0d9d929e022489acf17840a8ceb",
+          "source_id": "MidnightRider39",
+          "username": "MidnightRider39",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b74ed686be4ed7c72b09f2fec3567fdf",
+        "source_id": "47694356",
+        "content": {
+          "text": "Sure. Most people are there with an agenda. ABC. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.354961",
+        "updated_at": "2026-04-11T16:06:00.354961",
+        "author": {
+          "id": "09e4935f62f4a4b1c17fb25be787e5cf",
+          "source_id": "SoftTalker",
+          "username": "SoftTalker",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "edd8e69ee46dedf5c8669fc35453aa0a",
+        "source_id": "47694501",
+        "content": {
+          "text": "Do you mean most people go to parties to close deals? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.357385",
+        "updated_at": "2026-04-11T16:06:00.357385",
+        "author": {
+          "id": "1778e0d9d929e022489acf17840a8ceb",
+          "source_id": "MidnightRider39",
+          "username": "MidnightRider39",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "88e15c5ad3197aa6e6a131118b026a4b",
+        "source_id": "47694883",
+        "content": {
+          "text": "Commonly - though the deal to close is marriage (or sometimes a one night stand). reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.359830",
+        "updated_at": "2026-04-11T16:06:00.359830",
+        "author": {
+          "id": "69f7e052c96987ed9f6c044538c703ac",
+          "source_id": "bluGill",
+          "username": "bluGill",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0b7c5b625e6681858644853040e16927",
+        "source_id": "47695288",
+        "content": {
+          "text": "actually its true, I guess: I have been in partying in my teens and twens, 3 years somehow \"heavily\". When I turned 40, I found out the only reason I went to parties and clubs for me was to meet girls. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.362346",
+        "updated_at": "2026-04-11T16:06:00.362346",
+        "author": {
+          "id": "f565d4d6295bbf07f86670201b050586",
+          "source_id": "KellyCriterion",
+          "username": "KellyCriterion",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "cb3da57e724aa27a03caff5eae869f98",
+        "source_id": "47700862",
+        "content": {
+          "text": "> Do you mean most people go to parties to close deals? It sounds like the concept of social/civic organizations caught you by surprise. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.364899",
+        "updated_at": "2026-04-11T16:06:00.364899",
+        "author": {
+          "id": "9c42349d1a9d25c2c9990bfffcb8b5ac",
+          "source_id": "locknitpicker",
+          "username": "locknitpicker",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "cfedd3f1eab2ed7edcc21c183f09cb92",
+        "source_id": "47702743",
+        "content": {
+          "text": "Idk I just don’t see it like that I guess. Never really closed a deal at a party :/ I just get drunk and enjoy the music reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.367530",
+        "updated_at": "2026-04-11T16:06:00.367530",
+        "author": {
+          "id": "1778e0d9d929e022489acf17840a8ceb",
+          "source_id": "MidnightRider39",
+          "username": "MidnightRider39",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "75fc12ea5d1f5c68efddc9bf275d0c0b",
+        "source_id": "47694994",
+        "content": {
+          "text": "In one way or another, yes. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.370160",
+        "updated_at": "2026-04-11T16:06:00.370160",
+        "author": {
+          "id": "09e4935f62f4a4b1c17fb25be787e5cf",
+          "source_id": "SoftTalker",
+          "username": "SoftTalker",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5d815809b097db3298603481a1cf5e01",
+        "source_id": "47654464",
+        "content": {
+          "text": "This reminds me of [0], basically just inviting the most interesting people I know (also transitively the most interesting people they know), and just getting to meet people.\nI would really like to do this, but half the most interesting people I know are PhD professors I rant with because I'm next to them in a lab. Maybe once my network gets bigger.\nBut I would still like to know more about how you do this, as other people doing this accidentally made me some good friendships, and I'd like to repay this favor to others [0] https://takes.jamesomalley.co.uk/p/this-might-be-oversharing reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.372768",
+        "updated_at": "2026-04-11T16:06:00.372768",
+        "author": {
+          "id": "d70bc14b097da3e5ea3b980ee0da5ef1",
+          "source_id": "e-topy",
+          "username": "e-topy",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "cda70773cdde654bf0b802ec3cbaa9ed",
+        "source_id": "47654803",
+        "content": {
+          "text": "How I do it is context-specific. I used to live in a place where it's undoable and I was very lonely there. I moved to a place where people are much more open to it culturally and there's enough population to +/- bring in a constant flow of 4:1 regulars to newbies. I advertise on local meetup platforms and in local social media. And I go to so many meetups myself that when people ask me what my hobbies are and I tell them, they get curious and self-invite. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.375388",
+        "updated_at": "2026-04-11T16:06:00.375388",
+        "author": {
+          "id": "d8cfefaf385df1927f38489ada82b356",
+          "source_id": "unsupp0rted",
+          "username": "unsupp0rted",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0da0ed52a0668dd35d7b4262394ce48f",
+        "source_id": "47693240",
+        "content": {
+          "text": "Easy two-part process: First part is putting our \"feelers\", ask/tell a bunch of people \"You know, I'm thinking of maybe hosting a dinner party/barbecue/beach day\" and see what reaction you get from people. If sufficient people (sometimes just 2) give somewhat interested vibes, ask again what dates people could do it at, then you send out an invite. You'd get a bunch of people who say yes but then don't show, this is normal and don't take it personally. Secondly, maybe the first 2-3 times it'd be hard to get people to commit, but once you do it more regularly, people will find it easier to commit to something they know you're already committed to. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.378063",
+        "updated_at": "2026-04-11T16:06:00.378063",
+        "author": {
+          "id": "ce8377b632ae8cfdbcb2d078429130ec",
+          "source_id": "embedding-shape",
+          "username": "embedding-shape",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b3450cfb3d82e9b75ae691f99879b1ec",
+        "source_id": "47703252",
+        "content": {
+          "text": "> My hobby is organizing in-person meetups for random people to get together, chat and make friends. Barely structured, if at all. My hobby is also going to the pub. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.380746",
+        "updated_at": "2026-04-11T16:06:00.380746",
+        "author": {
+          "id": "6d3abc4b8bb2996293487bf3513891bf",
+          "source_id": "GJim",
+          "username": "GJim",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a752ff0c52791445a857900658d1442c",
+        "source_id": "47700792",
+        "content": {
+          "text": "Similarly, I did group therapy for a few years, and found it highly and profoundly rewarding. It's much more structured, with a facilitator to help reduce the possibility of dangerous behaviours. It forced me to confront aspects of myself I otherwise might never have. It also (I think) gave me greater insight into what might be behind people's public faces. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.383472",
+        "updated_at": "2026-04-11T16:06:00.383472",
+        "author": {
+          "id": "2ffd8e816a94e22b3fe2b298bbe6fd41",
+          "source_id": "zwischenzug",
+          "username": "zwischenzug",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2c5173e0a34abd2383364790f13ec15c",
+        "source_id": "47668927",
+        "content": {
+          "text": "> You have to accept that 5-15% of the people who would show up to something like this are genuine weirdos you probably don't want to be around. How have you handled this in past meetups? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.386249",
+        "updated_at": "2026-04-11T16:06:00.386249",
+        "author": {
+          "id": "946fb7b3821a552029dcc9390e234f30",
+          "source_id": "gaws",
+          "username": "gaws",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5646c8605bc1ab41412db53671baf6f9",
+        "source_id": "47693177",
+        "content": {
+          "text": "Be courteous, kind, don't accept invites, tell them you're not interested if they're making unwanted advances, and treat them as humans. If they seem receptive and able to handle constructive feedback, tell them what sticks out to you, otherwise just ignore it and move on. Basically the same way you handle the exact same situation outside of organizing meetups, but maybe a bit extra on the friendly-and-try-to-not-traumatize-people-who-might-be-trying side of things. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.389048",
+        "updated_at": "2026-04-11T16:06:00.389048",
+        "author": {
+          "id": "ce8377b632ae8cfdbcb2d078429130ec",
+          "source_id": "embedding-shape",
+          "username": "embedding-shape",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "faed298548067fc1e15e2910c7e2739e",
+        "source_id": "47701435",
+        "content": {
+          "text": "`embedding-shape` answered it better than I could have, but I will add: I \"ban\" people from meetups who are overall bad for the group. E.g. people who register to take up a (free) spot and then don't show up after multiple reminders, people who are especially rude to somebody fragile, even people who are unconstructively / loudly negative (picture the equivalent of walking into an auditorium of 800+ people, picking up the microphone on stage to yell \"this meetup sucks!\" then walking out). This policy is controversial and I'm always trying to find the balance between being as welcoming as possible to people who aren't neurotypical or are going through a hard time and need the social interaction (e.g. me, multiple times in my life)... and people who just come off as jerks and are a net negative to the group. I'm in multiple groups myself and I always measure myself by whether my showing up that day was a net positive, neutral or a net negative. If the latter, I don't belong there... at least not until I fix whatever was wrong. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.391883",
+        "updated_at": "2026-04-11T16:06:00.391883",
+        "author": {
+          "id": "d8cfefaf385df1927f38489ada82b356",
+          "source_id": "unsupp0rted",
+          "username": "unsupp0rted",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "74b37489fff275f0cdcbd9559547303e",
+        "source_id": "47693112",
+        "content": {
+          "text": "I use Blood on the Clocktower to do this, it's a social deduction game (that's just not randomly accusing each other) so it gets everyone talking easily reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.394704",
+        "updated_at": "2026-04-11T16:06:00.394704",
+        "author": {
+          "id": "e17d7a7ac5651aa2548483c98bc86663",
+          "source_id": "ngokevin",
+          "username": "ngokevin",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "01d7510a85c3f69e6c082e9f18578ad2",
+        "source_id": "47693577",
+        "content": {
+          "text": "It has been my experience that social deduction games are very attractive to folks who have problems socializing in day-to-day life. You can see them almost come alive when they are given the permission. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.397568",
+        "updated_at": "2026-04-11T16:06:00.397568",
+        "author": {
+          "id": "7b084e335e9cd67d13f3b10f783e3984",
+          "source_id": "Triphibian",
+          "username": "Triphibian",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f3ab660f0af63de63ac1981c9f0ee704",
+        "source_id": "47694256",
+        "content": {
+          "text": "I think a lot of people need prompting for something to talk about. They have no confidence that topics they bring up will be interesting to anyone else. So any kind of gathering that takes that pressure off will be attractive. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.400454",
+        "updated_at": "2026-04-11T16:06:00.400454",
+        "author": {
+          "id": "09e4935f62f4a4b1c17fb25be787e5cf",
+          "source_id": "SoftTalker",
+          "username": "SoftTalker",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "cafbcb881dd76899dd49f553a9c0cc70",
+        "source_id": "47700212",
+        "content": {
+          "text": "I've been trying to come up with some interesting prompts after observing just asking someone \"What's been happening\" yields nothing but \"Oh not much, work\". So far the old classics of just probing in to what they do for work, what they did last weekend, etc and then finding any bit of info to drill down in to more interesting topics works best. Also very important to recognize most conversation starters are someone serving the ball to you, you need to hit it back with a continuation. If you're giving one word dead end answers you've just caught the ball and dropped it. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.403388",
+        "updated_at": "2026-04-11T16:06:00.403388",
+        "author": {
+          "id": "7230aeb792dfd6e3c3197ad3e4f7907b",
+          "source_id": "Gigachad",
+          "username": "Gigachad",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9da7144219f31a7fe7f05c832f91f749",
+        "source_id": "47700846",
+        "content": {
+          "text": "Tangential, but I've been following your comments for years now and I have to say whatever you've discovered seems to be serving you well. You're seriously 1000x more likeable than even just a couple of years ago. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.406341",
+        "updated_at": "2026-04-11T16:06:00.406341",
+        "author": {
+          "id": "52abb920e871be4de155ff482716817e",
+          "source_id": "AussieWog93",
+          "username": "AussieWog93",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7b0a2f23f97b135781d787929e601947",
+        "source_id": "47701120",
+        "content": {
+          "text": "I was a bit surprised to read this. I didn't think I'd stand out in the sea of comments here. But to this, since a couple of years ago I had a break up, moved city, quit all social media and went outside to real events. HN is the only place I still comment on. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.409360",
+        "updated_at": "2026-04-11T16:06:00.409360",
+        "author": {
+          "id": "7230aeb792dfd6e3c3197ad3e4f7907b",
+          "source_id": "Gigachad",
+          "username": "Gigachad",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9b064cd1ffc307f6f3413b508a0fa8c1",
+        "source_id": "47696146",
+        "content": {
+          "text": "Yes and the reverse is also true. I don’t like to play social games at my meetups because that’s a framework that seems to stifle genuine conversation. I do sometimes provide hypothetical questions as a bit of scaffolding. > You can receive $1 million immediately for every 1 year of your life you are willing to give up (taken off the end of your life). How many years, if any, do you sell? > You get to ask a \"Cosmic Google\" one single question about any mystery in history (e.g., \"Who was Jack the Ripper?\" or \"Are we alone in the universe?\") and get the absolute truth. What are you asking? > If everyone in the world had a floating stat above their head (like \"lies told\" or \"pizzas eaten\"), which stat would you want to be able to see? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.412415",
+        "updated_at": "2026-04-11T16:06:00.412415",
+        "author": {
+          "id": "d8cfefaf385df1927f38489ada82b356",
+          "source_id": "unsupp0rted",
+          "username": "unsupp0rted",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e8285b0a400d34d6fb9d44e60a916271",
+        "source_id": "47696254",
+        "content": {
+          "text": "Same. I don't like to yuck other people's yums, but I don't get a lot from those kinds of games. Talking to strangers is not a problem for me. I have been spending a bit of time at the local board game shops and the crowd sounds quite similar to the crowd you are attracting. On a very basic level I just try to model being a social adult and hope it rubs off. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.415466",
+        "updated_at": "2026-04-11T16:06:00.415466",
+        "author": {
+          "id": "7b084e335e9cd67d13f3b10f783e3984",
+          "source_id": "Triphibian",
+          "username": "Triphibian",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ee3511233c758b2c30b656da32feb478",
+        "source_id": "47696897",
+        "content": {
+          "text": "the one and only meetup i ever went to (that wasn't something vaguely work-related) was a Werewolf meetup (the game). It actually wasn't very social, but it was a bunch of people who were really into Werewolf. Which, really, was what it was meant to be (and it was fun, because i love to play Werewolf) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.418535",
+        "updated_at": "2026-04-11T16:06:00.418535",
+        "author": {
+          "id": "b9102a5f11646b98dd734bf2e535918d",
+          "source_id": "ariuser8434",
+          "username": "ariuser8434",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e3714a1a1ebfcacb05f5b3ae56cba257",
+        "source_id": "47714709",
+        "content": {
+          "text": "I went to one of those too, before Covid.  It was great.  I went to another one with the same group, but for the similar game \"Witch\". Then came Covid, and the group disappeared and never re-appeared.  :-( reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.421636",
+        "updated_at": "2026-04-11T16:06:00.421636",
+        "author": {
+          "id": "2a5ca359550a3786a8b3d9e974c12e84",
+          "source_id": "shiroiuma",
+          "username": "shiroiuma",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "95267935d29bc46a7c557243b41a0f5c",
+        "source_id": "47699467",
+        "content": {
+          "text": "Although I've had some fun with deduction games, I'm usually extremely averse to them. Forced to sit down and try to lie while listen to my voice suspiciously, then having the group turn against me and all my friends and randos interrogating and accusing me... it's like a special hell-dream come to life. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.424763",
+        "updated_at": "2026-04-11T16:06:00.424763",
+        "author": {
+          "id": "1e87f26bd0c428a51d4210d2363e5abe",
+          "source_id": "Rendello",
+          "username": "Rendello",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5064832c9b3d45e21ebe62dbe8de78f2",
+        "source_id": "47701375",
+        "content": {
+          "text": "Indeed, and if you're especially good at it and win the game, then everybody knows from then on that you can't be trusted because you can't be easily read. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.427937",
+        "updated_at": "2026-04-11T16:06:00.427937",
+        "author": {
+          "id": "d8cfefaf385df1927f38489ada82b356",
+          "source_id": "unsupp0rted",
+          "username": "unsupp0rted",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a4ac43eb502da2da5cda002146f6696a",
+        "source_id": "47706448",
+        "content": {
+          "text": "Yeah either you're in some Kafka-esque trial or you learn your friends can lie to your face while smiling! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.431115",
+        "updated_at": "2026-04-11T16:06:00.431115",
+        "author": {
+          "id": "1e87f26bd0c428a51d4210d2363e5abe",
+          "source_id": "Rendello",
+          "username": "Rendello",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "df08dffd9515a9c68ba9872ee426497e",
+        "source_id": "47701173",
+        "content": {
+          "text": "I can confirm that this is a great hobby. I did a weekly meet up, man, nearly 20 years ago, which was at the same time and place every week, and we (me and the core clique which consolidated within a month) advertised it on Twitter, which was niche enough at the time that you’d get a bunch of interesting weirdos showing up. It’s how I met my wife, how I met a whole bunch of people who still feature in my life decades on, how businesses got started, and so much came out of it for everyone involved. It probably helped that we did it over beer and burgers, as one was a social lubricant and the other robbed people of an excuse to leave early. Plus afterwards it transformed into poker back at my place, which was how I really got to know people fast. Talking to strangers is fun - as is figuring out which strangers will like which other weirdos you’ve got to know and buddy them up. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.434362",
+        "updated_at": "2026-04-11T16:06:00.434362",
+        "author": {
+          "id": "01924e38483dfedc1915fa7c5af53a2f",
+          "source_id": "madaxe_again",
+          "username": "madaxe_again",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "55f288debf47f90fe3c1edd85a66c8db",
+        "source_id": "47683614",
+        "content": {
+          "text": "I organise events as well and I'm wondering if you ever charged for them. I used to do them for free but so many people signed up and didn't attend later that it was hard to put numbers to book a venue to meet. How did you solve this? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.437581",
+        "updated_at": "2026-04-11T16:06:00.437581",
+        "author": {
+          "id": "208c431e415d9ac4a8a13b414468009d",
+          "source_id": "Gooblebrai",
+          "username": "Gooblebrai",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3ce6e9ab19a0ab4eecc863eb52742e74",
+        "source_id": "47693846",
+        "content": {
+          "text": "i would do free venues only. usually restaurants are free because you consume food. if that is not an option, it depends on the cost. i have seen events where people were asked to contribute something when they arrive. you can usually announce the cost of the venue and ask everyone to contribute appropriately. if you fall short then next time ask people to contribute more. or keep a running tally during the event until the venue cost is met. from my personal feeling, if it costs more than $1-2 per person the venue is too expensive. find a cheaper one. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.440833",
+        "updated_at": "2026-04-11T16:06:00.440833",
+        "author": {
+          "id": "9c061a57e005c6c4669ea7a3d763f6cd",
+          "source_id": "em-bee",
+          "username": "em-bee",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "bf97522cded69b8df24043808e165a02",
+        "source_id": "47700083",
+        "content": {
+          "text": "> You have to accept that 5-15% of the people who would show up to something like this are genuine weirdos Thanks for unlocking a new anxiety for me. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.444147",
+        "updated_at": "2026-04-11T16:06:00.444147",
+        "author": {
+          "id": "e2e317e076f5f2cddc13bc8eed345331",
+          "source_id": "trick-or-treat",
+          "username": "trick-or-treat",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ab15c1673c51c69f4ffa6ab4f111a008",
+        "source_id": "47700253",
+        "content": {
+          "text": "This is just par for the course of human existence. Lump it under all the other \"human situation\" stuff, somewhere between \"stubbed toe\" and \"cancer.\" reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.447447",
+        "updated_at": "2026-04-11T16:06:00.447447",
+        "author": {
+          "id": "8e1ff5b4b64dad625c59c6a8ca0ebf7b",
+          "source_id": "komali2",
+          "username": "komali2",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d1eef9d2e02f4abca9c54bfdafca0417",
+        "source_id": "47700444",
+        "content": {
+          "text": "Huh? I have zero stubbed toe anxiety. If it happens it happens. But knowing that I'm being classified by event organizers (and that there's a 10% chance I will be labeled \"complete weirdo\")? That will keep me from participating in events. Which is too bad because I already have enough reasons not to participate in events without adding neuroses on top of them. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:00.450817",
+        "updated_at": "2026-04-11T16:06:00.450817",
+        "author": {
+          "id": "e2e317e076f5f2cddc13bc8eed345331",
+          "source_id": "trick-or-treat",
+          "username": "trick-or-treat",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-04-11T16:06:08.235893",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "a3f1ba785eac8fbdff8bdf7d06c4933b",
+      "source_id": "47700460",
+      "title": "Ask HN: What are you building that's not AI related?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-11T16:05:51.257416",
+      "updated_at": "2026-04-11T16:05:51.257416",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "3d5b3f6c6188945b7ec02d0033196d29",
+        "source_id": "meander_water",
+        "username": "meander_water",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 139,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47700460",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-04-11T16:06:12.865995",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "ed8b99748f74a312970ac9edfb557d15",
+      "source_id": "47718113",
+      "title": "Ask HN: Why Databases Instead of Filesystem?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">A database could be described crudely as a program for interfacing with data on disk. Most software is built to interface with databases although the software also has (often very capable) ways of interfacing with data on disk via filesystem interaction.<p>My question is, what historically has driven the industry to focus on database-specific solutions, rather than on filesystem-specific solutions?<p>This is not a rant against databases, but I do wonder why many major programming languages and frameworks (RoR Active Directory,  C# EF, etc) have put much effort into making database interaction smooth from the perspective of the programming language, instead of putting effort into interacting with data on disk. Kind of an alternate reality sort of musing.</p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-11T16:05:51.258102",
+      "updated_at": "2026-04-11T16:05:51.258102",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "6b546afc8962dd794483b549a17ac5f5",
+        "source_id": "uticus",
+        "username": "uticus",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 11,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47718113",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "a71edd57294d0bb0bf407f261d9fd945",
+        "source_id": "47720804",
+        "content": {
+          "text": "Because you'll slowly start building the individual pieces of the database over the file system, until you've just recreated a database. Database didn't spawn out of nothing, people were writing to raw files on disk, and kept on solving the same issues over and over (data definitions, indexes, relations, cache/memory management, locks, et al). So your question is: Why does the industry focus on reusable solutions to hard problems, over piece-meal recreating it every project? And when phased in that way, the answer is self-evident. Productivity/cost/ease. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:14.097466",
+        "updated_at": "2026-04-11T16:06:14.097466",
+        "author": {
+          "id": "e9efefb03d571676bb26bfb2a965b128",
+          "source_id": "Someone1234",
+          "username": "Someone1234",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c4c9f5ae79166165235e79f803d8f917",
+        "source_id": "47721483",
+        "content": {
+          "text": "Historically, Unix (and many other operating systems) stored file names as an unsorted list so using the FS as KV store had O(N) lookup times whereas a single-file hashed database like dbm, ndbm, gdbm, bdb, etc gave you O(1) access. If you're using a relational DB, like SQL, as a relational database, then it gives you a lot the FS doesn't give you.  If you're using a relational database as a key-value store, SQLite is 35% than the filesystem [1] Perhaps one of the biggest users of the filesystem as a KV store is git -- (not an llm, I just wanted to use --) .git/objects/xx/xxxxx maps the sha1 file hash to the compressed data, splayed by the first 2 bytes. However git also uses a database of sorts (.git/objects/pack/....). To sum up the git pack-objects man page, it's more efficient. 1. https://www.sqlite.org/fasterthanfs.html reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:14.098069",
+        "updated_at": "2026-04-11T16:06:14.098069",
+        "author": {
+          "id": "fb28afdc057276a5c1694f5dcab79b76",
+          "source_id": "ksherlock",
+          "username": "ksherlock",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "cefed810414e1a909dae80c5c397c7c6",
+        "source_id": "47729376",
+        "content": {
+          "text": "A lot of early games were more like file systems and they worked. I'm surprised nobody had mentioned ACID yet. The API revolution might be another thing - you were able to swap out a database with any other. Risky decisions are fine when they're reversible. Databases were a more reversible way to deal with scaling and architecture. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:14.098595",
+        "updated_at": "2026-04-11T16:06:14.098595",
+        "author": {
+          "id": "65547db35ad470ce1d9e44d413173434",
+          "source_id": "muzani",
+          "username": "muzani",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0a2f891339d0a0a11300b8c35565f017",
+        "source_id": "47725839",
+        "content": {
+          "text": "There is no reason why a single data management system cannot be built that can do everything that either a file system or a database can do (I have been building one). It is an object store called Didgets (i.e. Data Widgets). Each Didget has a specific type. One type is used to hold unstructured data like a file does. These Didgets are unsurprisingly called File Didgets. Other types of Didgets can hold lists (used to create hierarchical folders, music play lists, photo albums, etc.). Others hold sets of Key/Value pairs which are used to create a tagging system for other Didgets or columns in a relational table. Using a variety of Didgets, I have been able to create hierarchical file systems where a simple query can find one or thousands of files instantly out of 200 million+ based on the values of any tags attached. In the same container (called a pod), it can store tens of thousands of relational tables; each one capable of having 100,000+ columns and billions of rows. The system is 'multi-model' so it could manage hierarchical data, relational data, graph data, or anything managed by a NoSQL system. It is not only versatile, but is incredibly fast. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:14.099215",
+        "updated_at": "2026-04-11T16:06:14.099215",
+        "author": {
+          "id": "54f7f0b806ee11b35669f05f86ad70b2",
+          "source_id": "didgetmaster",
+          "username": "didgetmaster",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "182b4be1a2ff2794dcae046b1778660e",
+        "source_id": "47723848",
+        "content": {
+          "text": "You might enjoy the FOSDEM talk I did about half a dozen years ago: https://archive.fosdem.org/2021/schedule/event/new_type_of_c... I adapted most of it into an article for The Register: https://www.theregister.com/2024/02/26/starting_over_rebooti... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:14.099837",
+        "updated_at": "2026-04-11T16:06:14.099837",
+        "author": {
+          "id": "f739d17dabb506f9f54597689d189dbd",
+          "source_id": "lproven",
+          "username": "lproven",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f5efb7520176d1a7e7be96461608a1d0",
+        "source_id": "47718243",
+        "content": {
+          "text": "More of a sidenote than an answer but a database system can be faster than using the disk directly: https://sqlite.org/fasterthanfs.html#approx . It turns out having a defined abstraction like a database makes things faster than having to rely on a rawer interface like filesystems because you can then reduce the number of system calls and context switches necessary. If you wanted to optimize that in your own code rather than relying on a database, you'd end up reinventing a database system of sorts, when (probably) better solutions already exist. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:14.100480",
+        "updated_at": "2026-04-11T16:06:14.100480",
+        "author": {
+          "id": "cd849fb91a98ade5b4e25378665a3665",
+          "source_id": "lgeorget",
+          "username": "lgeorget",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c02465dad5f984d657a2e50725b67c0b",
+        "source_id": "47721426",
+        "content": {
+          "text": "But this would only relate to local databases wouldn't it? Having to connect to a postgres server or something similar. The latency for queries would be far higher than using the file system. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:14.101168",
+        "updated_at": "2026-04-11T16:06:14.101168",
+        "author": {
+          "id": "adfc43a2ac38be9863d058bed19f1c02",
+          "source_id": "AyanamiKaine",
+          "username": "AyanamiKaine",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e746e6eddfaed3b66fe168fb185a122f",
+        "source_id": "47722958",
+        "content": {
+          "text": "That's orthogonal to the discussion, I think, you can also mount and access remote filesystems from any program as if it was a local filesystem. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:14.101815",
+        "updated_at": "2026-04-11T16:06:14.101815",
+        "author": {
+          "id": "cd849fb91a98ade5b4e25378665a3665",
+          "source_id": "lgeorget",
+          "username": "lgeorget",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "766dc69284b774a5ff8a267c16812105",
+        "source_id": "47722769",
+        "content": {
+          "text": "Consider: a cheap VPS can have disk latency above 10ms while the in-datacenter LAN can be ~1ms. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:14.102509",
+        "updated_at": "2026-04-11T16:06:14.102509",
+        "author": {
+          "id": "91daf0cbb27ecc512288096fc2700e6c",
+          "source_id": "pushfoo",
+          "username": "pushfoo",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "95d4da237c5581d4ddd91963147217c8",
+        "source_id": "47718176",
+        "content": {
+          "text": "A database is a file system when you get down to it. The reason people use them is to abstract up a layer so you can query the data and get the results you want instead of having to iterate through direct reads of a disk, then having to read, parse, and filter what you want from those reads. You could always write code to help do those things direct from disk, but you know what you have just written if you do so? A database! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:14.103222",
+        "updated_at": "2026-04-11T16:06:14.103222",
+        "author": {
+          "id": "b676d1bf3770c1a06ca92e42765f5c91",
+          "source_id": "codingdave",
+          "username": "codingdave",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a5fcbbcfe519d4006e6834174ae01cd8",
+        "source_id": "47718254",
+        "content": {
+          "text": "I'd say the filesystem is a database . It would be straightforward,  for instance,  to implement a lot of the functionality of a filesystem in a database with BLOBs.  Random access might be a hassle,  but people are getting used to \"filesystem-like\" systems which are bad at random access like S3. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:14.103993",
+        "updated_at": "2026-04-11T16:06:14.103993",
+        "author": {
+          "id": "e760097489e9389b620772b6f7bd8da6",
+          "source_id": "PaulHoule",
+          "username": "PaulHoule",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b6b5c22280b54035ae5980480e73d970",
+        "source_id": "47718269",
+        "content": {
+          "text": "> You could always write code to help doing those things direct from disk, but you know what you have just written if you do so? A database! Yes, but that's my point. Why is this not a part of the standard library / typical package with very little friction with the rest of the code, instead of a separate program that the standard library / typical packages provide in an attempt to reduce the friction? Or are you making the general point that databases already existed prior to the standard libraries etc, and this is just a case of interfacing with an existing technology instead of rebuilding from scratch? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:14.104771",
+        "updated_at": "2026-04-11T16:06:14.104771",
+        "author": {
+          "id": "6b546afc8962dd794483b549a17ac5f5",
+          "source_id": "uticus",
+          "username": "uticus",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d53ac82390b3292741e5d8f5b137023d",
+        "source_id": "47720635",
+        "content": {
+          "text": "Because a reasonably well optimized database with support for indexes, data integrity enforcement, transactions, and all the other important things we expect from a good (relational) database is complex enough that it takes a rather large codebase to do it reasonably well. It’s not something you slap together out of a handful of function calls. ETA: look at SQLite for an example — it’s a relatively recent and simple entrant in the field and the closest you’ll find in the mainstream to a purely filesystem based RDBMS. How would you provide a stdlib that would let you implement something like that reasonably simply? What would be the use case for it? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:14.105591",
+        "updated_at": "2026-04-11T16:06:14.105591",
+        "author": {
+          "id": "6b7f6c219ea995fc6ef3e9e6eae719d5",
+          "source_id": "apothegm",
+          "username": "apothegm",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9811462e304a3654dd8718eb27f740d5",
+        "source_id": "47725553",
+        "content": {
+          "text": "BTW: some early filesystems were more database-like: https://en.wikipedia.org/wiki/ISAM https://en.wikipedia.org/wiki/Record_Management_Services They were more like BerkeleyDB and lacked Query Planner. I think Oracle internally using something similar, i.e. a native filesystem optimized for an RDBMS. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:14.106487",
+        "updated_at": "2026-04-11T16:06:14.106487",
+        "author": {
+          "id": "14a78b08d287cd114dfa25e031742c1a",
+          "source_id": "nivertech",
+          "username": "nivertech",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "78f8b3226a8d6eaffc0de05cdf2aaab7",
+        "source_id": "47721374",
+        "content": {
+          "text": "I think there are a lot of good answers here, but it really comes down to the type of content being stored and access patterns. A database is a data structure with (generally) many small items that need to be precisely updated, read and manipulated. A lot of files don't necessarily have this access pattern (for instance rendering a large video file) ... a filesystem has a generic access pattern and is a lower level primitive than a database. For this same reason you even have different kinds of database for different types of access patterns and data types (e.g Elasticsearch for full text search, MongoDB for JSON, Postgres for SQL) Filesystem is generic and low-level, database is a higher order abstraction. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:14.107379",
+        "updated_at": "2026-04-11T16:06:14.107379",
+        "author": {
+          "id": "76e460edb65b0c04baa1478443f429a5",
+          "source_id": "stanfordkid",
+          "username": "stanfordkid",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "27149e8a8ac18e73717682a1c476fa0a",
+        "source_id": "47718491",
+        "content": {
+          "text": "It turns out to be quite unreasonably difficult to put something aside for a time -- from milliseconds to decades -- and then go back and find it again.  The difficulty is all in the \"find\", because things that anyone might care about finding have various different aspects that different people may care about.  There is no middle ground between the electronic equivalent of a pile of papers on one's desk and the full capabilities of the relational model.  Filesystems are somewhere in between; but there is no useful place in between. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:14.108269",
+        "updated_at": "2026-04-11T16:06:14.108269",
+        "author": {
+          "id": "d7462fd4cd6387945f0a179886626e01",
+          "source_id": "FrankWilhoit",
+          "username": "FrankWilhoit",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "29cd0a5e34febe07262d3b37dbf78ca3",
+        "source_id": "47720945",
+        "content": {
+          "text": "Just like any other abstraction that helps you do things more efficiently. Database is an abstraction over the more crude file system. It is similar to asking the question \"why not write direct assembly code instead of a programming language\". The answer is the same. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:14.109178",
+        "updated_at": "2026-04-11T16:06:14.109178",
+        "author": {
+          "id": "73b2b8fc1fce788a8ef2cd612a35dd6c",
+          "source_id": "codegeek",
+          "username": "codegeek",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "bbe741f2d5812c176b5f846ae3bb23dc",
+        "source_id": "47721857",
+        "content": {
+          "text": "The tabular SQL database generally regarded as the fastest, SQLite, is measured as only averaging about 3x faster than the file system assuming you are using well optimized approaches in each system.  That said the file system could be faster depending upon the operation. The advantages of a database: * Locking - Tables applying locking conventions to prevent race conditions from multiple operations writing competing changes to the same data repository.  If its only a single application that has access to the data this can be solved with queues, but locking is necessary when multiple applications write to the same data at the same time. * API - SQL provides a grammar that many people are familiar with.  In practice this all goes to shit when you have to write a bunch of stored procedures, SQL functions, or table triggers.  I really don't like SQL. * References - In RDBMSs records of tables can reference records of other tables using secondary keys that point to unique identifiers of the given other table.  This is typically employed as secondary keys.  This is also solved auto-magically in languages where objects are passed by reference, but that isn't the file system. --- If your database, data system, whatever is in memory only there are very few real advantages to using something like SQL.  If the data is on disk the file system is the lower level and is designed in such a way as to optimize access to the file system by something like SQL, such as with Logical Volume Manager that can create data volumes that span different hardware. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:14.110196",
+        "updated_at": "2026-04-11T16:06:14.110196",
+        "author": {
+          "id": "0ae492937dcc65e2e9ad4e3b8663757f",
+          "source_id": "austin-cheney",
+          "username": "austin-cheney",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2238698fb78f704ece5c2715e453f928",
+        "source_id": "47721397",
+        "content": {
+          "text": "I do that a little bit, for simple cache where I don't need it to be always up to date but close enough and on a single instance only. Some of my horizontally scaled services have like 500mb disk. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-11T16:06:14.111183",
+        "updated_at": "2026-04-11T16:06:14.111183",
+        "author": {
+          "id": "a30a8695019e97e5413f4a0335aae62a",
+          "source_id": "moomoo11",
+          "username": "moomoo11",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-04-11T16:06:14.111793",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "ebee5c213af95b27adb6a66e41db5ae7",
+      "source_id": "47667504",
+      "title": "Ask HN: How do you handle marketing as a solo technical founder?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-11T16:05:51.258855",
+      "updated_at": "2026-04-11T16:05:51.258855",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "23aaf55378a0a9c2e5777a36368bc283",
+        "source_id": "lazarkap",
+        "username": "lazarkap",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 142,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47667504",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-04-11T16:06:19.235312",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "0857d388ed9ac2b9889e0c5de24000a5",
+      "source_id": "47688712",
+      "title": "Ask HN: Should AI credits be refunded on mistakes?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-11T16:05:51.259394",
+      "updated_at": "2026-04-11T16:05:51.259394",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "f5a1d7794628b626856a30f667590b96",
+        "source_id": "ed_elliott_asc",
+        "username": "ed_elliott_asc",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 17,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47688712",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-04-11T16:06:22.596628",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "e6f7bd1b5b3826ee74a475d1f23990de",
+      "source_id": "47714982",
+      "title": "Ask HN: Are you encountering AI-related questions in the hiring market?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-11T16:05:51.260040",
+      "updated_at": "2026-04-11T16:05:51.260040",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "3006c00b8c40cc4fe81a6e78eea2f602",
+        "source_id": "somthingwrong",
+        "username": "somthingwrong",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 6,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47714982",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-04-11T16:06:28.243081",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "b2e4bd8ed0996f47dced4405bc8d8eac",
+      "source_id": "47689759",
+      "title": "Ask HN: How do you manage your digital legacy for after you die?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-11T16:05:51.260553",
+      "updated_at": "2026-04-11T16:05:51.260553",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "af89c3c25d7b31323933749e06340705",
+        "source_id": "orbanlevi",
+        "username": "orbanlevi",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 14,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47689759",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-04-11T16:06:33.111229",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "84ea501fbd79ab56076578a9bb5df829",
+      "source_id": "47711381",
+      "title": "Ask HN: What would you do with an AI model capable of continuous learning?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-11T16:05:51.261310",
+      "updated_at": "2026-04-11T16:05:51.261310",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "2142ad1dd133154627fbc66330f38dc1",
+        "source_id": "jballanc",
+        "username": "jballanc",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 4,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47711381",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-04-11T16:06:37.258304",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "7d06f212a93b934317974215cc17c3e9",
+      "source_id": "47693990",
+      "title": "Ask HN: Founders/investors, what AI bet you made in 2022 and how it is going?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-11T16:05:51.261960",
+      "updated_at": "2026-04-11T16:05:51.261960",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "844f5d30d784e2ae68f7cffd365b888e",
+        "source_id": "kjok",
+        "username": "kjok",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 6,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47693990",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-04-11T16:06:42.313961",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "edcd5be758354f07fd08f8d0baa40131",
+      "source_id": "47701485",
+      "title": "Ask HN: Local-first meetings recorder and transcriber?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-11T16:05:51.262469",
+      "updated_at": "2026-04-11T16:05:51.262469",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "f15a18c27d389b7f18a5479941d030ae",
+        "source_id": "dandaka",
+        "username": "dandaka",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 3,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47701485",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-04-11T16:06:47.074490",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
   }
 ]
