@@ -1,0 +1,4447 @@
+[
+  {
+    "post": {
+      "id": "2ff7e68709e482627de79cb191d695ab",
+      "source_id": "47741527",
+      "title": "Ask HN: What Are You Working On? (April 2026)",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">What are you working on?  Any new ideas that you're thinking about?</div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-13T16:24:18.164628",
+      "updated_at": "2026-04-13T16:24:18.164628",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "bec7335d8f4973f3cc1886331a825dda",
+        "source_id": "david927",
+        "username": "david927",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 288,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47741527",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "8f3ccef7e63221289f83fae08cc10f6f",
+        "source_id": "47750341",
+        "content": {
+          "text": "I'm building a financial censorship monitor at https://nofunds.org/ , that tells a story of how money has been turned into a political weapon to silence journalists, activists, and civil society by freezing assets, blocking accounts, sanctioning, and banning payments. It's part of my master's thesis https://www.doria.fi/handle/10024/187407 and also https://news.ycombinator.com/item?id=36430596 , but now I wanted to make a more comprehensive list, using Claude API and manual work. I'm designing a website right now, and the site is live within 2 months (given the API rate limitations currently to process articles). I know Hacker News is quite critical of Bitcoin, but it's also worthy to warn that, indeed, Bitcoin is at least a marginal tool to those whose bank accounts may be endangered. I'm basically arguing that Bitcoin can be used to resist such financial censorship, deplatforming and so on. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.836422",
+        "updated_at": "2026-04-13T16:24:23.836422",
+        "author": {
+          "id": "ea6506b07d95c5f2ee8396b5a8c51662",
+          "source_id": "kokkis",
+          "username": "kokkis",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "84fb6e8932022763d49a58ff79b2056f",
+        "source_id": "47753721",
+        "content": {
+          "text": "Have you read or connected with Rainey Reitman, who just published the book Transaction Denied? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.836983",
+        "updated_at": "2026-04-13T16:24:23.836983",
+        "author": {
+          "id": "57435baab9210e8231dec17aec646b05",
+          "source_id": "sinak",
+          "username": "sinak",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1bd3d79f2cefed2e5af96f7a2c5b2fd9",
+        "source_id": "47753654",
+        "content": {
+          "text": "I built cross-border compliance Management info system dashboards at a Swiss private bank. The much more widespread reality is: entire nationalities and residencies get quietly moved to \"do not serve\" lists because the regulatory cost of serving them exceeds revenue. No public process, no appeal, no notice, you just can't open an account:financial exclusion most people never see. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.837534",
+        "updated_at": "2026-04-13T16:24:23.837534",
+        "author": {
+          "id": "a712740cee5199bdc0fa09ed693fc453",
+          "source_id": "Tianning",
+          "username": "Tianning",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "54e818bfb18045704e92f8f0af4865f3",
+        "source_id": "47751635",
+        "content": {
+          "text": "this is interesting. my hunch is that we're moving towards more surveillance, censorship and deplatforming in the future, and CBDCs are a major tool for that. I like Bitcoin, despite its problems (price volatility and quantum vulnerability)  but I think censorship-resistant stablecoins would be a better solution for people looking to protect themselves from Big Brother. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.838159",
+        "updated_at": "2026-04-13T16:24:23.838159",
+        "author": {
+          "id": "ea032a769d8a1a4a375a47379bba3edc",
+          "source_id": "jmstfv",
+          "username": "jmstfv",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "fa6553e48b967022ce97c4e36ab00fb8",
+        "source_id": "47752338",
+        "content": {
+          "text": "Shockingly bitcoin gained a lot more power for me when prominent government officials started using it to start operating outside the checks and balances of the banking system. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.838783",
+        "updated_at": "2026-04-13T16:24:23.838783",
+        "author": {
+          "id": "35d1363d500c95c1eab0a9d6804d56f5",
+          "source_id": "vablings",
+          "username": "vablings",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0618d240b37a0db6e0c2e40e7d50ec4f",
+        "source_id": "47747939",
+        "content": {
+          "text": "I'm building Tela ( https://github.com/paulmooreparks/tela ), a self-hosted relay that tunnels TCP services through encrypted WireGuard connections. The key difference from Tailscale and similar tools is that it requires no TUN adapter, no root access, and no admin privileges on either end. It runs entirely in userspace. My initial motivation was wanting to RDP and SSH into my home workstation from a locked-down corporate laptop when I travel. I couldn't install Tailscale on the laptop, and I didn't want to pay for a cloud VM just to do SSH port forwarding. Now I use it to tie together half a dozen machines, both locally and on Hetzner & Linode. I can SSH and RDP into remote machines, host a git repo on one machine and access it from the others, and (optionally) share files across all of them on a local mount. You run a hub (telahubd), register machines with a lightweight agent (telad), and connect from anywhere with the client (tela). All three are single Go binaries with no external dependencies. The hub never sees your traffic. It just relays opaque WireGuard ciphertext. All binaries run on Windows, Linux, and macOS. There is also a desktop GUI app, TelaVisor, that wraps the client and enables remote management of hubs and agents. It's Apache 2.0-license and pre-1.0 release, but I'm polishing it for a stable 1.0 release in the next month or so. I'm also working on an enterprise-grade management portal that works with Tela, https://awansaya.net/ reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.839538",
+        "updated_at": "2026-04-13T16:24:23.839538",
+        "author": {
+          "id": "3d93c39dfe894b1d3c36e3dc8a1d001b",
+          "source_id": "paulmooreparks",
+          "username": "paulmooreparks",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "44b6bba8c92d099ee62995e252ddfcef",
+        "source_id": "47751487",
+        "content": {
+          "text": "ah nice. i’ve actually been building something pretty similar on top of wireguard too my use case is a bit different though. i started because i wanted to give friends access to specific things in my homelab, but very selectively. like “you can use jellyfin on this one machine, but you can’t ssh, and you can’t even see my other devices” tailscale is honestly amazing for getting devices connected, i still use it a lot. but once i started trying to do these very specific “this machine can talk to that machine only on this port” kind of setups, it started feeling more complex than it should be, at least for personal use. ACL editor is more confusing when it comes to this. i know we have got option for tags and things, but those are very poorly documented and i haven't found a single tutorial that works nicely. your userspace approach is really interesting btw, especially the no tun / no root part. makes sense to run it on rigit enterprise environments. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.840235",
+        "updated_at": "2026-04-13T16:24:23.840235",
+        "author": {
+          "id": "5bee2f7bd12b6caf0d208a64acc14d6c",
+          "source_id": "dhrm1k",
+          "username": "dhrm1k",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "06573f4cb60fb89aac9f4a3c6f20b43e",
+        "source_id": "47752087",
+        "content": {
+          "text": "Tela has ACLs per machine, but not per service. That's an interesting use case, and I'm shocked that I missed it. I've added it to the pre-1.0 roadmap. Thank you! Another thing on the release roadmap is a TUN/root story, since there is value in having that layer as well. Tela will always support the user-space approach, however, so that unlike Tailscale it's always accessible. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.840915",
+        "updated_at": "2026-04-13T16:24:23.840915",
+        "author": {
+          "id": "3d93c39dfe894b1d3c36e3dc8a1d001b",
+          "source_id": "paulmooreparks",
+          "username": "paulmooreparks",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "53bd7d7b4c6fdc1bdb0541953f28425c",
+        "source_id": "47750380",
+        "content": {
+          "text": "I've been working on a similar tool for a while - connet ( https://github.com/connet-dev/connet ). It builds upon QUIC (instead of wireguard), but I think from an enduser perspective the results ends up looking pretty similar. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.841667",
+        "updated_at": "2026-04-13T16:24:23.841667",
+        "author": {
+          "id": "c87888774de5cc839ed8a49aa3ab0854",
+          "source_id": "Ingon",
+          "username": "Ingon",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1b86037341d493d7194de8a4d23977bd",
+        "source_id": "47749262",
+        "content": {
+          "text": "Very interesting - but I also find it important for solutions to state the trade-offs if they provide a novel approach that doesn't have the same requirements as the main contenders. In your case, what are the trade offs for running in user space ? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.842409",
+        "updated_at": "2026-04-13T16:24:23.842409",
+        "author": {
+          "id": "067f9befce66cc200292e82bf75d9cef",
+          "source_id": "mentalgear",
+          "username": "mentalgear",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "be9cb8e13d1ef4943b6dc302a87f35c7",
+        "source_id": "47749894",
+        "content": {
+          "text": "That's true. I'd say, probably performance is the first trade-off, weighing kernel against user-space. For the sorts of scenarios I envision for Tela, it's probably not a huge loss (I won't be running Facebook off of a Tela hub, I don't think). Another is that I have to run and tear down the client myself, though I do have support for running the tela client as a service. It's funny... I've started using so many of the nifty management features of TelaVisor and Awan Saya that I am now considering adding lower-level support for the features that I explicitly wrote for user-space. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.843182",
+        "updated_at": "2026-04-13T16:24:23.843182",
+        "author": {
+          "id": "3d93c39dfe894b1d3c36e3dc8a1d001b",
+          "source_id": "paulmooreparks",
+          "username": "paulmooreparks",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7be6c1c8382f51037003a9743994ef8d",
+        "source_id": "47749692",
+        "content": {
+          "text": "> My initial motivation was wanting to RDP and SSH into my home workstation from a locked-down corporate laptop when I travel. I couldn't install Tailscale on the laptop I'm not sure it would work but did you try running tailscale client through a docker container so it's not installed directly in your host system? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.843970",
+        "updated_at": "2026-04-13T16:24:23.843970",
+        "author": {
+          "id": "10251fb79d04c8cc643d12df67e02f4c",
+          "source_id": "watsonjs",
+          "username": "watsonjs",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4ea3907ea0686915382bdd0a25dcefaf",
+        "source_id": "47749924",
+        "content": {
+          "text": "It would work, but this laptop is so locked down that I can't even install Docker without begging for permission (it's for a consultant role, not a dev role, so...). That said, my stop-gap solution while I worked on Tela was a cheap Linode VM with tailscale installed, and using SSH port-forwarding to get to RDP. Even at that tiny price, it grated me. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.844792",
+        "updated_at": "2026-04-13T16:24:23.844792",
+        "author": {
+          "id": "3d93c39dfe894b1d3c36e3dc8a1d001b",
+          "source_id": "paulmooreparks",
+          "username": "paulmooreparks",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "907ef23ba481aacf4df1eff17efe5c89",
+        "source_id": "47749343",
+        "content": {
+          "text": "I think this is the same as using a cloudflared tunnel? to access my home desktop machine, I run: ```\n$ ssh itake@ssh.domain.me -o ProxyCommand=\"cloudflared access ssh --hostname %h\"\n``` and I setup all the cloudflare access tunnels to connect to the service. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.845700",
+        "updated_at": "2026-04-13T16:24:23.845700",
+        "author": {
+          "id": "d948b9b5d823ea2507c4150a694d730a",
+          "source_id": "itake",
+          "username": "itake",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4f06023fa0668891e6874fec8135ad53",
+        "source_id": "47750003",
+        "content": {
+          "text": "If I understand you correctly, you SSH in via cloudflared and then use that tunnel to reach other services through that session. That would work, yes. Tela takes a little different approach. The agent exposes services directly through the WireGuard tunnel without SSH as an intermediary, so you don't need sshd running on the target. Each machine gets its own loopback address on the client, so there is no port remapping. The big difference is the relay, though. With cloudflared, Cloudflare terminates TLS at their edge. With Tela, you run the hub yourself and encryption is end-to-end. The hub only ever sees encrypted data (apart from a small header). reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.846610",
+        "updated_at": "2026-04-13T16:24:23.846610",
+        "author": {
+          "id": "3d93c39dfe894b1d3c36e3dc8a1d001b",
+          "source_id": "paulmooreparks",
+          "username": "paulmooreparks",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ff6edc1fc2a6619c0108e9aa0fa4d1a8",
+        "source_id": "47748262",
+        "content": {
+          "text": "Pretty cool! I see on enterprise edition you also support a virtual mount, is it FUSE based? I got a similar tool but went the other way around, I wanted to browse files synchronously (and bidirectional sync of edits) between two devices via FUSE mounts, and ended up tunneling TCP for this in the end. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.847520",
+        "updated_at": "2026-04-13T16:24:23.847520",
+        "author": {
+          "id": "9c28c86b44414990fc5d974bc9bed94a",
+          "source_id": "coldstartops",
+          "username": "coldstartops",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0bcd3cce8f8bc797754c3ed198aecd40",
+        "source_id": "47748370",
+        "content": {
+          "text": "Thanks! The file sharing is part of the base, FOSS Tela. It uses WebDAV rather than FUSE. The tela client runs a local WebDAV server that proxies file operations through the WireGuard tunnel to the agent on the remote machine. You can mount it as a network drive (Windows maps it as a drive letter, Linux/macOS mount it as a directory) or access it via TelaVisor or the tela CLI. It can be configured as read-only or read-write. Certain file extensions can be banned from upload or rename. I went with WebDAV because it works on all three platforms without a kernel module or extra driver. For my use case (browsing files, grabbing configs, etc.) it works well enough. Bi-directional sync is an interesting idea. Right now the sharing is one-directional (the agent exposes a directory, the client mounts it), but I could see adding something like that as a layer on top. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.848501",
+        "updated_at": "2026-04-13T16:24:23.848501",
+        "author": {
+          "id": "3d93c39dfe894b1d3c36e3dc8a1d001b",
+          "source_id": "paulmooreparks",
+          "username": "paulmooreparks",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "93081299d09bdf4afb79da532b6eb8d4",
+        "source_id": "47749777",
+        "content": {
+          "text": "Now add an Android client and exit node support and it will completely replace Tailscale for me. :) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.849483",
+        "updated_at": "2026-04-13T16:24:23.849483",
+        "author": {
+          "id": "f172918616cd7efe822d0de6e0615ed7",
+          "source_id": "Shorel",
+          "username": "Shorel",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a16864a169f2ad35fb5505ebcbb107bc",
+        "source_id": "47750079",
+        "content": {
+          "text": "Thank you! That means more than you know. :) I've thought about an Android client. It would have the same problem that exit-node support would have: Tela is currently engineered as a user-space alternative to Tailscale. However, as I mentioned in another reply here, I've gotten so fond of a lot of the other features of Tela that I might consider adding support for low-level features that require kernel support. It might not be 1.0, but I'm open to suggestions. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.850498",
+        "updated_at": "2026-04-13T16:24:23.850498",
+        "author": {
+          "id": "3d93c39dfe894b1d3c36e3dc8a1d001b",
+          "source_id": "paulmooreparks",
+          "username": "paulmooreparks",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "725b6435240f95845612fc7dd0a5346c",
+        "source_id": "47750569",
+        "content": {
+          "text": "This is super cool. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.851561",
+        "updated_at": "2026-04-13T16:24:23.851561",
+        "author": {
+          "id": "801a3e37b3970892a44819f4e6746808",
+          "source_id": "rabbi7",
+          "username": "rabbi7",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f5f5e0d6bb487678a8af8357bc23f022",
+        "source_id": "47749039",
+        "content": {
+          "text": "Exactly what I was going to build for myself, no need now, very cool reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.852610",
+        "updated_at": "2026-04-13T16:24:23.852610",
+        "author": {
+          "id": "2c007391abf176f54b3014bb5fb61df7",
+          "source_id": "hkntn",
+          "username": "hkntn",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7e11531e99e0cfa93d50bb645ce95400",
+        "source_id": "47748195",
+        "content": {
+          "text": "Now that’s cool. I wished I new that when I was trying remote access my computer a few month ago. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.853698",
+        "updated_at": "2026-04-13T16:24:23.853698",
+        "author": {
+          "id": "f076f6994e2f96e458079274f0110f23",
+          "source_id": "invalidSyntax",
+          "username": "invalidSyntax",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f22b2d9341bdf83b5335277751ada691",
+        "source_id": "47748061",
+        "content": {
+          "text": "Sooo freaking cool. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.854808",
+        "updated_at": "2026-04-13T16:24:23.854808",
+        "author": {
+          "id": "bcf15dd585c4d999b317567087f2367c",
+          "source_id": "freakynit",
+          "username": "freakynit",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0277b839e8089415cb9f46f46ad7343f",
+        "source_id": "47749081",
+        "content": {
+          "text": "That's very useful! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.855946",
+        "updated_at": "2026-04-13T16:24:23.855946",
+        "author": {
+          "id": "bea306733142fcdbac4cc8a5f6546d78",
+          "source_id": "electrodyssey",
+          "username": "electrodyssey",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1786afcf3fa03ba8e9e3c3fa669b70bf",
+        "source_id": "47748027",
+        "content": {
+          "text": "Very cool reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.857145",
+        "updated_at": "2026-04-13T16:24:23.857145",
+        "author": {
+          "id": "0b518d8435254c493e026ba7aa676745",
+          "source_id": "whiskey-one",
+          "username": "whiskey-one",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "41cfdbd53783b11b0c7a2afbdc9ff697",
+        "source_id": "47747962",
+        "content": {
+          "text": "Awesome reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.858340",
+        "updated_at": "2026-04-13T16:24:23.858340",
+        "author": {
+          "id": "a24e16d64fd72f2f07db13d53f24cadc",
+          "source_id": "digitaltrees",
+          "username": "digitaltrees",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f2587bd1e7463fa24620aac4277fd95b",
+        "source_id": "47754202",
+        "content": {
+          "text": "I'm building Envelope, which is a checking account with built-in budgeting: https://envelopebudgeting.com It's like if Mint, YNAB, or Copilot was built into a bank account. The goal is to help people budget, spend, and save from one account, instead of using a separate budgeting tool, spreadsheet (yuck!), or cash envelope system. It does that by allowing users to get paid via direct deposit and then organizing their money into digital envelopes for bills, groceries, savings, sinking funds, etc. It's attached to a debit card so everything updates instantly and has individual or joint accounts. I'm currently working on the paycheck prediction algorithm so Envelope can automatically determine how much needs to be set aside from user's paychecks so their bills are paid on time. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.859603",
+        "updated_at": "2026-04-13T16:24:23.859603",
+        "author": {
+          "id": "94884c99c2fc19f8fde7baa7edff144b",
+          "source_id": "joshuakcockrell",
+          "username": "joshuakcockrell",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7a7a652d9ab053a1defcb2bdcc7531f7",
+        "source_id": "47753832",
+        "content": {
+          "text": "I call it LawVM - interpret amendment statutes as \"programs\" and verifiably replay them to obtain actual consolidated i.e. current law as it stands (or where ambiguous, surface that) I was annoyed that in Finland there is no way to know what the law even says , it's basically a do-it-yourself endeavour and the \"official\" consolidated law isn't even official.\nIf the manual compilation/consolidation has any errors, then you're out of luck. Courts only decide based on the original statutes. And I have found hundreds of errors when doing the compilation. This could've been done for >30 years and no one ever did. Full release soon enough once I've cleaned it up. It's a whole compiler suite with Finland, Estonia, UK, Sweden, Norway to start with. Part of a larger project to build the \"state causal map\" and doing AI-assisted analysis of all the mechanisms that comprise a state and therefore what is most harmful and what is optimal for governance. LawVM itself doesn't use AI at all except for development. For the latter: https://mekanismirealismi.fi/mev/he-38-2025-hva-funding and https://mekanismirealismi.fi/mechanism-authority etc. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.861005",
+        "updated_at": "2026-04-13T16:24:23.861005",
+        "author": {
+          "id": "58f07b520360aa489ff05a28270b870e",
+          "source_id": "ekns",
+          "username": "ekns",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d0614a1e0070b6816161cc3cc8fce46a",
+        "source_id": "47751614",
+        "content": {
+          "text": "PlantLab ( https://plantlab.ai ) - AI plant health diagnosis for cannabis. It's an API, not an app [1]. Photo in, structured JSON out - condition, confidence, growth stage, nutrient lockout analysis. The response is for machines. Light burn at 0.92 confidence? Your controller dims the light. Calcium deficiency with excess potassium flagged as the lockout cause? Dosing pump adjusts. I'm a software dev/data nerd, not a grower. I got interested because cannabis grow rooms are already full of automation - VPD controllers, pH/EC monitoring, dosing pumps, dimmable lights. But nothing was looking at the plant. Every sensor in the room measures the environment, not whether the plant is actually doing well. I wanted to add the eyes. And this seems to be a bound domain issue (i.e. limited number of issues/conditions/pests vs. all plants everywhere). ViT-based multi-stage pipeline that verifies it's cannabis, classifies condition or pest, then runs nutrient subclassification if needed. 30 classes, 18ms inference, Go API, ONNX Runtime. Trained on a little over a million images from grower friends. Classification was 80% of the lift. I also shipped a Home Assistant integration - camera takes a scheduled snapshot, PlantLab diagnoses, HA acts on the result. No human involved. Recently the part that's been the most fun is the autoresearch loop. Between training runs the system looks at its own confusion matrix, finds which classes it's mixing up, audits those training images for bad labels, and tells me what to fix. It's not fully autonomous yet but it's getting there - the model is increasingly debugging its own training data. Solo project, <100 users, free tier is 3/day. [1] I built a simple Android app for those who want to just try it out, it's on Google Store. Probably will make one for iOS too as time allows. https://play.google.com/store/apps/details?id=com.plantlab.p... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.862417",
+        "updated_at": "2026-04-13T16:24:23.862417",
+        "author": {
+          "id": "1d1528918c7f4074e9ad0092cdbd635a",
+          "source_id": "ctbellmar",
+          "username": "ctbellmar",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "93835c3f3314808bb046c78d9cdebe02",
+        "source_id": "47745676",
+        "content": {
+          "text": "My mother is living alone in her house and we are getting to the point where she might not be able to live alone.  I built \"Still Kicking\", a picture frame that monitors her motion and sends back basic reports and can detect falls and sleep quality to a phone app, to help give her more time at home. It's just an mmWave sensor connected to an ESP32.  But it works nicely, and I'm thinking of starting a company making them, though I'm not clear if the elderly would be ok with this minimal (no camera) intrusion. It would just work out of the box..  the real one would have a small cell modem so it wouldn't need any networking setup, and it would act as a gateway if you have more than one in a house.  There are industrial versions of this for nursing homes.  This would be a bit more warm and fuzzy for home use. https://moveometer.com reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.863806",
+        "updated_at": "2026-04-13T16:24:23.863806",
+        "author": {
+          "id": "298f9f6e1399f2fd8e3f054d76d1a151",
+          "source_id": "cmos",
+          "username": "cmos",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2716a465e8f14ac268b127b58ba1a07b",
+        "source_id": "47747993",
+        "content": {
+          "text": "I own a national home care provider (in 13 states) and EHR. We are looking for products like this. Book office hours if you’re interested in discussing: https://calendly.com/ryanwmartin/open-office-hours reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.865198",
+        "updated_at": "2026-04-13T16:24:23.865198",
+        "author": {
+          "id": "a24e16d64fd72f2f07db13d53f24cadc",
+          "source_id": "digitaltrees",
+          "username": "digitaltrees",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "04d6af092cb07c9f6aa99039278dc9fe",
+        "source_id": "47750717",
+        "content": {
+          "text": "Booked a time! We built senior smartphone assistance without humans reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.866592",
+        "updated_at": "2026-04-13T16:24:23.866592",
+        "author": {
+          "id": "3a034294c85fbc237a4b9556833fbbc3",
+          "source_id": "taylorhou",
+          "username": "taylorhou",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6891b64e21aa96a9e19ff81056883644",
+        "source_id": "47749051",
+        "content": {
+          "text": "I love it. As a physician, I see so many cases of elderly patients who have fallen and not been found for hours if not days. In elder care, I am building https://statphone.com - one emergency number that rings multiple family members simultaneously and breaks through DND. Would love to chat/collaborate. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.868052",
+        "updated_at": "2026-04-13T16:24:23.868052",
+        "author": {
+          "id": "7dc3a65d9ff06a78c37a56f32ad38b91",
+          "source_id": "popupeyecare",
+          "username": "popupeyecare",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "56c9cded14584d60b848a7738e965bb5",
+        "source_id": "47750617",
+        "content": {
+          "text": "Start this company! You see the responses from just a small sample, this is your sign to go in on it! Good luck! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.869515",
+        "updated_at": "2026-04-13T16:24:23.869515",
+        "author": {
+          "id": "a69cdab7cd91b89826cc8768dc8448b1",
+          "source_id": "Aboutplants",
+          "username": "Aboutplants",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "12d25a4d8b75ee677491423cec18b128",
+        "source_id": "47747178",
+        "content": {
+          "text": "There was a Minnesota company called Healthsense (was acquired by GreatCall which was then acquired by BestBuy, not sure if the company/tech exists anymore) that had a similar approach on a broader scale. Their system used a bunch of mundane smart home sensors in the usual configuration (e.g. contact sensors on doors, motion sensors, etc) but also for tracking patterns and habits, like the refrigerator door, toilet seat, bed, etc. The idea being that an abrupt shift in behavior would trigger a notice for a loved one or nurse to check in. I always thought this was a cool idea and it's a shame it didn't take off a bit more. The question of \"intrusion\" was always interesting to me because old folks often face going from nothing to assisted living or nursing home which is often quite intrusive, where somewhat ironically adding a bunch of sensors to your home allows you a bit more privacy. Kind of a tangent, but I like your type of system as an alternative to the emergency pendants. It always struck me as strange to expect old folks at risk of fall to remember to charge and wear a pendant at all times. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.871027",
+        "updated_at": "2026-04-13T16:24:23.871027",
+        "author": {
+          "id": "8123628437128cfe92e04791a8c91777",
+          "source_id": "lurkshark",
+          "username": "lurkshark",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2b5edaf38e7cf8d7151d28782f41fa44",
+        "source_id": "47747724",
+        "content": {
+          "text": "Look into some of the products and services used in Japan for elderly care at home. My FIL, in his late 80's was living at home alone. My wife used a monitoring service, provided by local package delivery company. They installed motion sensors in the toilet and on the door. If no motion detected for 24 hours, the company will alert my wife by phone and send the nearest delivery driver to check on him. I myself have tried Home Assistant setup on Raspberry Pi and variety of sensors for different purposes. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.872574",
+        "updated_at": "2026-04-13T16:24:23.872574",
+        "author": {
+          "id": "3db3a4389a7aac007cb36bc87495bfff",
+          "source_id": "akg_67",
+          "username": "akg_67",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "86223cc75f242be2325c3ee1cdc29bd1",
+        "source_id": "47747830",
+        "content": {
+          "text": "I installed cameras in the toilet at my house reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.874108",
+        "updated_at": "2026-04-13T16:24:23.874108",
+        "author": {
+          "id": "9da84cee59f7df966c788c62bc09baf9",
+          "source_id": "chrishh__",
+          "username": "chrishh__",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7178756be25ceea204ccee8c68fe58b8",
+        "source_id": "47748389",
+        "content": {
+          "text": "Which way do they face? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.875778",
+        "updated_at": "2026-04-13T16:24:23.875778",
+        "author": {
+          "id": "adc62ddbe1ad849beeb186990b6120cd",
+          "source_id": "nickk81",
+          "username": "nickk81",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f07d652e147b3f17256ea9bcfece0f0d",
+        "source_id": "47746464",
+        "content": {
+          "text": "“Still Kicking” is a fantastic name for that. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.877535",
+        "updated_at": "2026-04-13T16:24:23.877535",
+        "author": {
+          "id": "679f3a738e5c93b9115912db45150e54",
+          "source_id": "naikrovek",
+          "username": "naikrovek",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9a4152aae84f55593fd547086b45c950",
+        "source_id": "47747545",
+        "content": {
+          "text": "This was covered on HN a while back, https://alvis.care/ reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.879296",
+        "updated_at": "2026-04-13T16:24:23.879296",
+        "author": {
+          "id": "7cc54429dfb1bd6ce2eb37ed4fcf2d66",
+          "source_id": "rjha",
+          "username": "rjha",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "24534df3b42330a5858fc2fc0229215c",
+        "source_id": "47749458",
+        "content": {
+          "text": "Your verification email is pointing to http://localhost:3000/ lol reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.880960",
+        "updated_at": "2026-04-13T16:24:23.880960",
+        "author": {
+          "id": "7ca811e42046cb4d751a309a8ca2087e",
+          "source_id": "ricardo_lien",
+          "username": "ricardo_lien",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "cd9cfab80bca66e1ac36bda602e0a9dd",
+        "source_id": "47745736",
+        "content": {
+          "text": "I would buy it. I have built a similar contraption. Let's connect. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.882670",
+        "updated_at": "2026-04-13T16:24:23.882670",
+        "author": {
+          "id": "e4bbe73ec45afe911851d647ddefaaf8",
+          "source_id": "idorosen",
+          "username": "idorosen",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6380d2b49d55476c01ba0645ea945b7f",
+        "source_id": "47754095",
+        "content": {
+          "text": "I added browser automation capabilities to sandvault [0], a MacOS sandbox, to allow AI agents to control Chrome browser from within the sandbox, which makes coding & testing websites from within the sandbox much easier. I'm using sandvault+Claude to rebuild my personal blog, Code of Honor [1], because I got tired of WordPress. The site includes search functionality, and articles are automatically syndicated to Mastadon, BlueSky, and Twitter. I wrote a Claude skill to automate testing of iOS apps [2], and it found issues in one of my released apps [3]. [0]: https://github.com/webcoyote/sandvault [1]: https://www.codeofhonor.com [2]: https://github.com/webcoyote/AppTestCircuit [3]: https://www.codeofhonor.com/blog/finding-bugs-with-an-automa... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.884584",
+        "updated_at": "2026-04-13T16:24:23.884584",
+        "author": {
+          "id": "0d634897f9c242d406c9d4a86f590405",
+          "source_id": "netcoyote",
+          "username": "netcoyote",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d0d25e1a97726ff428bb8faf89416674",
+        "source_id": "47753918",
+        "content": {
+          "text": "Tusk — an open-source Postgres desktop app for macOS and GNOME — https://shapemachine.xyz/tusk reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.886358",
+        "updated_at": "2026-04-13T16:24:23.886358",
+        "author": {
+          "id": "7a0212c052b09c4feec20683354999c7",
+          "source_id": "factorialboy",
+          "username": "factorialboy",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c6fedb94be203792d7132abacde7cc86",
+        "source_id": "47745000",
+        "content": {
+          "text": "I got addicted to scrolling content on my phone, so I built a digital pet whose growth and well-being depends on you staying off your phone! This way, if I spend all night scrolling the browser, my pet will get depression. Unlike similar apps such as Focus Friend or Forest, which use active timers to police screen time, my app is an inversion that works like an idle game; All screen time is tracked all day, (with double the punishments at night), and upon check-in, you get feedback on your device usage. https://automatisolutions.com/products/phreepet/ reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.888227",
+        "updated_at": "2026-04-13T16:24:23.888227",
+        "author": {
+          "id": "f1c26d342c6220cce3d24c1c7d768a71",
+          "source_id": "DevDesmond",
+          "username": "DevDesmond",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3260852fb511c0d033b4917192494a6b",
+        "source_id": "47746488",
+        "content": {
+          "text": "How are you able to track all screen time on an iOS device? I had thought the APIs to do this aren't available. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.890025",
+        "updated_at": "2026-04-13T16:24:23.890025",
+        "author": {
+          "id": "889d1f7e9d38461ac53f27ab12ca71bb",
+          "source_id": "varenc",
+          "username": "varenc",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5e9d83663ffc8d7bf69dd490aa48c43b",
+        "source_id": "47746854",
+        "content": {
+          "text": "I believe Apple opened up their screen time APIs https://developer.apple.com/documentation/screentime reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.891882",
+        "updated_at": "2026-04-13T16:24:23.891882",
+        "author": {
+          "id": "c78cdc9f9f1e7b12bc9f10a1a9f1c33e",
+          "source_id": "buddybuilder",
+          "username": "buddybuilder",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "283504c9b45fc9ef74303f3ee7718972",
+        "source_id": "47747575",
+        "content": {
+          "text": "I've always been very interested in these types of games. Grew up playing Neopets which was inspiration to becoming a software engineer. Am interested in gamified aspects as well. The thing I've not quite figured out is how to make these types of games _actually_ addictive? Neopets had a lot going for it IMO. Would love to know if this is actually working for you (and maybe others) personally and why. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.893753",
+        "updated_at": "2026-04-13T16:24:23.893753",
+        "author": {
+          "id": "a543d9dcd2b08ae37882a479f1764703",
+          "source_id": "memonkey",
+          "username": "memonkey",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5ee7eb751d71f90bcb078f44d19584ec",
+        "source_id": "47751586",
+        "content": {
+          "text": "I wish I knew why these games are so addictive, I collected Tamagotchi a few years back and ended up with a handful of originals and one of the fancy new color screen ones (that now goes for obscene amounts of money on ebay). reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.895662",
+        "updated_at": "2026-04-13T16:24:23.895662",
+        "author": {
+          "id": "72c01bc713c7c25f97aa664da8339316",
+          "source_id": "mghackerlady",
+          "username": "mghackerlady",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4acd7d503cb41d9962811710604664bb",
+        "source_id": "47752348",
+        "content": {
+          "text": "I'm building an operational dashboard for solo entrepreneurs in the collectibles market. Most of the people in this space are tech illiterate, but I think that's going to change when they start to age out. The next generation of antique dealers and collectibles market curators are going to need tools built for them. I only entered the space 6 months ago after inheriting some old vintage travel and tourism material. I was lured in! I've spent the last 15 years of my tech career working on custom built systems that are perfectly suited and tailored to my needs and the needs of my team. As soon as I started shopping on ebay, checking comps on worthpoint, browsing for auctions on liveauctioneers, manually searching hathitrust and other institutions for research... I started to want to build my own tools immediately. I don't want 15 different dashboards. I want one. So, I plan to leverage my technical background and expertise in building systems to hopefully enable me outmaneuver other dealers and curators. I hope to build custom intake pipelines. There's a keyword crisis in the collectibles market. If the seller doesn't put the right keyword in their listing, or the buyer doesn't put the right keyword in their search query, the two never meet. I look for very specific types of old vintage travel and tourism material, and I have to manage a list of hundreds of search terms in order just to find one specific type of item. They are out there, they're just hidden and unaccessible. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.897646",
+        "updated_at": "2026-04-13T16:24:23.897646",
+        "author": {
+          "id": "765d819944983ce3336015d788e352fa",
+          "source_id": "SpaceL10n",
+          "username": "SpaceL10n",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "70ea325486f6f1179feb99208fdf2e5d",
+        "source_id": "47754019",
+        "content": {
+          "text": "I forked a simple DNLA server which has been dead for 10 years and updated it to .Net 9. The goal is that hard drives are too expensive now and so it's better to spin up media servers quickly and temporarily using whatever hardware you have on hand. It currently builds and announces itself to my TV (can see the server in Roku Media Player) but crashes because the http server implementation is homemade and out of date. Copilot generated some options and I will be plugging an implementation of a sockets-based server in the next couple of days. https://github.com/NWoodsman/simpleDLNA.net reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.899639",
+        "updated_at": "2026-04-13T16:24:23.899639",
+        "author": {
+          "id": "dfaffe0446e937311fd8a6d379f68264",
+          "source_id": "NWoodsman",
+          "username": "NWoodsman",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1481ae00f781558c4a86fb0a82bcdfac",
+        "source_id": "47754268",
+        "content": {
+          "text": "Why not use Jellyfin? It's also .NET if you're itching to contribute :) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.901622",
+        "updated_at": "2026-04-13T16:24:23.901622",
+        "author": {
+          "id": "af377382899c1c436bd84646f4410eb8",
+          "source_id": "seabrookmx",
+          "username": "seabrookmx",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1eb0c1e4e5f88f22d41796e0875df0d5",
+        "source_id": "47753822",
+        "content": {
+          "text": "I am working on several things at the same time right now: - https://usewarpgate.com : a MCP for MCPs, basically. Aiming to streamline all the pain points that I experienced with MCP in there. Centralised authentication, auditing, tool control, automatic MCPs through OpenAPI specs, accessing private servers, etc. - https://focusjar.app : a little app I built because my own focus was super wrecked lately. Basically a distraction blocker that is _really_ hard to bypass and makes you pay actual $$$ if you cancel a session early. - https://mergehelper.com : another little app that I built for myself that brings together all my pull- and merge requests from Github and Gitlab into a single compact menu bar. - https://sift.works : still very early days, but building a tool that can connect to any database, helps you query it (with AI if so-desired), allows you to create dashboards, and exposes everything through an MCP reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.903777",
+        "updated_at": "2026-04-13T16:24:23.903777",
+        "author": {
+          "id": "92f8ac65b773915bf05d395f1cb1c031",
+          "source_id": "arondeparon",
+          "username": "arondeparon",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "437e57dee40f7243cde31173a2625baa",
+        "source_id": "47753775",
+        "content": {
+          "text": "Still a bit rough, but working on https://delaykit.dev . The Node.js ecosystem doesn't seem to have a good primitive for app-level, per-event scheduling (things like \"expire this abandoned cart in 24h\" or \"debounce 50 profile updates into one reindex\"). Cron is too broad and you still have write the polling/scheduler code yourself. Job queues optimize for throughput and usually bolt `run_at` on as an afterthought. Workflow engines are overkill for a simple \"do this thing later, tied to this user\" and want you to adopt their runtime. DelayKit aims to be the in-between. It is backed by Postgres and uses keys like `dk.schedule(\"expire-cart\", { key: cartID, delay: \"24h\" })`. Handlers get the key, not a payload, and fetch fresh state at fire time. This way DelayKit is only responsible for the \"hey remember you have to do this thing for cart X\" part. I'm working through making it production-ready at the moment, the initial passes were more around figuring out the API and general architecture. Thoughts and comments greatly appreciated! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.905874",
+        "updated_at": "2026-04-13T16:24:23.905874",
+        "author": {
+          "id": "9fcca0f813fdbe2d691ba73c51ab1345",
+          "source_id": "cgenuity",
+          "username": "cgenuity",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3d876781b578791e48b2860764127ee6",
+        "source_id": "47744920",
+        "content": {
+          "text": "I'm continuing to hack on Tiled Words, my daily word puzzle! https://tiledwords.com After winning the Playlin Player's Choice award I've noticed an uptick in players as well as some people sharing videos on YouTube which has been fun. I've got a few thousand people playing every day. I just launched user accounts today so user's can now track their progress across devices and share their stats with each other. This ended up being a bigger chunk of work than I expected but I'm really pleased with how it turned out. (Though I launched it 15 minutes ago so I'm holding my breath for bug reports) I'm fine-tuning my internal puzzle-building now with the goal of letting people use them to make and share their own puzzles soon! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.908025",
+        "updated_at": "2026-04-13T16:24:23.908025",
+        "author": {
+          "id": "e605ca0a7a5902d9d65e0ab97fea02c0",
+          "source_id": "paulhebert",
+          "username": "paulhebert",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d0c09fd2b1d7169088f295977e8e6ee2",
+        "source_id": "47749762",
+        "content": {
+          "text": "I love tiled words, I've actually been doing the daily puzzle for a while, have completed over a 100 of them! It's part of my morning routine :) I'm not sure if it would fit the theme, but sometimes I end up searching what an expression means, or where does it come from. Maybe it would be cool to have a little info box after you discover what the word is. Just an idea! Not sure if it would clutter things, and you can always search it yourself, but something I've been thinking about. I still remember looking up peanut gallery and sand dollar! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.910149",
+        "updated_at": "2026-04-13T16:24:23.910149",
+        "author": {
+          "id": "d368b8558188965ba84b56256afd4454",
+          "source_id": "martimchaves",
+          "username": "martimchaves",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9743a990f338863805a0d55516eb0b0a",
+        "source_id": "47747680",
+        "content": {
+          "text": "I can't say I'm a regular user but a while ago I stumbled upon another post about tiledwords while a loved one was in the hospital and it was a fun and welcome distraction to solve some of the puzzles together while stuck in an otherwise grim environment. Thanks for making this and I wish you all the success in the future. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.912295",
+        "updated_at": "2026-04-13T16:24:23.912295",
+        "author": {
+          "id": "f1c37c9f88c12388e0dcc89f01166b95",
+          "source_id": "dodu_",
+          "username": "dodu_",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "66315f527abe534eeccac08b54163614",
+        "source_id": "47747764",
+        "content": {
+          "text": "I’m glad Tiled Words could make that hard time a little easier. I hope your loved one has recovered and is doing better now reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.914493",
+        "updated_at": "2026-04-13T16:24:23.914493",
+        "author": {
+          "id": "e605ca0a7a5902d9d65e0ab97fea02c0",
+          "source_id": "paulhebert",
+          "username": "paulhebert",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ae5a4d513d9ae45603e384d99c519380",
+        "source_id": "47748956",
+        "content": {
+          "text": "Thanks for making this. It's totally refreshingly intuitive while doing the practice puzzle! Just tried it out on my browser. Will be following this. Also would love to see your workflow you spoke about, on coming up with puzzle ideas and tile arrangements. Cheers! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.916733",
+        "updated_at": "2026-04-13T16:24:23.916733",
+        "author": {
+          "id": "af20836758b511853af0592f506f2641",
+          "source_id": "mockingloris",
+          "username": "mockingloris",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "47064f85c91f042efc2281a98c0abaf1",
+        "source_id": "47746168",
+        "content": {
+          "text": "I've been enjoying Tiled Words! I find myself playing in a weird way, by totally ignoring the clues. I look at the title and try to puzzle out all the answers myself. I don't know if I'm alone in that, but it could be a neat mode to have a setting to hide the clues. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.918954",
+        "updated_at": "2026-04-13T16:24:23.918954",
+        "author": {
+          "id": "4d7ed95a2b8ccae9836d275b52f5d84e",
+          "source_id": "rnoorda",
+          "username": "rnoorda",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "04d2a1fc0f367ea77beba7f77a704878",
+        "source_id": "47746781",
+        "content": {
+          "text": "Thanks! I’ve heard that from a few people! Adding that as an official mode is on my road map but there are a few big features ahead of it right now reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.921238",
+        "updated_at": "2026-04-13T16:24:23.921238",
+        "author": {
+          "id": "e605ca0a7a5902d9d65e0ab97fea02c0",
+          "source_id": "paulhebert",
+          "username": "paulhebert",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b3e1988fab2cf6ed9f97db57a1ed0b5c",
+        "source_id": "47749911",
+        "content": {
+          "text": "I just tried this out for the first time and really enjoyed it! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.923574",
+        "updated_at": "2026-04-13T16:24:23.923574",
+        "author": {
+          "id": "ed0dc665f90f2ba3b37b9f11ea79c3f8",
+          "source_id": "lilygirl85",
+          "username": "lilygirl85",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d7bf6807284cc1f6c3ab85ed8cadb97e",
+        "source_id": "47749964",
+        "content": {
+          "text": "I play this every day with my friend group :) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.925901",
+        "updated_at": "2026-04-13T16:24:23.925901",
+        "author": {
+          "id": "56465976d807d082eb616da3955a2ac7",
+          "source_id": "panja",
+          "username": "panja",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8608dc3d5d1c3b86b5740c12155040da",
+        "source_id": "47746198",
+        "content": {
+          "text": "this is so cool, i liked the musical instruments one! would be super interested to hear more about the puzzle-making process too, is it fully automated with AI at this point or is there still a good amount of manual work and fine-tuning involved? bookmarked already, can't wait to play tomorrow again reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.928282",
+        "updated_at": "2026-04-13T16:24:23.928282",
+        "author": {
+          "id": "a7b87cbfe45cd8ca54a83c03de0e7152",
+          "source_id": "vlatoshi",
+          "username": "vlatoshi",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "19051a19dc5edf48d81fb2aaeda67c35",
+        "source_id": "47746834",
+        "content": {
+          "text": "Thanks! It’s a lot of manual work right now. I don’t use AI in the process. I think it could help with some of the brainstorming but I kind of like the human connection of making a puzzle and having people solve it. Here’s the basic process. My wife and I do this part together: - Think of a theme - Think of words related to that theme, ideally with a second meaning - Think of clues for those words Once we have a good set of clues I plug them into a program I wrote to make crosswords. The program isn’t that smart. It tries making random crosswords. I run it 1500 times and then sort the results to get the best ones. This brute force approach works pretty well for how simple it is. I pick the crossword I want and then I use another tool to split up and rearrange the tiles. This step could probably be automated but there’s some finicky logic to the best way to split up the tiles and it goes pretty fast manually. I’ve been meaning to make a video of the process! I’ll share it here when I do reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.930810",
+        "updated_at": "2026-04-13T16:24:23.930810",
+        "author": {
+          "id": "e605ca0a7a5902d9d65e0ab97fea02c0",
+          "source_id": "paulhebert",
+          "username": "paulhebert",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "cd40728af18be2e754b9a74fc86279b5",
+        "source_id": "47746106",
+        "content": {
+          "text": "Very nice, the movement and snapping of the tiles is very nicely done, enjoyed today's puzzle! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.933216",
+        "updated_at": "2026-04-13T16:24:23.933216",
+        "author": {
+          "id": "f03fe67c3f56d0460c7bde60c06673f6",
+          "source_id": "tele_ski",
+          "username": "tele_ski",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "54ea0d5652f1cc98ffa2079aec636234",
+        "source_id": "47746793",
+        "content": {
+          "text": "Haha I spent a looong time perfecting that so I’m glad it’s appreciated! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.935637",
+        "updated_at": "2026-04-13T16:24:23.935637",
+        "author": {
+          "id": "e605ca0a7a5902d9d65e0ab97fea02c0",
+          "source_id": "paulhebert",
+          "username": "paulhebert",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c5948503eda1e3f87f60bcaae02077f0",
+        "source_id": "47748561",
+        "content": {
+          "text": "It's fun, impressed by how polished it is. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.938110",
+        "updated_at": "2026-04-13T16:24:23.938110",
+        "author": {
+          "id": "ba020d15429ccc6dd9f90b545ba8f54b",
+          "source_id": "rjh29",
+          "username": "rjh29",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "13a52c6067fd4269334fbed502f2ff8d",
+        "source_id": "47745397",
+        "content": {
+          "text": "Oh wow. This seems like it was a lot of work. Bookmarked and installed! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.940664",
+        "updated_at": "2026-04-13T16:24:23.940664",
+        "author": {
+          "id": "61cb48485aa295703568e6490c7f9115",
+          "source_id": "kvirani",
+          "username": "kvirani",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2dad0309fa40b0d9162c3563b25467a5",
+        "source_id": "47745427",
+        "content": {
+          "text": "Haha yeah it’s been a labor of love! The design and dev took a while but building the has been the most time consuming at this point. My wife and I make the puzzles together. We’re getting close to 6 months of daily, hand crafted puzzles! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.943297",
+        "updated_at": "2026-04-13T16:24:23.943297",
+        "author": {
+          "id": "e605ca0a7a5902d9d65e0ab97fea02c0",
+          "source_id": "paulhebert",
+          "username": "paulhebert",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ea64ef03be862b1fe9f3565d005f69a2",
+        "source_id": "47745287",
+        "content": {
+          "text": "Have played it a few times, it's really good reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.945890",
+        "updated_at": "2026-04-13T16:24:23.945890",
+        "author": {
+          "id": "7fcacea4f23b1ea7d208b02ca7da25a5",
+          "source_id": "deivid",
+          "username": "deivid",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8b1fe0036ac30e04ad3c34ef7a2b4b38",
+        "source_id": "47745319",
+        "content": {
+          "text": "Thanks! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.948477",
+        "updated_at": "2026-04-13T16:24:23.948477",
+        "author": {
+          "id": "e605ca0a7a5902d9d65e0ab97fea02c0",
+          "source_id": "paulhebert",
+          "username": "paulhebert",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0f372dfb81a70afbbc8f9d7bb8d92613",
+        "source_id": "47746103",
+        "content": {
+          "text": "This is going on my daily puzzle list! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.951085",
+        "updated_at": "2026-04-13T16:24:23.951085",
+        "author": {
+          "id": "10df39b8edc0e7d3574fd8d73e761f42",
+          "source_id": "SpyCoder77",
+          "username": "SpyCoder77",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "dd72b6f6594cb7d7e3de06088a3a42b8",
+        "source_id": "47746789",
+        "content": {
+          "text": "Awesome, thanks! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.953794",
+        "updated_at": "2026-04-13T16:24:23.953794",
+        "author": {
+          "id": "e605ca0a7a5902d9d65e0ab97fea02c0",
+          "source_id": "paulhebert",
+          "username": "paulhebert",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9f844a95bd22e816c2ab81d6dade996f",
+        "source_id": "47746176",
+        "content": {
+          "text": "That's a very fun puzzle, nice work! I'll be telling my friends. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.956488",
+        "updated_at": "2026-04-13T16:24:23.956488",
+        "author": {
+          "id": "821379a513b116776bbff8d9397a0737",
+          "source_id": "digdeep",
+          "username": "digdeep",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0ffb011522fdded18633dcf164cf8cb2",
+        "source_id": "47746787",
+        "content": {
+          "text": "Thanks! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.959199",
+        "updated_at": "2026-04-13T16:24:23.959199",
+        "author": {
+          "id": "e605ca0a7a5902d9d65e0ab97fea02c0",
+          "source_id": "paulhebert",
+          "username": "paulhebert",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b4100d1d7da09720f5629dc48304400e",
+        "source_id": "47745647",
+        "content": {
+          "text": "This is great! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.961938",
+        "updated_at": "2026-04-13T16:24:23.961938",
+        "author": {
+          "id": "f31c35508d5baffeeec4d45f21cbe63a",
+          "source_id": "sqircles",
+          "username": "sqircles",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7d9f230cfec5db37cf966cbb05f560f4",
+        "source_id": "47745923",
+        "content": {
+          "text": "Thanks! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.964733",
+        "updated_at": "2026-04-13T16:24:23.964733",
+        "author": {
+          "id": "e605ca0a7a5902d9d65e0ab97fea02c0",
+          "source_id": "paulhebert",
+          "username": "paulhebert",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2b005ea9a36818269ffe02dce11600af",
+        "source_id": "47746957",
+        "content": {
+          "text": "I've been writing a 'book' (more of an extended blog post that I'd like to put out for free) attempting to explain quantum computing to a layman-ish audience. I sort of got inspired to do this after seeing so many QC PR posts on HN, and finding the educational material in this space to be either too academic, too narrow in scope, or totally facile. I think given the incredible hype (and potential promise) of this industry, there should be on-ramps for technically minded people to get an understanding of what's going on. I don't think you should need to be a quantum physicist to be able to follow the field (I am only an electrical engineer). My book tries to cover the computational theory, the actual hardware implementations, and the potential applications of quantum computers. More than that, I want to be unbiased and stray away from what I feel is misleading hype. It's been a work in progress for about 6 months now, with a lot of time spent gaining fluency in the field. But the end is in sight! :) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.967606",
+        "updated_at": "2026-04-13T16:24:23.967606",
+        "author": {
+          "id": "6679605c3acd053fb86529751c735798",
+          "source_id": "msolomentsev",
+          "username": "msolomentsev",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "49b648fa01464120c5e82320fae8ea9e",
+        "source_id": "47751435",
+        "content": {
+          "text": "One thing I would like to see addressed is the misconception that QC can help turn NP problems into P. I see this floating from time to time. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.970451",
+        "updated_at": "2026-04-13T16:24:23.970451",
+        "author": {
+          "id": "6bc4cfe7b310adbaabf4db7d1021b2f0",
+          "source_id": "3form",
+          "username": "3form",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "854e78a5f4cc2cb6347038ce61349d3f",
+        "source_id": "47752689",
+        "content": {
+          "text": "Yes, totally. I feel like the computational complexity part of quantum computing is actually pretty well explained to the 'layman' by some of Scott Aaronson's work, but unfortunately it's not well placed in context (i.e. it very much focuses on the theoretical CS, and not the whole QC picture). You have to sort of start digging for material about computational complexity theory/quantum and stumble into his output. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.973298",
+        "updated_at": "2026-04-13T16:24:23.973298",
+        "author": {
+          "id": "6679605c3acd053fb86529751c735798",
+          "source_id": "msolomentsev",
+          "username": "msolomentsev",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ede43b19a6a5d26594d08247745200eb",
+        "source_id": "47747009",
+        "content": {
+          "text": "Awesome! Anywhere we can look for updates, like a website? FWIW, my shallow understanding of quantum computing as a programmer, in case you wanted perspectives from your potential audience: - I thought quantum physics was a sham? Like on par with string theory. But apparently that's not true - I hear QC only breaks certain kinds of cryptography algorithms (involving factoring big primes?), and that we can upgrade to more foolproof algorithms. - I hear that one of the main challenges is improving error bounds? I'm not sure how error is involved and how it can be wrangled to get a deterministic or useful result - Idk what a qubit is or how you make one or how you put several together reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.976235",
+        "updated_at": "2026-04-13T16:24:23.976235",
+        "author": {
+          "id": "69ce45334ac4bd67bca431b95879d7cf",
+          "source_id": "wonger_",
+          "username": "wonger_",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b694c606c64565af85451c2a0b44eb96",
+        "source_id": "47752823",
+        "content": {
+          "text": "Planning on starting a substack/blog soon! Your questions are helpful bar-setter for me, and more or less align with the questions that I had when I was starting out this project (sans the skepticism of quantum mechanics period, I take that as a given). Going down your list: - Yeah there's a distinction between asymmetric and symmetric encryption schemes. Asymmetric schemes are typically used to make a shared private key which is then used in ensuing symmetrically encoded communications. Those asymmetric schemes are broadly vulnerable to quantum based attacks, hence the need to upgrade to 'post quantum encryption schemes' (PQS). PQS approaches have been developed and are slowly being rolled out, even though it's unclear when the threat of quantum-enabled cracking will be real. - Yes, I cover this extensively. This actually relates to your last question as well, since error depends in part on what kind of qubit platform you're working with. A superconducting qubit naturally 'decoheres' (loses its unique state) over time, with some sort of semipredictable rate of decoherence, whereas photonic qubits sometimes just get lost! All platforms have some sort of built in error due to the fact that you are applying essentially analog gates to them, and these gates have some imprecision that may build up over millions of operations. I'd characterize the challenges as A) reducing error, and B) correcting the errors that inevitably occur. - This was one of my sticking points too. The short answer is that there are a few different modalities all competing to be 'the one', and no one really knows what's going to win out. They all have their own (dis)advantages. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.979216",
+        "updated_at": "2026-04-13T16:24:23.979216",
+        "author": {
+          "id": "6679605c3acd053fb86529751c735798",
+          "source_id": "msolomentsev",
+          "username": "msolomentsev",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7376504663e898784aadf70908437e9d",
+        "source_id": "47748118",
+        "content": {
+          "text": "No, quantum physics is not a sham. Lasers are an application of quantum physics, for example. Usage of quantum physics principles in non scientific (thoughts are entangled!) or arbitrary macroscopic contexts (since electrons can cross a barrier, a human can pass through a wall) is an entirely different thing. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.982176",
+        "updated_at": "2026-04-13T16:24:23.982176",
+        "author": {
+          "id": "f8ab6fe5dc09f6a74767795b0beb43ed",
+          "source_id": "arter45",
+          "username": "arter45",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8fb3983ce4db4437fd118aa750dbd8bb",
+        "source_id": "47747714",
+        "content": {
+          "text": "I would be very interested where you got some of these misconceptions and half-truths. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.985170",
+        "updated_at": "2026-04-13T16:24:23.985170",
+        "author": {
+          "id": "7079526e6bbe4eda3bdc8aecb225bc24",
+          "source_id": "rcbdev",
+          "username": "rcbdev",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "442e1d91a05f0c9446cfe32d73ff08e0",
+        "source_id": "47751114",
+        "content": {
+          "text": "I think I watched some educational TV program like 15 years ago that did a poor job explaining quantum physics, or overhyped it and set off my BS detectors. Idk. A weird mix of poor memory and miscommunication and outdated information I think. EDIT oh and Schrodinger's cat! Doesn't make sense to me. The latter points were things I gathered from skimming recent headlines and articles. I should read more thoroughly. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.988181",
+        "updated_at": "2026-04-13T16:24:23.988181",
+        "author": {
+          "id": "69ce45334ac4bd67bca431b95879d7cf",
+          "source_id": "wonger_",
+          "username": "wonger_",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "65665de47fa74fee0abb0ff60124e875",
+        "source_id": "47749367",
+        "content": {
+          "text": "I'd like to see that post when it's ready! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.991201",
+        "updated_at": "2026-04-13T16:24:23.991201",
+        "author": {
+          "id": "bea306733142fcdbac4cc8a5f6546d78",
+          "source_id": "electrodyssey",
+          "username": "electrodyssey",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "71848f535373dd946b5d9ef5f69cb0d3",
+        "source_id": "47747525",
+        "content": {
+          "text": "Would like to check this out when you're ready to share. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.994289",
+        "updated_at": "2026-04-13T16:24:23.994289",
+        "author": {
+          "id": "07bd31ba5dec3476466143e63c71cbc0",
+          "source_id": "bnjemian",
+          "username": "bnjemian",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8b856f88650b58eb52dc29aa2bfd0497",
+        "source_id": "47753733",
+        "content": {
+          "text": "I'm building an AI Tour Guide builder for any website or App( https://tiptour.io/ ). I made a chrome extension which helps you record and build interactive cursor following tooltip for your webapp and integrate with your web app using just a script tag. Not fully mature yet as im still stuck with chrome developer review Alongside I am working on a MacOS version based on an open source project (Clicky) I created a follow along teacher to help you follow youtube tutorials interactively.\nIt goes through the video link, extracts all the action items and creates a tour for you so that you can interact as you are watching the video. Check out the MacOS version demo video here https://x.com/milindlabs/status/2041926791745695848?s=20 Still in discovery mode where I'm finding which of the form factors people really like the most (Web or Local) and planning to go all in based on what users like more. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:23.997467",
+        "updated_at": "2026-04-13T16:24:23.997467",
+        "author": {
+          "id": "a9b98968f82144fa1bb5786c935ce2d4",
+          "source_id": "milind-soni",
+          "username": "milind-soni",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5119ae455b9aabef8be2d4e3f589219f",
+        "source_id": "47754139",
+        "content": {
+          "text": "Tools for llms for developers. Unix philosophy, pipes. Repository maps for a quick overview. Hybrid search for finding knowledge, tools or skills. Linter for tools. External tools provider, not MCP. Having a blast. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:24.000578",
+        "updated_at": "2026-04-13T16:24:24.000578",
+        "author": {
+          "id": "2c04a103b4c5cdf72e238d7f1cd75a98",
+          "source_id": "darkotic",
+          "username": "darkotic",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "de7cb015556da52d2d7994c7bed03780",
+        "source_id": "47744257",
+        "content": {
+          "text": "I'm working on a fully offline, client-side train journey planner for UK rail - https://railraptor.com When booking flights, I use sites like Kiwi and Skyscanner that let you do flexible searches - multiple destinations, custom connections, creative routes, etc. But rail search feels oddly constrained. All the UK train operators offer basically the same experience, and surface the exact same routes. I always suspected there were better or just different options that weren’t being shown. Where is the \"Skyscanner for trains\"? After digging through the national rail data feeds, I decided to have a go at building my own route planner that runs completely offline in the browser. This gave me the freedom to implement more complex filters, search to/from multiple stations, and do it without a persistent network connection. Now I'm finding routes that aren't offered by the standard train operators, connecting at different stations, and finding it's often easier to travel to different stations (some I'd never heard of) that get me closer and faster to where I actually want to go! It's still a little rough and I'd like to add more features such as fares, VSTP data, and direct-links to book tickets, but wanted to share early and get some initial feedback before investing more time into it. So, thanks in advance - let me know what you think. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:24.003818",
+        "updated_at": "2026-04-13T16:24:24.003818",
+        "author": {
+          "id": "c751f1adc93eb700c15165ebbbe7ea7d",
+          "source_id": "marcusdev",
+          "username": "marcusdev",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6749fc34f55ea9d17f1820d6133896e2",
+        "source_id": "47750469",
+        "content": {
+          "text": "Great that it stores the entire timetable in only 6MB(?) of storage. Some feedback: I don't think it can route through London as it isn't aware of tube connections between stations? And the classic stress test of Penzance to Thurso is too long for the routing algorithm, but I imagine that's beyond scope? Pricing would make this a super useful tool! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:24.007006",
+        "updated_at": "2026-04-13T16:24:24.007006",
+        "author": {
+          "id": "8c06d050e72dfc5e567898747aefbe5c",
+          "source_id": "svenmakes",
+          "username": "svenmakes",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f70304349bea71491d77276e989287aa",
+        "source_id": "47748647",
+        "content": {
+          "text": "I like your idea. If you dig around Rory Sutherlands YouTube appearances he talks about how train routers fall down by always looking for the fastest route,  where he would prefer the nicest, often cheaper and slightly slower.  He has a fair amount to say on the subject so it is a bit of a goldmine. I sent you some feedback on a routing failure because I didn't want to post exactly where I live here. I think you need pricing. Works offline is cool,  but why not pull in the pricing if people are online? Train fares are so variable depending on time of day, especially if they go via London. I could have a trip that could be £300 cheaper by taking a 30 minute longer trip that avoids London. I need pricing to get my best journey. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:24.010247",
+        "updated_at": "2026-04-13T16:24:24.010247",
+        "author": {
+          "id": "bb6fbb7c5e8caa9fe8e9679d46fc6694",
+          "source_id": "jimnotgym",
+          "username": "jimnotgym",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b31629dc42b651780924787caf0856a4",
+        "source_id": "47744578",
+        "content": {
+          "text": "This sounds very nice! A slightly adjacent question: have you discovered any providers that can recommend train journeys based on price? Sort of like the explore feature you find on sites like Google Flights, Ryanair and Flixbus. Sometimes when the wanderlust hits I've tried searching around for cheap train tickets, but it isn't simple using sites likes DB/OEBB/SBB/SNCF/etc reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:24.013472",
+        "updated_at": "2026-04-13T16:24:24.013472",
+        "author": {
+          "id": "2830098e73530db6e0a5391d4bdddc90",
+          "source_id": "vectorcrumb",
+          "username": "vectorcrumb",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4a026e144cc9d03e31d13ab0380c03cf",
+        "source_id": "47745076",
+        "content": {
+          "text": "https://raileasy.co.uk / https://trainsplit.com is the most flexible existing service I've found, but even that doesn't give you an \"anywhere\" option. I'm looking at how to add price data to railraptor, but it might mean sacrificing the fully-offline capability... once I have prices it should absolutely be possible to build a filter along the lines of \"find me the cheapest popular destinations that are at least 50 miles away\". reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:24.016792",
+        "updated_at": "2026-04-13T16:24:24.016792",
+        "author": {
+          "id": "c751f1adc93eb700c15165ebbbe7ea7d",
+          "source_id": "marcusdev",
+          "username": "marcusdev",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2d941ae5d1b9d98c64425d837f96edaa",
+        "source_id": "47744452",
+        "content": {
+          "text": "This sounds awesome. Have you checked how it fares against trainline? A quick demo would be very nice. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:24.020089",
+        "updated_at": "2026-04-13T16:24:24.020089",
+        "author": {
+          "id": "17a6fc313968b9d29a282e6e748554c4",
+          "source_id": "whiplash451",
+          "username": "whiplash451",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3f9f733eb545395eda0a7e91fe6d973c",
+        "source_id": "47744714",
+        "content": {
+          "text": "I love this! Dijkstra's Algorithm is always a fun time reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:24.023442",
+        "updated_at": "2026-04-13T16:24:24.023442",
+        "author": {
+          "id": "c1af686d2455128a144d0eb4c4bcd89d",
+          "source_id": "boutell",
+          "username": "boutell",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "61352c1ee9e34f09c0aa2d7c34ae7bf3",
+        "source_id": "47745112",
+        "content": {
+          "text": "I do love Disjkstra :) this actually uses a modified version of the \"Raptor\" algorithm for public transport routing (hence the name!): https://www.microsoft.com/en-us/research/wp-content/uploads/... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:24.026808",
+        "updated_at": "2026-04-13T16:24:24.026808",
+        "author": {
+          "id": "c751f1adc93eb700c15165ebbbe7ea7d",
+          "source_id": "marcusdev",
+          "username": "marcusdev",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c48f3ce1394df308a2197f8198a6712e",
+        "source_id": "47745627",
+        "content": {
+          "text": "Earlier today? My partner and I felled a couple of trees and bucked them into firewood to clear a spot on drier ground for our chicken coop, which had sunk halfway to China because we unknowingly landed it in a soup bowl three years ago when we moved in the winter when the ground was frozen. Also set and leveled four piers in the new spot for it to sit on. Then slid it a few hundred feet across the lawn on composite deck boards we salvaged when we took a balcony down last year and landed it atop the new piers. Then put the electric fence back up to keep the bears out. Presently? A beer. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:24.030234",
+        "updated_at": "2026-04-13T16:24:24.030234",
+        "author": {
+          "id": "944b8c88440f438d294c0966e6f2f342",
+          "source_id": "mauvehaus",
+          "username": "mauvehaus",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3580a0024e6e26b57e178eec09e4e462",
+        "source_id": "47746302",
+        "content": {
+          "text": "Woah woah woah slow down, what kind of beer it was? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:24.033644",
+        "updated_at": "2026-04-13T16:24:24.033644",
+        "author": {
+          "id": "1bf3a8715ae1a1674bb4bb9663bfcd19",
+          "source_id": "jeanlucas",
+          "username": "jeanlucas",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-04-13T16:24:37.545922",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "ba659717662799f1f3c4b3a2d0141611",
+      "source_id": "47753684",
+      "title": "Ask HN: What makes it so hard to keep LLMs online?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-13T16:24:18.165503",
+      "updated_at": "2026-04-13T16:24:18.165503",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "a2aab59df4f18e4c67e39167266c0147",
+        "source_id": "realberkeaslan",
+        "username": "realberkeaslan",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 2,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47753684",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-04-13T16:24:42.554898",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "8161ecb87b09941852c5f8b733db7086",
+      "source_id": "47753672",
+      "title": "Ask HN: Is Claude Down Again?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">Getting lots of errors like this:<p>API Error: 500 {\"type\":\"error\",\"error\":{\"type\":\"api_error\",\"message\":\"Internal server error\"},\"request_id\":\"...\"}<p>But https://status.claude.com/ shows everything is operational. Is it just me?</p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-13T16:24:18.166120",
+      "updated_at": "2026-04-13T16:24:18.166120",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "ededfb9058af2c4c1e7360d2d5c9b78c",
+        "source_id": "rreyes1979",
+        "username": "rreyes1979",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 3,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47753672",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "e9c7508743675e9e47dbfd5d90b0e278",
+        "source_id": "47753674",
+        "content": {
+          "text": "Yes https://news.ycombinator.com/item?id=47753643 reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:43.719799",
+        "updated_at": "2026-04-13T16:24:43.719799",
+        "author": {
+          "id": "7be4e46b7b9e062d66c683ad43d2044e",
+          "source_id": "StanAngeloff",
+          "username": "StanAngeloff",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-04-13T16:24:43.719924",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "ede55ccc10196431a2302bb7638a557e",
+      "source_id": "47753223",
+      "title": "Ask HN: What's the best AI model for system design nowadays?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-13T16:24:18.166871",
+      "updated_at": "2026-04-13T16:24:18.166871",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "db20914364032345e70f0284acee20ea",
+        "source_id": "jcremona",
+        "username": "jcremona",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 2,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47753223",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-04-13T16:24:46.269448",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "33b68375f3c01fd4a1529c54bb3719a9",
+      "source_id": "47749970",
+      "title": "Ask HN: Are you negatively affected by the recent economic stagnation?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-13T16:24:18.167822",
+      "updated_at": "2026-04-13T16:24:18.167822",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "a53e3b97e7f393a1b02c0f9189c46937",
+        "source_id": "adinhitlore",
+        "username": "adinhitlore",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 4,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47749970",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-04-13T16:24:50.424318",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "0ab4cd8dc0438da2eecd846dee15d895",
+      "source_id": "47739653",
+      "title": "Ask HN: What are all the bad things that AI companies have done which we forgot",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">I was writing a comment recently when I realized just how bad the graphs in GPT 5 video are. I had almost forgotten about it.<p>I wish to create a very minor website which can talk about all of these, I feel like there are some perverse incentives which make these companies show out the good and hide out the bad and our news cycle just keeps on moving and we all follow it.<p>Also there can be some remarkable mentions as well which I wish to list<p>Here are some other examples:<p>OpenAI turning from non profit to open.<p>Claude code software getting leaked (Anthropic)<p>X/Grok generating non consensual deepfakes issue (XAI)<p>OpenAI's deal with Military and backstabbing basically and now pushing for new laws.<p>The graph thing by OpenAI being so horrendous which I mentioned earlier.<p>Suchir balaji's death (I genuinely recommend searching this up if someone hasn't for context)<p>Microsoft Co-pilot things<p>Anthropic when detected that chinese models distill from them showed that they can view things sent in API and there were some comments related to it which I forgot but it doesn't sound privacy friendly.<p>The stargate project by OpenAI,Oracle etc. leading to the ram crisis in the first place.<p>Remarkable mentions list includes:<p>OpenAI's Sam altman visible stumbled and saying now iconic line  ‘Want to sell your shares? I’ll find you a buyer'<p>People mentioning how these AI companies have reduced the amount of messages people can send and also all the comments about the dumbing down of these models while still charging 200$ 100$ for these things.<p>Microsoft has named 75 products I think all on Co-pilot<p>Anthropic treating their mythos model like their own baby in a very psychotic way.<p>Deepseek giving you answers in high priority in their website when it was first released if you said that Xi Jinping wanted the work (speculation-ish)<p>I would love if people can give more and more examples about it and I wish to compile a list and have a discourse surrounding this. Thanks for reading this and have a nice day and waiting to read the comments here!</p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-13T16:24:18.168483",
+      "updated_at": "2026-04-13T16:24:18.168483",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "69bd53a5c687056238a07a5afcab4df5",
+        "source_id": "Imustaskforhelp",
+        "username": "Imustaskforhelp",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 9,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47739653",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "82d9cfe358a824fc710dc916aff964a7",
+        "source_id": "47750438",
+        "content": {
+          "text": "Stealing copyrighted material by scraping databases like Anna's archive. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:53.210152",
+        "updated_at": "2026-04-13T16:24:53.210152",
+        "author": {
+          "id": "8754bf67a232066502b87a9ecc6cd9ba",
+          "source_id": "deathgripsss",
+          "username": "deathgripsss",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "dcd964acd271185897af022ae50c54d8",
+        "source_id": "47754214",
+        "content": {
+          "text": "doesn't Anna's archive itself steal copyrighted material? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:53.210656",
+        "updated_at": "2026-04-13T16:24:53.210656",
+        "author": {
+          "id": "a9b49b8acddd69a8d1d4d716ff7eb2d7",
+          "source_id": "keiferski",
+          "username": "keiferski",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "603f09404bb711ba4ceb1b953ef45ad0",
+        "source_id": "47751380",
+        "content": {
+          "text": "Oh yea, this made me also remember facebook (Meta) and Anthropic's lawsuits and facebook even rented a whole office outside of their working time or something to do all of this shenanigan. Thanks for making me remember this. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:53.211198",
+        "updated_at": "2026-04-13T16:24:53.211198",
+        "author": {
+          "id": "69bd53a5c687056238a07a5afcab4df5",
+          "source_id": "Imustaskforhelp",
+          "username": "Imustaskforhelp",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1974eb766ef97c9e8469c3e6259b5bfd",
+        "source_id": "47748813",
+        "content": {
+          "text": "Nothing to add, but the entire Suchir Balaji thing is weirdly scary. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:53.211729",
+        "updated_at": "2026-04-13T16:24:53.211729",
+        "author": {
+          "id": "c6cec679278d0c8990536ec245d0b5bf",
+          "source_id": "caffeinejunk1e",
+          "username": "caffeinejunk1e",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-04-13T16:24:53.211922",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "ae45797eb95eeb5f32699ef6505dd7ac",
+      "source_id": "47750069",
+      "title": "Ask HN: Is Codex really on Par with Claude Code?",
+      "content": {
+        "text": "<div class=\"toptext\"></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-13T16:24:18.169074",
+      "updated_at": "2026-04-13T16:24:18.169074",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "62b234c36c99bc2e55fca73463db8c6a",
+        "source_id": "shivang2607",
+        "username": "shivang2607",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 5,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47750069",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "7dc4632187fe5ed3e8e24a33fd451d15",
+        "source_id": "47752844",
+        "content": {
+          "text": "Claude has become pretty slow and in the last couple of weeks, so I switched to codex. Codex code can be quite sloppy, so it's worth doing multiple review passes. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:54.396349",
+        "updated_at": "2026-04-13T16:24:54.396349",
+        "author": {
+          "id": "c56a5458edf2d567d2e7a0c3dbf1f0f0",
+          "source_id": "antoineMoPa",
+          "username": "antoineMoPa",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d8c794eb8e232639c5c84b7855cddd40",
+        "source_id": "47752972",
+        "content": {
+          "text": "Actually I use LLM mostly for the code quality and not for the architectural/logical or design decisions. I am using claude solely because it's best in terms of Code quality and UI. According to you do you think codex has surpassed or at least came on par with the claude in terms of code quality and UI ? How good is codex in terms of code context ? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:54.396855",
+        "updated_at": "2026-04-13T16:24:54.396855",
+        "author": {
+          "id": "62b234c36c99bc2e55fca73463db8c6a",
+          "source_id": "shivang2607",
+          "username": "shivang2607",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "154220f41b99439f30c53c4437d7436f",
+        "source_id": "47753938",
+        "content": {
+          "text": "I think in terms of UI, codex has become superior probably due to its sandbox concept. It can complete tasks reliably without intervention whereas claude would have stalled asking permissions (unless you run it in --dangerously-skip-permissions, which I won't do). I don't know about you, but sitting in front of my laptop just to continuously press enter is depressing, I'd rather do other tasks in the meantime, which is exactly what I can do with codex. So combined with the issues claude has been experiencing in the last couple of weeks (see https://news.ycombinator.com/item?id=47660925 ) - codex has become a better option. Claude has been unable to complete simple tasks and got lost in 5+ minutes of exploration too many times and I just called quits. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:54.397400",
+        "updated_at": "2026-04-13T16:24:54.397400",
+        "author": {
+          "id": "c56a5458edf2d567d2e7a0c3dbf1f0f0",
+          "source_id": "antoineMoPa",
+          "username": "antoineMoPa",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b65673c3d7c47bbbf293319ed9a77294",
+        "source_id": "47751252",
+        "content": {
+          "text": "I've been using Claude Code as my primary agent orchestration tool for a few weeks now. Running cron-style loops for browser automation through a remote Playwright instance. Haven't tried Codex at this depth yet, but from what I've seen it's more focused on code generation while Claude Code is more of a general-purpose agent runtime. The things that make Claude Code powerful for me are the persistent session with tool access, the ability to run background tasks on schedules, and the hook/skill system for customization. If Codex matches that plus adds better async execution (Claude Code's scheduled tasks die when the session ends), it could be compelling. But for now Claude Code handles my use case better than anything else I've tried. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:54.397908",
+        "updated_at": "2026-04-13T16:24:54.397908",
+        "author": {
+          "id": "557afdd7f5ac4da16e6db81deae3f9df",
+          "source_id": "vampiregrey",
+          "username": "vampiregrey",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d301cf86def1cf12008eb1a366ca7a66",
+        "source_id": "47752879",
+        "content": {
+          "text": "I mostly use claude code for coding purposes. According to my experience, claude code is unbeatable in terms of coding and UI. But I feel like chat gpt is better for architectural decisions. But I haven't tried codex, BUT I am listening a lot now that its limits are far better than claude code and that it is good in terms of value for money. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:54.398464",
+        "updated_at": "2026-04-13T16:24:54.398464",
+        "author": {
+          "id": "62b234c36c99bc2e55fca73463db8c6a",
+          "source_id": "shivang2607",
+          "username": "shivang2607",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1c0feb2660a91f3ed8e2554dcf5153f5",
+        "source_id": "47751351",
+        "content": {
+          "text": "I’ve mostly switched to Codex (GPT-5.4 high) over Claude Code (Opus 4.6) in the last few weeks. I think my style of workflow and prompting seems to generate a bit better results with it. I have a thin CLI based issue tracker and an associated skill that I use instead of markdown files and Codex does a better job of interacting with it and updating existing tasks over time whereas Claude Code tends to create duplicate tasks with slight changes.\n I find the code quality of both to be pretty on par with some style differences; Claude has been leaving very verbose comments as of late I do slightly prefer the Codex app over the Claude Code TUI and Visual Studio Code integrations. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:54.399048",
+        "updated_at": "2026-04-13T16:24:54.399048",
+        "author": {
+          "id": "f9d15ed7bacc1dbc301b5e78831ce54b",
+          "source_id": "d-lo",
+          "username": "d-lo",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "baeabc09847dc867d714312192aaccbf",
+        "source_id": "47752914",
+        "content": {
+          "text": "That is really helpful for me. From your experience it appears like codex is better value for money as a developer who can write proper prompts and not just expect AI to vibe code everything. Though I think gpt was better in terms of architectural decisions earlier as well, and claude was better interms of coding and UI. Do you think with codex gpt has beaten claude or on par with claude in terms of UI and clean code quality? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:54.399667",
+        "updated_at": "2026-04-13T16:24:54.399667",
+        "author": {
+          "id": "62b234c36c99bc2e55fca73463db8c6a",
+          "source_id": "shivang2607",
+          "username": "shivang2607",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7c4430254be8c1cd133df8e94bdde188",
+        "source_id": "47751023",
+        "content": {
+          "text": "Yes, even better sometimes. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:54.400292",
+        "updated_at": "2026-04-13T16:24:54.400292",
+        "author": {
+          "id": "7b2e01ccb2ee481f4ee7b8951da2a263",
+          "source_id": "frigg",
+          "username": "frigg",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f420960dea8c10efddc3f6707092d7a2",
+        "source_id": "47752978",
+        "content": {
+          "text": "In terms of Code quality and UI too ? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:54.400927",
+        "updated_at": "2026-04-13T16:24:54.400927",
+        "author": {
+          "id": "62b234c36c99bc2e55fca73463db8c6a",
+          "source_id": "shivang2607",
+          "username": "shivang2607",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "16590c21ade50cd2975e256237520de5",
+        "source_id": "47750736",
+        "content": {
+          "text": "GPT-5.4 Pro is very good, at the very least comparable with Opus 4.6. Some people on my team have switched to Codex in the last month citing that it's currently slightly better. If you have a good workflow with CC I wouldn't switch, but if you're deciding whether to use one or the other, maybe give Codex a shot. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:54.401627",
+        "updated_at": "2026-04-13T16:24:54.401627",
+        "author": {
+          "id": "9d5f521e1ee045d5ce6d2cfe9b2c9018",
+          "source_id": "kypro",
+          "username": "kypro",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "77cb429fe894925a513ae6b75d280e0e",
+        "source_id": "47752947",
+        "content": {
+          "text": "Actually I am currently using claude code mainly for the UI purpose. I consider myself good developer and all the design and architectural decisions are taken by me. I use claude mostly for the code quality it gives. Do you think codex has surpassed claude in terms of UI and code quality ? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:24:54.402369",
+        "updated_at": "2026-04-13T16:24:54.402369",
+        "author": {
+          "id": "62b234c36c99bc2e55fca73463db8c6a",
+          "source_id": "shivang2607",
+          "username": "shivang2607",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-04-13T16:24:54.402733",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "a3f1ba785eac8fbdff8bdf7d06c4933b",
+      "source_id": "47700460",
+      "title": "Ask HN: What are you building that's not AI related?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-13T16:24:18.169803",
+      "updated_at": "2026-04-13T16:24:18.169803",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "3d5b3f6c6188945b7ec02d0033196d29",
+        "source_id": "meander_water",
+        "username": "meander_water",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 148,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47700460",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-04-13T16:24:58.299453",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "3c2b8b3af899351cbe7caac0b749b7d1",
+      "source_id": "47736831",
+      "title": "Ask HN: Do you trust AI agents with API keys / private keys?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">are you ok sharing secrets or api keys to you ai agent via .env?<p>or is there any other tool or mechanism that one use to safegaurd from potential exploit or leaks</p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-13T16:24:18.170400",
+      "updated_at": "2026-04-13T16:24:18.170400",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "da442a1a9d350866aecc9a9509997584",
+        "source_id": "devendra116",
+        "username": "devendra116",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 14,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47736831",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "40d794cf97adeca804a6e3d3a0b947ee",
+        "source_id": "47753362",
+        "content": {
+          "text": "You will probably like varlock - it helps get your keys out of plaintext, while giving your agents a schema and additional tools so it can interact with env vars safely. The next step is injecting your keys via proxy, but just varlock is a huge step up. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:25:00.303461",
+        "updated_at": "2026-04-13T16:25:00.303461",
+        "author": {
+          "id": "336ec35ac1f340f8db5f3f5ccced39e2",
+          "source_id": "theozero",
+          "username": "theozero",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5cfd0f026a9dff5388d8d7b9b762459d",
+        "source_id": "47751356",
+        "content": {
+          "text": "Most of this thread is about protecting keys on a single developer's machine, but the problem gets way harder when you're managing credentials across customer tenants... env vars and secrets managers don't solve the orchestration problem as much the storage problem. The hard part is making sure the right token gets used for the right customer's API call at the right time without any cross-tenant leakage. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:25:00.303948",
+        "updated_at": "2026-04-13T16:25:00.303948",
+        "author": {
+          "id": "e1342d1b04ee30bb24d8994ec2ba7915",
+          "source_id": "brianwmunz",
+          "username": "brianwmunz",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f4bd8d0b4ac17ba1501db4592dcaa532",
+        "source_id": "47751847",
+        "content": {
+          "text": "As others already pointed out, there are alternatives of .env files. Although, I'm not very concerned about having temporary access keys to development environments stored in .env files. The agents should not be dealing with secrets directly though. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:25:00.304467",
+        "updated_at": "2026-04-13T16:25:00.304467",
+        "author": {
+          "id": "f0a63c9331a60358116cde0f13fab0ef",
+          "source_id": "gyorgy",
+          "username": "gyorgy",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7d67bc867396d4d00b38b153e9e5b12a",
+        "source_id": "47749936",
+        "content": {
+          "text": "Honestly, best solution is to use native CSP solutions like AWS Secrets Manager, AWS SSM Parameter Store, GCP Secret Manager, Terraform Vault. All these have native audit logs and access logs, which can help you pin point exactly when did your AI Agent requested and accessed your secrets at Runtime. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:25:00.304991",
+        "updated_at": "2026-04-13T16:25:00.304991",
+        "author": {
+          "id": "48b464753f732a622e3ea0271b7e4fbf",
+          "source_id": "saranshrana",
+          "username": "saranshrana",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "861e9bc74edecb73af62d1475074ca25",
+        "source_id": "47739946",
+        "content": {
+          "text": "The only private key that my agents have access to are temporary AWS access keys to a dev environment with decently locked down permissions. I let it troubleshoot my web code using a temporary JWT in a dev environment using headless chrome and Puppeteer in a Docker container. Everything else is in AWS Secrets Manager inaccessible  by the IAM role the agent has access to. I don’t store the temporary AWS keys in a file anywhere.  They are in environment variables.  All AWS SDKs and the CLI look in the environment variables by default. I sure as hell don’t store API keys anywhere on my local computer. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:25:00.305609",
+        "updated_at": "2026-04-13T16:25:00.305609",
+        "author": {
+          "id": "646941a85e859767254d97ee8f8f4eec",
+          "source_id": "raw_anon_1111",
+          "username": "raw_anon_1111",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "50fd415e0f8b97572ea9fcf1187d3854",
+        "source_id": "47740486",
+        "content": {
+          "text": "something that you dont like about using AWS secrets Manager or think it should be handle differently? im researching around building a execution environment that handle the secret + actual execution, any input is appreciated reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:25:00.306228",
+        "updated_at": "2026-04-13T16:25:00.306228",
+        "author": {
+          "id": "da442a1a9d350866aecc9a9509997584",
+          "source_id": "devendra116",
+          "username": "devendra116",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2c800f9668b18801fa3b9e6b0d1c5360",
+        "source_id": "47740712",
+        "content": {
+          "text": "Well since in my case all of the LLMs I use are hosted by AWS Bedrock, it means I can get away with only caring about AWS Access keys. If I need to store database passwords in secrets manager,  I can just pass the ARN of the secret manager key in the connection string.  I often don’t need to even do that and prefer to use the Data API to access Aurora Postgres/Mysql and that also uses the IAM permissions. Even for access to EC2 instances I use an  IAM controlled Session Manager proxy to access it over SSH/RDP. But Secrets Manager just works.  It’s a simple API/ClI command and the permission system to access it is very granular. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:25:00.306900",
+        "updated_at": "2026-04-13T16:25:00.306900",
+        "author": {
+          "id": "646941a85e859767254d97ee8f8f4eec",
+          "source_id": "raw_anon_1111",
+          "username": "raw_anon_1111",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6c1c8daccb3db6808b7babbaa12b9560",
+        "source_id": "47742037",
+        "content": {
+          "text": "Absolutely not, and if you do this then please please rotate keys every day or two. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:25:00.307531",
+        "updated_at": "2026-04-13T16:25:00.307531",
+        "author": {
+          "id": "223fe8982e52cea5cf6d990cc3cc37c2",
+          "source_id": "PocketBot",
+          "username": "PocketBot",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5e4ec47053ad2f3ba32b1754358d5284",
+        "source_id": "47739811",
+        "content": {
+          "text": "I share with gemini, claude and openai. If I get my stuff hacked (because I use a machine with nothing else on it other than coding agents) I'll know these services are not removing my personal info from their logs. I don't operate chinese models where my high value api keys are. It's pretty hard to debug stuff without using real api keys, service accounts etc...otjerwise reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:25:00.308232",
+        "updated_at": "2026-04-13T16:25:00.308232",
+        "author": {
+          "id": "cad75ac5ad0b182cb9bf0019f4669e2f",
+          "source_id": "faangguyindia",
+          "username": "faangguyindia",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9dda4b86d2e862b3619281d16e9ae14b",
+        "source_id": "47740520",
+        "content": {
+          "text": "so you prefer using separate VM machines? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:25:00.308899",
+        "updated_at": "2026-04-13T16:25:00.308899",
+        "author": {
+          "id": "da442a1a9d350866aecc9a9509997584",
+          "source_id": "devendra116",
+          "username": "devendra116",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d18e825a75a8619951c354c3c64fc04e",
+        "source_id": "47749529",
+        "content": {
+          "text": "Instead of sharing it directly I like to put in in a .env file. Then simply I tell to the AI to just import from the .env file and do not read from the file. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:25:00.309630",
+        "updated_at": "2026-04-13T16:25:00.309630",
+        "author": {
+          "id": "37796aba7206a1195296a18e3b5c6e1b",
+          "source_id": "elsuave",
+          "username": "elsuave",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "345bdca3bd05659c5f72ba46c982cc76",
+        "source_id": "47741758",
+        "content": {
+          "text": "Why not treat them like other users? Give them some sort of indirect access like Antiphony. Give them their own keys that you can rotate and revoke. If you're worried about leaks, you might as well run it \"self-hosted\" like on Bedrock. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:25:00.310372",
+        "updated_at": "2026-04-13T16:25:00.310372",
+        "author": {
+          "id": "2bfd519b7db42dca321a0c1a83210577",
+          "source_id": "giantg2",
+          "username": "giantg2",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e840e53a822e4a783425313cfe25d21b",
+        "source_id": "47738873",
+        "content": {
+          "text": "I wanted to ask almost this question, then saw that it is on #1 right now. My use case is ssh. I would like to stick my private key into a local Docker container, have a ssh-identical cli that reverse proxies into the container, and have some rules about what ssh commands the container may proxy or not. Does anyone know of something like this? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:25:00.311158",
+        "updated_at": "2026-04-13T16:25:00.311158",
+        "author": {
+          "id": "bd34126bea4bf2596d29d9ed3808a55c",
+          "source_id": "sjdv1982",
+          "username": "sjdv1982",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f2259608667ba0269264c69ba344dcb4",
+        "source_id": "47740555",
+        "content": {
+          "text": "if you usecase is just about dealing with private key and txn signing why not use any KMS service? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:25:00.311929",
+        "updated_at": "2026-04-13T16:25:00.311929",
+        "author": {
+          "id": "da442a1a9d350866aecc9a9509997584",
+          "source_id": "devendra116",
+          "username": "devendra116",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "68a465be3c67203542b2317168e20cf1",
+        "source_id": "47741170",
+        "content": {
+          "text": "No, more like letting an agent interact safely with an HPC frontend. No cloud, no Windows reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:25:00.312748",
+        "updated_at": "2026-04-13T16:25:00.312748",
+        "author": {
+          "id": "bd34126bea4bf2596d29d9ed3808a55c",
+          "source_id": "sjdv1982",
+          "username": "sjdv1982",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d274adb9d3ada39668ca0c24f7983b15",
+        "source_id": "47737207",
+        "content": {
+          "text": "As a precaution I would probably never pass secrets directly to the agent at all. Something like a placeholder format where the actual substitution happens at execution time so the LLM never sees the real value. Keeps things cleaner if something ever goes wrong. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:25:00.313587",
+        "updated_at": "2026-04-13T16:25:00.313587",
+        "author": {
+          "id": "72e5217a95cc87fe3f35aa592a64db83",
+          "source_id": "jvqv",
+          "username": "jvqv",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0e59e7af06e83c962baed98b44d883c1",
+        "source_id": "47737298",
+        "content": {
+          "text": "is there any tool that can do this ? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:25:00.314458",
+        "updated_at": "2026-04-13T16:25:00.314458",
+        "author": {
+          "id": "da442a1a9d350866aecc9a9509997584",
+          "source_id": "devendra116",
+          "username": "devendra116",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5e270ff57e1e8ec2001e8dcd4bcc2058",
+        "source_id": "47737364",
+        "content": {
+          "text": "I use mitmproxy outside of agent vm reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:25:00.315356",
+        "updated_at": "2026-04-13T16:25:00.315356",
+        "author": {
+          "id": "88c5539aeee00e8563cb25c21e916ef3",
+          "source_id": "para_parolu",
+          "username": "para_parolu",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6a5c0f4370f3b529d14fd91c83f1dea8",
+        "source_id": "47740628",
+        "content": {
+          "text": "interesting, how do you use mitmproxy for calling openAI llm ? or what exactly you use it for ? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:25:00.316278",
+        "updated_at": "2026-04-13T16:25:00.316278",
+        "author": {
+          "id": "da442a1a9d350866aecc9a9509997584",
+          "source_id": "devendra116",
+          "username": "devendra116",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e67ca881cbe1baca07ff679be1330e39",
+        "source_id": "47738816",
+        "content": {
+          "text": "Like everything else. You don't share you private, personal data, credit card numbers with the rest of the world, just like that. ;) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:25:00.317225",
+        "updated_at": "2026-04-13T16:25:00.317225",
+        "author": {
+          "id": "44812e0fc82d045a4105706f1f268de1",
+          "source_id": "sminchev",
+          "username": "sminchev",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a65a89ab263196da09603afeda75ed29",
+        "source_id": "47739370",
+        "content": {
+          "text": "i am okay, i trust that they have great guards to prevent leak any api reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:25:00.318199",
+        "updated_at": "2026-04-13T16:25:00.318199",
+        "author": {
+          "id": "f66be68ebc451b2ffe34b4e9097063f7",
+          "source_id": "omertt27",
+          "username": "omertt27",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3fb905d42c7c000ef3f316e5f22e496d",
+        "source_id": "47740595",
+        "content": {
+          "text": "which agent framework or tool gives guarantee for leaks? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:25:00.319200",
+        "updated_at": "2026-04-13T16:25:00.319200",
+        "author": {
+          "id": "da442a1a9d350866aecc9a9509997584",
+          "source_id": "devendra116",
+          "username": "devendra116",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6b375c75051c16d1c7c65d8254702a3f",
+        "source_id": "47736932",
+        "content": {
+          "text": "nope. too dangerous - i'm personally working for an agent project and i know from personal experience they do collect your session log - especially in china lol. one approach i use for my own agent is that to use keyring to store all secrets. agent will call a tool to request for it, and it will be something like <secret:gmail.password>. the substitution happens at tool execution time so the llm never sees or logs the actual value. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:25:00.320233",
+        "updated_at": "2026-04-13T16:25:00.320233",
+        "author": {
+          "id": "71ea5a8e88550e572a0af6d93f262755",
+          "source_id": "10keane",
+          "username": "10keane",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2ffbd9e9407be506c90de816d51ae147",
+        "source_id": "47737291",
+        "content": {
+          "text": "keyring is one of solution but even substituting values at excution does not gaurantee the security as agents can read the process itself. im building a safe agent execution layer, A runtime where agents can act, but cannot access secrets. kinda sidecar that is callable by agent for using api keys, secrets, private keys, etc and plus one can add policy on how and what a agent can do. does this seems good? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:25:00.321322",
+        "updated_at": "2026-04-13T16:25:00.321322",
+        "author": {
+          "id": "da442a1a9d350866aecc9a9509997584",
+          "source_id": "devendra116",
+          "username": "devendra116",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e289d322221bdd6ed82ff2705acbc697",
+        "source_id": "47739490",
+        "content": {
+          "text": "yah keyring is more for static protection. when the agent process itself is hostile, keyring is kinda obsolete. but then i think the key is that sometimes agent does need access to credentials to be useful - like i will give some credentials to agent such as my browser account access. personally i feel it is not really about preventing agent from accessing credentials, but more to have the supervision layer when agent access it - like you know exactly when and why agent need to access it and you have the ability to deny or approve it. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:25:00.322429",
+        "updated_at": "2026-04-13T16:25:00.322429",
+        "author": {
+          "id": "71ea5a8e88550e572a0af6d93f262755",
+          "source_id": "10keane",
+          "username": "10keane",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9734f8a0f90365ae9839464d854ac082",
+        "source_id": "47740446",
+        "content": {
+          "text": "so do we need something like `safe agent execution layer - that is policy enforced` (SEAL) we can manage what should be allowed and what not agent uses llm to plan the action, but the actual execution happens in SEAL. any example where it would make sense to start with? open for thoughts reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:25:00.323584",
+        "updated_at": "2026-04-13T16:25:00.323584",
+        "author": {
+          "id": "da442a1a9d350866aecc9a9509997584",
+          "source_id": "devendra116",
+          "username": "devendra116",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3b0bbda7b1f73b85791135d20ab0f800",
+        "source_id": "47738763",
+        "content": {
+          "text": "No :) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:25:00.324725",
+        "updated_at": "2026-04-13T16:25:00.324725",
+        "author": {
+          "id": "f565d4d6295bbf07f86670201b050586",
+          "source_id": "KellyCriterion",
+          "username": "KellyCriterion",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6e227537030ffe0ec03ba44431b1d228",
+        "source_id": "47740576",
+        "content": {
+          "text": "does you agent only print \"Hello World\" on console ? or it uses any service ;) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-13T16:25:00.325897",
+        "updated_at": "2026-04-13T16:25:00.325897",
+        "author": {
+          "id": "da442a1a9d350866aecc9a9509997584",
+          "source_id": "devendra116",
+          "username": "devendra116",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-04-13T16:25:00.326729",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "7c7d3a831234f2bbfbe6933a9e452dde",
+      "source_id": "47736400",
+      "title": "Ask HN: Anyone using Nostr as a lightweight back end/DB for rapid prototyping?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-13T16:24:18.170972",
+      "updated_at": "2026-04-13T16:24:18.170972",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "e01d0b823373cca5ea1da2a40be09866",
+        "source_id": "wasimsk",
+        "username": "wasimsk",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 6,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47736400",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-04-13T16:25:04.642008",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "58bf74c9e607192e92133ad340a727d2",
+      "source_id": "47722081",
+      "title": "Ask HN: Hiring in the age of AI-assisted coding: what works?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-13T16:24:18.171684",
+      "updated_at": "2026-04-13T16:24:18.171684",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "7a26ef85f262f24435cebcacbdd0755a",
+        "source_id": "nitramm",
+        "username": "nitramm",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 26,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47722081",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-04-13T16:25:07.552920",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "712eaa7fe6b7e59b1c271e91cf12ccac",
+      "source_id": "47739684",
+      "title": "Ask HN: What's your experience with PoW captchas against form spam?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-13T16:24:18.172410",
+      "updated_at": "2026-04-13T16:24:18.172410",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "48f0a470eb77b9ac8a5476e217820305",
+        "source_id": "pentacent_hq",
+        "username": "pentacent_hq",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 5,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47739684",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-04-13T16:25:12.159444",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "9b6fc16bdb4f0cf1a727427e40372332",
+      "source_id": "47728352",
+      "title": "Ask HN: Best books on building a programming language",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-13T16:24:18.172990",
+      "updated_at": "2026-04-13T16:24:18.172990",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "23f9d49028ec018f8873e26cda6af683",
+        "source_id": "ezzato",
+        "username": "ezzato",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 17,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47728352",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-04-13T16:25:15.224537",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "71d6dca00a24c18c9bc488024b47198a",
+      "source_id": "47736372",
+      "title": "Ask HN: What should I do with my app? 130 downloads 3 real subscribers",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-13T16:24:18.173610",
+      "updated_at": "2026-04-13T16:24:18.173610",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "625bf0d6d2b04d32263406e07b4a36ef",
+        "source_id": "oyaa52",
+        "username": "oyaa52",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 3,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47736372",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-04-13T16:25:19.667810",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "03097b89617b5ff87629afa8304ad210",
+      "source_id": "47735693",
+      "title": "Ask HN: Former grok-code-fast-1 users, what coding model are you using now?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-13T16:24:18.174323",
+      "updated_at": "2026-04-13T16:24:18.174323",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "82a074d74008cdc19f39321e592058d7",
+        "source_id": "whycombinetor",
+        "username": "whycombinetor",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 2,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47735693",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-04-13T16:25:23.785481",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  }
+]
