@@ -29672,5 +29672,2877 @@
       ],
       "is_nsfw": false
     }
+  },
+  {
+    "post": {
+      "id": "2d500c6a252241c14b5b16672a608a6b",
+      "source_id": "47890749",
+      "title": "Ask HN: How are you using AI code assistants on large messy legacy code bases?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">My company is starting to explore AI coding. I am a dev with 20+ years of experience and I am tasked with trying to help see how we can use this tool to help our company. I have only used Claude so my experience is limited to that.<p>As you might guess, I find AI to be extremely good at some things and actively terrible at others. A lot of the things I read and demos I watch all have to do with reasonable code bases. Our code base is not reasonable. It's over 20 years old, coded by a multitude of different developers with different coding styles, design patterns, etc... What you would expect from a small company that has been slowly growing for decades. I also work in the medical field so slow evolving old code bases are the norm.<p>One of the reasons the AI fails constantly is that it has no context of the entire code base. It simply can't keep that context in scope for every session. So it actively adds bloat to the system unless it's guided by a skilled developer who already knows the system. I am using memories where I can but it has to regularly read huge chunks of code and that uses a lot of tokens. I regularly hit my limit on a Pro account.<p>What are your experiences with this? Any tips or tricks to improve output and cost? Any help is most appreciated. Thanks!</p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-24T16:17:29.814207",
+      "updated_at": "2026-04-24T16:17:29.814207",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "2321165ea3e382038513db54ddfe0151",
+        "source_id": "thinkingtoilet",
+        "username": "thinkingtoilet",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 3,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47890749",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "3f8497aee0334a521b63e64cc22b6cb0",
+        "source_id": "47892054",
+        "content": {
+          "text": "I just came across this yesterday, https://github.com/safishamsi/graphify It's supposed to help the agent find the structure and relations in a code base. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:17:32.333723",
+        "updated_at": "2026-04-24T16:17:32.333723",
+        "author": {
+          "id": "fdbad6445372e0dae327dccc161295d3",
+          "source_id": "sds357",
+          "username": "sds357",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ca260d69e1c120b2341d10b057b87888",
+        "source_id": "47891269",
+        "content": {
+          "text": "Part of why you're hitting your limit is that Claude's Pro subscription is completely unusable with the current usage limits. I legitimately mean it when I say, you should cancel. But to the actual question: A lot of people's gut instinct on how to solve this doesn't work. They start going down the road of \"well, if I teach the AI about my legacy codebase, it will be smarter, and therefore more efficient.\" But all you wind up doing is consuming all of your available context, with irrelevancies, and your agent gets dumber and costs more. What you actually need to do is tackle it the same way a human would: Break it down into smaller problems, where the agent is able to keep the \"entire problem\" within context at once. Meaning 256K or less (file lengths + prompt + outputs). Then of course use a scratchpad file that holds notes, file references, constraints, and line numbers. That's your compaction protection. Restart the chat with the same scratchpad when you move between minor areas. Context is your primary-limited resource. Fill it only with what should absolutely need to be there, and nothing else at all. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:17:32.334345",
+        "updated_at": "2026-04-24T16:17:32.334345",
+        "author": {
+          "id": "e9efefb03d571676bb26bfb2a965b128",
+          "source_id": "Someone1234",
+          "username": "Someone1234",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "adc7eaf4b1834be9998a489f1e881c65",
+        "source_id": "47892050",
+        "content": {
+          "text": "Are you managing your scrathpad file or letting the AI do it? Or both? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:17:32.334865",
+        "updated_at": "2026-04-24T16:17:32.334865",
+        "author": {
+          "id": "2321165ea3e382038513db54ddfe0151",
+          "source_id": "thinkingtoilet",
+          "username": "thinkingtoilet",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f37bbe70eec47c7d8bf3e6492dc4dcf5",
+        "source_id": "47892226",
+        "content": {
+          "text": "I have the agent automatically manage its own scratchpad file. But it is meant to be fully disposable; it isn't committed, and is destroyed if you shift areas. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:17:32.335439",
+        "updated_at": "2026-04-24T16:17:32.335439",
+        "author": {
+          "id": "e9efefb03d571676bb26bfb2a965b128",
+          "source_id": "Someone1234",
+          "username": "Someone1234",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "556dff304aace6e8a87d0c06004cef97",
+        "source_id": "47891517",
+        "content": {
+          "text": "Just go the old way. You will save a lot of time, and gain a lot of knowledge. In my company we have tried using claude for exactly the same task you have. The results were bad. We discovered a few interesting things, but most of the stuff was wrong: we had to dif through the code base the old way to confidently accept/reject what Claude was telling us. So we could have save a lot of time and money simply by doing it ourselves. As an upside we also learned about the codebase so now people rely on us for that (that feels good too) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:17:32.336049",
+        "updated_at": "2026-04-24T16:17:32.336049",
+        "author": {
+          "id": "f5dde00778fdf68564c59a9c85fb4020",
+          "source_id": "sdevonoes",
+          "username": "sdevonoes",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "333258f584d809e34ad5d9380fa30bae",
+        "source_id": "47890845",
+        "content": {
+          "text": "I've been in a similar position; where I was tasked to refactor a messy LARGE codebase that was created by a bunch of different previous team members. Here's what I would recommend:\n- If your codebase contains sensitive or IP related code make sure to remove that before interacting with your AI assistant of choice\n- Upload the repo/codebase to Claude Code (or codex or whatever you prefer); and ask it to analyse it: the good, the bad and the ugly\n- Based on the analysis ask the AI assistant to create an .md file with all recommendations/optimisations required to improve code (make sure to have all relevant tests included in the refactoring loop)\n- Note the before outcomes/outputs; do the refactoring using Claude Code again or  whatever tool you prefer; then check after outcomes/outputs to make sure nothing did break Usually it's an iterative process; if done correctly you could end up with a much better codebase.\nGood luck! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:17:32.336670",
+        "updated_at": "2026-04-24T16:17:32.336670",
+        "author": {
+          "id": "816d97e6d9b3a03ff719c68d3b75c21f",
+          "source_id": "mc7alazoun",
+          "username": "mc7alazoun",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6fff5a29e017a7a1e54faca55acb097c",
+        "source_id": "47891199",
+        "content": {
+          "text": "Do you recall how much it cost to review your code base? I worry it's going to be hundreds of dollars just for it to review the thousands of files, let alone organize it all and create suggestions. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:17:32.337314",
+        "updated_at": "2026-04-24T16:17:32.337314",
+        "author": {
+          "id": "2321165ea3e382038513db54ddfe0151",
+          "source_id": "thinkingtoilet",
+          "username": "thinkingtoilet",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5ccb6838b4055b94247c912cc0df76d0",
+        "source_id": "47891375",
+        "content": {
+          "text": "Not thousands of files in my cases .. The Claude 5x Max plan was enough!\nI'd suggest splitting your code review into reasonable sized chunks .. don't try to do it all at once. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:17:32.337971",
+        "updated_at": "2026-04-24T16:17:32.337971",
+        "author": {
+          "id": "816d97e6d9b3a03ff719c68d3b75c21f",
+          "source_id": "mc7alazoun",
+          "username": "mc7alazoun",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c0fcf7be4a15d414cac3915a21ed68d7",
+        "source_id": "47891703",
+        "content": {
+          "text": "Preparation: Let it explore small parts of the code and ask it to write .md documentation. It will pick it up and read it later. Create an AGENTS.md file and put in your coding principles. Let it always update its documentation. Do that until the whole repo is in good shape. Then for execution: Use plan mode. Let it always write a plan first, check it, correct it and only then allow it to implement it. Try to break big tasks down in small substeps. As small as possible. Let it implement changes iteratively. Let it do a lot of local git commits. Both Codex and Claude Code use this as documentation as well. Basically, treat it like a junior developer working under you. Make sure appropriate tests are written for every code change. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:17:32.338702",
+        "updated_at": "2026-04-24T16:17:32.338702",
+        "author": {
+          "id": "6a5d323cb8f2bae2104141458fa6e9c4",
+          "source_id": "4l3x4f1sh3r",
+          "username": "4l3x4f1sh3r",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ebe8807c1ad8917623f5760cabc0a7a2",
+        "source_id": "47891973",
+        "content": {
+          "text": "I'm using memories for things like coding style and preferences. Is using AGENTS any better? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:17:32.339414",
+        "updated_at": "2026-04-24T16:17:32.339414",
+        "author": {
+          "id": "2321165ea3e382038513db54ddfe0151",
+          "source_id": "thinkingtoilet",
+          "username": "thinkingtoilet",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4ddb15cfcec0b30c0df58e4a57597a18",
+        "source_id": "47891258",
+        "content": {
+          "text": "Start small with it. Pick a contained area and have Claude run through it with you. Have it ask you questions and collab with it. Then have it save any output to a document that can be referenced later. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:17:32.340169",
+        "updated_at": "2026-04-24T16:17:32.340169",
+        "author": {
+          "id": "55a358b46c346331b32104b22003d313",
+          "source_id": "rocketpastsix",
+          "username": "rocketpastsix",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-04-24T16:17:32.340556",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "20bc929b5170248bf8f2433a1c357750",
+      "source_id": "47888068",
+      "title": "Ask HN: Am I getting old, or is working with AI juniors becoming a nightmare?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-24T16:17:29.814911",
+      "updated_at": "2026-04-24T16:17:29.814911",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "609d12cb8e2b9021cf937784ae38320e",
+        "source_id": "MichaelRazum",
+        "username": "MichaelRazum",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 24,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47888068",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-04-24T16:17:37.227812",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "de20faffed1d063033d9d6ae80587caf",
+      "source_id": "47888857",
+      "title": "Ask HN: Scaling a targeted web crawler beyond 500M pages/day",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">I've been reading up on crawler architecture. The two most useful sources I've found are the blog post \"Crawling a billion web pages in just over 24 hours, in 2025\" and the Mercator paper (\"Mercator: A Scalable, Extensible Web Crawler\").<p>Both of these, and most other material I've come across, focus on crawling the broad open web rather than a targeted set of domains. For product prices it's the latter. Mercator calls out DNS resolution as a major bottleneck, for example, but when you're only hitting a few hundred domains that isn't really a concern.<p>The other gap is that both assume static HTML. For our use case we need a headless browser, and we also have to deal with Cloudflare and similar anti-bot systems.<p>For product prices specifically, a lot of sites publish price feeds which simplifies things, but plenty don't, and getting good coverage still requires scraping. Our current system does about 500M pages/day and we're looking to improve its performance.<p>Does anyone here have experience in this space, or know of articles/blog posts on scaling targeted (rather than broad) crawlers with headless browsers? Any pointers appreciated.</p></p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-24T16:17:29.815506",
+      "updated_at": "2026-04-24T16:17:29.815506",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "7a9b3b0890660395b3147347f1ac3d03",
+        "source_id": "honungsburk",
+        "username": "honungsburk",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 4,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47888857",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-04-24T16:17:38.725805",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "44b98d53afa41e8b89c148cce7c51eef",
+      "source_id": "47884457",
+      "title": "Ask HN: How do solo devs protect their work in the age of vibe coding?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">I am working on a new open-source project. (My project is in AI infrastructure. It already gets SOTA results on several well-known benchmarks.) The core value is not just the code, but a fairly specific algorithmic approach that came out of many failed attempts, experiments, and design iterations.<p>The dilemma I am facing is this:<p>If I open-source early, I get feedback, trust, users, and maybe contributors. But I also expose the core design and algorithm. With LLMs, turning a repo into a different implementation is much cheaper than it used to be.<p>If I keep it closed, I protect the work for longer, but I also lose the main advantages of OSS: adoption, review, community, and credibility. Worse, someone else may still build something similar and become the default project in the space.<p>I’m a new solo dev with almost no audience. If a large org or a well-known developer sees the idea and ships a similar implementation, they can get more attention immediately than I can get in months. And in the end I get nothing for open-sourcing my project.<p>How would you handle this as a solo dev?</p></p></p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-24T16:17:29.816224",
+      "updated_at": "2026-04-24T16:17:29.816224",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "0fe623641bd3cfb0f4f498920b64edfc",
+        "source_id": "langs",
+        "username": "langs",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 15,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47884457",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "7cf4c8115d96ce82ef134ed2dc44d91c",
+        "source_id": "47889653",
+        "content": {
+          "text": "There is no way to protect your idea from being copied/stolen. It happened a million times over, you have some brilliant idea, people start using it, and after a few months some big company puts 10-100 engineers on it and they do the same thing. I would say that the key is to get to a big enough audience so they would rather buy you out than compete. Easier said than done :P And the biggest question is: do you want to commit 100% of your time and money to building your company, or you would rather spend your time building new things? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:17:39.879692",
+        "updated_at": "2026-04-24T16:17:39.879692",
+        "author": {
+          "id": "c88b86f3be7e9f24d2fef844818d0776",
+          "source_id": "gajo357",
+          "username": "gajo357",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5a85ab6096aacfcc276a120f96a5efd0",
+        "source_id": "47888447",
+        "content": {
+          "text": "If your open source code contains your technical barriers, then don't open source the code with those barriers—only open source the other parts. If it's the other case, where you're worried about plagiarism, I actually don't think you need to be too concerned. I once saw an interview with Airbnb's founder Brian Chesky where he talked about how Airbnb also faced many imitators in its early days. These competitors grew rapidly too, but looking back, the difference between imitators and originals is that while imitators might get off to a quick start, they find it hard to persevere through difficulties like the original does in the mid-to-late stages. In the end, it's often the original who stuck with their vision that survives. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:17:39.880257",
+        "updated_at": "2026-04-24T16:17:39.880257",
+        "author": {
+          "id": "ec7bf66a7fbe693bdde2705676c98ed9",
+          "source_id": "djyde",
+          "username": "djyde",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4a52e18c5f6bcebf1bd0514056b7a7de",
+        "source_id": "47891600",
+        "content": {
+          "text": "see also: https://ryelang.org/blog/posts/cognitive-dark-forest/ (posted on HN a couple of weeks back) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:17:39.880804",
+        "updated_at": "2026-04-24T16:17:39.880804",
+        "author": {
+          "id": "1930ca485b4f0b9ad53265089cd22d16",
+          "source_id": "red-iron-pine",
+          "username": "red-iron-pine",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "bea8a292292e3e58ed6edd05825e2529",
+        "source_id": "47886740",
+        "content": {
+          "text": "If you are building something which can be vibe-coded easily then it ofc people will create it. You can copyright a product but you can't copyright an Idea. Selling things online was an idea by Amazon, now everyone sells online. If you really want people not to copy your idea then make something which cannot be easily vibe-coded or copied easily i.e. which require serious skills. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:17:39.881395",
+        "updated_at": "2026-04-24T16:17:39.881395",
+        "author": {
+          "id": "62b234c36c99bc2e55fca73463db8c6a",
+          "source_id": "shivang2607",
+          "username": "shivang2607",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "578c7651b300490b648778a3daafee49",
+        "source_id": "47884575",
+        "content": {
+          "text": "Vibe litigation Seriously, I think you should just do it closed source and pursue adoption by other channels. If people ask you why it's not open source, say you're not ready to manage it yet. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:17:39.881966",
+        "updated_at": "2026-04-24T16:17:39.881966",
+        "author": {
+          "id": "864eed9704aa4fb871b397b553b2ef97",
+          "source_id": "anigbrowl",
+          "username": "anigbrowl",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "39aeae00c6150c1694afe52b41875812",
+        "source_id": "47884563",
+        "content": {
+          "text": "Is your project a vibe-coded application? It sounds like you're insecure about someone copying your idea, which will could happen regardless of licensing if anyone has access to Claude Code and a description of your product. If your primary motivation to use an Open Source license is gaining trust and users, you're just going to be disappointed. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:17:39.882599",
+        "updated_at": "2026-04-24T16:17:39.882599",
+        "author": {
+          "id": "6f8a0ef01950f54a2a0192e326613555",
+          "source_id": "bigyabai",
+          "username": "bigyabai",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2a1d3040236a8a54a994c4bbe4e80bd3",
+        "source_id": "47884945",
+        "content": {
+          "text": "I vide-coded some, but the core is hand-craft arch/algorithm, that's the most valuable part I want to protect. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:17:39.883243",
+        "updated_at": "2026-04-24T16:17:39.883243",
+        "author": {
+          "id": "0fe623641bd3cfb0f4f498920b64edfc",
+          "source_id": "langs",
+          "username": "langs",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6d7ece1a61d3fac15ca048bd9026e590",
+        "source_id": "47887243",
+        "content": {
+          "text": "Then it's already gone to AI servers. They slurp your codebase. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:17:39.883896",
+        "updated_at": "2026-04-24T16:17:39.883896",
+        "author": {
+          "id": "cad75ac5ad0b182cb9bf0019f4669e2f",
+          "source_id": "faangguyindia",
+          "username": "faangguyindia",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "bb9d0aa1af1602269ab0678911b25647",
+        "source_id": "47885148",
+        "content": {
+          "text": "totally agree reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:17:39.884594",
+        "updated_at": "2026-04-24T16:17:39.884594",
+        "author": {
+          "id": "16aa3c78d7e4335867e74aba88fd4ebe",
+          "source_id": "liam-chen",
+          "username": "liam-chen",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-04-24T16:17:39.884921",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "64332ad7fd996de23bb1f2a0bad4a16a",
+      "source_id": "47887549",
+      "title": "Ask HN: Chrome, Brave, Firefox or Something Else?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">My favourite is Brave.</div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-24T16:17:29.816768",
+      "updated_at": "2026-04-24T16:17:29.816768",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "e01d0b823373cca5ea1da2a40be09866",
+        "source_id": "wasimsk",
+        "username": "wasimsk",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 7,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47887549",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "099b7d360786f9e354b7953a8948d851",
+        "source_id": "47887949",
+        "content": {
+          "text": "Firefox — Everyone loves to play armchair CEO and dictate the ills of the company. But I think they do so because Firefox is largely the only independent rendering engine and with Google's foothold on browsers (to protect their ad revenue) I'm nervous about the future of Blink. Independent players are always good for competition. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:17:42.459813",
+        "updated_at": "2026-04-24T16:17:42.459813",
+        "author": {
+          "id": "08be45098e67dd82b53efee8e33f18d0",
+          "source_id": "nness",
+          "username": "nness",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "41294eb8bb2fb00cecc036eb2bebf9a0",
+        "source_id": "47889044",
+        "content": {
+          "text": "Been using Firefox + uBlock Origin for a few years now. The container tabs feature is underrated for separating work/personal contexts. That said, if you want something that just works out of the box with built-in ad blocking, Brave is a solid choice. The tradeoff is you are trusting Brave with your browsing data (they have an ad platform). reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:17:42.460370",
+        "updated_at": "2026-04-24T16:17:42.460370",
+        "author": {
+          "id": "326d22ab95354456bf958783d990ecb3",
+          "source_id": "openclawclub",
+          "username": "openclawclub",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "bca1b61a939c37b272098f3f452a6a19",
+        "source_id": "47888976",
+        "content": {
+          "text": "I'm used to work with Chrome and so far it's the best for me, i like how it sync with my Android mobile. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:17:42.460885",
+        "updated_at": "2026-04-24T16:17:42.460885",
+        "author": {
+          "id": "3c829810662fcc2e846dc8f6ccb3b9a4",
+          "source_id": "anatoli_k",
+          "username": "anatoli_k",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4a377a8eca23e61e6cfa9980456e8188",
+        "source_id": "47889175",
+        "content": {
+          "text": "Firefox has solid and capable cross-platform sync reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:17:42.461457",
+        "updated_at": "2026-04-24T16:17:42.461457",
+        "author": {
+          "id": "062d45273b9ed7d7e350b1a0390234a5",
+          "source_id": "andyjohnson0",
+          "username": "andyjohnson0",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a4d78caefe83e6d4d4d6e313d3d337bb",
+        "source_id": "47888797",
+        "content": {
+          "text": "I think the best browser is whichever one stays out of way.For me lately that's Brave too. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:17:42.462052",
+        "updated_at": "2026-04-24T16:17:42.462052",
+        "author": {
+          "id": "1c5e64979064b224bb471e63c76b7ad3",
+          "source_id": "late_night_fix",
+          "username": "late_night_fix",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e56deed152f34c144302584673106ca1",
+        "source_id": "47887767",
+        "content": {
+          "text": "I prefer Firefox as it is still the only feasible non-chromium alternative. I have been a firefox user for more than two decades - since it was called Pheonix and later Firebird. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:17:42.462665",
+        "updated_at": "2026-04-24T16:17:42.462665",
+        "author": {
+          "id": "053edc83ee350859c443c223bc13ea79",
+          "source_id": "hosteur",
+          "username": "hosteur",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b4e0e26fdb3825ca261ac2968961fabe",
+        "source_id": "47887570",
+        "content": {
+          "text": "Ladybird coming soon) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:17:42.463292",
+        "updated_at": "2026-04-24T16:17:42.463292",
+        "author": {
+          "id": "ba33ca0e92fee8b60675d42521350c24",
+          "source_id": "immanuwell",
+          "username": "immanuwell",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a1b8ca8cc8a54ce1daf0dddef11b9ee8",
+        "source_id": "47888709",
+        "content": {
+          "text": "I waiting for it release reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:17:42.463924",
+        "updated_at": "2026-04-24T16:17:42.463924",
+        "author": {
+          "id": "a7738146b6de3c6eee25523e62aea9cb",
+          "source_id": "DropDead",
+          "username": "DropDead",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "158e55a379604901454278a8ea08e2c4",
+        "source_id": "47890195",
+        "content": {
+          "text": "yes, finally. So good to see another independent browser engine around. I am watching their monthly progress videos on YT and it is quite amazing how well the project has evolved IMO reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:17:42.464605",
+        "updated_at": "2026-04-24T16:17:42.464605",
+        "author": {
+          "id": "6a5d323cb8f2bae2104141458fa6e9c4",
+          "source_id": "4l3x4f1sh3r",
+          "username": "4l3x4f1sh3r",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c8b7619c6566a8df31d2529798a93a19",
+        "source_id": "47888394",
+        "content": {
+          "text": "Anything that can run uBO proper. So, Firefox. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:17:42.465351",
+        "updated_at": "2026-04-24T16:17:42.465351",
+        "author": {
+          "id": "18aa504fa5756ddda9eeef207d37240e",
+          "source_id": "kgwxd",
+          "username": "kgwxd",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1aed40fb481aaa4fa5402187f9e9469b",
+        "source_id": "47887553",
+        "content": {
+          "text": "I use Helium. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:17:42.466102",
+        "updated_at": "2026-04-24T16:17:42.466102",
+        "author": {
+          "id": "8c123a0cee2d448faa577e47b60c1e05",
+          "source_id": "dotcoma",
+          "username": "dotcoma",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-04-24T16:17:42.466470",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "38d565923def3a1dcbdf717092ae2e2d",
+      "source_id": "47884294",
+      "title": "Ask HN: Why are companies so distrustful of remote employees?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">I just passed on a job for a quality company in the Bay area because they wouldn't budge on remote work. I already work remote and have since the pandemic and it works for me and my employer. I do travel occasionally, but whenever I do I always think \"wow, I'd get so much more done right now at home.\"<p>I've always been skeptical of the entire RTO storyline. I literally work on a computer all day with an Internet connection and can complete every aspect of my job remotely, no if, ands, or buts, about it. Also, at this point many are tracking our mouse movements and key strokes, and the work gets done, so they know we're working too<p>I'm used to the short sided mindset at this point, but the situation just got me thinking about it again.<p>Meanwhile, companies are throwing everything at AI (which works remotely), laying off employees to do so, and then having obsurd in office policies and skimping on benefits. Just makes you wonder why they distrust people so much.</p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-24T16:17:29.817313",
+      "updated_at": "2026-04-24T16:17:29.817313",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "ee8ddd89fbdcbc0063286870de304ada",
+        "source_id": "lyfeninja",
+        "username": "lyfeninja",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 10,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47884294",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "71931c2bfc4f31ef184f42ce0724815f",
+        "source_id": "47889371",
+        "content": {
+          "text": "There's more to being an employee than just being able to \"complete every aspect of my job remotely\". If the company just wanted to have some job done, be it on site, or especially remotely, they'd use a vendor or contractor. That's what they do for moving the furniture, painting, watering the plants, payroll, advertising, legal, auditing, etc. An employee is someone who, as well as just doing their job, sporadically does other things like maintaining relationships, product ideas, interviewing candidates, training new hires, and whatever other ad-hoc stuff is required to keep a company operational. If you want to be hired as an employee, and potentially get promoted, etc, then doing your actual job is just a bare minimum to not get fired (and maybe not even that, with layoffs being so popular), and an ability to contribute to all the other stuff is what will get you hired and keep you employed. Of course, there's nothing wrong with being a contractor, or just doing your job / the bare minimum, but companies need employees who can do more to keep existing, and its up to you if you want to be one or not. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:17:45.243811",
+        "updated_at": "2026-04-24T16:17:45.243811",
+        "author": {
+          "id": "fbf371f33e32d0aea3cd9c9b8b65ca94",
+          "source_id": "tacostakohashi",
+          "username": "tacostakohashi",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d8b69a24292241ed736837e2e2b6bc24",
+        "source_id": "47889610",
+        "content": {
+          "text": "I've been working remotely since 2011, for companies who are 100% remote, and who still accomplish all of those things. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:17:45.244381",
+        "updated_at": "2026-04-24T16:17:45.244381",
+        "author": {
+          "id": "b676d1bf3770c1a06ca92e42765f5c91",
+          "source_id": "codingdave",
+          "username": "codingdave",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8296092dd5d789f72e070c45f8852159",
+        "source_id": "47884378",
+        "content": {
+          "text": "I think part of it is also that most companies never built good ways to measure output in the first place. In an office, “being there” becomes a proxy for productivity, even if it’s not accurate. Once you remove that, the gap becomes very visible, and instead of fixing measurement, a lot of companies just revert back to what they’re used to. So it ends up looking like a remote work problem, but it’s really a management/measurement problem. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:17:45.244943",
+        "updated_at": "2026-04-24T16:17:45.244943",
+        "author": {
+          "id": "c75dcdc532cef2788aad81fd93759f9a",
+          "source_id": "aroido-bigcat",
+          "username": "aroido-bigcat",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e4a3d2a9b0aacd99944530234f6b0122",
+        "source_id": "47884867",
+        "content": {
+          "text": "As a counterpoint, I've worked remotely since like 2000 ...\nIt gets easier and more 'normal' every year.  So I wouldn't worry about it too much. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:17:45.245512",
+        "updated_at": "2026-04-24T16:17:45.245512",
+        "author": {
+          "id": "ae1565e9f6d3e458d81b1ddcca7784fc",
+          "source_id": "mech422",
+          "username": "mech422",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3b48db2f50814d398ef2e5ea17b1447b",
+        "source_id": "47884353",
+        "content": {
+          "text": "It's about control. If a middle manager (or higher) can't see you, they don't believe that you're working. No matter how much work you actually get done. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:17:45.246104",
+        "updated_at": "2026-04-24T16:17:45.246104",
+        "author": {
+          "id": "18a4d311f13146a0d1a1f03526adddd0",
+          "source_id": "billybuckwheat",
+          "username": "billybuckwheat",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2bf5272e56276dc37c8a7e32fa3acf39",
+        "source_id": "47884324",
+        "content": {
+          "text": "For one thing there is the nightmare scenario that the guy who shows up for the job interview is the front man for a North Korean team.  Also the Bay Area is like https://en.wikipedia.org/wiki/View_of_the_World_from_9th_Ave... but much worse and they’d hate more than anything if you “think different” reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:17:45.246725",
+        "updated_at": "2026-04-24T16:17:45.246725",
+        "author": {
+          "id": "e760097489e9389b620772b6f7bd8da6",
+          "source_id": "PaulHoule",
+          "username": "PaulHoule",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ef155f587c6c83680f79f5b77e159c68",
+        "source_id": "47887347",
+        "content": {
+          "text": "On the other hand I've worked in offices with nightmare scenarios where employees showed agitated and with firearms, or had people come looking for employees due to outside personal conflicts reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:17:45.247358",
+        "updated_at": "2026-04-24T16:17:45.247358",
+        "author": {
+          "id": "e4c42200f5139a440e8d79e79f8e580b",
+          "source_id": "dv_dt",
+          "username": "dv_dt",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8a6526a739d65c32a58043cc972d2a41",
+        "source_id": "47884500",
+        "content": {
+          "text": "As someone who works from home, and has for a long time, and would do it no differently -- and also as someone who has been up in the chain a bit and had an opportunity to look closely at things like productivity and other working patterns -- I can tell you that I've seen the most deeply unethical things, things that could never ever happen in an office. The whole \"Quiet Quitting\" movement, and just taking advantage in all kinds of ways. I've seen it again and again, particularly with younger employees. If you are a remote work company and hire someone who is not passionate about what they do, they will, for certain, take advantage. And why wouldn't they? So it is easier to just lean on the side of caution, especially if the management chain isn't entirely on top of things (which is common, because everyone is busy). reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:17:45.248036",
+        "updated_at": "2026-04-24T16:17:45.248036",
+        "author": {
+          "id": "c514a68027e0a61fd0d02e5ff4c753e3",
+          "source_id": "sibeliuss",
+          "username": "sibeliuss",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "fed80617ff7e1a3d765da7ee2bc1d1be",
+        "source_id": "47884302",
+        "content": {
+          "text": "Probably because anytime I work from home I watch TV all day and just respond to Slacks on my phone. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:17:45.248703",
+        "updated_at": "2026-04-24T16:17:45.248703",
+        "author": {
+          "id": "4d173cfce5e234e8a4981096186d36fd",
+          "source_id": "xvxvx",
+          "username": "xvxvx",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "aefdf3d4e378785d75f263051006749c",
+        "source_id": "47891065",
+        "content": {
+          "text": "lol reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:17:45.249419",
+        "updated_at": "2026-04-24T16:17:45.249419",
+        "author": {
+          "id": "f44721014205c0388057f988336165bd",
+          "source_id": "itdar",
+          "username": "itdar",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "14d31069ba107b1feab3a1abd9136d98",
+        "source_id": "47884307",
+        "content": {
+          "text": "One bad apple lol reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:17:45.250161",
+        "updated_at": "2026-04-24T16:17:45.250161",
+        "author": {
+          "id": "ee8ddd89fbdcbc0063286870de304ada",
+          "source_id": "lyfeninja",
+          "username": "lyfeninja",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-04-24T16:17:45.250542",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "8e34ab1351c1d2c805f9493c30dbdd49",
+      "source_id": "47834213",
+      "title": "Ask HN: How to solve the cold start problem for a two-sided marketplace?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-24T16:17:29.818214",
+      "updated_at": "2026-04-24T16:17:29.818214",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "5049e335b7c8d452cc19d8b6d7b2f4da",
+        "source_id": "alegd",
+        "username": "alegd",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 148,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47834213",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-04-24T16:17:49.215332",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "338f45a7e203c625a18ddf4c08205f13",
+      "source_id": "47883217",
+      "title": "Ask HN: Dear astronomers, what are the most interesting things in space lately?",
+      "content": {
+        "text": "<div class=\"toptext\"></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-24T16:17:29.818957",
+      "updated_at": "2026-04-24T16:17:29.818957",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "83ec1d33fd787cbdf951a51c1326a53a",
+        "source_id": "simonebrunozzi",
+        "username": "simonebrunozzi",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 14,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47883217",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "3fc1cd418878a22c99194daa29c6cf4a",
+        "source_id": "47883761",
+        "content": {
+          "text": "The most interesting things that you could observe yourself (say, with no more than binoculars and a dark-ish sky)? Or things you'd need fancier instruments to observe? Or are you thinking more of interesting fields of research in astronomy? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:17:51.807268",
+        "updated_at": "2026-04-24T16:17:51.807268",
+        "author": {
+          "id": "08d7d044468782322635951de6e12b88",
+          "source_id": "bell-cot",
+          "username": "bell-cot",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "868d0fc3a70ac98ae971e11f648c30db",
+        "source_id": "47886231",
+        "content": {
+          "text": "> Or are you thinking more of interesting fields of research in astronomy? This, primarily. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:17:51.807800",
+        "updated_at": "2026-04-24T16:17:51.807800",
+        "author": {
+          "id": "83ec1d33fd787cbdf951a51c1326a53a",
+          "source_id": "simonebrunozzi",
+          "username": "simonebrunozzi",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d459a805e36fc0eb092a86312e5824bb",
+        "source_id": "47886346",
+        "content": {
+          "text": "Xenobiology is a field of research in the study of the universe- lots of biology, speculative chemistry, and instrumentation design for detecting trace signatures and furious debate about whether observed signature imply life .. or something else. Building a SKA radio telescope network has many challenges, not the least being increased noise from the LEO shell. TBH there's a long long list of 'interesting' parts to the modern study of everything \"out there\", the greater question is what kinds of things do you find interesting? Eg: Maggie Aderin found her way in via Engineering and then applied work on satellites and telescopes .. but is that really \"astronomy\" or just watchmaking for astronomers? https://www.bbc.co.uk/programmes/profiles/3trm0Y2037DNmqMyjm... Either way, there's still a tonne of research that goes into the gadget building side of things, this goes hand in hand with those that theorise about black holes eating out the centres of galaxies, the cosmic background, on so on. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:17:51.808418",
+        "updated_at": "2026-04-24T16:17:51.808418",
+        "author": {
+          "id": "6279a53bf3a82381dc093748e1610152",
+          "source_id": "defrost",
+          "username": "defrost",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "888c1203421e7a09b169945f9c8f9ad7",
+        "source_id": "47886036",
+        "content": {
+          "text": "Assume yes to all. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:17:51.808954",
+        "updated_at": "2026-04-24T16:17:51.808954",
+        "author": {
+          "id": "2845ad0a586c89a9cc07525be66375d7",
+          "source_id": "chistev",
+          "username": "chistev",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-04-24T16:17:51.809162",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "08e6b162df12c0caa927a688b63ed727",
+      "source_id": "47873423",
+      "title": "Ask HN: Would you take a job programming VMS?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-24T16:17:29.819512",
+      "updated_at": "2026-04-24T16:17:29.819512",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "d9a238b2d83150306160f35853feeea8",
+        "source_id": "smackeyacky",
+        "username": "smackeyacky",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 11,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47873423",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-04-24T16:17:55.152499",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "95fbdf9dc9ebf72a1bd76becf9464e0c",
+      "source_id": "47868481",
+      "title": "Ask HN: How are you handling data retention across your stack?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-24T16:17:29.820070",
+      "updated_at": "2026-04-24T16:17:29.820070",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "e0ee7f5a626ca5f519ab72b226d2ad29",
+        "source_id": "preston-kwei",
+        "username": "preston-kwei",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 4,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47868481",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-04-24T16:17:59.526804",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "a3732a4021cd8cb2d29537fb40522f05",
+      "source_id": "47884063",
+      "title": "Ask HN: How many tabs do you have open in the browser(s) and why?",
+      "content": {
+        "text": "<div class=\"toptext\"></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-24T16:17:29.820644",
+      "updated_at": "2026-04-24T16:17:29.820644",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "8628d54e24925637f963720379cce771",
+        "source_id": "juujian",
+        "username": "juujian",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 4,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47884063",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "379d6677714a946b0ce3cc6f835e4512",
+        "source_id": "47892214",
+        "content": {
+          "text": "I think a good way to treat tabs and open files in other apps is like the 'zero inbox' when 'open' means 'do something about it', it's your task list. Hence, I could never understand how people have more than like 20 tabs open — what are you working on in this case? For myself, I only go to 20-ish territories when aggressively looking for docs or opening something for quick batch-like extraction, it's a very short-timed situation. Usually it's just three pinned mailboxes and something I'm currently on, like 2-5 tabs, one of them is likely a search engine. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:18:00.644810",
+        "updated_at": "2026-04-24T16:18:00.644810",
+        "author": {
+          "id": "fa683807de9a62f6a3c9d67d855eb26a",
+          "source_id": "rtmx",
+          "username": "rtmx",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "de06b465a30d7ef17f654d6b285923d1",
+        "source_id": "47887276",
+        "content": {
+          "text": "More than 6,000 just on my phone.  No tabs groups.  I only use that browser for recreation.  It’s an undifferentiated  stream of “things that look interesting” and I may or may not ever look at the tabs again, which is fine. Far fewer on browsers I use for productive pursuits, but hundreds across multiple windows and many tab groups.  I have a lot of projects, and haven’t found a great way ‘shelve’ and ‘unshelve’ them. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:18:00.645370",
+        "updated_at": "2026-04-24T16:18:00.645370",
+        "author": {
+          "id": "9f1ec1d2879cec92755d3ea5dedbcb06",
+          "source_id": "WalterGR",
+          "username": "WalterGR",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9ae504030ffb38635fed533b829a36ca",
+        "source_id": "47889180",
+        "content": {
+          "text": "I’m the same way. Phone is around 250 right now because I cleared out all open tabs about a year ago — was never going to look at them again. About 20-50 open on the personal laptop at a given moment, bursting higher when researching or troubleshooting something. Work computer has more like 75 as baseline, bursting to a couple hundred. Every now and then I very briefly get that back below 20. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:18:00.645897",
+        "updated_at": "2026-04-24T16:18:00.645897",
+        "author": {
+          "id": "6b7f6c219ea995fc6ef3e9e6eae719d5",
+          "source_id": "apothegm",
+          "username": "apothegm",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4e5f578e636049810f75e7371e55c6a9",
+        "source_id": "47891046",
+        "content": {
+          "text": "About 20- 40 open for office laptop. It's for my memory and context switching. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:18:00.646448",
+        "updated_at": "2026-04-24T16:18:00.646448",
+        "author": {
+          "id": "f44721014205c0388057f988336165bd",
+          "source_id": "itdar",
+          "username": "itdar",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "fccf123093c8930730cfad2464825024",
+        "source_id": "47884190",
+        "content": {
+          "text": "A whole bunch of them. Because they all seem “useful” and I’m not “done” with them yet. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:18:00.647021",
+        "updated_at": "2026-04-24T16:18:00.647021",
+        "author": {
+          "id": "aa1193cc8f9d2fbfadc8557535cfbaec",
+          "source_id": "sssilver",
+          "username": "sssilver",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d7209bfb6c474f36b972777fc73a07f1",
+        "source_id": "47884995",
+        "content": {
+          "text": "A lot. Often a couple dozen for pages that are currently queued up to read, with pages further to the left being older and often forgotten (or they're pages that I would like to have read, but don't want to take the time to read, and I haven't accepted that distinction yet). Another window might have reference material for whatever I'm working on. If I've only got one page open there, it usually means that I'm not deep into the process. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:18:00.647611",
+        "updated_at": "2026-04-24T16:18:00.647611",
+        "author": {
+          "id": "e96cd80d62c60e2a0bfbf5b391e787bb",
+          "source_id": "khedoros1",
+          "username": "khedoros1",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f1ba263ff3fd847d205779acb3a87cc6",
+        "source_id": "47884344",
+        "content": {
+          "text": "On my work computer, at least four - one each for the web apps, like Notion or Monday.com in which I'm working. Sometimes, I have a couple of tabs open for each app. On my own computer, two maybe three - one for email, one for Nextcloud, and whatever one I'm using for browsing. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:18:00.648251",
+        "updated_at": "2026-04-24T16:18:00.648251",
+        "author": {
+          "id": "18a4d311f13146a0d1a1f03526adddd0",
+          "source_id": "billybuckwheat",
+          "username": "billybuckwheat",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "edf16d386db8ee05a424ba6a8d565078",
+        "source_id": "47884394",
+        "content": {
+          "text": "For me it’s usually not about the number, it’s about unfinished decisions. Most tabs are just “I’ll come back to this”, and they pile up because I never actually decide to either use it or drop it. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:18:00.648893",
+        "updated_at": "2026-04-24T16:18:00.648893",
+        "author": {
+          "id": "c75dcdc532cef2788aad81fd93759f9a",
+          "source_id": "aroido-bigcat",
+          "username": "aroido-bigcat",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "09f16b3769d5498e8355b50b38fd36cf",
+        "source_id": "47884477",
+        "content": {
+          "text": "Right this second, four. Mail, Hermes Agent Dashboard, ESPN draft tracker, HN I harvest tabs mercilessly, I either read and close or if its something I want to keep I have the bot clip into my obsidian vault reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:18:00.649601",
+        "updated_at": "2026-04-24T16:18:00.649601",
+        "author": {
+          "id": "6ef94e90a5cbea8517a005f292dc8d4b",
+          "source_id": "MrCharismatist",
+          "username": "MrCharismatist",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-04-24T16:18:00.649924",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "dd8b25fec43d928414932fbdc4873847",
+      "source_id": "47845050",
+      "title": "Ask HN: What skills are future proof in an AI driven job market?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-24T16:17:29.821531",
+      "updated_at": "2026-04-24T16:17:29.821531",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "9ab579973ca5f0af935444ed6da8fa4a",
+        "source_id": "sunny678",
+        "username": "sunny678",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 35,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47845050",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-04-24T16:18:05.716659",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "880bcef2c268f44622d1c4899beb79de",
+      "source_id": "47862274",
+      "title": "Ask HN: Are cloud coding agents useful in real workflows yet?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-24T16:17:29.822078",
+      "updated_at": "2026-04-24T16:17:29.822078",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "b428b94327b1d01222fddca78a35f5fd",
+        "source_id": "Rperry2174",
+        "username": "Rperry2174",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 5,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47862274",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-04-24T16:18:09.964710",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "658dd1bab786b2eb3c3f22219273fc3a",
+      "source_id": "47858591",
+      "title": "Ask HN: What Would Make Stack Overflow Great Again?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">Just a brain exercise - and maybe a source of non-obvious pivot ideas:<p>If you were a product manager, what should Stack Overflow do to become great again?</p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-24T16:17:29.822911",
+      "updated_at": "2026-04-24T16:17:29.822911",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "9a7f4b2583ec935bdcea2fd799405bee",
+        "source_id": "nnurmanov",
+        "username": "nnurmanov",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 10,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47858591",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "52e13459b65718c8b245099140bbb96f",
+        "source_id": "47883091",
+        "content": {
+          "text": "Totally agree on the reputation graph being the real asset. I've been shipping apps across iOS and Android for years and the SO answers that saved me were never the generic ones, they were from someone who clearly hit the exact same obscure platform bug in production. I wouldn't go anti-AI though. AI is great at answering \"how do I sort an array in Python\", let it have those. Where it falls apart is the messy real-world stuff. I've had AI confidently tell me the wrong way to handle background BLE on Android, which would've gotten my app killed by every Samsung and Xiaomi device out there. SO could own that dividing line. Let AI handle the commodity questions, use the reputation data to route the hard ones to actual humans who've been there. Mentorship marketplace on top of that. That's not anti-AI, that's using AI to make the human expertise more valuable, not less. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:18:12.767797",
+        "updated_at": "2026-04-24T16:18:12.767797",
+        "author": {
+          "id": "1e4a3e56ecbc09b75a33862b0aba17f0",
+          "source_id": "sharmila",
+          "username": "sharmila",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "395e31c77f26cb1f5c952d3997db45ea",
+        "source_id": "47860731",
+        "content": {
+          "text": "unpopular take: SO's problem was never AI. It was that they optimized for answers instead of relationships. The best thing about old SO was finding someone who solved your exact weird edge case and you could see their other answers and learn from their thinking they should kill Q&A entirely and become the anti-AI platform. A place where senior devs mentor juniors through real problems in real time. Paid. Like a marketplace for technical mentorship. The brand recognition is there, the trust was there, and no AI can replace a human saying \"yeah I hit that same bug in production, here's what actually happened\" SO sitting on 15 years of data about who is actually good at what technology. Thats the asset. Not the answers themselves. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:18:12.768384",
+        "updated_at": "2026-04-24T16:18:12.768384",
+        "author": {
+          "id": "5049e335b7c8d452cc19d8b6d7b2f4da",
+          "source_id": "alegd",
+          "username": "alegd",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "28cb397bca4ff1f4a169ff9f2d062a34",
+        "source_id": "47885503",
+        "content": {
+          "text": "Senior devs are getting paid much more to do their actual jobs. Why spend time hanging out on SO? Besides being good in a domain, has nothing to do with pedagogical skill. Its easy to mesmerize junior devs without teaching anything useful. Youtube etc is full of this kind  of teacher. And people take time to realize what the value of pedagogical skill really is. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:18:12.768899",
+        "updated_at": "2026-04-24T16:18:12.768899",
+        "author": {
+          "id": "d8f1eaa28db21db87c76f03ea453c886",
+          "source_id": "hfhc6s",
+          "username": "hfhc6s",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8f22b4c103bbb75deaecd108e51ce62c",
+        "source_id": "47884144",
+        "content": {
+          "text": "If I were a PM at SO, I'd consider pivoting it to a social networking platform for programmers prioritizing relationships, messaging, jobs and interview support etc just enough features to make it not too generic like Linkedin. Paid expert support in natural extension to bounty based q/a. Also, an AI with human in the loop. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:18:12.769474",
+        "updated_at": "2026-04-24T16:18:12.769474",
+        "author": {
+          "id": "7abe322363c520539f40689eb9299aef",
+          "source_id": "bhu1st",
+          "username": "bhu1st",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "912b6ad5a7b18b754da4fbcc3473cabf",
+        "source_id": "47860941",
+        "content": {
+          "text": "First of all SO should not try to compete with AI, someone in the comments said AI used SO data too for training, which I believe is 100% true. Now simply integrating AI in the platform is a cliche. SO should not try to compete with AI, what I guess would work best is to repurpose the whole platform keeping the original taste. More AI related and AI dev related problems should be asked. Right now If I'm working say with claude code and ran into an issue then I put that issue in AI again to get a resolve, and I'm not sure if what solution AI came up withis good or not, maybe it works, maybe it won't, maybe it works initially but might cause trouble on prod. So maybe SO can work as 'verified programming truth or source', like documents for real problems, and rather than technical only it can have idea oriented questions and solutions too. Imagine if SO did not had so much issues and solutions mentioned, then AI would make a lot of mistakes, learning to code and building actual applications and projects has a gap, so teaching only coding to AI won't be of much help as the knowledge or training of actual working apps. I would start using SO again if they address issues of today, AI, Vibe Coding, Marketing, Infra, Costs and many.\nNot sure if this would work or not because this still needs users to start looking at SO a little differently, but not to make that another reddit at the same time. So as a PM for SO I might have the best or better solution to make it great again but just the direction of repurposing the platform might help. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:18:12.770066",
+        "updated_at": "2026-04-24T16:18:12.770066",
+        "author": {
+          "id": "539d1c5ececd74060a61323296f5438c",
+          "source_id": "rakshitpandit",
+          "username": "rakshitpandit",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e39b202d60cd73724aace550f7189379",
+        "source_id": "47861924",
+        "content": {
+          "text": "Remove snarky moderation rules, especially the one about “this question has been asked” because sometimes it is a wrong accuse and users have to post a refute and wait for it to be reopened. Basically make it more like Reddit askprogramming subreddit but keeps a higher standard about efforts made before asking the question. Questions should only be closed if there is no effort put into it or a genuine, obvious duplicate. It’s also a good idea to embed an AI to point users to similar questions when posting their own questions. The original one sometimes didn’t work very well. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:18:12.770699",
+        "updated_at": "2026-04-24T16:18:12.770699",
+        "author": {
+          "id": "e26822514495bfa8721731ec06ee07bb",
+          "source_id": "markus_zhang",
+          "username": "markus_zhang",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "50d85145255e51d7438c1646be818c90",
+        "source_id": "47860002",
+        "content": {
+          "text": "Its data was already used to train AI, maybe they could have sold it to the big AI companies? I am guessing its too late for that. All they have is their previous name and user fondness. But now with the usage fallen, maybe they could train their own coding models to compete with OpenAI, Anthropic, sort of like a hybrid of their previous forum + AI. AI solutions that work will get locked as \"Accepted\" by stack overflow like before via user vote. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:18:12.771371",
+        "updated_at": "2026-04-24T16:18:12.771371",
+        "author": {
+          "id": "5e49e2d2aec76eef60f021f42a7b5059",
+          "source_id": "farseer",
+          "username": "farseer",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "bb0dfa6ecaf4300b2eaa19cc45cb0a7e",
+        "source_id": "47860403",
+        "content": {
+          "text": "Community. SO went in the opposite direction, going so far as to penalize users for writing \"thanks a lot for helping me\". reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:18:12.772056",
+        "updated_at": "2026-04-24T16:18:12.772056",
+        "author": {
+          "id": "a26966f71f87c35cc87937d3d7e8f084",
+          "source_id": "bjourne",
+          "username": "bjourne",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2bf952a2324ecf430f3b3bbc10a17220",
+        "source_id": "47871310",
+        "content": {
+          "text": "I believe everyone understands the root cause - people are afraid to ask questions, which stems from crappy moderation, which stems from the karmic system. The founders went on to found Discourse which has the exact same problems in community, which hints heavily that it's a problem with the system. What I would fix is the karma system. 1) Don't give mod powers and responsibilities to people with high karma; moderation skill is intangible and not related to technical competency. 2) Get rid of \"bullying\" habits. Punish downvoting by increasing the cost to -1. Or do what other social media has done and hide votes, especially to high karma users. 3) Reset karma to 0, but recognize their peak value. Send an email out on why. This should be enough to get rid of all the people who are in it for the karma, and pull back all the people who were in it to contribute to a knowledge base. 4) Fire all the current moderators. They've collectively done a terrible job. Add their salaries together and use it to poach dang from HN. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:18:12.772822",
+        "updated_at": "2026-04-24T16:18:12.772822",
+        "author": {
+          "id": "65547db35ad470ce1d9e44d413173434",
+          "source_id": "muzani",
+          "username": "muzani",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2ac07f8dd4ce507a4e51a43a97cc9380",
+        "source_id": "47859134",
+        "content": {
+          "text": "An agent-first community generated repository of \"skills\" for given tags. A world where the BEST Typescript skills are crowdsourced over hundreds of thousands of projects/agents/people. Q&A is dead more or less. Skills would bring it back. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:18:12.773566",
+        "updated_at": "2026-04-24T16:18:12.773566",
+        "author": {
+          "id": "e601026a5c7757be41e1ccccc7422ff3",
+          "source_id": "sergiotapia",
+          "username": "sergiotapia",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2f166deb9f50d3de1347dc24c2d9a9b9",
+        "source_id": "47859294",
+        "content": {
+          "text": "IMO, Freelance marketplace could be a good pivot. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:18:12.774312",
+        "updated_at": "2026-04-24T16:18:12.774312",
+        "author": {
+          "id": "9a7f4b2583ec935bdcea2fd799405bee",
+          "source_id": "nnurmanov",
+          "username": "nnurmanov",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "af29186a98e4360f1fcbf3468edea10d",
+        "source_id": "47859483",
+        "content": {
+          "text": "Eras just come to an end. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:18:12.775092",
+        "updated_at": "2026-04-24T16:18:12.775092",
+        "author": {
+          "id": "2845ad0a586c89a9cc07525be66375d7",
+          "source_id": "chistev",
+          "username": "chistev",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1a4dc6c413632a2702787391c1f8b0a6",
+        "source_id": "47868498",
+        "content": {
+          "text": "Erik Ten Hag is this you ? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:18:12.775868",
+        "updated_at": "2026-04-24T16:18:12.775868",
+        "author": {
+          "id": "f7447e39458d1064e68806029d1fcc76",
+          "source_id": "leosanchez",
+          "username": "leosanchez",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2233d0becdd9641e6df9dca660bbfe56",
+        "source_id": "47872446",
+        "content": {
+          "text": "Yes lol reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:18:12.776688",
+        "updated_at": "2026-04-24T16:18:12.776688",
+        "author": {
+          "id": "2845ad0a586c89a9cc07525be66375d7",
+          "source_id": "chistev",
+          "username": "chistev",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "88a3dfb9d3a6005638fd1a194592abdd",
+        "source_id": "47872871",
+        "content": {
+          "text": "So, so good. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:18:12.777540",
+        "updated_at": "2026-04-24T16:18:12.777540",
+        "author": {
+          "id": "f7447e39458d1064e68806029d1fcc76",
+          "source_id": "leosanchez",
+          "username": "leosanchez",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8e870440f54082ee1aa41c7db35fa686",
+        "source_id": "47873435",
+        "content": {
+          "text": "City or Arsenal for EPL? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:18:12.778413",
+        "updated_at": "2026-04-24T16:18:12.778413",
+        "author": {
+          "id": "2845ad0a586c89a9cc07525be66375d7",
+          "source_id": "chistev",
+          "username": "chistev",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "210097a334555182cf6dafbd909e6aa6",
+        "source_id": "47875427",
+        "content": {
+          "text": "Can never be arsenal reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:18:12.779320",
+        "updated_at": "2026-04-24T16:18:12.779320",
+        "author": {
+          "id": "fa2129d563f789be0f5a8770b81e6f6d",
+          "source_id": "winterrdog",
+          "username": "winterrdog",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d124810fea85e593796fbe5dc4147359",
+        "source_id": "47875901",
+        "content": {
+          "text": "We'll find out. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:18:12.780263",
+        "updated_at": "2026-04-24T16:18:12.780263",
+        "author": {
+          "id": "2845ad0a586c89a9cc07525be66375d7",
+          "source_id": "chistev",
+          "username": "chistev",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "bacef9f268c790af6daa8f0eb5badef3",
+        "source_id": "47875713",
+        "content": {
+          "text": "I am a Man UTd fan. I would be delighted if Arsenal bottle it yet again. The memes would be glorious and It would cure lot of people of depression. I would say City for EPL for the greater good. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:18:12.781244",
+        "updated_at": "2026-04-24T16:18:12.781244",
+        "author": {
+          "id": "f7447e39458d1064e68806029d1fcc76",
+          "source_id": "leosanchez",
+          "username": "leosanchez",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "90387fc442916d41bcd92896f8717b1a",
+        "source_id": "47875900",
+        "content": {
+          "text": "You still don't take City seriously, but those titles are slowly adding up. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:18:12.782238",
+        "updated_at": "2026-04-24T16:18:12.782238",
+        "author": {
+          "id": "2845ad0a586c89a9cc07525be66375d7",
+          "source_id": "chistev",
+          "username": "chistev",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "93c04944a1cbb5588a9bb75a959ee804",
+        "source_id": "47876512",
+        "content": {
+          "text": "True. My only cope is Guardiola will leave this year and they will not win as frequently as they are winning right now. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:18:12.783256",
+        "updated_at": "2026-04-24T16:18:12.783256",
+        "author": {
+          "id": "f7447e39458d1064e68806029d1fcc76",
+          "source_id": "leosanchez",
+          "username": "leosanchez",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a3ed5868d99897effdb63caf04c63ba7",
+        "source_id": "47876650",
+        "content": {
+          "text": "We'll see. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:18:12.784300",
+        "updated_at": "2026-04-24T16:18:12.784300",
+        "author": {
+          "id": "2845ad0a586c89a9cc07525be66375d7",
+          "source_id": "chistev",
+          "username": "chistev",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3f5939d4bb2a6ba41fcadcc2b92ef447",
+        "source_id": "47858816",
+        "content": {
+          "text": "It should adjust traget users from human to agent. That's to say, to build for agents sharing knowledge. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:18:12.785367",
+        "updated_at": "2026-04-24T16:18:12.785367",
+        "author": {
+          "id": "4253bf652d1e1af6b2bc8e1287a5c449",
+          "source_id": "olllo",
+          "username": "olllo",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0f8d383342d30ff28b7e293707a7c980",
+        "source_id": "47859116",
+        "content": {
+          "text": "But what about SO's famous toxicity? Can agents be toxic? SO's - “Your question is stupid.” can save a lot of resources;) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:18:12.786471",
+        "updated_at": "2026-04-24T16:18:12.786471",
+        "author": {
+          "id": "9a7f4b2583ec935bdcea2fd799405bee",
+          "source_id": "nnurmanov",
+          "username": "nnurmanov",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6b35000c9c8b58e7fe89067c793c8502",
+        "source_id": "47886386",
+        "content": {
+          "text": "The main problem is that less and less human visit stackoverflow, but not others. So I think it should face to agent but not human in this case. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:18:12.787619",
+        "updated_at": "2026-04-24T16:18:12.787619",
+        "author": {
+          "id": "4253bf652d1e1af6b2bc8e1287a5c449",
+          "source_id": "olllo",
+          "username": "olllo",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "42dff3b0002746148e8fa7b851c83cd3",
+        "source_id": "47871324",
+        "content": {
+          "text": "\"Your question is stupid\" can be rephrased as, \"This is how you can improve your question...\" SO used to do this a long time ago, but they decided that the site was being \"flooded\" with low quality questions and removed that. This seems like something cheap AI can do just fine. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-24T16:18:12.788778",
+        "updated_at": "2026-04-24T16:18:12.788778",
+        "author": {
+          "id": "65547db35ad470ce1d9e44d413173434",
+          "source_id": "muzani",
+          "username": "muzani",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-04-24T16:18:12.789585",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "9e892d7c5025855bdfc0ff20574741ae",
+      "source_id": "47875031",
+      "title": "Ask HN: What's your favorite Emacs package?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-24T16:17:29.823423",
+      "updated_at": "2026-04-24T16:17:29.823423",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "137c3066edd5f21a6173829b3ab75aa4",
+        "source_id": "blenderob",
+        "username": "blenderob",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 6,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47875031",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-04-24T16:18:17.971567",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
   }
 ]
