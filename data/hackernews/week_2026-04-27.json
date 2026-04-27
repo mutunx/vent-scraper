@@ -1,0 +1,1346 @@
+[
+  {
+    "post": {
+      "id": "19a1bd94d9700d6e68cf9f81d61de5e1",
+      "source_id": "47920020",
+      "title": "Ask HN: What does your agentic software dark factory look like?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">In some of the comment threads around here a few of you shared interesting ideas and patterns, enough that I believe everyone interesting in harness engineering is working on some sort of software dark factory or another.<p>We have OpenAI’s Symphony[1], StrongDM’s Factory[2], Yegge’s GasTown[3], and probably a few others I’ve missed.<p>So I’m curious. What have you been working on? What have learned? What has worked and what has failed? And what do you think comes after?<p>I’ll go first. The first thing I tried that yielded interesting results was, when possible, providing a ground truth or reference for the model to iterate against: screenshots or mockups for UI work, API contracts and unit / integration tests for logic. That’s the Ralph Loop we all know and love. A feedback loop.<p>The second (obvious, I know) was splitting planning and implementation.<p>Reviews by other models and iterative loops came next, with appreciable results. However the implementing agent would often wiggle out by deferring things into oblivion or saying things that were actually important feedback were out of scope. Another feedback loop. I’ve found turning those reviews into \"hard gates\" has its own set of issue, as reviewing agents will always find something to nitpick about, turning this iterative implementation approaches into near infinite loops.<p>Combining these reviews and committing plans alongside the code led to an interesting accident: reviewing agents spontaneously and unexpectedly picked up on those and drastically improved their feedbacks by comparing plan and implementation (should have been obvious, and you’ll imagine my surprise the first time GitHub Copilot actually provided useful feedbacks instead of the usual typo nitpicks).<p>Then a comment here led me to an adversarial green team / red team process.<p>A first agent creates a spec (based on StrongDM’s NLSpec) from my initial plan and gets it reviewed, including a detailed API.<p>A red team agent writes unit and integration test based on these specs, and gets them reviewed.<p>Then a green team agent is given those same specs and API, and implements the actual feature or fix, and iterates against the tests, without any access to the tests themselves, only which tests failed and what they were testing. This prevents it from gaming the tests.<p>Finally, once tests pass, a reviewing agent reviews the implementation against the specs.<p>This was nice. And it allows mixing and matching models, thinking levels, and providers. But both green and red team would sometimes diverge from the initial specs and API, sometimes with good reasons.<p>So another agent was brought in to evaluate those divergences when they occur and, if they are valid improvements, restart the process from the spec generation point, with the new insights. Yet another feedback loop.<p>And finally, integrating logs, OTel traces, and stack traces into the process. These agents seem remarkably capable at sifting through these, and end-to-end observability drastically improved results. Again, a feedback loop.<p>That’s all for me so far. Curious to see what other insights, findings, lessons or learnings everyone else has to share on this!<p>It’s a fun ride.</p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-27T16:30:16.463709",
+      "updated_at": "2026-04-27T16:30:16.463709",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "b6c16f2c3b15d72b97ece7731e4af1fb",
+        "source_id": "ElFitz",
+        "username": "ElFitz",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 4,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47920020",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "fce5480ab551feabac7b812896fa67d6",
+        "source_id": "47921461",
+        "content": {
+          "text": "What is a dark factory? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-27T16:30:19.302097",
+        "updated_at": "2026-04-27T16:30:19.302097",
+        "author": {
+          "id": "957c1e6d4ce56757f826959b30f9edd8",
+          "source_id": "aosaigh",
+          "username": "aosaigh",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9ca71366e83846ef2e76407fe59260c7",
+        "source_id": "47922269",
+        "content": {
+          "text": "A robotics factory that is fully automated. Hence \"dark\" because they can just turn the lights off and let the machines run 24/7 in the dark. I guess in this instance it means some kind of harness and framework that lets models build without supervision. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-27T16:30:19.302645",
+        "updated_at": "2026-04-27T16:30:19.302645",
+        "author": {
+          "id": "1621359259f10120e870cfb767c4e1e1",
+          "source_id": "geremiiah",
+          "username": "geremiiah",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-04-27T16:30:19.302797",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "150c583e22352f4eea4257715a236505",
+      "source_id": "47919758",
+      "title": "Ask HN: Is there a good CV review service for tech roles in Switzerland?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-27T16:30:16.464452",
+      "updated_at": "2026-04-27T16:30:16.464452",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "2a8fa188c37726728a79e0625a7b41ee",
+        "source_id": "swissdom",
+        "username": "swissdom",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 3,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47919758",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-04-27T16:30:22.889258",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "27d2aa5e9376c31b7328b50cfdcda10c",
+      "source_id": "47919623",
+      "title": "Ask HN: Can you tell the difference between Claude Sonnet and Opus?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-27T16:30:16.465052",
+      "updated_at": "2026-04-27T16:30:16.465052",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "91739341b1cf80c778184311f9aae5fe",
+        "source_id": "muddi900",
+        "username": "muddi900",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 4,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47919623",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-04-27T16:30:29.177027",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "2a25ce587e99c7831a7c378ed6556b87",
+      "source_id": "47919089",
+      "title": "Ask HN: RedHat for Personal Use",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-27T16:30:16.465608",
+      "updated_at": "2026-04-27T16:30:16.465608",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "5b4d472940dac26c2b8b8a5fc88d0cb3",
+        "source_id": "bozdemir",
+        "username": "bozdemir",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 4,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47919089",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-04-27T16:30:33.699376",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "d5507d09640ebc384fc5321bc5b18d92",
+      "source_id": "47918989",
+      "title": "Ask HN: Are you concerned by TLS-terminating proxies like Cloudflare Tunnels?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">I believe many services rely on Cloudflare Tunnels or similar products that lets you proxy web requests from the public internet to your server without opening any port.<p>This kind of proxy handles TLS (HTTPS), it's not possible to use Cloudflare Tunnels for raw TCP/UDP passthrough. This is convenient because it makes it more simple to use, but may be concerning because Cloudflare technically has access to all the plain-text traffic, even though seen from the end user the connection is HTTPS and looks perfectly normal<p>This is even more concerning to me given it's now public that most of internet traffic is automatically stored (see Wikipedia article \"Room 641A for a good start)<p>What are your opinions about this? Are this kind of proxy a no-go for any serious web service?</p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-27T16:30:16.466290",
+      "updated_at": "2026-04-27T16:30:16.466290",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "bb0c27236e4499e95722419dabcfe0da",
+        "source_id": "thom-gtdp",
+        "username": "thom-gtdp",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 4,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47918989",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "afc3f9cb611ae113b424ff31fa7d753f",
+        "source_id": "47922677",
+        "content": {
+          "text": "Wtf. This post has 3 accounts opened in less than 48h ago which are talking to each other with AI flavours. I suspect they all are managed by the same person. It should be trivial flag such behaviour reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-27T16:30:36.568830",
+        "updated_at": "2026-04-27T16:30:36.568830",
+        "author": {
+          "id": "f5dde00778fdf68564c59a9c85fb4020",
+          "source_id": "sdevonoes",
+          "username": "sdevonoes",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9a771e398c5ba2d0e1abcf0f6bba9619",
+        "source_id": "47923070",
+        "content": {
+          "text": "My account is new but I'm a real person and this is my only account.\nDidn't use AI to write this post reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-27T16:30:36.569434",
+        "updated_at": "2026-04-27T16:30:36.569434",
+        "author": {
+          "id": "bb0c27236e4499e95722419dabcfe0da",
+          "source_id": "thom-gtdp",
+          "username": "thom-gtdp",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6d2da38c3b00ff66b7fbd8484f641109",
+        "source_id": "47919121",
+        "content": {
+          "text": "Same trust assumption as any reverse-proxied or CDN-fronted service. CF terminates TLS for Tunnels, Workers, the regular proxy, and Pages alike — if CF is in your threat model, the issue isn't Tunnels specifically, it's the entire CF surface you've accepted by being on their network. The honest framing isn't \"no-go for serious services\" but \"what does your data residency / DPA / SCC posture look like.\" reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-27T16:30:36.569961",
+        "updated_at": "2026-04-27T16:30:36.569961",
+        "author": {
+          "id": "75469dd01da5c5b094c1ea1fe46284ff",
+          "source_id": "andy_pl",
+          "username": "andy_pl",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "662e35fb06610b49a982db7cfd9bea7a",
+        "source_id": "47919378",
+        "content": {
+          "text": "Yup Workers has similar risks as Tunnels.\nCloudflare Pages isn't the same threat as Tunnels, as Pages only gives CF public data access. On Pages you trust Cloudflare for not altering the data served, while on Tunnels you trust CF for handling secret data.\nI actually don't really have a data residency / DPA / SCC policy because I was considering using Tunnels for my homelab only reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-27T16:30:36.570535",
+        "updated_at": "2026-04-27T16:30:36.570535",
+        "author": {
+          "id": "bb0c27236e4499e95722419dabcfe0da",
+          "source_id": "thom-gtdp",
+          "username": "thom-gtdp",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0eafed4bd02199715842184c4b3827cc",
+        "source_id": "47919604",
+        "content": {
+          "text": "Right, the Pages vs Tunnels split is real — different threat surfaces. For a homelab the GDPR/SCC scaffolding doesn't apply; the practical question becomes \"do I trust CF more than my own ISP for opportunistic snooping,\" and on that axis CF's incentive structure is reasonably well-aligned. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-27T16:30:36.571131",
+        "updated_at": "2026-04-27T16:30:36.571131",
+        "author": {
+          "id": "75469dd01da5c5b094c1ea1fe46284ff",
+          "source_id": "andy_pl",
+          "username": "andy_pl",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "33c8743a5826e3cbbbe965db2f8d8d52",
+        "source_id": "47919008",
+        "content": {
+          "text": "For European web services it should be a no-go. I understand the easiness of that approach, but companies should realize that relying on a giant American company for stuff like that, is going to bite them in the ass, eventually. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-27T16:30:36.571739",
+        "updated_at": "2026-04-27T16:30:36.571739",
+        "author": {
+          "id": "c06b0daba438b77364e8576bea2c9854",
+          "source_id": "zhouzhao",
+          "username": "zhouzhao",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-04-27T16:30:36.571998",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "ea98d49c7e5de5f3a182fc0e2737523d",
+      "source_id": "47902507",
+      "title": "Ask HN: Do you read differently now that anything could be AI generated?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-27T16:30:16.466818",
+      "updated_at": "2026-04-27T16:30:16.466818",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "38bb75da0e4703bb1ad6e1af01b87be7",
+        "source_id": "dwa3592",
+        "username": "dwa3592",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 18,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47902507",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-04-27T16:30:41.890070",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "8e04a5b582960aae7d718918c8f04720",
+      "source_id": "47914594",
+      "title": "Ask HN: Anyone want to collaborate on a local-first AI-based research assistant",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-27T16:30:16.467361",
+      "updated_at": "2026-04-27T16:30:16.467361",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "cbad583b04bc6dc56176eaf7b1de9a34",
+        "source_id": "venkatram-s",
+        "username": "venkatram-s",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 4,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47914594",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-04-27T16:30:45.915855",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "8e624c26ec2a38171781e807b4ee908a",
+      "source_id": "47918756",
+      "title": "Ask HN: Is Ubuntu 26.04 LTS Consider GNU/Linux?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-27T16:30:16.467887",
+      "updated_at": "2026-04-27T16:30:16.467887",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "8da431d587f992773fa70adfe0184107",
+        "source_id": "xlmnxp",
+        "username": "xlmnxp",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 3,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47918756",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-04-27T16:30:51.936637",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "16acbe3e70994c20b4356ef1c6c9eba4",
+      "source_id": "47910597",
+      "title": "Ask HN: How I find a job where what is needed is solid code, not firefighting?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-27T16:30:16.468450",
+      "updated_at": "2026-04-27T16:30:16.468450",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "96dd7b90092a4a2f8ae9f44ea5427bfb",
+        "source_id": "speeder",
+        "username": "speeder",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 19,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47910597",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-04-27T16:30:57.688896",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "f281b461057612d5f628f0558ba4128b",
+      "source_id": "47902486",
+      "title": "Ask HN: Is anyone working on Gov Digital IDs or have implementation docs / FOSS",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-27T16:30:16.469096",
+      "updated_at": "2026-04-27T16:30:16.469096",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "bbc71d8761b3778fc7cbd4a1354e0361",
+        "source_id": "lifeisstillgood",
+        "username": "lifeisstillgood",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 7,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47902486",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-04-27T16:31:00.427345",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "77b476923aedb1b05cb8e68fa1b6a72a",
+      "source_id": "47904716",
+      "title": "Ask HN: How did the industry settle on weekly limits?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">I understand that the cheap compute ride wouldn't last forever but something that feels somewhat unique seems to have come about from all of this AI belt tightening.<p>Weekly Limits<p>This policy seemed to come from almost nowhere but was quickly adopted across many products.  Cutting off access for 25% of the time based product you've paid for feels like it is just incompatible with a subscription at the core conceptual level.  Cooldown times and over-use back-offs are nothing new but there is a drastic difference in tone from 5 hours to 5-7 days.<p>I'm at a loss to see how this became an acceptable practice with the most common answer being \"Buy more subs\"</p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-27T16:30:16.469614",
+      "updated_at": "2026-04-27T16:30:16.469614",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "392cdb7adaa217cf29a538717f0ca411",
+        "source_id": "saratogacx",
+        "username": "saratogacx",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 11,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47904716",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "95b30993c024468c0bb753e3367e63ce",
+        "source_id": "47920925",
+        "content": {
+          "text": "I think one reason might be that the \"horizon\" of developments related to optimization and new techniques is very short. Since we're still having recurrent breakthroughs, new things are being attempted every other week. Too much money and investor attention means competition is beyond fierce, and the turn of innovation follows. I think this plays a part into the weirdly timed cooldowns, terms of service, inconsistent quality etc. It also mimics the goldrush for training content. Acquiring content (just like gauging LLM capabilities) is too fast for even lawyers to keep up. Society as a whole kinda threw their hands up and hoped things would just solve themselves instead of the world suing itself into oblivion. So the threshold of acceptability has moved accordingly. I don't like it but it is what it is :/ reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-27T16:31:01.761574",
+        "updated_at": "2026-04-27T16:31:01.761574",
+        "author": {
+          "id": "798a964b845144e7bd928bb0a5f74405",
+          "source_id": "dormento",
+          "username": "dormento",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7ba3e14fb8c573dd54e9c7d32d4c4251",
+        "source_id": "47906095",
+        "content": {
+          "text": "It's probably a capacity problem, but we need to speak up for something better. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-27T16:31:01.762125",
+        "updated_at": "2026-04-27T16:31:01.762125",
+        "author": {
+          "id": "c4cd9413aa8c37840596be278d1bfea8",
+          "source_id": "tughvn",
+          "username": "tughvn",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1c409d62ac5e487e97cedb872d865883",
+        "source_id": "47907868",
+        "content": {
+          "text": "That is very likely one of the biggest drivers but there's a misalignment.  Tasks take minutes to hours, so why such an outsized block for the system to calm down.  Taking away this much availability used to be in the realms of abuse bans, not day to day operation. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-27T16:31:01.762658",
+        "updated_at": "2026-04-27T16:31:01.762658",
+        "author": {
+          "id": "392cdb7adaa217cf29a538717f0ca411",
+          "source_id": "saratogacx",
+          "username": "saratogacx",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "08faba4e50158835067a2ccc23eb9bf6",
+        "source_id": "47920017",
+        "content": {
+          "text": "there isnt something better. theyre money losing divices and unless they addict the user with promises of efficiency, they wont make money. the market is distorted. more AI datacenters will be disasters for local ecosystems, but might serve a few more people. however, if these things truly do the work of 100x they only need 1 guy . do you think youll be that guy? almost everything in the gridt economy says if you cant throw money at it, youll be priced out. if you dont have a local strategy, youll be SOL reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-27T16:31:01.763274",
+        "updated_at": "2026-04-27T16:31:01.763274",
+        "author": {
+          "id": "529a0620bf66c5f337b3b50da2d83e0f",
+          "source_id": "cyanydeez",
+          "username": "cyanydeez",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "710855a3afb36d94d041ad27b9b5f23f",
+        "source_id": "47905526",
+        "content": {
+          "text": "Just cancel your subscription. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-27T16:31:01.763834",
+        "updated_at": "2026-04-27T16:31:01.763834",
+        "author": {
+          "id": "0061124b9a6b10662a558d7ab4f8c467",
+          "source_id": "tkiolp4",
+          "username": "tkiolp4",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "efc0f14bbcc5f843cb2a94f0e068346b",
+        "source_id": "47907877",
+        "content": {
+          "text": "Yes, I'm aware with what options I have, they've been detailed quite thoroughly in the many other threads on this topic.  The question is about understanding the trend of week long cut-offs. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-27T16:31:01.764450",
+        "updated_at": "2026-04-27T16:31:01.764450",
+        "author": {
+          "id": "392cdb7adaa217cf29a538717f0ca411",
+          "source_id": "saratogacx",
+          "username": "saratogacx",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "28436ce0581ed9776900f95851bd3738",
+        "source_id": "47905648",
+        "content": {
+          "text": "\"Weekly caps feel like a psychological nudge toward higher tiers rather than a genuine resource constraint. The industry collectively normalized it because it works.\" reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-27T16:31:01.765080",
+        "updated_at": "2026-04-27T16:31:01.765080",
+        "author": {
+          "id": "fdf10b41af611be68d40c3cd768d4435",
+          "source_id": "dbeyzade",
+          "username": "dbeyzade",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "aff89c426dced0ec23a3f28b85832460",
+        "source_id": "47907903",
+        "content": {
+          "text": "This feels like it is way more on point than I'd want it to be but at the same time it's broadcasting that you'll get continually enshittified with us so don't invest too much in being a long term customer.  People don't really like feeling like they're being ripped or sold a bill of goods that won't deliver and that experience follows them when they get to make bigger decisions with bigger wallets at stake. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-27T16:31:01.765715",
+        "updated_at": "2026-04-27T16:31:01.765715",
+        "author": {
+          "id": "392cdb7adaa217cf29a538717f0ca411",
+          "source_id": "saratogacx",
+          "username": "saratogacx",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9f3b538a16b282509c4cfcf3b8a5a485",
+        "source_id": "47904779",
+        "content": {
+          "text": "You can still buy tokens direct from the API. The subscription model is not much more than a glorified paid trial. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-27T16:31:01.766399",
+        "updated_at": "2026-04-27T16:31:01.766399",
+        "author": {
+          "id": "6f8a0ef01950f54a2a0192e326613555",
+          "source_id": "bigyabai",
+          "username": "bigyabai",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f1b898fafb29a5867defa51421bce46f",
+        "source_id": "47907883",
+        "content": {
+          "text": "I have other services I can turn to so I currently just switch providers but a glorified paid trial is pretty unsatisfying if the experience is being cut off for weeks at a time.  API's don't go that route now but neither did subs (although I see the big difference in motivation to not cut-off api users). reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-27T16:31:01.767111",
+        "updated_at": "2026-04-27T16:31:01.767111",
+        "author": {
+          "id": "392cdb7adaa217cf29a538717f0ca411",
+          "source_id": "saratogacx",
+          "username": "saratogacx",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-04-27T16:31:01.767456",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "44b98d53afa41e8b89c148cce7c51eef",
+      "source_id": "47884457",
+      "title": "Ask HN: How do solo devs protect their work in the age of vibe coding?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-27T16:30:16.470260",
+      "updated_at": "2026-04-27T16:30:16.470260",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "0fe623641bd3cfb0f4f498920b64edfc",
+        "source_id": "langs",
+        "username": "langs",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 33,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47884457",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-04-27T16:31:07.018229",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "793b4204e7fc9065deb765a1635a2750",
+      "source_id": "47912286",
+      "title": "Ask HN: Which is Better–Android or iOS?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-27T16:30:16.470773",
+      "updated_at": "2026-04-27T16:30:16.470773",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "e01d0b823373cca5ea1da2a40be09866",
+        "source_id": "wasimsk",
+        "username": "wasimsk",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 10,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47912286",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-04-27T16:31:11.066225",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "c56eff478f1b37f5cd42ad4e551d4b06",
+      "source_id": "47901379",
+      "title": "Ask HN: Anyone managed to get Google trends API?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">Google trends should have some alpha API as announced https://developers.google.com/search/blog/2025/07/trends-api<p>i do have many ideas on what i could do with that data but i never got access, wonder if anyone here did and how did you achieve that ?<p>i also see some alternatives but they arent really good, its either bad data or only relative data as one can see on google trends page. (i would like absolute numbers)</p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-27T16:30:16.471297",
+      "updated_at": "2026-04-27T16:30:16.471297",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "c4eb2045437d48d11d496185c689df92",
+        "source_id": "visox",
+        "username": "visox",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 13,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47901379",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "3c283f44d8421fbdab0f28a861783d96",
+        "source_id": "47916734",
+        "content": {
+          "text": "looked this up - there is an official Google Trends API in alpha, plus third-party options. details here: https://searchagentsky.com/r/5fc70f4713e9 reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-27T16:31:13.193262",
+        "updated_at": "2026-04-27T16:31:13.193262",
+        "author": {
+          "id": "6ac37f9bfff1abb5c0ec75536f0a66f2",
+          "source_id": "unchainedsky90",
+          "username": "unchainedsky90",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7abdbddb4296f3524e4c554570193ddd",
+        "source_id": "47922951",
+        "content": {
+          "text": "hm thanks reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-04-27T16:31:13.193780",
+        "updated_at": "2026-04-27T16:31:13.193780",
+        "author": {
+          "id": "c4eb2045437d48d11d496185c689df92",
+          "source_id": "visox",
+          "username": "visox",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-04-27T16:31:13.193911",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "b121d7c6fd7d4a19a3ca168064371770",
+      "source_id": "47906587",
+      "title": "Ask HN: What file sharing apps do you guys use?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-04-27T16:30:16.471806",
+      "updated_at": "2026-04-27T16:30:16.471806",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "73643ba55a86d671f0ab0ff837e64954",
+        "source_id": "samarthv",
+        "username": "samarthv",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 9,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47906587",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-04-27T16:31:17.548737",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  }
+]
