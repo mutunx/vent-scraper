@@ -42503,5 +42503,3799 @@
       ],
       "is_nsfw": false
     }
+  },
+  {
+    "post": {
+      "id": "5fde7c5e0b789b936df223a4417ba13f",
+      "source_id": "48084086",
+      "title": "Ask HN: Is this the SWE workflow of the future?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">Internally transferred to a new team in a top-10 F500 company. This team is pushing incredibly hard to be seen as \"AI-First\" &amp; is very opinionated about what other teams should be doing.<p>I was explicitly told I am not to write any code by hand. Claude usage is mandatory coupled with a proprietary superpowers / speckit / GSD framework with 100+ agents and skill files.<p>All code reviews are agent driven. No one takes the time to actually understand anything. Documentation has become novel length slop, as have Jira tickets.<p>I ship stuff I don't understand. Management says there won't be a need for many SWEs in the future.<p>Am I alone in experiencing this? Is this the future of work?</p></p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-05-10T16:16:22.658498",
+      "updated_at": "2026-05-10T16:16:22.658498",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "de7738b3a154a3abe44a235a6c97ef12",
+        "source_id": "mc-0",
+        "username": "mc-0",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 8,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48084086",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "7e094d5852391a55b18cbe782a5b88a1",
+        "source_id": "48085088",
+        "content": {
+          "text": "How does your team handle security audits or compliance? If the code reviews are also agent driven, you have created a closed loop system with no human accountability. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:24.859825",
+        "updated_at": "2026-05-10T16:16:24.859825",
+        "author": {
+          "id": "3e04a087d744c3ce801525acfed69bf6",
+          "source_id": "SyntaxErrorist",
+          "username": "SyntaxErrorist",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7c5302e5f28c8624cb2d34006551f72f",
+        "source_id": "48085079",
+        "content": {
+          "text": "You are not alone, but it is not the future. I currently am working a short-term gig within a company with a similar setup - the leadership wants to go that way, and some teams are doing so. Those teams are also failing. Their code passes tests, but doesn't hold up to real usage. The team members don't know the code well enough to even talk about the problems. The DevOps teams don't know the platforms well enough to talk about problems either. Some of the most senior folks in the org will just paste AI slop into a document, then not even be able to navigate their own document on a call to explain things. \"Miserable\" is absolutely the right word for it. \"Dystopian\" is another word I use to describe it. Either way, the results I'm seeing make me think that this trend won't last. These companies will either figure out that it isn't working, or they will fail. FWIW, \"AI-first\" is one thing. \"AI-only\" is where it crosses from a strategic choice into a f'ing pile of stupidity. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:24.860424",
+        "updated_at": "2026-05-10T16:16:24.860424",
+        "author": {
+          "id": "b676d1bf3770c1a06ca92e42765f5c91",
+          "source_id": "codingdave",
+          "username": "codingdave",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "cdad0ead803a5b0445aca4938c899aa2",
+        "source_id": "48084910",
+        "content": {
+          "text": "Sounds fucking miserable. Thank goodness I'm far enough into my career that I can throw in the towel and retire instead of having to capitulate to this lunacy. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:24.860985",
+        "updated_at": "2026-05-10T16:16:24.860985",
+        "author": {
+          "id": "53577acb18d263f7a8e6b05534aab1d9",
+          "source_id": "seattle_spring",
+          "username": "seattle_spring",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "796e5fb98e992b92b982e13ee958cfa8",
+        "source_id": "48084307",
+        "content": {
+          "text": "Yes and No. Yes:  Agents will be there as an option, with less SWEs needed.\n   No:  Agents won't be a complete SWE replacement and they still need human SWEs for accountability. Here's a great analogy on driving with autopilot: Say you are driving your car on autopilot. What happens when it stops working or experiences an outage / malfunction? Do you sit there and wait for the provider to get back online or do you take control of the wheel yourself? So having said that: > All code reviews are agent driven. No one takes the time to actually understand anything. Documentation has become novel length slop, as have Jira tickets. > I ship stuff I don't understand. Looking at my above sentence and judging by this workflow, is the future of driving having people never looking on the roads and no hands on the wheel while driving and they should wait for the provider to fix the outage whilst being stranded on the motorway? Both driving and SWE will always require a human in the loop in case the system fails and requires human intervention. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:24.861782",
+        "updated_at": "2026-05-10T16:16:24.861782",
+        "author": {
+          "id": "849a3675b25e24584543599c3f979a22",
+          "source_id": "rvz",
+          "username": "rvz",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-05-10T16:16:24.861992",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "66c59930b78389ac4a14a7fd160b6286",
+      "source_id": "48060054",
+      "title": "Ask HN: We just had an actual UUID v4 collision...",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">I know what you're thinking... and I still can't believe it, but...<p>This morning, our database flagged a duplicate UUID (v4). I checked, thinking it may have been a double-insert bug or something, but no.<p>The original UUID was from a record added in 2025 (about a year ago), and today the system inserted a new document with a fresh UUIDv4 and it came up with the exact same one:<p>b6133fd6-70fe-4fe3-bed6-8ca8fc9386cd<p>We're using this:\nhttps://www.npmjs.com/package/uuid<p>I thought this is technically impossible, and it will never happen, and since we're not modifying the UUIDs in any way, I really wonder how that.... is possible!? We're literally only calling:<p>import { v4 as uuidv4 } from \"uuid\";<p>const document_id = uuidv4();<p>... and then insert into the database, that's it.<p>Additionally, the database only has about 15.000 records, and now one collision. Statistically... impossible.<p>Has that ever happened to anyone?! What in the...</p></p></p></p></p></p></p></p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-05-10T16:16:22.659366",
+      "updated_at": "2026-05-10T16:16:22.659366",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "bec14b6fbc664ca1db7b6ca19793ee52",
+        "source_id": "mittermayr",
+        "username": "mittermayr",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 440,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48060054",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "88d5b2195541a82acadb2c3ca30c27c4",
+        "source_id": "48065541",
+        "content": {
+          "text": "This is surprisingly common. The security of UUIDv4 is based on the assumption of a high-quality entropy source. This assumption is invalidated by hardware defects, normal software bugs, and developers not understanding what \"high-quality entropy\" actually means and that it is required for UUIDv4 to work as advertised. It is relatively expensive to detect when an entropy source is broken, so almost no one ever does. They find out when a collision happens, like you just did. UUIDv4 is explicitly forbidden for a lot of high-assurance and high-reliability software systems for this reason. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:26.966550",
+        "updated_at": "2026-05-10T16:16:26.966550",
+        "author": {
+          "id": "f88d1b0cedc9f9142315b6d5e2c0a674",
+          "source_id": "jandrewrogers",
+          "username": "jandrewrogers",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c8af9408255dbd3f57206df8898aa551",
+        "source_id": "48066506",
+        "content": {
+          "text": "This is why CloudFlare has done what they did with the lava lamp wall. Not that the wall is such a great source of entropy on its own - I'm sure it's not their only source, but you can never have too many sources of entropy - but it makes it visible in a way that can grab those who don't fully understand the concepts of RNGs and how entropy plays into that. The more sources of entropy, the more closely you approach \"perfect\" randomization. And a large chunk of those entropy sources need to be non-deterministic. Even on the small level, local applications running on local systems, like games, can use things like the mouse coordinates, the timings between button presses, the exact frame count since game start before the player presses Start to greatly enhance randomness while still using PRNGs under the hood Yes, for the latter, that's technically deterministic (and the older the game considered, the more deterministic it is, see TAS runs of old games obliterating the \"RNG\"). But when you have fifty different parameters feeding into the initial seed, that's fifty things an attack would have to perfectly predict or replay (and there are other ways to avoid replay attacks that can be layered on top) If CloudFlare had less than 100 different sources of entropy, I'd be disappointed. And that's assuming their algorithm for blending those entropy sources into a single seed value is good reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:26.967286",
+        "updated_at": "2026-05-10T16:16:26.967286",
+        "author": {
+          "id": "53c979334685f4583de34f90884a9bbf",
+          "source_id": "LocalH",
+          "username": "LocalH",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c64a9fe31ebfb4065346bbe8cb45f25b",
+        "source_id": "48069103",
+        "content": {
+          "text": "> you can never have too many sources of entropy This is so true. And the beauty is that with algorithms, we don't even need to know much about the entropy to be able to extract it. There is the Von Neumann method of generating an unbiased coin from a biased coin. Of throwing it twice, and checking if you got HT or TH. And completely discarding all HH or TT results. It doesn't matter if the coin you are using is 20% or 80%, the result will be a true 50/50. There are more modern algorithms that can be even better (in that they need less coin tosses if you have a very unbalanced coin). And then there is modern cryptographic hashing. Feed it all the bits you can. Collisions end up only happening in the real world if every single one of those bits is identical. So if you have actual entropy being fed, that cannot be controlled, predicted, or replicated, modern cryptography tells you that the end result is unique. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:26.967970",
+        "updated_at": "2026-05-10T16:16:26.967970",
+        "author": {
+          "id": "2452480a9d5927347e0e489f0c03fc3b",
+          "source_id": "greiskul",
+          "username": "greiskul",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ffb9c9ea08b98b8c1517650deba8e23d",
+        "source_id": "48071877",
+        "content": {
+          "text": "> There is the Von Neumann method of generating an unbiased coin from a biased coin. Of throwing it twice, and checking if you got HT or TH. And completely discarding all HH or TT results. It doesn't matter if the coin you are using is 20% or 80%, the result will be a true 50/50. This blew my mind. Thank you! I had to think about it a bit, so for anyone scratching their head right now trying to figure it out, consider it this way: what matters is the ordering, of heads-then-tails, or tails-then-heads. It doesn't matter that it's biased one way or the other, if you keep flipping pairs until you get a result with two different values, it's a 50/50 chance whether the less-likely result comes first, or second. You might only have a 20% chance of any particular pair having a tails (for example), but in the cases where you do have a tails, it's a 50/50 chance that it comes first or second. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:26.968706",
+        "updated_at": "2026-05-10T16:16:26.968706",
+        "author": {
+          "id": "bd352cfa7210409571669f328549f1bf",
+          "source_id": "ms_menardi",
+          "username": "ms_menardi",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3d63949c7ae09cead2066df357ef9b2b",
+        "source_id": "48072030",
+        "content": {
+          "text": "And for people who like equations, here is my attempt at explaining it. Assume each flip is independent and the bias remains same in each flip. Let P(H) = p,\n  P(T) = 1 - p. Then P(HH) = p^2,\n  P(HT) = p(1 - p),\n  P(TH) = (1 - p)p,\n  P(TT) = (1 - p)^2. Therefore P(HT or TH) = 2p(1 - p). Now calculate P(HT | HT or TH) = p(1 - p) / (2p(1 - p)) = 1/2,\n  P(TH | HT or TH) = (1 - p)p / (2p(1 - p)) = 1/2. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:26.969489",
+        "updated_at": "2026-05-10T16:16:26.969489",
+        "author": {
+          "id": "409dbadd80070c149d987086c5751533",
+          "source_id": "susam",
+          "username": "susam",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c9ca1a5cc31edec2fefde2cd218ac6ef",
+        "source_id": "48072715",
+        "content": {
+          "text": "You don't need conditional probability here, as the flips are independent. It's just p(H)p(T). And p(H)p(T) = p(T)p(H), thus 2*p(H)p(T) = 2p(1-p). reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:26.970226",
+        "updated_at": "2026-05-10T16:16:26.970226",
+        "author": {
+          "id": "af83ffc13244996f4b9dcaf9aef92a85",
+          "source_id": "taegee",
+          "username": "taegee",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "140e3daed1db95becaa6105b14d51c8f",
+        "source_id": "48079988",
+        "content": {
+          "text": "Independence tells us how to compute the probability of a sequence like HT or TH: P(HT) = P(H)P(T) = p(1 - p) But the question I am addressing is not just \"what is the probability of HT?\" It is \"given that the two flips are different, what is the probability that the order was HT rather than TH?\" That is a conditional probability: P(HT | HT or TH) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:26.971015",
+        "updated_at": "2026-05-10T16:16:26.971015",
+        "author": {
+          "id": "409dbadd80070c149d987086c5751533",
+          "source_id": "susam",
+          "username": "susam",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9efe18516dea5f38ddfed17c2730bd34",
+        "source_id": "48076887",
+        "content": {
+          "text": "That wasn’t what he was trying to prove, but the proof could be done without conditionals like this: If: p(H)p(T) = p(T)p(H) And: p(H)p(T) + p(T)p(H) = 1 Then: p(H)p(T) = p(T)p(H) = 0.5 reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:26.971796",
+        "updated_at": "2026-05-10T16:16:26.971796",
+        "author": {
+          "id": "f232de93f6799bb5319dbb416683c075",
+          "source_id": "clickety_clack",
+          "username": "clickety_clack",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8f8c9acedeafee06fa0402181aa48444",
+        "source_id": "48075845",
+        "content": {
+          "text": "Thats how i noodled thru it internally reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:26.972598",
+        "updated_at": "2026-05-10T16:16:26.972598",
+        "author": {
+          "id": "18578ee91d1dcb6af3c5ac9674a53d2a",
+          "source_id": "cdaringe",
+          "username": "cdaringe",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "92276ba2b1edb11fb2eb417e440509d7",
+        "source_id": "48073605",
+        "content": {
+          "text": "Thanks for your explanation. I did not get it in the first read, and was too lazy to think, until saw your comment. Just want to point out, that one is actually doing the experiment with a biased coin, then one must ignore all pairs. e.g in case a coin which is heavily biased, say .9 H and .1 T. One should start with ignoring all the HH pairs, and start only at odd index. Lest, one picks a value like HHHHT (in the case the 2nd HH pair was not skipped, instead they greedily picked up the first HT, which will make the experiment HT biased). reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:26.973429",
+        "updated_at": "2026-05-10T16:16:26.973429",
+        "author": {
+          "id": "bbafbabfca939d501283be3bae9d82ce",
+          "source_id": "aws_ls",
+          "username": "aws_ls",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5c1561ac7ed66e65c63f182b465decd3",
+        "source_id": "48072372",
+        "content": {
+          "text": "Afaics it's just basic commutativity – \np(H)p(T) = p(T)p(H) – since instances are independent. Same, of course, holds for flipping it multiple times. But there you get more than Head or Tail (binomnk(n, k)). reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:26.974281",
+        "updated_at": "2026-05-10T16:16:26.974281",
+        "author": {
+          "id": "af83ffc13244996f4b9dcaf9aef92a85",
+          "source_id": "taegee",
+          "username": "taegee",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "203b7193a83f093cda3712e607f185bf",
+        "source_id": "48074864",
+        "content": {
+          "text": "I was doubting this for a minute as I wondered with a significantly biased coin towards the head side would you be more likely to get HT. With probability problems like Monty Hall I like to think about extreme cases like say it's 99 heads to every 1 tails. You'd expect HT 0.99% of the time. Ditto TH. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:26.975162",
+        "updated_at": "2026-05-10T16:16:26.975162",
+        "author": {
+          "id": "d3c9397d7b357ae5e6574ba57998d095",
+          "source_id": "sporkland",
+          "username": "sporkland",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "900a77e9a50ca8b308da7f335bd24b00",
+        "source_id": "48075078",
+        "content": {
+          "text": "You can’t flip coins until you get the first different outcome… You have to flip twice each time, until you get a pair with different outcomes. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:26.976076",
+        "updated_at": "2026-05-10T16:16:26.976076",
+        "author": {
+          "id": "33af831bacbddcfa6e31de1b110d81b0",
+          "source_id": "dash2",
+          "username": "dash2",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "09933010ab9420738c2d805da2b4a761",
+        "source_id": "48075814",
+        "content": {
+          "text": "Oh wow that’s really amazing. What’s the source - I love Von Neumann. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:26.977016",
+        "updated_at": "2026-05-10T16:16:26.977016",
+        "author": {
+          "id": "2712778d9f928c8ea5bd472b69698738",
+          "source_id": "pyuser583",
+          "username": "pyuser583",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7bec4a8926e3d2f1dc1e5cb9102d4e79",
+        "source_id": "48071918",
+        "content": {
+          "text": "Not very random if it's only TH or HT. Trivial to brute force with no more than two tries! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:26.977972",
+        "updated_at": "2026-05-10T16:16:26.977972",
+        "author": {
+          "id": "e6829a2dd847bb27c6b783685a34ebdd",
+          "source_id": "throwaway89865",
+          "username": "throwaway89865",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2e4eed417a1a479b628f51838d9d73fe",
+        "source_id": "48079532",
+        "content": {
+          "text": "I remember hearing about an interview problem from a while back, and the trick was to use exclusive-or. Now I understand why. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:26.978954",
+        "updated_at": "2026-05-10T16:16:26.978954",
+        "author": {
+          "id": "4eb7ee88cc349513b7b99cd5ab3fc479",
+          "source_id": "MathMonkeyMan",
+          "username": "MathMonkeyMan",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1831f817914ed5a98b33012a0deea7b3",
+        "source_id": "48073868",
+        "content": {
+          "text": "(Note that this still assumes that each biased-coin toss is i.i.d.) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:26.980000",
+        "updated_at": "2026-05-10T16:16:26.980000",
+        "author": {
+          "id": "d2c8c94031963f049c1e67081f7c269b",
+          "source_id": "hun3",
+          "username": "hun3",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d1d4d894e8e465c319c97340975c87c5",
+        "source_id": "48067014",
+        "content": {
+          "text": "If I understand it the Lava lamps are 90% PR/fun. They have a lot of other sources for entropy that scales better. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:26.981053",
+        "updated_at": "2026-05-10T16:16:26.981053",
+        "author": {
+          "id": "15aad96e20e60a5b63071c12b56a38bb",
+          "source_id": "victorbjorklund",
+          "username": "victorbjorklund",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "59c60bb8f02d2be1cdc1ba4fa3701625",
+        "source_id": "48068496",
+        "content": {
+          "text": "Yes, they also have wave machines, pendulums, and mobiles :) https://blog.cloudflare.com/harnessing-office-chaos/ https://blog.cloudflare.com/chaos-in-cloudflare-lisbon-offic... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:26.982198",
+        "updated_at": "2026-05-10T16:16:26.982198",
+        "author": {
+          "id": "04c9ab2296056b1e3729d0691cda918c",
+          "source_id": "pverheggen",
+          "username": "pverheggen",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "91c1dfa76e274c176dac5a35bbe33e27",
+        "source_id": "48072998",
+        "content": {
+          "text": "Wouldn’t thermal noise in a resistor make more practical sense? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:26.983331",
+        "updated_at": "2026-05-10T16:16:26.983331",
+        "author": {
+          "id": "3129b0d559eb49075aac5d9114c23d0e",
+          "source_id": "geon",
+          "username": "geon",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c0f4b274b1de34679730907c9dda3337",
+        "source_id": "48074925",
+        "content": {
+          "text": "I prefer cosmic microwave background radiation (CMBR) as my RNG of choice reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:26.984481",
+        "updated_at": "2026-05-10T16:16:26.984481",
+        "author": {
+          "id": "a1d9d5acaf4c4a49b14d49dd6113087d",
+          "source_id": "drzaiusx11",
+          "username": "drzaiusx11",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3302ed7c7e6be2c47070dc86220eb49f",
+        "source_id": "48070567",
+        "content": {
+          "text": "The original from SGI back in the mid 90's, before CPUs had RDRAND instructions etc... was a an actually practical solution. At the time I was at the Internet company that originally got online-gaming banned in the US, we were looking at CCDs and Cesium emitters that required a license etc... While I am not sure, it seems cloudflare basically implemented one after SGI's[0] patent expired. The patent and the licensing cost and adding SGI was a major blocker for us doing it, the startup closed before we found a real solution.  But the best PRNGs like Blum Blum Shub were way too slow at the time.  But things did improve quickly at that time. [0] https://patents.google.com/patent/US5732138A/en reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:26.985776",
+        "updated_at": "2026-05-10T16:16:26.985776",
+        "author": {
+          "id": "4aec8d7727861d1bb338b0eb8d07a31e",
+          "source_id": "nyrikki",
+          "username": "nyrikki",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2019aacd71a92715f192e534d3f8693f",
+        "source_id": "48075826",
+        "content": {
+          "text": "SGI was pretty amazing. I know some folks who worked there - Cray too. There’s a loyalty that just doesn’t exist any more - and arguably isn’t earned anymore. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:26.986993",
+        "updated_at": "2026-05-10T16:16:26.986993",
+        "author": {
+          "id": "2712778d9f928c8ea5bd472b69698738",
+          "source_id": "pyuser583",
+          "username": "pyuser583",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5ee054dc2d18071093a3e2be7c67c9a0",
+        "source_id": "48067251",
+        "content": {
+          "text": "Ant farm ? Hamster wheels ? Anything critter-driven should provide some entropy. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:26.988254",
+        "updated_at": "2026-05-10T16:16:26.988254",
+        "author": {
+          "id": "19306ca388d735971db52bf68f183062",
+          "source_id": "euroderf",
+          "username": "euroderf",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1890a38065ee9cfea7b8faa36c5a9e80",
+        "source_id": "48067299",
+        "content": {
+          "text": "I once read that noise of camera in total darkness is apparently a good source. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:26.989549",
+        "updated_at": "2026-05-10T16:16:26.989549",
+        "author": {
+          "id": "e883f7c5eb84e9f36c8962d8bf50e192",
+          "source_id": "BSVogler",
+          "username": "BSVogler",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b4ea5b2b9dc4560aa4dc2f9837412e36",
+        "source_id": "48068990",
+        "content": {
+          "text": "You can already have a good entropy source from a single resistor. https://en.wikipedia.org/wiki/Johnson%E2%80%93Nyquist_noise reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:26.990895",
+        "updated_at": "2026-05-10T16:16:26.990895",
+        "author": {
+          "id": "16f2f47bb80434d8a9d0741b8ed835f8",
+          "source_id": "amelius",
+          "username": "amelius",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9d468e12dd567919ee840c035158493b",
+        "source_id": "48075832",
+        "content": {
+          "text": "This is what gets me - entropy is hard, but not that hard. I get it goes against everything a computer is built to do, but so does telling time. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:26.992221",
+        "updated_at": "2026-05-10T16:16:26.992221",
+        "author": {
+          "id": "2712778d9f928c8ea5bd472b69698738",
+          "source_id": "pyuser583",
+          "username": "pyuser583",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c5fbbb802812060e4ff196176d3f5528",
+        "source_id": "48071464",
+        "content": {
+          "text": "Would a CRT TV tuned to channel 3 and no RF input be a good source? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:26.993603",
+        "updated_at": "2026-05-10T16:16:26.993603",
+        "author": {
+          "id": "d8f2d92cd0126f53fdc2f74418d21d33",
+          "source_id": "wpm",
+          "username": "wpm",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0cbb445e74845056ce9167095604cf32",
+        "source_id": "48081401",
+        "content": {
+          "text": "I imagine that there might still be a way to swing by with RF equipment and tip the scales in your favor. And if you're important enough, I'm sure there'll be someone motivatd enough to do this. After all, Polymarket was motivating enough for someone to take a hair dryer to a weather station... https://www.theguardian.com/world/2026/apr/23/hairdryer-or-l... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:26.995052",
+        "updated_at": "2026-05-10T16:16:26.995052",
+        "author": {
+          "id": "8b47265bfc65ff88659f020aef1d5bbf",
+          "source_id": "nxobject",
+          "username": "nxobject",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ac663cb56ba57f94e7f695305d5b75c6",
+        "source_id": "48073818",
+        "content": {
+          "text": "In the sense that RF noise can be a source of entropy:  Sorta*.  But one doesn't need the whole thrift-store television set to do that; the visual aspect of a CRT displaying analog video snow just adds style points**. *:  Sorta, because if someone discovers that the entropy is derived from an analog TV tuned to channel 3, then they also know how to influence it from outside. **:  Style points can have value; it's OK to have fun with work.  But that's a secondary function. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:26.996529",
+        "updated_at": "2026-05-10T16:16:26.996529",
+        "author": {
+          "id": "347f3b18cc4ad79f03e36075e3e64073",
+          "source_id": "ssl-3",
+          "username": "ssl-3",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d3abf140b134358a4c439ce986f115f4",
+        "source_id": "48067414",
+        "content": {
+          "text": "The noise probably makes the lava lamp wall just as effective as pointing the camera at the Mona Lisa - the lamps themselves are not that unpredictable frame-to-frame. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:26.997974",
+        "updated_at": "2026-05-10T16:16:26.997974",
+        "author": {
+          "id": "25767f0972fbbb9f0be947ba8a224c65",
+          "source_id": "unilynx",
+          "username": "unilynx",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d5bd05ae4bee2ddde65cfe771d8336df",
+        "source_id": "48068242",
+        "content": {
+          "text": "For the record, the lamps and camera are present in their lobby afaik, so you can actually go there, stand in front of them, and slightly affect the entropy. A cool parlor trick, certainly. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:26.999451",
+        "updated_at": "2026-05-10T16:16:26.999451",
+        "author": {
+          "id": "53c979334685f4583de34f90884a9bbf",
+          "source_id": "LocalH",
+          "username": "LocalH",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2cb3a9329f0523e141c88805cfd0374c",
+        "source_id": "48068692",
+        "content": {
+          "text": "Speaking of ants, Fourmilab (i.e. John Walker, of Autodesk fame) used to provide a random number generator powered by background radiation: https://www.fourmilab.ch/hotbits/ reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.000987",
+        "updated_at": "2026-05-10T16:16:27.000987",
+        "author": {
+          "id": "f1782f5081fb8e3527a147ca6769f104",
+          "source_id": "throw-the-towel",
+          "username": "throw-the-towel",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ebe7d8c8841ed677ca34efb74721622f",
+        "source_id": "48068530",
+        "content": {
+          "text": "https://www.random.org/ Uses atmospheric noise. These dudes use dice? https://youtube.com/shorts/ncoDq5EcPFg?si=lI6f9cw8dWcaDZ4Y reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.002579",
+        "updated_at": "2026-05-10T16:16:27.002579",
+        "author": {
+          "id": "a74f430a06d3f2f69627352f157347c5",
+          "source_id": "conception",
+          "username": "conception",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "206eeb2e3c4b34756ec7f9a03ebf1ab7",
+        "source_id": "48068023",
+        "content": {
+          "text": "https://www.idquantique.com/random-number-generation/product... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.004159",
+        "updated_at": "2026-05-10T16:16:27.004159",
+        "author": {
+          "id": "ef8bc4d73578d414028d01752153e017",
+          "source_id": "FuriouslyAdrift",
+          "username": "FuriouslyAdrift",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8b7777491990a3404f8eda83b8aeeff0",
+        "source_id": "48068660",
+        "content": {
+          "text": "The lava lamps are just for show. You can get entropy just by plugging an oscilloscope into a pile of dirt and cranking the gain up. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.005827",
+        "updated_at": "2026-05-10T16:16:27.005827",
+        "author": {
+          "id": "d63332d2356d566b3fa8206aa390d1a6",
+          "source_id": "dheera",
+          "username": "dheera",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9b648939fa59c502d3ae2d55cb040f92",
+        "source_id": "48068845",
+        "content": {
+          "text": "Any high-gain amplifier can be used, with its input connected to a resistor or a diode. For instance you can use the microphone input of a PC, together with an additional external amplifier made with an audio amplifier integrated circuit or an operational amplifier integrated circuit and with a diode or a resistor at its input. The microphone input of PCs provides a 5 V voltage that can be sufficient as a power supply for a noise source plugged in it. Such a true RNG can be made on a small PCB with an audio jack, so you can plug it into any PC with microphone input and have a true RNG that you can trust better than the RNG included in modern Intel and AMD CPUs. In the past, many AMD CPUs had defective internal RNGs. Moreover, both for Intel and for AMD it is impossible to verify whether the internal RNG does what it claims to do or it generates predictable pseudo-random numbers. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.007492",
+        "updated_at": "2026-05-10T16:16:27.007492",
+        "author": {
+          "id": "7189387826470f47dc1964b3920ed0f7",
+          "source_id": "adrian_b",
+          "username": "adrian_b",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a82cb1e7823c4d5fd5e852055a8c9f2c",
+        "source_id": "48073511",
+        "content": {
+          "text": "Meh. The problem is that it might start receiving you local radio station and end up deterministic enough to screw you. So you need to shield the dirt properly. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.009200",
+        "updated_at": "2026-05-10T16:16:27.009200",
+        "author": {
+          "id": "4e02d63d0538d29743dbd6cbe13cd301",
+          "source_id": "tliltocatl",
+          "username": "tliltocatl",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f09c3f11af4c566f82a3fcc325857ceb",
+        "source_id": "48068190",
+        "content": {
+          "text": "Old games are RTA viable to RNG manip: https://m.youtube.com/watch?v=Bgh30BiWG58 reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.010970",
+        "updated_at": "2026-05-10T16:16:27.010970",
+        "author": {
+          "id": "82860643cef90b053eac176837c006c3",
+          "source_id": "__s",
+          "username": "__s",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "042eebfb73a7a632429f2548f5218fd8",
+        "source_id": "48073182",
+        "content": {
+          "text": "> This is why CloudFlare has done what they did with the lava lamp wall. Interesting. I wonder how true it actually is that they use it like they claim here: https://www.cloudflare.com/learning/ssl/lava-lamp-encryption... . It's in one of their lobbies, so doesn't that make it susceptible to an attack in some way? I'm not knowledgeable enough to know, but I figured if they actually used that method, they'd have a more controlled environment. I also don't fully understand it. A large part of that wall is static. And the camera isn't going to pick up on the stochastic properties of the lava as much as exists in the real world. So it feels like their images will be very statistically similar. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.012800",
+        "updated_at": "2026-05-10T16:16:27.012800",
+        "author": {
+          "id": "cc3bab46495f3cb136e186790d80754e",
+          "source_id": "bmitc",
+          "username": "bmitc",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c9346e6ab1247cb36fb885f55786de62",
+        "source_id": "48077642",
+        "content": {
+          "text": "It's probably just one of many sources. Just by being in one physical location it would be vulnerable to a network outage (ignoring any potential for attacks) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.014577",
+        "updated_at": "2026-05-10T16:16:27.014577",
+        "author": {
+          "id": "0b52ddf5e6e1f13fe0d6ba552e7681aa",
+          "source_id": "Melatonic",
+          "username": "Melatonic",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ed7a0c788e93e8fed6da81621c69449d",
+        "source_id": "48067967",
+        "content": {
+          "text": "Yep - I've seen legitimate-looking dups on bad hardware, and \"there are a ton of trailing zeros\" is also an incredibly common duplicate mode for some UUID libraries (like earlier Go ones that didn't validate the \"requested N bytes, returned 3, you must re-request to get N-3 more\" return values. it doesn't happen on most hardware or OSes, so people never check it, so it just comes up in production some day with tens of thousands of collisions). reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.016375",
+        "updated_at": "2026-05-10T16:16:27.016375",
+        "author": {
+          "id": "17f55f783eca173ded7be2abbd07912e",
+          "source_id": "Groxx",
+          "username": "Groxx",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6a8165199fed090693bb4f29ff6fa54a",
+        "source_id": "48065904",
+        "content": {
+          "text": "Thanks for the insight! Mind expanding on what alternatives are being used in high reliability systems instead of UUIDv4? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.018216",
+        "updated_at": "2026-05-10T16:16:27.018216",
+        "author": {
+          "id": "4b1be78e634ae3b981ef4cd9b53e02c5",
+          "source_id": "thecloud",
+          "username": "thecloud",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "787382c514ba5952d8df0db335955b0d",
+        "source_id": "48066613",
+        "content": {
+          "text": "In high-reliability systems a criterion for identifier design is easy detection of defective identifiers. This includes buggy systems and adversarial manipulation. The problem with UUIDs that rely on entropy sources is that it is computationally expensive to detect if the statistical distribution of identifiers is diverging from what you would expect from a random oracle. I've written systems that can detect entropy source anomalies but you'll want to turn it off in production. It is pretty cheap to sanity check most non-probabilistic identifier schemes. UUIDs that use broken hash algorithms (e.g. UUIDv3/5) or leak state (e.g. UUIDv7) are exposed to adversarial exploitation. The identifier scheme is dependent on the use case. Does the uniqueness constraint apply to the instance of the object or the contents of the object? Is the generation of identifiers federated across untrusted nodes? How large is the potential universe of identifiers? The basic scheme I've seen is a 128-bit structured value that has no probabilistic component. These identifiers can be encrypted with AES-128 when exported to the public, guaranteeing uniqueness while leaking no internal state. The benefit of this scheme is that it is usually drop-in compatible with standard UUID even though it is technically not a UUID and the internal structure can carry useful metadata about the identifier if you can decrypt it. Federated generation across untrusted nodes requires a more complex scheme, particularly if the universe of identifiers is extremely large. These intrinsically have a collision risk regardless of how the identifiers are generated. All of the standardized UUID really weren't designed with the requirements of scalable high-reliability systems in mind. They were optimized for convenience and expedience which is a perfectly reasonable objective. Most people don't need an identifier system engineered for extreme reliability, even though there is relatively little cost to having one. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.020201",
+        "updated_at": "2026-05-10T16:16:27.020201",
+        "author": {
+          "id": "f88d1b0cedc9f9142315b6d5e2c0a674",
+          "source_id": "jandrewrogers",
+          "username": "jandrewrogers",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "db55bc5eac20dfdeec9ee50d085aa450",
+        "source_id": "48067700",
+        "content": {
+          "text": "> leak state (e.g. UUIDv7) But according to PostgreSQL, UUIDv7 provides better performance in the database, so is this essentially a trade off between security and speed? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.022129",
+        "updated_at": "2026-05-10T16:16:27.022129",
+        "author": {
+          "id": "3bdb2452c3e7a861757e5ed523438cad",
+          "source_id": "eaf7e281",
+          "username": "eaf7e281",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "bd2a62368877b9cc3e28b81319526b15",
+        "source_id": "48067841",
+        "content": {
+          "text": "Yes, because UUIDv7 gives up some random bits in order to include the timestamp, which is done in a way that makes UUIDv7s quick to sort by timestamp. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.024062",
+        "updated_at": "2026-05-10T16:16:27.024062",
+        "author": {
+          "id": "f4cea6571c9b47e6ac1aa1884bd5d527",
+          "source_id": "jubilanti",
+          "username": "jubilanti",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "66701312652c260b2e848f0e67e32f34",
+        "source_id": "48069246",
+        "content": {
+          "text": "How does including the timestamp expose me to adversarial exploitation? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.026019",
+        "updated_at": "2026-05-10T16:16:27.026019",
+        "author": {
+          "id": "5cdcfd1a10b7d65c75b07a913e794b88",
+          "source_id": "ai_slop_hater",
+          "username": "ai_slop_hater",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c490da9becc5dfaadb26c9edbb4f554b",
+        "source_id": "48070240",
+        "content": {
+          "text": "It reveals the time you created the UUID, for one. That can lead to a bunch of problems. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.028002",
+        "updated_at": "2026-05-10T16:16:27.028002",
+        "author": {
+          "id": "a0e6a69f3e02810f98268de6fee39667",
+          "source_id": "danpalmer",
+          "username": "danpalmer",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "de943955e34bfdb8560972d385b5b3ca",
+        "source_id": "48074747",
+        "content": {
+          "text": "The same way using an auto increment integer ID does, but imagine that integer also leaked your created timestamp column too. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.029995",
+        "updated_at": "2026-05-10T16:16:27.029995",
+        "author": {
+          "id": "30721a9da49569a236dc0b8c85e49c2b",
+          "source_id": "devmor",
+          "username": "devmor",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ad189761a891a5fc14f32fb77a873ccf",
+        "source_id": "48070331",
+        "content": {
+          "text": "I’ve not come across any. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.032055",
+        "updated_at": "2026-05-10T16:16:27.032055",
+        "author": {
+          "id": "283aee1e38576a20babcf6c636130614",
+          "source_id": "goalieca",
+          "username": "goalieca",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "fe919fad5c01ed41d795981e9b4609e0",
+        "source_id": "48074631",
+        "content": {
+          "text": "How does a high-reliability system have a broken /dev/random? You're better off fixing it rather than trying to fix every downstream component that uses it. You can put your AES-128 counter there if you can count reliably. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.034140",
+        "updated_at": "2026-05-10T16:16:27.034140",
+        "author": {
+          "id": "29e8697159104ad2c3536c694bac02c7",
+          "source_id": "dchest",
+          "username": "dchest",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9da6027faa51351b8fe31ad1f44022a6",
+        "source_id": "48066145",
+        "content": {
+          "text": "The latest UUID (7?) Uses half random gen, half timestamp. This not only makes it sortable by creation, but would also make a collision like this impossible. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.036274",
+        "updated_at": "2026-05-10T16:16:27.036274",
+        "author": {
+          "id": "5a24a4c767a6b688184d0818d80c938f",
+          "source_id": "filcuk",
+          "username": "filcuk",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "292311e3bdb35fe76d99d3d5ece51000",
+        "source_id": "48066402",
+        "content": {
+          "text": "It's still possible in most implementations of UUIDv7. UUIDv7 assigns the first 48 bits for the timestamp in milliseconds. You can generate a lot of UUID's in a millisecond though! Then you have another 12 bits that you can use as you wish; \"rand_a\". The spec has a few methods they suggest on how to use these bits including 12 bits of random data, using it for sub-millisecond timestamps, or creating a monotonic counter, but each have their downsides: - Purely random data means you can still run into collisions and anything within the same millisecond is unordered - Sub millisecond you can run into collisions; there's nothing stopping you from generating two UUID's with the same 62 bits of rand_b data in the same sub-millisecond timestamp. - Monotonic counters can overflow before the next tick, then what? Rollover? Once you roll over it's no longer monotonic and you can generate the same random data within the same monotonic cycle. Also; it's only monotonic to the system that's generating the UUID. If you have a distributed system and they each have their own monotonic cycles then you'll be generating UUID's with the same timestamp + monotonic counter, and again, are relying on not generating the same random data. You can steal some of the 62 bits in rand_b if you want as well; you can use rand_a for sub-millisecond accuracy, and then use a few bits of rand_b for a monotonic counter. There's still a chance of collision here, but it's exceedingly low at the expense of less truly random data at the end. If you want truly collision free, you'd also need to assign a couple of bits to identify the subsystem generating the UUID so that the monotonic counter is unique to that subsystem. You lose the ordering part of the monotonic counter this way though, but I guess you could argue that in nearly 100% of cases the accuracy of sub-millisecond order in a distributed system is a lie anyways. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.038544",
+        "updated_at": "2026-05-10T16:16:27.038544",
+        "author": {
+          "id": "ac5eef0b689f8de21107b1e2abfb41ad",
+          "source_id": "stanmancan",
+          "username": "stanmancan",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "aab6e0c5354ce2f3adb7060fc0c0aa6d",
+        "source_id": "48067429",
+        "content": {
+          "text": "I think by the time you're building a system that needs to generate (and persist!) billions of identifiers per millisecond, you're solidly past the point where all your design decisions need to be vetted for whether they make sense on your extremely exotic setup. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.040871",
+        "updated_at": "2026-05-10T16:16:27.040871",
+        "author": {
+          "id": "7919307d011445c2900dd60bdcb169c1",
+          "source_id": "naniwaduni",
+          "username": "naniwaduni",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4c144a1dc1421946a9679c6ec21ffcc1",
+        "source_id": "48070171",
+        "content": {
+          "text": "But 12 bits is not \"billions of identifiers\" -- it's 4096. Once you exhaust that counter in the same millisecond, you are still relying on a gamble that your random source will not generate the exact same bit sequence for the previous same counter value. And this thread started out with the OP explaining that random collisions are much more common than we'd like them to be, for various reasons. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.043135",
+        "updated_at": "2026-05-10T16:16:27.043135",
+        "author": {
+          "id": "fb515e95a9652c04a09138e6178c4aa3",
+          "source_id": "tremon",
+          "username": "tremon",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e7ef6ddbd029d6a5d52619d46f7e50cf",
+        "source_id": "48067288",
+        "content": {
+          "text": "We have a dedicated snowflake id generator service that returns batch ids. It's also distributed, each service adds its own instance number to the id. When it overflows it just blocks for the next ms. For our traffic, it's never a bottleneck. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.045449",
+        "updated_at": "2026-05-10T16:16:27.045449",
+        "author": {
+          "id": "d287361d410e200d5f1df95c41f2785c",
+          "source_id": "rootlocus",
+          "username": "rootlocus",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "dc9c32330ddb3941eddef8729dcab3f3",
+        "source_id": "48069224",
+        "content": {
+          "text": "Something I use on my own distributed system (where I wanted 64-bit IDs), is use 32 bits for the time in seconds (with an epoch from 2020, so good until 2088), 8 bits for the device ID and 24 bits for a serial number (resets to 0 every time the seconds increments). That's generally enough IDs per second for most of my edge nodes, but the central worker nodes need more, so I give them a different split and use 4 bits for the device ID and 28 bits for serial number instead. If a node overflows its serial number that second, I kind of cheat and increment the seconds field early. Every time this happens, I persist the seconds field to the database, and when the app restarts, it starts its seconds count at the last persisted seconds plus one. If the current time in seconds is greater than the last used seconds, I also update it and reset the serial number. Works remarkably well for smoothing out very occasional spikes in ID generation while still approximately remaining globally sortable. I also \"waste\" a bit of the 32-bit time field by considering it to be signed, even though it's not really because I don't expect this system to last long enough to reach times where the MSB gets set. But if I ever change my system, I'll set that bit and everything will stay ordered. I'll probably reset the epoch at that point too. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.047822",
+        "updated_at": "2026-05-10T16:16:27.047822",
+        "author": {
+          "id": "f6c2aff00fdf6991310e222cbd5ff722",
+          "source_id": "ralferoo",
+          "username": "ralferoo",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a71bc26e1ef347e953582d26ca2b1752",
+        "source_id": "48066335",
+        "content": {
+          "text": "Considering the context I think it's worth pointing out that it's technically not impossible - it's just even less likely. Everything in crypto is always a probability - never a certainty reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.050277",
+        "updated_at": "2026-05-10T16:16:27.050277",
+        "author": {
+          "id": "43727b3b3e3c42f029165388e049a9f4",
+          "source_id": "ffsm8",
+          "username": "ffsm8",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ab2d9f0cd27b24e726aacceed55cdd51",
+        "source_id": "48066403",
+        "content": {
+          "text": "True, but it makes the specific collision the post observed completely impossible. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.052719",
+        "updated_at": "2026-05-10T16:16:27.052719",
+        "author": {
+          "id": "5807468e34a17b278e3485060fb7c7f9",
+          "source_id": "nitsky",
+          "username": "nitsky",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f91beee1315e24deb30b3000f5b850ed",
+        "source_id": "48066537",
+        "content": {
+          "text": "I left a more detailed comment on the parent, but it's definitely not impossible! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.055175",
+        "updated_at": "2026-05-10T16:16:27.055175",
+        "author": {
+          "id": "ac5eef0b689f8de21107b1e2abfb41ad",
+          "source_id": "stanmancan",
+          "username": "stanmancan",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1f6580a2449f37fb09541bff05c81586",
+        "source_id": "48067057",
+        "content": {
+          "text": "The scenario in this post is that the first uuid was created one year before the duplicate uuid. That isn’t possible with v7 reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.057720",
+        "updated_at": "2026-05-10T16:16:27.057720",
+        "author": {
+          "id": "d18bc164b322fd3d4fa94e0fb17ef302",
+          "source_id": "ryanmonroe",
+          "username": "ryanmonroe",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "be1c5f123ab9c5bc25b296d00b4143c4",
+        "source_id": "48067174",
+        "content": {
+          "text": "You're heavily leaning on \"collision like this\" to relate to the exact time stamps for your statement to be true. It's equality possible to interpret the \"like this\" to the collision itself, without a focus on the 1 year distance between the creation dates. So I guess both views are valid. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.060358",
+        "updated_at": "2026-05-10T16:16:27.060358",
+        "author": {
+          "id": "43727b3b3e3c42f029165388e049a9f4",
+          "source_id": "ffsm8",
+          "username": "ffsm8",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "bbba79272053bdb54a763f5c4afdd6a6",
+        "source_id": "48069943",
+        "content": {
+          "text": "The inclusion of a timestamp in v7 makes collisions impossible unless the generating systems think that the time is the same down to the millisecond, which makes the temporal distance quite relevant. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.063010",
+        "updated_at": "2026-05-10T16:16:27.063010",
+        "author": {
+          "id": "64d9b940e56ee55f03f1090853385742",
+          "source_id": "calfuris",
+          "username": "calfuris",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7a7601b0ce40f261dee9d98d3591e485",
+        "source_id": "48070126",
+        "content": {
+          "text": "Plenty of systems end up generating multiple UUID's in a single millisecond. The issue with UUIDv7 is that you also have significantly less entropy since you only have a 62 bits (sometimes less, depending on implementation) of \"random\" data. So while the time aspect of format lowers the chances of collisions, generating two UUIDv7's in the same millisecond (depending on implementation) have a significantly higher chance of collision than two UUIDv4's. It's still incredibly unlikely, but it's also incredibly unlikely you generate two matching UUIDv4's, but it does happen. TLDR; It's possible to generate matching UUIDv7's, don't assume otherwise. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.065715",
+        "updated_at": "2026-05-10T16:16:27.065715",
+        "author": {
+          "id": "ac5eef0b689f8de21107b1e2abfb41ad",
+          "source_id": "stanmancan",
+          "username": "stanmancan",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ac61be954bd5881ef62acf4d3b6161e9",
+        "source_id": "48084787",
+        "content": {
+          "text": "I answered this in another HN topic just the other day: https://news.ycombinator.com/item?id=48061098 But essentially, using UUID v7 you actually have less risk of collisions than with UUID v4. Because of the birthday paradox, if you have N bits of randomness, you can expect a collision approximately after (2^((N/2)-1)) random numbers. With v4, you have 122 bits of entropy over all time, so will see a collision after 2^60 allocations, approx 1.2 x 10^18. With v7, you sacrifice 48 bits of entropy to give you 74 bits of entropy every millisecond, so you will see a collision after approximate 2^36 allocations per millisecond, approx 6.8 x 10^10 per millisecond. You could argue that the risk of a collision is too high per millisecond because  it's likely that 68 billion UUIDs are generated every millisecond. And maybe I'd agree. But the counter argument is that with v4 you'd expect a collision after 2^24 milliseconds, or 280 minutes, allocating at the same rate of 68 billion UUIDs per millisecond. Obviously \"all time\" is longer than \"280 minutes\", so v7 is actually statistically less likely to cause collisions than v4, even though it seems counter-intuitive because it has a smaller space devoted to entropy. The key insight is that the time provides bits that are guaranteed to be unique, so only collisions within the same timestamp are significant, and every bit used to provide known-unique values is worth 2 bits of entropy. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.068530",
+        "updated_at": "2026-05-10T16:16:27.068530",
+        "author": {
+          "id": "f6c2aff00fdf6991310e222cbd5ff722",
+          "source_id": "ralferoo",
+          "username": "ralferoo",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d9dcc3c8e16340d9e1203eff14b24b56",
+        "source_id": "48067253",
+        "content": {
+          "text": "Surely the scenario where he generates the same number of items as he did between 2025 and now, but did it in 1 tick of v7 UUIDs also runs into it? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.071304",
+        "updated_at": "2026-05-10T16:16:27.071304",
+        "author": {
+          "id": "6c55fd4f89bdde26467a678c31aa8217",
+          "source_id": "JamesSwift",
+          "username": "JamesSwift",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "31d8661d4b186536cfc15fdf444f080d",
+        "source_id": "48068433",
+        "content": {
+          "text": "The scenario being the collision itself, the time period isn’t particularly relevant aside from it occurring much quicker than expected. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.074118",
+        "updated_at": "2026-05-10T16:16:27.074118",
+        "author": {
+          "id": "ac5eef0b689f8de21107b1e2abfb41ad",
+          "source_id": "stanmancan",
+          "username": "stanmancan",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "bdd2807ad637fea6930e9245b5983712",
+        "source_id": "48076104",
+        "content": {
+          "text": "Almost impossible, it depends on how fast they're being generated and the precision of the timestamp.  The real problem is two years later when someone finds and removes that usleep(10000); /* sleep 10 µs */ that was the hard speed brake needed for the UUID generator, and suddenly duplicate IDs start showing up a few times per day or something similar. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.076960",
+        "updated_at": "2026-05-10T16:16:27.076960",
+        "author": {
+          "id": "d3cafeb7efea020f2ff65f042c62fcc0",
+          "source_id": "erlkonig",
+          "username": "erlkonig",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "24a5a0df6d63feb4f00bd361fe719870",
+        "source_id": "48070543",
+        "content": {
+          "text": "The spec doesn't require the use of actually random numbers though. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.079780",
+        "updated_at": "2026-05-10T16:16:27.079780",
+        "author": {
+          "id": "7958d955f71f44f7bd7c6aeb10497ef6",
+          "source_id": "majorchord",
+          "username": "majorchord",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "81fbf4856a7973feee94b77bc48df5e6",
+        "source_id": "48067211",
+        "content": {
+          "text": "UUIDv7 is arguably better, because it is entropy plus time. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.082647",
+        "updated_at": "2026-05-10T16:16:27.082647",
+        "author": {
+          "id": "3d2f95a9a0a4bff520808cc0706c3095",
+          "source_id": "matt-p",
+          "username": "matt-p",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f92cb1311efc80b3963b1521b67132de",
+        "source_id": "48068090",
+        "content": {
+          "text": "It is what I usually use for its sorting, but some people don't want to leak time info. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.085460",
+        "updated_at": "2026-05-10T16:16:27.085460",
+        "author": {
+          "id": "71300a80cf69523eac7377d07a66487e",
+          "source_id": "otherme123",
+          "username": "otherme123",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "03ce8f171dcefc87d7d9f2639a9ca070",
+        "source_id": "48070544",
+        "content": {
+          "text": "Entropy is not a requirement in the UUID spec. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.088411",
+        "updated_at": "2026-05-10T16:16:27.088411",
+        "author": {
+          "id": "7958d955f71f44f7bd7c6aeb10497ef6",
+          "source_id": "majorchord",
+          "username": "majorchord",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c01832b1782fbc97135a6395480d0dc8",
+        "source_id": "48065967",
+        "content": {
+          "text": "Sequences, generally. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.091324",
+        "updated_at": "2026-05-10T16:16:27.091324",
+        "author": {
+          "id": "5d5362fbef80bcbf65a9251dda6f62af",
+          "source_id": "lazide",
+          "username": "lazide",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f72a28c477b6f1e102019d7db216392f",
+        "source_id": "48074279",
+        "content": {
+          "text": "That depends on your definition of high-availability. If high availability includes distributed writers, (global) sequences are not the best solution because generating unique sequence values requires synchronisation between all writers. In those cases, you might need to explicitly partition the ID space so that individual writers are guaranteed not to get in each others' hair. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.094199",
+        "updated_at": "2026-05-10T16:16:27.094199",
+        "author": {
+          "id": "fb515e95a9652c04a09138e6178c4aa3",
+          "source_id": "tremon",
+          "username": "tremon",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0a16c0e2b0a976c1f1f599d25cf4ff7b",
+        "source_id": "48074786",
+        "content": {
+          "text": "That is merely a sequence generation strategy. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.097045",
+        "updated_at": "2026-05-10T16:16:27.097045",
+        "author": {
+          "id": "5d5362fbef80bcbf65a9251dda6f62af",
+          "source_id": "lazide",
+          "username": "lazide",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e1e7c02a1a9fe47482a98a8443181708",
+        "source_id": "48065966",
+        "content": {
+          "text": "How is UUIDv4 to blame for a broken source of entropy? Or am I misinterpreting your words? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.099933",
+        "updated_at": "2026-05-10T16:16:27.099933",
+        "author": {
+          "id": "e4f88dd5bf84f950019276312768615d",
+          "source_id": "perching_aix",
+          "username": "perching_aix",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3632bc20fe3e73e775307f7cb235e87e",
+        "source_id": "48066296",
+        "content": {
+          "text": "I wouldn't say it's \"to blame\", but it is more susceptible to bad RNG. If the RNG is bad, you'll get more benefit from adding non-random bits than you would from additional badly RNG'd bits. The probability of future collisions also rises the more IDs you generate. If you incorporate non-random bits, you can alleviate that: - timestamps make the collision probability not grow over time as you accumulate more existing UUIDs that could collide - known-distinct machine IDs make the collision probability not grow as you add more machines reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.103354",
+        "updated_at": "2026-05-10T16:16:27.103354",
+        "author": {
+          "id": "06b6a0c64b35cf03ead7936cee1f30da",
+          "source_id": "hmry",
+          "username": "hmry",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6982febed196be554742fea823ec53f4",
+        "source_id": "48066836",
+        "content": {
+          "text": "I never blamed UUIDv4 for broken entropy sources. A broken entropy source breaks UUIDv4 even if you are using it correctly. There is a long history of broken entropy sources showing up in real systems. No matter how hard people try to prevent this it keeps happening. Consequently, a requirement for high-quality entropy sources is correctly viewed as an unnecessary and avoidable foot-gun in high-reliability software systems. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.106814",
+        "updated_at": "2026-05-10T16:16:27.106814",
+        "author": {
+          "id": "f88d1b0cedc9f9142315b6d5e2c0a674",
+          "source_id": "jandrewrogers",
+          "username": "jandrewrogers",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e38b1a54f59cd985877173078105d5b4",
+        "source_id": "48066059",
+        "content": {
+          "text": "Presumably they mean using randomness as unique IDs. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.110116",
+        "updated_at": "2026-05-10T16:16:27.110116",
+        "author": {
+          "id": "068023f1057c6091e0ac7956352e7d9b",
+          "source_id": "hombre_fatal",
+          "username": "hombre_fatal",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4b3418275e69f3d9eba50dc4d54e9956",
+        "source_id": "48071683",
+        "content": {
+          "text": "For a while we’ve been fixing telemetry-reported crash bugs in the project I maintain, and now hardware bugs are showing up with some frequency. I was amazed how common they are. Sometimes data values (e.g. SP register) are corrupted, but other times even infallible operations (e.g loads of rodata constants) crash, indicating that the instruction itself was corrupted. So, yeah, I believe you’ll eventually see UUID collisions, but not because the underlying cryptanalysis was wrong. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.113305",
+        "updated_at": "2026-05-10T16:16:27.113305",
+        "author": {
+          "id": "197656391f5e8180ae75c5eb5db6fd40",
+          "source_id": "adonovan",
+          "username": "adonovan",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "dcf1902f555a0519aea37080fa835852",
+        "source_id": "48068030",
+        "content": {
+          "text": "> UUIDv4 is explicitly forbidden for a lot of high-assurance and high-reliability software systems for this reason. Hmm. What do those systems do for cryptography? Just assume it won't work and not rely on it at all? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.116464",
+        "updated_at": "2026-05-10T16:16:27.116464",
+        "author": {
+          "id": "67bae3fbea434038d77a63338974b9bc",
+          "source_id": "Hizonner",
+          "username": "Hizonner",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6b421516d16d3603ed8fa51ed2d937ca",
+        "source_id": "48068244",
+        "content": {
+          "text": "In these kinds of systems the cryptographic components often aren't even accessible from the software. It isn't a thing you need to worry about. This makes it easier to audit for use of entropy sources in the software since there really isn't a valid use case for it. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.119640",
+        "updated_at": "2026-05-10T16:16:27.119640",
+        "author": {
+          "id": "f88d1b0cedc9f9142315b6d5e2c0a674",
+          "source_id": "jandrewrogers",
+          "username": "jandrewrogers",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "711387815b5c9cc651e62372af2a1215",
+        "source_id": "48070506",
+        "content": {
+          "text": "Reading the UUID spec leads me to believe that good entropy is not even a requirement for any version: > Implementations SHOULD utilize a cryptographically secure pseudorandom number generator (CSPRNG) to provide values that are both difficult to predict (\"unguessable\") and have a low likelihood of collision (\"unique\"). From https://www.rfc-editor.org/rfc/rfc9562.html#unguessability So I don't think technically we can say entropy or random numbers at all are even \"required for UUIDv4 to work as advertised.\" reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.122942",
+        "updated_at": "2026-05-10T16:16:27.122942",
+        "author": {
+          "id": "433dd1f600e821c6a7c0c49d838fc708",
+          "source_id": "ranger_danger",
+          "username": "ranger_danger",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "45b934b5f1a3c9693ce5e0cc026e803c",
+        "source_id": "48075232",
+        "content": {
+          "text": "Any PRNG, including a CSPRNG is simple to predict if you know its inputs. You need entropy to seed your CSPRNG. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.126357",
+        "updated_at": "2026-05-10T16:16:27.126357",
+        "author": {
+          "id": "bfd732ac49156b0a6873e3b46afbd6cf",
+          "source_id": "toast0",
+          "username": "toast0",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2d697e6476653c266316a648e02707ba",
+        "source_id": "48075773",
+        "content": {
+          "text": "I think you misunderstood the meaning of the word \"SHOULD\" in the spec. It means it's not strictly necessary, as in, a PRNG is not a requirement in order to support UUIDs in a compliant way. To me this means UUID itself is not a viable solution if randomness is a requirement for you, because even if one claims they are using a UUID implementation that is compliant with the spec, and it is in fact compliant, that doesn't mean it's actually random at all. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.129912",
+        "updated_at": "2026-05-10T16:16:27.129912",
+        "author": {
+          "id": "433dd1f600e821c6a7c0c49d838fc708",
+          "source_id": "ranger_danger",
+          "username": "ranger_danger",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f63fca1dd428ad929220a26e60eece67",
+        "source_id": "48075745",
+        "content": {
+          "text": "> We just had an actual UUID v4 collision... (...) > This is surprisingly common And there goes though the window my blind faith with UUID v4 :) I recently read about UUID v7 ( https://en.wikipedia.org/wiki/Universally_unique_identifier#... ) that became my favourite random identifier. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.133641",
+        "updated_at": "2026-05-10T16:16:27.133641",
+        "author": {
+          "id": "8fc55074f07ded3b4ab9e83b4837a10e",
+          "source_id": "BrandoElFollito",
+          "username": "BrandoElFollito",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a518fe2dd30c037edbf99ce4a427cc43",
+        "source_id": "48067687",
+        "content": {
+          "text": "Super simple to detect and try again. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.137322",
+        "updated_at": "2026-05-10T16:16:27.137322",
+        "author": {
+          "id": "23047361eda1e09754ca29cba7dad09d",
+          "source_id": "erikerikson",
+          "username": "erikerikson",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a07de45e651dda4ad612a3ffe4634f4b",
+        "source_id": "48067946",
+        "content": {
+          "text": "A collision is simple to detect but it requires you to actually check, which is expensive at scale. The entire point of UUIDv4 is that you don't have to check for collisions because it should never happen. But if you don't check and it does happen you are in UB territory which is generally very bad. A risk of collision before it happens is non-trivial to detect but this is really what you'd want. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.141283",
+        "updated_at": "2026-05-10T16:16:27.141283",
+        "author": {
+          "id": "f88d1b0cedc9f9142315b6d5e2c0a674",
+          "source_id": "jandrewrogers",
+          "username": "jandrewrogers",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "204da8bbdcd8a7824d9be575b154d506",
+        "source_id": "48069713",
+        "content": {
+          "text": "Only expensive if you have unsorted keys or lack an index.  Neither of which are unscalable. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.145253",
+        "updated_at": "2026-05-10T16:16:27.145253",
+        "author": {
+          "id": "23047361eda1e09754ca29cba7dad09d",
+          "source_id": "erikerikson",
+          "username": "erikerikson",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "cb4b50196d27b7c07d2442c84011dbbf",
+        "source_id": "48069870",
+        "content": {
+          "text": "You must have missed the “at scale” part. There is nothing inexpensive about extra network hops, cache misses, and page faults implied by your solution. Indexing at scale is almost always lossy for performance reasons. The location where you insert a new record is frequently not the same location as where you have to search for an existing record. It is resource amplification all the way down. In a lot of systems that index these keys the cost of that check is several times that of doing a blind insert. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.148968",
+        "updated_at": "2026-05-10T16:16:27.148968",
+        "author": {
+          "id": "f88d1b0cedc9f9142315b6d5e2c0a674",
+          "source_id": "jandrewrogers",
+          "username": "jandrewrogers",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1debf0b5a9c7a30c0f44b1664d36ef37",
+        "source_id": "48069900",
+        "content": {
+          "text": "No I didn't miss it. DynamoDb works fine, using CQRS if necessary. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.152859",
+        "updated_at": "2026-05-10T16:16:27.152859",
+        "author": {
+          "id": "23047361eda1e09754ca29cba7dad09d",
+          "source_id": "erikerikson",
+          "username": "erikerikson",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "40d1bb5158785d8e08ca7df91e813d82",
+        "source_id": "48070204",
+        "content": {
+          "text": "literally the whole point of randomly generating UUIDs is that you don't need to check for collision. that's what the \"U\"s are for. that is the abstraction that is supposedly being provided. \"using <insert Amazon AWS Certification Test Answer #7>\" is not in any way a \"scalable solution\" for that with no other context. nor is just throwing out <random Martin Fowler concept #27>. the whole point is that it is a global (well, per name, \"universal\") abstraction that can, in practice, have holes that make it so you can't use it \"universal\"-ly. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.156858",
+        "updated_at": "2026-05-10T16:16:27.156858",
+        "author": {
+          "id": "766ba6f521b2c427f9d71218b315f1f0",
+          "source_id": "keeganpoppen",
+          "username": "keeganpoppen",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "76861d1b9deb766434934cd93d2fa0fd",
+        "source_id": "48070319",
+        "content": {
+          "text": "I totally appreciate what you are complaining about. It's always been part of the documentation for a UUID.  Having had Martin Fowler as a colleague and meeting with him weekly for a bit, I'd expect him to nod along with what I've written.  It's standard knowledge and part of the technical corpus.  As is actually distributed unique ID generation which is also not hard. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.161131",
+        "updated_at": "2026-05-10T16:16:27.161131",
+        "author": {
+          "id": "23047361eda1e09754ca29cba7dad09d",
+          "source_id": "erikerikson",
+          "username": "erikerikson",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6a7b1c5a8519026cd9e5b23a3e8bba9f",
+        "source_id": "48069867",
+        "content": {
+          "text": "AKA centralising a decentralised identifier generator? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.165242",
+        "updated_at": "2026-05-10T16:16:27.165242",
+        "author": {
+          "id": "704fbc9acb378fe2b00c7c04598b9ecf",
+          "source_id": "orf",
+          "username": "orf",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "89b015cde383e592832969d8cc6211c0",
+        "source_id": "48069911",
+        "content": {
+          "text": "There are better approaches like pre -avoiding collisions but generating tends to be more expensive than checking. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.169237",
+        "updated_at": "2026-05-10T16:16:27.169237",
+        "author": {
+          "id": "23047361eda1e09754ca29cba7dad09d",
+          "source_id": "erikerikson",
+          "username": "erikerikson",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "287962d2ed9362a9c5debf1dde89cf3b",
+        "source_id": "48069932",
+        "content": {
+          "text": "In what world is generating a UUID more expensive than checking for duplicates? at any scale ? Walk me through that please reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.173082",
+        "updated_at": "2026-05-10T16:16:27.173082",
+        "author": {
+          "id": "704fbc9acb378fe2b00c7c04598b9ecf",
+          "source_id": "orf",
+          "username": "orf",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6db41879e8e13f33a4a4577498b4d7f9",
+        "source_id": "48069963",
+        "content": {
+          "text": "Yeah, that was a little sloppy but it's generating is more expensive than not generating.  In more words, generating an id and validating uniqueness is more expensive than only validating uniqueness. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.176768",
+        "updated_at": "2026-05-10T16:16:27.176768",
+        "author": {
+          "id": "23047361eda1e09754ca29cba7dad09d",
+          "source_id": "erikerikson",
+          "username": "erikerikson",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "753550bd3789cd093dcde06db6568400",
+        "source_id": "48070216",
+        "content": {
+          "text": "exactly lmao. that is exactly what is being presented as \"scalable <full stop>\". sigh . reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.180416",
+        "updated_at": "2026-05-10T16:16:27.180416",
+        "author": {
+          "id": "766ba6f521b2c427f9d71218b315f1f0",
+          "source_id": "keeganpoppen",
+          "username": "keeganpoppen",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "651aad5b6a7c2edef5411124dcaff766",
+        "source_id": "48070344",
+        "content": {
+          "text": "No one has yet defined the scale but almost all of the real world scenarios people are actually encountering would be handled by either of the offered solutions. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.184104",
+        "updated_at": "2026-05-10T16:16:27.184104",
+        "author": {
+          "id": "23047361eda1e09754ca29cba7dad09d",
+          "source_id": "erikerikson",
+          "username": "erikerikson",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "13e186864cf607c5ec922b6873e1f0f7",
+        "source_id": "48071214",
+        "content": {
+          "text": "In this specific case. In the case of trace IDs (an example of which is [1]) where the equivalent of UUIDs are explicitly used to avoid coordination, it’s hard to imagine how you’d reliably detect and retry. [1] https://news.ycombinator.com/item?id=48033853 reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:27.187877",
+        "updated_at": "2026-05-10T16:16:27.187877",
+        "author": {
+          "id": "08eaf017412c96aaa49f7e934d7ff776",
+          "source_id": "squirrellous",
+          "username": "squirrellous",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-05-10T16:16:29.251663",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "b9b3a567336a68f074a1467fddc18682",
+      "source_id": "48080516",
+      "title": "Ask HN: Can a tinnitus be triggered by high frequency noises?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">Not exactly technical, but HN feels like the correct crowd to ask because asking anywhere else I would be considered mentally ill.<p>I have a tinnitus that seems to stay 99,9% of the day, it’s away for some minutes sometimes and it’s very high frequency. Imagine a power supply coil whine.<p>Now the mentally ill part: the tinnitus can change position (left/right ear) and change volume. I didn’t hear the tinnitus on the right ear for some days, now it’s back on it (and still audible on the left ear) after sitting on the couch again.<p>The couch, you ask? Two weeks ago, when the tinnitus started, we changed the layout of our living room. The couch was now located next to our WiFi router. The tinnitus started shortly after that. I never had tinnitus before. Guess what, the router makes the same noise (even my partner can hear it). After some days of realizing it might be from the router, I changed the position of it to the other side of the room, but now somehow I can still hear the high frequency from the router from 3 meters apart. And as soon as I start sitting on the couch, the tinnitus gets much worse. Even disabling electricity in the full house I still hear that WiFi router noise in my ear.<p>Am I insane? Is this a thing? Can some frequency cause a tinnitus which can be re-triggered by the same frequency? Can it have a memory effect? Could it be it doesn’t go away even if I don’t sit on the couch for days because all these power supplies have high frequency coil whine in each and every facility these days, which trigger it again?<p>I feel like Neo from The Matrix who got enlightened and now can hear electricity, but without the rest of the super powers :(<p>PS: I visited a doctor and am doing the usual medical procedures to deal with tinnitus (Prednisolone 60mg/day), but it doesn’t help in any way.</p></p></p></p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-05-10T16:16:22.660313",
+      "updated_at": "2026-05-10T16:16:22.660313",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "700e63ae7505fdf9165b25e699a6c2d0",
+        "source_id": "tinnitus_crazy",
+        "username": "tinnitus_crazy",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 4,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48080516",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "b7514727b22b9af5c03df01594eeaada",
+        "source_id": "48082218",
+        "content": {
+          "text": "Yes, it totally can. I have severe tinnitus. First, I had a minor variant for many years. But what I didn't realize is that I was slowly losing my hearing in one side. Then I had surgery (tympanomastoidectomy) to remove the cyst that grew to the point it dissolved my stapes altogether, and now I have a severe variant, and significantly less hearing in that side. My tinnitus ramped up to a whole new level after that surgery. I tried a phone app where you would play a tone that approximates the current tinnitus tone, or white noise lacking just that frequency area. In every case, all it would do is change the tone my tinnitus was making. Sometimes it made it worse than it ever gets on its own. Likewise, in the summertime my tinnitus is regularly set off by the sound of cicadas. That tinnitus sounds so similar that at times I have to do an ear-plug test to see if it is just cicadas, or if is just in my head. No joke! I hate it big time. Having said that, I now wear hearing aids (including for my ear that wasn't operated on, just to round out the age-related hearing loss), and this surprisingly makes it WAY more manageable. When I've been wearing them, I still always have tinnitus, but it is relegated to background noise. When I don't wear them for a long time, I'm usually punished for it. It takes days of proper hearing before the tinnitus goes back to background noise level sometimes. BTW: I also get other types of tinnitus, which makes it worse. For example, on waking it is a really low sound that sounds like an idling diesel motor. I can even feel that one. I got that really bad after surgery, and I get it now when I'm ill. All of this was really debilitating for a couple years post-surgery, but I've come to grips with it now. Just about anything can set it off. Cicadas, as I mentioned, but also rapid temperature changes, exertion (although weirdly I never notice it at the gym. It's just noisy enough there to mask the squealing I guess.), hearing something unexpected at a really high pitch, and being tired pretty much guarantee a hell of a racket in my head. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:31.381477",
+        "updated_at": "2026-05-10T16:16:31.381477",
+        "author": {
+          "id": "a4bc2da9cb9daa7181df1303d24e1f6e",
+          "source_id": "ksaj",
+          "username": "ksaj",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "111f5d2838f9d090d6beb173863ff3a3",
+        "source_id": "48080626",
+        "content": {
+          "text": "I'm not a doctor so all I can do is point you to places like [1] though I've had tinnitus for 30 plus years.  I worked around loud equipment with inadequate ear protection - but the defining blow was having my head beside a push bike tyre when it exploded resulting in partial deafness for a day or so. It's different for everyone, mine is actually damage to the small hearing hairs so no cure hope at all.  It takes a while for the brain to adjust and slowly ignore the noise but only to a point.  Different things work and you've probably been told about white noise could could help out. For a start my tinnitus was like standing on the tarmac beside a jet screaming its engines ... making any conversation a great deal of effort trying to ignore the loud whine.  It eased over the years where I could almost mistake it for a loud chorus of crickets or cicadas  at night, which strangely was more easy to think that's just what it was. Mostly though lately  I can ignore it or simply forget it's going on. [1] https://hearingandme.com/can-tinnitus-be-cured-what-science-... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:31.382136",
+        "updated_at": "2026-05-10T16:16:31.382136",
+        "author": {
+          "id": "aca69945b51f1ffaaff09a62d7aad929",
+          "source_id": "anenefan",
+          "username": "anenefan",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6e473dfc822855715588b0c63af618ed",
+        "source_id": "48080798",
+        "content": {
+          "text": "Music all day long diverts attention. There's an oldies station nearby, and's it's very effective and uplifting. Music at bedtime to mask odd country noises of unknown origin. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:31.382736",
+        "updated_at": "2026-05-10T16:16:31.382736",
+        "author": {
+          "id": "833d9183e1fefad47087684dd98b93e6",
+          "source_id": "k310",
+          "username": "k310",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a17a04ec07e25030dd92a793d1c82e89",
+        "source_id": "48081781",
+        "content": {
+          "text": "I've had tinnitus that acts like that for 20+ years. Maybe you're really lucky and it is your WiFi, but that all sounds like a coincidence rather than a cause. It probably just made you notice it. Were you in a band or anything? Listen to loud music on headphones when you were younger? I'm really sorry to tell you this, but you've got two choices: - accept it, you can't fix it - try and fix it, fail, accept it, you can't fix it There is no cure for tinnitus. The quicker you get to accepting it, the better your life will be. Therapy and CBT can help. Carry on trying to fix it for a few months by.all means, but I'd advise you give yourself a deadline to switch from 'fix it' mode to 'learn to live with it' mode. By complete coincidence, yesterday my tinnitus went so quiet I thought it had gone. I have a new type of glasses that don't hook behind your ears. \"Oh my god, was it my glasses all along?\", I thought immediately. My tinnitus is loud today. Even after 20 years there's part of me looking for a fix. But it's about how you deal with it, this morning I had a little chuckle at myself, put all thoughts about my tinnitus aside, picked up a book to read and moved on with my life. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:31.383404",
+        "updated_at": "2026-05-10T16:16:31.383404",
+        "author": {
+          "id": "cdd85acf7c11fa6426632f133b3af3d6",
+          "source_id": "mattmanser",
+          "username": "mattmanser",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "dbdad538ad16c46f01e5ce377b83579d",
+        "source_id": "48082306",
+        "content": {
+          "text": "I absolutely love going to the beach. White noise masks the tinnitus so well I can't even hear it when I self-test. It's the only time I truly get a break from the sizzling and squealing. True, it isn't likely going to go away. My hearing aids help immensely, but mostly with tolerance, and not occurrence. It is pretty much background noise to me nowadays, although some things can really set it off. It doesn't drive me batty anymore, at least! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:31.384025",
+        "updated_at": "2026-05-10T16:16:31.384025",
+        "author": {
+          "id": "a4bc2da9cb9daa7181df1303d24e1f6e",
+          "source_id": "ksaj",
+          "username": "ksaj",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8f9996b9dd4324884cf2dc19d0fedc60",
+        "source_id": "48080673",
+        "content": {
+          "text": "Try moving your couch. It's possible that you're sitting in a resonant part of the room that amplifies background noise through room modes: https://en.wikipedia.org/wiki/Room_modes That's a long shot, though. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:31.384707",
+        "updated_at": "2026-05-10T16:16:31.384707",
+        "author": {
+          "id": "6f8a0ef01950f54a2a0192e326613555",
+          "source_id": "bigyabai",
+          "username": "bigyabai",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8ca9507b5d17fc053a605c72c09b812d",
+        "source_id": "48081390",
+        "content": {
+          "text": "I’ll definitely try, thanks! As a pre-measure, I won’t go to the living room for some time and closed the door, as it’s easier to test. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:31.385368",
+        "updated_at": "2026-05-10T16:16:31.385368",
+        "author": {
+          "id": "700e63ae7505fdf9165b25e699a6c2d0",
+          "source_id": "tinnitus_crazy",
+          "username": "tinnitus_crazy",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "545fff35e59860039276dea7149a396d",
+        "source_id": "48080907",
+        "content": {
+          "text": "1) Do you hear it away from your home? If yes then it’s in your ear not your router. 2) The only solution to tinnitus is to stop fixating on it and eventually stop thinking about it completely. The only way to do that is to make sure you can never hear it. Learn how to mask yours with music or white noise. Especially while sleeping. It will eventually calm and might even go away. \n3) Do not seek tinnitus support groups/subreddits online. They are fully fixated by definition and just reading their posts will make your symptoms worse. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:31.386091",
+        "updated_at": "2026-05-10T16:16:31.386091",
+        "author": {
+          "id": "898efed5a4d1844117804f4aa381b161",
+          "source_id": "idontwantthis",
+          "username": "idontwantthis",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ad871a8dfdf600cb5d74041e65d8594c",
+        "source_id": "48081386",
+        "content": {
+          "text": "1) Yes, I do hear it away from home. I was thinking of it could be triggered by coil whine / high frequency noises like the router produces, then stays for some time and then gets re-triggered by the next coil whine. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:31.386826",
+        "updated_at": "2026-05-10T16:16:31.386826",
+        "author": {
+          "id": "700e63ae7505fdf9165b25e699a6c2d0",
+          "source_id": "tinnitus_crazy",
+          "username": "tinnitus_crazy",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "46966720a0d7ae0233f4beab702f5123",
+        "source_id": "48080613",
+        "content": {
+          "text": "funny enough i thought i was getting tinnitus, something that was bothering me for almost a year. turned out it was my power adapter’s coil whine reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:31.387614",
+        "updated_at": "2026-05-10T16:16:31.387614",
+        "author": {
+          "id": "a30a8695019e97e5413f4a0335aae62a",
+          "source_id": "moomoo11",
+          "username": "moomoo11",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a573cdb86370dbb5430018ae91199dc2",
+        "source_id": "48081393",
+        "content": {
+          "text": "That’s easily tested though, right? As you can just change rooms and it’s gone. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:31.388440",
+        "updated_at": "2026-05-10T16:16:31.388440",
+        "author": {
+          "id": "700e63ae7505fdf9165b25e699a6c2d0",
+          "source_id": "tinnitus_crazy",
+          "username": "tinnitus_crazy",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-05-10T16:16:31.388891",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "222172dd0d3557e31e3061922e8281b5",
+      "source_id": "48076414",
+      "title": "Ask HN: Former master-tech building AI systems – how to break into software?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-05-10T16:16:22.661113",
+      "updated_at": "2026-05-10T16:16:22.661113",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "2e14812a2348f2e090ec057fa2cdcf54",
+        "source_id": "nicku711",
+        "username": "nicku711",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 3,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48076414",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-05-10T16:16:34.599506",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "20d92a6532c218b7345e5df512fb9921",
+      "source_id": "48079444",
+      "title": "Ask HN: Before Open Source took over the server, what was the discourse like?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">My understanding of the early Internet is that there was fierce competition among commercial, closed-source server and database software, and that the dominance of Linux, Apache, MySQL (and now PostgreSQL) etc were far from obvious or guaranteed. I think we’re in a similar moment with LLMs, and I’d love to read some stories, or see some examples of discourse on mailing lists, forums, or whatever on this subject from that earlier period. I think it would be helpful for grounding present-day discussions. What can you share from this era?</div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-05-10T16:16:22.661778",
+      "updated_at": "2026-05-10T16:16:22.661778",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "4fe0acc18637ede161a1e801ccfa2332",
+        "source_id": "mbgerring",
+        "username": "mbgerring",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 5,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48079444",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "a49f8b5b6076db19cd93a12f3612a46b",
+        "source_id": "48081439",
+        "content": {
+          "text": "It was definitely like that. One landmark that comes to mind is the Microsoft \"Halloween documents\" attempting to slow the rise of open source. https://en.wikipedia.org/wiki/Halloween_documents Microsoft also advertised NT and IIS as being faster than Linux (implicitly admitting that Linux was worth considering) which motivated a lot of back-and-forth \"benchmaxing\". http://www.mindcraft.com/whitepapers/first-nts4rhlinux.html https://www.kegel.com/nt-linux-benchmarks.html Sun was also a huge loser to open source and x86 but instead of fighting it their CEO Jonathan Schwartz embraced it. In retrospect this \"Glasnost\" approach didn't help Sun survive. I remember the Sun fans used to complain that Linux/x86 was winning in benchmarks but Sun was worth paying N times more (of your employer's money) because it just felt faster and more robust. Parallels to today are left as an exercise for the reader. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:36.733739",
+        "updated_at": "2026-05-10T16:16:36.733739",
+        "author": {
+          "id": "92bc3ae376a66bd4a437234b3757e997",
+          "source_id": "wmf",
+          "username": "wmf",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "22c12641670d1ece3972f46d800a99c5",
+        "source_id": "48084005",
+        "content": {
+          "text": "Back then your typical management, who frequently followed \"you can't go wrong with picking IBM\" in their decision making, would question open source software and take actions to stop it from being used (like blocking sites in a corp firewall). Open source software was a counter culture then, now its common and mainstream. Another difference is large companies using user's data in various ways, some creepy and maybe nefarious. This wasn't done 25 years ago, UI heat maps didn't come about until 20ish years ago, much less collecting data specific to one person. These days, there's no push back on OSS and companies and individuals might prefer to not have all their usage and data sent to a giant corporation. There could be a turning point for OSS LLM's that can add value and run on personal devices (laptops, phones). Maybe there will be a resurgence of apps (desktop/phone) that have AI features but don't collect your data.  Maybe that's the next digital counter culture movement - keeping data private. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:36.734325",
+        "updated_at": "2026-05-10T16:16:36.734325",
+        "author": {
+          "id": "103cca0c4014d9bf125d23510eead406",
+          "source_id": "mattbrewsbytes",
+          "username": "mattbrewsbytes",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "69f084de8abdcb7e5b9761236394f85d",
+        "source_id": "48081986",
+        "content": {
+          "text": "As a .NET guy there wasn't much discourse. We used SQL Server and collected a pay cheque. Open source wasn't as big. I heard of MySQL and Postgres but thought they were cheap shared hosting thing and university academic thing respectively. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-10T16:16:36.734893",
+        "updated_at": "2026-05-10T16:16:36.734893",
+        "author": {
+          "id": "43eec61c87d856879709bf568d1f4ce1",
+          "source_id": "dnnddidiej",
+          "username": "dnnddidiej",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-05-10T16:16:36.735068",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "acb28972d2f1ae2e5979e811c3e93b0d",
+      "source_id": "48074184",
+      "title": "Ask HN: What is the underlying stack behind multi-agent platforms?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-05-10T16:16:22.662752",
+      "updated_at": "2026-05-10T16:16:22.662752",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "a18163a85ec11a78da9618c57a5581a4",
+        "source_id": "throwaw12",
+        "username": "throwaw12",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 3,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48074184",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-05-10T16:16:42.158691",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "d12c5a04b5e2d3b3b259ccd5286d122d",
+      "source_id": "48053163",
+      "title": "Ask HN: What is your go-to solution for a personal wiki in 2026?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-05-10T16:16:22.663528",
+      "updated_at": "2026-05-10T16:16:22.663528",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "a9a2a5f05ea1ec03572c069094ebe64c",
+        "source_id": "ex-aws-dude",
+        "username": "ex-aws-dude",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 15,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48053163",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-05-10T16:16:45.466004",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "c8bc7ddd83b176a40b3028634d9f516e",
+      "source_id": "48059756",
+      "title": "Ask HN: How are you handling QA being bottlenecked with more AI-generated PRs?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-05-10T16:16:22.664153",
+      "updated_at": "2026-05-10T16:16:22.664153",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "c6de8ff1e8cd0ed33698db544bf83ef0",
+        "source_id": "softneon",
+        "username": "softneon",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 5,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48059756",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-05-10T16:16:49.056813",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "7cbfe69c2d33dcbb4843607d08b5eff5",
+      "source_id": "48045237",
+      "title": "Ask HN: What do you still do manually in 2026 that should be automated?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-05-10T16:16:22.664808",
+      "updated_at": "2026-05-10T16:16:22.664808",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "acb4e0066cbdf40765930619807fbd9a",
+        "source_id": "lishunsheng",
+        "username": "lishunsheng",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 19,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48045237",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-05-10T16:16:52.345816",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "8be87051fa3c33a4dbcaa02fe7e0b52a",
+      "source_id": "47988268",
+      "title": "Ask HN: Is the Job Market Actually Bad?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-05-10T16:16:22.665728",
+      "updated_at": "2026-05-10T16:16:22.665728",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "898efed5a4d1844117804f4aa381b161",
+        "source_id": "idontwantthis",
+        "username": "idontwantthis",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 134,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=47988268",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-05-10T16:16:57.378249",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "7167e956b56b9c8065dd9f3ff446c5af",
+      "source_id": "48055353",
+      "title": "Ask HN: What will happen as AI costs increase?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-05-10T16:16:22.666369",
+      "updated_at": "2026-05-10T16:16:22.666369",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "c0fb361a72ff7fb0d3cd0fe36a12d9d1",
+        "source_id": "MetaWhirledPeas",
+        "username": "MetaWhirledPeas",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 14,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48055353",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-05-10T16:17:02.199373",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "f0165761ee5cd03862f910884829e898",
+      "source_id": "48063759",
+      "title": "Ask HN: How do we handle the rise of low quality \"This is LLM\" comments?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-05-10T16:16:22.666999",
+      "updated_at": "2026-05-10T16:16:22.666999",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "a0e78b1c2a663ce274a1b85d7c715bea",
+        "source_id": "shantnutiwari",
+        "username": "shantnutiwari",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 9,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48063759",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-05-10T16:17:07.126243",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "1b16f388a2517a886a15d9439bd9e766",
+      "source_id": "48035508",
+      "title": "Ask HN: How to start up as an individual developer?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-05-10T16:16:22.667633",
+      "updated_at": "2026-05-10T16:16:22.667633",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "0d8b149d27dd7b4ddf309b74b1aebbed",
+        "source_id": "alexyan0431",
+        "username": "alexyan0431",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 14,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48035508",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-05-10T16:17:12.527193",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "aaad580efc42dfacc8984d4c03419b00",
+      "source_id": "48050350",
+      "title": "Ask HN: Are we gonna back less powerful local LLMs",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-05-10T16:16:22.668242",
+      "updated_at": "2026-05-10T16:16:22.668242",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "f66be68ebc451b2ffe34b4e9097063f7",
+        "source_id": "omertt27",
+        "username": "omertt27",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 9,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48050350",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-05-10T16:17:15.198025",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "879d192e149b4f3875e727bb21c9ca4d",
+      "source_id": "48033457",
+      "title": "Ask HN: Who got hired with Who wants to be hired? (On 2026)",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-05-10T16:16:22.668887",
+      "updated_at": "2026-05-10T16:16:22.668887",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "208c431e415d9ac4a8a13b414468009d",
+        "source_id": "Gooblebrai",
+        "username": "Gooblebrai",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 18,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48033457",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-05-10T16:17:17.730812",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
   }
 ]
