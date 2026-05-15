@@ -22592,5 +22592,1767 @@
       ],
       "is_nsfw": false
     }
+  },
+  {
+    "post": {
+      "id": "353392a00e7d954177b048a770eda023",
+      "source_id": "48145524",
+      "title": "Ask HN: How to be SOC2 Type 2 compliant as a solo-entreprenuer?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">Is it possible? Do you know success cases w/o spending 20+k $ on auditors? My customers bombards me with question about certification of my app Perfect Wiki, I need help with finding the best way to show them that my app could be trusted.</div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-05-15T16:33:14.710483",
+      "updated_at": "2026-05-15T16:33:14.710483",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "8bb3d2faa83e16f4b1d0cad08a1e094d",
+        "source_id": "sochix",
+        "username": "sochix",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 52,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48145524",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "c186efb1dce5185f70e97aacf2dcb76a",
+        "source_id": "48150204",
+        "content": {
+          "text": "Don't. You are exactly the wrong kind of firm to be pursuing SOC2. SOC2 is like the corporate GPL of security. It's an infectious secret handshake company security teams swap in lieu of filling out security questionnaires. Nobody savvy takes it seriously. There will come a time where your business will grow to the point where it makes sense to pay for the secret handshake. The overwhelming most likely scenario in which that happens is a purchase order made contingent on your SOC2 Type I attestation, where the revenue from that purchase order more than pays for the attestation. Do not ever do a SOC2 speculatively, in the hopes that it will improve your sales prospects. Plenty of successful firms don't have SOC2s. If you're losing sales where SOC2 is a factor, you didn't have those sales to begin with. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-15T16:33:16.817375",
+        "updated_at": "2026-05-15T16:33:16.817375",
+        "author": {
+          "id": "704be204f7872789ee476aa26277e12b",
+          "source_id": "tptacek",
+          "username": "tptacek",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4cc96102864287bbf24118dcc7d6d3a0",
+        "source_id": "48150375",
+        "content": {
+          "text": "Plus, even when you have SOC2 (+pen test, +ISO 27001), you'll still have to fill out questionnaires! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-15T16:33:16.817762",
+        "updated_at": "2026-05-15T16:33:16.817762",
+        "author": {
+          "id": "462727b2434e5b02adb2d5448eb33a51",
+          "source_id": "yeutterg",
+          "username": "yeutterg",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a2bbb99b948725549ec73da437bc772f",
+        "source_id": "48150575",
+        "content": {
+          "text": "Avoid it for as long as you can. I worked at a startup that sold to enterprises. We had 6 employees. The CEO / sales was able to work around the SOC2 requirement every time. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-15T16:33:16.818172",
+        "updated_at": "2026-05-15T16:33:16.818172",
+        "author": {
+          "id": "60769f607d005b6000ac9d8c612eadb5",
+          "source_id": "icedchai",
+          "username": "icedchai",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "05df5983c41c084c7dc1311654e1a448",
+        "source_id": "48150454",
+        "content": {
+          "text": "You could look at the process itself and apply the things that sound good to you. It won't help with official certificates but you can start replying back saying you adhere to certain things that are suggested by SOC 2 Type 2. I can also say that being SOC 2 Type 2 compliant doesn't come even remotely close to demonstrating that you can be trusted. That's not a knock on you or your work ethic, but there's tons of ways for things to go wrong or get leaked while still being SOC 2 Type 2 certificated. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-15T16:33:16.818573",
+        "updated_at": "2026-05-15T16:33:16.818573",
+        "author": {
+          "id": "f8b6bca6241a8c770dc8d729c7325e1a",
+          "source_id": "nickjj",
+          "username": "nickjj",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "71308d3e4ea31f1a8d06e86f41272feb",
+        "source_id": "48150562",
+        "content": {
+          "text": "A \"SOC2 Type II\" is just a repeated Type I audit where they make sure you haven't regressed anything. It doesn't make sense to use the definite article \"the\" with SOC2: everybody's SOC2 is different. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-15T16:33:16.819057",
+        "updated_at": "2026-05-15T16:33:16.819057",
+        "author": {
+          "id": "704be204f7872789ee476aa26277e12b",
+          "source_id": "tptacek",
+          "username": "tptacek",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b3a9e903b4dd5a267125c0c46e18d0df",
+        "source_id": "48146427",
+        "content": {
+          "text": "I'm currently at a small startup trying to do ISO 27001. A big issue we run into is that there simply aren't enough people . For example, the processes are built around having one person who writes code, and another person who reviews the written code. That's obviously impossible as a solo dev. You also need an internal auditor, who obviously needs to be separate from the operations team. If I recall correctly the minimum in a standard setup is 9 roles which cannot overlap. You're going to have a very hard time doing that as a solo entrepreneur, so you'll probably need to find someone who is experienced in making unusual setups like these compliant - which isn't going to be cheap. Even after that there's a pretty decent chance you'll end up needing to hire 3rd-party services in order to be compliant: our \"internal\" auditor is just some big firm doing it for us. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-15T16:33:16.819535",
+        "updated_at": "2026-05-15T16:33:16.819535",
+        "author": {
+          "id": "fcea521cdfacee15f0c20b103606f854",
+          "source_id": "crote",
+          "username": "crote",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3cea4dcf445413489300b0fe7f9d853f",
+        "source_id": "48150570",
+        "content": {
+          "text": "We've been ISO 27k certified for years now. ISO 27001 relies heavily on risk documentation and mitigation; you can get around the separation-of-roles by calling them out as individual risks and making sure the appropriate authority signs off on them (ie: have an email from the CEO saying \"I delegate Bob to create policies and sign off on them, and also perform our internal audits. I recognize the risks this creates but due to our size we accept them at this time.\") reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-15T16:33:16.819999",
+        "updated_at": "2026-05-15T16:33:16.819999",
+        "author": {
+          "id": "10e189cc8d994eddf8131c53f47aa403",
+          "source_id": "maximilianburke",
+          "username": "maximilianburke",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c70e90eebcab586f40bd78c257eb62a3",
+        "source_id": "48148922",
+        "content": {
+          "text": "We are a team of 1 developer and 1 sales/marketing and are fully certified. You can hire an external auditor for the internal audit. We have AI code reviews, so we don’t need an extra developer. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-15T16:33:16.820465",
+        "updated_at": "2026-05-15T16:33:16.820465",
+        "author": {
+          "id": "d4ddaee628a95300082729871dbf91ae",
+          "source_id": "frenkel",
+          "username": "frenkel",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "30a35a1ca58435535bcb525e1ad625f6",
+        "source_id": "48150481",
+        "content": {
+          "text": "lol reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-15T16:33:16.820945",
+        "updated_at": "2026-05-15T16:33:16.820945",
+        "author": {
+          "id": "3d2aae944f3152f2a7e2b04085678d2b",
+          "source_id": "teeklp",
+          "username": "teeklp",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4f3b11bcbfa02858af02b8d3ec474968",
+        "source_id": "48146461",
+        "content": {
+          "text": "I offered self-hosting to bypass this.  It did the trick and I was able to convert the enterprise customers where compliance was a red line. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-15T16:33:16.821435",
+        "updated_at": "2026-05-15T16:33:16.821435",
+        "author": {
+          "id": "c71f601c9a8b2191485181c2b77d0010",
+          "source_id": "ownagefool",
+          "username": "ownagefool",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e23055eead31090cd3e62a545c33d2d4",
+        "source_id": "48146605",
+        "content": {
+          "text": "I’ll spend some more time replying to this next week, so circle back to this comment; I’m someone who regularly helps people get past these audits, meet the criteria customers are trying to assess with these certifications, and vet startups who don’t have these certifications or budget. Start by pre-filling your own CAIQ v4 with an earnest “we don’t do this” or “we haven’t even thought about this” attempt: https://cloudsecurityalliance.org/artifacts/cloud-controls-m... Then read through it and see what you can address immediately (EDR on your laptop, MFA on your cloud environments, etc), followed by role playing your client; “based on answers to this questionnaire, what would I not accept?” There will be some items you can’t fix. You’ll soon find out the majority of customers, including banks, governments, defence contractors, crypto startups — simply do not care. If they want to use your product, they’ll work with you. It may be single-tenancy, it may require architectural changes, it may mean making it selfhosted with a time-bomb, but you’ll be able to address the requirements of the CISO, compliance monkey or executive. I’ve yet to meet an industry or individual I can’t convince. Even if the product is a hot mess, half baked and radioactive — we’ll deploy it on a VM running inside of a VDI within the customer’s environment, because slopping together a migration path is _so easy_, and those early, highly regulated clients are worth it. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-15T16:33:16.822027",
+        "updated_at": "2026-05-15T16:33:16.822027",
+        "author": {
+          "id": "9c71bee8f12b8690a16e187835c0e895",
+          "source_id": "apimade",
+          "username": "apimade",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1edcb5b16b82f2904e9ea308e16728d5",
+        "source_id": "48150216",
+        "content": {
+          "text": "Please don't do any extra engineering for your wiki project simply because it appears on the Cloud Security Alliance CAIQ worksheet. These worksheets are built by committees where every member has a bunch of idiosyncratic controls and objectives that they slip into the document. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-15T16:33:16.822555",
+        "updated_at": "2026-05-15T16:33:16.822555",
+        "author": {
+          "id": "704be204f7872789ee476aa26277e12b",
+          "source_id": "tptacek",
+          "username": "tptacek",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "859f44df46fca2c7f1ffdacb7c0ff6a9",
+        "source_id": "48146844",
+        "content": {
+          "text": "Major problem of entire compliance/auditing industry is not enough asking in companies \"what are the actual risks we are dealing with\", \"what's the goal for given control\", \"do we have alternative control ensuring that\". Compounded by cheap shitty auditors that just mark down checkboxes on a worksheet reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-15T16:33:16.823130",
+        "updated_at": "2026-05-15T16:33:16.823130",
+        "author": {
+          "id": "f2675f495f85dd1cdd79fe9cb45fdcca",
+          "source_id": "p_l",
+          "username": "p_l",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "133623569283185b283caa984658ac37",
+        "source_id": "48146679",
+        "content": {
+          "text": "Thank you! That make a lot of sense! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-15T16:33:16.823708",
+        "updated_at": "2026-05-15T16:33:16.823708",
+        "author": {
+          "id": "8bb3d2faa83e16f4b1d0cad08a1e094d",
+          "source_id": "sochix",
+          "username": "sochix",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "78d369ef97a2a72cf7057141d9e1f9a1",
+        "source_id": "48146821",
+        "content": {
+          "text": "No worries, it’s more about finding what the security and compliance teams care about — and making them comfortable. Compliance doesn’t equal security, I’ve onboarded startups with better security than the SOC2 certified, ISO27K Swiss cheese $B unicorn. Hackers don’t target based on certification. It’s generally convenience and motive. Unknown startups who are laying solid foundations won’t show up on anyone’s radar for the first 2 years without some insanely unlucky event (i.e supply chain breach, an early employee doing something really dumb). reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-15T16:33:16.824335",
+        "updated_at": "2026-05-15T16:33:16.824335",
+        "author": {
+          "id": "9c71bee8f12b8690a16e187835c0e895",
+          "source_id": "apimade",
+          "username": "apimade",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "50c1a622f37f87bd0b7e0b0a1e543f51",
+        "source_id": "48146259",
+        "content": {
+          "text": "I was part of several third party risk management audits from a corporate perspective. We regularly audited and questioned SMBs (and big corps) with regards to their security posture. We knew that small shops wouldn’t be able to be fully compliant to SOC2 Type 2 or have an ISO27001 certified environment. If it was clear that our business wanted the product, we either tried to help the company with the questionnaire or created a risk report that was then signed by the business. In other words: even if your customer asks you to be compliant, you don’t have to be if they care enough about your product. If you seem intent on getting things right, that’s a big plus. Most of your competitors don’t even know what SOC 2 is. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-15T16:33:16.824997",
+        "updated_at": "2026-05-15T16:33:16.824997",
+        "author": {
+          "id": "19857b804b0dc62f5f3a30cf3e4186d3",
+          "source_id": "_tk_",
+          "username": "_tk_",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5f1b3c868778fde1a73d3ba2c82af143",
+        "source_id": "48146715",
+        "content": {
+          "text": "Can this also be done for HIPAA and FERPA, or for those compliance requirements is the process the way to go and just filling out the questionnaire would not be sufficient? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-15T16:33:16.825646",
+        "updated_at": "2026-05-15T16:33:16.825646",
+        "author": {
+          "id": "3abc8c14fef515c3d299b078b5369ced",
+          "source_id": "whitefang",
+          "username": "whitefang",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "208a4d83716f10d7535e43794733753d",
+        "source_id": "48148740",
+        "content": {
+          "text": "SOC2 is, at the end of the day, a voluntary compliance standard. HIPAA and FERPA requirements are federal law. Waiving those requirements would not just mean accepting additional liability, but would normally make your customer ineligible to receive federal funds, which are typically a substantial chunk of revenue. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-15T16:33:16.826322",
+        "updated_at": "2026-05-15T16:33:16.826322",
+        "author": {
+          "id": "7e3dc80b0a7bc3b0772229c321e39368",
+          "source_id": "blochist",
+          "username": "blochist",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9072d9955186efae36f60f1d0c394059",
+        "source_id": "48150302",
+        "content": {
+          "text": "Compliance with HIPAA for small firms is generally straightforward and there isn't a standard audit. It's not the same animal as SOC2, which is a CPA standard and is administered by certified auditors. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-15T16:33:16.827022",
+        "updated_at": "2026-05-15T16:33:16.827022",
+        "author": {
+          "id": "704be204f7872789ee476aa26277e12b",
+          "source_id": "tptacek",
+          "username": "tptacek",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "be8497cf112cb0efee11e331c08bdd8c",
+        "source_id": "48146375",
+        "content": {
+          "text": "Thank you for your comment! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-15T16:33:16.827730",
+        "updated_at": "2026-05-15T16:33:16.827730",
+        "author": {
+          "id": "8bb3d2faa83e16f4b1d0cad08a1e094d",
+          "source_id": "sochix",
+          "username": "sochix",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a929ed23ae40a87c07dbf54e9bfd0628",
+        "source_id": "48145762",
+        "content": {
+          "text": "Not possible in case your clients are not stupid. Any company with SOC2 and <5 people is a red flag. You might find auditors that would go along but any reasonable client will check your SOC2 report and quality of your auditors. SOC2 requires tons of paperwork and management and separation of duties with also mandatory roles in your company - never feasible in a one man show. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-15T16:33:16.828503",
+        "updated_at": "2026-05-15T16:33:16.828503",
+        "author": {
+          "id": "757f85ea0f0ff474744dd3e308e969f2",
+          "source_id": "rozumbrada",
+          "username": "rozumbrada",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "da7b4ca1252aaf310d6e43660cd9056d",
+        "source_id": "48146450",
+        "content": {
+          "text": "I've seen a small company do a SOC2 where the \"CEO\" seems to be\nthe only actual employee.. Its a lot of paperwork but it is supposed to scale for company size\nso you could dismiss with a lot of the separation if the CEO accepts\nrisks and perhaps relies on a fair amount of external systems that are\nalready certified and has some contractors for specific tasks etc. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-15T16:33:16.829837",
+        "updated_at": "2026-05-15T16:33:16.829837",
+        "author": {
+          "id": "c2b8e506c36c79a9978ccac34076fb36",
+          "source_id": "panflute",
+          "username": "panflute",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5385c00b1bcc4dd307de6898112658c2",
+        "source_id": "48145878",
+        "content": {
+          "text": "So that means that solo-entrepreneurs can't sell apps to big enterprises due to SOC2 limitation? I think that it is not fair reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-15T16:33:16.830623",
+        "updated_at": "2026-05-15T16:33:16.830623",
+        "author": {
+          "id": "8bb3d2faa83e16f4b1d0cad08a1e094d",
+          "source_id": "sochix",
+          "username": "sochix",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "308eae2dd1cdabfdee0be036b2b959f5",
+        "source_id": "48150310",
+        "content": {
+          "text": "Big enterprise SOC2 gates are generally not real. In the limit, if you have a real deal with a real economic buyer who is actually sold on your product, you can do a conditional PO on your Type I (your Type I is automatic and can issue in a matter of weeks), but that really feels like more of a 2018 concern at this point; it's been awhile since I talked to anyone who truly had to SOC2 to close a sale. It's important to really understand how unserious SOC2 is. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-15T16:33:16.831435",
+        "updated_at": "2026-05-15T16:33:16.831435",
+        "author": {
+          "id": "704be204f7872789ee476aa26277e12b",
+          "source_id": "tptacek",
+          "username": "tptacek",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3cc80d55a1dea267a013860ba49a2129",
+        "source_id": "48146002",
+        "content": {
+          "text": "It’s a disadvantage for sure but not usually a blocker. They often have security questionnaires you can complete instead. Or, as part of signing with them, you can promise to get SOC2 by x date (which will hopefully be easier with the funds from an enterprise contract). I’d recommend looking online at some example security questionnaires or the types of things soc2 covers and writing an internal security doc for yourself so you know your position on everything and don’t have to scramble when it comes to it. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-15T16:33:16.832276",
+        "updated_at": "2026-05-15T16:33:16.832276",
+        "author": {
+          "id": "bc0057985d5583023a47c9ae1bb8fe8f",
+          "source_id": "jaccola",
+          "username": "jaccola",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ec57d501861fc7df4e1b305d3899335a",
+        "source_id": "48146033",
+        "content": {
+          "text": "Thank you for your comment! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-15T16:33:16.833116",
+        "updated_at": "2026-05-15T16:33:16.833116",
+        "author": {
+          "id": "8bb3d2faa83e16f4b1d0cad08a1e094d",
+          "source_id": "sochix",
+          "username": "sochix",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a5db99fcd2a8a70f5cad3920130f9cbe",
+        "source_id": "48146302",
+        "content": {
+          "text": "You can. It just means that the customer has to do the proper analyses and risk evaluation for their own SOC2 (or ISO 27001 or whatever) certification. Just focus on providing a good value application and be frank about what you do, why you can't get certification for something like that, but that you can answer any questions they might have for their own certification process. If the potential customer makes 'has SOC2' a requirement, than that is not a customer for you, in the same way that 'has more than 20 employees' rules you out. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-15T16:33:16.833996",
+        "updated_at": "2026-05-15T16:33:16.833996",
+        "author": {
+          "id": "a227f9dda6fcd40108b6519591c77524",
+          "source_id": "Freak_NL",
+          "username": "Freak_NL",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "81aedcc07e326202e21b1a4b59656172",
+        "source_id": "48146524",
+        "content": {
+          "text": "Like it or not, having a bus factor of 1 is a pretty big risk. You are a giant single-point-of-failure, which means that operations-wise you are a far riskier option to your customers than a significantly larger competitor. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-15T16:33:16.834891",
+        "updated_at": "2026-05-15T16:33:16.834891",
+        "author": {
+          "id": "fcea521cdfacee15f0c20b103606f854",
+          "source_id": "crote",
+          "username": "crote",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "cdb690751411caa0d29743f8ca60a5db",
+        "source_id": "48145986",
+        "content": {
+          "text": "It isn’t fair, but few rackets are. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-15T16:33:16.835810",
+        "updated_at": "2026-05-15T16:33:16.835810",
+        "author": {
+          "id": "51c4eee178fbb966c61a4da9af7a665e",
+          "source_id": "badgersnake",
+          "username": "badgersnake",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f6a81b50d1e830c2e1f5e3d7cc704294",
+        "source_id": "48145648",
+        "content": {
+          "text": "As others suggested, as a solo entrepreneur, I recommend not entering this process without a real justification.\nI passed this SOC 2 type for my startup after securing a deal with a big client.\nSOC 2 is an ongoing process that involves many documents and workflows you will need to implement in your company.\nIf your clients really insist on proof of security compliance, I will try to find a local PT authority to complete a one-time process with them to obtain this kind of report. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-15T16:33:16.836739",
+        "updated_at": "2026-05-15T16:33:16.836739",
+        "author": {
+          "id": "deab639b5f205ac21e595819da4a37a6",
+          "source_id": "pugdogdev",
+          "username": "pugdogdev",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "edd0c83f19cb6a79b98ee9d5e4a2cf5e",
+        "source_id": "48146709",
+        "content": {
+          "text": "PT? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-15T16:33:16.837687",
+        "updated_at": "2026-05-15T16:33:16.837687",
+        "author": {
+          "id": "83337e1ea56d3c40b2085ebd840e6e24",
+          "source_id": "tclancy",
+          "username": "tclancy",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "20768da7ebf76747f2541686f9936cac",
+        "source_id": "48146751",
+        "content": {
+          "text": "penetration testing reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-15T16:33:16.838666",
+        "updated_at": "2026-05-15T16:33:16.838666",
+        "author": {
+          "id": "deab639b5f205ac21e595819da4a37a6",
+          "source_id": "pugdogdev",
+          "username": "pugdogdev",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a149d954097df32193207a80282c9033",
+        "source_id": "48145745",
+        "content": {
+          "text": "Thank you! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-15T16:33:16.839707",
+        "updated_at": "2026-05-15T16:33:16.839707",
+        "author": {
+          "id": "8bb3d2faa83e16f4b1d0cad08a1e094d",
+          "source_id": "sochix",
+          "username": "sochix",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e5756952feaf8849906230f06655d9dd",
+        "source_id": "48145615",
+        "content": {
+          "text": "Definitely possible. Start with SOC2-aligned practices and a solid public security page — many early customers care more about transparency and good security hygiene than the certificate itself. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-15T16:33:16.840763",
+        "updated_at": "2026-05-15T16:33:16.840763",
+        "author": {
+          "id": "97edfb07aadce04ca50b85542bd4e8e8",
+          "source_id": "Kainat01",
+          "username": "Kainat01",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9ea4157adc0b6957aef25b2354403906",
+        "source_id": "48145797",
+        "content": {
+          "text": "Do they? Every time I've been asked about SOC compliance, it turned out the underlying reason was either insurance or a requirement the customer had from their downstream customer. Neither of those cases would be negotiable, the customer's insurance company only cares about a checkbox that \"All vendors are SOC2 compliant and relevant documentation is on file\". That said, actually being SOC compliant isn't that hard aside from the paperwork aspect. Any competent firm should already be doing all the things required, it's the bare minimum for security. There really shouldn't be any code or process changes needed, if there are you are woefully inadequate from a security standpoint. SOC2 is below the bare minimum for actual security, but it's the standard firms have settled on. That said, actually getting a valid SOC2 audit completed is expensive and for a solo dev you can expect at least a month of lost time. I wouldn't pay out-of-pocket for an audit, but if you're in a space where customers are asking it can be a selling point. One strategy would be to negotiate reduced terms with a potential client to use their auditing firm and have them split costs on the audit. This would need to be a very hot sales lead, since it's a big ask, but it might be worth exploring. They likely already have an established relationship with an auditor, and having a referral will cut the price down. SOC is just a box ticking exercise and doesn't improve security at all. Or at least it shouldn't, if you don't already meet their requirements you need to either shut down your side hustle or completely revamp your processes. That said, the box-ticking is extremely tedious and involves reams of paperwork. It would be doable as a solo entrepreneur, I worked through the process in a company of 6 employees, but it's not fun or productive. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-15T16:33:16.841846",
+        "updated_at": "2026-05-15T16:33:16.841846",
+        "author": {
+          "id": "649ecc1160980d63582cf6f5520d10d3",
+          "source_id": "zrobotics",
+          "username": "zrobotics",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e316af190526c4f25fbaeb02ed1a58ba",
+        "source_id": "48145925",
+        "content": {
+          "text": "> many early customers care more about transparency and good security hygiene than the certificate I work on audit compliance for a SOC2 compliant system, and as part of our own audit requirements it is non-negotiable that all of our vendors must themselves be SOC2 compliant. I very much doubt anyone who has a SOC2 requirement is not in the same boat with respect to dependencies reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-15T16:33:16.842926",
+        "updated_at": "2026-05-15T16:33:16.842926",
+        "author": {
+          "id": "6342068e0e43e77b4d6fcb74040cd0ed",
+          "source_id": "swiftcoder",
+          "username": "swiftcoder",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "913ba18ea788fcd940542b2676a20e7a",
+        "source_id": "48145750",
+        "content": {
+          "text": "Thank you! Could you please share some great example of public security page so I can get some inspiration? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-15T16:33:16.844015",
+        "updated_at": "2026-05-15T16:33:16.844015",
+        "author": {
+          "id": "8bb3d2faa83e16f4b1d0cad08a1e094d",
+          "source_id": "sochix",
+          "username": "sochix",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ea70c7d7f2ac8b8b62de83445846d00e",
+        "source_id": "48145962",
+        "content": {
+          "text": "I was also interested in that and chatgpt came up with these: https://iozen.ai/security/ https://logpulse.io/security/ SOC2 \"in progress\" haha https://get.brightidea.com/security/ reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-15T16:33:16.845178",
+        "updated_at": "2026-05-15T16:33:16.845178",
+        "author": {
+          "id": "a2e06d3e8a1a32ef819ea832e55660d3",
+          "source_id": "yread",
+          "username": "yread",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "493cf63ab7ec01d173048bb3d2f8124e",
+        "source_id": "48146036",
+        "content": {
+          "text": "Thank you! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-15T16:33:16.846302",
+        "updated_at": "2026-05-15T16:33:16.846302",
+        "author": {
+          "id": "8bb3d2faa83e16f4b1d0cad08a1e094d",
+          "source_id": "sochix",
+          "username": "sochix",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6d9a7f4d9ced920986442ef4c441d468",
+        "source_id": "48146236",
+        "content": {
+          "text": "I've been through SOC 2 Type 2 in a company with ~100 people. I think it'd be in some ways simpler as a solopreneur, but still a lot of effort. You won't require as complex controls and you don't need to communicate between different parts of company, but it'll just be yourself doing it all. On a positive side, you won't have to do 100% of SOC 2 Type 2. The only required part is security if I remember correctly. And a lot of it is best practices that need to be in place anyway. If you are using an established cloud provider a lot of it is in place through their certifications. Some of the controls can be \"silly\", but generally not hard to put in place. I'd try to figure out what are the minimum nr of controls required and see if that is doable. Pretty sure auditors will give a discount there if the scope is smaller. It can be somewhat useful for the company if taken seriously, as it can point out weaknesses in processes. Although I agree with other comments that most of it is a checkbox exercise than something that provides any real guarantees to the client demanding it. I also don't know if getting through it with <20k $ is something that is feasible. Before doing SOC 2 we relied on the clients' security questionnaires instead, so maybe something to always ask about. Usually they were able to make an exception and allow it, although the % started shrinking over time. Edit: Also, the auditor makes a difference. Pick one that understands small companies. A corporation auditor will get confused with \"segregation of duties\" if you are the only person in the company. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-15T16:33:16.847493",
+        "updated_at": "2026-05-15T16:33:16.847493",
+        "author": {
+          "id": "54fe9a7d14518ba4c53062d48721491a",
+          "source_id": "flowerbreeze",
+          "username": "flowerbreeze",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "454bba72f70f25c9f916a7b7ffb495b6",
+        "source_id": "48150339",
+        "content": {
+          "text": "The only SOC2 anybody does is security and if your auditor tries to convince you that you need the other profiles they're rolling you. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-15T16:33:16.848663",
+        "updated_at": "2026-05-15T16:33:16.848663",
+        "author": {
+          "id": "704be204f7872789ee476aa26277e12b",
+          "source_id": "tptacek",
+          "username": "tptacek",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ddb1d2f159d7fc669ae286921c7bb923",
+        "source_id": "48146384",
+        "content": {
+          "text": "Thank you for your comment! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-15T16:33:16.849854",
+        "updated_at": "2026-05-15T16:33:16.849854",
+        "author": {
+          "id": "8bb3d2faa83e16f4b1d0cad08a1e094d",
+          "source_id": "sochix",
+          "username": "sochix",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "51f84299422caa116f53d57e4f906bac",
+        "source_id": "48145551",
+        "content": {
+          "text": "Most early-stage founders don’t start with full SOC2 immediately. You can begin with strong security practices, transparent documentation, privacy policy, backups, access controls, and third-party audits before going for certification. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-15T16:33:16.851065",
+        "updated_at": "2026-05-15T16:33:16.851065",
+        "author": {
+          "id": "851bc3810490754a0de491973d780de2",
+          "source_id": "jaspanglia",
+          "username": "jaspanglia",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "cd3ba14870d0ba376bddc41e1363f88b",
+        "source_id": "48145606",
+        "content": {
+          "text": "What kind of documents should I show customers to make them trust me that I follow best security practices? They trust Soc2 Type2, what else could work? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-15T16:33:16.852375",
+        "updated_at": "2026-05-15T16:33:16.852375",
+        "author": {
+          "id": "8bb3d2faa83e16f4b1d0cad08a1e094d",
+          "source_id": "sochix",
+          "username": "sochix",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "13becdb0fe173b360c6ef8ce2d773b6f",
+        "source_id": "48145826",
+        "content": {
+          "text": "If they don't have a strict requirement on SOC2, then either PCI compliance or NSA CISA are more easily done without needing tons of money. Edit: PCI would only apply if you are processing customer funds Iirc, it's been a few years since I went through one but thereay be some caveats for that to apply. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-15T16:33:16.853650",
+        "updated_at": "2026-05-15T16:33:16.853650",
+        "author": {
+          "id": "649ecc1160980d63582cf6f5520d10d3",
+          "source_id": "zrobotics",
+          "username": "zrobotics",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5072bf6bee3256d52dc54fb5b876ea3f",
+        "source_id": "48146287",
+        "content": {
+          "text": "Really appreciate this discussion as I'll be shortly going through this with a 1-2 person company. Does anyone have any experience on how it compares to ISO27001 from the 1-2 person company feasibility standpoint? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-15T16:33:16.854934",
+        "updated_at": "2026-05-15T16:33:16.854934",
+        "author": {
+          "id": "962df04d4597a0b673224995013b92bf",
+          "source_id": "i2km",
+          "username": "i2km",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "65006c319597ccdd7f28df75b0ead80d",
+        "source_id": "48146708",
+        "content": {
+          "text": "I'm in a similar position. The business continuity requirements are difficult to satisfy. And the amount of paperwork you need to do (depending on your policies of course) can be a major slow down for developing new stuff. So it's best to get your dev heavy stuff done before. I'm just filling in the questionnaires instead for now (and losing some customers who would be too big anyway) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-15T16:33:16.856257",
+        "updated_at": "2026-05-15T16:33:16.856257",
+        "author": {
+          "id": "a2e06d3e8a1a32ef819ea832e55660d3",
+          "source_id": "yread",
+          "username": "yread",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "fc5d8a720e465920d3f416d46b751671",
+        "source_id": "48145554",
+        "content": {
+          "text": "I doubt it's possible. I'd avoid it as long as you can. It's been a continuous stream of audits for my the company I work for and resulted basically total loss of developer agency. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-15T16:33:16.857585",
+        "updated_at": "2026-05-15T16:33:16.857585",
+        "author": {
+          "id": "b9eb619f0c43c6f15c609eefbd23abbd",
+          "source_id": "donatj",
+          "username": "donatj",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "76276e6a876cbdba70eb045585e99961",
+        "source_id": "48145609",
+        "content": {
+          "text": "Have the same feeeling.... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-15T16:33:16.858935",
+        "updated_at": "2026-05-15T16:33:16.858935",
+        "author": {
+          "id": "8bb3d2faa83e16f4b1d0cad08a1e094d",
+          "source_id": "sochix",
+          "username": "sochix",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5aa3be7d1859640c03dfd41627f89174",
+        "source_id": "48145928",
+        "content": {
+          "text": "A lot of early stage founders ran into this. Strong internal processes can already build a lot of trust before full SOC2 Type 2. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-15T16:33:16.860313",
+        "updated_at": "2026-05-15T16:33:16.860313",
+        "author": {
+          "id": "4220c29543fdccc9e33d125f2189b990",
+          "source_id": "VishnuTech",
+          "username": "VishnuTech",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c652371b9ea4b55ca8bdc3da2b11d43c",
+        "source_id": "48146251",
+        "content": {
+          "text": "Mr. Maguire: \"I just want to say one word to you. Just one word.\"\nBenjamin: \"Yes, sir.\"\nMr. Maguire: \"Are you listening?\"\nBenjamin: \"Yes, I am.\"\nMr. Maguire: \"AI.\" reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-15T16:33:16.861693",
+        "updated_at": "2026-05-15T16:33:16.861693",
+        "author": {
+          "id": "ccc919c7c097d58f7c3b19a1671870a6",
+          "source_id": "SirFatty",
+          "username": "SirFatty",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7cf9f5fd7395510ee3aa72abd97dcf77",
+        "source_id": "48145772",
+        "content": {
+          "text": "I went through the process and while it seems it's daunting, it's just a bunch of work and some cash. Once established it's also transformative (or should be) on your ongoing processes and practices. You codify those into a bunch of documents (jesus, that's a lot of documents type of thing) and provide evidence for each; Auditors latch onto those randomly. It's then your job to upkeep documents and evidence which can be helped with tools that have frameworks for those. We use drata and it's really simple and helpful to use. I don't think you would be able to be compliant as a solo dude though, not easily. A bunch of protocols and practices revolve around governance, handovers, failovers, risk mitigation etc and if you're the only guy there's a hard path ahead. Are you reviewing and approving your own code that goes to production? If things go down and you're the first to call (let's say by automated alerting) and you're not available, who is the next one to call as in what's the documented succession plan or automated remediation.. etc. Compensatory controls do not strictly require a human, they require mitigation of risk associated with a single human. You'd have to automate a lot of these governances \"gates\" then. So it would be possible, since evidence you would have to provide is work not org-chart, but it'd be a ton of work. I went into it thinking I need to answer these 167 documents and provide evidence on an ongoing basis, but it actually also transformed the way we do things. I think for the better. At the end of the day, I also think this can be gamed as probably most certificates, but it's not worth it and transformation you go through makes sense. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-15T16:33:16.863215",
+        "updated_at": "2026-05-15T16:33:16.863215",
+        "author": {
+          "id": "a8788ae09886fb122317aede7d53057b",
+          "source_id": "Keyframe",
+          "username": "Keyframe",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f6fa72f5edbf34a6ee8d4d600d26837f",
+        "source_id": "48150405",
+        "content": {
+          "text": "I can't say enough how not transformative SOC2 should be on your processes. Near-automatic exception-free attestations should be a byproduct of basic sane corpsec practices. SOC2 should never be leading or informing your security practices. For people who don't know much about SOC2, the headline is that all SOC2 does is confirm that you do the things you say you do. There's a short vibes-based catalog of objectives --- things like \"change management\" and \"access control\" and \"backups\" --- but no actual standard on how any of those things are done. The controls you use to meet those objectives could be $50,000/yr enterprise software packages, or they could be a system of post-it notes. Your auditor does not care, so long as the things you say you do, you do consistently. What happens all too often is that companies come into this process (usually ill-advisedly; probably as many as half the SOC2-attested firms don't really need to be) without clear objectives and security practices to begin with. They read the SOC2 DRL, reconcile it with what they are and aren't doing in IT already, and end up instituting whatever the \"default\" controls look like for each objective, which is how you end up with AWS SAAS startups running network intrusion detection in 2026. I wrote a post 6 years ago for my clients who were ideating getting SOC2; it's about the (very small and very simple) set of engineering things you need to do to be in a place where you'll get an automatic SOC2 Type I attestation. It has held up very well. You should understand everything in this post well enough to have opinionated takes on everything in a SOC2 DRL, and to be in a position to tell your auditors to GTFO if they ask you to do more. https://www.latacora.com/blog/2020/03/12/soc2-starting-seven... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-15T16:33:16.864718",
+        "updated_at": "2026-05-15T16:33:16.864718",
+        "author": {
+          "id": "704be204f7872789ee476aa26277e12b",
+          "source_id": "tptacek",
+          "username": "tptacek",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "73defe8fa2d0d888fb5f013cdb4d58eb",
+        "source_id": "48150604",
+        "content": {
+          "text": "Near-automatic exception-free attestations should be a byproduct of basic sane corpsec practices. being key here. if you realize it's not all that sane when you start reviewing things, what happened in our case was it allowed us (there were other signals as well) to regroup on our practices and then it was painless. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-15T16:33:16.866176",
+        "updated_at": "2026-05-15T16:33:16.866176",
+        "author": {
+          "id": "a8788ae09886fb122317aede7d53057b",
+          "source_id": "Keyframe",
+          "username": "Keyframe",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0dcb692c75cb1a35f9024b578b7e3bf4",
+        "source_id": "48145896",
+        "content": {
+          "text": "Thank you for your feedback! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-15T16:33:16.867640",
+        "updated_at": "2026-05-15T16:33:16.867640",
+        "author": {
+          "id": "8bb3d2faa83e16f4b1d0cad08a1e094d",
+          "source_id": "sochix",
+          "username": "sochix",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "72b64c735912749a121958867600282d",
+        "source_id": "48145625",
+        "content": {
+          "text": "My monolith C++ backend passed SOC2 Type 2 without any real efforts from me as a programmer since I was very security cautious when writing code. Nevertheless this whole business is a racket and unless you commit to spending small fortune you will be just fighting windmills no matter whether you are actually compliant. In my case I've developed it for a client so it was their headache. I've just written couple of documents outlining compliance features. but before we got certified we would give clients same documents and that would give us free ride for a while. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-15T16:33:16.869142",
+        "updated_at": "2026-05-15T16:33:16.869142",
+        "author": {
+          "id": "b87b8c64ae446c643e6891ceee732ba0",
+          "source_id": "FpUser",
+          "username": "FpUser",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1f88123d334938ab290b4f48ca01bba1",
+        "source_id": "48145876",
+        "content": {
+          "text": "It's 100% a racket. Your code could have been 10x worse and still passed, I doubt the auditors even looked at the code. It's a legal box-checking exercise, there really isn't much of an actual review besides the documentation. But my god is there a lot of documentation and paperwork. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-15T16:33:16.870647",
+        "updated_at": "2026-05-15T16:33:16.870647",
+        "author": {
+          "id": "649ecc1160980d63582cf6f5520d10d3",
+          "source_id": "zrobotics",
+          "username": "zrobotics",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-05-15T16:33:16.871916",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "66c59930b78389ac4a14a7fd160b6286",
+      "source_id": "48060054",
+      "title": "Ask HN: We just had an actual UUID v4 collision...",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-05-15T16:33:14.711299",
+      "updated_at": "2026-05-15T16:33:14.711299",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "bec14b6fbc664ca1db7b6ca19793ee52",
+        "source_id": "mittermayr",
+        "username": "mittermayr",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 472,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48060054",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-05-15T16:33:20.741757",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "df5bffc54a06c24ae0cbb1f5ce259518",
+      "source_id": "48085993",
+      "title": "Ask HN: What are you working on? (May 2026)",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-05-15T16:33:14.711666",
+      "updated_at": "2026-05-15T16:33:14.711666",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "bec7335d8f4973f3cc1886331a825dda",
+        "source_id": "david927",
+        "username": "david927",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 285,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48085993",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-05-15T16:33:23.984090",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "8037078278c5b6713bf76b1fee13d92d",
+      "source_id": "48122103",
+      "title": "Ask HN: What are you working on (non-AI)?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-05-15T16:33:14.712098",
+      "updated_at": "2026-05-15T16:33:14.712098",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "f202cf58148469b2848db50a7d14ae51",
+        "source_id": "BrunoBernardino",
+        "username": "BrunoBernardino",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 35,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48122103",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-05-15T16:33:27.744485",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "1142631a2f2a1426a4e559560aa9277b",
+      "source_id": "48143615",
+      "title": "Ask HN: When will you be concerned on layoffs?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-05-15T16:33:14.712429",
+      "updated_at": "2026-05-15T16:33:14.712429",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "41963eeec511b0d3c9c929d64c34c762",
+        "source_id": "piratesAndSons",
+        "username": "piratesAndSons",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 8,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48143615",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-05-15T16:33:32.084631",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "ae4b377bdff00807ef4da143f2412d3a",
+      "source_id": "48126435",
+      "title": "Ask HN: Is Anthropic doing too much vibe coding?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-05-15T16:33:14.712993",
+      "updated_at": "2026-05-15T16:33:14.712993",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "2d9b245e2115cc95ac2044b2ae9a03ac",
+        "source_id": "terabytest",
+        "username": "terabytest",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 8,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48126435",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-05-15T16:33:37.052404",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
   }
 ]
