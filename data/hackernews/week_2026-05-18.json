@@ -1,0 +1,2740 @@
+[
+  {
+    "post": {
+      "id": "a6191e5943094a9688b8bdd9e5ae51fe",
+      "source_id": "48179203",
+      "title": "Ask HN: Do you know what data your AI coding agent sends to the cloud?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">Every session my AI coding agent reads files, runs commands, makes API calls. I have no idea exactly what ends up in the cloud. Is anyone actually tracking this at a granular level, or do we just trust the tool?</div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-05-18T16:55:01.905493",
+      "updated_at": "2026-05-18T16:55:01.905493",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "781653ddf5fc3bbff7aa364cadf0e046",
+        "source_id": "lbrauer",
+        "username": "lbrauer",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 3,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48179203",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "82257faec33f4058952316f588af2a9e",
+        "source_id": "48181296",
+        "content": {
+          "text": "You don't. Even if you read the policy, it would be jumbled in legalese. Instead, give it access to only the kind of data you are okay with being sent to the cloud. Also, the company reputation at stake matters more than their policies. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:04.297134",
+        "updated_at": "2026-05-18T16:55:04.297134",
+        "author": {
+          "id": "2303994cf833d6b290ce6ce40a7eb9a3",
+          "source_id": "aianisulislam",
+          "username": "aianisulislam",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d91a109b1073d97a7683ef72dd134522",
+        "source_id": "48181260",
+        "content": {
+          "text": "I have started treating AI coding tools more like giving temporary contractor access to my machine than just using auto complete. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:04.297663",
+        "updated_at": "2026-05-18T16:55:04.297663",
+        "author": {
+          "id": "3e04a087d744c3ce801525acfed69bf6",
+          "source_id": "SyntaxErrorist",
+          "username": "SyntaxErrorist",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "36e9ffc77452c25ed656ad185f96341a",
+        "source_id": "48179462",
+        "content": {
+          "text": "I trust the tool in that I don't send anything sensitive in there! Unless I built it, I assume it's going somewhere. We have a policy at work around this where our most sensitive data can only be passed to on prem models. That being said, I have no evidence of anything going to the cloud or frontier providers doing anything with chat history other than storing it for later. Self-hosted + custom harness for anything I don't want getting out at all. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:04.298172",
+        "updated_at": "2026-05-18T16:55:04.298172",
+        "author": {
+          "id": "329b9adb8c62b69c68d8f41cfdcb1a7d",
+          "source_id": "zambelli",
+          "username": "zambelli",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5a536e71699c958fb33f0415cdee32d7",
+        "source_id": "48179756",
+        "content": {
+          "text": "Makes sense. Does your custom harness give you a record of what actually crossed the boundary, or is it mostly trust-based blocking? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:04.298680",
+        "updated_at": "2026-05-18T16:55:04.298680",
+        "author": {
+          "id": "781653ddf5fc3bbff7aa364cadf0e046",
+          "source_id": "lbrauer",
+          "username": "lbrauer",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-05-18T16:55:04.298868",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "353392a00e7d954177b048a770eda023",
+      "source_id": "48145524",
+      "title": "Ask HN: How to be SOC2 Type 2 compliant as a solo-entreprenuer?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-05-18T16:55:01.906078",
+      "updated_at": "2026-05-18T16:55:01.906078",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "8bb3d2faa83e16f4b1d0cad08a1e094d",
+        "source_id": "sochix",
+        "username": "sochix",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 166,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48145524",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-05-18T16:55:07.985114",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "6bc45cf8c43cbe6ecf5defd2207cf96b",
+      "source_id": "48164173",
+      "title": "Ask HN: When did computers stop being fun?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">Of course I don't mean they stopped being fun for everyone. My impression is that they've been on one side \"corporatized\", and on the other became a vehicle for mindless entertainment.<p>I don't care for coding new stuff. Everything I may need either already exists or is too complex to do on my own (and no, I won't vibe-code it, what's the fun in that?)<p>I don't even code for work anymore since I moved to a project/service management role.<p>Basically, the spark I felt some 25 years ago seems to be completely gone.<p>Any suggestion on getting it back?</p></p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-05-18T16:55:01.906559",
+      "updated_at": "2026-05-18T16:55:01.906559",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "b4414e506e7c254a8884377a218b7eaa",
+        "source_id": "klez",
+        "username": "klez",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 67,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48164173",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "18db98bf05b33ee26f841f20f6e1dc91",
+        "source_id": "48181716",
+        "content": {
+          "text": "It seems to be strongly correlated with (and perhaps caused by) the iphone / smartphone / tablet boom of the 2010s. That's when lots of mass market things slowly shifted from being on \"computers\" or \"the internet\" into being apps, which are inherently geared towards consumption and not creation, and encourage storing all the data in \"the cloud\" instead of on the device. That left \"desktop\" computing as no longer where the action was, but just a legacy platform for people doing their day jobs, and most things being dumbed down into single-purpose apps that cannot be modified, customized, combined, or anything fun/interesting/not intended by the vendor. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.754698",
+        "updated_at": "2026-05-18T16:55:10.754698",
+        "author": {
+          "id": "fbf371f33e32d0aea3cd9c9b8b65ca94",
+          "source_id": "tacostakohashi",
+          "username": "tacostakohashi",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1313f784b7ce9615e1ab5336af11499c",
+        "source_id": "48164471",
+        "content": {
+          "text": "Microcontrollers are fun. The specs of modern MCs are similar to home computers 30 years ago. The community aspect is there. They’re cheap, too. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.755233",
+        "updated_at": "2026-05-18T16:55:10.755233",
+        "author": {
+          "id": "cf6bfbcd61588848e615bbc2d93316b9",
+          "source_id": "teamonkey",
+          "username": "teamonkey",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "305a1d8253f080ebf4ec5b044351e28c",
+        "source_id": "48164763",
+        "content": {
+          "text": "Esp32s are amazing fun. I designed boards in the 80s and I still love tinkering with microcontrollers. The reflux control for my still currently uses a brushed motor controlled by PWM and I am upgrading it to a second hand pump with a brushless motor so I am looking at driving it. I just set up an old drone ESC and am controlling the motor with dshot and it works ok. There is a little pre built board Simple FOC that is also esp32 I just ordered for 20 bucks to give a try. I've been a developer for 45 years and I still actually like it most days. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.755765",
+        "updated_at": "2026-05-18T16:55:10.755765",
+        "author": {
+          "id": "a0a29ab5b91a0c0871f7571a47e667d3",
+          "source_id": "mianos",
+          "username": "mianos",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c05230d07a185db43a4b25a6bced1cfc",
+        "source_id": "48166442",
+        "content": {
+          "text": "I recently learned of ESP32-P4 that has graphics compositing optimizations. A couple of years ago, I used an RP2040 to build a graphics card with 2D triangle filling and other pretty nice abstractions. Next time... It'll be the ESP32-P4. Somewhat looking forward to that project, but there are prerequisites that need to be dealt with first. Yes, I'm very grown up. It sucks. :) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.756291",
+        "updated_at": "2026-05-18T16:55:10.756291",
+        "author": {
+          "id": "e063c18acb3328074319a012a9b35607",
+          "source_id": "flowerthoughts",
+          "username": "flowerthoughts",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "299d52c5f489db92c1a82aba18c64f23",
+        "source_id": "48164525",
+        "content": {
+          "text": "agreed, I think much of the appeal for me is the physical element of wiring things up and seeing it do something more than changing a few pixels on my screen. Soldering is very relaxing as well. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.756852",
+        "updated_at": "2026-05-18T16:55:10.756852",
+        "author": {
+          "id": "e48cb71b5a1d3b47d43e82972ecc40d1",
+          "source_id": "forsalebypwner",
+          "username": "forsalebypwner",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0d45db64c748cb08acd93f4d29fa6d9c",
+        "source_id": "48164714",
+        "content": {
+          "text": "How you know me so well. I also like how cheap all of the parts and pieces are. It's like the next step after Legos. Although, they have way more interesting Legos today than what I had as a kid. I've bought components with an a specific project in mind, but once it's built I find myself taking them apart and making a new something with it combined with other parts I have lying around. Things are cheap enough that I don't mind so much if I got something wrong and release a little magic smoke. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.757424",
+        "updated_at": "2026-05-18T16:55:10.757424",
+        "author": {
+          "id": "13fd6bef80a080c9c5270f7ab8fb116e",
+          "source_id": "dylan604",
+          "username": "dylan604",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f806c60920e42895ee2a0017dc432b8a",
+        "source_id": "48164837",
+        "content": {
+          "text": "Agreed. OP, get a CYD (Cheap Yellow Display) and run wild. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.757990",
+        "updated_at": "2026-05-18T16:55:10.757990",
+        "author": {
+          "id": "41b2dbff604aef9333b26de05ebc2960",
+          "source_id": "mlhpdx",
+          "username": "mlhpdx",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c4e42dcd899dc299f24a32a5c319f0fe",
+        "source_id": "48164956",
+        "content": {
+          "text": "Interesting — why does this post get penalized from any top HN page even after 40+ points in two hours? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.758585",
+        "updated_at": "2026-05-18T16:55:10.758585",
+        "author": {
+          "id": "6f2325fb8c4c67d0f1b0f55386037bfa",
+          "source_id": "stripefan",
+          "username": "stripefan",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "211345cc4997bb66eb2731bdb8ece1bb",
+        "source_id": "48165462",
+        "content": {
+          "text": "No one knows. Don’t worry about it. Just because it resolves to a number doesn’t make it matter. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.759199",
+        "updated_at": "2026-05-18T16:55:10.759199",
+        "author": {
+          "id": "f2f398501ecd75588b45e28afc808ee6",
+          "source_id": "hyperhello",
+          "username": "hyperhello",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a6927a4deb6dc3148a335520e32e0697",
+        "source_id": "48177787",
+        "content": {
+          "text": "Slightly off-topic, but does this human fetish of \"big number sounds good\" thing have a name? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.759854",
+        "updated_at": "2026-05-18T16:55:10.759854",
+        "author": {
+          "id": "ce8377b632ae8cfdbcb2d078429130ec",
+          "source_id": "embedding-shape",
+          "username": "embedding-shape",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b999ecec9532961ffe3d100217804006",
+        "source_id": "48164425",
+        "content": {
+          "text": "Over the last 30 years the culture and power has made a gradual shift from 100% pure hobbyists to 4% hobbyists, 48% scammers/predators, and 48% commercial. You can't pinpoint when the fun stopped and it's subjective. I personally became conscious that the party was fully over around 2023, after a few years of feeling it subconsciously. 2023 was when Twitter and Reddit changed their respective APIs and became openly user hostile, which was the symbolic turning point for me. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.760548",
+        "updated_at": "2026-05-18T16:55:10.760548",
+        "author": {
+          "id": "f7916ff5ad86ded42d84084d4ff6aa50",
+          "source_id": "gdulli",
+          "username": "gdulli",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "eaabfb2513c0b2ecc8d72046fc973b46",
+        "source_id": "48164482",
+        "content": {
+          "text": "The world is full of people who get excited about things, but never, ever help. The Internet brings these kinds of people right to your door. They’re exhausting and toxic in a way you don’t truly appreciate until you really notice. Eject them from your life and computers become nice and fun again. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.761244",
+        "updated_at": "2026-05-18T16:55:10.761244",
+        "author": {
+          "id": "f2f398501ecd75588b45e28afc808ee6",
+          "source_id": "hyperhello",
+          "username": "hyperhello",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "deb80678db58a482478c9bed3732c14c",
+        "source_id": "48167133",
+        "content": {
+          "text": "I feel 2023 is when we entered the decrepit stage, but ~2015 is when it began: Theranos, Musk's charlatanry and cult, \"unicorns\", Cambridge Analytica, the raise of social media addiction, etc. Not that things were amazing before that... it's just that mid 10s had simply too many bad actors showing up at the same time with a lot of money and power. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.761991",
+        "updated_at": "2026-05-18T16:55:10.761991",
+        "author": {
+          "id": "b155181d1092896d795583f33e3ac3a2",
+          "source_id": "pera",
+          "username": "pera",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a9570c7b42edb81d34189cc155e6c7a7",
+        "source_id": "48180374",
+        "content": {
+          "text": "Computing went permanently downhill when they took away Visual Basic 6, and .net infested everything. You will never have a system as productive yet user friendly for building programs ever again. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.762763",
+        "updated_at": "2026-05-18T16:55:10.762763",
+        "author": {
+          "id": "cf2bd8bbc1ac7fac6aa1daa41272d5d3",
+          "source_id": "mikewarot",
+          "username": "mikewarot",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0fd00ea74236950bf853f05303cab772",
+        "source_id": "48165332",
+        "content": {
+          "text": "It’s hard for me to know if it’s the computers that changed or my stage of life. I think they become less fun sometimes during the later stage Web 2.0 era as everything shifted toward services. For most, computers became a thin client to access services on the Internet. To me, this isn’t very fun. The computer becomes an appliance to access services rather than one used to run programs that can be customized and tailored to the user. Of course that local experience can still exist, but only for users who are very intentional. For shared experiences, it’s only for users whose friends are also intentional. This intentionality usually means doing a lot of extra work. This work was not an issue when the pay off of new functionality was there, but is harder to justify when it’s often less functionality for more work… the main upside being freedom and agency over the experience. Seemingly every service being a front to collect and sell data also makes things less fun. There is a certain level of trust that needs to exist when running software and that trust relationship has been broken, even by real companies. It makes it hard to trust anything, which pushes me away from trying new things that might be fun. This change coincided with my transition to adulthood, where priorities shift. It’s impossible to say if I’d still find computers fun in 2026 if I was 19 again, but my gut tells me I’d be a lot less interested. If there is a path back, I think it might be along the lines of Pewdiepie’s newfound love of Linux. He seems to be having a ball. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.763602",
+        "updated_at": "2026-05-18T16:55:10.763602",
+        "author": {
+          "id": "fb6fae387d9dabe783668f9009982cf3",
+          "source_id": "al_borland",
+          "username": "al_borland",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "82804455f6ee8df5724dd1d53c606f2e",
+        "source_id": "48166921",
+        "content": {
+          "text": "Given that enshittification is such a common term today, that didn't exist a few decades ago, suggests the decay is real not just a stage of life perception. Earlier computers, and particularly the early Internet, were all about personal freedom. The computer served you and the Internet was there to connect you with peers. So that was fun and the possibilities were literally infinite. As the giant corporations and particularly the advertising industry (which destroys everything it touches) have slowly taken control, computers and the Internet no longer serve us, the people. We are now the product, to be fully monetized at every stage. Monetization alone is bad but not terrible, but in order to maximize monetization the corporations also need to exert control, thus all the increasingly restrictive technology where we are very clearly only a paying consumer kept within a box, not a participant. While the technology world has been almost entirely enshittified, it's good to keep some optimism though. The fun parts still exist, they're just more effort to find. On the Internet, support your hobby email lists (open participation, no corporate control), support enthusiast-driven forums and websites (independently run, no social media giants monetizing every message!). There are fewer of these but they do exist, support them. Or start your own! Don't let the megacorporations own your hobby interactions. On the programming side, work on something hands-on fun if you like. When I want to geek out programming like it's 1995, I have a BSD box and work on a hobby project which is all in C. No vibe coding, no thousands of unknown npm dependencies, none of that junk. Just me and emacs and the kernel and the compiler. I don't work on it often but every now and then a weekend of real programming is very relaxing and reminds me how much fun it is. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.764489",
+        "updated_at": "2026-05-18T16:55:10.764489",
+        "author": {
+          "id": "1da9c46d3b10ddb67993c2e09063583a",
+          "source_id": "jjav",
+          "username": "jjav",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0c1d34e50f654f73b7e3336360d80656",
+        "source_id": "48164970",
+        "content": {
+          "text": "> I don't care for coding new stuff. Everything I may need either already exists or is too complex to do on my own > Any suggestion on getting it back? 1. Take a break. I don't mean stop working, just fill your free time with other stuff, but if you don't code at work, it is a bonus. Try other things. I was in a position you describe, and I took a break, dived into studying psychology, you can choose anything you like, like keeping stray cat population in your neighborhood fed and sufficiently stroked behind their ears. Or can you play a harp? You can learn it, you know. (Speaking about psychology: your condition is a middle age crisis. Self-realization is done, all immediate goals are reached, you've got more freedom to choose next goals, and everything is increasingly becoming a routine. Nothing bad is happening, you just need to adapt. You will adapt, you don't need to do anything special, it will happen all by itself. Just exercise your new freedom a little, and in a couple of years new goals will find you.) 2. Stop thinking of important things. Had you read \"Surely you are joking, Mr. Feynman!\"? If not, I suggest to read just for fun of it, but among all the jokes Feynman describes a period in his life when he felt like you. He couldn't find any good ideas what he could do in physics. At some point he took a seemingly silly problem, and solved it. And he came back to physics with it, later he discovered the differential equations from that silly problem in another \"serious\" problem and eventually got a Nobel Prize. The moral is: you are overthinking it. You are looking for ideas for programs but you use too narrow filters. Like the problem should match your skills. Or the problem should be important enough to work on it. So just take a break and look for some interesting problem. If you find any, you find some other way to entertain yourself, so not a big deal. Just stop obsessing about it and I'm sure it will come naturally. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.765462",
+        "updated_at": "2026-05-18T16:55:10.765462",
+        "author": {
+          "id": "8c23e3846e8e866ea669e30a44a9472a",
+          "source_id": "ordu",
+          "username": "ordu",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9acbf8ec0d38997e56a1fdb41b16798d",
+        "source_id": "48164431",
+        "content": {
+          "text": "I feel this a lot too these days. The only place the fun seems to remain for me is in Linux and in devices out of China, that you can hack and experiment with — like the Anbernic consoles, or the Xteink X4, or the little mp3 player DAP things, or the Sipeed NanoKVM devices, or the Supernote. The Steam Deck probably sits in this niche too, now I think about it. Alongside the purpose they serve, all of them can be trivially broken into and re-tooled however you like — and for me at least, that’s where a lot of fun lies in computers. When it comes to mainline desktops now, everything is incredibly expensive and deflating. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.766403",
+        "updated_at": "2026-05-18T16:55:10.766403",
+        "author": {
+          "id": "58b7a163c69c290361938fa6dcff7e9e",
+          "source_id": "frio",
+          "username": "frio",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "56c458584bec702e115cd0bf7508de03",
+        "source_id": "48167529",
+        "content": {
+          "text": "What sorts of things do you do with a NanoKVM? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.767304",
+        "updated_at": "2026-05-18T16:55:10.767304",
+        "author": {
+          "id": "9231d7dc50e6a705d6a4f3d6e3f959f0",
+          "source_id": "cassianoleal",
+          "username": "cassianoleal",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "be319f1f1aa7fc8c748fd708c01efd0c",
+        "source_id": "48173448",
+        "content": {
+          "text": "Mine hasn't actually arrived yet! I'm still waiting for it in the mail. I don't think I'll tweak that much, all I really want to do is flash the published open source firmware, attach it to my tailnet and use it to control a little server I keep in the crawl space under the house (because crawling under there whenever it needs a reboot + entering disk encryption keys is distinctly unpleasant). reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.768240",
+        "updated_at": "2026-05-18T16:55:10.768240",
+        "author": {
+          "id": "58b7a163c69c290361938fa6dcff7e9e",
+          "source_id": "frio",
+          "username": "frio",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4f6887a7fe640ea5fe8b6a26dfe88b37",
+        "source_id": "48178258",
+        "content": {
+          "text": "Ah fair enough. I thought you were talking about hacking it to do novel things. :) I have one on a server. The server itself is accessible (it's in the rack cabinet I have in the office) but sticking a display on it is fiddly on a good day, so it's been a major QoL improvement! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.769227",
+        "updated_at": "2026-05-18T16:55:10.769227",
+        "author": {
+          "id": "9231d7dc50e6a705d6a4f3d6e3f959f0",
+          "source_id": "cassianoleal",
+          "username": "cassianoleal",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6b602d32f510896fee91c6aab31977a8",
+        "source_id": "48164398",
+        "content": {
+          "text": "Help the younger generations find the same fun you did. That's where satisfaction is often found as we age. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.770241",
+        "updated_at": "2026-05-18T16:55:10.770241",
+        "author": {
+          "id": "0bc688abace1934eed83d99d37526b65",
+          "source_id": "djeastm",
+          "username": "djeastm",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a3d6d19d25b7e844f819c85bffec19ec",
+        "source_id": "48166439",
+        "content": {
+          "text": "> I don't care for coding new stuff. Everything I may need either already exists or is too complex to do on my own With due respect, are you sure you aren't just burned out? Not finding joy or even meaning in the thing you used to do for decades and justifying your disinterest by saying it is all pointless and futile sounds like typical burnout symptoms to me. Surely there are many bad things about modern computing. And yet when I look around I see people — especially young people — still out there making silly stuffs on computers like we used to. Baby's first ray tracer, baby's first JS runtime, make for fun's sake with no intention nor possibility of profit in sight. I don't know you well, but from the way you talked about your feelings, I feel you might be too harsh on yourself. You don't need to manage all the complexity of a side project. You can take the first step first before deciding how far you want to really get into it. And you should not just dismiss \"mindless entertainment\" — perhaps that is exactly what people need to recharge themselves. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.771302",
+        "updated_at": "2026-05-18T16:55:10.771302",
+        "author": {
+          "id": "f942b8453e6ebb13872935d0be6465f0",
+          "source_id": "pibaker",
+          "username": "pibaker",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f906d449972dff3cdd3abc143fc50235",
+        "source_id": "48178359",
+        "content": {
+          "text": "For me, it was the first week after I installed WinXP (or maybe it was Win2000? can't remember). I tried to delete a file, I think it was a driver, and I got an \"Access denied\" error. I was absolutely shocked. What do you mean access denied ? It's my computer! My file! You don't deny me anything! I tell you what to do and you obey . I booted my DOS system floopy and erased the whole partition. End of fun. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.772439",
+        "updated_at": "2026-05-18T16:55:10.772439",
+        "author": {
+          "id": "7e742a279804a660627c21d2f1ff8d11",
+          "source_id": "M95D",
+          "username": "M95D",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "71d0ffec9f2408f67b87348501cb7612",
+        "source_id": "48164591",
+        "content": {
+          "text": "I think it's natural to lose enthusiasm over time when a joy becomes a job. \"I don't care for coding new stuff. Everything I may need either already exists or is too complex to do on my own (and no, I won't vibe-code it, what's the fun in that?)\" I'm not sure if you mean \"code gen without a plan/expertise\" or just code gen. If you found joy because you enjoyed building things, now be the best time to explore and prototype something you've always dreamt of. If you found joy because of the craft itself, low-level hands-on stuff (breadboards, esp32s, soldering, ..) can scratch that itch too. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.773554",
+        "updated_at": "2026-05-18T16:55:10.773554",
+        "author": {
+          "id": "0c9ae792d843dbfdd43f4d57304b4abf",
+          "source_id": "stldev",
+          "username": "stldev",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b9ddefe9d69465104fa3e7792aeb7dea",
+        "source_id": "48164755",
+        "content": {
+          "text": "> I'm not sure if you mean \"code gen without a plan/expertise\" or just code gen. If you found joy because you enjoyed building things, now be the best time to explore and prototype something you've always dreamt of. I can't speak for the poster, but to me, there's no joy in either because, plan or not, it doesn't feel like I am the one building it. If I got someone (AI or human) to build a castle in Minecraft to my specifications, regardless of how detailed those specs are, it wouldn't feel like I built anything. The sense of accomplishment is just gone. Honestly, I think I'd rather be the one getting specs and figuring out how to implement them than the other way around. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.774704",
+        "updated_at": "2026-05-18T16:55:10.774704",
+        "author": {
+          "id": "32f1cfbc63314b80e2d982c16a21554e",
+          "source_id": "16bitvoid",
+          "username": "16bitvoid",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "15f85b7f4f8e514af8068a102098be75",
+        "source_id": "48165534",
+        "content": {
+          "text": "Once every single thing connected to the internet (iPhone + 10 years?). Tech products, software, video games, etc. were new and exciting ways to solve problems. Now every single thing is a way to monetize, steal your data, or lock you into a platform to do those things later. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.775852",
+        "updated_at": "2026-05-18T16:55:10.775852",
+        "author": {
+          "id": "b1e72a3435c7203173d748f1f3c009c8",
+          "source_id": "VariousPrograms",
+          "username": "VariousPrograms",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8f370798b302929fbd1795025b2ab9a3",
+        "source_id": "48175212",
+        "content": {
+          "text": "> The software industry has shifted its entire value proposition from “we make tools that help you make or save money” to using political clout and the dollar hegemony to capture, control, and loot entire sectors of the various economies of the world. https://news.ycombinator.com/item?id=48147793 reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.777035",
+        "updated_at": "2026-05-18T16:55:10.777035",
+        "author": {
+          "id": "6f7e4eb16dd02fe58b0cb30fdf7ab6c6",
+          "source_id": "isolay",
+          "username": "isolay",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "19e4f610244c3ba0a0dcd0fa5770225d",
+        "source_id": "48164540",
+        "content": {
+          "text": "Solo and small-group computer projects used to be in a sweet spot of opportunity:  feasible yet interesting to others.  But opportunity-space is limited and fills. To me a more important question is: where can people 10-30 years old bootstrap themselves on interesting and useful problems?  They have intelligence and energy but not resources or connections (mostly), and all that potential human capital will all be wasted if they don't have any tractable and fruitful domains.  (We don't have to worry about those with resources, connections, or luck, but they're a small minority already tethered to value flows, in little danger of being under-developed.) My concern in particular is that tech companies spent big on building free languages and tools (yes, you used to have to pay for compilers, IDE's, databases...) in order to reduce input costs of them and their customers.  If AI already minimizes labor costs (both the work and the discovery and training of residual human talent), there's no reason to subsidize that self-training, and likely fewer portable skills (across more isolated tech stacks), further locking employees in, reducing cross-pollination (formerly within the valley). Individual opportunity is shrinking.  Young people feel it.  Old people feel it too, even if they have bagfuls of tech stocks. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.778248",
+        "updated_at": "2026-05-18T16:55:10.778248",
+        "author": {
+          "id": "bbfa9d251c856fb7c0b37539a3af67f2",
+          "source_id": "w10-1",
+          "username": "w10-1",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7b42b8192ba404cf03f3203c3d2c2087",
+        "source_id": "48164438",
+        "content": {
+          "text": "It coincides significantly with YC, Zuckerberg, and Amazon. Internet is becoming soulles by the day. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.779472",
+        "updated_at": "2026-05-18T16:55:10.779472",
+        "author": {
+          "id": "6ca657673c6dfe123ddd3a99f7574db3",
+          "source_id": "muge",
+          "username": "muge",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f69d5f072a101eee4b6ab2db84450d75",
+        "source_id": "48164642",
+        "content": {
+          "text": "In my view, this period surprisingly correlates with the first leg of the Fed's balance-sheet expansion [1], from ~$800B to ~$2.2T in 2008. As a reminder, this was the era of the early iPhones and the first MacBook Air [2] — tech was mature enough, but not yet overcrowded with VCs. [1] https://www.federalreserve.gov/monetarypolicy/bst_recenttren... [2] https://web.archive.org/web/20080223071127/http://www.apple.... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.780824",
+        "updated_at": "2026-05-18T16:55:10.780824",
+        "author": {
+          "id": "6f2325fb8c4c67d0f1b0f55386037bfa",
+          "source_id": "stripefan",
+          "username": "stripefan",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "65e694e30a3a4e8bb5e1b4a410399d15",
+        "source_id": "48165026",
+        "content": {
+          "text": "The best time to be anywhere is when the value of something is obvious but rich people don't yet understand it so they can't micromanage it towards pure productivity and ROI. Money flows in with very little oversight. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.782094",
+        "updated_at": "2026-05-18T16:55:10.782094",
+        "author": {
+          "id": "75ed9cac111cfec2dfcff37c9d08d1c2",
+          "source_id": "nathan_compton",
+          "username": "nathan_compton",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7985a01ddcf6844fb65cc3e51d84a190",
+        "source_id": "48166443",
+        "content": {
+          "text": "Try toying with ideas & projects which give back agency to the user. Read manifestos from Anytype [0] and Reticulum [1]. Contribute or implement something using GrapheneOS, Nix/NixOS, Immich, Tailscale/Headscale, Home Assistant, SQLite, BespokeSynth, OpenStreetMap, Organic Maps, Columba, FluffyChat. Maybe run local LLM and integrate it with your workflows/lifeflows? Hardcore is not dead. [2] 0 https://anytype.io/why/manifesto/ 1 https://github.com/FreeTAKTeam/Reticulum-Community-Hub/blob/... 2 https://m.youtube.com/watch?v=gh3mFO1nwa0 reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.783523",
+        "updated_at": "2026-05-18T16:55:10.783523",
+        "author": {
+          "id": "015e11dcc2fa9348cf4a204e5609e1d8",
+          "source_id": "koziserek",
+          "username": "koziserek",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5c1ccf138aec2e0ddbe790b3e0306ff2",
+        "source_id": "48164907",
+        "content": {
+          "text": "They didn't. There was a bit of an interval between the days of diversity - the Commodores, Sinclairs, Ataris, the CP/M machines, everything from build-your-own  to sleek futuristic designs, etc - and the free software revolution which saw Linux and the BSDs cement themselves as the future in some or other form. Now? Software is free and open, hardware is cheap and plentiful, hardware hacking is back, if you want to create something which has not been created before there's a fair chance of success. If you succeed you can easily publish your designs, others get to pick them up and improve upon them and publish their improvements. Computers are more capable than ever, just stay away from the walled gardens and the shiny traps created by the likes of Microsoft and Apple and Google and you're free to do what you want. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.784841",
+        "updated_at": "2026-05-18T16:55:10.784841",
+        "author": {
+          "id": "c00dbd55b6ff271ad0c69136903db33d",
+          "source_id": "Mallory_Ringess",
+          "username": "Mallory_Ringess",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "90d69955d9b1e042a6e5f8a1d49db27e",
+        "source_id": "48164930",
+        "content": {
+          "text": "Not what most folks here are saying but the thing that brought the spark back for me was going harder into small software, not pivoting to hardware. Tiny Android apps, do one thing well, no team, shipped to actual users on Play Store within a month or two. Most fun I've had with code in a while. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.786241",
+        "updated_at": "2026-05-18T16:55:10.786241",
+        "author": {
+          "id": "a8d20266c2e0800a5a17b5bf1a32391e",
+          "source_id": "pierdoio",
+          "username": "pierdoio",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1007af6b045f4750f88741898cd1bcd3",
+        "source_id": "48164490",
+        "content": {
+          "text": "I've noticed the same thing.  IMO, the heyday of computing coincided with the peak of WiReD Magazine.  Around 1995 interconnected computers and the WWW bootstrapped a revolution in spreading+sharing information that seemed certain to reshape cultural norms, organically, bottom up, for the better.  It seemed the world would never be the same.  Heady times.  That sense of optimism lasted until the computer unicorns morphed into monopolies.  After that the roles reversed and all us net denizens became unicorn fodder.  It's hard to stay upbeat after you realize you're no longer in charge and are constantly being manipulated wherever you go online. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.787642",
+        "updated_at": "2026-05-18T16:55:10.787642",
+        "author": {
+          "id": "a8406c88fc7ca8d29f985e4160cc1a55",
+          "source_id": "randcraw",
+          "username": "randcraw",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8d10863d7112b361ac89979e6bc042f0",
+        "source_id": "48164415",
+        "content": {
+          "text": "They’re still fun, but you have to be really good at understanding what your idea of fun is, listening to that voice, and not falling prey to what other people/companies with an agenda are trying to push on you as fun (when it’s just crap designed to fill their pockets). 99% of everything is crap, but if you want to find that 1% that makes you so happy you found it, you have to deal with trudging through that 99%. Also it helps to try and socialize with people who have similar values and notions of fun as you so they can point you to the things they find fun. You won’t agree a lot of the time, but it’s still interesting directions to have on your radar. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.789099",
+        "updated_at": "2026-05-18T16:55:10.789099",
+        "author": {
+          "id": "d44434515f9101760605b4cc20f8a214",
+          "source_id": "gyomu",
+          "username": "gyomu",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "42926b99e1d8b1f1cbd4a6f0c6b64b83",
+        "source_id": "48168795",
+        "content": {
+          "text": "I am also looking for that personally. I think its partially as you say: \"everything I may need either already exists\".\nThrough the connection over the internet (as great as it is) you see things already done already and often better than I would be able to do it myself with the limited time I got. Also generally the large amount of things going on, its just a lot one could try, much more than in former times. So for people with focus problems its also a question of, yeah: focus. For me I still code enough for work (as long as they let me do it - looking at the AI push) so I am fine but I still think back to the old times (C64, Amiga, 90s PC, rise of Linux on the Desktop) where I had more fun.\nSo I guess its the technology getting more mature and personally its also getting older and maybe burned out a bit. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.790590",
+        "updated_at": "2026-05-18T16:55:10.790590",
+        "author": {
+          "id": "f129b01542100b908fffe57b7ed108c9",
+          "source_id": "Braini",
+          "username": "Braini",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "552d83b312e9fcdbb29c9ff89aa8a08a",
+        "source_id": "48164469",
+        "content": {
+          "text": "For me it's the advent of LLMs. AI is boring. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.792085",
+        "updated_at": "2026-05-18T16:55:10.792085",
+        "author": {
+          "id": "35840269456d3fc2b773595f00f2313b",
+          "source_id": "throwawa14223",
+          "username": "throwawa14223",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d7366fe51940458fb29db7bf29e403a8",
+        "source_id": "48164595",
+        "content": {
+          "text": "For me, AI made tech interesting again. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.793608",
+        "updated_at": "2026-05-18T16:55:10.793608",
+        "author": {
+          "id": "1495929392a878a35c856d7222bf48bc",
+          "source_id": "CharlesW",
+          "username": "CharlesW",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1e1f3ea0aac825e9a086e717898743a7",
+        "source_id": "48171001",
+        "content": {
+          "text": "I found joy making sdf2stl.saej.in. It's similar to a bunch of things that already exist, but I was able to make a set of requirements that made mine technically unique. It was too complex for me to create when I started, so I learned as I went. In personal projects, I only use LLMs for when I don't care and I don't want to learn. For example, all the WebGL APIs. I am perfectly fine not knowing how to allocate, initialize, and bind a shaderbufferindexobjectstoragehandlepointerarray. But I'll do the fun parts, the interface design and algorithms, by myself. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.795140",
+        "updated_at": "2026-05-18T16:55:10.795140",
+        "author": {
+          "id": "352340d16dd4f0ce40ac257860544bda",
+          "source_id": "pvillano",
+          "username": "pvillano",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "296b231dab2704512c36494a3cb33408",
+        "source_id": "48164474",
+        "content": {
+          "text": "Personal computers are still fun for me, although it has waxed and waned over the years since I got my first 8 bit computer in the 1980s. Linux kep it fun.  Even during a time when I worked with windows professionally I always had a Linux distribution installed somewhere. As a short history of fun in no particular order: First time I got XFree86 working after having to endlessly configure display settings. Using Yggdrasil to do remote support for Sun systems. Hacking on a cd-rom driver to get mine to work. Building a media server on an NSLU2.  My media server is still called “the slug” despite being on an RPi now.  At one point my kids had repurposed PS2s in their rooms with all their favourite shows at their fingertips.  Sounds lame now but back then it was magic. Moving all my dev tools to Linux after finally realising they all ran worse on windows, including .NET core Endless fiddling with wine to get games to start, now completely solved but it was educational at the time. Wacky shenanigans with wifi drivers and binary blobs back when wifi was still emerging. I don’t know how you get the spark back once it’s lost though, I’d only suggest that the reward centre in your dome doesn’t fire properly unless you’ve been challenged and worked hard to solve whatever you’re faced with. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.796820",
+        "updated_at": "2026-05-18T16:55:10.796820",
+        "author": {
+          "id": "d9a238b2d83150306160f35853feeea8",
+          "source_id": "smackeyacky",
+          "username": "smackeyacky",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c7c1571f607238fa9c6666cad75204ca",
+        "source_id": "48164478",
+        "content": {
+          "text": "I think once they stopped being \"Personal Computers\", they stopped being fun. The most interesting era was from the 70s until the mid 90s, before MSFT completely grabbed the home computer market. After that it is all servers and corporations. Although I have switched one of my laptops to Linux, I perhaps have never been a true Linux guy. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.798441",
+        "updated_at": "2026-05-18T16:55:10.798441",
+        "author": {
+          "id": "c71690d2f11be16dd48cb370303dcccd",
+          "source_id": "hnthrowaway0315",
+          "username": "hnthrowaway0315",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a380b78962af4516b2163db8b03fc7e8",
+        "source_id": "48164762",
+        "content": {
+          "text": "How I feel about programming is often a reflection of how I feel about my own internal world because it continues to be a part of my identity. Once I found a job that valued my desire to actually build things, things started to sort themselves out rather quickly. Not saying that's what is going on here, but maybe it is helpful. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.800085",
+        "updated_at": "2026-05-18T16:55:10.800085",
+        "author": {
+          "id": "f47c7e96491f5999d17d4da52d0a18a5",
+          "source_id": "mattgreenrocks",
+          "username": "mattgreenrocks",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "43ba332646d88b1369b99ff62453a8f9",
+        "source_id": "48164538",
+        "content": {
+          "text": "I remember the moment distinctly, it was the winter early in the year 2000. We had just survived the Y2K incident and I was in a VW camper van roving around, at the particular moment I was visiting a Twisted Python developer in the San Jose area. I called it \"losing my immortality\"; I no longer felt like I had infinite time to just code for the fun of it. I just wanted to produce things. I wanted the result, not the journey. I was just talking about it with my son yesterday, he's 17 and I'm 55. We were talking about the new Commodore 64 and how it was trying to bring the joy back to computing. He love programming and I'm trying to support that. But it looks very different for me than him. He is loving th craft of programming, which is great! I remember that, and I think that will serve him well. I'm feeling the same joy in the results I get through using AI. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.801792",
+        "updated_at": "2026-05-18T16:55:10.801792",
+        "author": {
+          "id": "19f5d387e8c9fe61efb7b185946b8ea5",
+          "source_id": "linsomniac",
+          "username": "linsomniac",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1dd2575438189d75474737e45d46e2ee",
+        "source_id": "48164480",
+        "content": {
+          "text": "> Basically, the spark I felt some 25 years ago seems to be completely gone. You just need to find the right application for your skills to reignite it, e. g. a side project. There are also plenty of awesome books out there to dive into new topics (I like O'Reilly and No Starch Press books). reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.803479",
+        "updated_at": "2026-05-18T16:55:10.803479",
+        "author": {
+          "id": "582e440afc925637f0a8a8e7baa48a1a",
+          "source_id": "MaKey",
+          "username": "MaKey",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a26a8e745c0dfafc53951f6a31d303f6",
+        "source_id": "48176715",
+        "content": {
+          "text": "Computers stopped being fun somewhere between CAPTCHAs and monthly subscriptions reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.805191",
+        "updated_at": "2026-05-18T16:55:10.805191",
+        "author": {
+          "id": "abf9a42b17270e0de5250e2bdc558ef6",
+          "source_id": "LogicCraft678",
+          "username": "LogicCraft678",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5e838dbd41bd6fa15111b2c767fc743e",
+        "source_id": "48165294",
+        "content": {
+          "text": "For me the price of components rising increases the barrier to entry into enthusiast computer hobbies. If they stabilise at the current price long-term then I'll be pretty sad. As for coding in particular, I think it's natural to move on from certain hobbies. I don't have the same hobbies I did 5 years ago, and recreational coding has come and gone for me in waves. At the moment I've got a fun project where I'm learning something new (local-first apps, podcasts), so the excitement is there, but I wasn't coding recreationally at the same rate a few months ago when I didn't have a goal. Find a hobby that's fun for you, even if it's not coding. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.806968",
+        "updated_at": "2026-05-18T16:55:10.806968",
+        "author": {
+          "id": "61085ad21cc2b4687ad0d760d765d7d7",
+          "source_id": "chrysoprace",
+          "username": "chrysoprace",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2a79dd304076f9d0965de6a389b86a76",
+        "source_id": "48164487",
+        "content": {
+          "text": "IMO it's still fun to hand-write C and Makefiles targeting an extremely resource-constrained device that's connected to an oscilloscope and a gunshot-wound worth of capacitance on your bench. YMMV reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.808705",
+        "updated_at": "2026-05-18T16:55:10.808705",
+        "author": {
+          "id": "cf4eec5ad08d2904997c214248a1d7a4",
+          "source_id": "bvanderveen",
+          "username": "bvanderveen",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "059d62c253e163e88ee0af06ca5351f2",
+        "source_id": "48174522",
+        "content": {
+          "text": "https://overthewire.org/wargames/ reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.810551",
+        "updated_at": "2026-05-18T16:55:10.810551",
+        "author": {
+          "id": "0d7c7d03f527bab17fe0930aab611233",
+          "source_id": "bradgranath",
+          "username": "bradgranath",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1242b59305e27b20658f82410b03063b",
+        "source_id": "48166862",
+        "content": {
+          "text": "Microcontrollers (ESP32, RP2045), CAD modelling and 3D printing are my current creative outlet. They work together which feels nice though the more you know, the more complicated the project gets. I'm slowly pushing towards electrical engineering but it's a steep hill to climb. Prefab modules get you a long way but it'd feel like an achievement to make my own PCB. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.812418",
+        "updated_at": "2026-05-18T16:55:10.812418",
+        "author": {
+          "id": "df7d108de9f3995c2fc4791cea2e8ae7",
+          "source_id": "oliwarner",
+          "username": "oliwarner",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "32f5cb682ec750906268feaa7f5c94a9",
+        "source_id": "48164710",
+        "content": {
+          "text": "Im changing targets. I've started to hack around with a play.date devices. It's pretty cool. Every industry has a regression to the mean such that a normal workforce can support it. This is, good thing, but it makes the commercial side very boring (which is also a good thing). With AI, I think makes it more permissible to do odd and unique things that see fun. Like, why not? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.814308",
+        "updated_at": "2026-05-18T16:55:10.814308",
+        "author": {
+          "id": "ca0f7d9fd7f6590bd9cd88d88d6ac384",
+          "source_id": "mathgladiator",
+          "username": "mathgladiator",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f586eb5feb7d8049b0a996b04213f8fc",
+        "source_id": "48174887",
+        "content": {
+          "text": "FPGAs are fun. It's fun to write code that turns into usable hardware. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.816186",
+        "updated_at": "2026-05-18T16:55:10.816186",
+        "author": {
+          "id": "3c278e0aff55055a50562e4d4a878bf7",
+          "source_id": "musicale",
+          "username": "musicale",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6861f580e4ffdf38feea276e29f220e2",
+        "source_id": "48168820",
+        "content": {
+          "text": "Honest answer? Tahrir Square, 2011 ( https://en.wikipedia.org/wiki/Tahrir_Square ) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.818161",
+        "updated_at": "2026-05-18T16:55:10.818161",
+        "author": {
+          "id": "5f50e0f6a98e9a674910e40a8511ae88",
+          "source_id": "Balgair",
+          "username": "Balgair",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "87c8e76c33250ae4a891efe8d8649b78",
+        "source_id": "48164764",
+        "content": {
+          "text": "When smartphones took over computing and landed in everyone's pockets, and the shareholders realized they have access to every single eyeball on Earth, and so the squeezing of tech for profit began. The big watershed moment for me was when Google Reader was killed off; it signaled the end of the web for users. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.820108",
+        "updated_at": "2026-05-18T16:55:10.820108",
+        "author": {
+          "id": "d1d98277eb562e88c64dbeb0771d1d3c",
+          "source_id": "Slackwise",
+          "username": "Slackwise",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6b945cfbaff6ffeb83f819d0cce2ad68",
+        "source_id": "48166501",
+        "content": {
+          "text": "Man, they just take away one of implementations, RSS lives as a standard! It is actually good to understand how cloud services are never going to benefit us, long term. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.822055",
+        "updated_at": "2026-05-18T16:55:10.822055",
+        "author": {
+          "id": "015e11dcc2fa9348cf4a204e5609e1d8",
+          "source_id": "koziserek",
+          "username": "koziserek",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f51470c84932e56417d223de993650c6",
+        "source_id": "48164743",
+        "content": {
+          "text": "When they started to say you cant do that. Gatekeeping the platform by either having a deep skill dependency tree or cooperate gatekeeping and lock down. The first one is more annoying as the \"professionalization\" kills the creative spark in many OS projects. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.824041",
+        "updated_at": "2026-05-18T16:55:10.824041",
+        "author": {
+          "id": "47b4673bea91c25d3aacabaab19a2257",
+          "source_id": "warumdarum",
+          "username": "warumdarum",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2d93672ef773bfeb7b0bec568df4f377",
+        "source_id": "48164739",
+        "content": {
+          "text": "Ignoring any cultural dynamics that may be at play: maybe sometime after you started getting paid to do it. Personally, I find it enjoyable relative to other jobs, but I've lost most of the recreational enjoyment since I started making a living from it. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.826056",
+        "updated_at": "2026-05-18T16:55:10.826056",
+        "author": {
+          "id": "a49e7fc87b74a9e5d3316e8048c09ab9",
+          "source_id": "pesus",
+          "username": "pesus",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a137880575a75fc6fdfd77a8968a2d3b",
+        "source_id": "48164994",
+        "content": {
+          "text": "BBSes were fun, and I had a good time exploring the mid 90s internet, between Gopher, FTP sites, Usenet, and eventually websites, there was always something worth checking out. I don't know when it stopped being fun, I don't recall hating Facebook in 2008, but I do know that it had pissed me off on more than one occasion by 2012. I think community building is what's been missing or done badly for the last 15+ years. I can find a few subreddits where I like the community, but Discord and similar have never worked for me. I don't think that live chat suits my temperament. I also suspect that up and down votes have been corrosive for social media in general. I don't know that you can get the feeling back without either building and maintaining your own communities using the tools the corporatized Internet makes available to you, or finding and participating in the communities that you like. I do know that five years ago when the fediverse was a topic of conversation that there was a thread that content moderation and curation was going to be the only valuable work to be done in social media. tl;dr: I suspect it's a community building and maintenance problem, not a coding problem. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.828166",
+        "updated_at": "2026-05-18T16:55:10.828166",
+        "author": {
+          "id": "39d9c2beaff780c3f7dbe4329ee7dee8",
+          "source_id": "zzgo",
+          "username": "zzgo",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "67649aec1c5a114739ebc9f224e356d7",
+        "source_id": "48164561",
+        "content": {
+          "text": "When you turn 30 reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.830248",
+        "updated_at": "2026-05-18T16:55:10.830248",
+        "author": {
+          "id": "3374bcbbe86b82894922819661863fd0",
+          "source_id": "justonceokay",
+          "username": "justonceokay",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "84e4e8cda6301c01f3c502e239b8b179",
+        "source_id": "48165390",
+        "content": {
+          "text": "i lold reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.832320",
+        "updated_at": "2026-05-18T16:55:10.832320",
+        "author": {
+          "id": "cf4eec5ad08d2904997c214248a1d7a4",
+          "source_id": "bvanderveen",
+          "username": "bvanderveen",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3fc413f1963aa23c5d913ff74b628ebe",
+        "source_id": "48164782",
+        "content": {
+          "text": "Reminds me of winamp skins. Such wacky designs would be unthinkable today. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.834422",
+        "updated_at": "2026-05-18T16:55:10.834422",
+        "author": {
+          "id": "114a826df0c38913e8d79ac234a734e7",
+          "source_id": "enaaem",
+          "username": "enaaem",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e738de71cc7d911849ab516d792244ef",
+        "source_id": "48164813",
+        "content": {
+          "text": "Ours is a culture that can no longer whip the llama’s ass. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.836540",
+        "updated_at": "2026-05-18T16:55:10.836540",
+        "author": {
+          "id": "eb72287757897ab796a94775c27afb5f",
+          "source_id": "anon7725",
+          "username": "anon7725",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4a6c25032f90e34d0e934e8df702f3cf",
+        "source_id": "48166502",
+        "content": {
+          "text": "Now ollama whips our arses. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.838734",
+        "updated_at": "2026-05-18T16:55:10.838734",
+        "author": {
+          "id": "015e11dcc2fa9348cf4a204e5609e1d8",
+          "source_id": "koziserek",
+          "username": "koziserek",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2c341cb5fc6cc1e0afcf822e769b0d18",
+        "source_id": "48164949",
+        "content": {
+          "text": ">  Everything I may need either already exists or is too complex to do on my own Wait until you get older. I did! And I have identified over the years tons of applications that would help seniors that nobody gives one iota of attention to, because \"no get rich quick money in it\" The simplest example of all. Shopping.I can't read price labels on the lowest shelf [0], and as for use-by date and ingredients, my OE nearsighted as hell lenses can't read any of them. Seniors who didn't have a career in engineering and computers get scammed regularly, get information from the internet that is either garbage or outright malicious, the list goes on and on. I am using my remaining time to address these. And how about students? Everything changed overnight. Rather than enriching them, they are using AI to cheat and avoid thinking and learning. What would you say to them? What would you teach? How would your life and work experience benefit them? Way back when, I planned some after school labs (there was money for such things) where kids would go out and collect data, and then deal with it collectively (talking to other kids and instructors, not \"Professor Claude\", who didn't exist in those days, and if their computers were inadequate, give them bootable linux media (like Knoppix) or just time remotely accessible. Hey, I'm excited at 77. These things didn't happen because I never had a network. Great things happen when there's a Jobs and a Woz. Not in isolation. Needs change. Invent that REALLY REAL exoskeleton now, the robotic \"fetch my meds\" robotic assistant now, and they'll be ready when you're ready for them. [0] Only Trader Joe's provides big, legible labels. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.841203",
+        "updated_at": "2026-05-18T16:55:10.841203",
+        "author": {
+          "id": "833d9183e1fefad47087684dd98b93e6",
+          "source_id": "k310",
+          "username": "k310",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "85e545c06fadb81c109912d1d6781976",
+        "source_id": "48164491",
+        "content": {
+          "text": "Computer fun is inversely proportional to number of investors. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.843489",
+        "updated_at": "2026-05-18T16:55:10.843489",
+        "author": {
+          "id": "799d355c7e124042cf5f2d258c1f8181",
+          "source_id": "burnto",
+          "username": "burnto",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9762b8763844daa5d3fb776ffe32140e",
+        "source_id": "48164804",
+        "content": {
+          "text": "Simply because people prior to VC used time to make fun stuff.  After VC came in and bought up that time to make more money,  the fun stuff disappeared. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.845737",
+        "updated_at": "2026-05-18T16:55:10.845737",
+        "author": {
+          "id": "fc0fc2d3f266d5d71a8780a80bbe4329",
+          "source_id": "reconnecting",
+          "username": "reconnecting",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d69cf88a6a4a9bca41c7582452a86fa9",
+        "source_id": "48164608",
+        "content": {
+          "text": "I'm still having a ton of fun with computers, even moreso with the advent of halfway usable AI. Being able to plug a little intelligence into software with little effort makes many things a lot more convenient. One of my favorites is having an LLM monitoring a long running task and doing something about it if something goes off the rails. The hurdle to seeing what an idea what look like in implementation has also decreased a lot, so I don't have to worry about picking something small enough to finish over a weekend or two. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.848000",
+        "updated_at": "2026-05-18T16:55:10.848000",
+        "author": {
+          "id": "0b2627c334a3590b8adbe615fbf92bea",
+          "source_id": "hgoel",
+          "username": "hgoel",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d6bad894959c5174ed1546e904f1976c",
+        "source_id": "48164479",
+        "content": {
+          "text": "Computers are amazing because they are still open doors, to doing so much, to endless creativity. As for me, really enjoying the wide diversity of bespoke well considered creature comforts people are building with Home Assistant. I love the various casting technologies & how it finally gave us a networked ubiquitous & pervasive cross device opening (very excited for Open Screen protocol). My local area has a pretty active group of people doing LoRa and now wifi halow meshing, which is so cool to see: actual person to person connectivity. I love seeing the huge variety of apps being built around atmospheric computing. Having one ur-connected Personal Data Server that we are sovereign over that atproto hosts (some technical quibles about use of \"hosts\" allows here) all kinds of different online apps is incredible, and it's wild what people are cooking up. The pace, the care, the community, now that we have a omni-purpose social networking software that respects the users is amazing, breathtaking. https://atstore.fyi The whole agent era is amazing, with incredible agentic and/or vibe coding things on demand. We can learn and see so much more than before. People are going wild building systems they access remotely by phone, by ssh, by voice, that have so much on tap, that run such incredible and affordable models (deepseek flash rocking the house). Computing's form is in total review. > I don't care for coding new stuff. Everything I may need either already exists or is too complex to do on my own (and no, I won't vibe-code it, what's the fun in that?) Hahaha. Ok. You destroyed your spark a long time ago & are never ever ever getting it back with an attitude like that. You've grey bearded every drop of glamor out from the world if that's what you've let yourself think. That is the corporatized atittude you just decried! Dry and cut. > Any suggestion on getting it back? You have built all manners of walls and inhibitions that keep you from being involved, from considering possibility, from seeing progress. I have technical things I think are amazing that I've shared. But you need to work on tearing down the walls that you have walled yourself into, and finding a will within yourself that is able and interested in engaging the world. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.850499",
+        "updated_at": "2026-05-18T16:55:10.850499",
+        "author": {
+          "id": "2cce84f1de45b21fda09f5051bc9e0de",
+          "source_id": "jauntywundrkind",
+          "username": "jauntywundrkind",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c995ecee84236bc788891b164c41ce76",
+        "source_id": "48164637",
+        "content": {
+          "text": "Thanks for the great question! I think they used to be so much fun because they were an unexplored frontier. Perhaps we need a new frontier? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.852961",
+        "updated_at": "2026-05-18T16:55:10.852961",
+        "author": {
+          "id": "e4a30fc1f6afcf5dc3593160cc44d4c1",
+          "source_id": "vivid242",
+          "username": "vivid242",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "aaf250fea9c030ab660dad76ed15edd5",
+        "source_id": "48168607",
+        "content": {
+          "text": "I thought that a bit at a talk at ClawCon https://youtu.be/6rSEOzWY08U?t=2517 Maybe AI agents are the new frontier? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.855524",
+        "updated_at": "2026-05-18T16:55:10.855524",
+        "author": {
+          "id": "e6acc4e99ffa80670019fda84a40db62",
+          "source_id": "tim333",
+          "username": "tim333",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c9bc3366b533a75f3c250d7f1251d2b6",
+        "source_id": "48168016",
+        "content": {
+          "text": "For me it was when del.icio.us was \"sunsetted\" by Yahoo! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.857987",
+        "updated_at": "2026-05-18T16:55:10.857987",
+        "author": {
+          "id": "b11d8e2ea729a2d31b565865fce0dd78",
+          "source_id": "AlecSchueler",
+          "username": "AlecSchueler",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "fa1e4305b3d778e929c6985e9a9cb6b2",
+        "source_id": "48164750",
+        "content": {
+          "text": "It's kind of touched on elsewhere, but when phones became computers. Suddenly it's an always on resource that needs value extracting. It's even worse nowadays, post COVID, with the insane hustle culture. I mean, yeah, these strats worked when it was the odd person doing it. But now.. nah thanks, you're trying to play on my basic human nature. You want fun? Build shit. Stop being precious about vibe coding, it's a spectrum, nothing is too complex now.. learn from the LLM if you don't want to just let it run with the code. Shit.. it's fun to finally build out a good portion of the never ending ideas list (and to realise half of those ideas just aren't worth the effort) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.860482",
+        "updated_at": "2026-05-18T16:55:10.860482",
+        "author": {
+          "id": "72c4e4ed73465053d221872a3c86a6d1",
+          "source_id": "_puk",
+          "username": "_puk",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "773240d77f8ab83a1527041f187cb4b3",
+        "source_id": "48164791",
+        "content": {
+          "text": "25 years ago, we were still trying to milk as much as possible out of autoexec.bat and config.sys.. maybe we'd moved on slightly, but we were definitely still trying to get the damn 56k modem to give us the best ping possible. All this to say.. it was fun because it wasn't easy. We were learning. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.862962",
+        "updated_at": "2026-05-18T16:55:10.862962",
+        "author": {
+          "id": "72c4e4ed73465053d221872a3c86a6d1",
+          "source_id": "_puk",
+          "username": "_puk",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "dd5f106e3b45df23a7a2e7a48ef96b2c",
+        "source_id": "48165006",
+        "content": {
+          "text": "Anytime, buddy! DEVICE=C:\\DOS\\HIMEM.SYS\n   DEVICE=C:\\DOS\\EMM386.EXE NOEMS X=D000-DFFF\n\n   BUFFERS=30\n   FILES=40\n   FCBS=4,0\n   STACKS=9,256\n   DOS=HIGH,UMB\n   LASTDRIVE=F reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.865530",
+        "updated_at": "2026-05-18T16:55:10.865530",
+        "author": {
+          "id": "fc0fc2d3f266d5d71a8780a80bbe4329",
+          "source_id": "reconnecting",
+          "username": "reconnecting",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7408bdb509c3ca5af2476fa3beaef7af",
+        "source_id": "48165465",
+        "content": {
+          "text": "Respect. I've been my very own 'memmaker' too :-) But your's lacks EMS, which at that time was still sometimes necessary for some programs. As was just HIMEM.SYS for 'pure' Windows 3.xsomething. So I multimenued that at boot, including options for QEMM and 386totheMax, to cover it all, and compare :-) EDIT: 4Dos & Scitech Display Doctor(later UNIVBE), too. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.868083",
+        "updated_at": "2026-05-18T16:55:10.868083",
+        "author": {
+          "id": "766d1fda3c4cb3e1c12db816f3c34933",
+          "source_id": "LargoLasskhyfv",
+          "username": "LargoLasskhyfv",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e81f98880f27ff89a2ab5190c8003fe9",
+        "source_id": "48176484",
+        "content": {
+          "text": "They didn't! But corporate development can be soul killing. Free software is really fun if u have time. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.870663",
+        "updated_at": "2026-05-18T16:55:10.870663",
+        "author": {
+          "id": "a26966f71f87c35cc87937d3d7e8f084",
+          "source_id": "bjourne",
+          "username": "bjourne",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "81140afe1e4700b8546a7ed36dc9c95b",
+        "source_id": "48164786",
+        "content": {
+          "text": "The 80s and 90s were fun, with Atari, Commodore, DEC, SGI, Sun, HP, Next, even IBM all going at it. I guess widespread Wintel and internet access, plus Google going for commodity hardware for their servers sealed the deal - consolidation was the way forward, competition was dead. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.873264",
+        "updated_at": "2026-05-18T16:55:10.873264",
+        "author": {
+          "id": "0af51876a58b4d195d0f50e9bfcffcee",
+          "source_id": "ngcazz",
+          "username": "ngcazz",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f82933e1dff95788763b2b379ee4be25",
+        "source_id": "48164246",
+        "content": {
+          "text": "Raspberry Pi + Home Assistant is really fun, especially if you try to create your own self-hosted voice assistant and connected speaker system reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.875916",
+        "updated_at": "2026-05-18T16:55:10.875916",
+        "author": {
+          "id": "ccef7a19f737446167398146343df7f0",
+          "source_id": "smt88",
+          "username": "smt88",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6f59ee88ebd64257ad2a0fc55d16dc70",
+        "source_id": "48170912",
+        "content": {
+          "text": "When we lost the Frys experience, whatever it was. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.878596",
+        "updated_at": "2026-05-18T16:55:10.878596",
+        "author": {
+          "id": "fea4f10ad3bf21c95e7574d66bef039f",
+          "source_id": "_DeadFred_",
+          "username": "_DeadFred_",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6013ba66c621f6b7e461bb49eb23440d",
+        "source_id": "48164241",
+        "content": {
+          "text": ">Basically, the spark I felt some 25 years ago seems to be completely gone. You got old. The thing you loved became work. That's when most things stop being fun. Don't know what to tell you. Maybe collect stamps or something. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.881297",
+        "updated_at": "2026-05-18T16:55:10.881297",
+        "author": {
+          "id": "14d688e3a965535c98d7ae36741a9df8",
+          "source_id": "krapp",
+          "username": "krapp",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "cb36829c63e103a017a31fb7dec25e4c",
+        "source_id": "48164623",
+        "content": {
+          "text": "The internet and computing started to eat the world. Monetization lead to enshittification.. social issues popping everywhere. What used to be a smaller things with lots of promise ended up as the bedsoil for a special kind of hell, and it makes me want to stay away from mainstream webdev / computing for a while (unless it's for a real benefit for some people or society) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.883988",
+        "updated_at": "2026-05-18T16:55:10.883988",
+        "author": {
+          "id": "6e991fbc36d644911741011ea91aeb6f",
+          "source_id": "agumonkey",
+          "username": "agumonkey",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3084fd1efc733ab95e3db307f2bd0bbd",
+        "source_id": "48166296",
+        "content": {
+          "text": "when Java was introduced reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.886698",
+        "updated_at": "2026-05-18T16:55:10.886698",
+        "author": {
+          "id": "7f0022d8f72c9466adeb3778cf186861",
+          "source_id": "yesnomaybe",
+          "username": "yesnomaybe",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "cf241a915827b3986d96c461851308c8",
+        "source_id": "48165210",
+        "content": {
+          "text": "If you don't care for software development, I would suggest you to try your hand at self hosting. I am having a ton of fun with it. It's easy and fairly cheap to get started. I bought a refurbished Dell Optiplex to be a home server, and I am getting a lot of mileage out of it. There's all sort of applications you can self host nowadays, it's highly cuatomizable, and can be extremely useful on top of it. If you have an old computer lying around unused you can even try turning it into a home server to see if it suits your tastes. At least for me was something highly addictive. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.889467",
+        "updated_at": "2026-05-18T16:55:10.889467",
+        "author": {
+          "id": "a8f48e0133b28536e605e432c94bae51",
+          "source_id": "surgical_fire",
+          "username": "surgical_fire",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "20bcca1d26d57703d1af2b77cf726f5d",
+        "source_id": "48164634",
+        "content": {
+          "text": "When you were young the internet (or substitute for whatever actually was the new thing) was the new thing, you loved it, you loved trying to push it to it's limits, what can it do? why don't I try this? I can break this! fun! Now you are older, AI is the new thing, young people[0] are having a blast, pushing it to it's limits, what can it do?! they're hacking . But you're older so you're not interested in shiny new thing. [0] and some older people to be clear, I admire them most, they keep their mind and curiosity young reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.892222",
+        "updated_at": "2026-05-18T16:55:10.892222",
+        "author": {
+          "id": "b439ecc3b74242c1049299814f3f7c5f",
+          "source_id": "FergusArgyll",
+          "username": "FergusArgyll",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a2ae65b3102d5219be3cf578ee3d06c4",
+        "source_id": "48164468",
+        "content": {
+          "text": "Get a uConsole! Or any of the trending variants. Little computers are still fun. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.895011",
+        "updated_at": "2026-05-18T16:55:10.895011",
+        "author": {
+          "id": "8d79b820ee3a9689271f2aa16a479de7",
+          "source_id": "yepyoukno",
+          "username": "yepyoukno",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9ee3e50d3b1706cee996b32d1322026e",
+        "source_id": "48164422",
+        "content": {
+          "text": "Get back into computers that have limited ability but are fun to use, such as the MNT Reform. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.897795",
+        "updated_at": "2026-05-18T16:55:10.897795",
+        "author": {
+          "id": "7957a161ea9984b5443de7fd345840f2",
+          "source_id": "ktallett",
+          "username": "ktallett",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "55a4bd7df018951515d03bc9f55c2d77",
+        "source_id": "48164386",
+        "content": {
+          "text": "When you got old :) I know what you mean, I think that happened when Corporations took over the internet. Plus, when Smart Phones came out, most were locked down.  If they were not locked down I think it would have been lots of fun for the young hacking them.  Now, almost all devices are in the process of following the Cell Phone Trend. But some fun can be had with the *BSDs and some Linux Distros, hopefully that can continue in spite of these new Age Verification Laws. Seems the young of today cannot hack, break, fix computers now, they seem to be on a Assembly Line to Corporate boredom. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.900706",
+        "updated_at": "2026-05-18T16:55:10.900706",
+        "author": {
+          "id": "73b11efa89134ad531236d51cc5d6b75",
+          "source_id": "jmclnx",
+          "username": "jmclnx",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "28cbbfd4ff40b62faf071c54667950e6",
+        "source_id": "48164255",
+        "content": {
+          "text": "It was fun when the Commodore Amiga came out and outshone the Macintosh, until the Mac II came out, of course. But the Commodore Amiga and Atari ST had emulators for all kinds of computers. Of course, when Commodore went bankrupt, the fun ended. They didn't innovate or market like the Apple Macintosh or IBM PC Clones. You can still program in BASIC with PC-BASIC: https://robhagemans.github.io/pcbasic/ BASIC was always fun to use. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.903629",
+        "updated_at": "2026-05-18T16:55:10.903629",
+        "author": {
+          "id": "be159f034e7316060230b86254c974ea",
+          "source_id": "orionblastar",
+          "username": "orionblastar",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "782c2bad0532bc4eb852007364a9b876",
+        "source_id": "48164396",
+        "content": {
+          "text": "loving is laborious reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.906540",
+        "updated_at": "2026-05-18T16:55:10.906540",
+        "author": {
+          "id": "83fc19d3b270f0bc8d6ba07040e0f479",
+          "source_id": "luqtas",
+          "username": "luqtas",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a2df747c44fdcaa3420204da7faa039d",
+        "source_id": "48164975",
+        "content": {
+          "text": "The last \"fun\" I had related to \"work\" computing may have been as long ago as 2000. Writing something cool or clever that I was proud to show off. By 2010 pretty much everything sucked and by 2015 I left IT entirely, no longer having any belief in the ability to make people's lives better. After I retired I was more willing to go back to just farting around with computers, but it's not the same. The jawbros and pseudo-suits took all the interest out of it. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.909482",
+        "updated_at": "2026-05-18T16:55:10.909482",
+        "author": {
+          "id": "05caff928774655b9765d086184daad0",
+          "source_id": "theturtle",
+          "username": "theturtle",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "fc2bd58881578df548c9d1d92ddf98bb",
+        "source_id": "48164414",
+        "content": {
+          "text": "They’re still fun? Why not? It’s more magical than ever now, even if it’s changed a lot from the “glory days” which is nostalgic thinking mostly. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-05-18T16:55:10.912482",
+        "updated_at": "2026-05-18T16:55:10.912482",
+        "author": {
+          "id": "7ef1f6c546ecc234fd42179c0f248d05",
+          "source_id": "Dumblydorr",
+          "username": "Dumblydorr",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-05-18T16:55:10.915175",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "66c59930b78389ac4a14a7fd160b6286",
+      "source_id": "48060054",
+      "title": "Ask HN: We just had an actual UUID v4 collision...",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-05-18T16:55:01.907019",
+      "updated_at": "2026-05-18T16:55:01.907019",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "bec14b6fbc664ca1db7b6ca19793ee52",
+        "source_id": "mittermayr",
+        "username": "mittermayr",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 477,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48060054",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-05-18T16:55:14.642745",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "df5bffc54a06c24ae0cbb1f5ce259518",
+      "source_id": "48085993",
+      "title": "Ask HN: What are you working on? (May 2026)",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-05-18T16:55:01.907912",
+      "updated_at": "2026-05-18T16:55:01.907912",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "bec7335d8f4973f3cc1886331a825dda",
+        "source_id": "david927",
+        "username": "david927",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 289,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48085993",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-05-18T16:55:19.206552",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "75ca1d0accd696a37ea4dfeb620b8323",
+      "source_id": "48166147",
+      "title": "Ask HN: What LLM models are you using and why?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-05-18T16:55:01.908372",
+      "updated_at": "2026-05-18T16:55:01.908372",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "99ed14ebe4a53bcd4e8956679291359f",
+        "source_id": "rubyn00bie",
+        "username": "rubyn00bie",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 8,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48166147",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-05-18T16:55:21.810617",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  }
+]
