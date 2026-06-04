@@ -12337,5 +12337,3831 @@
       ],
       "is_nsfw": false
     }
+  },
+  {
+    "post": {
+      "id": "d46e4c509c58d4cdf70319e2525e61b7",
+      "source_id": "48357725",
+      "title": "Ask HN: Who is hiring? (June 2026)",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-06-04T16:59:32.707458",
+      "updated_at": "2026-06-04T16:59:32.707458",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "e8c46afb26dea49b5339afec6e8a91d1",
+        "source_id": "whoishiring",
+        "username": "whoishiring",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 237,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48357725",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-06-04T16:59:37.161986",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "36e8cff467d2786376e27534c8d8eb02",
+      "source_id": "48397634",
+      "title": "Ask HN: How do you find deep technical content?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-06-04T16:59:32.708265",
+      "updated_at": "2026-06-04T16:59:32.708265",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "14be0fda77821fee4b7300f3fa302da1",
+        "source_id": "f311a",
+        "username": "f311a",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 11,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48397634",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-06-04T16:59:41.522714",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "188051559f17837f22d88486e02ad6ce",
+      "source_id": "48397102",
+      "title": "Ask HN: Heavy coding-agent users what's your context plumbing? Where it fails?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">From what I've seen it sits at three levels:<p>Layer 1: Personal (memory MCP tools, personal *.md files)\nLayer 2: Repo (CLAUDE or AGENTS.md, in-repo docs)\nLayer 3: Org-wide (Unblocked, Glean, or similar)<p>Most people have strong opinions on 1 and 2. Layer 3 seems underinvested.<p>Curious, do you think 1 and 2 make 3 redundant, or would a strong 3 mean you'd stop/reduce patching with 1 and 2?</p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-06-04T16:59:32.708909",
+      "updated_at": "2026-06-04T16:59:32.708909",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "cd88a8ef7c38e03ef8e5eb07386aad44",
+        "source_id": "srbsa",
+        "username": "srbsa",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 3,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48397102",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "9baa2f8b6827ecbe7f78a74536d03f73",
+        "source_id": "48397937",
+        "content": {
+          "text": "From my team experience repo level documentation, skills and agents are enough to share similar approach of using AI among the team. We also trying to adopt journals for AI. Basically generate a single md file after each conversation to have a context of what was done. For me the biggest pain right now is to have some kind of central place where other team can post skills they use, prompts and other things. Right now we are thinking about creating a separate repo to store custom skills and other stuff so each team can contribute and use others team work. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T16:59:44.026013",
+        "updated_at": "2026-06-04T16:59:44.026013",
+        "author": {
+          "id": "8b811152d9df636bdbd465c7a60c6982",
+          "source_id": "bohdanstefaniuk",
+          "username": "bohdanstefaniuk",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-06-04T16:59:44.026146",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "efa3db57a0b126f4866678d327939005",
+      "source_id": "48357724",
+      "title": "Ask HN: Who wants to be hired? (June 2026)",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-06-04T16:59:32.709569",
+      "updated_at": "2026-06-04T16:59:32.709569",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "e8c46afb26dea49b5339afec6e8a91d1",
+        "source_id": "whoishiring",
+        "username": "whoishiring",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 145,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48357724",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-06-04T16:59:49.255093",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "521513a27c689423435f1bf68242a2fc",
+      "source_id": "48397731",
+      "title": "Ask HN: So what happened to Facebook \"localhost\" tracking?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">It was discussed a year ago.\nhttps://news.ycombinator.com/item?id=44235467</div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-06-04T16:59:32.710315",
+      "updated_at": "2026-06-04T16:59:32.710315",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "2ec497f690042a54e3eff1741dc7d9a2",
+        "source_id": "juliusceasar",
+        "username": "juliusceasar",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 42,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48397731",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "9513802ec8245858c4d33c726cac6f85",
+        "source_id": "48398118",
+        "content": {
+          "text": "> Meta must face a lawsuit alleging that it secretly tracked Android users' browsing activity on mobile websites that embedded Meta's analytics pixel, and linked that activity to users' identities, a federal judge ruled Monday. > The decision, issued by U.S. District Court Judge Rita Lin in San Francisco, grew out of a class-action complaint initially brought last June by California resident Devin Rose (and later joined by other Android users). > Rose alleged that between September 2024 and June 2025, Meta exploited Android's localhost -- a feature that allows software developers to test applications -- to connect users’ mobile web browsing to their Facebook and Instagram profiles. May 12, 2026 reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T16:59:51.957865",
+        "updated_at": "2026-06-04T16:59:51.957865",
+        "author": {
+          "id": "ebaa39029a021b56b2c8a751aeeff75a",
+          "source_id": "applfanboysbgon",
+          "username": "applfanboysbgon",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "705f6c59f2d03b0e1df3f18b3cbb95b8",
+        "source_id": "48399709",
+        "content": {
+          "text": "Not at all to defend Meta but \"a feature that allows software developers to test applications\" is a dubious definition of localhost. I also can't come up with a better one. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T16:59:51.958399",
+        "updated_at": "2026-06-04T16:59:51.958399",
+        "author": {
+          "id": "4e269717fed1a3fe3085580ce94d7fb4",
+          "source_id": "Retr0id",
+          "username": "Retr0id",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7331d46a246df8ed22772b3257f3fe1c",
+        "source_id": "48398787",
+        "content": {
+          "text": "docket: https://www.courtlistener.com/docket/70448987/in-re-meta-and... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T16:59:51.958991",
+        "updated_at": "2026-06-04T16:59:51.958991",
+        "author": {
+          "id": "894930cfeb6c225f7a7a3019518e8714",
+          "source_id": "gruez",
+          "username": "gruez",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "bb1f346c10d4dca5f290774b97141b10",
+        "source_id": "48398232",
+        "content": {
+          "text": "i would love to have a software engineer's union, not so much to get better working conditions but to be able to say stuff like \"i can't implement that unethical feature, it's against union rules and i'd lose my membership\". reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T16:59:51.959568",
+        "updated_at": "2026-06-04T16:59:51.959568",
+        "author": {
+          "id": "0278ff9197c5dc349193e84c63a46487",
+          "source_id": "woodrowbarlow",
+          "username": "woodrowbarlow",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5ab3a9bbee18634a281444ac442b48b6",
+        "source_id": "48399241",
+        "content": {
+          "text": "To be fair; you don't need a union... you can just say no. Context; I told them they couldn't ship this exact feature as designed. (It worked until I left.) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T16:59:51.960163",
+        "updated_at": "2026-06-04T16:59:51.960163",
+        "author": {
+          "id": "4078e048442112d66c2df5e857a0ec20",
+          "source_id": "grayhatter",
+          "username": "grayhatter",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5d69de4e1101e41e393a61ba9c3f01e2",
+        "source_id": "48399749",
+        "content": {
+          "text": "yes, true sometimes (not always). but if more people have access to a way to confidently say \"no\" (with protection behind them), then i think saying \"no\" would happen more often, by people who might've otherwise complied. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T16:59:51.960805",
+        "updated_at": "2026-06-04T16:59:51.960805",
+        "author": {
+          "id": "0278ff9197c5dc349193e84c63a46487",
+          "source_id": "woodrowbarlow",
+          "username": "woodrowbarlow",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9f980200a35c9337aa2e35aa162267ab",
+        "source_id": "48399420",
+        "content": {
+          "text": "Without the protection of a union, \"just saying no\" is a good way to get fired reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T16:59:51.961445",
+        "updated_at": "2026-06-04T16:59:51.961445",
+        "author": {
+          "id": "49988c616060c421126760678becf706",
+          "source_id": "Trasmatta",
+          "username": "Trasmatta",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6758bcd14dcf5a00563fbf193bd6c86a",
+        "source_id": "48398548",
+        "content": {
+          "text": "Start one. Unions are worker owned. You could also join the IWW. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T16:59:51.962115",
+        "updated_at": "2026-06-04T16:59:51.962115",
+        "author": {
+          "id": "806d6457c502080b076ee3baf0ed748a",
+          "source_id": "volkercraig",
+          "username": "volkercraig",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c41fbec3f473d990fb66705c2aa473e4",
+        "source_id": "48399409",
+        "content": {
+          "text": "are there examples of unions that have started around a focus on the ethics of the services they provide? unions traditionally start locally, around issues for which the locality is a hotspot, which is why they usually focus on pay and working conditions. it's also easier to get a large group to agree on a set of improvements to working conditions vs a set of ethical boundaries. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T16:59:51.962818",
+        "updated_at": "2026-06-04T16:59:51.962818",
+        "author": {
+          "id": "0278ff9197c5dc349193e84c63a46487",
+          "source_id": "woodrowbarlow",
+          "username": "woodrowbarlow",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d7da6b2e9a215e1ae58b60ac108811c6",
+        "source_id": "48398878",
+        "content": {
+          "text": "Unions in the US are nerfed, by law. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T16:59:51.963546",
+        "updated_at": "2026-06-04T16:59:51.963546",
+        "author": {
+          "id": "e894c17fba3933f640cbe3f4ee57b1c0",
+          "source_id": "actionfromafar",
+          "username": "actionfromafar",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0deca4a0a782f37c6e2fa299b8569610",
+        "source_id": "48399162",
+        "content": {
+          "text": "Collective bargaining is nerfed.  Other structures remain viable and legal. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T16:59:51.964296",
+        "updated_at": "2026-06-04T16:59:51.964296",
+        "author": {
+          "id": "b732fc112fe68527fc6aef487e2d260c",
+          "source_id": "greyface-",
+          "username": "greyface-",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "37fad41a1952a651d8f6aedb78fe0187",
+        "source_id": "48399247",
+        "content": {
+          "text": "Are you not allowed to leave the US? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T16:59:51.965082",
+        "updated_at": "2026-06-04T16:59:51.965082",
+        "author": {
+          "id": "aaec074bacdc35fedcdb2453c0968e9a",
+          "source_id": "askl",
+          "username": "askl",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d318200b971f04750a076d6c7204c2ad",
+        "source_id": "48399673",
+        "content": {
+          "text": "I'd wonder how you'd get into that arrangement to begin with when the entire job is based on unethical tracking reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T16:59:51.965897",
+        "updated_at": "2026-06-04T16:59:51.965897",
+        "author": {
+          "id": "6687636db69996200b52ae603c0a8166",
+          "source_id": "kube-system",
+          "username": "kube-system",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1b44aef0afef8a5d651c22b05f30b6fd",
+        "source_id": "48398268",
+        "content": {
+          "text": "Take a lead, let me sign up :) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T16:59:51.966744",
+        "updated_at": "2026-06-04T16:59:51.966744",
+        "author": {
+          "id": "a6565689bf0734fc0ec891e30967864b",
+          "source_id": "absqueued",
+          "username": "absqueued",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0accde0003fbe7cf55e3a8db7591a88d",
+        "source_id": "48398835",
+        "content": {
+          "text": "And this is why we don't have one. Someone else is expected to do the hard part. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T16:59:51.967627",
+        "updated_at": "2026-06-04T16:59:51.967627",
+        "author": {
+          "id": "09e4935f62f4a4b1c17fb25be787e5cf",
+          "source_id": "SoftTalker",
+          "username": "SoftTalker",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ab4c2bc7d9ce15b105025190bf0b63e9",
+        "source_id": "48398534",
+        "content": {
+          "text": "same reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T16:59:51.968531",
+        "updated_at": "2026-06-04T16:59:51.968531",
+        "author": {
+          "id": "11f6016969b87dee5a120dfa7f555e51",
+          "source_id": "hasahmed",
+          "username": "hasahmed",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2e4efb5d22cb2b8cde840572d2d0163f",
+        "source_id": "48398844",
+        "content": {
+          "text": "You don't need to join a union to push back against unethical feature requests. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T16:59:51.969440",
+        "updated_at": "2026-06-04T16:59:51.969440",
+        "author": {
+          "id": "afd31acc4421191f6d59c397c86e0794",
+          "source_id": "theodorejb",
+          "username": "theodorejb",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1c22ebc02cb4c47c687e5c2172e9dd76",
+        "source_id": "48398899",
+        "content": {
+          "text": "The collective leverage of a union gives you significantly more power to do something like this. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T16:59:51.970412",
+        "updated_at": "2026-06-04T16:59:51.970412",
+        "author": {
+          "id": "b84e964f83698d60b7bbc0e15bc29245",
+          "source_id": "jakubadamw",
+          "username": "jakubadamw",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0bdd609e343cb5877aea270fc10b9e97",
+        "source_id": "48398983",
+        "content": {
+          "text": "Only if the union is against the unethical request. In some cases the union may be for it, which makes it even harder to push back. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T16:59:51.971398",
+        "updated_at": "2026-06-04T16:59:51.971398",
+        "author": {
+          "id": "afd31acc4421191f6d59c397c86e0794",
+          "source_id": "theodorejb",
+          "username": "theodorejb",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d330b43bb7c5966ce2291fc6d14142a6",
+        "source_id": "48398906",
+        "content": {
+          "text": "> You don't need to join a union to push back against unethical feature requests. If you push back against unethical feature requests: No union: you get fired Union: you still get fired reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T16:59:51.972449",
+        "updated_at": "2026-06-04T16:59:51.972449",
+        "author": {
+          "id": "51c3c556b757c26f5138f2830212f959",
+          "source_id": "chrncirurp",
+          "username": "chrncirurp",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b3f60843f484c14714dad6c080ee935e",
+        "source_id": "48399034",
+        "content": {
+          "text": "Still a better outcome than tossing your ethics overboard. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T16:59:51.973512",
+        "updated_at": "2026-06-04T16:59:51.973512",
+        "author": {
+          "id": "4bf164be5fbdee0050ec0f8263ab840d",
+          "source_id": "jeffgreco",
+          "username": "jeffgreco",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c4a741a11516bba1d3d0840dff614a67",
+        "source_id": "48399290",
+        "content": {
+          "text": "Why bother to join a union, pay dues, potentially have your career limited, and have another layer to deal with? Just leave or be fired without the song and dance. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T16:59:51.974609",
+        "updated_at": "2026-06-04T16:59:51.974609",
+        "author": {
+          "id": "92f2d8292b863386022df742432923d5",
+          "source_id": "garciasn",
+          "username": "garciasn",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b25ca977a42c4df8e92ce72874d24e0e",
+        "source_id": "48399552",
+        "content": {
+          "text": "Because you’re a person who cares about your fellow citizens and realize that collectively bargaining helps to lift all boats, not just yours reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T16:59:51.975731",
+        "updated_at": "2026-06-04T16:59:51.975731",
+        "author": {
+          "id": "2bf387acd0c3969d1ff6405e026269fb",
+          "source_id": "Henchman21",
+          "username": "Henchman21",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "61482d9b332ee1ea77e77671a5b6bc68",
+        "source_id": "48399696",
+        "content": {
+          "text": "union strong, bro. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T16:59:51.976878",
+        "updated_at": "2026-06-04T16:59:51.976878",
+        "author": {
+          "id": "cc68d10b7873bf5b8d16a04b97b3834c",
+          "source_id": "josefritzishere",
+          "username": "josefritzishere",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4af0c7d630ebba7a4f760a7a930b2dbd",
+        "source_id": "48399045",
+        "content": {
+          "text": "maybe, but the union could provide a lot of services to someone who loses their job this way (like income insurance and legal services) and could leverage collective power over companies that demonstrate a pattern of behavior. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T16:59:51.978045",
+        "updated_at": "2026-06-04T16:59:51.978045",
+        "author": {
+          "id": "0278ff9197c5dc349193e84c63a46487",
+          "source_id": "woodrowbarlow",
+          "username": "woodrowbarlow",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3f9e476707bf4c411affcbfc0e163a6a",
+        "source_id": "48399156",
+        "content": {
+          "text": "This is something that has just never sat well with me. How exactly will the union provide this insurance? That insurance isn't free, so paid for by member dues? How many members are required to be able to afford the payout for just one member? How about the other services unions are touted as being able to provide? They all come from the same dues? I know that unions will put money into investment funds to attempt to grow the coffers, but that just means the money isn't liquid. Unions are always touted as a panacea, but logically, it doesn't compute for me. They feel more like ponzi schemes than anything else. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T16:59:51.979251",
+        "updated_at": "2026-06-04T16:59:51.979251",
+        "author": {
+          "id": "13fd6bef80a080c9c5270f7ab8fb116e",
+          "source_id": "dylan604",
+          "username": "dylan604",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "84b19760cf8d317494093f47562e483c",
+        "source_id": "48400057",
+        "content": {
+          "text": "> This is something that has just never sat well with me. How exactly will the union provide this insurance? That insurance isn't free, so paid for by member dues? That is how all unions were born. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T16:59:51.980550",
+        "updated_at": "2026-06-04T16:59:51.980550",
+        "author": {
+          "id": "44d29f6e92be9da6f15023ff8cd5f813",
+          "source_id": "prmoustache",
+          "username": "prmoustache",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8652f713f2634bca79498214c1792c7e",
+        "source_id": "48400117",
+        "content": {
+          "text": "That's great insight. Thanks for contributing. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T16:59:51.981817",
+        "updated_at": "2026-06-04T16:59:51.981817",
+        "author": {
+          "id": "13fd6bef80a080c9c5270f7ab8fb116e",
+          "source_id": "dylan604",
+          "username": "dylan604",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b265d27b26c445100d80e82e9804c261",
+        "source_id": "48399309",
+        "content": {
+          "text": "that's definitely a big question and i don't pretend to have enough expertise to answer fully; however, i will point to the Ontario Teacher's Pension Plan which is (per Wikipedia[1]) \"one of the world's largest institutional investors [...] over $266 billion in net assets, with a one-year total-fund net return of 9.4%, and a 7.4% 10-year total-fund net return\". the union runs their own investment fund; it's an extension of collective power into the financial realm. https://en.wikipedia.org/wiki/Ontario_Teachers%27_Pension_Pl... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T16:59:51.983154",
+        "updated_at": "2026-06-04T16:59:51.983154",
+        "author": {
+          "id": "0278ff9197c5dc349193e84c63a46487",
+          "source_id": "woodrowbarlow",
+          "username": "woodrowbarlow",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "158359fc089052a19d3e03352ab55734",
+        "source_id": "48399614",
+        "content": {
+          "text": "That is only a pension plan. It provides no insurance to teachers who are still employed. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T16:59:51.984502",
+        "updated_at": "2026-06-04T16:59:51.984502",
+        "author": {
+          "id": "4816c113b7d83ccaa37bdecd64a0156a",
+          "source_id": "hluska",
+          "username": "hluska",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4c488583dc48ce8da27e020aa9b09330",
+        "source_id": "48399316",
+        "content": {
+          "text": "> That insurance isn't free, so paid for by member dues? Yes, obviously. That's how every insurance works. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T16:59:51.985879",
+        "updated_at": "2026-06-04T16:59:51.985879",
+        "author": {
+          "id": "aaec074bacdc35fedcdb2453c0968e9a",
+          "source_id": "askl",
+          "username": "askl",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "741af7c2351d18a466be7eeb03e581cb",
+        "source_id": "48400039",
+        "content": {
+          "text": "Yes, obviously. A question not asked as assumed a natural part of the thinking process is how many members does it take to get to the center of a tootsie pop? Just because other unions exists does not mean that the one that techBro Norma Rae starts is going to remain viable. How many claims can be paid out before the insurance no longer pays out? Lots of conversation left after your trite yes obviously unhelpful comment reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T16:59:51.987278",
+        "updated_at": "2026-06-04T16:59:51.987278",
+        "author": {
+          "id": "13fd6bef80a080c9c5270f7ab8fb116e",
+          "source_id": "dylan604",
+          "username": "dylan604",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e027ea7f58b7903224da780326e9ca19",
+        "source_id": "48399508",
+        "content": {
+          "text": "Simple idea: look how other unions work, and in other countries as well. The wheel has already been invented. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T16:59:51.988732",
+        "updated_at": "2026-06-04T16:59:51.988732",
+        "author": {
+          "id": "2965b063d92429a7713263211777a994",
+          "source_id": "soco",
+          "username": "soco",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6afa3f0e53ad860871de83b4b66e158f",
+        "source_id": "48400106",
+        "content": {
+          "text": "You can say that about a lot of things. The car was already invented, but so many new car companies struggle. Just because a thing exists does not mean someone else can come along to immediately become successful with thing. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T16:59:51.990253",
+        "updated_at": "2026-06-04T16:59:51.990253",
+        "author": {
+          "id": "13fd6bef80a080c9c5270f7ab8fb116e",
+          "source_id": "dylan604",
+          "username": "dylan604",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3665fd5bb8f20528a1b4d8c077ffd220",
+        "source_id": "48399262",
+        "content": {
+          "text": "I didn't get fired. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T16:59:51.991829",
+        "updated_at": "2026-06-04T16:59:51.991829",
+        "author": {
+          "id": "4078e048442112d66c2df5e857a0ec20",
+          "source_id": "grayhatter",
+          "username": "grayhatter",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ffebca50859753108387cc1d7395db41",
+        "source_id": "48399462",
+        "content": {
+          "text": "That’s what licensing is for, not unions. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T16:59:51.993345",
+        "updated_at": "2026-06-04T16:59:51.993345",
+        "author": {
+          "id": "af33e02d8f5fe931f0743ed89575432d",
+          "source_id": "LadyCailin",
+          "username": "LadyCailin",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "01404c21c7af0cbbf3a30aab4dc72403",
+        "source_id": "48399656",
+        "content": {
+          "text": "i don't believe that software development should require a license. imagine having to get board-licensed to download gcc; therein lies the death of free software and owning your devices. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T16:59:51.994902",
+        "updated_at": "2026-06-04T16:59:51.994902",
+        "author": {
+          "id": "0278ff9197c5dc349193e84c63a46487",
+          "source_id": "woodrowbarlow",
+          "username": "woodrowbarlow",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "31456241d17c1d1fa2192c28a9357799",
+        "source_id": "48400825",
+        "content": {
+          "text": "> therein lies the death of free software and owning your devices (That’s what these people want) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T16:59:51.996506",
+        "updated_at": "2026-06-04T16:59:51.996506",
+        "author": {
+          "id": "2fdeaf27a2faaa78c6b09203020ea3c5",
+          "source_id": "iamnothere",
+          "username": "iamnothere",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "49a501cdedd503e3d4cbf7b4e4214e42",
+        "source_id": "48399557",
+        "content": {
+          "text": "A union could absolutely get involved in something like this. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T16:59:51.998095",
+        "updated_at": "2026-06-04T16:59:51.998095",
+        "author": {
+          "id": "4816c113b7d83ccaa37bdecd64a0156a",
+          "source_id": "hluska",
+          "username": "hluska",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7aaf639bc7f5223375763a70ffb46285",
+        "source_id": "48399437",
+        "content": {
+          "text": "> not so much to get better working conditions but ... why not both? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T16:59:51.999766",
+        "updated_at": "2026-06-04T16:59:51.999766",
+        "author": {
+          "id": "b35604b673b1e83e83a0b41f43a62268",
+          "source_id": "ethagnawl",
+          "username": "ethagnawl",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "328fd9e30c215f6b9a1abbf4d1063575",
+        "source_id": "48397820",
+        "content": {
+          "text": "Looks like they stopped doing it https://localmess.github.io > UPDATE: As of June 3rd 7:45 CEST, Meta/Facebook Pixel script is no longer sending any packets or requests to localhost. The code responsible for sending the _fbp cookie has been almost completely removed. Yandex has also stopped the practice we describe below. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T16:59:52.001522",
+        "updated_at": "2026-06-04T16:59:52.001522",
+        "author": {
+          "id": "c6ef6b917302c35988326cf7658d5633",
+          "source_id": "KomoD",
+          "username": "KomoD",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4848f845b1384328b2b2f67a6b544185",
+        "source_id": "48398081",
+        "content": {
+          "text": "Chrome and Firefox have deployed / are deploying local-network-access which prompts the user when apps try this. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T16:59:52.003223",
+        "updated_at": "2026-06-04T16:59:52.003223",
+        "author": {
+          "id": "2ef13baeb79fc850afd22716e6fb9c4e",
+          "source_id": "mozvalentin",
+          "username": "mozvalentin",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6f72f57594dc095a485de40122e8ca2c",
+        "source_id": "48398697",
+        "content": {
+          "text": "I guess that's why I am getting so many \"Allow to find devices on your network\" alerts. Good feature overall. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T16:59:52.005054",
+        "updated_at": "2026-06-04T16:59:52.005054",
+        "author": {
+          "id": "b01388b3daaec091962196796d765ff4",
+          "source_id": "pezgrande",
+          "username": "pezgrande",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b058c6b48711f9cab787bd355b672a60",
+        "source_id": "48398858",
+        "content": {
+          "text": "Only a good feature if users have a clue what that question means. Most will click \"Yes\" because they want to get on with whatever they want to do. Change it to something like \"This website is trying to spy on your local devices, do you want to allow this?\" reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T16:59:52.006835",
+        "updated_at": "2026-06-04T16:59:52.006835",
+        "author": {
+          "id": "09e4935f62f4a4b1c17fb25be787e5cf",
+          "source_id": "SoftTalker",
+          "username": "SoftTalker",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "39b455aa5fae4344fc14f50ee634f040",
+        "source_id": "48399450",
+        "content": {
+          "text": "I honestly don't think the average Google Chrome user knows what a 'local' device is, and we should go something more ELI5 \"This website wants to spy on every other device connected to your network\" or something reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T16:59:52.008631",
+        "updated_at": "2026-06-04T16:59:52.008631",
+        "author": {
+          "id": "4226fd0d83e804bfca8cda0787183822",
+          "source_id": "dpoloncsak",
+          "username": "dpoloncsak",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "27e501cad8d4f81f90435dd8497f0348",
+        "source_id": "48399546",
+        "content": {
+          "text": "I just discovered that MacOS was blocking Firefox from connecting to devices on my LAN - there's per-app toggle in system settings. Access to my router's web interface was not blocked (understandably) but this left me rather confused for a while. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T16:59:52.010453",
+        "updated_at": "2026-06-04T16:59:52.010453",
+        "author": {
+          "id": "7c5a3e35f7d3484347d0efb4c0271c9e",
+          "source_id": "crtasm",
+          "username": "crtasm",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "568682085f7f236239efc0518bfe60d8",
+        "source_id": "48398170",
+        "content": {
+          "text": "I was just about to say that my question in regards to this was \"what are web browsers doing about it?\" reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T16:59:52.012370",
+        "updated_at": "2026-06-04T16:59:52.012370",
+        "author": {
+          "id": "a73b9006061775cbcacad2311df4c94a",
+          "source_id": "shit_game",
+          "username": "shit_game",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "191070c6e98ccb10eef5e7fa010e3678",
+        "source_id": "48398169",
+        "content": {
+          "text": "I've seen it and at least in Chrome it seems to be treating all URLs which are based on an IP address as \"local\", regardless of the class of the address. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T16:59:52.014251",
+        "updated_at": "2026-06-04T16:59:52.014251",
+        "author": {
+          "id": "ef8050746cd75bf30ea143c27bb7e2f8",
+          "source_id": "Tade0",
+          "username": "Tade0",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1b1f04d1b6e97f2464416ea698c6fc66",
+        "source_id": "48398557",
+        "content": {
+          "text": "I'd be inherently suspicious of any website in the wild attempting to contact a bare IP address. Aside from localhost, my default assumption would be that such a website is either trying to circumvent my hosts file (or circumvent my other DNS configuration, e.g. pi-hole or DNS-over-HTTPS), malware trying to reach a command-and-control server, or malware trying to circumvent my adblocker. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T16:59:52.016155",
+        "updated_at": "2026-06-04T16:59:52.016155",
+        "author": {
+          "id": "507ab7dce9fc2f8a0c28c80c4e6b9fc1",
+          "source_id": "kibwen",
+          "username": "kibwen",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6131d092ceddb69c1ecb9e08a3921c78",
+        "source_id": "48398752",
+        "content": {
+          "text": "Off topic: I wonder how hard it is to poison this type of data gathering? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T16:59:52.018078",
+        "updated_at": "2026-06-04T16:59:52.018078",
+        "author": {
+          "id": "826f8c0a05fb7f3c246e255f69a0e6e9",
+          "source_id": "throwa356262",
+          "username": "throwa356262",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-06-04T16:59:52.019641",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "e36dbf9448609b874c6bf044fd24a101",
+      "source_id": "48398139",
+      "title": "Ask HN: What are all the ways to punch through NAT?",
+      "content": {
+        "text": "<div class=\"toptext\"></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-06-04T16:59:32.710958",
+      "updated_at": "2026-06-04T16:59:32.710958",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "d69849389d5a6c7ca0aead6fd7643c76",
+        "source_id": "jupr",
+        "username": "jupr",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 3,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48398139",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "6ae52ac02813b893599a0944527efd5e",
+        "source_id": "48400159",
+        "content": {
+          "text": "I think this is the most popular GH: https://github.com/anderspitman/awesome-tunneling . There are tunneling tools written in Go, Rust, Python, Node, PHP, Java, .NET, and C. Some use SSH, some WireGuard, some WebSockets, some QUIC, some roll their own protocol. Many are single-maintainer projects with bursts of commits followed by silence. ngrok owns the space, allows you to actually put protections in place for your tunnel. Really popular for site-to-site vpn replacement and remote access for devices. They have static domains on free now. Tunnels no longer time out. Cloudflare has a tunnel product, if you're already using their DNS. Many of the IDEs have tunnels now too reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T16:59:53.236538",
+        "updated_at": "2026-06-04T16:59:53.236538",
+        "author": {
+          "id": "5f5ffb7f2a182dae2db5a4a249935fe5",
+          "source_id": "srichard16",
+          "username": "srichard16",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6b2c1eb6d4b7dc4a2b1cb18fc40582ec",
+        "source_id": "48400650",
+        "content": {
+          "text": "Great source thank you for that. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T16:59:53.237049",
+        "updated_at": "2026-06-04T16:59:53.237049",
+        "author": {
+          "id": "d69849389d5a6c7ca0aead6fd7643c76",
+          "source_id": "jupr",
+          "username": "jupr",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "27148bc6ddcd39d101ff8b88dbad0634",
+        "source_id": "48400018",
+        "content": {
+          "text": "ngrok is popular.\nbut in my opinion localtunnel is far better. few commands and your server is live reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T16:59:53.237594",
+        "updated_at": "2026-06-04T16:59:53.237594",
+        "author": {
+          "id": "94a0c09dd3d6b363eb70c9d74c985a51",
+          "source_id": "pseudo-usama",
+          "username": "pseudo-usama",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "31a55efb2ecbbcc7b53a6e1fc92dd833",
+        "source_id": "48398883",
+        "content": {
+          "text": "Pitchfork, pickaxe, spear... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T16:59:53.238141",
+        "updated_at": "2026-06-04T16:59:53.238141",
+        "author": {
+          "id": "78fa8c12c2509a82c705b439420e676e",
+          "source_id": "goodmythical",
+          "username": "goodmythical",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-06-04T16:59:53.238329",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "6efa227b7ced7be116f9f49699178ebb",
+      "source_id": "48378906",
+      "title": "Ask HN: A Brief History of LLMs",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-06-04T16:59:32.712031",
+      "updated_at": "2026-06-04T16:59:32.712031",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "85113ff1f91a16eb9b8c4bc68ec31ab5",
+        "source_id": "menomatter",
+        "username": "menomatter",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 9,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48378906",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-06-04T16:59:57.451757",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "c1eee2bc5c88a718314f3b2c87462615",
+      "source_id": "48389819",
+      "title": "Ask HN: Why Ask HN has only 14 questions now?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-06-04T16:59:32.712647",
+      "updated_at": "2026-06-04T16:59:32.712647",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "a18163a85ec11a78da9618c57a5581a4",
+        "source_id": "throwaw12",
+        "username": "throwaw12",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 11,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48389819",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-06-04T17:00:00.517427",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "47bbe5bff0bdef1037bb8a9ab813e419",
+      "source_id": "48337409",
+      "title": "Ask HN: What Is the State of App Development in 2026?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">What is going on in the world of pure IOS/Android app development?<p>How is AI/LLMs affecting app development?\nwhat has changed in App Development in the past 2-5 years?\nWhat does a career in only app development look like nowadays?<p>Thank you!</p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-06-04T16:59:32.713265",
+      "updated_at": "2026-06-04T16:59:32.713265",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "2408f51bd6318489fa78e14576573a7d",
+        "source_id": "karakoram",
+        "username": "karakoram",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 101,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48337409",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "e84c13cba4215793b49149f9b598dc3b",
+        "source_id": "48338958",
+        "content": {
+          "text": "My perspective: I've been supporting and working with Mac and iOS developers since the last century, when Apple moved me from Chicago to be an evangelist at Apple HQ in Cupertino. I know as much as anyone about AI-assisted app development, as the creator/maintainer of the free/open source Axiom ( https://charleswiltgen.github.io/Axiom/ ) for iOS/macOS devs. It's not as dire as you might think. To software developers, the \"AI revolution\" is largely what the \"desktop publishing revolution\" was to designers. Yes, it meant the \"riff raff\" could theoretically play with the pros. Some percentage of the riff raff became pros. Most of the pros eventually adopted the tools and techniques used by the riff raff. Some of the pros didn't survive the transition and happily retired, taking their rubylith, Letraset type, and rubber cement with them. The silver lining is that most of a software engineer's job isn't coding, it's thinking. LLMs can't do that, and we're not getting to AGI with current AI architectures. LLMs can amplify thinking, and an LLM in the hands of a software engineer or architect is at least two orders of magnitude more effective than it can be in the hands of a vibe coder. As LLMs get better for vibe coders, they also get better for pros. One can argue that, by the end of the decade, hand-coded [your language of choice] may be considered as unnecessary as hand-coded assembly has been for decades. But coding in modern languages is already 7-8 levels of abstraction above the metal. One more level of abstraction is not the death of software engineering, IMO. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.425801",
+        "updated_at": "2026-06-04T17:00:02.425801",
+        "author": {
+          "id": "1495929392a878a35c856d7222bf48bc",
+          "source_id": "CharlesW",
+          "username": "CharlesW",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "83774f2ecf2c307fdb5515e8bc6435c9",
+        "source_id": "48343686",
+        "content": {
+          "text": "> But coding in modern languages is already 7-8 levels of abstraction above the metal. But those layers are pretty much deterministic. I think that's the qualitative difference. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.426350",
+        "updated_at": "2026-06-04T17:00:02.426350",
+        "author": {
+          "id": "21b4ae1a65f4ddad87824d42f130e8aa",
+          "source_id": "steve1977",
+          "username": "steve1977",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d1d84d93a8f1e712135071c51e955b25",
+        "source_id": "48339934",
+        "content": {
+          "text": "AI is not an abstraction. I still can’t believe engineers are making this basic, definitional mistake. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.426916",
+        "updated_at": "2026-06-04T17:00:02.426916",
+        "author": {
+          "id": "7945d3f3ead88126c0651e2a20f2e33c",
+          "source_id": "archagon",
+          "username": "archagon",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "76dc8bdd652ee2e8cd30a88cf35ac510",
+        "source_id": "48340614",
+        "content": {
+          "text": "If not an abstraction, how would you describe it then? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.427468",
+        "updated_at": "2026-06-04T17:00:02.427468",
+        "author": {
+          "id": "6d8959690a45186c24f7c5c14fc62755",
+          "source_id": "pan69",
+          "username": "pan69",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8ae495570ee588b10f36251ad9e3e7cb",
+        "source_id": "48340653",
+        "content": {
+          "text": "I don't know? It's an agent, an automated contractor, a black box that produces work. When you pay someone to help write your app, you don't call that an \"abstraction.\" reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.428069",
+        "updated_at": "2026-06-04T17:00:02.428069",
+        "author": {
+          "id": "7945d3f3ead88126c0651e2a20f2e33c",
+          "source_id": "archagon",
+          "username": "archagon",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "70725253941d4acb86922c0a23a365b5",
+        "source_id": "48340745",
+        "content": {
+          "text": "AI isn’t someone. And sure instead of building X I can of course bring in Y that abstracts away X. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.428710",
+        "updated_at": "2026-06-04T17:00:02.428710",
+        "author": {
+          "id": "15aad96e20e60a5b63071c12b56a38bb",
+          "source_id": "victorbjorklund",
+          "username": "victorbjorklund",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0586db2cd3d8b88d5da48404cc827aab",
+        "source_id": "48348267",
+        "content": {
+          "text": "I think the reasonable way to look at LLMs is similar to how you'd work with junior developers. They can churn out code, but do need constant guidance. Of course, (some of the) real juniors will eventually become seniors. It remains to be seen if LLMs will. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.429457",
+        "updated_at": "2026-06-04T17:00:02.429457",
+        "author": {
+          "id": "cefb2d538839d233b504aa5f6debca47",
+          "source_id": "bergie",
+          "username": "bergie",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ed647c386b243a21f05017c7cd5224e8",
+        "source_id": "48339062",
+        "content": {
+          "text": "I don't think i fear so much for competing on quality vs a vibe coder, I think two orders of magnitude is underselling the potential snowball effect of a vibe coder attempting to craft up a semi complex project. The sooner they start to pile on complexity, the quicker it is that the 2x gap widens. The fear for me comes with that initial creation, which is a fear i have across a large amount of things for AI \"disruption\". Just floods of bad products at rates that are insane, same type of problem that exists on github of just garbage prs, and same thing for any reddit/twitter/even hn type comment thread. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.430183",
+        "updated_at": "2026-06-04T17:00:02.430183",
+        "author": {
+          "id": "8ab09af912f59be2854e85cf482399e5",
+          "source_id": "sidrag22",
+          "username": "sidrag22",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "efe01ffed20a3ec617c8fd01a2466296",
+        "source_id": "48339500",
+        "content": {
+          "text": "Just another layer of Sturgeon's Law? - 90% of everything is vibe-coded crap - 90% of what isn't vibe-coded crap is also crap ergo, the small percentage which is left is not crap. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.430974",
+        "updated_at": "2026-06-04T17:00:02.430974",
+        "author": {
+          "id": "8f86c5761a63de10050cb28d5ca91760",
+          "source_id": "WillAdams",
+          "username": "WillAdams",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b6436c7e3adcaa7a683d81af67df5680",
+        "source_id": "48341163",
+        "content": {
+          "text": "[flagged]",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.431700",
+        "updated_at": "2026-06-04T17:00:02.431700",
+        "author": {
+          "id": "62960a49caf22adb94a3555e819de09e",
+          "source_id": "lichenwarp",
+          "username": "lichenwarp",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0b37341e43a6686f4f21a073280343cc",
+        "source_id": "48343879",
+        "content": {
+          "text": "We've banned this account. Posting repetitive, snarky, low-substance comments like this is clearly against the guidelines. If you don't want to be banned, you can email us (hn@ycombinator.com) and commit to observing the guidelines in future. https://news.ycombinator.com/newsguidelines.html reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.432504",
+        "updated_at": "2026-06-04T17:00:02.432504",
+        "author": {
+          "id": "811e49f922ab5aa3b74f465a170be24c",
+          "source_id": "tomhow",
+          "username": "tomhow",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "99c438b902d8ef1384323c045938e556",
+        "source_id": "48339607",
+        "content": {
+          "text": "Admittedly, I’ve gone through waves of feeling scared for the future of software engineering. I manage many people so I care about them and their futures. But the more I use AI in writing software, not just vibe coding, the more I align with this perspective. And the way I see it, when AGI does come it’s going to affect a whole lot more than the software engineering job market. That’s global societal-level impact type stuff. We’d have to reckon with if work (meaning a 9 to 5) is truly a requirement to thrive in life. Spoiler, it isn’t. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.433294",
+        "updated_at": "2026-06-04T17:00:02.433294",
+        "author": {
+          "id": "b75db2e39aac660822fe9732dc89aa0c",
+          "source_id": "willio58",
+          "username": "willio58",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "25d81a01ffa554ef9c2d507cb4a4458f",
+        "source_id": "48339893",
+        "content": {
+          "text": "It will create more inequality. Not in the way that you think. The best will always be the best. But the upper average and average and below will become all one and the same. And that’s kinda how society should be really. Equal opportunity. Not equal outcome. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.434146",
+        "updated_at": "2026-06-04T17:00:02.434146",
+        "author": {
+          "id": "b508e6538fc468cdc4f87dec8fcf3131",
+          "source_id": "eieiue",
+          "username": "eieiue",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "576187d23f05d9838f1adaa09c8986ee",
+        "source_id": "48346560",
+        "content": {
+          "text": "What are these 7-8 layers A lot of modern languages are still source -> IR -> binary reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.435018",
+        "updated_at": "2026-06-04T17:00:02.435018",
+        "author": {
+          "id": "a9a2a5f05ea1ec03572c069094ebe64c",
+          "source_id": "ex-aws-dude",
+          "username": "ex-aws-dude",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c8e782c38b5c4b769751cb6c3e1f2252",
+        "source_id": "48338394",
+        "content": {
+          "text": "I had a go at building both a Mac and iOS dictation app the other day (dictator.robgough.net) thinking that with Claude's input, this probably wouldn't work... but it was a real problem I had, and I wanted to see how far we could get. Best way to learn the tools, right? I'd already spent the day playing with alternative apps that didn't quite do what I wanted. The app itself is fairly straightforward, but it included some intermediate complexity in terms of audio capture and calling local models. Both something I'd never done, and as not-a-mac dev something I probably wouldn't have attempted for a side-project while I'm meant to be bootstrapping my own thing. I didn't touch a line of code, and I was blown away. I'm so impressed in fact that I'm predicting we'll see a resurgence in native apps in the near future. By far the worst (and slowest) part of the process is having to deal with the App Store, and the ridiculous hoops you have to jump through to get past review. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.435936",
+        "updated_at": "2026-06-04T17:00:02.435936",
+        "author": {
+          "id": "2e5ec61148fbb6fb1bc27d3b56bdda1a",
+          "source_id": "robgough",
+          "username": "robgough",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "fb8b7deb2ca0744a20f9c8eac3ed038b",
+        "source_id": "48339690",
+        "content": {
+          "text": "Looks nice.\nFunny, I also made a dictation app using claude ... yet just for iOS. https://kaikunze.de/aimemo/ reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.436893",
+        "updated_at": "2026-06-04T17:00:02.436893",
+        "author": {
+          "id": "fca58a001e5d89a2aa3f9481d03152b0",
+          "source_id": "kgarten",
+          "username": "kgarten",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ae4b566be4c20ae63e1df90eaa2fefc8",
+        "source_id": "48343751",
+        "content": {
+          "text": "What I'm actually excited about in AI are smaller specialised things like whisper, CLIP, SAM, etc. Just stacking them together as little building blocks has been amazing. Great app to hopefully let more people realize that it's not all just huge LLMs that have to run somewhere else! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.437870",
+        "updated_at": "2026-06-04T17:00:02.437870",
+        "author": {
+          "id": "62fc79e16189aac2e19ae09f5b317ede",
+          "source_id": "sureglymop",
+          "username": "sureglymop",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f1524b39d907997cfb958efaaa3f62a6",
+        "source_id": "48340111",
+        "content": {
+          "text": "That looks great! It's so clearly going to be the dominant way of working with your computer. I was such a cynic, so I was completely shocked at how quickly it became my favourite way to interact with my devices. I'm fully expecting to be completely sherlocked during Apple's WWDC event in the coming weeks. In fact, I'm hoping we will be. However, I fear that they might not be quite ready for that yet. This functionality really should sit at the top OS level, equal to Keyboard/Mouse/Trackpad etc. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.438868",
+        "updated_at": "2026-06-04T17:00:02.438868",
+        "author": {
+          "id": "2e5ec61148fbb6fb1bc27d3b56bdda1a",
+          "source_id": "robgough",
+          "username": "robgough",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "36c38fdf02f4474b4fbfe7f5ace6e3fa",
+        "source_id": "48338919",
+        "content": {
+          "text": "could you talk more about the hoops? i’m getting close to the point i’d like to release something and it’d be my first time. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.439877",
+        "updated_at": "2026-06-04T17:00:02.439877",
+        "author": {
+          "id": "b69e04eea7f3888b9ecc0e2a9c04ac35",
+          "source_id": "yacin",
+          "username": "yacin",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "14a6d1c5dd1ae4a3d72ee09a2900af45",
+        "source_id": "48338995",
+        "content": {
+          "text": "You need to have an Apple developer account. Then you need to submit your app to Apple for review. Then you need to comply with a list of sometimes arbitrary corrections/requirements that they send back (there is a document that specifies what you need to do, but it is not uniformly enforced in my experience). Then, eventually, you can list your app on the app store. It’s not super onerous, but it is much more annoying than the theoretical alternative of allowing people to install software of their choosing on their hardware (i.e. download the binary and run it) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.440937",
+        "updated_at": "2026-06-04T17:00:02.440937",
+        "author": {
+          "id": "c7cc499a6a56984a5ce05104f7697126",
+          "source_id": "peterlk",
+          "username": "peterlk",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "255f3338a101447c027b66a583549973",
+        "source_id": "48339143",
+        "content": {
+          "text": "Exactly this. For example the iOS app failed first time as I accidentally used \"Free\" in the app name, and the app declared support for UIBackgroundModes but they were \"unable to locate any features that require persistent audio\". The dictation keyboard switched you to the app, then if you left would keep recording... fairly basic and obvious stuff. I could have either gone back and argued the case, or simply rip it out which I opted for. It's now failed again because: The keyboard extension does not provide any functionality when the \"Full Access\" setting is toggled off. Well no, hardly my fault you've locked down the usefulness of third-party keyboards, but now I've added a full keyboard in there so it's a bit more useful without that access. I don't expect any users to ever see this. Admittedly this was more frustrating when that would be a couple days work, not just a quick prompt, to fix. Good luck with your app. Don't worry too much, you can generally work through their issues... but it can be a slow process. Make sure you leave plenty of time between your submission and when you want to launch! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.442048",
+        "updated_at": "2026-06-04T17:00:02.442048",
+        "author": {
+          "id": "2e5ec61148fbb6fb1bc27d3b56bdda1a",
+          "source_id": "robgough",
+          "username": "robgough",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "49b484b6cf3898e6a9c2596b1f8a1ef0",
+        "source_id": "48345035",
+        "content": {
+          "text": "great, thanks for the details! really helpful :) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.443138",
+        "updated_at": "2026-06-04T17:00:02.443138",
+        "author": {
+          "id": "b69e04eea7f3888b9ecc0e2a9c04ac35",
+          "source_id": "yacin",
+          "username": "yacin",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c315687653d87f48fe4d6825ee56f87a",
+        "source_id": "48339770",
+        "content": {
+          "text": "Do you want to release it to the general public or just a circle of friends and family? TestFlight lets you have up to a hundred users forever without ever truly releasing. I have a couple of home-relevant apps I am managing that way. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.444270",
+        "updated_at": "2026-06-04T17:00:02.444270",
+        "author": {
+          "id": "83337e1ea56d3c40b2085ebd840e6e24",
+          "source_id": "tclancy",
+          "username": "tclancy",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0818b2ac1e84210ee6e57cf9e163d482",
+        "source_id": "48340141",
+        "content": {
+          "text": "I think that's a fair question. For this app I didn't see the harm in releasing it. You have to pay for the account etc. to get it onto TestFlight anyway, so I might as well just put it out there. And avoids me having to resubmit every 90 days. There also wasn't a lot of custom \"me\" stuff in this one, but I could see going that route for other apps in the future. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.445453",
+        "updated_at": "2026-06-04T17:00:02.445453",
+        "author": {
+          "id": "2e5ec61148fbb6fb1bc27d3b56bdda1a",
+          "source_id": "robgough",
+          "username": "robgough",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "47dfdf1016a0fc644ab293e62258ca0f",
+        "source_id": "48339145",
+        "content": {
+          "text": "I mean, in general I dislike some of the more extreme app store gating.. but if apps are getting vibe coded with little effort I think gatekeeping is more important than ever. I think \"is the author willing to put in the work to pass review\" might be a useful heuristic, and it could also prevent things like vulnerable software being published. Plus it amuses me to imagine big tech having to deal with the slop apocalypse they've created! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.446665",
+        "updated_at": "2026-06-04T17:00:02.446665",
+        "author": {
+          "id": "e44e10f6607ee6f5e4341bf51585682f",
+          "source_id": "overgard",
+          "username": "overgard",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5a6ef5c3cf1eaa1263021a8eee0172cf",
+        "source_id": "48372684",
+        "content": {
+          "text": "My problem with the gatekeeping is that it isn't applied fairly. It's a central control point where a government can put pressure on the gatekeeper to suppress undesirable content. Plus, there are billions of people in the world who cannot qualify for Google's latest guidelines for becoming a registered developer. My team's app https://www.appdevforall.org/code-on-the-go/ is about empowering those people and if sideloading goes away then they won't be able to build and share the apps they need. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.447906",
+        "updated_at": "2026-06-04T17:00:02.447906",
+        "author": {
+          "id": "4008680fffd7a90ecd437c47b89ef76e",
+          "source_id": "hal-eisen",
+          "username": "hal-eisen",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "296b3c7e90e676ee3eb2cf2599849f3c",
+        "source_id": "48340211",
+        "content": {
+          "text": "Review times have already spiked, apparently, although I've never found them particularly good. There used to be a third-party website that tracked this via user submissions, though that was shut down when they made genuine efforts to improve timings several years ago as it was deemed no longer neccesary. I think it's a fair criticism that there will be a lot of people putting \"lower-quality\" apps on there. I do think Claude did a better job of this than I would have managed. It certainly seems to work well enough. I do believe Apple will have to rethink exactly what they want to gatekeep and why. If nothing else, in the context of allowing people to get more out of their powerful devices. For example, I wish my iPad Pro could actually do more useful things with it's M4 processor. Hopefully that's something the new CEO has on his list. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.449183",
+        "updated_at": "2026-06-04T17:00:02.449183",
+        "author": {
+          "id": "2e5ec61148fbb6fb1bc27d3b56bdda1a",
+          "source_id": "robgough",
+          "username": "robgough",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c5250198e24e5c7d4b771dcdf722a66f",
+        "source_id": "48339917",
+        "content": {
+          "text": "Not just native apps. There will be consolidation all over the place. Expect government services to take over and control things that were once private. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.450457",
+        "updated_at": "2026-06-04T17:00:02.450457",
+        "author": {
+          "id": "b508e6538fc468cdc4f87dec8fcf3131",
+          "source_id": "eieiue",
+          "username": "eieiue",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9106155f4da1590b259918bbd5d39ef5",
+        "source_id": "48338566",
+        "content": {
+          "text": "I suspect AI is going to result in the bottom falling out of the market for simple apps. React made simple webapps a case of just gluing dependencies together and much more approachable to a generalist developer than the previous generation of web development was. But native apps weren’t affected in the same way. With AI I suspect we’ll see a lot of simple apps, the ones that really aren’t doing much other than CRUD operations on a remote API, become very heavily AI generated by generalist developers. But there will still remain a healthy market for working on considerably more complex apps. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.451813",
+        "updated_at": "2026-06-04T17:00:02.451813",
+        "author": {
+          "id": "26ee08d208bbce9d5d1d76c4e4465e82",
+          "source_id": "afavour",
+          "username": "afavour",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "68d886f7d22dc319cce193f58a78666a",
+        "source_id": "48338608",
+        "content": {
+          "text": "Will the complex apps be discoverable though, and if not, will the devs bother at all? I feel like this would be a win for old-school open source, where people would do it for the love of the aim, and better vetted app stores like F-Droid might win out reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.453136",
+        "updated_at": "2026-06-04T17:00:02.453136",
+        "author": {
+          "id": "da4c20ea03516962ee2bcaa5eb6ee296",
+          "source_id": "tetris11",
+          "username": "tetris11",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ce699f6975dc1587cc4e94edf76ce755",
+        "source_id": "48340322",
+        "content": {
+          "text": "Surprisingly I'm seeing a rapid increase of discoverability for my apps FROM LLMs. The flood of Claude/ChatGPT users finding my apps right after I get a basic site up, before I've told anyone it exists, is astonishing. If you are solving a problem users are searching for, you will be found and found faster than ever via LLMs. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.454540",
+        "updated_at": "2026-06-04T17:00:02.454540",
+        "author": {
+          "id": "754ca58a5023f4d25fd2bddef2353181",
+          "source_id": "nulledy",
+          "username": "nulledy",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6c733ac9b466e962e277228a9ef00d43",
+        "source_id": "48339438",
+        "content": {
+          "text": "Is that a new problem though? I thought the App Store had been dead for discovery for a long time. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.455945",
+        "updated_at": "2026-06-04T17:00:02.455945",
+        "author": {
+          "id": "26ee08d208bbce9d5d1d76c4e4465e82",
+          "source_id": "afavour",
+          "username": "afavour",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ecc96bb6ce1780b94302065f58197525",
+        "source_id": "48338746",
+        "content": {
+          "text": ">Will the complex apps be discoverable though That is the real issue. How to get noticed in a sea of slop. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.457396",
+        "updated_at": "2026-06-04T17:00:02.457396",
+        "author": {
+          "id": "98c92efa9e0f32200cd49ac93843c2f2",
+          "source_id": "hermitcrab",
+          "username": "hermitcrab",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3de17ba26aceae33c41892dd1dcdf372",
+        "source_id": "48346598",
+        "content": {
+          "text": "Exactly, I think google translate is a good analogy Low end stuff is replaced by google translate but we still\nhave people working as translators for high end stuff like books, government, legal reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.458886",
+        "updated_at": "2026-06-04T17:00:02.458886",
+        "author": {
+          "id": "a9a2a5f05ea1ec03572c069094ebe64c",
+          "source_id": "ex-aws-dude",
+          "username": "ex-aws-dude",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "39b25de08387eaaba9b0e45096f50861",
+        "source_id": "48339418",
+        "content": {
+          "text": "Android native dev here. > What is going on in the world of pure IOS/Android app development? I'll speak only for Android. I am tired of Google breaking source compatibility with every AndroidX release and remaining on outdated IntelliJ Platform versions in Android Studio. not too long ago, Google released AGP 9.0, which was a SHOCKWAVE for many Android projects. many compiler plugins' compatibility, including Google's own Protobuf Gradle plugin, took very long to adapt. also, Kotlin Multiplatform received so much damage that a month after release, JetBrains themselves released an AGP 9.0 migration video on YouTube. and then we have MDC-Android (Views) v. Compose tension. MDC-Android got Material 3 and M3 Expressive components much faster than Compose, and for many you still have to be on alpha Compose Material3 releases... which are more stable than \"Stable,\" somehow. Compose is nice, but I'd swap Material for something else ASAP or use Compose Foundation directly. > How is AI/LLMs affecting app development? you have more useless buttons in Android Studio. or, if you are a paying IntelliJ IDEA Ultimate user, you can have Android support in IDEA, which enables ACP agents without sacrificing proper Android support. IDEA Android plugin lags behind AGP upgrades a little, though, but it's fine. oh, and, you can vibecode Android apps in Google AI Studio with streaming from a Google-hosted device, all without Android Studio. > what has changed in App Development in the past 2-5 years? 2 years? a lot. 5 years? the world turned upside down! Compose got Stable release 4 years ago. > What does a career in only app development look like nowadays? very discouraging. everyone just prefers React \"Native\". I couldn't find an Android job in two years because it's nowhere to apply to in Ukraine and just recently switched to .NET. guess what? less than a few weeks passed after I updated my Djinni and now I have a few interviews on the next week. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.460529",
+        "updated_at": "2026-06-04T17:00:02.460529",
+        "author": {
+          "id": "4fb04c08fbe57b9360f1230e81cbcfbc",
+          "source_id": "bpavuk",
+          "username": "bpavuk",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8936446daefbc1282079a8a0fdf7b668",
+        "source_id": "48339631",
+        "content": {
+          "text": "From the perspective of this intermediate/hobbyist level Python amateur who never quite got to grips with Swift, it's a paradigm shift.  For all manner of simple-ish personal apps, Claude can one-shot an MVP in a few minutes, pulling all of the Swift/UI boilerplate together (which would have taken me hours if not days via tutorials) which I can then easily tweak and iterate to my heart's content. It also supports the 'native is better' apprpach.  For example, I recently started with Powerflow [0] which I really like except for the size of it, and created a Swift version [1] in an hour of Claude plus manual tweaks.  It's been running quietly on my laptop ever since. The downside is that it brings Apple's iOS restrictions into sharper relief: being able to easily write widgets and apps to suit my needs but then being unable to run then for longer than a week on my own hardware without paying $99 a year is especially frustrating. [0] https://github.com/lzt1008/powerflow [1] https://github.com/Tom1827/powerflow-swift reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.462139",
+        "updated_at": "2026-06-04T17:00:02.462139",
+        "author": {
+          "id": "2cfdebf899d83b9aa862c9fb9e922364",
+          "source_id": "mft_",
+          "username": "mft_",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5110e14639bee81619b5fac18ff3f990",
+        "source_id": "48339785",
+        "content": {
+          "text": "I've been dipping my toes back in after nearly 10 years away from native development. I finally just got an Android app shipped to the Play Store for https://wordtrak.com , after several weeks of back and forth with what I am assuming are mostly robots managing the Google side of this. I was stunned to see how far Android distribution has come (and especially that all changes are now reviewed). What I was most surprised by though, was all of the ridiculous red tape around the actual process of getting an app listed. Best example: I had to confirm I didn't change the outcome of the Korean War in order to list on Play Store in Korea. In any case I got most of this done with Claude and expo.dev - it was a huge relief to let Claude Code churn through this and not have to worry about spending months re-learning frameworks and ecosystems. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.463801",
+        "updated_at": "2026-06-04T17:00:02.463801",
+        "author": {
+          "id": "41b3b16f0582b2b914c4d039a3bdfb4d",
+          "source_id": "qrush",
+          "username": "qrush",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "90d013a97fdec237893856e65f60bc59",
+        "source_id": "48339241",
+        "content": {
+          "text": "I just do iOS development and my opinion is this: Start with XCode then use an LLM to design and develop it out from there its great. The newer models work great with project files where they used to struggle. Using the Visual Code development tools alongside XCode, claude skills and 3rd party libraries and frameworks with SwiftUI and Swift 5/6 is really convincing me I should make apps full time again. Coding apps has become my dream job. https://github.com/LeoMobileDeveloper/ios-developer-tools https://github.com/AvdLee/SwiftUI-Agent-Skill reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.465438",
+        "updated_at": "2026-06-04T17:00:02.465438",
+        "author": {
+          "id": "fc7cc3879eb1c2eeed8842e1c2d254db",
+          "source_id": "guessbest",
+          "username": "guessbest",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "13e68f7e5569d64c87c7c6fd2c819487",
+        "source_id": "48359335",
+        "content": {
+          "text": "From the perspective of my own career in backend application development, the transformative impact that LLMs have brought to the field of application development over the past 1.5 years has exceeded that of the previous 10 (or even longer) years combined. In fact, throughout my 14 years career in backend development and engineering, I have been eagerly awaiting something -- like the LLMs -- that  would envolve the application development. As I feel that the most tedious and boring part of backend application development is \"translating\" business logic into technical code—and this happens to be precisely where LLMs excel. This does not means that writing code is invaluable or is no longer necessary; it simply means that this particular task no longer must be performed by humans personally. I suspect most people would agree that LLMs do not represent the ultimate path to AGI. Given this, why should we fear LLMs rather than embracing them? What exactly are we afraid of? After all, the tasks that LLMs are capable of handling are merely those that are most tedious and dull for humans. Yet, ultimately, who is it that defines and validates the software application ? The answer remains: humans! To enable humans to fully exercise their judgment and decision-making capabilities, while entrusting those tedious, monotonous daily tasks to LLMs—is this not precisely the tremendous boon we have been hoping for? I know this is easier said than done—hard to accept. Yet, developers need a job to earn a living and support their families. In this day and age, if one focuses exclusively on App development, what exactly do the career prospects look like? When it comes to the field of App development, I believe that the role and very essence of developers are poised to undergo a radical transformation. We should no longer limit ourselves to merely translating business logic into code; instead, we ought to pursue our niche—specifically, those tasks that rely primarily on judgment and creativity. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.467196",
+        "updated_at": "2026-06-04T17:00:02.467196",
+        "author": {
+          "id": "f87ec14ab13abd0cbaa5cad8fe102f85",
+          "source_id": "vincenthsin",
+          "username": "vincenthsin",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "97c3372c45c0be4d7c9185c1de462f1a",
+        "source_id": "48339043",
+        "content": {
+          "text": "So a bit different from the other comments. We're a wearable company which of course pairs with an app. We built iOS first because that's what most of our users have, though the team is mostly on Android. We built our logic in Rust, so that compiles cross platform. It's really just the UI layer that is per platform. Though I had initially written our first demo in React-Native, the team wanted to go with native UI. Lately we've been talking about moving the timeline for our Android app up because we can get AI to help using the iOS app as a foundation. I haven't seen anything really new and compelling in iOS/Android land. The promise of right once run anywhere continues to be a promise, and the bluetooth libraries across different devices (particularly in Android land) has me concerned. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.468913",
+        "updated_at": "2026-06-04T17:00:02.468913",
+        "author": {
+          "id": "242219ed4d8e31dd83d39dce831dbba0",
+          "source_id": "pedalpete",
+          "username": "pedalpete",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "81b15766e98461cd4419d2e4053a63c8",
+        "source_id": "48339586",
+        "content": {
+          "text": "> and the bluetooth libraries across different devices (particularly in Android land) has me concerned. I work on the Android side for a company that develops an external bluetooth device (not a wearable, but similar enough) and the bluetooth library situation has certainly been an issue to be concerned about. Using the default Android bluetooth SDK \"raw\" is fraught with potential problems, at the very least you need some sort of added message-queue-like system built on top since it does none of this for you.  You also have to contend with a lot of strange device specific issues (of the type \"works fine on 99% of Android devices, this one Samsung device has a driver quirk we need to work around\", etc). Things looked pretty good with the Jetpack androidx.bluetooth library as a higher level abstraction, but Google suddenly deprecated it and stopped working on it before it left alpha. After lots of investigations and iterations I ended up using Nordic Semiconductor's 2.0 Kotlin BLE Library, which is technically also still in alpha release, but is much more stable than that designation suggests. https://github.com/nordicsemi/Kotlin-BLE-Library After having messed with all of the options, I highly recommend Nordic's library as a solid basis for using Bluetooth in modern Android/Kotlin, but in your specific situation I'm not sure if bridging it to Rust would be less or more painful than having an LLM generate a Rust wrapper and message queue system over the raw android.bluetooth library. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.470799",
+        "updated_at": "2026-06-04T17:00:02.470799",
+        "author": {
+          "id": "fa04af633a6852beed3aaac21086cb3e",
+          "source_id": "georgemcbay",
+          "username": "georgemcbay",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "788db19f39169c44fc3ba54679f6a831",
+        "source_id": "48359439",
+        "content": {
+          "text": "Thanks for the info. We're using https://buttplug.io/ currently. After reviewing a bunch of packages, one of our devs decided this was probably the best available. I'll mention the new Nordic, as we are based on nrf chips. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.472577",
+        "updated_at": "2026-06-04T17:00:02.472577",
+        "author": {
+          "id": "242219ed4d8e31dd83d39dce831dbba0",
+          "source_id": "pedalpete",
+          "username": "pedalpete",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "41d593aaaa2a85b749d891d6350b734a",
+        "source_id": "48342386",
+        "content": {
+          "text": "> the bluetooth libraries across different devices (particularly in Android land) has me concerned At Google IO 2026 there little discussion of core improvements to Android as a platform. It was mostly AI related, nothing about Gabeldorsche etc, which I find more interesting. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.474351",
+        "updated_at": "2026-06-04T17:00:02.474351",
+        "author": {
+          "id": "07e4573a978dd691e458ccf2be71acf5",
+          "source_id": "clumsysmurf",
+          "username": "clumsysmurf",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "da1ed76d83c6797fb8f226776e01d175",
+        "source_id": "48339183",
+        "content": {
+          "text": "why was your team against react native? (for mobile app right that goes along with the wearable right?) you can ship the actual UI stuff in seconds. you can write your own plugins for anything native and just call it. we have a app that uses many native SDK calls which we write plugins for and call. not to mention that once the native work is done you can deploy ui level changes and new features, bug fixes to users over OTA. i’m just an outsider so i know my lane.  but whatever you do, do not allow bike shedding and ultra opinionated tech nerds to derail company vision timelines. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.476218",
+        "updated_at": "2026-06-04T17:00:02.476218",
+        "author": {
+          "id": "a30a8695019e97e5413f4a0335aae62a",
+          "source_id": "moomoo11",
+          "username": "moomoo11",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "bce40fb159d6458e295de9b8ddafd428",
+        "source_id": "48359473",
+        "content": {
+          "text": "I've used react native a bunch. When you've got custom elements it isn't always the cross-platform write once you think it is. I've always had custom components across iOS and Android. The big complaint is that the amount of work to get the level of polish needed in premium apps just isn't there. Or you need to do a bunch more work and it isn't significantly different than the amount of work of getting a native iOS and native android dev. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.478098",
+        "updated_at": "2026-06-04T17:00:02.478098",
+        "author": {
+          "id": "242219ed4d8e31dd83d39dce831dbba0",
+          "source_id": "pedalpete",
+          "username": "pedalpete",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f1306c04303961a2a8a9e657dd8a645f",
+        "source_id": "48339061",
+        "content": {
+          "text": "> We built our logic in Rust, so that compiles cross platform. It's really just the UI layer that is per platform. Having never created a mobile app, how's that work exactly? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.480038",
+        "updated_at": "2026-06-04T17:00:02.480038",
+        "author": {
+          "id": "9e47be17e761d6e6cf30b54b6503aa3c",
+          "source_id": "tasuki",
+          "username": "tasuki",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "04e9ad663b57f8651a2a4881773a237f",
+        "source_id": "48344502",
+        "content": {
+          "text": "We define our API into the Rust via protobufs[0] and some codegen. The wrapper around these is very lean, FFI-based[1], it's abstracted to a library so Android devs never need to know there's rust/codegen involved. We then define a light Kotlin-based wrapper around the protobuf-generated API[2]. This is a candidate to move to Kotlin multiplatform in the near future (mostly for test speed improvements). [0] https://github.com/ankitects/anki/tree/main/proto [1] https://github.com/ankidroid/Anki-Android-Backend/blob/a0428... [2] https://github.com/ankidroid/Anki-Android/blob/68192585a7ae4... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.482070",
+        "updated_at": "2026-06-04T17:00:02.482070",
+        "author": {
+          "id": "5dbe0500d53b4b9c3d3c69bc54f3bc36",
+          "source_id": "david_allison",
+          "username": "david_allison",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9355ee40f856623b7d8b2188117071dc",
+        "source_id": "48340178",
+        "content": {
+          "text": "FFI. For example in Flutter, there are packages like flutter_rust_bridge that allow you to write Rust that then interacts with the host OS. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.484062",
+        "updated_at": "2026-06-04T17:00:02.484062",
+        "author": {
+          "id": "20df84de1a82e678fc3b5c42c0d9bc89",
+          "source_id": "satvikpendem",
+          "username": "satvikpendem",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5942152341adc71f9a971d9174218328",
+        "source_id": "48339944",
+        "content": {
+          "text": "Check out tauri. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.486075",
+        "updated_at": "2026-06-04T17:00:02.486075",
+        "author": {
+          "id": "a6705927a6f5cb7902005e9de01c4196",
+          "source_id": "noman-land",
+          "username": "noman-land",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "468554fa0c80f60f0067b53d4d572de7",
+        "source_id": "48340930",
+        "content": {
+          "text": "Tauri is not even remotely an appropriate answer to this question. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.488094",
+        "updated_at": "2026-06-04T17:00:02.488094",
+        "author": {
+          "id": "4ff0ca0831e91cc936cfa732f7d5239b",
+          "source_id": "Klonoar",
+          "username": "Klonoar",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b0326bbed18e52a7b86aa7305b9bc557",
+        "source_id": "48337596",
+        "content": {
+          "text": "It is bad. Layoffs everywhere. Google is becoming apple. Companies want you to do the job of 6 engineers using ai. The market is saturated for new apps. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.490177",
+        "updated_at": "2026-06-04T17:00:02.490177",
+        "author": {
+          "id": "176078a27483332f03a5cc9a964da073",
+          "source_id": "mrKola",
+          "username": "mrKola",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "595a2dbc11f21a4d5b232fdddd21e4ed",
+        "source_id": "48338375",
+        "content": {
+          "text": "I’ll be curious to see how many new vibe coded apps make it to a 2.0 reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.492329",
+        "updated_at": "2026-06-04T17:00:02.492329",
+        "author": {
+          "id": "fd95881296eb8c3ca56340ebe8200952",
+          "source_id": "MattDamonSpace",
+          "username": "MattDamonSpace",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "32117330eb7a3d6a263fdb48ebc45c85",
+        "source_id": "48339228",
+        "content": {
+          "text": "AI has made it much easier to build an app, but distribution hasn't gotten any easier. Getting through App Store review, acquiring users, and retaining them still feels like 90% of the battle. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.494407",
+        "updated_at": "2026-06-04T17:00:02.494407",
+        "author": {
+          "id": "bdcd9ef2c048e5e06947ad45177706e1",
+          "source_id": "rupatiwari25",
+          "username": "rupatiwari25",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b840182053add8c66e776ff2fdb9c523",
+        "source_id": "48338820",
+        "content": {
+          "text": "I am building an app that is for a niche market, and I wouldn't have started without LLMs. The hard part of this app is great design, requiring intentionally designed workflows and lots of real world testing. The code isn't the interesting part and now code isn't taking most of my time. It's great! Once the design is nailed down and workflows tightened up, I don't expect much active development and can focus on distribution and marketing. As a solo dev, this feels totally doable but ask me in 6 months. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.496593",
+        "updated_at": "2026-06-04T17:00:02.496593",
+        "author": {
+          "id": "17809b59a29f3cba55a14843e257323f",
+          "source_id": "_jss",
+          "username": "_jss",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "17541b2281cadb4f341d41db68a1b92b",
+        "source_id": "48339446",
+        "content": {
+          "text": "For the past 12 years I've been mostly developing for Android professionally (minus a brief 1 year stint writing code for a system based on Raspberry Pi Compute Module 3). Other than LLMs the biggest change has been moving to Kotlin Compose from the old Android XML-based layout system. LLMs are something I use often now and I'm not thrilled about this but it is what it is. I'm one of those people who prefer to hand craft code in a deep flow state so the move to LLMs has made me enjoy my job less, but it is hard to argue against the productivity gains so I try to be grateful that there was a long period where what I enjoyed doing and getting paid for were so well aligned.  It isn't like my job is horrible now, it is just not quite as fun. While I use agentic AI quite a bit, I don't \"vibe code\".  Much of the software I currently write falls under various medical compliance systems (FDA, EMA, etc) and they rightfully expect us to understand and be personally responsible for the quality of the code we produce.  Even absent the regulations, I still find it absolutely wild people ship code (associated with their name in any way) without looking at it. I've been working for the same company for the past 5 years so I have little idea of how the career/interview side of things have changed recently.  From anecdotal reports it seems like a giant mess of ghost jobs and competing with massive piles of AI-generated and AI-filtered resumes these days unless you have a strong network from the before times. A lot of people in this thread seem to be worried about discoverability, I'm sure AI has made that worse but it was already a huge problem to get random apps noticed even before AI.  The apps I currently work on professionally support external hardware devices that the apps control via bluetooth, so app store discoverability isn't a big concern (you buy the external device, then the documentation points you to the app store downloads). I have also done app development as a non-commercial side project, writing a PvP game/stat tracking app for the game Destiny 2, this is a free app that has about a thousand users on iOS and a few hundred on Android, written in Kotlin Multiplatform.  That started pre-LLM and I've continued to avoid using LLMs while working on it to make sure I can remember how to code sans LLMs, though the fact that Destiny 2 is stopping new development as of June 9th means I'm unlikely to put much effort into it going forward. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.498810",
+        "updated_at": "2026-06-04T17:00:02.498810",
+        "author": {
+          "id": "fa04af633a6852beed3aaac21086cb3e",
+          "source_id": "georgemcbay",
+          "username": "georgemcbay",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "87952b5fd61025a2469bdaa0ec7df12b",
+        "source_id": "48339440",
+        "content": {
+          "text": "LLMs so far have just been another tool to use. As an Android developer, KMP is the bigger development. It seems mature enough now that if I want to build an app as a single dev I feel confident that I could get the iOS version out at the same time. They seem to be avoiding the mistakes of Xamarin and Flutter reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.500975",
+        "updated_at": "2026-06-04T17:00:02.500975",
+        "author": {
+          "id": "dc7ebc3c606103312d4f3b63e1ca5e8c",
+          "source_id": "Larrikin",
+          "username": "Larrikin",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f670489f110d743f6209473bdb8b58f5",
+        "source_id": "48340191",
+        "content": {
+          "text": "What are the mistakes in your mind? And isn't Compose Multiplatform basically Flutter? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.503159",
+        "updated_at": "2026-06-04T17:00:02.503159",
+        "author": {
+          "id": "20df84de1a82e678fc3b5c42c0d9bc89",
+          "source_id": "satvikpendem",
+          "username": "satvikpendem",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "eeeef97bb10ecfb03c8c0747758ecef3",
+        "source_id": "48338036",
+        "content": {
+          "text": "I'm have a game on both app stores, built in .net Maui. It earns enough to keep a roof over my head. AI is useless when developing with Maui, as it's too new of a development framework for any AI's knowledgebase to have a clue what to do with it. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.505390",
+        "updated_at": "2026-06-04T17:00:02.505390",
+        "author": {
+          "id": "aa856106141b5698c65271c19014a5a4",
+          "source_id": "drrob",
+          "username": "drrob",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "df5bc2357facd15d7cb76a6a1013542c",
+        "source_id": "48338211",
+        "content": {
+          "text": "https://github.com/dotnet/maui/wiki/Using-AI-to-Work-on-.NET... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.507677",
+        "updated_at": "2026-06-04T17:00:02.507677",
+        "author": {
+          "id": "cdd85acf7c11fa6426632f133b3af3d6",
+          "source_id": "mattmanser",
+          "username": "mattmanser",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8612901300b35437307b15aea1a433bb",
+        "source_id": "48339344",
+        "content": {
+          "text": "Indeed, I have tried this route, but for anything more than a really simple app it's just not effective enough. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.509959",
+        "updated_at": "2026-06-04T17:00:02.509959",
+        "author": {
+          "id": "aa856106141b5698c65271c19014a5a4",
+          "source_id": "drrob",
+          "username": "drrob",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f1773a672e1608ad1a0ff202c80c4106",
+        "source_id": "48347672",
+        "content": {
+          "text": "I have been happy with Dart/Flutter + Cursor + Dart MCP. Feels much more context aware than what I've experienced in other stacks and working with native features was far less painful than I expected. Still need to decide what to build, which is just as hard as it was before, but it's just faster to iterate. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.512262",
+        "updated_at": "2026-06-04T17:00:02.512262",
+        "author": {
+          "id": "888b97aac8725b2f8e7f6e7954830353",
+          "source_id": "mazinz",
+          "username": "mazinz",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "eb4d33dcf053e4cb4f217d1c3bcdfe1e",
+        "source_id": "48339652",
+        "content": {
+          "text": "Software engineering is flattening. I wouldn't go into 'pure' app development but specialize in a regulated field, unless I had entrepreneurship aspirations, in which case now is a great time to enter the field. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.514617",
+        "updated_at": "2026-06-04T17:00:02.514617",
+        "author": {
+          "id": "9961b2119c5328d05f44eb040b210e63",
+          "source_id": "esafak",
+          "username": "esafak",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "59a349705737e4d9f9b3b47b7a18dff8",
+        "source_id": "48338546",
+        "content": {
+          "text": "I’ve been thinking about this—if I wanted to learn iOS dev where should I start? (Book preferred.) Mostly for fun/scratch my own itch, and using AI as a companion/helper device. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.516987",
+        "updated_at": "2026-06-04T17:00:02.516987",
+        "author": {
+          "id": "97a022a6334d01718ae1ec79ffb22c7f",
+          "source_id": "coffeefirst",
+          "username": "coffeefirst",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "89349c080abf4ced144aeea206714d77",
+        "source_id": "48338977",
+        "content": {
+          "text": "I don't install apps unless it's for an event or something. I just make my own to fit my needs. I can get a functional pwa out in about a day or two now. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.519376",
+        "updated_at": "2026-06-04T17:00:02.519376",
+        "author": {
+          "id": "d1f24ff15d71e853cd1732ec3e68f66e",
+          "source_id": "fullstick",
+          "username": "fullstick",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "559dfd8be30ddd1e65d9de5b5e68c6bf",
+        "source_id": "48339746",
+        "content": {
+          "text": "What do you use for hosting the PWAs? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.521813",
+        "updated_at": "2026-06-04T17:00:02.521813",
+        "author": {
+          "id": "210160b09fb510b4ed920ac92aecc180",
+          "source_id": "paldepind2",
+          "username": "paldepind2",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3aec2d9c5a5cd773711b9868e9ce75af",
+        "source_id": "48344504",
+        "content": {
+          "text": "Cloudflare pages. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.524266",
+        "updated_at": "2026-06-04T17:00:02.524266",
+        "author": {
+          "id": "cad75ac5ad0b182cb9bf0019f4669e2f",
+          "source_id": "faangguyindia",
+          "username": "faangguyindia",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ae969dee6aa591cf53642e3627f00e62",
+        "source_id": "48340712",
+        "content": {
+          "text": "A good analogy (I think) is photography. Everyone has a camera, but only a fraction of human beings with a camera are professional photographers. AI is to App Development, what the smartphone is to Photography. Anyone can do it, yet paradoxically, only a few people really \"do\". reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.526744",
+        "updated_at": "2026-06-04T17:00:02.526744",
+        "author": {
+          "id": "24fac00cecfb896a6edf3d638ba0ac46",
+          "source_id": "kowskirz",
+          "username": "kowskirz",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3469a25aa5dc47c36b8aa7f06b0c35b2",
+        "source_id": "48338480",
+        "content": {
+          "text": "It's incredibly easy to make apps nowadays, it's all about distribution (usually on social media). reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.529250",
+        "updated_at": "2026-06-04T17:00:02.529250",
+        "author": {
+          "id": "f8dfef26bba6cd36e9cba11493541e25",
+          "source_id": "babaganoosh89",
+          "username": "babaganoosh89",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "44137dc8894d19fbe50418cff12d5979",
+        "source_id": "48349138",
+        "content": {
+          "text": "What currently happens looks really scary. The level of technical skills needed to make and deploy app in production dropped a lot. Everybody are trying to make something. This can be good and bad. Good because increasing the level of concurrency should lead to better end results. At the same time, a lot of people, not knowing what they are doing, they create AI slop. \nOf course, they have good intentions, and do their best, just the quantity of low-quality apps becomes too big. Open, for example, Reddit, and check the SideProject channel. I counted 1 application per 2 minutes! This is huge! And a lot of it is bad quality, because people have no technical and UI/UX skills. They don't know what architecture, MVC, code review, retrospective, technical documentation, target group, performance, hashing of password, and a lot a lot of things really EXISTS. Even if you make something cool and stable, you just can't popup! And that's the current state. Too much noise! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.531819",
+        "updated_at": "2026-06-04T17:00:02.531819",
+        "author": {
+          "id": "44812e0fc82d045a4105706f1f268de1",
+          "source_id": "sminchev",
+          "username": "sminchev",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f65015cea47e177c03d9796631150c59",
+        "source_id": "48339092",
+        "content": {
+          "text": "AI Coding is great helper but not a substitutue for producing decent looking apps. Anytime I let lose AI (Both Codex and Claude), they end up producing slop that is overcomplicated, and that looks like a generic tutorial interface.  Great for toy apps but not for serious one. When I do most of the architecture, and use AI to 'fill in the blanks' or just finish some functionality here and there, then AI is great. The main reason is that it is trained by public code that is mostly tutorials, and simple apps, so AI can't build a great looking one by itself (or it doesn't how to do large apps).   But for specific features, it is great. TLDR: It is still a 'fill in the funcionality here' type of help.  Folks that are successful with letting 'multiple agents' running in the background are mostly for backend work where the results are easier to verify. Also, there is a lot of LARPING in twitter sphere exaggerating what AI can realistically do right now.  But I can see how it can affect entry level jobs.  AI is still like an CS intern, or very very junior engineer. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.534502",
+        "updated_at": "2026-06-04T17:00:02.534502",
+        "author": {
+          "id": "534ad2234ff883ef6d7efa057f10d13a",
+          "source_id": "ardit33",
+          "username": "ardit33",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "88480bc48e79b3480bd7faad470bfdd1",
+        "source_id": "48339832",
+        "content": {
+          "text": "idea ->claude ->public reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-04T17:00:02.537090",
+        "updated_at": "2026-06-04T17:00:02.537090",
+        "author": {
+          "id": "8e52c7e857ab18bf1d7d864665450e44",
+          "source_id": "Tanxsinxlnx",
+          "username": "Tanxsinxlnx",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-06-04T17:00:02.539326",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "3a4896389c148d35b2403e297626ecad",
+      "source_id": "48384741",
+      "title": "Ask HN: Why are so many Show HNs being flagged?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-06-04T16:59:32.713884",
+      "updated_at": "2026-06-04T16:59:32.713884",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "76086217d88760af6a9e13ecc8b8b973",
+        "source_id": "866-RON-0-FEZ",
+        "username": "866-RON-0-FEZ",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 3,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48384741",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-06-04T17:00:06.519058",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "14aa40c47672df5c26dfef0dd91cbb29",
+      "source_id": "48368083",
+      "title": "Ask HN: What is your opinion on index rule changes to accommodate Mega-Cap IPOs?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-06-04T16:59:32.714463",
+      "updated_at": "2026-06-04T16:59:32.714463",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "1a9e232ccb3566c75d325afaefd22b56",
+        "source_id": "figmert",
+        "username": "figmert",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 15,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48368083",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-06-04T17:00:10.705755",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "4013d8b1ea443ce949dfae6e15a08500",
+      "source_id": "48368663",
+      "title": "Ask HN: Why is AI use decried if it has been used without attribution?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-06-04T16:59:32.715774",
+      "updated_at": "2026-06-04T16:59:32.715774",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "1cf156db1fe05fa119b4fa5d312fd588",
+        "source_id": "bookofjoe",
+        "username": "bookofjoe",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 7,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48368663",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-06-04T17:00:14.819647",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
   }
 ]
