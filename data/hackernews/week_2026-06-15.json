@@ -33861,5 +33861,3998 @@
       ],
       "is_nsfw": false
     }
+  },
+  {
+    "post": {
+      "id": "a337c28210edfc3dac7b6981e9104455",
+      "source_id": "48604232",
+      "title": "Ask HN: Will programmers write more efficient code during the memory shortage?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">Maybe there will even be more interest in the invention and use of more advanced algorithms and data structures that use less memory?</div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-06-20T16:28:11.161126",
+      "updated_at": "2026-06-20T16:28:11.161126",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "9fbfc99674a659d2f2b0af967455b589",
+        "source_id": "amichail",
+        "username": "amichail",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 134,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48604232",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "cad55854133cbf7451b7e19e620929fb",
+        "source_id": "48607463",
+        "content": {
+          "text": "I don't believe so do for two reasons: - everyone assumes their program / website is the only thing running at the machine at a given time, and dev machines are always more powerful than user machines - it's not really lack of advanced data structures and algorithms that result in the bloat most of the time but the fact that programs and websites are delivered by large teams, there are dozens of submodules that are often loaded even when not needed, and doing it properly is hard to architect to without getting into big complexity and gnarly bugs waiting to happen when someone from other team modifies something and does not know full picture. So it's cheaper to just keep things the way they are to reduce complexity of architecture and fragility. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.138793",
+        "updated_at": "2026-06-20T16:28:14.138793",
+        "author": {
+          "id": "b4ab53228fc99ec9f5145ba3b15c0d01",
+          "source_id": "jakub_g",
+          "username": "jakub_g",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "88324791cefabe26796e12e130599505",
+        "source_id": "48607673",
+        "content": {
+          "text": "It's a bit more subtle than bad assumptions. The main place RAM usage is going to get optimized is on the server side, because the client's RAM is a tragedy of the commons. If you're reducing RAM usage while your competitor adds features then the extra RAM saved by your app will just be silently allocated to theirs, the device won't feel any different and the user will prefer your competitor. There is little incentive to optimize RAM usage on the client side because it only helps other companies, so nobody does it - except (ironically) browser devs, who tend to assume they have first dibs on all the RAM of the device. If you really wanted people to care about it OS devs would need to surface memory usage of apps visibly in a way ordinary users can understand and translate to customer feedback forms, which is difficult. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.139374",
+        "updated_at": "2026-06-20T16:28:14.139374",
+        "author": {
+          "id": "77253ca0feb049d5867184c30fabeacf",
+          "source_id": "mike_hearn",
+          "username": "mike_hearn",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0ebc68d0367452c6fe6121b36c1bf1b1",
+        "source_id": "48610467",
+        "content": {
+          "text": "> The main place RAM usage is going to get optimized is on the server side Agree, but it's going to be a long, hard, potentially ultimately unsuccessful uphill slog. I think the main obstacle is basically 2 decades of inertia. Approximately everyone believes that server side software needs to scale horizontally. So we optimize systems for this property--I can make it work better by just throwing more computers at it. This was a lot more important ca. 2004 (MapReduce) than it is ca. 2026. For resiliency and redundancy, how many nodes does your service actually need? If you're running more than that number, do you have some kind of justification as to why? This is the mindset we need to try to move towards, but it's very different from how we currently do it. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.139974",
+        "updated_at": "2026-06-20T16:28:14.139974",
+        "author": {
+          "id": "b59043ced563d2b4192577e2f156e727",
+          "source_id": "jcgrillo",
+          "username": "jcgrillo",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "59e312c112a9eb00df7af88a337e95cb",
+        "source_id": "48607840",
+        "content": {
+          "text": "> the fact that programs and websites are delivered by large teams, there are dozens of submodules that are often loaded even when not needed Precisely this. We had an incident once where a CSV had a postal code field be interpreted as an integer by pandas, which of course results in stripping any leading 0s. After looking at what the code needed to do, I asked why they were using pandas in the first place, as it was literally just “read the CSV as-is into a list.” Guess what Python’s stdlib csv module doesn't do? Type inference. Instead of replacing the unnecessary pandas import (which brings along a fairly heavy transitive chain) with stdlib, they added additional code and tests to ensure this wouldn’t happen going forward. Some devs learn by trying. Others learn by reading docs. Most seem to learn by reading blog posts that use unnecessary 3rd party packages. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.140611",
+        "updated_at": "2026-06-20T16:28:14.140611",
+        "author": {
+          "id": "33adcd26cae7fabfd9a719315bc23f63",
+          "source_id": "sgarland",
+          "username": "sgarland",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b4dfe43f7affbc58da77ccd08b34cef1",
+        "source_id": "48610154",
+        "content": {
+          "text": "It's called resume-driven-development. You can't add stdlib into your resume while you can pandas. If there are no guardrails, loose quality control and nobody cares about performance - why should they replace current pandas with stdlib? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.141215",
+        "updated_at": "2026-06-20T16:28:14.141215",
+        "author": {
+          "id": "b5245015f41867637a3f14ee0f9009a3",
+          "source_id": "ponector",
+          "username": "ponector",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "aa70e66c8e58372df0ef6674f1c9bf0d",
+        "source_id": "48610284",
+        "content": {
+          "text": "I naïvely assumed that avoiding being paged was motivation enough, but experience has disabused me of that notion. Time after time, “we’ll fix one more thing on our hacky, bespoke bullshit” has won out over “we will use boring, pre-existing solutions.” My favorite example was a team who built a load balancer / health checker for Postgres in NodeJS. Despite causing roughly one incident per month, I was never able to convince anyone that they should abandon their special baby. I honestly don’t understand how it’s even helpful to put shit like that on your résumé. If I read that in an interview, my immediate question would be “why did you build this instead of using HAProxy / AWS NLB / etc.?” reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.141926",
+        "updated_at": "2026-06-20T16:28:14.141926",
+        "author": {
+          "id": "33adcd26cae7fabfd9a719315bc23f63",
+          "source_id": "sgarland",
+          "username": "sgarland",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1eb584a7e3efe4dcb2011716bff425c1",
+        "source_id": "48610233",
+        "content": {
+          "text": "Reason number 500 why I hate pandas with a passion. Just had basically the exact same thing happen at work reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.142599",
+        "updated_at": "2026-06-20T16:28:14.142599",
+        "author": {
+          "id": "bfe8e40f3b298d589bc5ce6ff16a5f6e",
+          "source_id": "DontchaKnowit",
+          "username": "DontchaKnowit",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3846698aef194c5efbbb3f34f2283272",
+        "source_id": "48609198",
+        "content": {
+          "text": "I'd say there's one more factor here, and it's probably the biggest one for websites and web apps. Advertisements and tracking. About 90% of the bloat found on most big company websites comes from these scripts being added all over the place. Ideally removing these would make these sites far more efficient, but the marketing and sales folks probably wouldn't allow it. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.143297",
+        "updated_at": "2026-06-20T16:28:14.143297",
+        "author": {
+          "id": "3d509052e9aaa50bf89c10f559327f4f",
+          "source_id": "CM30",
+          "username": "CM30",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "838fd35a9d68a485af36d92bf8f94361",
+        "source_id": "48607740",
+        "content": {
+          "text": "It's definitely possible, but I agree with many other commenters it probably will not happen. I wrote an encrypted mesh networking library that runs on normal operating systems. A customer asked me if I could make it run on an ESP32 with 520 kiB of RAM. At first this seemed impossible, but it turned out that it was, and not even that hard. While the original library was not memory hungry at all for a desktop CPU, it still wasted space on unnecessarily large buffers. Cutting those out made the library run on an ESP32 while leaving plenty of room for an application. Also, my first PC was a 200 MHz single-core 32-bit AMD k6 with 32 MiB of RAM. This ran a graphical OS with browsers, word processors, 3D games and so on. Nowadays you can get a CPU with more than that amount of RAM as just built-in cache. So a good place to start optimizing code would be to actually get a \"severely resource constrained\" computer and start making your code work on it. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.144039",
+        "updated_at": "2026-06-20T16:28:14.144039",
+        "author": {
+          "id": "86238a16e71a2f7c5af081a08205b5f2",
+          "source_id": "gsliepen",
+          "username": "gsliepen",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "cf018f0e093415cf63e52f92642f71f6",
+        "source_id": "48604437",
+        "content": {
+          "text": "Some programmers will write more efficient code. At my $dayjob (one of the big tech companies) we're already planning a major goal next year of optimizing server code to reduce RAM requirements, and this is directly in response to the crunch. In practice I expect most optimizations will come from \"stop doing stupid stuff\" and not \"use fancy advanced algorithms.\" But that's a cynical perspective so don't be cynical like me. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.144789",
+        "updated_at": "2026-06-20T16:28:14.144789",
+        "author": {
+          "id": "140a08303244a1cb1cff108ce6a639b5",
+          "source_id": "cornstalks",
+          "username": "cornstalks",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "55e27e83196e00b45c8e01ad63059e50",
+        "source_id": "48604846",
+        "content": {
+          "text": "Real, there are so many low hanging fruits for optimization but no one has time to do them. And they don’t incentivize spending your time on it either. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.145551",
+        "updated_at": "2026-06-20T16:28:14.145551",
+        "author": {
+          "id": "443e6e7f0e22a64004d38b32cbb54a33",
+          "source_id": "kapperchino",
+          "username": "kapperchino",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "35284fc44251d406dcb586141349d6c1",
+        "source_id": "48606986",
+        "content": {
+          "text": "Exactly. Customer's RAM is free to the developer. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.146323",
+        "updated_at": "2026-06-20T16:28:14.146323",
+        "author": {
+          "id": "678d463110409a2f12f09f526fad53dd",
+          "source_id": "pjc50",
+          "username": "pjc50",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c8e22ccedaf2586ea754d02b14e7df40",
+        "source_id": "48606024",
+        "content": {
+          "text": "Especially when LLMs are used to generate most of the code anyways in bigcorps reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.147149",
+        "updated_at": "2026-06-20T16:28:14.147149",
+        "author": {
+          "id": "72b89cbd86fc972e6dc9c8e4a71787d2",
+          "source_id": "thewhitetulip",
+          "username": "thewhitetulip",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "79ef94e47427bd1c331ad25d8b3c4463",
+        "source_id": "48606051",
+        "content": {
+          "text": "Is there a single example of a successful LLM project apart from Claude Code? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.148021",
+        "updated_at": "2026-06-20T16:28:14.148021",
+        "author": {
+          "id": "707260b876054a7f5022e0068d0de967",
+          "source_id": "inigyou",
+          "username": "inigyou",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c7bbbca0f2b0ee0976bfd2a35a6d3c0d",
+        "source_id": "48606179",
+        "content": {
+          "text": "If the CEOs are to be believed, then 75% of all new code in Google is AI generated. 46% of GitHub internal code, and roughly 30% across all of Microsoft is AI. Meta expects at least 65%, and snap reported 65% is AI generated. Its how software is built now in these palces. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.148919",
+        "updated_at": "2026-06-20T16:28:14.148919",
+        "author": {
+          "id": "f58b49ab2fc7084867b6f20e0252b853",
+          "source_id": "thewebguyd",
+          "username": "thewebguyd",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4cb8c1b9ad6dd710980a4e58670f788b",
+        "source_id": "48606375",
+        "content": {
+          "text": "Unfortunately doesn’t answer the question “successful LLM project”. From what I’ve seen of GitHub and AWS this year the answer is no. That’s despite me being bullish on LLMs and finding them highly productive. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.149843",
+        "updated_at": "2026-06-20T16:28:14.149843",
+        "author": {
+          "id": "5d049bafa7e60507bbe91558e41b5e7e",
+          "source_id": "elcritch",
+          "username": "elcritch",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b185ac749aa1c3da43cc3f5bee93f0ff",
+        "source_id": "48606419",
+        "content": {
+          "text": "https://blog.joemag.dev/2025/10/the-new-calculus-of-ai-based... ? in aws, some of the core bedrock services have been replaced with the new serving architecture. that thing was written basically with LLMs. mind you, guy's a distinguished engineer, his team was basically all principals, but you can do it and some of the new teams are copying the style (though with less success, due to lack of technical skill). reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.150823",
+        "updated_at": "2026-06-20T16:28:14.150823",
+        "author": {
+          "id": "5c4b344488db2ddf0d0a0ba6d5aa4b2e",
+          "source_id": "aabdi",
+          "username": "aabdi",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d26ac734c4cc3a87a7eff517372f8136",
+        "source_id": "48610182",
+        "content": {
+          "text": "Amazon Bedrock is their LLM serving system, so it's basically in the same class as Claude Code: AI infrastructure. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.151791",
+        "updated_at": "2026-06-20T16:28:14.151791",
+        "author": {
+          "id": "707260b876054a7f5022e0068d0de967",
+          "source_id": "inigyou",
+          "username": "inigyou",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b4497dcdcf20249e6889ac0c4715002e",
+        "source_id": "48608420",
+        "content": {
+          "text": "99% of my new writing is generated by scigen, but 0% of my successful writing. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.152796",
+        "updated_at": "2026-06-20T16:28:14.152796",
+        "author": {
+          "id": "707260b876054a7f5022e0068d0de967",
+          "source_id": "inigyou",
+          "username": "inigyou",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5e09585312f7d198a86551a7cf750f0a",
+        "source_id": "48606503",
+        "content": {
+          "text": "Given the uhhh, quality and issues GitHub and Microslop have been exhibiting recently, that’s probably not a great indicator. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.153825",
+        "updated_at": "2026-06-20T16:28:14.153825",
+        "author": {
+          "id": "004941b251f522c895b301f14899f8b9",
+          "source_id": "FridgeSeal",
+          "username": "FridgeSeal",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b52df659466f7d92fdb4bc1134e35165",
+        "source_id": "48607036",
+        "content": {
+          "text": "Github was down so much, I was surprised that they didn't use Copilot to fix their issues reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.154894",
+        "updated_at": "2026-06-20T16:28:14.154894",
+        "author": {
+          "id": "72b89cbd86fc972e6dc9c8e4a71787d2",
+          "source_id": "thewhitetulip",
+          "username": "thewhitetulip",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "98695bff9669c321f79180258d646e79",
+        "source_id": "48608074",
+        "content": {
+          "text": "Bun, Ghostty reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.155976",
+        "updated_at": "2026-06-20T16:28:14.155976",
+        "author": {
+          "id": "a1ca3af7987db7bb1f43b99a10f13e5f",
+          "source_id": "TiredOfLife",
+          "username": "TiredOfLife",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "22417e1102a3608da4dc853823fe62e8",
+        "source_id": "48607028",
+        "content": {
+          "text": "The key word here is “server”. Optimizing memory server-side directly translates to cost savings for companies. There is a lot less incentive to optimize memory for code that runs on the user’s computer. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.157093",
+        "updated_at": "2026-06-20T16:28:14.157093",
+        "author": {
+          "id": "8f1d4cedca357281f1ab2cdc86406b4f",
+          "source_id": "dabinat",
+          "username": "dabinat",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1a022f5c2a219a29d8bee63950aec444",
+        "source_id": "48607107",
+        "content": {
+          "text": "> Optimizing memory server-side directly translates to cost savings for companies. Only if those cost savings exceed the cost of development.  Optimisation work is usually done by the most experienced, and hence most expensive engineers.  It is also possible that the optimisation efforts will fail to produce meaningful results.  In my career, I have seen more optimisation efforts fail than succeed. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.158269",
+        "updated_at": "2026-06-20T16:28:14.158269",
+        "author": {
+          "id": "5a44fee7c69054c8f50587208b4c1b6f",
+          "source_id": "throwaway2037",
+          "username": "throwaway2037",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "058602091c066e9f8571cd963c80880f",
+        "source_id": "48607072",
+        "content": {
+          "text": "That's a clever observation and is very true. Development time tho historically was also very expensive hence push for easy to work with dev stacks such as js reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.159461",
+        "updated_at": "2026-06-20T16:28:14.159461",
+        "author": {
+          "id": "571c3b17cac925938203ca77246c9e41",
+          "source_id": "Byamarro",
+          "username": "Byamarro",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "142a2f646a7e082d77eb2a14a1aac478",
+        "source_id": "48607065",
+        "content": {
+          "text": "There's plenty of incentive if it causes your users to churn. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.160669",
+        "updated_at": "2026-06-20T16:28:14.160669",
+        "author": {
+          "id": "428f5f40597f9ac00443a22568850312",
+          "source_id": "avarun",
+          "username": "avarun",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4639cba17ed030387cfac34bc1c3d163",
+        "source_id": "48607628",
+        "content": {
+          "text": "It is typically hard to directly attribute churn though, whereas some massive EC2 instance costing you $30/day is a clear line item where cost savings can be measured easily. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.161901",
+        "updated_at": "2026-06-20T16:28:14.161901",
+        "author": {
+          "id": "a8dfa66706da3655865b1006f0a89b94",
+          "source_id": "remus",
+          "username": "remus",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "840a0c8f909888f51cea8a268247cd08",
+        "source_id": "48608904",
+        "content": {
+          "text": "Nah that simply doesn’t happen. Users routinely blame that on the hardware or on the operating system, occasionally rightfully so. My anecdotal data point: my MacBook neo with 8 gb of ram running mac os is much snappier than my thinkpad x13g1 (ryzen 7 pro, 8c/16t+ 32gb memory) running linux. Same user (me), same apps, same websites, same data. I don’t really blame the apps. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.163202",
+        "updated_at": "2026-06-20T16:28:14.163202",
+        "author": {
+          "id": "217da25f2909408b5ab4a66c8468970d",
+          "source_id": "znpy",
+          "username": "znpy",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5da6131f914cbd196262b5c8d8c645d0",
+        "source_id": "48606139",
+        "content": {
+          "text": "“Stop doing stupid stuff” is usually the biggest performance gain in commercial development. We do stupid stuff as a stopgap to meet a deadline and then stupid stuff stays until it starts being a problem. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.164545",
+        "updated_at": "2026-06-20T16:28:14.164545",
+        "author": {
+          "id": "30721a9da49569a236dc0b8c85e49c2b",
+          "source_id": "devmor",
+          "username": "devmor",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d3611f9ba8f187048489f33fad84f08a",
+        "source_id": "48606161",
+        "content": {
+          "text": "There's nothing more permanent than a temporary fix. If deadlines are causing those stopgaps, the aggressive deadlines are the root problem. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.165868",
+        "updated_at": "2026-06-20T16:28:14.165868",
+        "author": {
+          "id": "f58b49ab2fc7084867b6f20e0252b853",
+          "source_id": "thewebguyd",
+          "username": "thewebguyd",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "86f8ad76b5234352425c1fc8764ef94f",
+        "source_id": "48606370",
+        "content": {
+          "text": "> There's nothing more permanent than a temporary fix. That should be one of those Tech culture “laws.” I suspect that the dependapocalyse is a significant factor. When every part of an operation has multiple context rebuilds, and resources are not shared across module boundaries, you get inefficient behavior. But I’m skeptical that there’s a will to rethink that. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.167278",
+        "updated_at": "2026-06-20T16:28:14.167278",
+        "author": {
+          "id": "66a70673b11e7a32b84d41e58a0522b1",
+          "source_id": "ChrisMarshallNY",
+          "username": "ChrisMarshallNY",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "68c317f7440a3df53fb5a18f01cfd153",
+        "source_id": "48609455",
+        "content": {
+          "text": "> That should be one of those Tech culture “laws.” We already have something: \"Nothing is so permanent as a temporary government program.\" Milton Friedman, Tyranny of the Status Quo reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.168711",
+        "updated_at": "2026-06-20T16:28:14.168711",
+        "author": {
+          "id": "f03458541bdd9b0bb5044fa766756697",
+          "source_id": "theandrewbailey",
+          "username": "theandrewbailey",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "44c5bfdec2969b13b169d783a18e0864",
+        "source_id": "48609589",
+        "content": {
+          "text": "Thanks for that. I feel that there is a bit of a difference, though, because that’s really a cynical (and probably accurate) observation on the behavior of bureaucracy, and I feel the temporary fix thing is of a “finer granularity,” and applies to basic human nature. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.170136",
+        "updated_at": "2026-06-20T16:28:14.170136",
+        "author": {
+          "id": "66a70673b11e7a32b84d41e58a0522b1",
+          "source_id": "ChrisMarshallNY",
+          "username": "ChrisMarshallNY",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d3e452749f05bf662c038240534cb4f3",
+        "source_id": "48606277",
+        "content": {
+          "text": "Honestly, after years of seeing this play out, a lot of devs really lack the judgement to know when something is good enough to deliver and will endlessly delay projects to “ do the right thing” reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.171857",
+        "updated_at": "2026-06-20T16:28:14.171857",
+        "author": {
+          "id": "faff4b1e18a58602dfb707458d21b65c",
+          "source_id": "timacles",
+          "username": "timacles",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b29627d6457357228cb507511260bb64",
+        "source_id": "48606498",
+        "content": {
+          "text": "Absolutely. It’s one of the defining characteristics of what makes someone a capable senior in the role IMO. I have known a lot of extremely talented developers, some with more technical skill than me, that simply failed at their job because they couldn’t come to terms with the fact that their job isn’t to produce the most perfect code possible for the problem. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.173498",
+        "updated_at": "2026-06-20T16:28:14.173498",
+        "author": {
+          "id": "30721a9da49569a236dc0b8c85e49c2b",
+          "source_id": "devmor",
+          "username": "devmor",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c012b0c4ebec66a247cee1b9d8417c53",
+        "source_id": "48607134",
+        "content": {
+          "text": "In my experience, I have only developed internal enterprise software for my entire career.  Most of this stuff is gloried CRUD.  Above all: Ship early and ship often.  You don't get paid more for having less bugs.  (Of course, don't ship crap, but you don't need perfection.)  Also, often the specs (in my line of business) are unwritten, so you learn more by releasing quickly, then watching (internal) customers use the product and provide feedback. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.175070",
+        "updated_at": "2026-06-20T16:28:14.175070",
+        "author": {
+          "id": "5a44fee7c69054c8f50587208b4c1b6f",
+          "source_id": "throwaway2037",
+          "username": "throwaway2037",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7dccde97b29569b2553f01330a4a6654",
+        "source_id": "48607211",
+        "content": {
+          "text": "Totally agree. In these days of fast devs it's common to see PO's excitement reducing deadlines and assumimg a dev can deliver 5 feats in a day instead of trying to stabilize and fix bugs. Sad reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.176663",
+        "updated_at": "2026-06-20T16:28:14.176663",
+        "author": {
+          "id": "fcd6b2bfa587bdbfb3fd0ead888e1f80",
+          "source_id": "msalsas",
+          "username": "msalsas",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6905f031eae3a9522586b6bf717227aa",
+        "source_id": "48606874",
+        "content": {
+          "text": "No deadline, no product. Shipping is very important, sometimes more important than what you ship :) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.178242",
+        "updated_at": "2026-06-20T16:28:14.178242",
+        "author": {
+          "id": "8232b5233ff8779da37f08b736160dc7",
+          "source_id": "jopsen",
+          "username": "jopsen",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5d9dd55589c32b65f41c891ee27da719",
+        "source_id": "48606242",
+        "content": {
+          "text": "In my experience, many of those deadlines are commonly the only reason the company continues to exist as well. The root of the problem is much more deeply ingrained in our economic system. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.179912",
+        "updated_at": "2026-06-20T16:28:14.179912",
+        "author": {
+          "id": "30721a9da49569a236dc0b8c85e49c2b",
+          "source_id": "devmor",
+          "username": "devmor",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5c73d499a3f070cad49ef1e1c658c4a4",
+        "source_id": "48606272",
+        "content": {
+          "text": "even a lot of the fancy algorithms are ways to not do something you dont need to do, it's rooting out waste all the way down. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.181571",
+        "updated_at": "2026-06-20T16:28:14.181571",
+        "author": {
+          "id": "d0277140642dbd9eeb59bd37c2d40c0d",
+          "source_id": "hashmap",
+          "username": "hashmap",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "456f846b3fc35cedf6c0ff08f3184f97",
+        "source_id": "48606218",
+        "content": {
+          "text": "Programmers will write more efficient algorithms if their employers tell them to trade time-to-market for hardware cost. Previously, it was trade hardware cost for time-to-market. \"Programmers\" don't make this decision, the product owner does. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.183273",
+        "updated_at": "2026-06-20T16:28:14.183273",
+        "author": {
+          "id": "03bbe0a4453f83c5f56d66ac1ea18ae6",
+          "source_id": "jpollock",
+          "username": "jpollock",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f93bb105d626d23a1feb751b4dd127da",
+        "source_id": "48607584",
+        "content": {
+          "text": "The classic excuse for industry-wide incompetence. The average programmer today can't write good code even if told it's an explicit priority. The manager wants the Submit button to submit the form, they rarely care how the programmer does it. It's the programmer that chose to install the 11,000 node_modules, to use React with 3 layers of state management on top with hybrid SSR/CSR and to do Kubernetes because that's what was on Hacker News that day or whatever. And guess what, somehow the Submit button does still not submit the form 10% of the time. Get rid of the junk and the program will be more efficient AND you'll ship quicker. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.185001",
+        "updated_at": "2026-06-20T16:28:14.185001",
+        "author": {
+          "id": "2dcd32364eefe101156dcd7bff2f5a36",
+          "source_id": "nananana9",
+          "username": "nananana9",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7ccd79e9e6e971b4aaf5319110747aab",
+        "source_id": "48607658",
+        "content": {
+          "text": "How much \"junk\" do you want to get rid of? I suspect you're imagining something like, just write some vanilla JS and maybe some tasteful but not bloated CSS. You could do that. Then I'll come along with my old man Win32 skills and write a form with a submit button that sends the data by doing a memcpy into a UDP packet. It will take 300 kilobytes of RAM and start in 0.1 seconds. That'll make it approx 100x more RAM efficient than the baseline you can manage with Chrome, where an empty renderer process takes 23 MB of RAM to achieve nothing and starts so slowly the browser has to cache them in the background. On the other hand, delivering features your users expect might be a bit harder. Shipping and updating that app will be painful for me, unless I use [plug] https://hydraulic.dev/ to make it easy [/plug], and the styling options are limited to setting solid color backgrounds on things. Things the product manager views as basic, like adding a dark mode, will take a surprising amount of effort. The app is likely to be more crash prone than the web app due to all the manual memory management required. Text zoom won't work. I'll have to write in C or maybe C++ if I'm feeling extravagent. So there's got to be a balance somewhere. Features do matter. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.186801",
+        "updated_at": "2026-06-20T16:28:14.186801",
+        "author": {
+          "id": "77253ca0feb049d5867184c30fabeacf",
+          "source_id": "mike_hearn",
+          "username": "mike_hearn",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f5bebb443e2218397d8bab621c3de887",
+        "source_id": "48607703",
+        "content": {
+          "text": "What is \"good code\"? If you ask your boss, it will most likely be whatever spaghetti code which ensures the contract gets signed on time. The boss doesn't care if the developer needs 10000 libraries for the submit button. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.188592",
+        "updated_at": "2026-06-20T16:28:14.188592",
+        "author": {
+          "id": "fbd6a041ebf9c3720781b16a31b3f954",
+          "source_id": "lpapez",
+          "username": "lpapez",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "61593f77814e5282383015ebe1b859d8",
+        "source_id": "48607888",
+        "content": {
+          "text": "\"The boss\" is not who says what is good enough. Ultimately it's the customer. In many industries it seems good enough is not very good. Then there are industries where the customer complains if code is slow. They will actually hire expensive consultants to analyze and benchmark the code. And while the consultants likely are not more talented than inhouse staff, now you have both sides very interested at looking at the problem from engineering perspective. In this case \"good\" includes performance. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.190388",
+        "updated_at": "2026-06-20T16:28:14.190388",
+        "author": {
+          "id": "7e762b49cff60059a4389835edfa29bb",
+          "source_id": "fsloth",
+          "username": "fsloth",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e43cf63acd13757118b03d25f8e337fe",
+        "source_id": "48608944",
+        "content": {
+          "text": "> The average programmer today can't write good code even if told it's an explicit priority. But what even is good code? As an infrastructure guy i see my fellow software engineers endlessly debating and bikeshedding on anything but speed and memory consumption. I see them arguing about functional vs object oriented, immutable data structures, test driven development, agentic bs, this or that interpreted language… never about reducing memory consumption . reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.192246",
+        "updated_at": "2026-06-20T16:28:14.192246",
+        "author": {
+          "id": "217da25f2909408b5ab4a66c8468970d",
+          "source_id": "znpy",
+          "username": "znpy",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "37acffb9f8c5659ac5593969d9c5eb61",
+        "source_id": "48606712",
+        "content": {
+          "text": "I disagree. Engineers choose the technical stack based on the specs. With LLMs, it's faster to ship even in a more verbose language like Go or Rust. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.194103",
+        "updated_at": "2026-06-20T16:28:14.194103",
+        "author": {
+          "id": "890e81f9faab468a632db7e0f9cb0c71",
+          "source_id": "Pooge",
+          "username": "Pooge",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a411b10f84eaf02525b19f555585da91",
+        "source_id": "48607099",
+        "content": {
+          "text": "The language doesn't matter much if you have memory-hungry workloads. Whether it's Rust or C or C#, you can write quite memory efficient code in either. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.195981",
+        "updated_at": "2026-06-20T16:28:14.195981",
+        "author": {
+          "id": "c876815f96903d982062b082aa24375b",
+          "source_id": "lionkor",
+          "username": "lionkor",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0e2d3fad92f0540c972fe9dd4ea10a45",
+        "source_id": "48607688",
+        "content": {
+          "text": "Most apps don't need much at run time though. There may be a big database somewhere, but the majority of SaaS apps are just some form of CRUD with a clever twist that might change the data occasionally, but doesn't use most of it when you render a page. The user data required for any given page is dwarfed by the memory required to run the language that converts the data to an HTML view. For example, if you're rendering a user account page that has 100 data fields (name, address, etc), that's a few kilobytes at most . If your code is using Node of PHP you're probably using tens or hundreds of megabytes, possibly gigabytes, to turn that into a stream of HTML to send to the user. I suspect using Claude to turn all the Node and PHP apps in the world to Rust or Go would massively reduce the necessity for huge datacentres using terabytes of memory. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.197982",
+        "updated_at": "2026-06-20T16:28:14.197982",
+        "author": {
+          "id": "e4033a4ce1122ce620f8a045f1fa9622",
+          "source_id": "onion2k",
+          "username": "onion2k",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ca60beacec0d8149a8641d0654d38c05",
+        "source_id": "48607793",
+        "content": {
+          "text": "Except that most of the time a workload is made memory-hungry by terrible technical decisions (\"self-describing\" text data encodings come to mind). reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.199917",
+        "updated_at": "2026-06-20T16:28:14.199917",
+        "author": {
+          "id": "a3576789905b882de56c8e733ebfe53d",
+          "source_id": "rixed",
+          "username": "rixed",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "104f4388773c838ab537d9f95f0e2f0b",
+        "source_id": "48607371",
+        "content": {
+          "text": "And Java? Language matters. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.201901",
+        "updated_at": "2026-06-20T16:28:14.201901",
+        "author": {
+          "id": "8ed0e7d7d3c035bc32c11bf80f7bdbe7",
+          "source_id": "lowbloodsugar",
+          "username": "lowbloodsugar",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1b9d6ea6941302d45b86d3b4850bfd86",
+        "source_id": "48607533",
+        "content": {
+          "text": "I don't have any metrics in mimd but with GraalVM it's probably a much closer race. It's made by Oracle though... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.203911",
+        "updated_at": "2026-06-20T16:28:14.203911",
+        "author": {
+          "id": "890e81f9faab468a632db7e0f9cb0c71",
+          "source_id": "Pooge",
+          "username": "Pooge",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "060ebc78eea2ce541a70682efa63c9c3",
+        "source_id": "48608466",
+        "content": {
+          "text": "I have a feeling that the bloated frontend is one of the mayor problems. We should get rid of html, CSS and JavaScript and implement something that could mix all of the above in a single spec and could be implemented using a VM with limited memory/instructions and still render a page one can interact with and use for control of for instance appliances. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.205939",
+        "updated_at": "2026-06-20T16:28:14.205939",
+        "author": {
+          "id": "1cf032dbf2c9df94d2f4b986d76646da",
+          "source_id": "wojciii",
+          "username": "wojciii",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a84ccc7837459ee16515a7ec76c78317",
+        "source_id": "48606753",
+        "content": {
+          "text": "The spec is the important part, though.  If memory limitations are part of the spec, you're not going to choose a stack that will be too wasteful. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.208040",
+        "updated_at": "2026-06-20T16:28:14.208040",
+        "author": {
+          "id": "2df70f1609b12e9fdf90a5b0a8716087",
+          "source_id": "laughing_man",
+          "username": "laughing_man",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e2fec9877f5e28d8dc7b269fdf9dd7e4",
+        "source_id": "48606769",
+        "content": {
+          "text": "Yes, but that doesn't determine the technical stack. It only narrows it down. You could just as well use C, C++, Rust or even Go depending on the device the program needs to run on. The device may have constraints as well but those are technical limitations and still not the responsibility of the product owner. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.210167",
+        "updated_at": "2026-06-20T16:28:14.210167",
+        "author": {
+          "id": "890e81f9faab468a632db7e0f9cb0c71",
+          "source_id": "Pooge",
+          "username": "Pooge",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a8588ce2b2824a829b09e3ad27ebc94a",
+        "source_id": "48606883",
+        "content": {
+          "text": "I have never worked for a company where the engineers choose the technical stack. It’s always the architect, the CTO or the mother company that decides what technology to choose. Could be a German/Dutch cultural thing though. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.212321",
+        "updated_at": "2026-06-20T16:28:14.212321",
+        "author": {
+          "id": "3fc742e61654a63b6552cf76d97f0c13",
+          "source_id": "retired",
+          "username": "retired",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6114926846727592c2a1c4430febc281",
+        "source_id": "48607054",
+        "content": {
+          "text": "Depends on a type of company, I work at a mid-sized startup and through lifecycle of this company there were times when we've had architects and there were times when we haven't. Rn we don't have and a lot of decisions is made within teams and we just try to keep communication about what's needed for business tight reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.214530",
+        "updated_at": "2026-06-20T16:28:14.214530",
+        "author": {
+          "id": "571c3b17cac925938203ca77246c9e41",
+          "source_id": "Byamarro",
+          "username": "Byamarro",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3a4fdc92ad853dda619ff5ec42eb97f9",
+        "source_id": "48607250",
+        "content": {
+          "text": "Understandable. I worked mainly for 100+ people companies and the tech stack impacts team interoperability, hiring, licenses, life cycle management etcetera. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.216733",
+        "updated_at": "2026-06-20T16:28:14.216733",
+        "author": {
+          "id": "3fc742e61654a63b6552cf76d97f0c13",
+          "source_id": "retired",
+          "username": "retired",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1596ff79a5d0c4eab9b1f145bbc2c93e",
+        "source_id": "48606738",
+        "content": {
+          "text": "Who determines the specs? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.218944",
+        "updated_at": "2026-06-20T16:28:14.218944",
+        "author": {
+          "id": "b6726105562260217a7a0ef4d5f7abaf",
+          "source_id": "armada651",
+          "username": "armada651",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "504519a7d61a265f3c59ff80bf32ca1a",
+        "source_id": "48606749",
+        "content": {
+          "text": "Specs are business requirements. Choosing a programming language is not a business requirement; it's a technical one. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.221180",
+        "updated_at": "2026-06-20T16:28:14.221180",
+        "author": {
+          "id": "890e81f9faab468a632db7e0f9cb0c71",
+          "source_id": "Pooge",
+          "username": "Pooge",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "70ead30aea9347e655263ea347802ced",
+        "source_id": "48606807",
+        "content": {
+          "text": "Platforms are often part of the business requirements. If you're working on SAP or Salesforce, the language decisions are already made for you. If you're integrating with an existing Electron runtime, then you'll be using something in the JS family, like it or not. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.223463",
+        "updated_at": "2026-06-20T16:28:14.223463",
+        "author": {
+          "id": "8528b8e11d5728caa2afa2d0867a549e",
+          "source_id": "shakna",
+          "username": "shakna",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "837566f46cf6ff258aa7e1297b827429",
+        "source_id": "48607368",
+        "content": {
+          "text": "> Choosing a programming language is not a business requirement; it's a technical one. Technical decisions like this have to take into account a lot of factors outside of just the language itself. Is the language you want to use easy to hire for? Will we have to pay a premium for engineers with a specialised background in the language? Do all our 3rd party dependencies maintain SDKs for the language? Do libraries that meet various certifications we might need (i.e. FIPS) exist for the language? Something like Typescript or Java is going to win out over Rust/Erlang/FP-of-your-choice on a number of these criteria. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.225796",
+        "updated_at": "2026-06-20T16:28:14.225796",
+        "author": {
+          "id": "6342068e0e43e77b4d6fcb74040cd0ed",
+          "source_id": "swiftcoder",
+          "username": "swiftcoder",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5721a8eb092222cb74b057d11413d417",
+        "source_id": "48606914",
+        "content": {
+          "text": "> Choosing a programming language is not a business requirement; it's a technical one. Not solely. The business will have reasons to stay on a mainstream language, for example because - it offers better guarantees for hiring maintainers in the future - it has a higher likelihood that security issues will be fixed rapidly for free - LLMs are better at maintaining code written in it reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.228152",
+        "updated_at": "2026-06-20T16:28:14.228152",
+        "author": {
+          "id": "e37081a4249d90c70ca1f5bfe761f74c",
+          "source_id": "Someone",
+          "username": "Someone",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9a252ee41a358191964d0175d2319de1",
+        "source_id": "48606927",
+        "content": {
+          "text": "The programming language can have definite business impacts. It can impact hiring, salary costs (if the skill is rare), ramp-up costs (if it needs to be taught), etc. Even bus-factor comes into it. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.230539",
+        "updated_at": "2026-06-20T16:28:14.230539",
+        "author": {
+          "id": "03bbe0a4453f83c5f56d66ac1ea18ae6",
+          "source_id": "jpollock",
+          "username": "jpollock",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ab810c1a27ba05bc70f2d388f918d67c",
+        "source_id": "48607097",
+        "content": {
+          "text": "Software engineering is an important skill to recruit for. Too many times I see \"Java Developer\"... Like, do they only know Java and are absolutely incompetent when it comes to something else? I don't even want to recruit or be recruited with such a title. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.232918",
+        "updated_at": "2026-06-20T16:28:14.232918",
+        "author": {
+          "id": "890e81f9faab468a632db7e0f9cb0c71",
+          "source_id": "Pooge",
+          "username": "Pooge",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0d21ff9f3aa936bd8a3f6188889bcb30",
+        "source_id": "48607478",
+        "content": {
+          "text": "Yes, but even then there are people who will ramp up faster. If the company is using Common Lisp, do you have the 6-12 months to wait for them to ramp up, or do you hire someone who has done Lisp before? That is downstream from the technical decision to use Common Lisp, but it is a huge business impact. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.235345",
+        "updated_at": "2026-06-20T16:28:14.235345",
+        "author": {
+          "id": "03bbe0a4453f83c5f56d66ac1ea18ae6",
+          "source_id": "jpollock",
+          "username": "jpollock",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "260648362a0f207ec6c74092bbf84d89",
+        "source_id": "48607131",
+        "content": {
+          "text": "> trade time-to-market for hardware cost Enh. I think this only exists for some programmers, who can't write good code fast. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.237814",
+        "updated_at": "2026-06-20T16:28:14.237814",
+        "author": {
+          "id": "aecfa71b4fa2b3c7c55fe4efc15bb945",
+          "source_id": "exabrial",
+          "username": "exabrial",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8e44979f2e582a54072fb651a3ec27ef",
+        "source_id": "48607189",
+        "content": {
+          "text": "Whatever you're already able to do, you can do it better with more time. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.240285",
+        "updated_at": "2026-06-20T16:28:14.240285",
+        "author": {
+          "id": "5745caf61b570bf6451f91567ae9bc11",
+          "source_id": "dchftcs",
+          "username": "dchftcs",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "cf5669eaa0c430955d7ab2603b8d01ca",
+        "source_id": "48607951",
+        "content": {
+          "text": "source? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.242791",
+        "updated_at": "2026-06-20T16:28:14.242791",
+        "author": {
+          "id": "885a60ac54c2cf0aceac29219dcc9598",
+          "source_id": "NewsaHackO",
+          "username": "NewsaHackO",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4f68e110da9a32c926bb069f678108e7",
+        "source_id": "48607201",
+        "content": {
+          "text": "Ehm. I would assume your definition of writing good code fast is not what the majority of enterprise developers agrees with. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.245335",
+        "updated_at": "2026-06-20T16:28:14.245335",
+        "author": {
+          "id": "8244ce9750de8446f06feb3f836ea4f9",
+          "source_id": "d5lt5",
+          "username": "d5lt5",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "69fa9aa781546883b13f52bbb06b62c4",
+        "source_id": "48608200",
+        "content": {
+          "text": "Fast, correct, maintainable. Pick two. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.247901",
+        "updated_at": "2026-06-20T16:28:14.247901",
+        "author": {
+          "id": "a9ea0f86665b9c599f7a5142dcb98638",
+          "source_id": "Hendrikto",
+          "username": "Hendrikto",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a3e7b62b5a418c7bc4333385981465c8",
+        "source_id": "48604504",
+        "content": {
+          "text": "If that happens, we will see it in triple-A games first. If some new titles have significant lower hardware specs than expected. If buyers can't afford the hardware anymore, the studios need to adjust. It's definitively possible to scale games down a lot. There are a few AAA games that were \"dumbed down\" for the Switch 1 (Hogwarts, cyberpunk, ...). And that's a really low-spec device. There are two factors: existing gamers not able to afford upgrading. But also new gamers, that might only be able to afford much lower spec PCs than people who bought 2 years earlier. Why games? Because there is a clear point where people stop buying games. Minimum hw specs are known before buying. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.250542",
+        "updated_at": "2026-06-20T16:28:14.250542",
+        "author": {
+          "id": "dc50dd5b721c1e2117289ef90067386b",
+          "source_id": "andix",
+          "username": "andix",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3a369836d881ce47a7306ec4e290c010",
+        "source_id": "48604779",
+        "content": {
+          "text": "> If that happens, we will see it in triple-A games first. If some new titles have significant lower hardware specs than expected. Recently I booted up Insurgency: Sandstorm. With a 5800X and an Intel Arc B580 at 1080p and high graphics, the game runs at around 200 FPS. Meanwhile, pretty much any modern UE5 title (with the exception of Ready or Not and Split Fiction, from what I've seen) runs horribly - the interesting thing is that no matter how much you tweak the .ini files or change the graphics settings you can't get something like STALKER 2 or The Forever Winter or Borderlands 4 to run as well as UE4 with the graphics similar to those old games. Instead you get something that runs at like 10% of the render resolution and still doesn't get 60 FPS (I'm not exaggerating, literally the performance I got in The Forever Winter). There's no good technical reason for things to be that way (Unity still exists, and the games made in it struggle less) other than the devs or the higher ups choosing higher fidelity but more expensive rendering technologies and using upscaling and framegen not as something that helps laptops or when you need the spare GPU capacity (e.g. encoding a video recording of the game), but rather as something that's supposed to be used to even get to 60 FPS in the first place. I don't know what needs to change for things to get better. I also don't see anyone particularly caring about regular software, Electron et al are just too convenient to develop in (having to create per-platform UIs sucks in already-overworked teams). reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.253199",
+        "updated_at": "2026-06-20T16:28:14.253199",
+        "author": {
+          "id": "e588d6a297b7a6a3815ce0fe95d16fc2",
+          "source_id": "KronisLV",
+          "username": "KronisLV",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "79f20d6627473e2395475ba7bc070980",
+        "source_id": "48607537",
+        "content": {
+          "text": "> I don't know what needs to change for things to get better. Studios need to start creating custom engines again, for one. We'll get better games with less unsatisfying jank, some of the projects will actually cost less (which is paradoxical to some) and performance is likely to jump significantly. Off-the-shelf engines have as many costs as they have benefits, but like a lot of technology people refuse to look at the choice as a trade-off, and to the extent that they acknowledge it's a trade-off the implicit admission is always that it's a trade-off that the user/player is paying the most for, so it's OK. If companies start creating custom engines en masse again it will also help solve part of the competency crisis in the industry, because they'll be forced to actually learn and educate people on how things work. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.256103",
+        "updated_at": "2026-06-20T16:28:14.256103",
+        "author": {
+          "id": "7ab4700e3a901972abb702ca3b40001f",
+          "source_id": "59nadir",
+          "username": "59nadir",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "632f5531eb2949173982c520bbcb49ec",
+        "source_id": "48607827",
+        "content": {
+          "text": "Do you actually believe in what you wrote above? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.258803",
+        "updated_at": "2026-06-20T16:28:14.258803",
+        "author": {
+          "id": "7a7bea3d9633ad9d658050d6e3795504",
+          "source_id": "tuna74",
+          "username": "tuna74",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a002e402341cfccdee8e6be8ae28ffcc",
+        "source_id": "48607904",
+        "content": {
+          "text": "Game studios should choose CryEngine/Decima again over UE5 reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.261522",
+        "updated_at": "2026-06-20T16:28:14.261522",
+        "author": {
+          "id": "be9943b34a46384bf3bcd1d76673b3ed",
+          "source_id": "Azantys",
+          "username": "Azantys",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "245dac283334c9622ed111eb2b61227d",
+        "source_id": "48608236",
+        "content": {
+          "text": ">There's no good technical reason for things to be that way Of course there is. What people gets presented is look how new graphics is shining. What devs get presented is look how much less manual work you need to get this graphics out of the door. Look at any UE5 presentation aiming at devs. You will be able to see a lot of 'just do this and technology will handle the rest of it'. There is no going back to manually making 3-5 replacements for each and every thing in the game. And the same goes for lights every few meters of a game world. As a gamedev I don't really care about the regular software. You can see that the main problem for devs is to get paid for it. All kind of schemes with subscriptions and online services and such were tried. People just don't want to pay for the software. The mentality is 'we will get it for pennies on a sale' is the same like with the steam sales. Or even worse people will choose 'free' version with 'promotions' and data collection and whatever else that saves them pennies. Look at 'free to play games' steam category for the example of the horror show. Oh and I don't think devs are the saints there. You can find a lots of examples that prey on gullible customers or trick people to buy 'digital goods' they don't need or outright bad things with gambling addictions and more. The only thing consumer can do is to only vote with their wallet and push their representatives to regulate. The stop killing games is an example of the latter. The former is often deemed inefficient but Imho it is the only thing that will separate surviving studios and the shattered ones. As you may see in the press the names and past successes don't save studios from closing their doors now. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.264328",
+        "updated_at": "2026-06-20T16:28:14.264328",
+        "author": {
+          "id": "3d392357a58e92e0e7bcab5317fecdd6",
+          "source_id": "SleepyMyroslav",
+          "username": "SleepyMyroslav",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "65c52704dad55a4ec2fcda4118d4bbbf",
+        "source_id": "48607822",
+        "content": {
+          "text": "Yes, Lumen (and raytracing in general) has a performance overhead. If you don't want that you can skip that feature. Split Fiction and other games choose to do so. I think certain games like Robocop are awesome on UE5. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.267108",
+        "updated_at": "2026-06-20T16:28:14.267108",
+        "author": {
+          "id": "7a7bea3d9633ad9d658050d6e3795504",
+          "source_id": "tuna74",
+          "username": "tuna74",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a1903108f3c4a029d7071c3b2e7c0027",
+        "source_id": "48608149",
+        "content": {
+          "text": "> If you don't want that you can skip that feature. Unfortunately, for the consumer this can also mean skipping some games altogether: for example, I might not be able to play the latest Indiana Jones or Doom game because they refuse to let RT be disabled (unless they get enough pushback, but we can all see where things are heading). At least there are some (usually indie) games that let you do that, like Incursion: Red River but even with Lumen and other features turned down, the performance is still worse than UE4 games of comparable scene fidelity (not necessarily complexity). I think the industry might have jumped into Nanite and all the adjacent tech way too eagerly. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.269939",
+        "updated_at": "2026-06-20T16:28:14.269939",
+        "author": {
+          "id": "e588d6a297b7a6a3815ce0fe95d16fc2",
+          "source_id": "KronisLV",
+          "username": "KronisLV",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3b64692267388649f213ccce10b5d4b4",
+        "source_id": "48608919",
+        "content": {
+          "text": "My comment was of course from the perspective of the game developer. For PC/Windows games it has always been the case that you need the required HW to play the game in a \"satisfying\" performance. A lot of RT features makes game development faster (or more efficient) so you won't be able to play the game without them. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.272787",
+        "updated_at": "2026-06-20T16:28:14.272787",
+        "author": {
+          "id": "7a7bea3d9633ad9d658050d6e3795504",
+          "source_id": "tuna74",
+          "username": "tuna74",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "91fc177b3667b9d429a375753af578e8",
+        "source_id": "48607150",
+        "content": {
+          "text": "No reason to see it in AAA games. They already have to run on Series S, which has ~8 GB usable memory. Consoles are the primary target for any game (if they are not, it is not AAA). So minimum specs remain relatively static through a generation. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.275664",
+        "updated_at": "2026-06-20T16:28:14.275664",
+        "author": {
+          "id": "e3dac4a0339e178a9f0fdd4ce49be085",
+          "source_id": "Stevvo",
+          "username": "Stevvo",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ae8f732e617a9e78e09cc84fb1aaa963",
+        "source_id": "48606204",
+        "content": {
+          "text": "I hope we continue local gaming, but my gut tells me we are going to see the opposite. I'd be willing to place a big bet on the new XBox leaning heavily into streaming, like GeForce now. Studios still get to build big, and the consoles get to rent hardware to you now, basically a wet dream for them. hardware costs must come down or every consumer segment is going to be renting, not owning, everything. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.278596",
+        "updated_at": "2026-06-20T16:28:14.278596",
+        "author": {
+          "id": "f58b49ab2fc7084867b6f20e0252b853",
+          "source_id": "thewebguyd",
+          "username": "thewebguyd",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "80c074f07e89aa7f7b227159449c43dc",
+        "source_id": "48607230",
+        "content": {
+          "text": "I wouldn’t be surprised if they try but I think the game streaming business model is mostly dead. Stadia was a huge flop, PlayStation has streaming for previous gen games and it sucks, Xbox also has a streaming offering but I haven’t heard anything good about it. It’s a bad user experience and a significant cost to the company providing the streaming. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.281535",
+        "updated_at": "2026-06-20T16:28:14.281535",
+        "author": {
+          "id": "45f337673e264fd09ae3e498eb25d369",
+          "source_id": "VohuMana",
+          "username": "VohuMana",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1617a533573a4a71bff2b47c7b2c2f62",
+        "source_id": "48606288",
+        "content": {
+          "text": "> hardware costs must come down or every consumer segment is going to be renting, not owning, everything. Is this not exactly what companies want reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.284513",
+        "updated_at": "2026-06-20T16:28:14.284513",
+        "author": {
+          "id": "faff4b1e18a58602dfb707458d21b65c",
+          "source_id": "timacles",
+          "username": "timacles",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "31213c4d1e062d7c427a64373f481ce3",
+        "source_id": "48604532",
+        "content": {
+          "text": "If you listen to gaming Youtube then the gaming industry is already in trouble from hardware costs and availability.  I'm not sure if they are making a mountain out of a mole hill or not though. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.287500",
+        "updated_at": "2026-06-20T16:28:14.287500",
+        "author": {
+          "id": "aa0d0d095a757680c076fe3d820e315d",
+          "source_id": "operatingthetan",
+          "username": "operatingthetan",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9de909f26d585316016b09bfa335f58c",
+        "source_id": "48606774",
+        "content": {
+          "text": "I don't know if I buy it.  In the last few years the AAA gaming industry has turned out a lot of bad games, and that probably explains most of the trouble. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.290532",
+        "updated_at": "2026-06-20T16:28:14.290532",
+        "author": {
+          "id": "2df70f1609b12e9fdf90a5b0a8716087",
+          "source_id": "laughing_man",
+          "username": "laughing_man",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2020cf1ce521955970f7393aa95c8199",
+        "source_id": "48605686",
+        "content": {
+          "text": "Games are designed for consoles which aren't going to change in the near term. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.293594",
+        "updated_at": "2026-06-20T16:28:14.293594",
+        "author": {
+          "id": "92bc3ae376a66bd4a437234b3757e997",
+          "source_id": "wmf",
+          "username": "wmf",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e16a20d0143fd56853644e296c56d108",
+        "source_id": "48604564",
+        "content": {
+          "text": "Are programmers and their use of data structures driving up storage requirements in games though? Or is it just high poly models and high res textures? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.296665",
+        "updated_at": "2026-06-20T16:28:14.296665",
+        "author": {
+          "id": "18cc19d5bfe2d4107cdc2fff9a026c1d",
+          "source_id": "tayo42",
+          "username": "tayo42",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "32ff39d85978a5fc48dc7fd06cbefc13",
+        "source_id": "48606014",
+        "content": {
+          "text": "Helldivers 2 was in the news a few months ago for \"optimizing\" and saving over 130gb of disk space required for installation or something to that effect. In actuality, what they did was remove an \"optimization\" they had implemented without ever once benchmarking and realising it was making things significantly worse. The software development industry is a freaking wreck filled with easy opportunities for improvement if only anyone gave enough of a shit about their consumers to profile their code, ever. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.299782",
+        "updated_at": "2026-06-20T16:28:14.299782",
+        "author": {
+          "id": "ebaa39029a021b56b2c8a751aeeff75a",
+          "source_id": "applfanboysbgon",
+          "username": "applfanboysbgon",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c3f33a9eaddb187f054a9b3e7bb43c65",
+        "source_id": "48604634",
+        "content": {
+          "text": "I guess it's not just models and textures. Those should be the easiest to dial down, even optionally with a \"low\" setting. Maybe making high-res assets an optional download, to reduce game size (ssds are also getting expensive) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.302900",
+        "updated_at": "2026-06-20T16:28:14.302900",
+        "author": {
+          "id": "dc50dd5b721c1e2117289ef90067386b",
+          "source_id": "andix",
+          "username": "andix",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f1c1201d406c09c48c1a1c099082010f",
+        "source_id": "48606219",
+        "content": {
+          "text": "Switch was notorious for having a few Cloud streamed-games that don't run on the actual hardware. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.306043",
+        "updated_at": "2026-06-20T16:28:14.306043",
+        "author": {
+          "id": "d21df6daec091150931a87f171a248a2",
+          "source_id": "Dwedit",
+          "username": "Dwedit",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "331364b3045b7d7ebe99e8d9ae0ed816",
+        "source_id": "48606225",
+        "content": {
+          "text": "which ones were those? I want to check them out reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.309212",
+        "updated_at": "2026-06-20T16:28:14.309212",
+        "author": {
+          "id": "03ff1a4394774eba360cb5cc8e26b201",
+          "source_id": "socalgal2",
+          "username": "socalgal2",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "115f953614f4f040911e07f4987184f7",
+        "source_id": "48607830",
+        "content": {
+          "text": "The Switch 1 Kingdom Hearts game are like that. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.312447",
+        "updated_at": "2026-06-20T16:28:14.312447",
+        "author": {
+          "id": "7a7bea3d9633ad9d658050d6e3795504",
+          "source_id": "tuna74",
+          "username": "tuna74",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3f28db6acc156b3e31ce8ae2d594d607",
+        "source_id": "48604545",
+        "content": {
+          "text": "That's memory efficient assets, not memory efficient code. The latter is already optimized for the former. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.315704",
+        "updated_at": "2026-06-20T16:28:14.315704",
+        "author": {
+          "id": "7fa153c2264e96df37d8aa690a5bcf6f",
+          "source_id": "thomastjeffery",
+          "username": "thomastjeffery",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "728fbc9d95ea3b8856a86aac6ecabdaa",
+        "source_id": "48604614",
+        "content": {
+          "text": "> There are two factors: existing gamers not able to afford upgrading. But also new gamers, that might only be able to afford much lower spec PCs than people who bought 2 years earlier. Spot on. Now with LLMs and desktop app libraries such as Tauri, there is little excuse in choosing Electron to build memory hungry apps other than laziness. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.319005",
+        "updated_at": "2026-06-20T16:28:14.319005",
+        "author": {
+          "id": "849a3675b25e24584543599c3f979a22",
+          "source_id": "rvz",
+          "username": "rvz",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0a5d6c0da8e2e137b373c7eeb26ca7a1",
+        "source_id": "48604648",
+        "content": {
+          "text": "Tauri sucks on macOS and especially Linux, because the native browsers are a huge issue. Tauri/Windows uses a recent Chromium engine, which is fine. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.322297",
+        "updated_at": "2026-06-20T16:28:14.322297",
+        "author": {
+          "id": "dc50dd5b721c1e2117289ef90067386b",
+          "source_id": "andix",
+          "username": "andix",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "48ee601dcefbc05a37dfe36389772c63",
+        "source_id": "48607630",
+        "content": {
+          "text": "No. Even today it is possible to use languages and programming techniques to be ultra efficient when it comes to memory. It's not that difficult to use them but the world don't care. Actual example: I have built same utility using Rust, Zig and Haskell (and Go, humorous writeup[0]). Rust binary is 450kb, Haskell binary 30mb. Zig was unfinished but I constrained memory to 512kb just for fun. Thus it's not about memory per se but more about convenience. Many applications could be scaled by 1-3 degrees of magnitude in memory if they reused techniques but... no one cares. 4K resolution frame is ~40mb uncompressed. Another 10mb is 80k lines of text. Thus fitting in 50mb for 99.8% of applications should be perfectly doable with today's tech. If the price increase would be per each next 1mb then maaaaaybeeee. But if it's like 100% over GB then I'm sure it won't have any impact. [0]: https://xlii.space/eng/the-four-language-waltz-a-tale-of-all... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.325717",
+        "updated_at": "2026-06-20T16:28:14.325717",
+        "author": {
+          "id": "ed6e960d6008067e906a8568f6d85738",
+          "source_id": "xlii",
+          "username": "xlii",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "458b21f7a5dd62ccc86a2f624009020f",
+        "source_id": "48608331",
+        "content": {
+          "text": "You can drain all the system RAM with a tiny binary, so I am not sure you used the right metric. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.329073",
+        "updated_at": "2026-06-20T16:28:14.329073",
+        "author": {
+          "id": "6d22390dd4e99c08cc19791b3cdb87b4",
+          "source_id": "lukan",
+          "username": "lukan",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a66ce8374fa71a1c7aa53dedffea641b",
+        "source_id": "48610234",
+        "content": {
+          "text": "The only way to make them to write efficient code is to force developers to do development and testing of the software on the weak machine. At my current job we have Windows virtual machines with 4 old Xeon cores, running at 2.4Ghz and 16Gb of RAM, no GPU. Such config will force them to write efficient UI. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.332528",
+        "updated_at": "2026-06-20T16:28:14.332528",
+        "author": {
+          "id": "b5245015f41867637a3f14ee0f9009a3",
+          "source_id": "ponector",
+          "username": "ponector",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d4fc0b66b337857688edd8d54381e323",
+        "source_id": "48610054",
+        "content": {
+          "text": "I don't think many will. But I think they should. Not only for the practical reason, but because it leads to better software in my opinion Limitations foster creativity. Abundance kills innovation. In my company:\n- All computers are refurbished and at least 10 years old.\n- Cloud deployments use Hetzner or self hosted machines.\n- All hardware in general is a bit dodgy. Our main CI/CD setup is on a very unreliable network with varying availability and bandwidth It can be annoying once in a while but it reflects our customers reality. And it catches a lot of usability and performance bugs that we wouldn't otherwise catch I can only recommend it reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:14.336000",
+        "updated_at": "2026-06-20T16:28:14.336000",
+        "author": {
+          "id": "8a96a5762ca6dac515db8d7b027506a6",
+          "source_id": "LarsKrimi",
+          "username": "LarsKrimi",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-06-20T16:28:14.971091",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "ee80e387f133eac747918137e835c363",
+      "source_id": "48609465",
+      "title": "Ask HN: What do you care about? What is your joy and purpose?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-06-20T16:28:11.161863",
+      "updated_at": "2026-06-20T16:28:11.161863",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "643137b4e7e11bc31bf56f785e9d3834",
+        "source_id": "bix6",
+        "username": "bix6",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 6,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48609465",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-06-20T16:28:18.907938",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "0f61d0db67eb3997e0f3b8cc49c19d74",
+      "source_id": "48609424",
+      "title": "Ask HN: How to handle kernel struct changes (e.g. iov_iter) in eBPF?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-06-20T16:28:11.162454",
+      "updated_at": "2026-06-20T16:28:11.162454",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "606c601df13031b907b9bef67d541387",
+        "source_id": "morolis",
+        "username": "morolis",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 3,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48609424",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-06-20T16:28:23.233007",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "080ecbb6153df3a8c7e59a7c16504127",
+      "source_id": "48608491",
+      "title": "Ask HN: Need advice on distributing and testing what I build",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">I have been building stuff (applications/websites) lately but am having a tough time figuring out how to best distribute and test what I build. I wanted to ask you guys how you do it - what are some of the best practices and hacks you guys deploy and also what is your experience with this step.</div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-06-20T16:28:11.162969",
+      "updated_at": "2026-06-20T16:28:11.162969",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "29e8b4f77bfed8da25d3e8357fea6ca3",
+        "source_id": "darth-pixit",
+        "username": "darth-pixit",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 2,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48608491",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-06-20T16:28:24.910810",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "fbf5c2c5e7a698f3dabaf3a918ff6cd3",
+      "source_id": "48582679",
+      "title": "Ask HN: Is anyone using the A2A protocol?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-06-20T16:28:11.163496",
+      "updated_at": "2026-06-20T16:28:11.163496",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "ed41729f7e7b1ec6c5954ea6bdec43ad",
+        "source_id": "asim",
+        "username": "asim",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 91,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48582679",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-06-20T16:28:27.690564",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "ac65f2738f8a5b1597b1c08741c2675e",
+      "source_id": "48587808",
+      "title": "Ask HN: What tools are you using for AI-assisted code review?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">My team (around 40 people who write code) is evaluating tools for AI-assisted code review. The market appears to be rife with options, so before starting a series of free trials, I’d like to ask a knowledgeable crowd.\nWhat tools or services are you using? Do you use them just for code review, or for other purposes as well, such as incident response or branch management? Why did you choose them, and what do you like or dislike about them?</div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-06-20T16:28:11.163998",
+      "updated_at": "2026-06-20T16:28:11.163998",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "0e0eccb47db75f9af1201416ebb508c0",
+        "source_id": "agos",
+        "username": "agos",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 21,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48587808",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "785575b520c5a41984128fbea40f19aa",
+        "source_id": "48590836",
+        "content": {
+          "text": "Besides local review via codex and Claude code, we are using GitHub Copilot with custom instructions. We just assign it as a reviewer in GitHub and a couple minutes later, the review is done. It raises a lot of issues which are valid and which I never had found. https://docs.github.com/en/copilot/tutorials/customize-code-... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:30.094711",
+        "updated_at": "2026-06-20T16:28:30.094711",
+        "author": {
+          "id": "d6f8fb92b4e2727d1b239bafe2b686ea",
+          "source_id": "partsch",
+          "username": "partsch",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "03ec37707da6c861ea4333333831f6b1",
+        "source_id": "48596854",
+        "content": {
+          "text": "what custom instructions did you give it? standard stuff about your practices? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:30.095217",
+        "updated_at": "2026-06-20T16:28:30.095217",
+        "author": {
+          "id": "0e0eccb47db75f9af1201416ebb508c0",
+          "source_id": "agos",
+          "username": "agos",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d84653b72d620dd7f226bacf0d289f94",
+        "source_id": "48601298",
+        "content": {
+          "text": "Using dupehound for identifying duplicated code. What I use for: I use for identifying duplicated code. It is deterministic, doesn't use AI, offline, runs from CLI and is super fast (and free). What I dislike: I won't say it I dislike, but it is not a tool that does all the jobs of a code review. For instance, it doesn't flag security issues. It is superfocused on code duplication (it performs better than Sonar for this use case) and is specifically useful for large codebases. Disclaimer: I am one of the collaborators, so take it with a grain of salt https://github.com/Rafaelpta/dupehound reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:30.095815",
+        "updated_at": "2026-06-20T16:28:30.095815",
+        "author": {
+          "id": "7cd9af9b1fe1f975ddf0501fd99c9b78",
+          "source_id": "rafaepta",
+          "username": "rafaepta",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b130e2b7bebc351d90136d94dccdd811",
+        "source_id": "48606502",
+        "content": {
+          "text": "I just use codex / claude code to do reviews. It does a good job, and it's easy to explain and navigate. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:30.096356",
+        "updated_at": "2026-06-20T16:28:30.096356",
+        "author": {
+          "id": "717b78581f62faa64eb52665fad4e226",
+          "source_id": "rishabhpoddar",
+          "username": "rishabhpoddar",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "05dfdf4c878ce13986d2ba2144bb3e64",
+        "source_id": "48595210",
+        "content": {
+          "text": "Built my own using Claude Code; inside a gitlab job we call Claude Code headless. This works well. There is a tiny mcp server exposed to Claude so it can post inline comments. All existing comments are fed into the reviewer to avoid double posting. The quality of feedback is high. Most complexity is in the SHA management. For example after a rebase. Luckily LLMs understand git very well otherwise it would have been impossible for me. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:30.096962",
+        "updated_at": "2026-06-20T16:28:30.096962",
+        "author": {
+          "id": "af978d05f67e675c7e6a83658c8b2047",
+          "source_id": "stpedgwdgfhgdd",
+          "username": "stpedgwdgfhgdd",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "85d0bb84bd73c617e562ca43966304d7",
+        "source_id": "48594687",
+        "content": {
+          "text": "Claude-Code and Codex in combination, combined with an IDE such as Google Antigravity or VisualStudio-Code are very powerful tools, if your company can invest in hardware the new Mac Studio and MacBook Pro allow optimized local inference through open-source tools such as: https://github.com/antirez/ds4 reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:30.097592",
+        "updated_at": "2026-06-20T16:28:30.097592",
+        "author": {
+          "id": "e020f2cd5c0213ba4c56b4f3ec201992",
+          "source_id": "shsh1312",
+          "username": "shsh1312",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d2a927e69a5c8bf9308be68539f576e5",
+        "source_id": "48592520",
+        "content": {
+          "text": "Opencode, mainly because I appreciate how one of the founders treats the UX as a first class concern. Its a great tool to learn since it can help us pivot from the potential impending provider crisis where teams may start having to consider things outside of the large labs. As my daily driver at home, I use Pi though because it doesn't get in your way and forces you to understand how the sauce is made. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:30.098216",
+        "updated_at": "2026-06-20T16:28:30.098216",
+        "author": {
+          "id": "d69bd0d6f969d25cec521cc7bb9a3779",
+          "source_id": "dbour",
+          "username": "dbour",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e157775310a9c106e02562563aa753cb",
+        "source_id": "48593210",
+        "content": {
+          "text": "I don't use these tools, but wouldn't it be better to use them only after you do a manual review to see if they find anything you missed? Otherwise I could see reviewers getting false confidence and doing a less thorough review. This happens with seeing that unit tests pass. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:30.098872",
+        "updated_at": "2026-06-20T16:28:30.098872",
+        "author": {
+          "id": "be8ee60b0f053182b5aac4c58025d303",
+          "source_id": "davebren",
+          "username": "davebren",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d514a13c7d5be04efa44fa6d2dbad9d9",
+        "source_id": "48596821",
+        "content": {
+          "text": "that's a good point and surely something to test out and see what works and what not reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:30.099557",
+        "updated_at": "2026-06-20T16:28:30.099557",
+        "author": {
+          "id": "0e0eccb47db75f9af1201416ebb508c0",
+          "source_id": "agos",
+          "username": "agos",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "248101edc7d7ecec25d80136cfc3dca5",
+        "source_id": "48596752",
+        "content": {
+          "text": "I mostly use CodeRabbit via GitHub PR https://www.coderabbit.ai/ reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:30.100275",
+        "updated_at": "2026-06-20T16:28:30.100275",
+        "author": {
+          "id": "4b7370bada6e0c4d0dc9c42cd60d66fd",
+          "source_id": "jcubic",
+          "username": "jcubic",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2d9affc404d4e3617f03c280cd2501a5",
+        "source_id": "48596847",
+        "content": {
+          "text": "does it work well for you? did you do any fine tuning worth mentioning? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:30.101007",
+        "updated_at": "2026-06-20T16:28:30.101007",
+        "author": {
+          "id": "0e0eccb47db75f9af1201416ebb508c0",
+          "source_id": "agos",
+          "username": "agos",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "054c018982ece7dd63831b99b800bd1c",
+        "source_id": "48604734",
+        "content": {
+          "text": "No I did nothing. I use it as a first check before I review the code myself on my Open Source projects. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:30.101773",
+        "updated_at": "2026-06-20T16:28:30.101773",
+        "author": {
+          "id": "4b7370bada6e0c4d0dc9c42cd60d66fd",
+          "source_id": "jcubic",
+          "username": "jcubic",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "db2f3996fd2daf9459f8cddc60257851",
+        "source_id": "48594257",
+        "content": {
+          "text": "For Claude Code, I think the standard is Codex + Gemini. Why these two? Because it “covers” the blind spots the others would miss by themselves. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:30.102569",
+        "updated_at": "2026-06-20T16:28:30.102569",
+        "author": {
+          "id": "3b4ae03b70d083db68a607d27fb5a487",
+          "source_id": "nxy",
+          "username": "nxy",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9982e92d78ffda1a375b5af980108c37",
+        "source_id": "48594249",
+        "content": {
+          "text": "Github copilot is a little too opinionated, but we still use it to catch obvious stuff. Codex on top of that with specific rules and syntax requirements. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:30.103438",
+        "updated_at": "2026-06-20T16:28:30.103438",
+        "author": {
+          "id": "67e46ecf0e6dfd3d011d0c75818e127c",
+          "source_id": "Supermancho",
+          "username": "Supermancho",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a26ec9034798754d11f16f52f3d26c84",
+        "source_id": "48593677",
+        "content": {
+          "text": "/review in claude code - the skill pulls the PR from remote and review it. Can post comments also. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:30.104284",
+        "updated_at": "2026-06-20T16:28:30.104284",
+        "author": {
+          "id": "9ed04663e28bf765b8f684a57723a894",
+          "source_id": "benoitdest",
+          "username": "benoitdest",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4cd9c6259c49ba9445e8c23d7b4405f6",
+        "source_id": "48595273",
+        "content": {
+          "text": "Honestly I get awful results using this skill. The output is way better when I simply ask it to review the changes on my branch compared to origin/main reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:30.105153",
+        "updated_at": "2026-06-20T16:28:30.105153",
+        "author": {
+          "id": "4e2e98a63b6366face14ddbe2f7cbe45",
+          "source_id": "kcrwfrd_",
+          "username": "kcrwfrd_",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3b59c3ee00c05a6fdc9eeddb6cfb44da",
+        "source_id": "48603190",
+        "content": {
+          "text": "/review flags the stupidest things reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:30.106064",
+        "updated_at": "2026-06-20T16:28:30.106064",
+        "author": {
+          "id": "c0cfcd50f136c0f25b378c2c3c3e6cd5",
+          "source_id": "gargola",
+          "username": "gargola",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "43105f8f86642f02432378d246a6a26c",
+        "source_id": "48592498",
+        "content": {
+          "text": "Rolled our own with OpenCode, seems to work quite well and meets the goal of being vendor agnostic :) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:30.106985",
+        "updated_at": "2026-06-20T16:28:30.106985",
+        "author": {
+          "id": "d2b9a21f36cbed5173f75ffdf98876f3",
+          "source_id": "r_p4rk",
+          "username": "r_p4rk",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1956687d5290a45a392498d9cfc98ba9",
+        "source_id": "48602015",
+        "content": {
+          "text": "Rovo/Bitbucket reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:30.107932",
+        "updated_at": "2026-06-20T16:28:30.107932",
+        "author": {
+          "id": "714d08eecb941ff16d4229118d3b1f7a",
+          "source_id": "uberex",
+          "username": "uberex",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6d52acefe920dee46ccb3d4a98548c3f",
+        "source_id": "48590941",
+        "content": {
+          "text": "claude code and github copilot reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:30.108904",
+        "updated_at": "2026-06-20T16:28:30.108904",
+        "author": {
+          "id": "04c6ef2cc5a6f1995dd955df7d0d0e07",
+          "source_id": "coder_afrique",
+          "username": "coder_afrique",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1ff556c1429f5007de24d661d7a743fc",
+        "source_id": "48592370",
+        "content": {
+          "text": "Frankly, coding with Claude Code and having Copilot read through the PR is complementary and helps to catch some things that slipped through reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:30.109908",
+        "updated_at": "2026-06-20T16:28:30.109908",
+        "author": {
+          "id": "de44ad52d20d5f630e4c68be5ed702e0",
+          "source_id": "spgorbatiuk",
+          "username": "spgorbatiuk",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-06-20T16:28:30.110559",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "87b133adcebf59ffea3b045a00e91ec9",
+      "source_id": "48606533",
+      "title": "Ask HN: What's a simple app you'd build if you had a weekend?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">I know apps like this already exist, but I’d make one that sends you a single positive affirmation once a day as a notification.<p>Nothing else.<p>No streaks, no subscriptions, no journaling, no extra features.<p>That’s all it does.</p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-06-20T16:28:11.164625",
+      "updated_at": "2026-06-20T16:28:11.164625",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "1dc2c3b2e33ea0540fae01e69cdae972",
+        "source_id": "akashwadhwani35",
+        "username": "akashwadhwani35",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 4,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48606533",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "730cabc5e9b83febfeaa7ac65b837341",
+        "source_id": "48608523",
+        "content": {
+          "text": "Mine was an app that runs in the background and auto copies on select - ended up building it over a couple of weekends - pluks.app if you want to try it. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:32.793515",
+        "updated_at": "2026-06-20T16:28:32.793515",
+        "author": {
+          "id": "29e8b4f77bfed8da25d3e8357fea6ca3",
+          "source_id": "darth-pixit",
+          "username": "darth-pixit",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0a491778614347b3bb305e3723ce33cb",
+        "source_id": "48608112",
+        "content": {
+          "text": "Like a variation of some game....pong with powers and such. Or 3d tic tac toe, or or 3d connect 4. Something that start simple and by the time I know it, I am deep into it reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:32.794027",
+        "updated_at": "2026-06-20T16:28:32.794027",
+        "author": {
+          "id": "b61d81dcaef8b35d0bc842b64566e3bd",
+          "source_id": "John_Kwick",
+          "username": "John_Kwick",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "12d14c7fe8ed5a5c26102df253bc67a9",
+        "source_id": "48606771",
+        "content": {
+          "text": "Website implementing a couple of the classic decision support linear programming models. Not 20, and not 1. Maybe 2 or 3, with low enough barrier to enter somebody can do a \"what if\" over 3  or 4 unrelated criteria which need to arrive at a unified choice. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:32.794614",
+        "updated_at": "2026-06-20T16:28:32.794614",
+        "author": {
+          "id": "a7a59ed86ca3b08f77c2796dfc7313ee",
+          "source_id": "ggm",
+          "username": "ggm",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c313ca1a827316f906ce1dc08baac114",
+        "source_id": "48606658",
+        "content": {
+          "text": "What's the app you'd build if you had ten years? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:32.795150",
+        "updated_at": "2026-06-20T16:28:32.795150",
+        "author": {
+          "id": "32540e7d128f784de781896d57653169",
+          "source_id": "wseqyrku",
+          "username": "wseqyrku",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b18f1fb9c44e4d6c4da2b147d5724632",
+        "source_id": "48607321",
+        "content": {
+          "text": "Something like we chat, a super app - one app to rule em all. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-06-20T16:28:32.795727",
+        "updated_at": "2026-06-20T16:28:32.795727",
+        "author": {
+          "id": "1dc2c3b2e33ea0540fae01e69cdae972",
+          "source_id": "akashwadhwani35",
+          "username": "akashwadhwani35",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-06-20T16:28:32.795935",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "7f55cae219db5c6479c09ea16cb5c299",
+      "source_id": "48601097",
+      "title": "Ask HN: What is the coolest tech progress outside AI?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-06-20T16:28:11.165121",
+      "updated_at": "2026-06-20T16:28:11.165121",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "98241070d2b6a0ed47c7098a7eef5319",
+        "source_id": "vantareed",
+        "username": "vantareed",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 11,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48601097",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-06-20T16:28:38.510906",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "7a9c44c62957be808b745ca2a3062552",
+      "source_id": "48595300",
+      "title": "Ask HN: Is anyone else leaving AUR?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-06-20T16:28:11.165638",
+      "updated_at": "2026-06-20T16:28:11.165638",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "91d8f0dda4962cc516d6eae694146fa8",
+        "source_id": "lordkrandel",
+        "username": "lordkrandel",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 6,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48595300",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-06-20T16:28:42.861001",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "b44b039799e7037bd0dde978248dd83a",
+      "source_id": "48606728",
+      "title": "Ask HN: Using OPA/Rego to secure MCP tool execution. Does it make sense?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-06-20T16:28:11.166129",
+      "updated_at": "2026-06-20T16:28:11.166129",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "d7781a91f27f2862cda70425e3c9c44d",
+        "source_id": "wmolino",
+        "username": "wmolino",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 5,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48606728",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-06-20T16:28:47.367327",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "d5eb4b82cbbbdb3c69bbad789cb80978",
+      "source_id": "48598508",
+      "title": "Ask HN: Open-Source Intelligence",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-06-20T16:28:11.166636",
+      "updated_at": "2026-06-20T16:28:11.166636",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "205457430651f0b6aa153afad4fc410c",
+        "source_id": "silent_butagrim",
+        "username": "silent_butagrim",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 3,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48598508",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-06-20T16:28:51.018105",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "169463c0016977d0ed538da92a9028a6",
+      "source_id": "48598397",
+      "title": "Ask HN: Is there a recognized standard for swarm intelligence benchmarking?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-06-20T16:28:11.167125",
+      "updated_at": "2026-06-20T16:28:11.167125",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "2be5f1701555c6b0d5e2abe9b3674d92",
+        "source_id": "stephanieriggs",
+        "username": "stephanieriggs",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 5,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48598397",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-06-20T16:28:55.426196",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "35b809e37260d41507747491f944442c",
+      "source_id": "48609955",
+      "title": "Ask HN: Why SF? Why not India? UK? Or anywhere else?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-06-20T16:28:11.167686",
+      "updated_at": "2026-06-20T16:28:11.167686",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "1dc2c3b2e33ea0540fae01e69cdae972",
+        "source_id": "akashwadhwani35",
+        "username": "akashwadhwani35",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 2,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48609955",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-06-20T16:29:00.630495",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "e980073160eb2785f5638d6bba408121",
+      "source_id": "48588831",
+      "title": "Ask HN: I'm lost. How can I define ICP (Ideal Customer Profile)?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-06-20T16:28:11.168364",
+      "updated_at": "2026-06-20T16:28:11.168364",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "643cd6000580b941d810b8357977aa37",
+        "source_id": "snowhy",
+        "username": "snowhy",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 5,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48588831",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-06-20T16:29:05.027015",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "27d0efe6472ada5f3c61a2ce192bc379",
+      "source_id": "48587539",
+      "title": "Ask HN: Is there a way to stop the animated Google Doodles?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-06-20T16:28:11.168989",
+      "updated_at": "2026-06-20T16:28:11.168989",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "70ee9cfba775bcbc5563b646b6283d5e",
+        "source_id": "arnejenssen",
+        "username": "arnejenssen",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 11,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48587539",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-06-20T16:29:08.778373",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
   }
 ]
