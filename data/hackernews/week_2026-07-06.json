@@ -19988,5 +19988,2099 @@
       ],
       "is_nsfw": false
     }
+  },
+  {
+    "post": {
+      "id": "d0c8e6ef473254bcfdd039f07ca13596",
+      "source_id": "48845963",
+      "title": "Ask HN: I am not able to find a job. Should I switch stacks?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">I have 4 years of experience working with React, Next.js, and Node.js.<p>Other than that, I have also done some work with React Native and Three.js.<p>My last contract ended about 3 months ago, and I have been trying to find new work since then. I started with LinkedIn, then reached out through my network, HN threads, Wellfound, Reddit, and other platforms.<p>I also tried reaching out directly to startup founders building things in areas I like, such as worldbuilding and writing-related products. But many of them are also early-stage and do not seem to have much funding or hiring capacity right now.<p>At the moment, I can find around 6–8 jobs per week, but it is not moving forward. I am not based in the US, which is another hurdle.<p>I am open to learning new things. I have also done some work and courses around LLMs and RAG, so I would be open to working in that area too.<p>I’m wondering if I should continue with React/Next.js and keep applying, or if it makes sense to switch to another stack.<p>Has anyone been in a similar situation? What would you suggest? And how can I show experience in another stack?</p></p></p></p></p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-09T17:46:53.625093",
+      "updated_at": "2026-07-09T17:46:53.625093",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "ca1a1d7c6513d95b35bdcb272fbae3f4",
+        "source_id": "need_a_work23",
+        "username": "need_a_work23",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 9,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48845963",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "dfeca9538234fa1ac6930452ac29463b",
+        "source_id": "48846241",
+        "content": {
+          "text": "I highly recommend you read this classic post from Patrick McKenzie: https://www.kalzumeus.com/2011/10/28/dont-call-yourself-a-pr... > You are not defined by your chosen software stack: I recently asked via Twitter what young engineers wanted to know about careers.  Many asked how to know what programming language or stack to study.  It doesn’t matter.  There you go. This is especially true now, since coding agents make it possible to work with any stack. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-09T17:46:55.233376",
+        "updated_at": "2026-07-09T17:46:55.233376",
+        "author": {
+          "id": "05437f9f64358545964b8b2c60aeab7c",
+          "source_id": "gk1",
+          "username": "gk1",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2aa09e3c2a8eac70e4b399df6c90ff68",
+        "source_id": "48848934",
+        "content": {
+          "text": "I dunno I find it almost more important than ever to have deep domain experience. You need to be able to scan output and spot any problems/improvements instantly. If I am just auditing AI output around an area I don’t have mastery of I am basically useless. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-09T17:46:55.233787",
+        "updated_at": "2026-07-09T17:46:55.233787",
+        "author": {
+          "id": "a50a4e0c0e3825f065e943e5b3e72905",
+          "source_id": "ericmcer",
+          "username": "ericmcer",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7ecb100d48bfa57061aa6f67098d706b",
+        "source_id": "48849638",
+        "content": {
+          "text": "A stack is still not a domain. You could have domain expertise in building highly scaled distributed systems and still not call yourself a ____ programmer. The point is that your value lies more in knowing how to build for performance, consistency, reliability at scale and not in knowing where the semicolon goes. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-09T17:46:55.234169",
+        "updated_at": "2026-07-09T17:46:55.234169",
+        "author": {
+          "id": "609d3af6f22e505beb1f3ddf3825dfad",
+          "source_id": "patwork",
+          "username": "patwork",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "616a1844f300bab4f4fac2ae2e8e9c51",
+        "source_id": "48848372",
+        "content": {
+          "text": "Serious employers don’t care what tools you used, they care what heights did you reach (what kind of projects did you deliver). reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-09T17:46:55.234582",
+        "updated_at": "2026-07-09T17:46:55.234582",
+        "author": {
+          "id": "ddc8070c49ef7d2a9f42017d8fdef6dc",
+          "source_id": "aristofun",
+          "username": "aristofun",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a0dc23c779478c7035e42f67e5975212",
+        "source_id": "48848431",
+        "content": {
+          "text": "Don’t believe anyone is hiring “switchers” or people looking to learn new things these days.  I only get interviews for things that done the last ten years. Folks saying it doesn’t matter are correct in times of scarcity, but was always a hard sell to employers.  Currently impossible without personal connections. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-09T17:46:55.235021",
+        "updated_at": "2026-07-09T17:46:55.235021",
+        "author": {
+          "id": "03c2311b0aeba09e79bc064851b3f212",
+          "source_id": "mixmastamyk",
+          "username": "mixmastamyk",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9c0c0b250b76334d76bd01d9f7ceddf8",
+        "source_id": "48846893",
+        "content": {
+          "text": "The job has never been about \"writing code\". You're there to solve problems for the business. I'd reach out to people you've worked with before and ask if they need help. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-09T17:46:55.235535",
+        "updated_at": "2026-07-09T17:46:55.235535",
+        "author": {
+          "id": "f0c2085975a3b6f2d43a3f6fb29daed4",
+          "source_id": "rozenmd",
+          "username": "rozenmd",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "92c5175f1457d1c51ad1472ed4e42d16",
+        "source_id": "48846456",
+        "content": {
+          "text": "I'm on a similar situation. When you say \"switch stacks\" what do you have in mind? It seems your experience is pretty demanded already.  \nDo you have a strong Github profile? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-09T17:46:55.236018",
+        "updated_at": "2026-07-09T17:46:55.236018",
+        "author": {
+          "id": "687a4154cc7ae684ebd2f26491c3213c",
+          "source_id": "nitotm",
+          "username": "nitotm",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e22cd5c5de881eac6c5bbc19c66c85ff",
+        "source_id": "48847651",
+        "content": {
+          "text": "I started with js and php. Moved to Java. Then node. Then php again. Then Go. Then Kotlin. Then TS. Then Python. Then Go again. In between a bunch of sql, html, css, and many different tools, libraries and frameworks. The most important things Ive learned are around architecture/databases/distributed-systems, tho. I don’t think i could have survived in this industry if I knew only 1 or 2 “stacks”. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-09T17:46:55.236512",
+        "updated_at": "2026-07-09T17:46:55.236512",
+        "author": {
+          "id": "f5dde00778fdf68564c59a9c85fb4020",
+          "source_id": "sdevonoes",
+          "username": "sdevonoes",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-07-09T17:46:55.236738",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "74165d5e7a96c7c86a8f76726753cc05",
+      "source_id": "48845676",
+      "title": "Ask HN: Any good replacements for \"Refined Hacker News?\"",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-09T17:46:53.626021",
+      "updated_at": "2026-07-09T17:46:53.626021",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "50da9c861e241a5ee923ac0389737244",
+        "source_id": "gwbas1c",
+        "username": "gwbas1c",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 2,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48845676",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-09T17:46:58.345027",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "b8c986b4134f9e4fa69348d0a3436abd",
+      "source_id": "48845508",
+      "title": "Ask HN: Is Google NERFing AI Mode?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-09T17:46:53.626477",
+      "updated_at": "2026-07-09T17:46:53.626477",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "e760097489e9389b620772b6f7bd8da6",
+        "source_id": "PaulHoule",
+        "username": "PaulHoule",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 3,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48845508",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-09T17:47:01.629734",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "16e5c4aed3a975c3fdc8d8187d15c04d",
+      "source_id": "48845324",
+      "title": "Ask HN: What's the Fuzz about Taste?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">For different reasons in the last 2 weeks I've found myself speaking to CTOs / CPOs that believe \"Taste\" is the main distinction and value a human brings to the process in a LLM/Generative AI world.<p>I'm simply not getting it, and I don't know what I'm missing.<p>+ Self-driving as an example: We only really care if it drives better or equal to a human. So no taste applies there, once the standards are met.<p>Don't get me wrong, I understand (and share) that we use a concept of \"taste\" to actually mean \"there is no enough data for the model to give a right answer\", and the \"judgement we introduce after years of living may be better\". But I don't buy into the idea that exercising that decision (our free will if we may), is the actual difference simple because it is perceived as less stochastic.<p>So, is taste another way of saying you still know better? Or am I truly, and likely, missing something here?<p>PS: Apologies for overly simplifying the concept.</p></p></p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-09T17:46:53.626895",
+      "updated_at": "2026-07-09T17:46:53.626895",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "205e37aeb33ee9ecc40320eb60ca706e",
+        "source_id": "pls-dnt-deploy",
+        "username": "pls-dnt-deploy",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 2,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48845324",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "855b1efcb5b4e4269f13613e81521aa4",
+        "source_id": "48845855",
+        "content": {
+          "text": "Emily Segal has excellent reporting on 'tasteslop' https://nemesisglobal.substack.com/p/tasteslop More practically, people who work at AI startups are starting to realize that money and power can't fix everything and they are being met with hostility. I have met several people working at frontier labs who legitimately feel that what they are doing is making the world a worse place and that a disgusting amount of money is not enough to assuage their apprehensions. They cannot even look people in the eye and tell them what they do. Maybe shame is good op-sec. You've all managed to successfully alienate the entire creative class. In any case, C-suite has realized that the regulatory regime depends on public consumer sentiment. The current range of products do not pacify the masses. There is a real, visceral feeling that these tools are polluting the world around us with low-quality media with malicious purposes by a growing cadre of vying interests. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-09T17:47:03.474142",
+        "updated_at": "2026-07-09T17:47:03.474142",
+        "author": {
+          "id": "bfa5a7ad87fd7566e0dc8b47b1200576",
+          "source_id": "odomojuli",
+          "username": "odomojuli",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b629ea5aa116fa357560cba98ff299ea",
+        "source_id": "48846460",
+        "content": {
+          "text": "Great article, I loved it! A few parts will stay with me. The Idiosyncrasy dimension seems to be what I was missing the most. That relative and social aspect beyond discernment and pattern recognition. This is the powerful quote, because taste wasn't a top concern until mass production appeared: \n\"Tech’s surging obsession with taste is therefore not really about aesthetics; it reflects a deep anxiety about whether economic capital can capture cultural capital at the exact moment cultural capital becomes crucial for technology’s distribution, relevance, and differentiation.\" Thanks!!! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-09T17:47:03.474575",
+        "updated_at": "2026-07-09T17:47:03.474575",
+        "author": {
+          "id": "205e37aeb33ee9ecc40320eb60ca706e",
+          "source_id": "pls-dnt-deploy",
+          "username": "pls-dnt-deploy",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-07-09T17:47:03.474679",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "05c92952a6c8ffd8dff7f621759f6c19",
+      "source_id": "48838907",
+      "title": "Ask HN: HN frontpage feels boring now?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-09T17:46:53.627302",
+      "updated_at": "2026-07-09T17:46:53.627302",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "9d3f7e09733f33886493f2b876ea39f7",
+        "source_id": "xeonmc",
+        "username": "xeonmc",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 40,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48838907",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-09T17:47:08.579292",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "8e3c141860d38782ea260041a3be5655",
+      "source_id": "48844680",
+      "title": "Ask HN: Who is running the abusive scrapers?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">Personally I once had to triple app capacity and double database capacity just for just one scraper. I remember Cloudflare once figured out that Perplexity was one of the bad guys ( https://blog.cloudflare.com/perplexity-is-using-stealth-undeclared-crawlers-to-evade-website-no-crawl-directives/ ) but has anyone else figured out who else is running large scale and poorly behaved scrapers?</div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-09T17:46:53.627711",
+      "updated_at": "2026-07-09T17:46:53.627711",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "f578688740885176c34af50785e55227",
+        "source_id": "jonatron",
+        "username": "jonatron",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 9,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48844680",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "dac895c8a543fb374b645083e1f077d7",
+        "source_id": "48845100",
+        "content": {
+          "text": "Who is running the abusive scrapers? Don't know, I just block them.  These [1] are some of the methods I use with exception to method 7 . I need to make time to try out the SSL fingerprint detection.  They are crude methods but most of the bots / scrapers are kicked to the curb.  The feds shutting down NetNut helped a lot too.  I am looking forward to them shutting down more residential proxies. Mirror [2] [1] - https://nochan.net/b/Internet-Crap/20260606-How-To-Block-Som... [2] - https://archive.is/kVLJZ reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-09T17:47:11.150634",
+        "updated_at": "2026-07-09T17:47:11.150634",
+        "author": {
+          "id": "50365049936728cea84bd3a29c56297c",
+          "source_id": "Bender",
+          "username": "Bender",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "913ca2582703c7da9d22cb2e7a0a30fa",
+        "source_id": "48845066",
+        "content": {
+          "text": "never got a name, best we managed was network attribution. ours came mostly from tencent cloud plus a second hetzner asn, all spoofed chrome on windows user agents, and it rotated from digitalocean to tencent within a day once we started blocking asns. need to tell that it executed the AWS WAF js challenge and replayed the token, but never solved an interactive captcha, so flipping the action from challenge to captcha is what finally stopped it reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-09T17:47:11.151015",
+        "updated_at": "2026-07-09T17:47:11.151015",
+        "author": {
+          "id": "ddcff1cfddc9808a725b0f7693bdd746",
+          "source_id": "mmakeev",
+          "username": "mmakeev",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-07-09T17:47:11.151116",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "d58034ebb547d80cb96761cbc974871c",
+      "source_id": "48844345",
+      "title": "Ask HN: I hate coding agents. Is this skill issue?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-09T17:46:53.628105",
+      "updated_at": "2026-07-09T17:46:53.628105",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "462dd3a6cf42ecae7eaa55cb595f1f9a",
+        "source_id": "cmar00",
+        "username": "cmar00",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 4,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48844345",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-09T17:47:14.397597",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "902318daa9758d141fcd0b2f975b1dcf",
+      "source_id": "48843956",
+      "title": "Ask HN: How long has it been since you last opened Stack Overflow?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-09T17:46:53.628506",
+      "updated_at": "2026-07-09T17:46:53.628506",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "9f11a1a2c4039b15237fdd897dff6812",
+        "source_id": "novoreorx",
+        "username": "novoreorx",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 3,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48843956",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-09T17:47:17.557105",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "49582277bbbae21cab51769002b7e914",
+      "source_id": "48846879",
+      "title": "Ask HN: What would you do if you had coded a better web browser than Firefox?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-09T17:46:53.629079",
+      "updated_at": "2026-07-09T17:46:53.629079",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "9469571e50fd22e1e42797f058ba3da1",
+        "source_id": "roschdal",
+        "username": "roschdal",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 4,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48846879",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-09T17:47:20.390215",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "615fa8137bcbc0f8333dd6a58c3cca86",
+      "source_id": "48787886",
+      "title": "Ask HN: Where are the good search engines for mathematical formulas?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-09T17:46:53.629572",
+      "updated_at": "2026-07-09T17:46:53.629572",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "9c68bdecf188814dad4b8731387f7501",
+        "source_id": "lo0dot0",
+        "username": "lo0dot0",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 56,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48787886",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-09T17:47:22.645752",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "b308d9ec702ae776919d65f043dba5fe",
+      "source_id": "48821803",
+      "title": "Ask HN: Is GitHub preparing to go behind a login wall?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">From time to time, I check that our open-source project is still available to all users, and I've occasionally noticed that the stargazers (1) information returns a 404 for non-logged-in users.<p>I assume they're preparing to follow the LinkedIn model by making access available to registered users only.<p>Have you noticed that GitHub has started blocking access to certain functions/pages for users without an account?<p>1. https://github.com/tirrenotechnologies/tirreno/stargazers</p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-09T17:46:53.630051",
+      "updated_at": "2026-07-09T17:46:53.630051",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "fc0fc2d3f266d5d71a8780a80bbe4329",
+        "source_id": "reconnecting",
+        "username": "reconnecting",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 55,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48821803",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "69160376a7e8d3a3bbdd3ce7195990cc",
+        "source_id": "48821899",
+        "content": {
+          "text": "I don't have an immediate direct source but read yesterday GitHub stars are being \"obfuscated\" because they're being scraped to spam popular projects -- or something similar. Edit found the link [0], do not believe it mentions reason but links github blog From Github [1]:\n> These endpoints and views currently expose public lists of stargazers and watchers, and this information has increasingly been misused to collect user data for spam activities which negatively impacts user experience and platform trust. [0]: https://www.star-history.com/blog/github-stargazer-api-restr... [1] https://github.blog/changelog/2026-06-30-upcoming-access-res... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-09T17:47:24.668926",
+        "updated_at": "2026-07-09T17:47:24.668926",
+        "author": {
+          "id": "768a21a755cc46a139733b49b59e2bde",
+          "source_id": "dieselgate",
+          "username": "dieselgate",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c58b0bc0209650b6ec51576ac0d6e7d8",
+        "source_id": "48822688",
+        "content": {
+          "text": "I think it’s been functionally login-only for a while, unfortunately. Any time I try to use the site while logged out I immediately hit all sorts of rate limits and spam prevention measures. Issues and pull requests stop loading almost immediately. Searches are extremely restricted, like i think literally one search is all you get sometimes unless you login. It’s hard to tell how much of this is intentional and how much is GitHub infra not being stable. My daily renovate bot that looks for updates for specific packages times out and encounters errors almost every time it runs and it’s barely doing anything. And it has an api key . I know I’m not hitting limits, some queries just don’t work >50% of the time on some repos. Sometimes I see there are 200 issues, I click the issues tab, and there are zero. Is GitHub down? Am I rate limited? Do I just need to login? Or I know an issue/PR exists, and it just doesn’t appear when I search for the title or keywords verbatim. I just manually bookmark or subscribe to any important issue or PR now because the UI can’t be trusted anymore. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-09T17:47:24.669381",
+        "updated_at": "2026-07-09T17:47:24.669381",
+        "author": {
+          "id": "e4a746bb6de209b50f6ab4b8aabb1215",
+          "source_id": "snailmailman",
+          "username": "snailmailman",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1ad93790e490f873ff194035dffbe58e",
+        "source_id": "48825864",
+        "content": {
+          "text": "> Any time I try to use the site while logged out I immediately hit all sorts of rate limits and spam prevention measures. When this started happening to me I realized that I can't rely on Github as infrastructure anymore. I now vendor all the repos I need. Self-hosted forges like Forgejo make it pretty easy to mirror repos so you have everything locally. You don't get issues though. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-09T17:47:24.669788",
+        "updated_at": "2026-07-09T17:47:24.669788",
+        "author": {
+          "id": "6ed63b074a002f0507f80fb2259a3ecf",
+          "source_id": "Asraelite",
+          "username": "Asraelite",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "16e28eb9c0a0a371c26dc7cef1e835bb",
+        "source_id": "48826242",
+        "content": {
+          "text": "> like i think literally one search is all you get sometimes unless you login Lucky you - search never seems to work for me anonymously, and even when logged in the search isn't great. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-09T17:47:24.670187",
+        "updated_at": "2026-07-09T17:47:24.670187",
+        "author": {
+          "id": "429c374b046c4dd7ac332f914b604647",
+          "source_id": "jamesfinlayson",
+          "username": "jamesfinlayson",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c6ce164bc7ad1a93f85854dbffc3ce4a",
+        "source_id": "48821924",
+        "content": {
+          "text": "The whole GitHub infra is cracking under the AI-boom's increased load. This can very well be just another symptom of the same thing. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-09T17:47:24.670602",
+        "updated_at": "2026-07-09T17:47:24.670602",
+        "author": {
+          "id": "0304aa7c5549f41d2836ce49cf4c689f",
+          "source_id": "fodkodrasz",
+          "username": "fodkodrasz",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f2a9ebf12be0840fc53fdf970f35efa2",
+        "source_id": "48822874",
+        "content": {
+          "text": "Don't buy the BS about them being overwhelmed by AI code when they've also had terrible vibe-coded feature rollouts repeatedly break the site and are trying to rapidly increase their feature surface to kill off competing test runners and review managers.  Maybe github, if well managed, would struggle in the current day - but it simply isn't. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-09T17:47:24.671025",
+        "updated_at": "2026-07-09T17:47:24.671025",
+        "author": {
+          "id": "15aebbf59239c317843cf81087f2abd6",
+          "source_id": "munk-a",
+          "username": "munk-a",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d90211a5f13ce9a73c6e346ca03377f6",
+        "source_id": "48823646",
+        "content": {
+          "text": "I self-host my own code forge (a gitea instance) and I've mirrored a couple of large repositories on it. The traffic from AI crawlers was bringing my entire server to its knees. As soon as I put the large repos behind a login, my server's CPU usage dropped to ~5%. I don't doubt for a second that github is under a torrential downpour of AI crawler traffic. Those locusts destroy everything they touch. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-09T17:47:24.671493",
+        "updated_at": "2026-07-09T17:47:24.671493",
+        "author": {
+          "id": "18749fff8a83767ecd773905340747fa",
+          "source_id": "craftkiller",
+          "username": "craftkiller",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "590fa9ed3f79e577f19a81616a2a17ff",
+        "source_id": "48832246",
+        "content": {
+          "text": "such a cop-out when its policy shifts that are destroying it. let's be real : it's microsoft. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-09T17:47:24.671976",
+        "updated_at": "2026-07-09T17:47:24.671976",
+        "author": {
+          "id": "bb5615fa120b3824d3b66f77dfe7345d",
+          "source_id": "serf",
+          "username": "serf",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5902373820851dde9f4e24f7b932cdd7",
+        "source_id": "48822466",
+        "content": {
+          "text": "Fine for my closed source stuff, but my open source work is specifically meant to be viewable, even by non-technical people doing recruitment or looking over my portfolio. I've put up with a lot of stuff, but this would be my personal last straw. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-09T17:47:24.672469",
+        "updated_at": "2026-07-09T17:47:24.672469",
+        "author": {
+          "id": "9e616081a25c01c5391b66605ceca02b",
+          "source_id": "Fordec",
+          "username": "Fordec",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "819fcd10eda49619d890636e673bc282",
+        "source_id": "48826235",
+        "content": {
+          "text": "On top of the that now most of the open source contributers are assholes. they are insulting people as well. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-09T17:47:24.672970",
+        "updated_at": "2026-07-09T17:47:24.672970",
+        "author": {
+          "id": "34a2e51787bed04993bec621490ce895",
+          "source_id": "gokuljs",
+          "username": "gokuljs",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "db66a92a6ac7f5b6010c38fa2b8fce10",
+        "source_id": "48826220",
+        "content": {
+          "text": "It just pisses me off bro like from every angle ai is trying to fuck us. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-09T17:47:24.673511",
+        "updated_at": "2026-07-09T17:47:24.673511",
+        "author": {
+          "id": "34a2e51787bed04993bec621490ce895",
+          "source_id": "gokuljs",
+          "username": "gokuljs",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "bb874e2bcb53ae942f2f12fb34a9c007",
+        "source_id": "48822561",
+        "content": {
+          "text": "I think this would push even more small to medium sized busineses towards self hosting which I would love to see reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-09T17:47:24.674067",
+        "updated_at": "2026-07-09T17:47:24.674067",
+        "author": {
+          "id": "92e76c75a6b52668de9f7feb11529a53",
+          "source_id": "BorisMelnik",
+          "username": "BorisMelnik",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4f62852d9f96db81df1c5c786c2b70f3",
+        "source_id": "48823681",
+        "content": {
+          "text": "Some parts of the website are explicitly login-only, yes. I sometimes tend to follow link to gh from my mail on phone where I'm not logged in and found that e.g. you can't see any CI results without logging in. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-09T17:47:24.674649",
+        "updated_at": "2026-07-09T17:47:24.674649",
+        "author": {
+          "id": "80a7b6713f42a35bdd0c2fd907423279",
+          "source_id": "nagisa",
+          "username": "nagisa",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a87ffeeb401ef88cfa53e53e32f19924",
+        "source_id": "48842479",
+        "content": {
+          "text": "Looks like that - and there are now so many alternatives. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-09T17:47:24.675233",
+        "updated_at": "2026-07-09T17:47:24.675233",
+        "author": {
+          "id": "0f7b86dc3041a2427e45b2ef2a928788",
+          "source_id": "dhruv3006",
+          "username": "dhruv3006",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "fc26ea816a2f1dba4dfaf1139c7d03d0",
+        "source_id": "48822270",
+        "content": {
+          "text": "With AI and all the new projects/forks/updates, github is one busy place. I wasn't browsing /trending on github until I started using AI, wanting to see what cool projects people are working on. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-09T17:47:24.675858",
+        "updated_at": "2026-07-09T17:47:24.675858",
+        "author": {
+          "id": "20dbd7dc9a062a4940f1301f8973a28a",
+          "source_id": "IronWolve",
+          "username": "IronWolve",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9d3bb2fb470790f10dc5d1d7da247546",
+        "source_id": "48830141",
+        "content": {
+          "text": "If you need to just offer free access to your open source repo, gitea is a nice alternative and super easy to self host.\nGithub also has the community, which you lose, true, but it depends on what matters more to you.\nI can help you setup gitea really fast if you're interested reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-09T17:47:24.676491",
+        "updated_at": "2026-07-09T17:47:24.676491",
+        "author": {
+          "id": "3536e7dd04522e31579146260581bbf5",
+          "source_id": "onel",
+          "username": "onel",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1bbd7fd7c874bc044a5b6f3642ea1297",
+        "source_id": "48821949",
+        "content": {
+          "text": "Advanced Search doesn't work unless you're logged in, but it's been like that for at least a year. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-09T17:47:24.677135",
+        "updated_at": "2026-07-09T17:47:24.677135",
+        "author": {
+          "id": "9de8f3cbd57e3f91e7da05f11169a389",
+          "source_id": "pixelesque",
+          "username": "pixelesque",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "bc0880fd9d0b1093f50fbee1cc06fe13",
+        "source_id": "48822153",
+        "content": {
+          "text": "It’s been like that since very beginning. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-09T17:47:24.677806",
+        "updated_at": "2026-07-09T17:47:24.677806",
+        "author": {
+          "id": "25ce5765af936cba94b938d9387d5774",
+          "source_id": "throw1234567891",
+          "username": "throw1234567891",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a7b6b0b720f4de8008b2c37a6102bce2",
+        "source_id": "48822943",
+        "content": {
+          "text": "I can't even access that link with an account. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-09T17:47:24.678522",
+        "updated_at": "2026-07-09T17:47:24.678522",
+        "author": {
+          "id": "c6ef6b917302c35988326cf7658d5633",
+          "source_id": "KomoD",
+          "username": "KomoD",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1fe232feeed6d0579df4080646851f1c",
+        "source_id": "48821808",
+        "content": {
+          "text": "Hard to say, the only people who know are those internal to MS and GH and know, or who have told others. You have copies of your repos in other systems, yeah? Have a plan you don't need rather than need a plan you don't have. Ask HN: What alternatives to GitHub are you using? - https://news.ycombinator.com/item?id=44876289 - August 2025 (97 comments) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-09T17:47:24.679274",
+        "updated_at": "2026-07-09T17:47:24.679274",
+        "author": {
+          "id": "4ca46018a23adaa01543351cde9925a8",
+          "source_id": "toomuchtodo",
+          "username": "toomuchtodo",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d40f8c9986fed0bd1b52ca9fd7d766af",
+        "source_id": "48821839",
+        "content": {
+          "text": "Codeberg constantly returns this just because I use an outdated Safari: 'If you are an AI scraper and wish to not receive garbage when visiting Codeberg: stop visiting. If you are not an AI scraper: contact Codeberg.' reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-09T17:47:24.680022",
+        "updated_at": "2026-07-09T17:47:24.680022",
+        "author": {
+          "id": "fc0fc2d3f266d5d71a8780a80bbe4329",
+          "source_id": "reconnecting",
+          "username": "reconnecting",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "bff77f57ca8f147668e892091999edaa",
+        "source_id": "48821865",
+        "content": {
+          "text": "Perhaps https://tangled.sh/ or a https://forgejo.org/ instance is an option? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-09T17:47:24.680836",
+        "updated_at": "2026-07-09T17:47:24.680836",
+        "author": {
+          "id": "4ca46018a23adaa01543351cde9925a8",
+          "source_id": "toomuchtodo",
+          "username": "toomuchtodo",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3c0877b5689aff0a7c2c219b2d2b7570",
+        "source_id": "48822067",
+        "content": {
+          "text": "The question is rather whether GitHub is no longer an option, or will stop being one soon. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-09T17:47:24.681625",
+        "updated_at": "2026-07-09T17:47:24.681625",
+        "author": {
+          "id": "fc0fc2d3f266d5d71a8780a80bbe4329",
+          "source_id": "reconnecting",
+          "username": "reconnecting",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b58f8203ecc10c566701432c7d7a4fd2",
+        "source_id": "48822112",
+        "content": {
+          "text": "One should always assume a vendor could vanish at any time, or your access to your data at the vendor. To assume this is a cheap mitigation against potential sadness. At a minimum, you should be keeping hot copies of all contents of your repos currently hosted at Github, code, issues, etc. This could be in another svn system, or archive blobs in object storage you have full control over and can hydrate as needed into operating svn systems. (risk management is my day gig) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-09T17:47:24.682449",
+        "updated_at": "2026-07-09T17:47:24.682449",
+        "author": {
+          "id": "4ca46018a23adaa01543351cde9925a8",
+          "source_id": "toomuchtodo",
+          "username": "toomuchtodo",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e2e5c4f053cf54059e68498ad13af2d8",
+        "source_id": "48824480",
+        "content": {
+          "text": "It basically already is. You can’t use the search logged out and my agent can’t fetch issue comments. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-09T17:47:24.683269",
+        "updated_at": "2026-07-09T17:47:24.683269",
+        "author": {
+          "id": "a46dfb6f3a5ab860a4911dc0c7d7dab6",
+          "source_id": "solarkraft",
+          "username": "solarkraft",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "116cd16819b07d94911ecf0a4f23e454",
+        "source_id": "48822253",
+        "content": {
+          "text": "I believe so. I cannot view any repository from my phone. It asks me to log in first. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-09T17:47:24.684116",
+        "updated_at": "2026-07-09T17:47:24.684116",
+        "author": {
+          "id": "c51d378a3ae07c8b33594157050138ba",
+          "source_id": "bitbasher",
+          "username": "bitbasher",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "50e5a35f39afda9dc0be67f2db6766af",
+        "source_id": "48826730",
+        "content": {
+          "text": "It's the new scraping tax. The delicate balance of the open web is completely broken right now because platforms are getting hammered by bots. Sometimes i wonder how long before the entire internet ends up behind a mandatory login or a paywall just to protect server bandwidth? I really appreciate that HN still just uses temporary rate limits. You get the occasional \"sorry\" text, but as soon as traffic drops or your IP changes, you can read without logging in. I wish more platforms stuck to temporary rate limits instead of building permanent walled gardens. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-09T17:47:24.685001",
+        "updated_at": "2026-07-09T17:47:24.685001",
+        "author": {
+          "id": "0e4e053c13c1b54ac2ef7140fe976751",
+          "source_id": "distalx",
+          "username": "distalx",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a8050f45d3acba1388f10cc72c12a83e",
+        "source_id": "48822533",
+        "content": {
+          "text": "that is github.com you are referring to, would pulling public repos the curl -fsSL way need to be authenticated? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-09T17:47:24.685890",
+        "updated_at": "2026-07-09T17:47:24.685890",
+        "author": {
+          "id": "92e76c75a6b52668de9f7feb11529a53",
+          "source_id": "BorisMelnik",
+          "username": "BorisMelnik",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3d4d4c658df71741979d24c367a15ce7",
+        "source_id": "48827351",
+        "content": {
+          "text": "Fine so far with closed source reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-09T17:47:24.686809",
+        "updated_at": "2026-07-09T17:47:24.686809",
+        "author": {
+          "id": "a2bf7ee493cbb3df0969f631c25c1d43",
+          "source_id": "jsabess24",
+          "username": "jsabess24",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "42949c5a2202e704b39192a3f527a6a1",
+        "source_id": "48830287",
+        "content": {
+          "text": "I mean, I'm guilty too. Claude code scrapes everything in sight whenever I search for something. I've written a small tool to query Github to see if a particular feature has been released for an open source project. I had to use an API token to not get immediately blocked. But I don't think rate limits are new for Github. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-09T17:47:24.687783",
+        "updated_at": "2026-07-09T17:47:24.687783",
+        "author": {
+          "id": "e16e66bcda403ecccad31eba05c2ad6c",
+          "source_id": "lukasco",
+          "username": "lukasco",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ab071118c99be7524ed9c7626f1288b5",
+        "source_id": "48821901",
+        "content": {
+          "text": "Looking at how much work GitLab has to do due to abuse of being open, I don't blame anyone for wanting to make that change. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-09T17:47:24.688850",
+        "updated_at": "2026-07-09T17:47:24.688850",
+        "author": {
+          "id": "9a0742bc06219ecbc7991dd6deb4f33c",
+          "source_id": "bearjaws",
+          "username": "bearjaws",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "aeaf31188f46b092cce46385a3982fd2",
+        "source_id": "48822784",
+        "content": {
+          "text": "GitHub specifically put out a changelog about the stargazers API endpoint to restrict open access because of its use for spam and abuse. I believe this is more about user data than code. Obviously restricting public access to Git would be a different tier. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-09T17:47:24.689869",
+        "updated_at": "2026-07-09T17:47:24.689869",
+        "author": {
+          "id": "3404e2fe758297cd7e74f9155f09f774",
+          "source_id": "ocdtrekkie",
+          "username": "ocdtrekkie",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2b8a66c35d51201c861800f813623688",
+        "source_id": "48822744",
+        "content": {
+          "text": "AI ruined everything. They have to protect \"their\" code. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-09T17:47:24.690889",
+        "updated_at": "2026-07-09T17:47:24.690889",
+        "author": {
+          "id": "16feab5b8a02105d8c05fffeee5bb68c",
+          "source_id": "panny",
+          "username": "panny",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4dcce18288e328e853424612d5f2655d",
+        "source_id": "48841389",
+        "content": {
+          "text": "That’s a bummer honestly reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-09T17:47:24.691921",
+        "updated_at": "2026-07-09T17:47:24.691921",
+        "author": {
+          "id": "a2bf7ee493cbb3df0969f631c25c1d43",
+          "source_id": "jsabess24",
+          "username": "jsabess24",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7f183e4e8bfaaaf24dfc69a407e73291",
+        "source_id": "48828413",
+        "content": {
+          "text": "Depends on what you mean by login wall. They are, technically, behind a login/auth wall as you can only make 60 requests to their API per hour . Scrapping these days is extremely challenging as defenses do in-depth checks on your browser to make sure you are a \"real\" person. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-09T17:47:24.693001",
+        "updated_at": "2026-07-09T17:47:24.693001",
+        "author": {
+          "id": "6d42080e3893ce643870c551b073a4f8",
+          "source_id": "csomar",
+          "username": "csomar",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "74a6fef84b9cf99bc1c391b80c028eab",
+        "source_id": "48821939",
+        "content": {
+          "text": "Just to nitpick, requiring a free account is substantially different from a paywall. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-09T17:47:24.694070",
+        "updated_at": "2026-07-09T17:47:24.694070",
+        "author": {
+          "id": "c0785e53ba49cb020f330852a21b7802",
+          "source_id": "jsnell",
+          "username": "jsnell",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f6cb3351559151382bd68070e81cf8fc",
+        "source_id": "48822100",
+        "content": {
+          "text": "Agreed, changed paywall to a login wall instead. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-09T17:47:24.695156",
+        "updated_at": "2026-07-09T17:47:24.695156",
+        "author": {
+          "id": "fc0fc2d3f266d5d71a8780a80bbe4329",
+          "source_id": "reconnecting",
+          "username": "reconnecting",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "03c5dbb1e9f0af58bf6f023f33876af8",
+        "source_id": "48823492",
+        "content": {
+          "text": "No, it is pretty much the same, both means agreeing to a contract. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-09T17:47:24.696274",
+        "updated_at": "2026-07-09T17:47:24.696274",
+        "author": {
+          "id": "ab753b2089f525be142a2ba4f9e232fc",
+          "source_id": "zajio1am",
+          "username": "zajio1am",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-07-09T17:47:24.697138",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "3f0e9cc55ef46a85fe31b5563b14c998",
+      "source_id": "48771515",
+      "title": "Ask HN: Is anyone experimenting with different ways of using LLMs for coding?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-09T17:46:53.630454",
+      "updated_at": "2026-07-09T17:46:53.630454",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "7020ae512f4879edb4bb7fdc7741ecc9",
+        "source_id": "yehiaabdelm",
+        "username": "yehiaabdelm",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 204,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48771515",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-09T17:47:29.624750",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "7d555d0e9c6a6b08a732a6ad4ca454a3",
+      "source_id": "48836288",
+      "title": "Ask HN: How you manage local long lived research projects and LLM's?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-09T17:46:53.630841",
+      "updated_at": "2026-07-09T17:46:53.630841",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "ac35fdb674137c57312709b04feca629",
+        "source_id": "ripplefringe",
+        "username": "ripplefringe",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 6,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48836288",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-09T17:47:34.461755",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "38b4252eb6456c4f0c8642293212693e",
+      "source_id": "48840515",
+      "title": "Ask HN: How to recover from thin content or de-indexing penalty on Google",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-09T17:46:53.631387",
+      "updated_at": "2026-07-09T17:46:53.631387",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "a3d2d17064624a8de10bac70e7a5f0e2",
+        "source_id": "anitroves",
+        "username": "anitroves",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 4,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48840515",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-09T17:47:38.300934",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "e4cd837df11cc3133c21a9c2fae09a76",
+      "source_id": "48840370",
+      "title": "Ask HN: Would you pay to discuss a book with an official AI clone of its author?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-09T17:46:53.631787",
+      "updated_at": "2026-07-09T17:46:53.631787",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "e4acb6ef9d1da7704a37f6c0036bce2b",
+        "source_id": "briangao",
+        "username": "briangao",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 4,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48840370",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-09T17:47:41.776619",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
   }
 ]
