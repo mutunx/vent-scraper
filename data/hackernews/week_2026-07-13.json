@@ -9193,5 +9193,3346 @@
       ],
       "is_nsfw": false
     }
+  },
+  {
+    "post": {
+      "id": "beab49fcc43725bccdda44dfc905643c",
+      "source_id": "48884984",
+      "title": "Ask HN: What Are You Working On? (July 2026)",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-14T17:01:33.175355",
+      "updated_at": "2026-07-14T17:01:33.175355",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "bec7335d8f4973f3cc1886331a825dda",
+        "source_id": "david927",
+        "username": "david927",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 261,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48884984",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-14T17:01:38.575778",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "683abadf19396c23a364184d09cda64e",
+      "source_id": "48886741",
+      "title": "Ask HN: Add flag for AI-generated articles",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">Should HN add the ability to flag articles as AI-generated? This doesn't have to act as a regular flag, i.e., it won't de-rank the article; it could just show up as an indicator, allowing others (like myself) who don't like reading AI-generated text, to skip it.<p>Open questions:<p>1. Why is the regular voting system not enough?<p>2. Should HN change in response to the gen AI era? It has been successful not changing fundamentals.</p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-14T17:01:33.176093",
+      "updated_at": "2026-07-14T17:01:33.176093",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "b59fd99f2d3bf02e02f4664fb89b7588",
+        "source_id": "levkk",
+        "username": "levkk",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 1059,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48886741",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "18c5486ac8656342d08293e88cb1a977",
+        "source_id": "48887149",
+        "content": {
+          "text": "We don't allow genai text on HN itself - see https://news.ycombinator.com/newsguidelines.html#generated and https://news.ycombinator.com/item?id=47340079 . How to enforce it is a separate question, of course, but the rule exists. We don't have a similar rule yet about article content but my sense is that the community mostly doesn't want to read it—or, to put it more conservatively, discounts it. This is why we see so many \"just show me the prompt\" responses, along with others like this: https://news.ycombinator.com/genai-pushback . I built that list so I have something to send to users who email about why their genai articles got flagged. It's a fascinating arms race right now: the AIs are training on the humans but the human hivemind is also training on the AIs. Readers are developing allergic sensitivities to language that sounds like an LLM produced it. The AIs will adapt to this, but the humans will adapt in turn. Where it ends up is anyone's guess. For the present, there is an emerging class distinction between writing (and writers) that use genai vs. writing that does not. As soon as the \"this sounds like an LLM\" allergy kicks in, the writing instantly gets relegated to a low-status bucket in the reader's mind. That doesn't mean it won't still get looked at - but it is now under a stigma. (I was rather pleased with the originality of this until I remembered pg had come up with \"writes and write-nots\" in https://paulgraham.com/writes.html . Oh well, it's the point that matters.) This has the happy flipside that anyone who would like readers to classify their article as high-status rather than low-status can apply the judo move of simply writing it themselves. Now I need to add the disclaimer that none of this is a dismissal of LLM technology per se. We rely on it heavily, and there's no question that it's useful. The question is how to use it (pg again: https://x.com/paulg/status/2058871512451412457 ) and whether one should use it on writing that one publishes to other humans. To turn to OP's questions: > Should HN add the ability to flag articles as AI-generated? [...] it could just show up as an indicator Flagging-as-just-an-indicator would be tagging, which we've always resisted adding to HN, but I wouldn't rule it out. What I do think we'll (finally) add is a \"please give a reason why you flagged this post\" step, and \"because I think it's genai\" will be one choice among several (spam, offtopic, mean, etc.) > Why is the regular voting system not enough? The regular voting system is never enough. https://hn.algolia.com/?dateRange=all&page=0&prefix=false&so... > Should HN change in response to the gen AI era? To this I am tempted to reply with https://news.ycombinator.com/item?id=48887149 in homage to https://news.ycombinator.com/item?id=3742902 . reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.558747",
+        "updated_at": "2026-07-14T17:01:42.558747",
+        "author": {
+          "id": "a8f2eb951d66ab37d45e4a8e79cbf3ae",
+          "source_id": "dang",
+          "username": "dang",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "97d9f124e032b3de39c487776ef31dce",
+        "source_id": "48888422",
+        "content": {
+          "text": "I think classifying it as an allergy or a status thing is a little too glib. I’ve read and reviewed, conservatively, hundreds of AI generated documents for work, and “written”/commissioned a bunch too. My biggest issue is that it’s impossible to engage with and give feedback on an AI written document, because it’s impossible to know whether misconceptions or gaps are because the author doesn’t understand the material deeply enough or the author does but the AI doesn’t and the author’s not proofreading carefully enough. Or if a surprising idea is raised — is it the authors insight, can they elaborate on it, where did it come from, etc? Hackernews isn’t work, obviously, but “it’s impossible to engage deeper with the material because the author doesn’t really exist” is sort of a problem for a discussion site . If the human coauthor puts in enough work, they can make sure the doc really reflects their views and their understanding, but in my experience that’s much less common. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.559456",
+        "updated_at": "2026-07-14T17:01:42.559456",
+        "author": {
+          "id": "b4d53c5dd04d19f46f7dbd07aa5926dd",
+          "source_id": "grayclhn",
+          "username": "grayclhn",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a961eb2d0e50858a09c10800fd3b5f44",
+        "source_id": "48889965",
+        "content": {
+          "text": "This exactly. Whenever someone shows me their (or someone else's) AI-assisted-coded (vibe coded) thing, I can only ever engage with it on a very superficial level, saying \"oh cool\". You can't have a discussion about it, how it was done, because for 80% of cases it's \"the AI did it\". I don't think this is that interesting or useful for HN, because indeed it's a discussion site. It would be different if the vibe coded thing didn't come as a \"look what it made and its vibe written README\" but instead as a human written blog article about \"how I made this thing using AI, what models, prompts and harnesses, how the experience was etc etc etc\" --- again that would be something interesting to have a discussion about. But otherwise what is there to say except \"yeah cool that's cool that the AI made you that thing\" > it’s impossible to know whether misconceptions or gaps are because the author doesn’t understand the material deeply enough or the author does but the AI doesn’t and the author’s not proofreading carefully enough. Or if a surprising idea is raised — is it the authors insight, can they elaborate on it, where did it come from, etc? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.560149",
+        "updated_at": "2026-07-14T17:01:42.560149",
+        "author": {
+          "id": "812ff76f206aca99c6b5cd384f2a283d",
+          "source_id": "tripzilch",
+          "username": "tripzilch",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "50983ce98a5058f4d56ed013e49b69a4",
+        "source_id": "48892454",
+        "content": {
+          "text": "This is becoming a problem on the anti-HN (reddit). Someone will submit something cool, not disclose its status as vibecoded, and then not be able to answer any real questions about whatever it is they submitted. I don't have a problem with vibe coded software in general, but I think sharing it like that is strange. What do these people get from it? Prestige? I don't think they get any, as it's almost always clocked as vibecoded a few minutes after seeing it reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.560802",
+        "updated_at": "2026-07-14T17:01:42.560802",
+        "author": {
+          "id": "72c01bc713c7c25f97aa664da8339316",
+          "source_id": "mghackerlady",
+          "username": "mghackerlady",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b6742184e3aa05592b25915ee9bb24d8",
+        "source_id": "48898080",
+        "content": {
+          "text": "This occurred on HN as well. It's not just Reddit-coded reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.561466",
+        "updated_at": "2026-07-14T17:01:42.561466",
+        "author": {
+          "id": "8452d57ced620a4c5e7ca05ba982951f",
+          "source_id": "uncivilized",
+          "username": "uncivilized",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9c081ccf0b17f15b8c124861fea5914f",
+        "source_id": "48893409",
+        "content": {
+          "text": "> what is there to say Ways to contribute: Peer review, human code review, money for tokens for code and code review, configure SAST and DAST tools to make it DevSecOps instead of DevOpsSec, configure AGENTS.md and an /upgrade-dependencies-and-run-tests skill, Compare \"It's inadequate because it's AI\" with \"it looks like this generation of agents doesn't yet handle this quality aspect with or without explicit prompts\" with \"you could improve quality by writing tests, docs, and before that refactor for maintainability and subjective elegance\" (if you're trying develop a hit open source project) > impossible to know whether misconceptions or gaps are because the author doesn’t understand the material Shouldn't a researcher consider the argument - it's premises and form - instead of tangential ad hominem about the author? Pushing for well-formed arguments is older than AI reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.562226",
+        "updated_at": "2026-07-14T17:01:42.562226",
+        "author": {
+          "id": "7a39eb90e07e7d37927b9510fff0c603",
+          "source_id": "westurner",
+          "username": "westurner",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9d6a26d93b0fff8de3c28641054f42d1",
+        "source_id": "48894611",
+        "content": {
+          "text": "Just skimmed your resume and, assuming it’s up to date, it looks like you mostly work independently. If that’s the case, I can totally see why my argument doesn’t resonate. “The author doesn’t understand the material” isn’t an ad hominem — most of my work involves working with other people, usually less experienced, to help them deliver reasonably complex econometric or ML models. Sometimes I’m hands on, usually not. Knowing if it’s “the author not understanding the material” is important because my job is to help them understand it so that they can deliver something that 1) works and 2) does what it’s supposed to. AI written docs are at best a mixed blessing. Or maybe it’s me not understanding! Either way, if something looks wrong, I want to discuss it with people who know the subject matter and can talk me through the parts that look off so that I can learn from it. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.562995",
+        "updated_at": "2026-07-14T17:01:42.562995",
+        "author": {
+          "id": "b4d53c5dd04d19f46f7dbd07aa5926dd",
+          "source_id": "grayclhn",
+          "username": "grayclhn",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ffa7cc4b8703eb4bce836951a4f8a10d",
+        "source_id": "48901234",
+        "content": {
+          "text": "Too late to edit - should have looked at comment history and not profile I guess, because like an idiot I spent time replying to a clearly ai-written comment… Well GP isn’t going to learn anything from my (gracious! beautiful! dare I say, heroic?) attempt to find a common shared experience in our otherwise separate lives, but hopefully other people got something out of it. I hope to god there’s a lesson there for someone. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.563747",
+        "updated_at": "2026-07-14T17:01:42.563747",
+        "author": {
+          "id": "b4d53c5dd04d19f46f7dbd07aa5926dd",
+          "source_id": "grayclhn",
+          "username": "grayclhn",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8a9505d7b19c63bec1e9db11cff633c4",
+        "source_id": "48902228",
+        "content": {
+          "text": "What? No, that's not an ai written comment either. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.564549",
+        "updated_at": "2026-07-14T17:01:42.564549",
+        "author": {
+          "id": "7a39eb90e07e7d37927b9510fff0c603",
+          "source_id": "westurner",
+          "username": "westurner",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "51b9d541d97e92f9804eea1ea802a170",
+        "source_id": "48902531",
+        "content": {
+          "text": "There will always be a place for handmade furniture. AI is not useful for econometric ML because the client doesn't understand the model? \"Explain the model to the client like they're five and they don't remember our fee is already negotiated\" has inaccurate model replies in your field? Even before LLM AI, could an OpenCog dog have done the model search and optimization? What is the difference between AutoML's predictive error next to expert-biased model selection and parameter grid search with CV in your field this year? How could AI help validate - you mentioned econometrics - econometrics latex in manuscripts? - Port manuscripts to interactive notebooks - translate LaTeX to a CAS syntax (e.g. SymPy), test to validate, and enqueue for human review - Develop causal experiments based upon observational data from non-blinded experiments, like this: > \"Answering causal questions using observational data\" (2021) [PDF] https://www.nobelprize.org/uploads/2021/10/advanced-economic... ... 2021 Nobel Prize in Economics: https://www.nobelprize.org/prizes/economic-sciences/2021/pop... Dismayed at AI bashing because its consistently winning at red team and blue team tasks and now better than preliminary code review and if the hatemongering bandwagon wins our team will lose the ai advantage. I'm looking at seriously billions in cost reductions and sustainability wins from LLMs applied to production processes and products (in various non-tech and tech fields). Justify estimates of CapEx, OpEx, Marginal cost for Garage, Lab, Pilot, Production, and Giga-Production scales. Find synergies, valorize waste, eliminate hazards, eliminate external costs. But that's all only exploratory, discovery phase work. Does a persin need to rephrase it by human proxy in order to link to it, if they've applied AI? There is significant real potential opportunity to applied AI, so it's disheartening to learn that the AI spam justifies new censorship controls in this also an election year. It's really frustrating and alienating to be subject to false allegations. It's really frustrating to be censored or shawbdned. When it's \"censor that and all their other s because it's AI\" but it's not.\nNo AI ever should not be the TOS. A person could create a \"split with us against AI\" site as a separate forum and test and buy insurance for that. HN does not but Reddit supports bots; you put \"bot\" in the bot's username. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.565612",
+        "updated_at": "2026-07-14T17:01:42.565612",
+        "author": {
+          "id": "7a39eb90e07e7d37927b9510fff0c603",
+          "source_id": "westurner",
+          "username": "westurner",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6159c4c897aa7ffaf4df1c6b0326f97b",
+        "source_id": "48893629",
+        "content": {
+          "text": ">My biggest issue is that it’s impossible to engage with and give feedback on an AI written document Thanks for giving shape to a general annoyance, in my case with code, that I only recently started noticing. When discussing code with my colleagues, especially with those that I do not know particularly well, I often relied on the quality of the code they produced to modulate how technical the conversation ought to be be. Now, instead, I often see very complex code from people that I know wouldn't have been able to produce it themselves, and I have no clue how to engage with it, how to review it with them, how detailed can my comments be etc. It's pretty annoying. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.566492",
+        "updated_at": "2026-07-14T17:01:42.566492",
+        "author": {
+          "id": "5262db2887c30775510438b7d1fa15fe",
+          "source_id": "thevinter",
+          "username": "thevinter",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c6b3364434aa782477dc9d8903e9f915",
+        "source_id": "48888731",
+        "content": {
+          "text": ">My biggest issue is that it’s impossible to engage with and give feedback on an AI written document, because it’s impossible to know whether misconceptions or gaps are because the author doesn’t understand the material deeply enough or the author does but the AI doesn’t and the author’s not proofreading carefully enough. FWIW, same problem with PRs or PoC that I have to work on; now my first question is, \"did you know about his behaviour?\". The first step, getting a decent spec, is delayed to after a first draft implementation is already pushed... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.567394",
+        "updated_at": "2026-07-14T17:01:42.567394",
+        "author": {
+          "id": "ae560d68640af2f90419d1b393230361",
+          "source_id": "woolion",
+          "username": "woolion",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "065ac3d210e0d3725d986521e1d67565",
+        "source_id": "48890338",
+        "content": {
+          "text": "You can engage with an AI-written document! Simply paste the document into the AI (same or different as the AI that wrote it) and ask questions. You can get an answer in seconds compared to an hour (if it's a blog post by an HN reader), days (if it's a professional blogger), or never (if it's by a journalist). Perhaps AI-written articles should include the prompt as hidden text on the page. Or include a link with the prompt embedded, that causes the AI to spit out the same article that you could then ask questions about. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.568322",
+        "updated_at": "2026-07-14T17:01:42.568322",
+        "author": {
+          "id": "0845c6c61f9d3c5ed786d9845cc69fc9",
+          "source_id": "tlb",
+          "username": "tlb",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "11f7c7ffdc9a7c190738aa0181f6ca60",
+        "source_id": "48892573",
+        "content": {
+          "text": "I can indeed use AI to do research on topics I learn about on HN. That’s a different activity than what I come to HN for, or when I’m reviewing a proposal for something at work, or if I’m interested in an article and want to learn more about some of the details that didn’t make the final draft from either the author or from other people with experience in the area. “Why didn’t the author consider [this thing that seems similar]” is almost never something you can ask an llm, especially for articles where the author is putting in so little of their own effort that they don’t edit out obvious AI tells. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.569269",
+        "updated_at": "2026-07-14T17:01:42.569269",
+        "author": {
+          "id": "b4d53c5dd04d19f46f7dbd07aa5926dd",
+          "source_id": "grayclhn",
+          "username": "grayclhn",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c09864e0544a6018ca7a1a7a40757918",
+        "source_id": "48900616",
+        "content": {
+          "text": "> it’s impossible to know whether misconceptions or gaps are because the author doesn’t understand the material deeply enough or the author does but the AI doesn’t and the author’s not proofreading carefully enough It doesn’t matter. The human responsible for the written piece is … responsible for the written piece. If someone is willing to use AI to supplement their own intellect and/or writing abilities, then they need to take ownership of the mistakes, misconceptions, etc., that come along with that, the same as an author who does all the work themselves. The problem you’ve identified here is that the human responsible for the writing is not fully taking responsibility for the writing. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.570263",
+        "updated_at": "2026-07-14T17:01:42.570263",
+        "author": {
+          "id": "2fa552f2ccf94200a91f4b034fa4a9cf",
+          "source_id": "baubino",
+          "username": "baubino",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "624e6ca75a7546b1e21f220954bdb25d",
+        "source_id": "48888456",
+        "content": {
+          "text": "That's interesting, thank you! My only pushback is that my bit about \"allergy\" and \"status\" is about the audience response here, whereas you seem to be talking on a somewhat different level. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.571296",
+        "updated_at": "2026-07-14T17:01:42.571296",
+        "author": {
+          "id": "a8f2eb951d66ab37d45e4a8e79cbf3ae",
+          "source_id": "dang",
+          "username": "dang",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "29fc99c20b9070728ef2923d10f9e56e",
+        "source_id": "48888595",
+        "content": {
+          "text": "Oh for sure. My only point is that IME (and I’d assume many other commenters) the quality of discussion and engagement around an imperfect ai-written doc is considerably worse than the same doc written by a human. Work is where it’s most obvious to me… because many of these are design docs for systems I care deeply about us delivering, but I’ve noticed the same thing elsewhere. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.572375",
+        "updated_at": "2026-07-14T17:01:42.572375",
+        "author": {
+          "id": "b4d53c5dd04d19f46f7dbd07aa5926dd",
+          "source_id": "grayclhn",
+          "username": "grayclhn",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ce723946bfc91523fa5f7f58797f8b1a",
+        "source_id": "48890046",
+        "content": {
+          "text": "But you wouldn't have called it \"allergy\" or a \"status\" problem when considering the audience's response to human written posts of a similar low quality level. It's always been the case that the HN audience has been \"allergic\" to low effort slop (including human generated). The OP (and my) point was trying to point out how the AI generated stuff might masquerade as something \"interesting\" if it had been human written, but actually is much of a nothing burger when there's no human behind it: if a human made a strange, weird, or even sub-optimal design decision, that's something to possibly have an interesting discussion about. if an AI does the same, first of, I don't care and don't wanna guess why its weights did the thing it did, it's just not as interesting as human motivations, UNLESS the main meat of the article/link is in fact about (again the human experience of) \"how I made this thing, using AI, what prompts, harness, models, etc\". I hope it makes sense and allows you to no longer dismiss this as an \"allergy\" (aka the audience's problem), but as something that is actually a quality problem with the post. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.573542",
+        "updated_at": "2026-07-14T17:01:42.573542",
+        "author": {
+          "id": "812ff76f206aca99c6b5cd384f2a283d",
+          "source_id": "tripzilch",
+          "username": "tripzilch",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2407cef1edffdef99caed3d015c20f21",
+        "source_id": "48895440",
+        "content": {
+          "text": "You are heavily discounting the human side of the generation effort. The first output from an AI might be slop but once you start injecting your own ideas and desires it lands much further away from what any AI would output on its own. (Not that there's no zero-effort slop around - there's a lot). reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.574668",
+        "updated_at": "2026-07-14T17:01:42.574668",
+        "author": {
+          "id": "88c772481dbacead8d1e1acf4ecee812",
+          "source_id": "heurist",
+          "username": "heurist",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4afef345e16b7cef6b28ac76cf11f134",
+        "source_id": "48895748",
+        "content": {
+          "text": "Sorry if I made it seem I think the human side of AI-use is without effort, because it's not and can take a lot of time (and effort/energy). It is, however, my experience that even the people who spend a lot of time and effort generating something with AI, tend to shrug when you ask a deeper question about the project, and often point to the AI generated documentation, which is, let me be subtle and say, \"not really a joy to read\", and especially pales in comparison to having a conversation with a human who spent their effort on learning how to do the thing it did, instead of prompting an AI. I'm also not saying there aren't any exceptions to this. But I've found them rare. Like I said, even if the human doesn't quite understand what they generated, even then it would be preferable to read a human written article about how it was generated, using what tools and harnesses, etc. I come to this website to learn stuff and converse with other people, not just to go \"ooh aah\" at what somebody generated with AI (if that is all they can offer). Hope that makes sense. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.575868",
+        "updated_at": "2026-07-14T17:01:42.575868",
+        "author": {
+          "id": "812ff76f206aca99c6b5cd384f2a283d",
+          "source_id": "tripzilch",
+          "username": "tripzilch",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c64e8065abb1f71cfabfc339cffc84fa",
+        "source_id": "48888522",
+        "content": {
+          "text": "> The current picture is that there is an emerging class distinction between writing (and writers) that use genai vs. writing that does not. As soon as the \"this sounds like an LLM\" allergy kicks in, the writing instantly gets relegated to a low-status bucket in the reader's mind. It's not a purity test, it's as the author is communicating they don't care whether the reader has any signals of what is accurate vs inaccurate information, which puts the burden of investigating how much is accurate on the reader at every step when there's some minimum expectation that should be an author's role (outside of topics where there is some expectation of ulterior motives/biases and one would naturally engage more critically minded). When people complain here it's more often than not when an article has no disclaimer about AI use or what has been human-reviewed, so the burden again falls on the reader who is now even more skeptical. That is more to ask of a reader than when it's coming from say a known expert and the reader is receptive to engage and learn. That's the reason tired cliches and turns of phrase (overused by LLMs) have become a heuristic for whether to pay attention, because it's a sign that there's some unknown quantity of of the article that hasn't had human review and it's easier to put in the bucket of 'maybe worthwhile but would need a fully human analysis of this' or just outright rejection (as we've seen from comments). Edit: I see a sibling comment has raised the same observation. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.577084",
+        "updated_at": "2026-07-14T17:01:42.577084",
+        "author": {
+          "id": "4470962f1f060aa8302a24068a670bfe",
+          "source_id": "Springtime",
+          "username": "Springtime",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3fddee1b858601bdfec63ab8ceebbe51",
+        "source_id": "48888567",
+        "content": {
+          "text": "I'm afraid I don't understand this - can I ask what was the sibling comment? Maybe that will help me triangulate. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.578283",
+        "updated_at": "2026-07-14T17:01:42.578283",
+        "author": {
+          "id": "a8f2eb951d66ab37d45e4a8e79cbf3ae",
+          "source_id": "dang",
+          "username": "dang",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f1257b228b00feb602fd90b9d69beef5",
+        "source_id": "48888639",
+        "content": {
+          "text": "This[1] comment, mostly in terms of not knowing which parts are generated and which not when not disclosed, which puts an added burden on the reader to assess. Like, if some non-controversial article makes a statement about something technical (where one's guard isn't already raised) but you've observed signs of LLM use (without any disclosure of to what degree) then instead of thinking it might be an interesting thing to follow-up on or remember one might be thinking instead 'is this something the author themselves understands and has reviewed for accuracy or slipped in by the LLM' and other such distractions (and legwork if wanting to try and fact-check such things on the spot). It goes from having a perhaps pleasurable, educational read to questioning and being more skeptical/cynical about the material. HN's guidelines meanwhile encourage good faith engagement, which is challenging. Edit: corrected permalink (had accidental extra digit). [1] https://news.ycombinator.com/item?id=48888422 reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.579646",
+        "updated_at": "2026-07-14T17:01:42.579646",
+        "author": {
+          "id": "4470962f1f060aa8302a24068a670bfe",
+          "source_id": "Springtime",
+          "username": "Springtime",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c0990ca85c6b7ef21c060403f7f65173",
+        "source_id": "48887886",
+        "content": {
+          "text": "> What I do think we'll (finally) add is a \"please give a reason why you flagged this post\" step, and \"because I think it's genai\" will be one choice among several Does that mean that an article being AI-generated is a flaggable offense? Should we be flagging suspected AI-generated articles already, or should we wait for the flagging system to support reasons first? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.580925",
+        "updated_at": "2026-07-14T17:01:42.580925",
+        "author": {
+          "id": "74d63faf5d382eeffb83cd6f4c47497c",
+          "source_id": "bhaney",
+          "username": "bhaney",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5e33d29bd7a5123a2e40ad6dc5794d98",
+        "source_id": "48887907",
+        "content": {
+          "text": "Damn you people for asking good questions that go straight to the fuzzy areas! I don't know for sure yet. But you're right that that would follow from what I said. What I do know is that users should flag articles that they think don't belong on HN. But this should rely on their reading of https://news.ycombinator.com/newsguidelines.html and not just be based on a like/dislike reaction. That is, users should flag articles that they think break the site guidelines, not just ones they dislike. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.582253",
+        "updated_at": "2026-07-14T17:01:42.582253",
+        "author": {
+          "id": "a8f2eb951d66ab37d45e4a8e79cbf3ae",
+          "source_id": "dang",
+          "username": "dang",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3955873196d2b17d3e86f653179c4417",
+        "source_id": "48888062",
+        "content": {
+          "text": "I have been discouraging people from flagging ‘articles that they think don't belong on HN’, because you have disabled my ability to do so time and time again. In private conversation with you, you have confirmed that if I flag/vouch stuff you mods don’t agree with, I get the privilege taken away, even if I genuinely believe a post to fall outside of the guidelines. So either I read your mind, or it is best not to flag unless something is obviously, unequivocally, running afoul of the guidelines. I keep being annoyed at how arbitrary, and dare I say hypocritical, the entire flagging mechanism and its surrounding politics are. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.583618",
+        "updated_at": "2026-07-14T17:01:42.583618",
+        "author": {
+          "id": "7d0b39bf6b7f729c8f9c43a6da410109",
+          "source_id": "sph",
+          "username": "sph",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "552131cd68b3a465f69bfe3e2b9d82f7",
+        "source_id": "48891310",
+        "content": {
+          "text": "Flagging, to me, seems like pissing in the wind. If I notice serial posters submitting extremely low effort content (a pair of their own posts every waking hour from \"6 months and 5 minutes ago\", off-topic wikipedia nearly once a day, \"I have 60000+ points but only upload from thealtantic/guardian/nytimes\") then I go on an irate ten-minute flagging binge. I've also been aghast at the nerve of those same serial posters applying the letter of the law against other users. I genuinely wouldn't care if Bartosz Ciechanowski only self-promotes every last one of his own posts. Some users are significantly more interesting than others, whether or not they violate the site guidelines marginally on a technicality. I have suspected it's possible some users flags are worth more than others, and I wouldn't be surprised if my flagging ability was silently removed several years ago. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.585008",
+        "updated_at": "2026-07-14T17:01:42.585008",
+        "author": {
+          "id": "e949dfc073b2a93887084b5a2e53b446",
+          "source_id": "PennRobotics",
+          "username": "PennRobotics",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e98073cf3e30e912d993c82f7bf9a384",
+        "source_id": "48888131",
+        "content": {
+          "text": "> In private conversation with you, you have confirmed that if I flag/vouch stuff you mods don’t agree with, I get the privilege taken away, even if I genuinely believe a post to fall outside of the guidelines. People love to make vague claims like this based on things we supposedly said. How about you quote what exactly what I literally said so readers can make up their own minds? Sorry if that is testy (well, it is testy), but I can't count the number of times that disgruntled users have posted falsely to HN threads to vent their residual frustrations with the mods. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.586476",
+        "updated_at": "2026-07-14T17:01:42.586476",
+        "author": {
+          "id": "a8f2eb951d66ab37d45e4a8e79cbf3ae",
+          "source_id": "dang",
+          "username": "dang",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "eb94affa32bf95e6bdf681381d9258e1",
+        "source_id": "48888240",
+        "content": {
+          "text": "Sure, quoting select passages over multiple emails with you personally. > I'm afraid we took vouching privileges away from your account because you vouched for too many comments that were unsubstantive and/or flamebait and/or otherwise broke the site guidelines > If you want to build up a track record for a while of vouching for good comments only, and then email so we can look at the recent vouches Wondering how does one tell what is ‘good’ in your mind: > Btw if you're unsure about a case you can always check with us about it. I know the borderline cases are not always easy to call. —- In other words, do as dang himself would do, or get penalised. I am not in the business of mind reading. This was years ago. I am pretty sure lately I have been flagging/vouching stuff I genuinely believe were OK, though you have all the data in front to smite me with “ah, but on this day you vouched this bad comment! Gotcha!” so in the end it’s always a losing battle. In any case, my issue is with you saying, I quote, ”users should flag articles that they think don't belong on HN”. Emphasis mine. No. It is more nuanced than that. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.588091",
+        "updated_at": "2026-07-14T17:01:42.588091",
+        "author": {
+          "id": "7d0b39bf6b7f729c8f9c43a6da410109",
+          "source_id": "sph",
+          "username": "sph",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a73640d6125cd2e32d935cbc47f4c108",
+        "source_id": "48888476",
+        "content": {
+          "text": "Kudos to you for responding exactly as I asked! That is rare to begin with, and more so when I'm being irritable. Big respect. I can see how using the word \"good\" was confusing, but I just meant the opposite of \"comments that were unsubstantive and/or flamebait and/or otherwise broke the site guidelines\". It just boils down to: what fits the guidelines or not. > Wondering how does one tell what is ‘good’ in your mind Since you can't read my mind (at least I assume you can't, and if you could you wouldn't have this question), that's not doable. What you can do is assess things according to your own reading of the site guidelines. If you assimilate https://news.ycombinator.com/newsguidelines.html and evaluate comments based on that and not just on what you like/dislike, then I imagine you won't end up too far from where the mods are, because that's what we're also trying to do. I'm sure there will always be individual cases where we disagree—even tomhow and I disagree on individual cases—but they \nshould be a minority. If there are specific cases where you think we got it wrong, I'd be interested to see links, and we're always willing to hear a contrary argument. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.589653",
+        "updated_at": "2026-07-14T17:01:42.589653",
+        "author": {
+          "id": "a8f2eb951d66ab37d45e4a8e79cbf3ae",
+          "source_id": "dang",
+          "username": "dang",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e5305f5edf889638b8a63bca097657e0",
+        "source_id": "48889379",
+        "content": {
+          "text": "Completely meta and possibly out-of-place, but this thread was I think my first encounter with dang (the human), and, based on it, I'm filled with respect for him. Good job being you. Please continue doing so. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.591161",
+        "updated_at": "2026-07-14T17:01:42.591161",
+        "author": {
+          "id": "c7b570f8f5ffbfdcfbff1178e5945c61",
+          "source_id": "hypfer",
+          "username": "hypfer",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e9d92ba6f20bc80868277563ff306325",
+        "source_id": "48890330",
+        "content": {
+          "text": "I have had plenty of disagreements with dang over my time on this site, yet I am the first to claim he has been instrumental in making HN as good as it is, notwithstanding the deluge of posts, bots, trolls, and other ungovernable people. I have a lot of respect for his work. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.592701",
+        "updated_at": "2026-07-14T17:01:42.592701",
+        "author": {
+          "id": "7d0b39bf6b7f729c8f9c43a6da410109",
+          "source_id": "sph",
+          "username": "sph",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "abf08ed663022f2c9824d690cc585f8d",
+        "source_id": "48891967",
+        "content": {
+          "text": "> I have had plenty of disagreements with dang over my time on this site To think that someone has multiple / repeated disagreements with Dang is wild to me. In my history on this site, I have not once seen Dang say or do anything that’s not in the best interest of the community. He’s possibly one of the least controversial moderators I have ever encountered online. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.594276",
+        "updated_at": "2026-07-14T17:01:42.594276",
+        "author": {
+          "id": "e17a0108b5528c26455be4cab57a4f13",
+          "source_id": "cj",
+          "username": "cj",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "58a919f2f7ab9df2254f95b4059000be",
+        "source_id": "48896172",
+        "content": {
+          "text": "Well I mean for starters, one might disagree whether all members of \"the community\" should actually be part of it/be catered to. I mean it's kinda hard to kick out the VC brainrot get-rich-quick sanity-is-tertiary scum when you're literally housed under a ycombinator subdomain, but that is technically also a choice that people might see as controversial. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.595881",
+        "updated_at": "2026-07-14T17:01:42.595881",
+        "author": {
+          "id": "c7b570f8f5ffbfdcfbff1178e5945c61",
+          "source_id": "hypfer",
+          "username": "hypfer",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4e81b2ef9a4ecc8a008cf888c9a841e9",
+        "source_id": "48890988",
+        "content": {
+          "text": "I can honestly say I've never seen a moderator on any forum as good as Dang. I wish I had! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.597505",
+        "updated_at": "2026-07-14T17:01:42.597505",
+        "author": {
+          "id": "a240bc992bf09980c0e172a9d722569a",
+          "source_id": "Nition",
+          "username": "Nition",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9be5fb14f921950c0fc794b1c4b7084b",
+        "source_id": "48895710",
+        "content": {
+          "text": "As opposed to dang the robot? :) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.599148",
+        "updated_at": "2026-07-14T17:01:42.599148",
+        "author": {
+          "id": "14a3f53fc83be29c0fd62e6c9e869fa8",
+          "source_id": "abustamam",
+          "username": "abustamam",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "74dc313510fd5331781363d21825785e",
+        "source_id": "48896203",
+        "content": {
+          "text": "As opposed to dang wearing the HN hat. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.600842",
+        "updated_at": "2026-07-14T17:01:42.600842",
+        "author": {
+          "id": "c7b570f8f5ffbfdcfbff1178e5945c61",
+          "source_id": "hypfer",
+          "username": "hypfer",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a8655abb56658582e6d4a110a10e38a5",
+        "source_id": "48890372",
+        "content": {
+          "text": "> what fits the guidelines or not It is no coincidence lawyering is a lucrative career, even when (in most countries) it is simply about interpreting what’s written in the big book. Until you rewrite the guidelines in an unambiguous programming language (Lisp will do), and provide a system to discern whether a comment falls afoul of them, your personal interpretation of the Word will often differ from someone else’s. That said, thanks for  the edifying discussion. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.602598",
+        "updated_at": "2026-07-14T17:01:42.602598",
+        "author": {
+          "id": "7d0b39bf6b7f729c8f9c43a6da410109",
+          "source_id": "sph",
+          "username": "sph",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "fbe7c00ccf583d4d272beff3e7e5df17",
+        "source_id": "48893009",
+        "content": {
+          "text": "I think you'll find as soon as you codify something strict, people will do their absolute best to work around those rules in any way possible. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.604333",
+        "updated_at": "2026-07-14T17:01:42.604333",
+        "author": {
+          "id": "273e8e0a4e88d2ce64f61c6c7d19a21d",
+          "source_id": "fireflash38",
+          "username": "fireflash38",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e9b1bf8390992b4e1511f523236b3cab",
+        "source_id": "48888513",
+        "content": {
+          "text": "How were you penalised? Was it just losing the ability to flag? If however you see things isn’t lining up well with how they want things flagged, it makes sense to remove that from you. Unless there’s more punishment attached this seems very sensible regardless of how genuinely you believe in things. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.606093",
+        "updated_at": "2026-07-14T17:01:42.606093",
+        "author": {
+          "id": "358e79a0d04ddce5e92908bc8e8d1de4",
+          "source_id": "IanCal",
+          "username": "IanCal",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4e1f99e0e701ec00fed3a01f124766e2",
+        "source_id": "48889654",
+        "content": {
+          "text": "(Not OP.) I can understand that it feels like a punishment though, if you are legitimately trying to help and this is the thanks you get. It's not just a human-to-human notice, but a change of your permission level; you're being stepped down. Of course I have no idea about this specific case and what the user flagged/vouched, and I can see your logic, just that I'd probably also feel bad if it happened to me and the wording seems fitting enough to me reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.607893",
+        "updated_at": "2026-07-14T17:01:42.607893",
+        "author": {
+          "id": "c7ab685ffe94d09a3f2bf7385b0fc7a3",
+          "source_id": "Aachen",
+          "username": "Aachen",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8218a48125b3803e405e0e5971cda824",
+        "source_id": "48888119",
+        "content": {
+          "text": "Dan likes some people and you ain't in the group, buddy. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.609722",
+        "updated_at": "2026-07-14T17:01:42.609722",
+        "author": {
+          "id": "8591f1437b378e984e0ead91699783f9",
+          "source_id": "bellowsgulch",
+          "username": "bellowsgulch",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e716ba108e257ad561e936bcc9018b6d",
+        "source_id": "48888153",
+        "content": {
+          "text": "I like people who follow the site guidelines and want to use HN as intended. That doesn't mean I dislike people who don't, but that side of the moon is more...nuanced. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.611659",
+        "updated_at": "2026-07-14T17:01:42.611659",
+        "author": {
+          "id": "a8f2eb951d66ab37d45e4a8e79cbf3ae",
+          "source_id": "dang",
+          "username": "dang",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "81656c08708fbd8c07ac53b2d991c00b",
+        "source_id": "48888413",
+        "content": {
+          "text": "He has no idea who I am. Privately, when I was new he was polite and helpful. (Tried to be polite, was returned.) /singular anecdote for reader reference reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.613583",
+        "updated_at": "2026-07-14T17:01:42.613583",
+        "author": {
+          "id": "eac79214d7a057d90326a6cc9e0e31ba",
+          "source_id": "Barbing",
+          "username": "Barbing",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "42a00eaa7afe97f665b12074370beee1",
+        "source_id": "48888364",
+        "content": {
+          "text": "> users should flag articles that they think break the site guidelines I'm more and more think that link actually hurts the site more than helps. It's a gotcha against everything, can be used a sword and a shield too. See the part about politics. There is more and more US domestic politics post here  (which I actually flag all the time) yet when the topic comes up people will say: \"should hackers turn their back on when the world burns\" So basically everything goes as long as it fits the narrative. And the worst offender imo is the last part about reddit. Because I do _really agree_ that HN is more and more like reddit, if not already is. This very post with the comments where everyone is asking for a downvote button is a perfect example of that. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.615560",
+        "updated_at": "2026-07-14T17:01:42.615560",
+        "author": {
+          "id": "e0eb2db5cc47ede838998d94653d9301",
+          "source_id": "haunter",
+          "username": "haunter",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "154b5406a29ede8f96cbdd905f33b73a",
+        "source_id": "48888290",
+        "content": {
+          "text": "What I do know is that users should flag articles that they think don't belong on HN If this is true then this statement should be added to the guidelines. Many a time I've seen a submission and thought \"My god, this is the most moronic thing I've ever read in my life, nearly every single factual claim in this is wrong\" but I don't flag it because \"don't post utter drivel\" is not in the guidelines. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.617528",
+        "updated_at": "2026-07-14T17:01:42.617528",
+        "author": {
+          "id": "b3e40d5f0711d2d44bd8bec9256b6b1d",
+          "source_id": "causality0",
+          "username": "causality0",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "69b4af3cbfff8557c8a3f6def44af0ef",
+        "source_id": "48888587",
+        "content": {
+          "text": "What did you think flagging was for? (Genuine question) It's true that we don't spell things out precisely, but that's because it's impossible to spell things out fully precisely. If you start, where do you stop? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.619520",
+        "updated_at": "2026-07-14T17:01:42.619520",
+        "author": {
+          "id": "a8f2eb951d66ab37d45e4a8e79cbf3ae",
+          "source_id": "dang",
+          "username": "dang",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "fb971a53b390993eb466ca5e51b4d319",
+        "source_id": "48888979",
+        "content": {
+          "text": "What did you think flagging was for? (Genuine question) Same as on other sites: Spam and/or bot, abuse and/or insults and other ad hominems and particularly the point in the guidelines where you go: Please don't use Hacker News for political or ideological battle. It tramples curiosity. and Off-Topic: Most stories about politics, or crime, or sports, or celebrities, unless they're evidence of some interesting new phenomenon. If they'd cover it on TV news, it's probably off-topic. Not that my flagging amounts to anything, there's so much domestic US politics articles from mainstream media on here that I often wonder whether I misunderstand the guidelines, but then, I'm just an Europoor /s reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.621591",
+        "updated_at": "2026-07-14T17:01:42.621591",
+        "author": {
+          "id": "7bdf0f9114b20176891db3bf297f2caa",
+          "source_id": "frm88",
+          "username": "frm88",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0fb4d817fdf39897081d8e43c321d3be",
+        "source_id": "48888020",
+        "content": {
+          "text": "Generally speaking, HN seems to have more of a problem now of people just drive-by downvoting things because they don't like someone's opinion. I know you hate the supposedly \"noob\" comment, as you've put it over the years, and as it is written in the guidelines, that HN is or isn't turning into Reddit, but this aspect of HN makes it indistinguishable to me as a long-time reader here whether you accept it from your perspective as a long-time moderator or not. Because HN moderation allows people to downvote or flag things simply because they don't like something, it will always be like Reddit. There is no distinguishing feature to separate it otherwise. One thing that would, would be forcing users to say why they downvoted or flagged something. Edit: If you spend years saying \"no, no, it isn't true\" to people, you're just sticking your fingers in your ears. Where there's smoke, there's fire. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.623696",
+        "updated_at": "2026-07-14T17:01:42.623696",
+        "author": {
+          "id": "8591f1437b378e984e0ead91699783f9",
+          "source_id": "bellowsgulch",
+          "username": "bellowsgulch",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d4924a612dc88cd3e167e5abf4aeb12f",
+        "source_id": "48890336",
+        "content": {
+          "text": "Yeah, even if this is very hard to get it perfect, I keep thinking there has to exist a better voting system than what we have. We can do a presumed step in the right direction and evaluate. - To give an outlet for (dis)agreement: We could have two arrows on each post, one for agree/disagree, the other for 'legitimate post that helps the conversation'. Someone posting wrong info rarely helps the conversation, but also often enough it's an opinion matter and you can disagree while leaving the latter arrow alone. The latter determines sort order (most helpful first); the former is displayed as a fun fact on posts that are deemed helpful (author sees exact counts just like now) - A system that seems to work better: A local tech site uses a system where you assign a quality level to a post. The short labels are (translated) \"flamebait\", \"irrelevant but well-intentioned\", \"relevant but well-known\", \"useful contribution\", and \"exceptionally useful\". Each one has a numerical value, ranging from -1 to +3, and it'll take the median of all votes (with a half-vote bias towards +1 I think, but that's an implementation detail). If your median comes out to -1, it's collapsed by default; at +2 and +3, it gets highlighted. Incorporating opinion into your quality assessment is a problem here, too, but then you might get +0 instead of +1 and not (like on HN) a score of -7. Not just does that feel a lot more fair, the system and its UI also just makes more clear to everyone that you're supposed to objectively score the comments on the mentioned guidelines (it shows a description every time you hover over a vote option) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.625783",
+        "updated_at": "2026-07-14T17:01:42.625783",
+        "author": {
+          "id": "c7ab685ffe94d09a3f2bf7385b0fc7a3",
+          "source_id": "Aachen",
+          "username": "Aachen",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "36c16d15bd63063b3126328ea4b0f6e3",
+        "source_id": "48888286",
+        "content": {
+          "text": "It’s not necessarily that it isn’t true - the most common problem voters have is that it just isn’t interesting or unique . reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.627903",
+        "updated_at": "2026-07-14T17:01:42.627903",
+        "author": {
+          "id": "227c6f442320d6472e1f38b28d674bce",
+          "source_id": "DANmode",
+          "username": "DANmode",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2d461e762e4af56ba29911aabc154c62",
+        "source_id": "48896092",
+        "content": {
+          "text": "Most comments aren't interesting. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.630033",
+        "updated_at": "2026-07-14T17:01:42.630033",
+        "author": {
+          "id": "8591f1437b378e984e0ead91699783f9",
+          "source_id": "bellowsgulch",
+          "username": "bellowsgulch",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "09baffa9d0d5f25e19f9000b33d4e1ad",
+        "source_id": "48896222",
+        "content": {
+          "text": "Then you’re in the wrong place (community, thread, or what have you). Said another way: I couldn’t disagree more. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.632256",
+        "updated_at": "2026-07-14T17:01:42.632256",
+        "author": {
+          "id": "227c6f442320d6472e1f38b28d674bce",
+          "source_id": "DANmode",
+          "username": "DANmode",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "38c32db75af591b7ddc9d6d9efdfbbac",
+        "source_id": "48896536",
+        "content": {
+          "text": "I'm not trying to be edgy or intentionally controversial or something, it's just life. Most things people have to say are not interesting. Not everything written on HN can be exceptional, because by definition it wouldn't be the exception. Your comment right now, and mine above are not interesting! In another thread there might be one whole comment out of hundreds that retells the experience of a senior engineer working on an uncommon problem, sharing specifics about a particular industry, piece of intellectual property, or another individual. The rest will not be interesting. That's normal! That's OK! But most are not. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.634492",
+        "updated_at": "2026-07-14T17:01:42.634492",
+        "author": {
+          "id": "8591f1437b378e984e0ead91699783f9",
+          "source_id": "bellowsgulch",
+          "username": "bellowsgulch",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "21849591ef4d9128e8e6f47a5b5c83a6",
+        "source_id": "48904045",
+        "content": {
+          "text": "> Not everything written on HN can be exceptional, because by definition it wouldn't be the exception. I’m not arguing every comment on HN is exceptional, but that logic isn’t sound because exceptionalism is relative (as you alluded to). In other words, it’s congruent that every comment on some website could be exceptional when compared to the internet at large . reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.636796",
+        "updated_at": "2026-07-14T17:01:42.636796",
+        "author": {
+          "id": "d08e124546d9fe3bf50156a1840cb1b6",
+          "source_id": "latexr",
+          "username": "latexr",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "79ee38307ad27f796475f3ca6d714766",
+        "source_id": "48898742",
+        "content": {
+          "text": "They’re interesting to me, (or I wouldn’t be spending time on them), and they’re interesting because I expect to care about this specific community behind this specific domain in five or ten, same as I did five or ten ago. You may be more ephemeral with your community identities. That’s cool, too. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.639079",
+        "updated_at": "2026-07-14T17:01:42.639079",
+        "author": {
+          "id": "227c6f442320d6472e1f38b28d674bce",
+          "source_id": "DANmode",
+          "username": "DANmode",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7a201cc5235babf96696a08167e62acf",
+        "source_id": "48895761",
+        "content": {
+          "text": "To add to this, it does make me think what the difference between down vote and flag is. I mean down vote is obviously the numerical opposite of upvote but why else would people downvote if it not be inappropriate for the forum? (Other than the obvious \"I dont like this commenter/their opinion\") Just thinking out loud I suppose. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.641471",
+        "updated_at": "2026-07-14T17:01:42.641471",
+        "author": {
+          "id": "14a3f53fc83be29c0fd62e6c9e869fa8",
+          "source_id": "abustamam",
+          "username": "abustamam",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "846724f31da63900b81677f155235460",
+        "source_id": "48888332",
+        "content": {
+          "text": "Don't you need a certain number of upvotes on your account before you can even use the downvote button? I seem to remember that being a thing, has it changed? The fact you can't just make an account, log in and start downvoting is already a massive improvement over Reddit reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.644389",
+        "updated_at": "2026-07-14T17:01:42.644389",
+        "author": {
+          "id": "c75dc0e7fe7802e9325a22800a007fa1",
+          "source_id": "bluefirebrand",
+          "username": "bluefirebrand",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "bf8dcb3f1a6a0189e55a7e0975b9d499",
+        "source_id": "48890606",
+        "content": {
+          "text": "This post from awhile back suggests it's at 501 karma - https://news.ycombinator.com/item?id=23439437 reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.646825",
+        "updated_at": "2026-07-14T17:01:42.646825",
+        "author": {
+          "id": "a1cbc9cb47acb42f862e49d3aaf8ea50",
+          "source_id": "another-dave",
+          "username": "another-dave",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6b31dceaa8c6be0c2854eefb78d7b1da",
+        "source_id": "48887221",
+        "content": {
+          "text": "I hope HN doesn't get into moderating the politics of articles. I can see a grim future (present?) where \"AI generated\" turns into a slur, warranted or otherwise, in a world where the difference between human trained to talk like an AI and AI masquerading as human becomes increasingly difficult to discern, and some hidden cabal passes judgement. That is wholly different from taking a stance on HN being a place for humans to comment on articles. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.649281",
+        "updated_at": "2026-07-14T17:01:42.649281",
+        "author": {
+          "id": "8ad2f7509fbf821abfb8ee8521feb6be",
+          "source_id": "avaer",
+          "username": "avaer",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "65733bad585acf6998c53adaa5551c63",
+        "source_id": "48889269",
+        "content": {
+          "text": "AI has a distinct, low-quality and unnecessarily sensational writing style, which signals low effort post first of all. If you use AI and you put the effort to make it not look like AI it means that at least you put some effort into it. I am not sure how the future may be, but the direction of AIs has been to solidify their distinct writing style rather than assimilate to humans. So we can start addressing what we are dealing with now. I doubt HN tagging/flagging can put enough pressure to affect how llms will evolve anyway in the future, while the llm speech becomes more and more ubiquitous and unhinged. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.651734",
+        "updated_at": "2026-07-14T17:01:42.651734",
+        "author": {
+          "id": "d315166521142a3f12c363518ef99ea8",
+          "source_id": "freehorse",
+          "username": "freehorse",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e197702ac171c01e058f86b9d8724618",
+        "source_id": "48889788",
+        "content": {
+          "text": "> AI has a distinct, low-quality and unnecessarily sensational writing style, which signals low effort post first of all Yes, but what if it doesn't? Anyone can create a model or prompt to adjust the tone, remove the tells that people are now on the lookout for, etc. And it's self-reinforcing, because the people that are on the lookout will always consider themselves to be right in their judgment, also because of survivorship bias - they won't know if they missed an AI generated comment/post unless it's revealed. This is one reason why I'm in favor of tagging AI generated posts, because at one point we can't tell. If we can't tell, does it still matter? I don't know, but I'd like to know anyway. Of course, it can't be mandated, so if the submitter doesn't tag it and the readers can't tell the difference, it's futile. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.654222",
+        "updated_at": "2026-07-14T17:01:42.654222",
+        "author": {
+          "id": "6430a9b81223e30271b330e6251e30cf",
+          "source_id": "Cthulhu_",
+          "username": "Cthulhu_",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "fbff3ceefcb38dabdae745ace201c7f9",
+        "source_id": "48890073",
+        "content": {
+          "text": "people could do this, but they don't. and if they did spend that effort, it would be better. but as it is now, the vast majority of AI written text, especially \"documentation\" of software projects, has this style signifying communication was outsourced to an AI. we are not at the point where \"we can't tell\", and if we actually couldn't tell we wouldn't be complaining about it reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.656709",
+        "updated_at": "2026-07-14T17:01:42.656709",
+        "author": {
+          "id": "812ff76f206aca99c6b5cd384f2a283d",
+          "source_id": "tripzilch",
+          "username": "tripzilch",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5c2dc1cb20c30d63291f44878bcc5a64",
+        "source_id": "48887334",
+        "content": {
+          "text": "You've accurately described the current state of Lobsters. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.659193",
+        "updated_at": "2026-07-14T17:01:42.659193",
+        "author": {
+          "id": "599f17a9b47fbcb3bad37eee8145497f",
+          "source_id": "matheusmoreira",
+          "username": "matheusmoreira",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7614d1ad8b7ca03c214e455c75bffd46",
+        "source_id": "48887352",
+        "content": {
+          "text": "As opposed to wonderful old HN, where about 95% of the front page is now AI, AI-related, or AI-generated. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.661726",
+        "updated_at": "2026-07-14T17:01:42.661726",
+        "author": {
+          "id": "7945d3f3ead88126c0651e2a20f2e33c",
+          "source_id": "archagon",
+          "username": "archagon",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d0c7e6f8bba05d1c7c7aa20ee83f198a",
+        "source_id": "48887415",
+        "content": {
+          "text": "There's significant overlap between the front pages of HN and Lobsters. Almost every time I try to submit the interesting articles I see on Lobsters here, I just get redirected to the existing discussion thread. The massive 1000+ comments/upvotes AI model release threads only show up on HN. Lobsters doesn't accept \"business\" articles like that. You're quite likely to find reactionary articles that are critical of AI on the front page though. There are several on the front page right now, in addition to the ones derisively tagged vibecoding. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.664295",
+        "updated_at": "2026-07-14T17:01:42.664295",
+        "author": {
+          "id": "599f17a9b47fbcb3bad37eee8145497f",
+          "source_id": "matheusmoreira",
+          "username": "matheusmoreira",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a9964742ec341de2d7775ec62ed0364f",
+        "source_id": "48887659",
+        "content": {
+          "text": "There's a bot user that seems to crosspost every lobsters story here if it isn't already. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.667047",
+        "updated_at": "2026-07-14T17:01:42.667047",
+        "author": {
+          "id": "818574a2874a392a3d2ab19b851f78bb",
+          "source_id": "mmastrac",
+          "username": "mmastrac",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3f731acb167c00171f99eaf8f91214f3",
+        "source_id": "48889794",
+        "content": {
+          "text": "This happens all the time, depending on the trend of the time. It was Rust for a while, then cryptocurrencies, machine learning, starups / unicorns / enormous funding rounds, etc. It'll pass when the next cool tech comes around. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.669694",
+        "updated_at": "2026-07-14T17:01:42.669694",
+        "author": {
+          "id": "6430a9b81223e30271b330e6251e30cf",
+          "source_id": "Cthulhu_",
+          "username": "Cthulhu_",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "dd47971352dff22d1879349643ae99eb",
+        "source_id": "48887577",
+        "content": {
+          "text": "And the remainder is people complaining about all the AI reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.672445",
+        "updated_at": "2026-07-14T17:01:42.672445",
+        "author": {
+          "id": "6e2188a91aa023154125e5a16853e40f",
+          "source_id": "grahamburger",
+          "username": "grahamburger",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b6b3f50e1ef83c9f9fcb79889fdc5bec",
+        "source_id": "48887538",
+        "content": {
+          "text": "That's a high exaggeration of course, but in the wonderful old HN tradition of perceiving the site as dominated by $badness, where everyone has their own perception of $badness. I'm not picking on you - it's practically a universal response, so much so that it must be driven by human hard-wiring. I've written about this so many times that for once I don't even know what to link to. Perhaps https://news.ycombinator.com/item?id=23308098 . Or maybe https://news.ycombinator.com/item?id=48427800 reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.675173",
+        "updated_at": "2026-07-14T17:01:42.675173",
+        "author": {
+          "id": "a8f2eb951d66ab37d45e4a8e79cbf3ae",
+          "source_id": "dang",
+          "username": "dang",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d9f59f5cd986cbb46c6298020b9fe5f2",
+        "source_id": "48888582",
+        "content": {
+          "text": "Fine. Looking at today's /active, it's more than half just based on the titles. (Likely 2/3 or more in practice, but I did not delve into each post.) And this does not feel particularly unusual. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.677883",
+        "updated_at": "2026-07-14T17:01:42.677883",
+        "author": {
+          "id": "7945d3f3ead88126c0651e2a20f2e33c",
+          "source_id": "archagon",
+          "username": "archagon",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8fe8ebae9dd68a17749cf6f065370e11",
+        "source_id": "48888512",
+        "content": {
+          "text": "(Apologies if you've commented on the following already, but I've not seen it.) The most concerning growing trend I see is comments that don't violate any guidelines, but are flagged to dead. I'm not talking about posters that are shadowbanned, but about comments that engaged thoughtfully on a topic but the rest of the thread disagreed emphatically with. I also don't even mean controversial takes on hot-button issues like vaccines. Just plain old bucking the trend in a thread about AI, transit, housing, layoffs, etc. I've been browsing with showdead on for as long as I can remember, and I'm seeing this accelerate.  Comments from folks both you and I respect as high quality contributors here. I don't know what the solution is, but it discourages me (and I'm sure others) from having the kind of thought-provoking dialog I've gotten used to reading here for the last 15 years. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.680706",
+        "updated_at": "2026-07-14T17:01:42.680706",
+        "author": {
+          "id": "0013a1d8872c7f2bf0684f9c8f0d44a5",
+          "source_id": "mh-",
+          "username": "mh-",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "25ef314848cfe555ce5c4f4536616606",
+        "source_id": "48888668",
+        "content": {
+          "text": "> comments that don't violate any guidelines, but are flagged to dead. Vouch them and/or email to hn@ycombinator.com and say why you think they deserve to be [undead]. I see that a lot, some have been erroneously caught by the real time AI detect filter (which actually isn't too bad at slicing out the actual AI gen comments) others have gone hard against the zeitgeist. I've had the mods reinstate comments that I've thoroughly disagreed with but were making their best case for an opposing view - the threads are better with the best arguments forward for all sides of the elephant. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.683520",
+        "updated_at": "2026-07-14T17:01:42.683520",
+        "author": {
+          "id": "6279a53bf3a82381dc093748e1610152",
+          "source_id": "defrost",
+          "username": "defrost",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "474c4a200ca079542dcb2c594c0ec134",
+        "source_id": "48889844",
+        "content": {
+          "text": "I have vouched a couple (~3-5) benign comments a while back and now I no longer have a vouch button for comments. I don't know if the vouch threshold has increased or if the mods have removed my ability to vouch for other comments entirely. Wondering if it was my good faith attempt to inform a user of their comments being auto-flagged [1] before I had any context that they were supposed to be persona non grata. I can still vouch submissions though 1: https://news.ycombinator.com/item?id=46381180 reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.686412",
+        "updated_at": "2026-07-14T17:01:42.686412",
+        "author": {
+          "id": "74571ca7bd28aea2021d9f754a0b0576",
+          "source_id": "behindsight",
+          "username": "behindsight",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6c846e66044bba162e301de51ce17353",
+        "source_id": "48904966",
+        "content": {
+          "text": "Your account is fine - nothing changed. Most probably you're just expecting vouch links where there aren't any. (They only show up on posts that are [dead].) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.689224",
+        "updated_at": "2026-07-14T17:01:42.689224",
+        "author": {
+          "id": "a8f2eb951d66ab37d45e4a8e79cbf3ae",
+          "source_id": "dang",
+          "username": "dang",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9ec4c2cf1dfd4f416c779a8ac3475ca9",
+        "source_id": "48888733",
+        "content": {
+          "text": "I always vouch them but have never bothered to email. I figure the mods are seeing the same HN I am. But maybe I spend too much time here some evenings.. But yes, it's the \"going against the zeitgeist\" ones I have in mind. It feels very damaging to the community. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.692091",
+        "updated_at": "2026-07-14T17:01:42.692091",
+        "author": {
+          "id": "0013a1d8872c7f2bf0684f9c8f0d44a5",
+          "source_id": "mh-",
+          "username": "mh-",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "88459a458b9da811bf8a9dcaec36c598",
+        "source_id": "48888885",
+        "content": {
+          "text": ">  I figure the mods are seeing the same HN I am. It's a rare individual that reads all the comments .. my impression is they appreciate on point heads up emails about accidentally auto-binned comments and are happy to reverse flagging on good comments, even those that try and make the dark side of a case. Probably best not to try and flood the zone with anti/pro pet subject matter karen emails though. FWiW I semi frequently pick apart comments supporting cases I'm in favour of .. because I want to see better arguments being made and to discourage weak easily dismissed shallow support. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.695082",
+        "updated_at": "2026-07-14T17:01:42.695082",
+        "author": {
+          "id": "6279a53bf3a82381dc093748e1610152",
+          "source_id": "defrost",
+          "username": "defrost",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "914065d80e686b00554ba400a4c2d710",
+        "source_id": "48888980",
+        "content": {
+          "text": "I agree with that, the ones I see flagged are frequently espousing viewpoints I disagree with. But they should be debated then, and flagging them denies everyone that opportunity. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.697994",
+        "updated_at": "2026-07-14T17:01:42.697994",
+        "author": {
+          "id": "0013a1d8872c7f2bf0684f9c8f0d44a5",
+          "source_id": "mh-",
+          "username": "mh-",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5746fc86bc2873f103e7e8abf5178c1d",
+        "source_id": "48896998",
+        "content": {
+          "text": "I try to flag only bad-faith arguing. I need to get more disciplined about flagging bad-faith arguing for stances I agree with: I don't flag those comments nearly as much, perhaps because I simply don't perceive them as bad-faith if I agree with them. Then again, I'm perfectly capable of perceiving bad-faith comments opposing generative AI. I had dismissed the possibility out of hand, so it's possible that the reason I don't see many bad-faith agrees-with-me comments, AI-bashing aside, is because there aren't many: maybe people who agree with me tend to act in good faith. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.700994",
+        "updated_at": "2026-07-14T17:01:42.700994",
+        "author": {
+          "id": "6ccfcf55182130617d1af7fdcfe157b3",
+          "source_id": "wizzwizz4",
+          "username": "wizzwizz4",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "135dbb0b1b043a97cfd13b6dd1042fc8",
+        "source_id": "48888967",
+        "content": {
+          "text": "Personally, I've never seen a dead comment come back to life. I'm not sure using the vouch button does anything. (It does for submissions, though.) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.703976",
+        "updated_at": "2026-07-14T17:01:42.703976",
+        "author": {
+          "id": "7945d3f3ead88126c0651e2a20f2e33c",
+          "source_id": "archagon",
+          "username": "archagon",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "fa3e29318d36ccc6258a702908027104",
+        "source_id": "48888995",
+        "content": {
+          "text": "I have, but it's definitely very rare. And might have been manual intervention as described above. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.707017",
+        "updated_at": "2026-07-14T17:01:42.707017",
+        "author": {
+          "id": "0013a1d8872c7f2bf0684f9c8f0d44a5",
+          "source_id": "mh-",
+          "username": "mh-",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "40e826689e1502d59e77719947283b4e",
+        "source_id": "48889049",
+        "content": {
+          "text": "Personally, I've seen two - both ones that I emailed about (and I really disliked the stance taken on one of those, but they were debating at a level that was polite, addressed objections raised, acknowledged other PoVs etc.) Vouch, I've perhaps seen reverse things several times (more of a background observation not pursued, so, you know, fuzzy anecdata at best), I did get feedback from @dang that one comment I vouched for was, in fact, a legitimate AI gen comment  .. so clearly I'm human enough to fall for the occasional clanker. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.710139",
+        "updated_at": "2026-07-14T17:01:42.710139",
+        "author": {
+          "id": "6279a53bf3a82381dc093748e1610152",
+          "source_id": "defrost",
+          "username": "defrost",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f99cfa127f6ead210e24a0a20c436ae1",
+        "source_id": "48897321",
+        "content": {
+          "text": "My vouch works well, but I barely use it: mostly on select comments of shadowbanned users. My flag, on the other hand, feels like it requires heavy consensus: even when it's successful, the comments I flag tend to get vouched back into existence on a hair-trigger. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.713293",
+        "updated_at": "2026-07-14T17:01:42.713293",
+        "author": {
+          "id": "6ccfcf55182130617d1af7fdcfe157b3",
+          "source_id": "wizzwizz4",
+          "username": "wizzwizz4",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f0389fd33c443c117b7dad626015f767",
+        "source_id": "48888622",
+        "content": {
+          "text": "I'd need to see specific links, but many of those posts are probably being killed because our software classified them as being genai, which is not allowed on HN (see https://news.ycombinator.com/newsguidelines.html#generated and https://news.ycombinator.com/item?id=47340079 .) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.716508",
+        "updated_at": "2026-07-14T17:01:42.716508",
+        "author": {
+          "id": "a8f2eb951d66ab37d45e4a8e79cbf3ae",
+          "source_id": "dang",
+          "username": "dang",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "14cc3d233fa67123ef5ea297dad67f36",
+        "source_id": "48888725",
+        "content": {
+          "text": "Happy to find and email you some when I'm at my desk. (I'm well aware of the genAI policy, and very supportive of it.) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.719672",
+        "updated_at": "2026-07-14T17:01:42.719672",
+        "author": {
+          "id": "0013a1d8872c7f2bf0684f9c8f0d44a5",
+          "source_id": "mh-",
+          "username": "mh-",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "59171bba63c76ae548cdbb601d624a49",
+        "source_id": "48888784",
+        "content": {
+          "text": "In the meantime, here's one I saw recently: https://news.ycombinator.com/item?id=48660796 reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.722856",
+        "updated_at": "2026-07-14T17:01:42.722856",
+        "author": {
+          "id": "0013a1d8872c7f2bf0684f9c8f0d44a5",
+          "source_id": "mh-",
+          "username": "mh-",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ebe8ee9de67c79271556b2238f8b8e4d",
+        "source_id": "48888856",
+        "content": {
+          "text": "That definitely wasn't a genai-related issue but the kind of issue it was is a knot that I'm too tired to untangle right now! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.726056",
+        "updated_at": "2026-07-14T17:01:42.726056",
+        "author": {
+          "id": "a8f2eb951d66ab37d45e4a8e79cbf3ae",
+          "source_id": "dang",
+          "username": "dang",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "264133939dde71511f4f640baacb0798",
+        "source_id": "48888887",
+        "content": {
+          "text": "lol, fair. It wasn't a great example. Have a good night. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.729298",
+        "updated_at": "2026-07-14T17:01:42.729298",
+        "author": {
+          "id": "0013a1d8872c7f2bf0684f9c8f0d44a5",
+          "source_id": "mh-",
+          "username": "mh-",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "19f46054d5e61082e8bdb98250d97195",
+        "source_id": "48889406",
+        "content": {
+          "text": "My memory is pretty spotty, but wasn't it similar with other hype-cycle topics like cryptocurrencies? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.732574",
+        "updated_at": "2026-07-14T17:01:42.732574",
+        "author": {
+          "id": "63608500cbc3535a5689b3daf47b311b",
+          "source_id": "IsTom",
+          "username": "IsTom",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9431b18ce2e1d13872ed50212cd1caa6",
+        "source_id": "48889829",
+        "content": {
+          "text": "It is understandable why so much content is ai-related, so many people are using it reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.735862",
+        "updated_at": "2026-07-14T17:01:42.735862",
+        "author": {
+          "id": "f5a1d7794628b626856a30f667590b96",
+          "source_id": "ed_elliott_asc",
+          "username": "ed_elliott_asc",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b5abbe11e798cd10cbbd561812b55541",
+        "source_id": "48888108",
+        "content": {
+          "text": "Honest question, why would it be a grim future for people to be allergic to what, in 99% of the cases, is effortless slop? Personally that is the future I hope to see. Hence my continuous protestations at the lazy excuses for articles that get posted these days, and the lazier excuses given by their authors for avoiding using their brain. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.739240",
+        "updated_at": "2026-07-14T17:01:42.739240",
+        "author": {
+          "id": "7d0b39bf6b7f729c8f9c43a6da410109",
+          "source_id": "sph",
+          "username": "sph",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "caf039454d63b0dd6e3ae5d5ff9b17a3",
+        "source_id": "48888686",
+        "content": {
+          "text": ">in a world where the difference between human trained to talk like an AI and AI masquerading as human I was once accused of using AI for writing in the voice of a depressed character because the character had a certain emotional detachment that to the person lodging the accusation indicated AI. In short it is not just specific phrasing or words but also aesthetic effects that mean one is AI nowadays. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.742720",
+        "updated_at": "2026-07-14T17:01:42.742720",
+        "author": {
+          "id": "f624028724a1c01d17ea8fc01c655551",
+          "source_id": "bryanrasmussen",
+          "username": "bryanrasmussen",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "16b69bfc552a2911601215235b88a47a",
+        "source_id": "48888091",
+        "content": {
+          "text": "Hacker News is already in the business of policing articles though. This is a curated list of articles that people share, and a lot of unrelated articles are automatically deleted or just downvoted out of existence. This isnt Reddit. It’s okay to have an opinionated website. Not every corner of the internet needs to be a bastion of free speech reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.746155",
+        "updated_at": "2026-07-14T17:01:42.746155",
+        "author": {
+          "id": "af94ce40b973adab266c9568d973e9e7",
+          "source_id": "MisterSandman",
+          "username": "MisterSandman",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "38fb0db32beb10a933a51b1ba1aaebba",
+        "source_id": "48887391",
+        "content": {
+          "text": "Why would humans ever be trained to talk like an AI? If they are working in some capacity where there is strong incentive to write llm-slop adjacent content, might as well use the llm slop generator. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.749746",
+        "updated_at": "2026-07-14T17:01:42.749746",
+        "author": {
+          "id": "294b1933551ab2d03b95a2ded3fb77ae",
+          "source_id": "asdff",
+          "username": "asdff",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ba474f778916dd2c37280c475084ad91",
+        "source_id": "48887509",
+        "content": {
+          "text": "\"You are the average of the five people you spend the most time with.\" Now if one’s a language model… (Subconscious training like when we pick up an accent, though eventually folks might automatically code switch - so that’s hopeful.) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.753435",
+        "updated_at": "2026-07-14T17:01:42.753435",
+        "author": {
+          "id": "eac79214d7a057d90326a6cc9e0e31ba",
+          "source_id": "Barbing",
+          "username": "Barbing",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5d58139c545d435dd1e6ce3f3993ee66",
+        "source_id": "48887440",
+        "content": {
+          "text": "That's just LinkedIn. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.757430",
+        "updated_at": "2026-07-14T17:01:42.757430",
+        "author": {
+          "id": "fbe2cba180d4465e981ed05c7fba9cc9",
+          "source_id": "minimaxir",
+          "username": "minimaxir",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a03ed260b419359c66859251caaf2ca2",
+        "source_id": "48887513",
+        "content": {
+          "text": "Scrolling the general feed there makes me want to put a pencil in my eye reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.761228",
+        "updated_at": "2026-07-14T17:01:42.761228",
+        "author": {
+          "id": "294b1933551ab2d03b95a2ded3fb77ae",
+          "source_id": "asdff",
+          "username": "asdff",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "664589803fc43f50a3103550a512ca2b",
+        "source_id": "48887848",
+        "content": {
+          "text": "Just detox by heading over to youtube logged out. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.764947",
+        "updated_at": "2026-07-14T17:01:42.764947",
+        "author": {
+          "id": "ef89de16877f4e8bf9541b86d800693f",
+          "source_id": "genxy",
+          "username": "genxy",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "fbd111103b447a30b79d8d8336b01bba",
+        "source_id": "48888021",
+        "content": {
+          "text": "Are you maybe misunderstanding this point? > It's a fascinating arms race right now: the AIs are training on the humans but the human hivemind is also training on the AIs. Readers are developing allergic sensitivities to language that sounds like an LLM produced it. Humans are training to detect AI content. Humans writing more like AIs is an unrelated (and slower) phenomenon. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.768670",
+        "updated_at": "2026-07-14T17:01:42.768670",
+        "author": {
+          "id": "62c4ade5564c9a6f77bcd1c08e0942fd",
+          "source_id": "unholiness",
+          "username": "unholiness",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9d2f078bccefb154325e34d68dea2f67",
+        "source_id": "48887457",
+        "content": {
+          "text": "“AI generated” is already a slur. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-14T17:01:42.772382",
+        "updated_at": "2026-07-14T17:01:42.772382",
+        "author": {
+          "id": "3f6394907bdf042ebbfa41b9d5db84ba",
+          "source_id": "satisfice",
+          "username": "satisfice",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-07-14T17:01:46.679027",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "36b79e3e152308f65c0eda9b7c6d5984",
+      "source_id": "48896372",
+      "title": "Ask HN: Should I do a CS masters at Cambridge or start as a new grad at Amazon?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-14T17:01:33.176708",
+      "updated_at": "2026-07-14T17:01:33.176708",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "030e2c0b66914090eec64a31fb1eedfb",
+        "source_id": "sspehr",
+        "username": "sspehr",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 21,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48896372",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-14T17:01:51.926220",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "19b79c9e3ddc4df754656bbfa2706168",
+      "source_id": "48906299",
+      "title": "Ask HN: Any objective research on which languages are best for AI agents?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-14T17:01:33.177303",
+      "updated_at": "2026-07-14T17:01:33.177303",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "ea1f8e4d8a80b5d24bb9c7916bee1ddd",
+        "source_id": "mwigdahl",
+        "username": "mwigdahl",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 4,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48906299",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-14T17:01:55.960142",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "d8b127243dc4b06f5c2f4287ef71fb4c",
+      "source_id": "48906202",
+      "title": "Ask HN: How do you keep up with news in a particular sector?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-14T17:01:33.177931",
+      "updated_at": "2026-07-14T17:01:33.177931",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "0e84d79d0092ee5e8c32d05e7ae66fc2",
+        "source_id": "doruk101",
+        "username": "doruk101",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 2,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48906202",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-14T17:01:58.706546",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "2114a470ea7a2277f5c145f6e5be6f4c",
+      "source_id": "48906155",
+      "title": "Ask HN: Using X vs. LinkedIn?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-14T17:01:33.178475",
+      "updated_at": "2026-07-14T17:01:33.178475",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "5ef852c530af08cb1b476aa9d2895b4b",
+        "source_id": "lalithaar",
+        "username": "lalithaar",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 4,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48906155",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-14T17:02:02.821908",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "c329bc044b28e4520ab04c7631c0cb2e",
+      "source_id": "48906080",
+      "title": "Ask HN: Can someone build open source Claude tag please?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-14T17:01:33.178981",
+      "updated_at": "2026-07-14T17:01:33.178981",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "5ef852c530af08cb1b476aa9d2895b4b",
+        "source_id": "lalithaar",
+        "username": "lalithaar",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 2,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48906080",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-14T17:02:07.237846",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "fef1db7283f100f2bead32cd92468641",
+      "source_id": "48905763",
+      "title": "Ask HN: Should I Promote My SaaS to get first 100 Customers without budget",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-14T17:01:33.179508",
+      "updated_at": "2026-07-14T17:01:33.179508",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "5c27c2abbd3201eac567a3e99478da0c",
+        "source_id": "HSK11",
+        "username": "HSK11",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 6,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48905763",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-14T17:02:10.376694",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "39106684200900caa14fa8f2be33d75a",
+      "source_id": "48902652",
+      "title": "Ask HN: What critical legacy system at work is everyone afraid to touch?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-14T17:01:33.180245",
+      "updated_at": "2026-07-14T17:01:33.180245",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "4086658c0ba9f07df2868d57deac9d8f",
+        "source_id": "jerrycat101",
+        "username": "jerrycat101",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 8,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48902652",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-14T17:02:15.897118",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "0491503561b2fa2dbbbc0696ef2b6ce7",
+      "source_id": "48899736",
+      "title": "Ask HN: How do you troubleshoot desktop Linux crashes/freezes?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-14T17:01:33.180776",
+      "updated_at": "2026-07-14T17:01:33.180776",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "b071f4f85e74ca5881094094ce1ea643",
+        "source_id": "Curiositry",
+        "username": "Curiositry",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 3,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48899736",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-14T17:02:19.463789",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "7c6fdf833a5c79f35868a66929801c73",
+      "source_id": "48901519",
+      "title": "Ask HN: What hardware hobby would you recommend to a software engineer?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-14T17:01:33.181279",
+      "updated_at": "2026-07-14T17:01:33.181279",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "fb8720a564e108fd9517f837bc12d44a",
+        "source_id": "merek",
+        "username": "merek",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 3,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48901519",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-14T17:02:25.144035",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "5b3abf256ad5f4ed72c5a505f7e5f6db",
+      "source_id": "48903663",
+      "title": "Ask HN: Does anyone else find GPT-5.6 Sol in Codex slow?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-14T17:01:33.181800",
+      "updated_at": "2026-07-14T17:01:33.181800",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "104b6b42eebb0a9fcb7677105071d525",
+        "source_id": "linzhangrun",
+        "username": "linzhangrun",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 5,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48903663",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-14T17:02:28.220415",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "0e83fdf6b27975cd05f646dbd0f847df",
+      "source_id": "48859439",
+      "title": "Ask HN: How do you use Vim in the era of AI?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-14T17:01:33.182303",
+      "updated_at": "2026-07-14T17:01:33.182303",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "23236213febdf6ec548aa42bfa138d18",
+        "source_id": "rstagi",
+        "username": "rstagi",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 48,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48859439",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-14T17:02:32.380149",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "92a067976c2596de78078de6a28c7c43",
+      "source_id": "48899965",
+      "title": "Ask HN: What are your personal websites?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-14T17:01:33.182821",
+      "updated_at": "2026-07-14T17:01:33.182821",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "8ad8fda9fa08b58e039e9cf985fda2f7",
+        "source_id": "basilikum",
+        "username": "basilikum",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 9,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48899965",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-14T17:02:37.707878",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "dd185f63bd5801f2cbc925b2d57e0d40",
+      "source_id": "48899674",
+      "title": "Ask HN: AI Agent and harness containerization/security recommendations",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-14T17:01:33.183328",
+      "updated_at": "2026-07-14T17:01:33.183328",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "ca0acea494b3ff1ae9a2e468b084a625",
+        "source_id": "dv35z",
+        "username": "dv35z",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 2,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48899674",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-14T17:02:43.189466",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
   }
 ]
