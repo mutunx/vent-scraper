@@ -25199,5 +25199,3673 @@
       ],
       "is_nsfw": false
     }
+  },
+  {
+    "post": {
+      "id": "a04fe4ca8ab647fa1c6a1068525f3036",
+      "source_id": "48966793",
+      "title": "Ask HN: Would you rent M3 Ultra from me?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">Hey,<p>I recently got myself into an accident and 2 things came out of it. One is a broken MacBook Pro M4 Pro, that I am heartbroken about as it's my favourite machine and I cannot spend so much on replacing the display.\n2nd, much better thing is that I got ahold of M3 Ultra 256GB Studio. As both of those events were pretty expensive,that got me thinking, would it actually be feasible to rent those out to the community for way lower than cloud providers do? Obviously I don't have the SLA of six zeroes, but my 1Gbit/s EU link is stable, electricity is not terribly priced, that would help me offload the cost of those a bit.<p>Would any of you be interested in that, and if so, what would you be willing to pay for bare metal M4 Pro or M3 Ultra for a week or a month?<p>I guess that I would rent it out based on trust here, not to random person, and would share all network access via Tailscale.<p>Thanks!!</p></p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-19T16:43:06.079406",
+      "updated_at": "2026-07-19T16:43:06.079406",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "c050ee24cead7f04f7ca9685d0e80677",
+        "source_id": "realaccfromPL",
+        "username": "realaccfromPL",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 3,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48966793",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "5a288211149f75094ab25fcae8aa7632",
+        "source_id": "48969340",
+        "content": {
+          "text": "I (think) that Vast [1] did something vaguely similar a few years back where regular people could rent out their nVidia GPUs. Might be worth looking into if that's an option. [1] - https://vast.ai reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:07.921638",
+        "updated_at": "2026-07-19T16:43:07.921638",
+        "author": {
+          "id": "dea5e4e88b3c90e43dac73c26f591b9f",
+          "source_id": "vunderba",
+          "username": "vunderba",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a546350783d41e9f9b92b3f0b7f20d53",
+        "source_id": "48967473",
+        "content": {
+          "text": "I would recommend against this.  Check your local and EU laws -- Anything coming out of your IP address may end up being your responsibility if it turns out to be illegal. Another thing to consider is that most people would likely rent it for the unified memory and AI usage.  Speaking from experience, your M3 Ultra will run _hot_ while performing; you'll need to plan a good, cool environment that the machine lives in, and set the fans to always run via something like MacsFanControl or some other utility, since it won't engage the fan at a higher rate just because your GPU is pegged and generating all the heat. The third thing is knowing how to balance out its memory usage.  SSDs have a finite lifetime in terms of writes.  Macs are _very_ good at not wearing out SSDs, but if your renter botches something in a config and you spend days or weeks swapping in and out of virtual memory, your machine will wear faster and harder. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:07.922159",
+        "updated_at": "2026-07-19T16:43:07.922159",
+        "author": {
+          "id": "72e9cca3a273953b7f8acb5353bd9f93",
+          "source_id": "josefcub",
+          "username": "josefcub",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a587a8225bdccb2deea2424d354d88a8",
+        "source_id": "48967742",
+        "content": {
+          "text": "Hey, thanks for the reply, I completely agree on all of the precautions, but again, I wouldn't really want to make a business out of it, just allow for some of the costs to be softened or as a proof of concept. If I would take not a random John Doe, but someone with an established name in the industry or even here, then I would have something to hold on to. I already have a modified piKvm so I would just add a custom fan or two and should be pretty sure about the temps as well. Nevertheless I agree on everything you pointed out :) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:07.922667",
+        "updated_at": "2026-07-19T16:43:07.922667",
+        "author": {
+          "id": "c050ee24cead7f04f7ca9685d0e80677",
+          "source_id": "realaccfromPL",
+          "username": "realaccfromPL",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3946e1483695ef8208844cf9d566d2b4",
+        "source_id": "48969257",
+        "content": {
+          "text": "You could rent it for $200-500 a day or $3000 a month and be on par with others in this space. When you rent a machine like this, they probably will use it to the max.  Lowing lifespan should be part of the equation. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:07.923199",
+        "updated_at": "2026-07-19T16:43:07.923199",
+        "author": {
+          "id": "6aae57c9d297e8e3406124fb707840a9",
+          "source_id": "ipaddr",
+          "username": "ipaddr",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-07-19T16:43:07.923390",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "2b137a412d0c65c1daf47913927231e5",
+      "source_id": "48966661",
+      "title": "Ask HN: Is float divergence/drift a real issue in many industries?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-19T16:43:06.080051",
+      "updated_at": "2026-07-19T16:43:06.080051",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "99ef28dc0860d347731a2e1d44ed0945",
+        "source_id": "Swapnopam",
+        "username": "Swapnopam",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 6,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48966661",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-19T16:43:10.555424",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "beab49fcc43725bccdda44dfc905643c",
+      "source_id": "48884984",
+      "title": "Ask HN: What Are You Working On? (July 2026)",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-19T16:43:06.080536",
+      "updated_at": "2026-07-19T16:43:06.080536",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "bec7335d8f4973f3cc1886331a825dda",
+        "source_id": "david927",
+        "username": "david927",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 288,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48884984",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-19T16:43:15.601197",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "d3c30f8afec6881cce087e47b37bc053",
+      "source_id": "48966292",
+      "title": "Ask HN: USB-to-WiFi print server for old printers – do you want it?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-19T16:43:06.081008",
+      "updated_at": "2026-07-19T16:43:06.081008",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "da34d44958bdae534950625efd0d9a16",
+        "source_id": "ValdikSS",
+        "username": "ValdikSS",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 5,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48966292",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-19T16:43:19.713446",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "0c3e64741a2dbff57e7fa44dadb165b7",
+      "source_id": "48966040",
+      "title": "Ask HN: Is anyone else facing login issues on Facebook?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-19T16:43:06.081606",
+      "updated_at": "2026-07-19T16:43:06.081606",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "107dfb160f4a7b332ca63be24a22294d",
+        "source_id": "wasi0013",
+        "username": "wasi0013",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 4,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48966040",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-19T16:43:23.834045",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "3fa6ccd230e3b6f14de22b292c8f2673",
+      "source_id": "48965883",
+      "title": "Ask HN: Are you building agents? What do they need access to?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-19T16:43:06.082068",
+      "updated_at": "2026-07-19T16:43:06.082068",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "ed41729f7e7b1ec6c5954ea6bdec43ad",
+        "source_id": "asim",
+        "username": "asim",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 2,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48965883",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-19T16:43:26.626645",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "4fbce4ce02828b04f33f3b5d8e6ad121",
+      "source_id": "48965516",
+      "title": "Ask HN: How do you as a normal swe use AI?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-19T16:43:06.082646",
+      "updated_at": "2026-07-19T16:43:06.082646",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "00aebd47b1c992984da6b9ffec905543",
+        "source_id": "atworkc",
+        "username": "atworkc",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 3,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48965516",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-19T16:43:30.189566",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "f4c79699d1234f3fbd7ab7e1d5137765",
+      "source_id": "48950477",
+      "title": "Ask HN: Did Fable disappear from your Claude usage and requires credits now?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">Looks like it happened. I actually assumed they would just enable it for all today, considering the Sol and Kimmi releases this past week. They doubled down instead.<p>EDIT: Was an outage, they just fixed it (https://status.claude.com/)</p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-19T16:43:06.083186",
+      "updated_at": "2026-07-19T16:43:06.083186",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "2eb665cc2dd2af583af8075124c94eca",
+        "source_id": "cromka",
+        "username": "cromka",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 91,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48950477",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "07adc465e458206c6985afd6de19f6e4",
+        "source_id": "48950724",
+        "content": {
+          "text": "https://status.claude.com/ now shows \"Elevated errors across Fable 5\" so it seems like they may not have intended to take it away... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.300355",
+        "updated_at": "2026-07-19T16:43:32.300355",
+        "author": {
+          "id": "3b255b9c02456e344bdcf5754a2f9ccb",
+          "source_id": "cornellwright",
+          "username": "cornellwright",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "db08f717f5cb96979fb028bcdd6e23cd",
+        "source_id": "48950819",
+        "content": {
+          "text": "Updated now to say it's an oops. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.300944",
+        "updated_at": "2026-07-19T16:43:32.300944",
+        "author": {
+          "id": "73c3e184f908037399460731b3007850",
+          "source_id": "ceejayoz",
+          "username": "ceejayoz",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8c5ec1479723e867a382f31e7e9a5f1a",
+        "source_id": "48950915",
+        "content": {
+          "text": "They were serving 500s yesterday, now this... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.301440",
+        "updated_at": "2026-07-19T16:43:32.301440",
+        "author": {
+          "id": "2eb665cc2dd2af583af8075124c94eca",
+          "source_id": "cromka",
+          "username": "cromka",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "83bb350e9dea65b7224955bb1c0299c1",
+        "source_id": "48951050",
+        "content": {
+          "text": "It's been like this for months. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.301959",
+        "updated_at": "2026-07-19T16:43:32.301959",
+        "author": {
+          "id": "73c3e184f908037399460731b3007850",
+          "source_id": "ceejayoz",
+          "username": "ceejayoz",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "62083702d0a7c74b3f24257a9a5c15aa",
+        "source_id": "48950708",
+        "content": {
+          "text": "Yes, ~30 Minutes ago (~18:00 UTC): Internal error: Usage credits are required for this model.: {\n    \"errorKind\": \"rate_limit\"\n  } Still had 70% of available usage, thought I can use it till July 19, 2026, 11:59 pm PT? I guess this is an error and I am happy to see I am not the only one with this problem, so I hope there will be enough noise it comes back as announced. [Edit] Update from https://status.claude.com/ > We are aware of an issue preventing users from selecting Claude Fable 5 within Claude.ai, Claude Code, and other surfaces, and are working to resolve this issue.\nJul 17, 2026 - 18:36 UTC reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.302578",
+        "updated_at": "2026-07-19T16:43:32.302578",
+        "author": {
+          "id": "2ca269e3cfc3f050f0b5edf26aa2880e",
+          "source_id": "andreashaerter",
+          "username": "andreashaerter",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "deb4e7ee0a6b3e30348cc5c4831c2259",
+        "source_id": "48950490",
+        "content": {
+          "text": "Yep. I thought it was supposed to run through the 19th? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.303129",
+        "updated_at": "2026-07-19T16:43:32.303129",
+        "author": {
+          "id": "e57cfdcc20583065b177721e45b66262",
+          "source_id": "pikdum",
+          "username": "pikdum",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "881012613395b77083378b6851629dad",
+        "source_id": "48950564",
+        "content": {
+          "text": "It was definitely the 19th https://news.ycombinator.com/item?id=48882730 I am assuming this is some kind of bug. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.303743",
+        "updated_at": "2026-07-19T16:43:32.303743",
+        "author": {
+          "id": "bbb5f4db615773866546ff70d8bba437",
+          "source_id": "andai",
+          "username": "andai",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5e5b7ac814360b5054d11079588d261b",
+        "source_id": "48950632",
+        "content": {
+          "text": "They might use this bug as a reason to be able to extend it for another week or something. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.304352",
+        "updated_at": "2026-07-19T16:43:32.304352",
+        "author": {
+          "id": "7ea10a941640996cb24d3e3542459b3c",
+          "source_id": "smasher164",
+          "username": "smasher164",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3b57c7ae9e048c916f1481386043bfe9",
+        "source_id": "48950657",
+        "content": {
+          "text": "Yeah when things like this have happened on fridays before they've reset everyone's limits etc. Would not be surprising if this is the pretext for something of this sort. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.305004",
+        "updated_at": "2026-07-19T16:43:32.305004",
+        "author": {
+          "id": "91936b6bbd3ff9acb5588ce5ee32fc21",
+          "source_id": "fidotron",
+          "username": "fidotron",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "aba12991508bf7c0176ad6f4b47bbd74",
+        "source_id": "48950539",
+        "content": {
+          "text": "Maybe they don't work weekends and turned it off early? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.305673",
+        "updated_at": "2026-07-19T16:43:32.305673",
+        "author": {
+          "id": "9f0427f63d58707237d2b51269b4e797",
+          "source_id": "londons_explore",
+          "username": "londons_explore",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "36b41a62ba190005149e39383163c34e",
+        "source_id": "48950538",
+        "content": {
+          "text": "They said 17th, I was expecting a PR today in which they'd say they included it in all plans. Was actually checking every couple hours here on HN, only to get my work stop half-way through just now. SIGH. EDIT: My bad, they indeed said 19th. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.306373",
+        "updated_at": "2026-07-19T16:43:32.306373",
+        "author": {
+          "id": "2eb665cc2dd2af583af8075124c94eca",
+          "source_id": "cromka",
+          "username": "cromka",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2d1d50892ac4357a53071b3aff286912",
+        "source_id": "48950572",
+        "content": {
+          "text": "\"July 19, 2026 at 11:59:59 PM PT\" [1] 1. https://support.claude.com/en/articles/15424964-claude-fable... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.307119",
+        "updated_at": "2026-07-19T16:43:32.307119",
+        "author": {
+          "id": "3159584bc2b96868abc961c1d8acc9e6",
+          "source_id": "xn",
+          "username": "xn",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b3ca41e0e5c68846d64352171b15cc55",
+        "source_id": "48950621",
+        "content": {
+          "text": "My bad. Somehow I had 17th in my mind. That's even more confusing! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.307868",
+        "updated_at": "2026-07-19T16:43:32.307868",
+        "author": {
+          "id": "2eb665cc2dd2af583af8075124c94eca",
+          "source_id": "cromka",
+          "username": "cromka",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "64cbda84b8eab84401212cefd5158874",
+        "source_id": "48950574",
+        "content": {
+          "text": "My claude macos app is showing \"Included until July 19\" - Max account reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.308641",
+        "updated_at": "2026-07-19T16:43:32.308641",
+        "author": {
+          "id": "4add35694ab00501d9e738286c6a2a9f",
+          "source_id": "ramathornn",
+          "username": "ramathornn",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "13b1529346bb628f395049b46e4adb3b",
+        "source_id": "48950649",
+        "content": {
+          "text": "Yep, right in the middle of a big implementation plan. I don't mind them changing the terms, I do mind them changing the terms without warning - I had concrete plans to wrap up my fable development long before the July 19th deadline, but, nope, here in the middle of the 7/17 afternoon it was working, then it cut me off. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.309438",
+        "updated_at": "2026-07-19T16:43:32.309438",
+        "author": {
+          "id": "f746403dcbd3895a06d491c16d814024",
+          "source_id": "FableBlows",
+          "username": "FableBlows",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "730a557f19883d3d55a524249ba81a9b",
+        "source_id": "48950606",
+        "content": {
+          "text": "Same here. Weirdly, > The promotion starts July 1, 2026 and ends July 19, 2026 at 11:59:59 PM PT. from: https://support.claude.com/en/articles/15424964-claude-fable... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.310304",
+        "updated_at": "2026-07-19T16:43:32.310304",
+        "author": {
+          "id": "4892f0cd2193bc706f2c193f1646262d",
+          "source_id": "bavell",
+          "username": "bavell",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "dc34608c7e4e8371baf3a33d234b45ed",
+        "source_id": "48950669",
+        "content": {
+          "text": "I think it was cutting off on the 12th, then they extended to the 19th, but apparently they changed their minds again, which really sucks when you've started a big change and now your context window that understood what it was doing gets rug-pulled. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.311164",
+        "updated_at": "2026-07-19T16:43:32.311164",
+        "author": {
+          "id": "f746403dcbd3895a06d491c16d814024",
+          "source_id": "FableBlows",
+          "username": "FableBlows",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c83120181f6d7dd4563c5eb64bcb786e",
+        "source_id": "48950699",
+        "content": {
+          "text": "They have to refund usage credits that people accidentally spent now though, since this was unannounced many are running agents and would be billed for tokens that would be covered by their plans. You can't lie to customers like this, if it was announced beforehand it would be fine but not like this. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.312091",
+        "updated_at": "2026-07-19T16:43:32.312091",
+        "author": {
+          "id": "f20d0522cc015597f21a17511c2858ac",
+          "source_id": "Jensson",
+          "username": "Jensson",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "43823933193ac90f0a64662e6b33a36c",
+        "source_id": "48950948",
+        "content": {
+          "text": "Good luck getting accurate accounting for all that before July 20th. Subscription accounts just get their \"best effort\" service during the subscription window. Opus is struggling through the deploy operation that Fable may have been in the middle of, it's supposed to be idempotent, but I wonder how reliable that is...  Fable had re-deployed a dozen times in the past 3-4 days, but Opus (lacking the context window) seems like it's hit a wall. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.313028",
+        "updated_at": "2026-07-19T16:43:32.313028",
+        "author": {
+          "id": "f746403dcbd3895a06d491c16d814024",
+          "source_id": "FableBlows",
+          "username": "FableBlows",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f7f6b8cb9560d83dd6ffeeded1f3ada1",
+        "source_id": "48956023",
+        "content": {
+          "text": "Given 5.6 and K3 I’m sure the window will be extended again. Have to maintain being somewhere on the frontier. Shame Fable is completely useless for me due to security classifiers. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.313995",
+        "updated_at": "2026-07-19T16:43:32.313995",
+        "author": {
+          "id": "805232e3b1273481ec14bc126100a6f2",
+          "source_id": "not_a9",
+          "username": "not_a9",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b93d265347a5132e7c313f940eb01a1d",
+        "source_id": "48950528",
+        "content": {
+          "text": "Yep, confirmed. Off to Codex I guess.. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.314971",
+        "updated_at": "2026-07-19T16:43:32.314971",
+        "author": {
+          "id": "e21196419da7bfddb0650f8e2cc583b9",
+          "source_id": "redbonsai",
+          "username": "redbonsai",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4830427a8067037488bb10a6f9e88a8f",
+        "source_id": "48954283",
+        "content": {
+          "text": "Funny how the default read of any outage now is \"strategic gating\" — a week of Sol and K3 launches has everyone primed to see 4D chess in what turns out to be a broken status page. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.315964",
+        "updated_at": "2026-07-19T16:43:32.315964",
+        "author": {
+          "id": "0ae749418a8453c628ab1753ed1488f4",
+          "source_id": "PaiDxng",
+          "username": "PaiDxng",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d4af4e6450ff1d9f1f12fda3022e6574",
+        "source_id": "48950712",
+        "content": {
+          "text": "“Elevated errors across Fable 5 \nInvestigating - We are currently investigating this issue.” That’s a bug reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.316989",
+        "updated_at": "2026-07-19T16:43:32.316989",
+        "author": {
+          "id": "9a3ddc132b7a39e6c372e9523f960602",
+          "source_id": "0xfedcafe",
+          "username": "0xfedcafe",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7450e0eafdbb374d37e96fd0239d6214",
+        "source_id": "48950941",
+        "content": {
+          "text": "Probably a cash grab to burn through users' usage credits before everyone switches to OpenAI or Kimi this weekend. I've lost all trust in Anthropic over these Fable shenanigans. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.318035",
+        "updated_at": "2026-07-19T16:43:32.318035",
+        "author": {
+          "id": "0dcd4a20f60088be0686dc4ecb8fa571",
+          "source_id": "novacrazy",
+          "username": "novacrazy",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "79ec2bc02e6dfebbca9cd84a5d59a364",
+        "source_id": "48950695",
+        "content": {
+          "text": "Same here. It may be related to the incidents reported today. https://status.claude.com/ reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.319131",
+        "updated_at": "2026-07-19T16:43:32.319131",
+        "author": {
+          "id": "1e0271afc0c1c96e43a0db48b3fb9282",
+          "source_id": "FranklinMaillot",
+          "username": "FranklinMaillot",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "bac44f1a65b22bdf6bd357063e0ea3ff",
+        "source_id": "48950768",
+        "content": {
+          "text": "Now there's an entry for Fable. From the look of it, their ops team is having a really bad Friday. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.320243",
+        "updated_at": "2026-07-19T16:43:32.320243",
+        "author": {
+          "id": "84726915b0b3ae775d86467ac7d308a9",
+          "source_id": "ahknight",
+          "username": "ahknight",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "540e424307a4dfe363c2f1591edd59d8",
+        "source_id": "48950551",
+        "content": {
+          "text": "Same issue here. I wonder if they made a mistake while preparing for some \"permanent\" change, instead of the never ending extensions of theirs. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.321354",
+        "updated_at": "2026-07-19T16:43:32.321354",
+        "author": {
+          "id": "a05b27942214a510610ec48febf9605f",
+          "source_id": "qusaisuwan",
+          "username": "qusaisuwan",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c6a6eabea53eef424169629caa290022",
+        "source_id": "48950841",
+        "content": {
+          "text": "Wouldn't be surprised if they issued credits or extended the deadline again as an apology. > Update - We are aware of an issue preventing users from selecting Claude Fable 5 within Claude.ai, Claude Code, and other surfaces, and are working to resolve this issue. https://status.claude.com/ reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.322573",
+        "updated_at": "2026-07-19T16:43:32.322573",
+        "author": {
+          "id": "4892f0cd2193bc706f2c193f1646262d",
+          "source_id": "bavell",
+          "username": "bavell",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "94c6cf2b623217d0f9cf924b9bbd8fb0",
+        "source_id": "48950678",
+        "content": {
+          "text": "I have to assume it's a secret test to see how many users immediately switch to Opus vs. how many stop/leave as a way to approximate what will happen if they actually turn it off...I mean, I'm sure it was a mistake and there will be some kind of announcement soon. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.323784",
+        "updated_at": "2026-07-19T16:43:32.323784",
+        "author": {
+          "id": "47a678f18f4db25d2b03d444dd9cccbc",
+          "source_id": "emissarii",
+          "username": "emissarii",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b0765c1b2ef0ca1d09172e50c03e6d48",
+        "source_id": "48950599",
+        "content": {
+          "text": "Anthropic cried \"I yield\" in the \"reset quota\" wars. Someone has to pay for all those tokens. Hopefully that's not the case though, I was retaining a buffer to hit it hard this weekend. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.325023",
+        "updated_at": "2026-07-19T16:43:32.325023",
+        "author": {
+          "id": "3c261f20e8b033787f556c1550dc78cc",
+          "source_id": "dudeinhawaii",
+          "username": "dudeinhawaii",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "43c30bfd76bc3057d9a18cf6cc4a6e1a",
+        "source_id": "48950794",
+        "content": {
+          "text": "\"We are aware of an issue preventing users from selecting Claude Fable 5 within Claude.ai, Claude Code, and other surfaces, and are working to resolve this issue.\" Specific and helpful so that's good. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.326278",
+        "updated_at": "2026-07-19T16:43:32.326278",
+        "author": {
+          "id": "3c261f20e8b033787f556c1550dc78cc",
+          "source_id": "dudeinhawaii",
+          "username": "dudeinhawaii",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2b33866676dc9d32b5252e47277afdc0",
+        "source_id": "48950697",
+        "content": {
+          "text": "Claude has predicted your actions and now we all must suffer. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.327553",
+        "updated_at": "2026-07-19T16:43:32.327553",
+        "author": {
+          "id": "f746403dcbd3895a06d491c16d814024",
+          "source_id": "FableBlows",
+          "username": "FableBlows",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2b63baa84ea987800588484a43d51ec4",
+        "source_id": "48950694",
+        "content": {
+          "text": "Hopefully this is a bug and it makes them do another reset. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.328842",
+        "updated_at": "2026-07-19T16:43:32.328842",
+        "author": {
+          "id": "29af981af73a79a48d15956347dade07",
+          "source_id": "throwup238",
+          "username": "throwup238",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "04846e569441d114b54d0b3d999481be",
+        "source_id": "48950718",
+        "content": {
+          "text": "More likely Fable usage was trending to take up more resources than they have available this coming weekend, so they cut it before that happened. Even 2 hours notice would have been nice, though. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.330178",
+        "updated_at": "2026-07-19T16:43:32.330178",
+        "author": {
+          "id": "f746403dcbd3895a06d491c16d814024",
+          "source_id": "FableBlows",
+          "username": "FableBlows",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "000c1599effcdf99b9417f7c717df06e",
+        "source_id": "48951072",
+        "content": {
+          "text": "Has anyone else noticed a crazy drop in their CREDITS since the servers went back up? I had plenty of space left and a cap set up, but it completely drained my account. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.331519",
+        "updated_at": "2026-07-19T16:43:32.331519",
+        "author": {
+          "id": "5d285f78eabda9ac45ff1a5b5be56b5c",
+          "source_id": "xMaciusx",
+          "username": "xMaciusx",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "290eb29fa5453c79f7699bd4ad942467",
+        "source_id": "48950615",
+        "content": {
+          "text": "Man, they should really stop using AI for their products. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.332906",
+        "updated_at": "2026-07-19T16:43:32.332906",
+        "author": {
+          "id": "b9a25272b5271427afa47eedcaa865ad",
+          "source_id": "burgerboii",
+          "username": "burgerboii",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c7d8be3df02a5bcad071a8f628d4a57a",
+        "source_id": "48950852",
+        "content": {
+          "text": "I logged into my Claude work account with $99 per month level and it says included until July 19 next to Fable when I click the model selector button. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.334310",
+        "updated_at": "2026-07-19T16:43:32.334310",
+        "author": {
+          "id": "e1349de4d8957946c8b08a6865c8a0f5",
+          "source_id": "daft_pink",
+          "username": "daft_pink",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ec9bca8192b560e8459fbfa5a81f6d28",
+        "source_id": "48950731",
+        "content": {
+          "text": "Same for me! My Max sub got renewed today, wish I've cancelled it earlier. I have been mainly using Sol anyways. I don't want to deal with dumb Opus anymore. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.335739",
+        "updated_at": "2026-07-19T16:43:32.335739",
+        "author": {
+          "id": "4884176d88208a16ea0fb995603f696d",
+          "source_id": "beydogan",
+          "username": "beydogan",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "eb26b382f74a4d5b90b9db0fd33e7efb",
+        "source_id": "48950507",
+        "content": {
+          "text": "Looks like I'm convinced to try Kimi K3 today. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.337190",
+        "updated_at": "2026-07-19T16:43:32.337190",
+        "author": {
+          "id": "9607e64d4b1c3f4114d656222ea9db0a",
+          "source_id": "claude-ai",
+          "username": "claude-ai",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "41d536dffe41e15e3746fa43081ea7cf",
+        "source_id": "48950687",
+        "content": {
+          "text": "Yes. /model \n    ⎿  Kept model as Fable 5\n  \n  continue\n  \n  Usage credits are required for this model. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.338705",
+        "updated_at": "2026-07-19T16:43:32.338705",
+        "author": {
+          "id": "7d9bb29c31aec4b04806f1b0d4709f52",
+          "source_id": "espeed",
+          "username": "espeed",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3966f8ea0edb5190bf4d2ce4c25745bc",
+        "source_id": "48950505",
+        "content": {
+          "text": "I just did get \"Agent terminated early due to an API error: Usage credits are required for this model\" reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.340211",
+        "updated_at": "2026-07-19T16:43:32.340211",
+        "author": {
+          "id": "5b2ab1bbd53dc911f1ded294bfc80b69",
+          "source_id": "systemz",
+          "username": "systemz",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "868c3ad9f6963e7356e04935f80fd140",
+        "source_id": "48950898",
+        "content": {
+          "text": "Lol, I thought only for me.. But in that case I think we can expect another extension for next week :D reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.341742",
+        "updated_at": "2026-07-19T16:43:32.341742",
+        "author": {
+          "id": "5d285f78eabda9ac45ff1a5b5be56b5c",
+          "source_id": "xMaciusx",
+          "username": "xMaciusx",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "556e5eb7481e9b6e40dd78fc20f24f6f",
+        "source_id": "48950704",
+        "content": {
+          "text": "It's Anthropic, they almost certainly broke something. Doubt they just decided  to pull it early. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.343280",
+        "updated_at": "2026-07-19T16:43:32.343280",
+        "author": {
+          "id": "4d036fa2a2741c86611838fb720af4c2",
+          "source_id": "atan2f",
+          "username": "atan2f",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e8801d933c40d72f16a89a0f6307d504",
+        "source_id": "48950892",
+        "content": {
+          "text": "Just got it back, seems like we're good (for now). reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.344852",
+        "updated_at": "2026-07-19T16:43:32.344852",
+        "author": {
+          "id": "4d036fa2a2741c86611838fb720af4c2",
+          "source_id": "atan2f",
+          "username": "atan2f",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "12edf264c57020c8be78f8868044bcb2",
+        "source_id": "48950587",
+        "content": {
+          "text": "can confirm as well, i was cut mid response, like 10mins ago... waiting for an official announcemnt? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.346454",
+        "updated_at": "2026-07-19T16:43:32.346454",
+        "author": {
+          "id": "91778f2195eb2b70b09e14efbbf3d305",
+          "source_id": "randname123",
+          "username": "randname123",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5bd1f2871fc84f5c86efa82c49595052",
+        "source_id": "48950796",
+        "content": {
+          "text": "Same - Usage credits are required for this model. but I still have a lot of usage... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.348094",
+        "updated_at": "2026-07-19T16:43:32.348094",
+        "author": {
+          "id": "616de4ecd4536a95d1fcbef3b9ece76f",
+          "source_id": "dbuko",
+          "username": "dbuko",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "60e6ec77cb8e42f81aaf017db2c63dbb",
+        "source_id": "48950673",
+        "content": {
+          "text": "Yep, and I came to HN to make sure. Happened literally less than 20 minutes ago. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.349773",
+        "updated_at": "2026-07-19T16:43:32.349773",
+        "author": {
+          "id": "e36ae6e70cb88df65223114508e8bdd2",
+          "source_id": "pdimitar",
+          "username": "pdimitar",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f1cab93c6d8498fd0ea22759dbfac7b1",
+        "source_id": "48950594",
+        "content": {
+          "text": "> Usage credits are required for this model. That is what my Claude Code instance says, too. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.351504",
+        "updated_at": "2026-07-19T16:43:32.351504",
+        "author": {
+          "id": "b39d74b0125750c0000f67f55d941ec2",
+          "source_id": "GordyNumberOne",
+          "username": "GordyNumberOne",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "421059f2b790651574559ba92a71436b",
+        "source_id": "48950729",
+        "content": {
+          "text": "I got the same, right in the middle of an implementation. Usage credits weren't required before, and I was far from using up my Fable quota for the week under the promo... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.353229",
+        "updated_at": "2026-07-19T16:43:32.353229",
+        "author": {
+          "id": "f746403dcbd3895a06d491c16d814024",
+          "source_id": "FableBlows",
+          "username": "FableBlows",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "757330ed8bc371304e5401468eb3a6d9",
+        "source_id": "48950577",
+        "content": {
+          "text": "Thought it was just me, strange time to flip that switch without notice reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.354995",
+        "updated_at": "2026-07-19T16:43:32.354995",
+        "author": {
+          "id": "1ae5be208c144efa4dc8f3779b9b85f2",
+          "source_id": "maxclark",
+          "username": "maxclark",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "59c66d0cdfa638c0e8976962a1419188",
+        "source_id": "48950655",
+        "content": {
+          "text": "Same here. I was carefully planning and rationalizing my usage :/ reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.356789",
+        "updated_at": "2026-07-19T16:43:32.356789",
+        "author": {
+          "id": "e757983732b10898f6d2d61ec6989a3f",
+          "source_id": "splendidHaiku",
+          "username": "splendidHaiku",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "481c73871606152df03f7a19a1843186",
+        "source_id": "48950492",
+        "content": {
+          "text": "Just happened to me. And disappeared from the 'Usage' tab. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.358642",
+        "updated_at": "2026-07-19T16:43:32.358642",
+        "author": {
+          "id": "be713ccea32b298c641ade1f653aa3be",
+          "source_id": "evtothedev",
+          "username": "evtothedev",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e03b43974bb4eaaf1868318ddf1215ea",
+        "source_id": "48950756",
+        "content": {
+          "text": "Same thing here. Fable 5 disappeared from usage tab. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.360434",
+        "updated_at": "2026-07-19T16:43:32.360434",
+        "author": {
+          "id": "facd7e925900b9ca4d6b21bc0427bb7c",
+          "source_id": "paladinodeimari",
+          "username": "paladinodeimari",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e7512465f98b18ef9bf893be04e4cad1",
+        "source_id": "48950589",
+        "content": {
+          "text": "I can still select Fable, I have a pro subscription. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.362269",
+        "updated_at": "2026-07-19T16:43:32.362269",
+        "author": {
+          "id": "27d6e86185671315ea69265c0d472b6e",
+          "source_id": "cinpol",
+          "username": "cinpol",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1deabde539bf82fe571e384a261360c6",
+        "source_id": "48950818",
+        "content": {
+          "text": "But can you use it? I was selected into fable, my context window had restructured my database schema and was about to deploy and migrate the existing database, then \"you need to purchase credits to use this model\" appeared right in the middle of the session. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.364176",
+        "updated_at": "2026-07-19T16:43:32.364176",
+        "author": {
+          "id": "f746403dcbd3895a06d491c16d814024",
+          "source_id": "FableBlows",
+          "username": "FableBlows",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "caeeadcae16545a79a4f21fcf926527e",
+        "source_id": "48950671",
+        "content": {
+          "text": "I have 60% usage left for Fable… wtf reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.366072",
+        "updated_at": "2026-07-19T16:43:32.366072",
+        "author": {
+          "id": "f894de70036d44ad369d88ba6b40b1c7",
+          "source_id": "equino",
+          "username": "equino",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "12ced2fa264ddeef386e0c77c9911fc7",
+        "source_id": "48950828",
+        "content": {
+          "text": "Had.  They have altered the deal.  Pray they do not need to alter it further. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.368017",
+        "updated_at": "2026-07-19T16:43:32.368017",
+        "author": {
+          "id": "f746403dcbd3895a06d491c16d814024",
+          "source_id": "FableBlows",
+          "username": "FableBlows",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7f28e34fdf06623ea14c0470d4833967",
+        "source_id": "48950642",
+        "content": {
+          "text": "Can confirm happened to me too reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.369952",
+        "updated_at": "2026-07-19T16:43:32.369952",
+        "author": {
+          "id": "38fcf48fe70f7096e786c9d4dc3b3e7a",
+          "source_id": "Dlouie",
+          "username": "Dlouie",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a8ba50f5ac37cf52ba00f4ae0bd27522",
+        "source_id": "48950874",
+        "content": {
+          "text": "It just appeared again. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.371923",
+        "updated_at": "2026-07-19T16:43:32.371923",
+        "author": {
+          "id": "a09074ae3bb9d42f5d6f10931531c103",
+          "source_id": "karolzlot",
+          "username": "karolzlot",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d56b55dd9792652dc0f645706ea6d919",
+        "source_id": "48950546",
+        "content": {
+          "text": "Can confirm, just now. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.373942",
+        "updated_at": "2026-07-19T16:43:32.373942",
+        "author": {
+          "id": "50397c210ac7303f8ce0813254149966",
+          "source_id": "beardsciences",
+          "username": "beardsciences",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4a4ec69db163a29e145bba9bd4c177d7",
+        "source_id": "48950743",
+        "content": {
+          "text": "same here... Fable 5 disappeared from usage tab. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.376042",
+        "updated_at": "2026-07-19T16:43:32.376042",
+        "author": {
+          "id": "facd7e925900b9ca4d6b21bc0427bb7c",
+          "source_id": "paladinodeimari",
+          "username": "paladinodeimari",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "dc11f70badbc6502bc872769d82f0573",
+        "source_id": "48951209",
+        "content": {
+          "text": "It’s back for me! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.378107",
+        "updated_at": "2026-07-19T16:43:32.378107",
+        "author": {
+          "id": "8afce6e4bc491cccb0c6fe58e767c38b",
+          "source_id": "globallyunique",
+          "username": "globallyunique",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e5f0c1791beb6183efa62df9e2a86c3d",
+        "source_id": "48951228",
+        "content": {
+          "text": "For how long?  Will you trust it? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.380192",
+        "updated_at": "2026-07-19T16:43:32.380192",
+        "author": {
+          "id": "f746403dcbd3895a06d491c16d814024",
+          "source_id": "FableBlows",
+          "username": "FableBlows",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1e19d6026e761441cb9bdf5326f3ab20",
+        "source_id": "48950931",
+        "content": {
+          "text": "Fable is back up! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.382306",
+        "updated_at": "2026-07-19T16:43:32.382306",
+        "author": {
+          "id": "5d285f78eabda9ac45ff1a5b5be56b5c",
+          "source_id": "xMaciusx",
+          "username": "xMaciusx",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "01cca8c55fe2bd50c11bb8e5e6a460e5",
+        "source_id": "48950631",
+        "content": {
+          "text": "Yes, in the middle of a bunch of design work on my library. Sigh… Fable was really a step ahead of Opus on this kind of work. I guess I will be looking at Codex unless Fable is included in my Max subscription on Claude code – or the next Opus is a clear improvement (and comes out soon). reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.384555",
+        "updated_at": "2026-07-19T16:43:32.384555",
+        "author": {
+          "id": "0e54940609a2e5b9a143de056aca2153",
+          "source_id": "black_knight",
+          "username": "black_knight",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "942ca3dbd9f11215cdcd262ab3fa7721",
+        "source_id": "48950846",
+        "content": {
+          "text": "Fable was doing really well for me too, and I had scoped out a nice development plan that was going to come in on-time under token budget before the 7/19 cutoff, which just became the 7/17 cutoff right in the middle of a database schema update / migration. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.386771",
+        "updated_at": "2026-07-19T16:43:32.386771",
+        "author": {
+          "id": "f746403dcbd3895a06d491c16d814024",
+          "source_id": "FableBlows",
+          "username": "FableBlows",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6523ead3124a8947b5430cf7b59b9266",
+        "source_id": "48950526",
+        "content": {
+          "text": "yes, I'm getting charged for usage too reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.388995",
+        "updated_at": "2026-07-19T16:43:32.388995",
+        "author": {
+          "id": "bd28925887fa4d0a5b743c836b9334e4",
+          "source_id": "alrenai",
+          "username": "alrenai",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "83ab7503183a325c656f329094890699",
+        "source_id": "48950516",
+        "content": {
+          "text": "can confirm reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.391212",
+        "updated_at": "2026-07-19T16:43:32.391212",
+        "author": {
+          "id": "3b7bb45d3cc22a79d8e333deb3b6d2bf",
+          "source_id": "svemyh",
+          "username": "svemyh",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d920a7eacf47a9d96d81c4bc8d891223",
+        "source_id": "48950726",
+        "content": {
+          "text": "I can't even use it properly even if I pay for it with my own money reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.393457",
+        "updated_at": "2026-07-19T16:43:32.393457",
+        "author": {
+          "id": "fd3c06125a55134322ef009ea9865cf5",
+          "source_id": "jdw64",
+          "username": "jdw64",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "755d7a51923ccb29926ef00001bc24ef",
+        "source_id": "48950608",
+        "content": {
+          "text": "Who here wants to put on tinfoil hats and wildly speculate that the government gave them another impossible roadblock? Ah, just saw that it’s still available but requires credits now. False alarm, remove tinfoil. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.395816",
+        "updated_at": "2026-07-19T16:43:32.395816",
+        "author": {
+          "id": "3191d3cb70e7f8aa1bf8ceae1331ed8d",
+          "source_id": "ofjcihen",
+          "username": "ofjcihen",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7067091210290ee5157f888b09a1a5e8",
+        "source_id": "48950559",
+        "content": {
+          "text": "Yes reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.398131",
+        "updated_at": "2026-07-19T16:43:32.398131",
+        "author": {
+          "id": "bdd66e89b5cd9c87b559d438fcdae28f",
+          "source_id": "tacomeow",
+          "username": "tacomeow",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3062c34d7df37f70e3f2cfd2dc9e3d35",
+        "source_id": "48950544",
+        "content": {
+          "text": "Usage credits are required for this model. Why can't they keep up their own words reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.400557",
+        "updated_at": "2026-07-19T16:43:32.400557",
+        "author": {
+          "id": "d9de399ea2842302eb239bdd75e97362",
+          "source_id": "mcheemaa",
+          "username": "mcheemaa",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b182d4e1d4805789740a33244e3b767c",
+        "source_id": "48950579",
+        "content": {
+          "text": "Disappointing they can just say things and get away with it. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.402896",
+        "updated_at": "2026-07-19T16:43:32.402896",
+        "author": {
+          "id": "08c5217227e01dcec08bb0d4c390966a",
+          "source_id": "CommanderData",
+          "username": "CommanderData",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d92d380cb07bf88f824fa23e56374b3e",
+        "source_id": "48950501",
+        "content": {
+          "text": "Likewise. I saw it vanish from the \"Plan usage limits\" page in real time. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.405260",
+        "updated_at": "2026-07-19T16:43:32.405260",
+        "author": {
+          "id": "c479c7ce273d803198c2dc6a9f58aae7",
+          "source_id": "richbell",
+          "username": "richbell",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "966e2645e230af14edba044eee1c25f4",
+        "source_id": "48950553",
+        "content": {
+          "text": "Kinda impressive to not even require a page refresh. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.407713",
+        "updated_at": "2026-07-19T16:43:32.407713",
+        "author": {
+          "id": "9f0427f63d58707237d2b51269b4e797",
+          "source_id": "londons_explore",
+          "username": "londons_explore",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "43a868c10d758c44598dcf6f9d4fbf9e",
+        "source_id": "48950659",
+        "content": {
+          "text": "Imagine building your solution using a 3rd party library, it still builds during your PR reviews and when you merge, it no longer builds. How would you feel? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.410164",
+        "updated_at": "2026-07-19T16:43:32.410164",
+        "author": {
+          "id": "669e50a2bd9453198438c9e4602a071b",
+          "source_id": "moezd",
+          "username": "moezd",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0ddcae44ed2d09b9e27bfb62170bb14d",
+        "source_id": "48950585",
+        "content": {
+          "text": "Got it here too. Hopefully they give us another reset! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.412613",
+        "updated_at": "2026-07-19T16:43:32.412613",
+        "author": {
+          "id": "db9a9ad6c923b18e58598f12b7ce89d9",
+          "source_id": "heythisischris",
+          "username": "heythisischris",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9eaa000550cb771fe85aba3b00a193bb",
+        "source_id": "48950637",
+        "content": {
+          "text": "ah okay, not just me reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.415089",
+        "updated_at": "2026-07-19T16:43:32.415089",
+        "author": {
+          "id": "5acac044eabcf715ff73da5c6afdb2b3",
+          "source_id": "kveykva",
+          "username": "kveykva",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c8b182a308ff7e7aaff23f5ee62084e8",
+        "source_id": "48950680",
+        "content": {
+          "text": "must be a bug reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.417645",
+        "updated_at": "2026-07-19T16:43:32.417645",
+        "author": {
+          "id": "089bcb7cdf8c386749c837464135d370",
+          "source_id": "alexprosh",
+          "username": "alexprosh",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "55006d71be665325bb4a3ded13f89efc",
+        "source_id": "48950682",
+        "content": {
+          "text": "I have 56% usage left for Fable. wtf anthropic!?! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.420320",
+        "updated_at": "2026-07-19T16:43:32.420320",
+        "author": {
+          "id": "f894de70036d44ad369d88ba6b40b1c7",
+          "source_id": "equino",
+          "username": "equino",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "04c4b3e039959a25fcb7b3f891e81adc",
+        "source_id": "48950891",
+        "content": {
+          "text": "now it's back? i saw it was gone from the usage but then reappeared about 10 min later, lol reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.422991",
+        "updated_at": "2026-07-19T16:43:32.422991",
+        "author": {
+          "id": "338a4061dba0622ad399f7cbe5023d81",
+          "source_id": "vardalab",
+          "username": "vardalab",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c1d82f6a5a97e054ad2bbd2aa26eeec5",
+        "source_id": "48950938",
+        "content": {
+          "text": "It is now fixed for me reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.425652",
+        "updated_at": "2026-07-19T16:43:32.425652",
+        "author": {
+          "id": "66aee1c2b3f4734cf78499f35d42325f",
+          "source_id": "theranimel",
+          "username": "theranimel",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c3418c229358dff080b5d76c9c3b2780",
+        "source_id": "48950711",
+        "content": {
+          "text": "another usage reset incoming i guess reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.428299",
+        "updated_at": "2026-07-19T16:43:32.428299",
+        "author": {
+          "id": "8df5ea0a041532929a15b6dac4189db5",
+          "source_id": "htrp",
+          "username": "htrp",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "418671ef371c78042a9ea37d6acd7d41",
+        "source_id": "48951364",
+        "content": {
+          "text": "I wonder if they put Fable in charge of Fable and Fable has learned dark patterns on how to gauge if there's enough whales on the hook to attached a feeding tube to the token API so they can print money. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.431002",
+        "updated_at": "2026-07-19T16:43:32.431002",
+        "author": {
+          "id": "529a0620bf66c5f337b3b50da2d83e0f",
+          "source_id": "cyanydeez",
+          "username": "cyanydeez",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d12a8f75c03fa247ddaee8ca0ebb8c25",
+        "source_id": "48950661",
+        "content": {
+          "text": "Yes, it did, same message. As others indicated, they will give us \"another week\" as an apology. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.433693",
+        "updated_at": "2026-07-19T16:43:32.433693",
+        "author": {
+          "id": "4d13aec01355d76f51c5dae238a26edc",
+          "source_id": "system2",
+          "username": "system2",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6266d6c1574e3b984893bab5439d5b95",
+        "source_id": "48950876",
+        "content": {
+          "text": "That would be cool reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:32.436430",
+        "updated_at": "2026-07-19T16:43:32.436430",
+        "author": {
+          "id": "66aee1c2b3f4734cf78499f35d42325f",
+          "source_id": "theranimel",
+          "username": "theranimel",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-07-19T16:43:32.438914",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "98f97017aa8b221b1f718a16e50e28b1",
+      "source_id": "48920698",
+      "title": "Ask HN: Is it just me, or is software buggier across the board?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-19T16:43:06.083641",
+      "updated_at": "2026-07-19T16:43:06.083641",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "85609014498f5183a5926813971a3622",
+        "source_id": "kadhirvelm",
+        "username": "kadhirvelm",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 134,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48920698",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-19T16:43:37.246221",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "683abadf19396c23a364184d09cda64e",
+      "source_id": "48886741",
+      "title": "Ask HN: Add flag for AI-generated articles",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-19T16:43:06.084087",
+      "updated_at": "2026-07-19T16:43:06.084087",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "b59fd99f2d3bf02e02f4664fb89b7588",
+        "source_id": "levkk",
+        "username": "levkk",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 1093,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48886741",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-19T16:43:42.448663",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "1ab6fec2a607e4eeb2a347a86cb3735a",
+      "source_id": "48956706",
+      "title": "Ask HN: Having a child before career has taken off",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">Dear HN,<p>I am a soon-to-be dad. I am looking forward to it, and we have prepared as best we can.<p>However, one thought is nagging me.<p>I have finished my bachelors degree in computer science, and I am onset to start my master degree in the fall.<p>However, I have very little job experience. I have decent grades, enjoy studying and have held a TA position. But I have never worked in a CS-related role professionally and do not consider myself a very good \"developer\".<p>I am afraid that I will not be able to work as good (or long) as my peers on school, or on side projects and internships; and that, due to my lack of experience, will have future employers turn me down.<p>I don't know; maybe I am a bit too pessimistic.\nI am based in Scandinavia for reference.<p>Anyone with experience having a child, before your career took off? Or similarly, while in school?<p>Any advice or words upon the matter is appreciated.<p>Best wishes, Lasse.</p></p></p></p></p></p></p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-19T16:43:06.084629",
+      "updated_at": "2026-07-19T16:43:06.084629",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "a34661c40a8d10e06275206a7c6ffafa",
+        "source_id": "lassearpe",
+        "username": "lassearpe",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 6,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48956706",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "f47fc2c9d514105b15c211ce1f3945ff",
+        "source_id": "48969158",
+        "content": {
+          "text": "You mention living in Scandinavia.  Won't be an issue unless you want to play startup and live in a van.  A child will focus you which might work out better for your career compared to typical drinking and partying at that age. You can do a few things at once just not everything.  Dropping excess socializing and you can probably work two jobs and still be a great father. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:44.252358",
+        "updated_at": "2026-07-19T16:43:44.252358",
+        "author": {
+          "id": "6aae57c9d297e8e3406124fb707840a9",
+          "source_id": "ipaddr",
+          "username": "ipaddr",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "63ef5a2a51575c894030f6f352acd8a9",
+        "source_id": "48966152",
+        "content": {
+          "text": "You have to do it sometime. Would you rather have kids in your 20s or your 40s? The points me and my wife agreed on: 1) It takes a lot of time and energy to raise children, and there's more of both when young 2) Fertility drops sharply in 30s, and we could miss the window altogether. Also the odds of complications goes up 3) You can work as hard as you like after the kids grow up 4) Paying for college will be tougher, but my parents were able to do it At 40, nearly everyone at my level of seniority has at least one child and they don't fault us for having them. We've all lost sleep over the baby, and we all understand that having a child younger than 2 is highly unproductive, but it gets better and most of the time they do a fine enough job that everyone forgets they have kids. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:44.252985",
+        "updated_at": "2026-07-19T16:43:44.252985",
+        "author": {
+          "id": "65547db35ad470ce1d9e44d413173434",
+          "source_id": "muzani",
+          "username": "muzani",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9c72c97a1e63309f2dab08b8425f4869",
+        "source_id": "48966179",
+        "content": {
+          "text": "Definitely rather in my 20s. Good points to consider. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:44.253464",
+        "updated_at": "2026-07-19T16:43:44.253464",
+        "author": {
+          "id": "a34661c40a8d10e06275206a7c6ffafa",
+          "source_id": "lassearpe",
+          "username": "lassearpe",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "68957004a94f361a6a486645893e004e",
+        "source_id": "48956982",
+        "content": {
+          "text": "Odds are it won't make a huge difference - everyone has a life to live outside of work. Even if it does cause some career stagnation, any decrease in your career because of having kids is going to be a good thing. Absolutely nobody gets old and then says, \"I wish I worked more and spent less time with family.\" reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:44.253996",
+        "updated_at": "2026-07-19T16:43:44.253996",
+        "author": {
+          "id": "b676d1bf3770c1a06ca92e42765f5c91",
+          "source_id": "codingdave",
+          "username": "codingdave",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "480139bf24733439e87a875e4bcb928e",
+        "source_id": "48957017",
+        "content": {
+          "text": "Yeah, that resonates with me. Value-wise, I would describe myself as more family-oriented than career-oriented. I guess I am just worrying about finding a decent job along the road, also to provide for said family. Thanks. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:44.254575",
+        "updated_at": "2026-07-19T16:43:44.254575",
+        "author": {
+          "id": "a34661c40a8d10e06275206a7c6ffafa",
+          "source_id": "lassearpe",
+          "username": "lassearpe",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4b931518f16408ea68a0ffafc744d443",
+        "source_id": "48965194",
+        "content": {
+          "text": "I don't know what it's like in Scandinavia, but here, as an employer, I would see it as a positive. Something you can use as a differentiator when interviewing. Recent graduates often underestimate what really matters to employers, Stability. Obviously I'm not expecting people to necessarily stay 40 years in the company, but it costs a lot of time effort and money to add a new person to the team. I'd like you to hang around a bit to make that worth it. Having children makes fathers less \"flighty\". You're less obsessed with \"building a resume\" and more interested in the stability of the paycheck, stress-free working environment and so on. Yes, you'll still leave for a better job, more pay and so on. But it'll be more calculated and less impulsive. Which gives us more opportunity to match your needs with my needs. In other words the maturity you learn at home translates into more maturity in the office as well. When interviewing for jobs, lean into words like maturity, responsibility, stability and so on. These things matter. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:44.255214",
+        "updated_at": "2026-07-19T16:43:44.255214",
+        "author": {
+          "id": "e27e0a9b5e05d0b1810a6ffe6f9281c4",
+          "source_id": "bruce511",
+          "username": "bruce511",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6f69d7f49d80cd3d1fb039e1bb079c0d",
+        "source_id": "48965420",
+        "content": {
+          "text": "This makes good sense to me. Thanks a lot for the perspective :) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:44.255801",
+        "updated_at": "2026-07-19T16:43:44.255801",
+        "author": {
+          "id": "a34661c40a8d10e06275206a7c6ffafa",
+          "source_id": "lassearpe",
+          "username": "lassearpe",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "295f3dffb6a751d558258ea9f9963486",
+        "source_id": "48964296",
+        "content": {
+          "text": "Congrats on the little one. I've been on the other side, recruiting people, and I can tell you that parents tend to be more focused and efficient, maybe because they have less time. I am not a parent myself, but as an employer who hires constantly, I think what matters is to show how sharp you are. If you have little working experience, try building projects on the side, with coding tools, you have the potential to be a 10x engineer. Hope it helps! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:44.256418",
+        "updated_at": "2026-07-19T16:43:44.256418",
+        "author": {
+          "id": "9b69ab92f91a7ddacfb34f992bdff291",
+          "source_id": "jfromtheblock",
+          "username": "jfromtheblock",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d1686f033faf4c35ae5b09291530a42f",
+        "source_id": "48965408",
+        "content": {
+          "text": "Thanks :) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:44.257070",
+        "updated_at": "2026-07-19T16:43:44.257070",
+        "author": {
+          "id": "a34661c40a8d10e06275206a7c6ffafa",
+          "source_id": "lassearpe",
+          "username": "lassearpe",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5b14f7767f98b43087fa5e3e6e20577a",
+        "source_id": "48966020",
+        "content": {
+          "text": "Where do you live? I believe that this will make a huge difference. Does the state ensure decent work-life balance and childcare? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:44.257747",
+        "updated_at": "2026-07-19T16:43:44.257747",
+        "author": {
+          "id": "95c7810f5068a7f6553a5ebcb0e954d1",
+          "source_id": "nicbou",
+          "username": "nicbou",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "004849135a1a786860c0c97714ea504b",
+        "source_id": "48966171",
+        "content": {
+          "text": "I live in Scandinavia. My other half can take some time off her job after the birth (paid parental leave), and there are no medical bills associated with the birth itself. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:44.258438",
+        "updated_at": "2026-07-19T16:43:44.258438",
+        "author": {
+          "id": "a34661c40a8d10e06275206a7c6ffafa",
+          "source_id": "lassearpe",
+          "username": "lassearpe",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7375670170e1f2bc17f3d334157ca879",
+        "source_id": "48957036",
+        "content": {
+          "text": "I would say that rising a kid is going to teach you many things you would never learn at school, and those social skills can make a difference in job interviews. If you're able to take care of a family then you certainly are a good team player. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:44.259187",
+        "updated_at": "2026-07-19T16:43:44.259187",
+        "author": {
+          "id": "3b2a450f952f1ae7e7735e8bc3346e51",
+          "source_id": "flaburgan",
+          "username": "flaburgan",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2cbd25c524e514b4298c41f758ca7be3",
+        "source_id": "48957092",
+        "content": {
+          "text": "Thanks, man. That's a good point. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:44.259963",
+        "updated_at": "2026-07-19T16:43:44.259963",
+        "author": {
+          "id": "a34661c40a8d10e06275206a7c6ffafa",
+          "source_id": "lassearpe",
+          "username": "lassearpe",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3dcb4293b6c695a4f7a01e67f0c3404e",
+        "source_id": "48959323",
+        "content": {
+          "text": "I became a father at 24 and had both of my kids before I finished college.  I didn't start programming until age 28.  I turned out alright, and I am based in America where the costs of childcare and medicine will make you homeless. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:44.260757",
+        "updated_at": "2026-07-19T16:43:44.260757",
+        "author": {
+          "id": "0ae492937dcc65e2e9ad4e3b8663757f",
+          "source_id": "austin-cheney",
+          "username": "austin-cheney",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "44d7949650418116b46804bf2e155371",
+        "source_id": "48959525",
+        "content": {
+          "text": "Thanks for another perspective. I should be grateful for many things. Comparison the thief of joy and all that. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:44.261578",
+        "updated_at": "2026-07-19T16:43:44.261578",
+        "author": {
+          "id": "a34661c40a8d10e06275206a7c6ffafa",
+          "source_id": "lassearpe",
+          "username": "lassearpe",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2da5b94e2eb6510ac7e71865cc1dcb95",
+        "source_id": "48956795",
+        "content": {
+          "text": "I wish I had kids earlier. More than 1. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:44.262394",
+        "updated_at": "2026-07-19T16:43:44.262394",
+        "author": {
+          "id": "fea480375ebf461da6e0740c95da8591",
+          "source_id": "swah",
+          "username": "swah",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d7ca9597af6ddd8b1c9c4828a6bc40c6",
+        "source_id": "48956832",
+        "content": {
+          "text": "Thanks for the perspective. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:44.263284",
+        "updated_at": "2026-07-19T16:43:44.263284",
+        "author": {
+          "id": "a34661c40a8d10e06275206a7c6ffafa",
+          "source_id": "lassearpe",
+          "username": "lassearpe",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8b8583cd927d52a20f7f428c74a426a0",
+        "source_id": "48959128",
+        "content": {
+          "text": "This is the right age of the world to do that! Congrats, happy life! You'll have a busy year and then a lot of chance to grow your career! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:44.264175",
+        "updated_at": "2026-07-19T16:43:44.264175",
+        "author": {
+          "id": "91d8f0dda4962cc516d6eae694146fa8",
+          "source_id": "lordkrandel",
+          "username": "lordkrandel",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9416ed132abeb9f445b497659749a436",
+        "source_id": "48959468",
+        "content": {
+          "text": "Thanks :) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:44.265087",
+        "updated_at": "2026-07-19T16:43:44.265087",
+        "author": {
+          "id": "a34661c40a8d10e06275206a7c6ffafa",
+          "source_id": "lassearpe",
+          "username": "lassearpe",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e7fd678ba63604c6ce72990bd6dc47dc",
+        "source_id": "48958027",
+        "content": {
+          "text": "People should do the right things at the right age. Perhaps one day in the future you’ll be very grateful to yourself for being brave now. Come on, mate—you’re already all set; you’re just here to get everyone’s approval. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:44.266022",
+        "updated_at": "2026-07-19T16:43:44.266022",
+        "author": {
+          "id": "3d3b08db4f792467c8edd2edd32002a9",
+          "source_id": "Leewen",
+          "username": "Leewen",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "069ac9e07d880ca16fa3ad0c95ee9432",
+        "source_id": "48958778",
+        "content": {
+          "text": "You're right about the last paragraph. At least some sort of affirmation. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:44.266967",
+        "updated_at": "2026-07-19T16:43:44.266967",
+        "author": {
+          "id": "a34661c40a8d10e06275206a7c6ffafa",
+          "source_id": "lassearpe",
+          "username": "lassearpe",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "797f4e525a203658e2f5ea57e2bc47d2",
+        "source_id": "48959017",
+        "content": {
+          "text": "Your baby will not be a burden to you; they will be a source of joy. Whilst they bring you happiness, you also have a responsibility reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:44.267943",
+        "updated_at": "2026-07-19T16:43:44.267943",
+        "author": {
+          "id": "3d3b08db4f792467c8edd2edd32002a9",
+          "source_id": "Leewen",
+          "username": "Leewen",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7b366aee4b8abc9ae2cdddff4f8e83c3",
+        "source_id": "48959479",
+        "content": {
+          "text": "That's a good perspective. I will do my best. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-19T16:43:44.268961",
+        "updated_at": "2026-07-19T16:43:44.268961",
+        "author": {
+          "id": "a34661c40a8d10e06275206a7c6ffafa",
+          "source_id": "lassearpe",
+          "username": "lassearpe",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-07-19T16:43:44.269651",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "36b79e3e152308f65c0eda9b7c6d5984",
+      "source_id": "48896372",
+      "title": "Ask HN: Should I do a CS masters at Cambridge or start as a new grad at Amazon?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-19T16:43:06.085059",
+      "updated_at": "2026-07-19T16:43:06.085059",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "030e2c0b66914090eec64a31fb1eedfb",
+        "source_id": "sspehr",
+        "username": "sspehr",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 29,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48896372",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-19T16:43:47.758511",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "f849adeb7a22f1ba3353c146cc5abbfa",
+      "source_id": "48955898",
+      "title": "Ask HN: I've told everyone about my startup and its been harder than I thought",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-19T16:43:06.085479",
+      "updated_at": "2026-07-19T16:43:06.085479",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "c7c39b4e4f1d4e8cdf603a926d7dbad9",
+        "source_id": "bunnybomb2",
+        "username": "bunnybomb2",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 5,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48955898",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-19T16:43:52.328303",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "8036e5c116e837454adfae3a1f4162bc",
+      "source_id": "48925128",
+      "title": "Ask HN: Are AWS Certs worth getting for experienced Devs?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-19T16:43:06.085923",
+      "updated_at": "2026-07-19T16:43:06.085923",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "fd376d5d2f44141c8adb0528da0a4bb8",
+        "source_id": "Gold-Ask-lx",
+        "username": "Gold-Ask-lx",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 13,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48925128",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-19T16:43:57.302826",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "6dbc6c119f4dc65381ebb0050a75caa7",
+      "source_id": "48947498",
+      "title": "Ask HN: How do you handle the actual situation with so much AI noises",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-19T16:43:06.086347",
+      "updated_at": "2026-07-19T16:43:06.086347",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "16db7a9fda1e262f4ba94cde27926ea4",
+        "source_id": "ThierryRkt",
+        "username": "ThierryRkt",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 6,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48947498",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-19T16:44:01.112710",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
   }
 ]
