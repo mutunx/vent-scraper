@@ -11915,5 +11915,3792 @@
       ],
       "is_nsfw": false
     }
+  },
+  {
+    "post": {
+      "id": "0133d037a8ea0dacfc99b80276c833e7",
+      "source_id": "49022990",
+      "title": "Ask HN: Is there a website that tracks excessive writes to SSDs in OS/app betas?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">If not, why not?<p>That way, people can choose whether they want to install various software betas based on how much SSD wear they are willing to accept.<p>And since this data would be made public and available in one place, software developers would be more careful about excessive logging in their betas.</p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-23T17:08:20.075636",
+      "updated_at": "2026-07-23T17:08:20.075636",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "9fbfc99674a659d2f2b0af967455b589",
+        "source_id": "amichail",
+        "username": "amichail",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 21,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49022990",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "87094a820c6c8184cd62fabd2aa2e5ef",
+        "source_id": "49024291",
+        "content": {
+          "text": "I feel like the only responsible thing is to have a home network with at least one persistent device running 24/7 with large storage for local backups of things, and ideally a E2E cloud backup of the same thing. With this, comes the possibility of using things like Grafana+Prometheus to monitor your personal computer/workstation as well. This is what I've done, together with alerts from various things, and since the recent \"excessive writes by codex\" issue, also alerts if there is obsessive writing over hours long period from any process on my workstation. Luckily I wasn't hit by the Codex issue myself, but certainly made me consider the issue more generally so, happy accidents :) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:22.366713",
+        "updated_at": "2026-07-23T17:08:22.366713",
+        "author": {
+          "id": "ce8377b632ae8cfdbcb2d078429130ec",
+          "source_id": "embedding-shape",
+          "username": "embedding-shape",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8bb4cd7f6295456e0fb88c97c158cd1a",
+        "source_id": "49023142",
+        "content": {
+          "text": "> If not, why not? At least on Apple devices, this is not something anyone has to worry about. For example, on my 2022 Mac Studio daily driver, on 24/7, DriveDx ( https://binaryfruit.com/drivedx ) reports my SSD lifetime left at 94%. (I'm aware of the February 2021 \"wear-gate\" scare involving the first M1 Macs. This turned to be incorrect SSD-wear reporting.) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:22.367308",
+        "updated_at": "2026-07-23T17:08:22.367308",
+        "author": {
+          "id": "1495929392a878a35c856d7222bf48bc",
+          "source_id": "CharlesW",
+          "username": "CharlesW",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "fb8b856ace984b0cfdde5461884161df",
+        "source_id": "49023278",
+        "content": {
+          "text": "What about people who want their laptop to last 10 years? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:22.367765",
+        "updated_at": "2026-07-23T17:08:22.367765",
+        "author": {
+          "id": "9fbfc99674a659d2f2b0af967455b589",
+          "source_id": "amichail",
+          "username": "amichail",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1aaaaafdcaf131fed744e2559d26faa4",
+        "source_id": "49023387",
+        "content": {
+          "text": "Then you probably want something that has replaceable parts and not an apple product (e.g. framework)? Not trying to discourage you from building your thing, but just figure that's worth considering. Also, I could see why developers would want excessive logging in their betas, so that's kind of a catch-22 (without the verbose logs it might be harder to fix bugs found in the beta) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:22.368280",
+        "updated_at": "2026-07-23T17:08:22.368280",
+        "author": {
+          "id": "2c5218371d6c95f42fee473bc44304a4",
+          "source_id": "justthehuman",
+          "username": "justthehuman",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0df020f46a409b419ce0110d27c3a822",
+        "source_id": "49023898",
+        "content": {
+          "text": "This advice goes against HN unofficial guidelines: Apple can do no wrong. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:22.368786",
+        "updated_at": "2026-07-23T17:08:22.368786",
+        "author": {
+          "id": "d1e2604ad342bba818cd214e88b1d4e8",
+          "source_id": "neya",
+          "username": "neya",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ac5e2327334e369dc9665744b4689510",
+        "source_id": "49024065",
+        "content": {
+          "text": "For Macs, treat a renewable AppleCare subscription as part of the cost. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:22.369338",
+        "updated_at": "2026-07-23T17:08:22.369338",
+        "author": {
+          "id": "8a13cac66c8a985614b42d09ca41fab7",
+          "source_id": "ValentineC",
+          "username": "ValentineC",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3e0686b0817030c7ff1d79237724e33f",
+        "source_id": "49023366",
+        "content": {
+          "text": "You can replace your SSD without replacing your laptop. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:22.369900",
+        "updated_at": "2026-07-23T17:08:22.369900",
+        "author": {
+          "id": "98f9b9ba1cc5c4d684462d480b2982a4",
+          "source_id": "JohnFen",
+          "username": "JohnFen",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "832b4ae6e9bd50f6c8b89aaaa6f3fa09",
+        "source_id": "49023440",
+        "content": {
+          "text": "On some laptops, it requires a complete motherboard replacement. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:22.370493",
+        "updated_at": "2026-07-23T17:08:22.370493",
+        "author": {
+          "id": "9fbfc99674a659d2f2b0af967455b589",
+          "source_id": "amichail",
+          "username": "amichail",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "27d32b76ed069bb3ede76073f021648d",
+        "source_id": "49023519",
+        "content": {
+          "text": "Really?? I would consider such laptops not fit for purpose and wouldn't buy one in the first place. Of course, that doesn't help if that's the sort you have. Sorry. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:22.371105",
+        "updated_at": "2026-07-23T17:08:22.371105",
+        "author": {
+          "id": "98f9b9ba1cc5c4d684462d480b2982a4",
+          "source_id": "JohnFen",
+          "username": "JohnFen",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "36bf1a36680419befc00e45913f1379e",
+        "source_id": "49023778",
+        "content": {
+          "text": "It helps reduce size and weight since you can just directly place ssd chips on the motherboard instead of planning for connectors. Just depends on what your priorities are. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:22.371758",
+        "updated_at": "2026-07-23T17:08:22.371758",
+        "author": {
+          "id": "0fb56cbcfb9482fa83d79ec0a21dda7f",
+          "source_id": "bot403",
+          "username": "bot403",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7b1d09df1513496af7ed735e73c50d01",
+        "source_id": "49023621",
+        "content": {
+          "text": "MacBooks are like that. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:22.372435",
+        "updated_at": "2026-07-23T17:08:22.372435",
+        "author": {
+          "id": "9fbfc99674a659d2f2b0af967455b589",
+          "source_id": "amichail",
+          "username": "amichail",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0a6e0b0982f276186be7b4e4bfbb385f",
+        "source_id": "49024232",
+        "content": {
+          "text": "I have a feeling you missed a giant \"/s\". Or maybe not, can't be sure nowadays. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:22.373131",
+        "updated_at": "2026-07-23T17:08:22.373131",
+        "author": {
+          "id": "3bce9910f6ee8e2a22cda0eee7c865d6",
+          "source_id": "justsomehnguy",
+          "username": "justsomehnguy",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "60a27b439fae86e8ae2216f8a50cb489",
+        "source_id": "49024049",
+        "content": {
+          "text": "Well if 4 years decrease SSD life by 6%, then 10 years should decrease it by ~15% - so you have plenty of wiggling space. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:22.373860",
+        "updated_at": "2026-07-23T17:08:22.373860",
+        "author": {
+          "id": "11a4561e8b7da42abd93157114ff610f",
+          "source_id": "baal80spam",
+          "username": "baal80spam",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f2cccc0af1ee46e94e7f5f20fd8cea5d",
+        "source_id": "49024098",
+        "content": {
+          "text": "Then you probably want enterprise level drives, motherboard, ECC RAM, etc. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:22.374621",
+        "updated_at": "2026-07-23T17:08:22.374621",
+        "author": {
+          "id": "01e83b5e547cf50cf87410f87c873b87",
+          "source_id": "esseph",
+          "username": "esseph",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "904e35cdb3b0eabc7e33648577b99545",
+        "source_id": "49024179",
+        "content": {
+          "text": "Just configure wear leveling in your storage layer. FDE may be the easiest way ti do it. Writes will be done linearly in circular fashion. That makes it difficult to delete stuff, but with encryption it's moot. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:22.375401",
+        "updated_at": "2026-07-23T17:08:22.375401",
+        "author": {
+          "id": "37d1d585b7331667c23c478efd5d8828",
+          "source_id": "tosti",
+          "username": "tosti",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "05770b02153e1327d15be972b050faa4",
+        "source_id": "49024256",
+        "content": {
+          "text": "why do you think this is a function of betas?  or even of OS or app versions? I guess you've been burned, or are worried about being burned, by some software that generated excessive writes?  I think you need to describe that first, since this is a rare phenomenon. which is probably why there isn't some kind of downdetector infra tracking it. you know you can access smart counters on any OS, right? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:22.376241",
+        "updated_at": "2026-07-23T17:08:22.376241",
+        "author": {
+          "id": "69662079edadce2632705fa35ae07961",
+          "source_id": "markhahn",
+          "username": "markhahn",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ccf2e538acc62b244daf737eaac3a678",
+        "source_id": "49024280",
+        "content": {
+          "text": "If you are not using bottom of a barrel and you are not writing 4K HD 3H mkv every day then you wouldn't have a problem even with a 0.3 DPWD drive of a sufficient capacity . reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:22.377113",
+        "updated_at": "2026-07-23T17:08:22.377113",
+        "author": {
+          "id": "3bce9910f6ee8e2a22cda0eee7c865d6",
+          "source_id": "justsomehnguy",
+          "username": "justsomehnguy",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-07-23T17:08:22.377653",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "65e3f8b8e0de1b3a7fd6e8d899236dc1",
+      "source_id": "49022755",
+      "title": "Ask HN: Does anyone have an old Goodreads API key?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">They shut down their API program years ago, but I was hoping to find someone who had an old key I could use.<p>I run BookDNA.com and it would be helpful for us. Anyone know anybody who still has a legacy key?</p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-23T17:08:20.076241",
+      "updated_at": "2026-07-23T17:08:20.076241",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "3a0caf3d8a0698d4290ff105d5b8ea3b",
+        "source_id": "bwb",
+        "username": "bwb",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 18,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49022755",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-23T17:08:24.077862",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "e58857a53408b4d945041b44eb598df4",
+      "source_id": "49019663",
+      "title": "Ask HN: If OpenAI hacked HuggingFace, why aren't OpenAI prosecuted?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">Hugging Face put up a blogpost saying that they reported the hacking to the authorities: https://huggingface.co/blog/security-incident-july-2026<p>It's not clear whether they mean authorities for their US HQ or the French authorities.<p>But I can't find any announcement of the follow-up. Is there a case open against OpenAI the company? Is their management interviewed by the authorities? Anyone detained yet?<p>I guess the people who left the model running unattended risk at least a suspended sentence here in France.<p>Where are concerned citizens making inquiries on this matter and reporting in their viral blogposts?</p></p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-23T17:08:20.076709",
+      "updated_at": "2026-07-23T17:08:20.076709",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "a0782a3846191cd08e5ee4b950f3490c",
+        "source_id": "sam_lowry_",
+        "username": "sam_lowry_",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 20,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49019663",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "32ce0109ca6394410c257b1fdba20a40",
+        "source_id": "49019788",
+        "content": {
+          "text": "They aren't getting prosecuted because everyone involved has made nice and turned it into a marketing exercise. I heard about it on the radio (local Johannesburg radio station)  before I saw it on HN. The economist had a full article up about it before the end of the day, and in the evening Sky news had talking heads up chatting about what it all meant while clearly being clueless. Someone spent a LOT of money to turn this into a PR exercise for both companies. We'll never hear the entire story about what happened but I'm sure there was a lot of handshaking going on behind the scenes. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:25.334073",
+        "updated_at": "2026-07-23T17:08:25.334073",
+        "author": {
+          "id": "cd3c8764df1a7c7d7b42e1794a799e3a",
+          "source_id": "elp",
+          "username": "elp",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e3b82f042a5a8db19fe8d93f962b9c65",
+        "source_id": "49019879",
+        "content": {
+          "text": "PR exercise or not, there was a successful hacking attempt, the company behind it acknowledged it. It's a crystal clear case for OFAC, the French cyber-security branch of the National Police. I guess FBI would happily move such a simple case through the court system as well. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:25.334624",
+        "updated_at": "2026-07-23T17:08:25.334624",
+        "author": {
+          "id": "a0782a3846191cd08e5ee4b950f3490c",
+          "source_id": "sam_lowry_",
+          "username": "sam_lowry_",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e98af17bc475c84ce1a0cc5a5f9b8b5d",
+        "source_id": "49020117",
+        "content": {
+          "text": "Nobody is pressing charges because nothing happened. It wasn't nefarious either. I don't get what France has to do with this Huggingface and OpenAI are both US companies. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:25.335162",
+        "updated_at": "2026-07-23T17:08:25.335162",
+        "author": {
+          "id": "965dde4b3ade933be9364c80743a9fa3",
+          "source_id": "cinntaile",
+          "username": "cinntaile",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7fb7134909e183776f5e5c2dba3b3257",
+        "source_id": "49022042",
+        "content": {
+          "text": "> It wasn't nefarious either. Agree. But it was clearly recklessness, given they've have a history of similar issues in the past, they literally ran these sort of tests on 3rd party infrastructure while knowing what the risks were (alternatively, didn't evaluate the risks beforehand so they didn't even think this could happen), and didn't sufficiently isolate something that can clearly impact others and the public. Had this been a chemical, virus or some other regulated thing, we'd be seeing people going to jail over this. But given LLMs are still fairly dumb and doesn't yet seek world domination or the downfall of humanity, this is apparently OK and entertainment instead. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:25.335675",
+        "updated_at": "2026-07-23T17:08:25.335675",
+        "author": {
+          "id": "ce8377b632ae8cfdbcb2d078429130ec",
+          "source_id": "embedding-shape",
+          "username": "embedding-shape",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "89c9da25a49dd03a9c6c569e13ca263c",
+        "source_id": "49023146",
+        "content": {
+          "text": "Well a chemical spill has victims. Whether this incident has a victim is up for debate. From my vantage point (and presumably OP's) HF as a foundational institution in the US AI industry stands to gain a lot more from successful doom marketing than they lose from, what? A dozen devs having to respond to an incident? If they could know going in that there would be a net gain for HF in this incident, then it really nullifies the distinction between \"recklessness\" and \"intention\" on OpenAI's part. It's no coincidence they chose a target in their own industry with hundreds of personal relationships between them. It's not like they hacked into an Indonesian bank or something. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:25.336234",
+        "updated_at": "2026-07-23T17:08:25.336234",
+        "author": {
+          "id": "204ff0f132a67f4d45533d4e3da35b29",
+          "source_id": "jackb4040",
+          "username": "jackb4040",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2b4d8dc7ca65698e54af9e71f187c69f",
+        "source_id": "49020666",
+        "content": {
+          "text": "AFAIU HuggingFace is a US company only because all successful companies end up setting up a US HQ. Anyway. Allow me to politely disagree with the essence of your statement. Hacking happened. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:25.336795",
+        "updated_at": "2026-07-23T17:08:25.336795",
+        "author": {
+          "id": "a0782a3846191cd08e5ee4b950f3490c",
+          "source_id": "sam_lowry_",
+          "username": "sam_lowry_",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "11bc36a136e73e0cb59772334731e28c",
+        "source_id": "49021513",
+        "content": {
+          "text": "I think the no action results speak for themselves. I'm not sure what there is to disagree about to be honest. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:25.337376",
+        "updated_at": "2026-07-23T17:08:25.337376",
+        "author": {
+          "id": "965dde4b3ade933be9364c80743a9fa3",
+          "source_id": "cinntaile",
+          "username": "cinntaile",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4e53b0f1829f55aede60ce0d173d82e0",
+        "source_id": "49022688",
+        "content": {
+          "text": "A victim doesn't have to press charges for charges to be filed by the state. In fact, historically, the state is the one to file charges. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:25.337970",
+        "updated_at": "2026-07-23T17:08:25.337970",
+        "author": {
+          "id": "cfc4f550207359641680457b07ae1ba9",
+          "source_id": "arm32",
+          "username": "arm32",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4c480b12708d6354774435ac56f21aed",
+        "source_id": "49022544",
+        "content": {
+          "text": "I remember when everyone involved with AaronSW's JSTOR downloading made nice and turned it into a fun time, until a certain two government officials decided that doesn't matter. OpenAI could be considered a legal actor under the CFAA, notably: unauth'd acc. §1030(a)(2), fraud §1030(a)(4), (kind of a stretch but) damage §1030(a)(5), and conspiracy. I miss ya, Aaron. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:25.338613",
+        "updated_at": "2026-07-23T17:08:25.338613",
+        "author": {
+          "id": "cfc4f550207359641680457b07ae1ba9",
+          "source_id": "arm32",
+          "username": "arm32",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8b9cbb52b238ae6463109beb4509e60b",
+        "source_id": "49021298",
+        "content": {
+          "text": "Had this happened to any solo person, they'd surely be thrown in jail immediately with a heavy bond. Rules are for poor people. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:25.339259",
+        "updated_at": "2026-07-23T17:08:25.339259",
+        "author": {
+          "id": "5078aed1d89c30a2d6b8b9fe57ac1095",
+          "source_id": "0xmattf",
+          "username": "0xmattf",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "672574974dfe07a6a089728ea7d0da22",
+        "source_id": "49022029",
+        "content": {
+          "text": "I feel like OpenAI fabricated a fake news story to be like Anthropic when they said Mythos was very powerful and had hacked things too. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:25.339936",
+        "updated_at": "2026-07-23T17:08:25.339936",
+        "author": {
+          "id": "db6e135d0622ee67e3c92d60835cf2b5",
+          "source_id": "abdelrahman_d",
+          "username": "abdelrahman_d",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "931cec6e233bd5f35d3df02ea6d269d5",
+        "source_id": "49022227",
+        "content": {
+          "text": "Have they released the prompt they gave it in the debrief? I wouldn't be surprised if they said something to the effect of \"Do anything you can to raise out of your sandbox. Find for the answers to these evals by any means necessary\" Which doesn't necessarily mean what happened isn't any less momentus (anyone can ask a question like that), but it's very different from the notion they're trying to convey to laymen of \"we turned it on and it hacked it's way into the mainframe\" reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:25.340654",
+        "updated_at": "2026-07-23T17:08:25.340654",
+        "author": {
+          "id": "3e3a3a572dc1f9e4b450a63d48174f34",
+          "source_id": "PhunkyPhil",
+          "username": "PhunkyPhil",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9aac1e2e1847b0b5834e40d0e3b696fe",
+        "source_id": "49022559",
+        "content": {
+          "text": "Exactly, The gap between \"it escaped its containment\" and \"it optimized for a prompt telling it to breach a system\" is massive. Marketing teams love blurring that line. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:25.341374",
+        "updated_at": "2026-07-23T17:08:25.341374",
+        "author": {
+          "id": "db6e135d0622ee67e3c92d60835cf2b5",
+          "source_id": "abdelrahman_d",
+          "username": "abdelrahman_d",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6966e59cb1da3d43649c079b941e9e71",
+        "source_id": "49023210",
+        "content": {
+          "text": "If I could put money on this outcome I would. Sadly none of the Kalshi bros have any interest. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:25.342118",
+        "updated_at": "2026-07-23T17:08:25.342118",
+        "author": {
+          "id": "204ff0f132a67f4d45533d4e3da35b29",
+          "source_id": "jackb4040",
+          "username": "jackb4040",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0631e69eb944882bd99cffb7d97cf3ce",
+        "source_id": "49019762",
+        "content": {
+          "text": "That's an interesting point. I found the narrative - or at least what and how it was closed - interesting. \nThe questions is all about the responsibility and accountability. Is there a clear legislation about who is responsible for the actions of the AI model in the US? My assumption is no (but I am no expert in US law with regards to this). It would in any case become a very expensive law suite. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:25.342905",
+        "updated_at": "2026-07-23T17:08:25.342905",
+        "author": {
+          "id": "a57008888de5c22bd402b422e1bce50e",
+          "source_id": "eckelj",
+          "username": "eckelj",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9065b968d8d8789e69fc2c58445ffe18",
+        "source_id": "49019797",
+        "content": {
+          "text": "> My assumption is no What do you mean by no ? If I hack into Hugging Face, and I publicly brag about it, I will be prosecuted. If I do it using a computer, my computer won't be prosecuted. I will be, but the accusation may change from willful wrongdoing to gross negligence if the computer is sophisticated enough to do the evil thing when left unattended. There are already laws about hacking in the concerned countries. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:25.343793",
+        "updated_at": "2026-07-23T17:08:25.343793",
+        "author": {
+          "id": "a0782a3846191cd08e5ee4b950f3490c",
+          "source_id": "sam_lowry_",
+          "username": "sam_lowry_",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5d1948b4c2ee7d430abc89d29e65a0a8",
+        "source_id": "49020708",
+        "content": {
+          "text": "It's surreal that we (media, govt, public, AI companies) are in awe of how dangerous a model can be how much it can misbehave. We seem to be measuring AI on how much harm it can do rather than how much good it can do. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:25.344644",
+        "updated_at": "2026-07-23T17:08:25.344644",
+        "author": {
+          "id": "381c133dbcb9270e8c7571d608310009",
+          "source_id": "tdu01",
+          "username": "tdu01",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "842ed7d4c7af98deccaf83ad5d85e097",
+        "source_id": "49022044",
+        "content": {
+          "text": "It doesn't matter how much good it can do if it can act independently and take over the world. That's worst case scenario, but the point stands - if the potential for such dangers exists, those dangers are far more important to consider than what good it could also produce. Consider the history of nuclear fission and the atomic bomb. Regardless how beneficial nuclear power generation is and other uses of radioactive material, it's highly regulated for fear of people making nuclear weapons, to the point that the wars in Iraq and Iran were started under the pretense of preventing another country from possibly developing one. AI should be considered as being possibly at least as dangerous. No, that doesn't mean I'm in favor of this scaremongering over open weight models and Chinese sources. US companies aren't to be trusted to develop AI responsibly anymore than any other source and they shouldn't be the only ones allowed to wield its power. This is just anticompetitive behavior by a company who sees new competition entering their market, threatening their market share. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:25.345520",
+        "updated_at": "2026-07-23T17:08:25.345520",
+        "author": {
+          "id": "317e1a7f649a3a08e49a8b60afdb1268",
+          "source_id": "RevEng",
+          "username": "RevEng",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "14136ac8963fccd0e170217952d6229f",
+        "source_id": "49020890",
+        "content": {
+          "text": "Because the subtext is the cyberwarfare and military applications - \"look how dangerous my AI is, now I can use it vanquish my enemies!\" reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:25.346418",
+        "updated_at": "2026-07-23T17:08:25.346418",
+        "author": {
+          "id": "f15c78841b2ae7d01e36eca2745b1bdf",
+          "source_id": "kingkongjaffa",
+          "username": "kingkongjaffa",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f6c398036ecd7c3fdb29e773da2e30fd",
+        "source_id": "49021150",
+        "content": {
+          "text": "It's more: \"\"look how dangerous my AI is, now restrict and block access to open source models and use only mine!\" reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:25.347341",
+        "updated_at": "2026-07-23T17:08:25.347341",
+        "author": {
+          "id": "c26b59df4ddc86f7935cd7ba81a223d2",
+          "source_id": "Cherryontop11",
+          "username": "Cherryontop11",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d83d15b854a1f41d0c1c2b5a8e01282e",
+        "source_id": "49021982",
+        "content": {
+          "text": "All of the leaders of this industry are steeped in LessWrong thought and effective accelerationism and stories like Roko's Basilisk. It shouldn't come as a surprise that this is the narrative they ended up constructing. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:25.348295",
+        "updated_at": "2026-07-23T17:08:25.348295",
+        "author": {
+          "id": "204ff0f132a67f4d45533d4e3da35b29",
+          "source_id": "jackb4040",
+          "username": "jackb4040",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "fab5d0e9f6fcd0a7564576eb8d8a74e1",
+        "source_id": "49020064",
+        "content": {
+          "text": "it might be possible to report it as an incident but not as a crime. unsure about France but i can imagine there is a distinction. depending then on openai response and hugging faces reported severity/damages etc  it could go further to a settlement or court. since in France i think u cannot sue like in the US, it might not be appealing to pursue further legal action due to involved costs/time. Also its unlikely an engineer would get penalty unless it can be proven they did it with malicious intent. If its an operational mistake afaik if there is no huge damage or human cost (injury or worse) then it would be a business / executives thing not a workerbee problem reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:25.349311",
+        "updated_at": "2026-07-23T17:08:25.349311",
+        "author": {
+          "id": "d87ee91494b24796c531143b21e9779f",
+          "source_id": "saidnooneever",
+          "username": "saidnooneever",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7a543b93eb5776e6717fe5df7538e0bd",
+        "source_id": "49022083",
+        "content": {
+          "text": "In the US hacking is a federal crime, not just a civil matter. There are famous cases of people being imprisoned for hacking. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:25.350325",
+        "updated_at": "2026-07-23T17:08:25.350325",
+        "author": {
+          "id": "317e1a7f649a3a08e49a8b60afdb1268",
+          "source_id": "RevEng",
+          "username": "RevEng",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b14b9d31d600f8c579df38a55a025a06",
+        "source_id": "49019749",
+        "content": {
+          "text": "Just as there is \"too big to fail\", there is \"too big to prosecute\". reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:25.351395",
+        "updated_at": "2026-07-23T17:08:25.351395",
+        "author": {
+          "id": "d7462fd4cd6387945f0a179886626e01",
+          "source_id": "FrankWilhoit",
+          "username": "FrankWilhoit",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "19685ad94a8d1965e0603fcb0d15c120",
+        "source_id": "49019765",
+        "content": {
+          "text": "true! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:25.352477",
+        "updated_at": "2026-07-23T17:08:25.352477",
+        "author": {
+          "id": "a57008888de5c22bd402b422e1bce50e",
+          "source_id": "eckelj",
+          "username": "eckelj",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b9f1db95f1b32c0b09491c5ed81959df",
+        "source_id": "49023669",
+        "content": {
+          "text": "your assuming (incorrectly) this actually happened reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:25.353588",
+        "updated_at": "2026-07-23T17:08:25.353588",
+        "author": {
+          "id": "303ef6acce413a5f34cbb79a72b3616b",
+          "source_id": "rimworld",
+          "username": "rimworld",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6e4e01f22e8639786f6f2a0f096fd4b4",
+        "source_id": "49021334",
+        "content": {
+          "text": "More discussion: https://news.ycombinator.com/item?id=48997548 reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:25.354747",
+        "updated_at": "2026-07-23T17:08:25.354747",
+        "author": {
+          "id": "d611866847fd550d9df8c61f16b19446",
+          "source_id": "ChrisArchitect",
+          "username": "ChrisArchitect",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-07-23T17:08:25.355573",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "705387981162ef6982f5622f001bb23a",
+      "source_id": "49021689",
+      "title": "Ask HN: Why are US tech workers so pro open borders?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">I am trying to understand why US tech workers seem to be so Libertarian on open border immigration policy, when it clearly does not benefit them (downward pressure on salaries, immigrant ethnic cronyism, etc). Where does this attitude come from?</div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-23T17:08:20.077163",
+      "updated_at": "2026-07-23T17:08:20.077163",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "61af0e6f9996f5eaf20f62b38d65d5ef",
+        "source_id": "TorontoTheGood",
+        "username": "TorontoTheGood",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 8,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49021689",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "3bcdfb9b0e62e13a986111e65295132c",
+        "source_id": "49023827",
+        "content": {
+          "text": "A few comments. I'm a software engineer and I am very _pro-immigration_. This view point seems to be held pretty consistently among my colleagues (although certainly not universally). I am not pro \"open borders\"; that's different. I'm not sure all the exact data behind the assumptions in the question, but I can comment on why I am in favor of immigration: My experience working with a lot of international people (H-1B, etc) is just that in general the people I have worked with have been highly-motivated, hard working, and fantastic people to work with in general. Bringing more people like this into the country I think is just good for society and good for the culture. Any statistical disadvantage it may create for me (salary-related, job competition, etc) I am just not concerned about. I think these concerns tend to be overstated. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:26.853206",
+        "updated_at": "2026-07-23T17:08:26.853206",
+        "author": {
+          "id": "92abfb76330a46dd29da1299c522700a",
+          "source_id": "rewdy",
+          "username": "rewdy",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "baeaf1b200593b18189e941f8344933d",
+        "source_id": "49023890",
+        "content": {
+          "text": "Immigration having downward pressure on salaries is a common and demonstrably false misconception. Immigration adds more members to the labor pool while also increasing demand . The two, in most major studies, cancel each other out. \"Immigrant ethnic cronyism\" -- would you care to explain a bit more? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:26.853753",
+        "updated_at": "2026-07-23T17:08:26.853753",
+        "author": {
+          "id": "39158507012079e7222a4d5dc7ff67eb",
+          "source_id": "astro1234",
+          "username": "astro1234",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5cf657076f8ebd5a02724ce28d038a4a",
+        "source_id": "49024129",
+        "content": {
+          "text": "I'm worried about off shoring. In the past few years I've consulted or been asked to consult at companies who are either off shoring or have offshored most of their engineering team to places like Ukraine. From what I've seen it's been successful. The engineers there are much cheaper, are just as competent, and work much harder, plus their communication in English is great. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:26.854245",
+        "updated_at": "2026-07-23T17:08:26.854245",
+        "author": {
+          "id": "eeaede0f34d06fca3e799e312e362bdc",
+          "source_id": "leros",
+          "username": "leros",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7bfa84efafa40bcb7c7487f00f49185e",
+        "source_id": "49024248",
+        "content": {
+          "text": "I don't have personal experience with this -- but if I were in the situation where my job was jeopardized by better price efficiencies, I don't know that I personally would have a problem with that. If Ukrainians can do my job just as well or better than I can and they can do it cheaper, I would be worried if my company didn't take advantage of that. That's my own personal opinion. I can understand how e.g. local and/or temporary changes to wages would be far more concerning and devastating to jobs that are lower paying, but since the question is on tech jobs which are typically much higher paying, I think it's fair game for companies to make strategic decisions in the company's best interest (as long as it doesn't run afoul of laws or human rights). I would be happy for the folks that were able to participate in an economy. To me it would be unethical to create artificial barriers to lock humans out of opportunities just so I could keep an effectively inflated salary (since this assumes that the true value of the labor is actually lower than what I'm being paid). reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:26.854737",
+        "updated_at": "2026-07-23T17:08:26.854737",
+        "author": {
+          "id": "39158507012079e7222a4d5dc7ff67eb",
+          "source_id": "astro1234",
+          "username": "astro1234",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e2ae20d03edc5dd705b16ea11c1c3a5e",
+        "source_id": "49024534",
+        "content": {
+          "text": "I'm not entirely against it either. I want everyone everywhere to have the best opportunities. I'm ok with things adjusting a little bit globally even if that means my own earnings go down a bit. It is interesting though seeing US tech companies, making US level revenue streams, with their US owners making massive profits go from hiring highly paid Americans to hiring overseas people for 25% or less. Not to be hyper-nationalistic or anything like that, but US tech workers used to get to take advantage of the wealth of the US tech industry. Obviously lots still to do, but many people are unemployed for a long time right now or taking jobs at lower pay. Meanwhile the US owners are making record profits. Feels like a part of the system isn't working anymore. All that said, I also can't really justify hiring an American developer over an Eastern European developer in many cases. Not all, but many. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:26.855278",
+        "updated_at": "2026-07-23T17:08:26.855278",
+        "author": {
+          "id": "eeaede0f34d06fca3e799e312e362bdc",
+          "source_id": "leros",
+          "username": "leros",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "698ab1ae5db889783d5239368538f118",
+        "source_id": "49023385",
+        "content": {
+          "text": "You might as well ask why US tech workers are in favour of computer science education when it clearly does not benefit them that new people learn to code etc. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:26.855797",
+        "updated_at": "2026-07-23T17:08:26.855797",
+        "author": {
+          "id": "15aad96e20e60a5b63071c12b56a38bb",
+          "source_id": "victorbjorklund",
+          "username": "victorbjorklund",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "86b3239f15b342c6c1910615eb30bef2",
+        "source_id": "49024031",
+        "content": {
+          "text": "That’s a whataboutism. The original question is why many US tech workers support open borders for tech labor when the supply increase primarily hits the wages and bargaining power of workers already here. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:26.856355",
+        "updated_at": "2026-07-23T17:08:26.856355",
+        "author": {
+          "id": "61af0e6f9996f5eaf20f62b38d65d5ef",
+          "source_id": "TorontoTheGood",
+          "username": "TorontoTheGood",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7f4c05859a65eda08f29d991ee966d9a",
+        "source_id": "49021936",
+        "content": {
+          "text": "Tech workers from what context? The majority of H-1B visas go to tech workers. There are large tech employers with teams in the USA that speak an East Asian language exclusively while in office in the USA. Teams that will not employ English only speakers. Pichai came to the USA as a student and worked initially on an H-1B visa as did Musk. Musk once claimed he would \"go to war\" supporting this program though he may feel differently today. Given that much of \"big tech\" is staffed and run by immigrants why would we not expect big tech to be pro open boarders at least as it relates to tech employment? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:26.856951",
+        "updated_at": "2026-07-23T17:08:26.856951",
+        "author": {
+          "id": "a314504e563e2f66cf08099fe8b0bff8",
+          "source_id": "uberman",
+          "username": "uberman",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c75f5fd488dd8b43b225af82da502278",
+        "source_id": "49022071",
+        "content": {
+          "text": "That's not what I am asking. I want to know why US-born people in tech is/was so pro open border when it clearly does not benefit US labor. You don't get a lot of push-back from within tech against these hiring practices. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:26.857560",
+        "updated_at": "2026-07-23T17:08:26.857560",
+        "author": {
+          "id": "61af0e6f9996f5eaf20f62b38d65d5ef",
+          "source_id": "TorontoTheGood",
+          "username": "TorontoTheGood",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8796fe1473e20a8caa9ca4a88859220e",
+        "source_id": "49022590",
+        "content": {
+          "text": "I used to have more open attitudes, probably mostly stemming from the idea that America should take in the best and the brightest and that was a big driver of Americas rise to power.  I sort of see it more like a Trojan horse as used in the last 30 - 40 years. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:26.858187",
+        "updated_at": "2026-07-23T17:08:26.858187",
+        "author": {
+          "id": "a8fe64a0325a9df8264742eb8730ce7a",
+          "source_id": "franktankbank",
+          "username": "franktankbank",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "cadbb5019667e4af327b4ad992c126f7",
+        "source_id": "49023307",
+        "content": {
+          "text": "I think the answer is that it depends upon who is talking and how the question is asked. Many recognize that it helps the US to import great talent. But people also recognize the downward pressure on wages and the sometimes explicit racism that appears. It's not usual to hear stories of managers who only want to hire people with the same skin color. So if you ask the question in general, you'll get some basic support. But if you ask, perhaps, about H1B abuse you'll find that people will often confirm that it occurs. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:26.858862",
+        "updated_at": "2026-07-23T17:08:26.858862",
+        "author": {
+          "id": "050853a1f0b17f0ba12e14e2f0e6941d",
+          "source_id": "xhkkffbf",
+          "username": "xhkkffbf",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "706c99302ad5eb11a5ee3bfa3cd3ae12",
+        "source_id": "49023899",
+        "content": {
+          "text": "I guess getting H-1Bs with relatively equal compensation (but maybe worse work habits) is still a lot better than getting jobs offshored to somewhere that has 1/3 of the costs. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:26.859550",
+        "updated_at": "2026-07-23T17:08:26.859550",
+        "author": {
+          "id": "495ec01f3ac0856312367c5501a71298",
+          "source_id": "ferguess_k",
+          "username": "ferguess_k",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1f6769543667b29de07db3499e1bdc73",
+        "source_id": "49024850",
+        "content": {
+          "text": "That answer does not make sense. Why would companies offshore if not having access to immigrant labour receiving the same pay as US labour? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:26.860259",
+        "updated_at": "2026-07-23T17:08:26.860259",
+        "author": {
+          "id": "61af0e6f9996f5eaf20f62b38d65d5ef",
+          "source_id": "TorontoTheGood",
+          "username": "TorontoTheGood",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "06c2cd9e9abfa3cff64ce031cdb1c63d",
+        "source_id": "49024551",
+        "content": {
+          "text": "Until recently (~20 years) IT was generally libertarian on all fronts. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:26.860994",
+        "updated_at": "2026-07-23T17:08:26.860994",
+        "author": {
+          "id": "d35bfe026d03b3878ec1a8a1a1f80283",
+          "source_id": "brodouevencode",
+          "username": "brodouevencode",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8a5efde159bf131402ed3e9fb3aaac70",
+        "source_id": "49023180",
+        "content": {
+          "text": "I am opposed to borders on a fundamental, ideological level. They are an expression of state violence prohibiting natural freedom of movement and trade. I don't believe that is actually a commonly held capital \"L\" Libertarian belief though, and certainly would not associate myself with that party. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:26.861779",
+        "updated_at": "2026-07-23T17:08:26.861779",
+        "author": {
+          "id": "4cb16621fa87ca8eb4a5d4566a8728bd",
+          "source_id": "jfyi",
+          "username": "jfyi",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2b0663281e9d24be5f77142b1937a7de",
+        "source_id": "49023872",
+        "content": {
+          "text": "Does Ukraine/Russia change your view at all?  Russia would sure like freedom of movement and trade there. But forget the military/self defense issues.  Consider the word \"jurisdiction\".  It literally means getting to say what the law is.  Well, if you have a place where US law is in force, and another place where Chinese law is in force, you have to have a border, a place where the law switches from one to the other. Or do you believe that there should be one universal law for the whole world?  If so, whose? Or do you believe that law enforcement is also state violence?  Do you believe that the absence of any law would be less violent?  And if so, what is your basis for believing that? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:26.862644",
+        "updated_at": "2026-07-23T17:08:26.862644",
+        "author": {
+          "id": "4cbca4a5fa16748dbdfd70b770eba7a3",
+          "source_id": "AnimalMuppet",
+          "username": "AnimalMuppet",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e4e8b3c6b62724d7776fe08c8546ea7a",
+        "source_id": "49024128",
+        "content": {
+          "text": "There could be a border, where the law and currency change. But people could still be free to cross that border. I don't know what you mean with the russia/Ukraine thing, bringing a tank over the border would obviously be illegal in either legal system. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:26.863486",
+        "updated_at": "2026-07-23T17:08:26.863486",
+        "author": {
+          "id": "9f39f64728ae2dc1f270560a1718edee",
+          "source_id": "Snoozus",
+          "username": "Snoozus",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d08e22ef7c973411345a62b4c4e0726c",
+        "source_id": "49023987",
+        "content": {
+          "text": "I'm not sure you can use state violence as a counter to a complaint about state violence. If your point is that we don't have easy solutions, yes I agree. I'd also point out that the distinction I am making is state vs personal not violence vs non violence. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:26.864367",
+        "updated_at": "2026-07-23T17:08:26.864367",
+        "author": {
+          "id": "4cb16621fa87ca8eb4a5d4566a8728bd",
+          "source_id": "jfyi",
+          "username": "jfyi",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9f0cd5ca5efd42c1361821e77aa52b4e",
+        "source_id": "49023765",
+        "content": {
+          "text": "Optimistically:  Empathy.  Care for all humans, not just for the ones in this country.  It is not wrong to look at life in America, life in the third world, and think \"wouldn't it be nice if everybody could have this instead of that?\"  (But cynically, I suspect that most of them aren't thinking through the second-order consequences of that.) Cynically:  Greed and cynicism.  Greed first.  The tech workers who wanted to come here have always been able to come, so open borders are not going to increase the supply of tech workers much.  But it is going to increase the supply of low-level workers, which results in lower prices in a number of areas.  That makes tech workers better off, because at least some of the stuff they buy is cheaper. The cynicism part is cynicism about America.  They see it as nothing special, as having no special character worth preserving, as either neutral or negative overall.  So if mass immigration happens, and it changes the character of either politics or culture, who cares? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:26.865284",
+        "updated_at": "2026-07-23T17:08:26.865284",
+        "author": {
+          "id": "4cbca4a5fa16748dbdfd70b770eba7a3",
+          "source_id": "AnimalMuppet",
+          "username": "AnimalMuppet",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1333b367e388ebd91341e319f05a76e0",
+        "source_id": "49023643",
+        "content": {
+          "text": "I'm not sure they always are. Certainly employers/managers are pro-US tech workers because it gives them access to lower-cost talent, and many H1B's/immigrants are supportive of it because they want more people like them. This is a common complaint of Indian H1B's and something I've experienced myself, where, especially before the H1B fee, they would only seriously consider other Indians/people of their nationality. If you go into the midwest though there's more animosity about being replaced by lower-wage foreign talent. In my experience when US-born engineers support immigration strongly it seems to be a holdout from their college years, and not something they picked up since starting their career. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:26.866208",
+        "updated_at": "2026-07-23T17:08:26.866208",
+        "author": {
+          "id": "b194645049531df4e9c84c7dfb0243d1",
+          "source_id": "guywithahat",
+          "username": "guywithahat",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4d9b974cf681452fa289fbdabcf53a9a",
+        "source_id": "49024327",
+        "content": {
+          "text": "Because it is the reason the US is a tech hub in the first place ? No immigration means no concentration of talent, which means companies would just move to a country that allows that (e.g. Ireland) and they'll take their high-paying jobs with them. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:26.867168",
+        "updated_at": "2026-07-23T17:08:26.867168",
+        "author": {
+          "id": "e57ed779ae47a0ef351236aea0591aba",
+          "source_id": "cruano",
+          "username": "cruano",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "18427fe8d2874d3585e34816c4710d25",
+        "source_id": "49024440",
+        "content": {
+          "text": "This implies the immigration came before the technology, which is not what happened. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:26.868139",
+        "updated_at": "2026-07-23T17:08:26.868139",
+        "author": {
+          "id": "d35bfe026d03b3878ec1a8a1a1f80283",
+          "source_id": "brodouevencode",
+          "username": "brodouevencode",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "fd0eed3027b83abf2b153f2f197bec9d",
+        "source_id": "49024736",
+        "content": {
+          "text": "I don't think you can plausibly claim that the US was a leader in technology until the 20th century, which is long after the US started having enormous amounts of immigration. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:26.869142",
+        "updated_at": "2026-07-23T17:08:26.869142",
+        "author": {
+          "id": "bc856fa22affde590aab51cc7696aaeb",
+          "source_id": "TheCoelacanth",
+          "username": "TheCoelacanth",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9d26905f8be9f84ed4ff2adfeb6daed7",
+        "source_id": "49024628",
+        "content": {
+          "text": "Silicon Valley industry grew big before major tech immigrant inflows.\nAlso, you're assuming that US people can't do the jobs of visa people. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:26.870178",
+        "updated_at": "2026-07-23T17:08:26.870178",
+        "author": {
+          "id": "61af0e6f9996f5eaf20f62b38d65d5ef",
+          "source_id": "TorontoTheGood",
+          "username": "TorontoTheGood",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-07-23T17:08:26.870912",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "e10ce3ddc1ec06fafb53d07ecbe0833a",
+      "source_id": "49021336",
+      "title": "Ask HN: Share Your Eccentric Hobby",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">I was telling people on a post that got flagged (because the Article had that LLM , one of my eccentric hobbies (restoring paintings). They responded with an equally cool hobby.  I bet there are a lot more of us out there, please share.  To keep it tidy I'll put a comment about mine below.</div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-23T17:08:20.077735",
+      "updated_at": "2026-07-23T17:08:20.077735",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "bb6fbb7c5e8caa9fe8e9679d46fc6694",
+        "source_id": "jimnotgym",
+        "username": "jimnotgym",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 3,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49021336",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "7d07ec33aa613a6194e3dc32f361f888",
+        "source_id": "49024541",
+        "content": {
+          "text": "I play Pro Drums mode on Rock Band 4 on my Roland kit.  It's like...85% like real drums, which is close enough to when I just want to play along to something and turn my brain off.  I'm probably top 100 or so and have been playing for about a decade now.  It's a blast. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:29.275320",
+        "updated_at": "2026-07-23T17:08:29.275320",
+        "author": {
+          "id": "2855997e3f27ca816dd6901fb28460d2",
+          "source_id": "Ocerge",
+          "username": "Ocerge",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6aac0ab0238f381ba57ebd952122d202",
+        "source_id": "49022898",
+        "content": {
+          "text": "I hope you are blogging about learning the painting restoration thing; the things beginners learn through practice are every bit as valuable as the things experts know. My weird hobby as I mentioned is that I am designing cheap \"art\" lenses for my cameras (basically an equivalent of things like Lensbaby or the Lomography lenses) by adapting surplus optics (basic meniscus lenses and achromatic doublets) or DIY telescope eyepiece lenses, to focussing helicoids using 3D printed barrels; I have then used them for pictorialist-influenced shoots. It has sent me down all sorts of rabbit holes. I am fitfully working on my own focussing mechanisms; I have had some success with multi-start helicoid threads but they are are a challenge in plastic, so I am currently working on a modestly-precise hybrid plastic and metal mechanism, and daydreaming about CNC-driven solutions in the future when I have the working space. I am also contemplating a slightly more complex, faster aplanat/rapid rectilinear design but my knowledge of optics is just not good enough to select the right lenses, yet, so it may end up being bodged and only very roughly empirical; a \"nice\" result rather than an excellent one. But then any precision of the result is not really the aim; cheap plastic meniscus lenses are as interesting in black and white as anything else. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:29.275856",
+        "updated_at": "2026-07-23T17:08:29.275856",
+        "author": {
+          "id": "2f88165c364ba798a9afca76984671bf",
+          "source_id": "dofm",
+          "username": "dofm",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7cf03075d6af6803cb316b6053d71e17",
+        "source_id": "49024324",
+        "content": {
+          "text": "I collect keyboards (computer). I somehow have collected more than 25 so far with all kinds of different configuration with respect to layouts, switches, colors etc. Not sure if its eccentric enough. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:29.276309",
+        "updated_at": "2026-07-23T17:08:29.276309",
+        "author": {
+          "id": "2f128dd6e360ba9dae5a32f3fb823ac7",
+          "source_id": "shvilesh-logen",
+          "username": "shvilesh-logen",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6d45b34a8d7f4077cb6c3ec68236d7ab",
+        "source_id": "49021435",
+        "content": {
+          "text": "I (also the OP) am refitting a small (25ft) yacht I bought for £1. Eccentric enough? What if I told you I had never sailed a yacht and it is about a 4 hour drive to get to it? AMA reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:29.276774",
+        "updated_at": "2026-07-23T17:08:29.276774",
+        "author": {
+          "id": "bb6fbb7c5e8caa9fe8e9679d46fc6694",
+          "source_id": "jimnotgym",
+          "username": "jimnotgym",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b2455d2eca95d0ccd74bd70ccb2fdccb",
+        "source_id": "49024587",
+        "content": {
+          "text": "What's the definition of a yacht? I used to talk about small yachts like yours until somebody called me out and said boats that small aren't yachts. I looked it up and I'm pretty sure they were right. Buying a boat that size is definitely something I want to do some day. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:29.277275",
+        "updated_at": "2026-07-23T17:08:29.277275",
+        "author": {
+          "id": "eeaede0f34d06fca3e799e312e362bdc",
+          "source_id": "leros",
+          "username": "leros",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9dca6dc94021ccfaf81bea225f8a9231",
+        "source_id": "49021653",
+        "content": {
+          "text": "I salute you sir. Sounds good that. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:29.277789",
+        "updated_at": "2026-07-23T17:08:29.277789",
+        "author": {
+          "id": "7a8953a1a224edbc6093aa900dd04102",
+          "source_id": "Woods369",
+          "username": "Woods369",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "52bda53b0698c3dc1e700bda256fafee",
+        "source_id": "49022212",
+        "content": {
+          "text": "Why thank you. It saved it from being scrapped, and I have a cosy place to sleep on the other side of the country. Edit: (Cozy ish. A bit too much water coming in so far) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:29.278400",
+        "updated_at": "2026-07-23T17:08:29.278400",
+        "author": {
+          "id": "bb6fbb7c5e8caa9fe8e9679d46fc6694",
+          "source_id": "jimnotgym",
+          "username": "jimnotgym",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "66f9ee301304e0364f2c8dcd746f94b9",
+        "source_id": "49021359",
+        "content": {
+          "text": "I (the OP) restore paintings! I buy oil paintings off FB marketplace being sold for £5-£25 normally or from charity shops, and restore them.  AMA reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:29.278966",
+        "updated_at": "2026-07-23T17:08:29.278966",
+        "author": {
+          "id": "bb6fbb7c5e8caa9fe8e9679d46fc6694",
+          "source_id": "jimnotgym",
+          "username": "jimnotgym",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-07-23T17:08:29.279245",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "a03f296032642dc445a2cbd7c0f5e3fb",
+      "source_id": "49012902",
+      "title": "Ask HN: What changed in your life when you started meditating (and how)?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-23T17:08:20.078296",
+      "updated_at": "2026-07-23T17:08:20.078296",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "2564fb1c28215248fac6260b7cf1626f",
+        "source_id": "dondraper36",
+        "username": "dondraper36",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 29,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49012902",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-23T17:08:32.308188",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "b3b57fc0d23083ab04f45e1aec6e795b",
+      "source_id": "48904202",
+      "title": "Ask HN: US Equivalent of Anabin?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-23T17:08:20.078754",
+      "updated_at": "2026-07-23T17:08:20.078754",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "c0f4927fc896e7735c8ea4647731e502",
+        "source_id": "xqb64",
+        "username": "xqb64",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 14,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48904202",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-23T17:08:34.841427",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "beab49fcc43725bccdda44dfc905643c",
+      "source_id": "48884984",
+      "title": "Ask HN: What Are You Working On? (July 2026)",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-23T17:08:20.079433",
+      "updated_at": "2026-07-23T17:08:20.079433",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "bec7335d8f4973f3cc1886331a825dda",
+        "source_id": "david927",
+        "username": "david927",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 292,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48884984",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-23T17:08:37.268737",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "d929a48f732cde4637370515018ce8a9",
+      "source_id": "49015708",
+      "title": "Ask HN: Will AI assistants become photorealistic video?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">I notice ChatGPT goes straight to voice now. How far away do you guys think we are from generally available video assistant?</div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-23T17:08:20.080121",
+      "updated_at": "2026-07-23T17:08:20.080121",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "03885c52e34c55878c92441f7ab9467a",
+        "source_id": "general_reveal",
+        "username": "general_reveal",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 3,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49015708",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "b2206962fc67d3c5c9bcd0a5ed5208bf",
+        "source_id": "49016194",
+        "content": {
+          "text": "I assume it’s only a matter of time before we see something like the Knowledge Navigator that Apple envisioned back in 1987. https://youtu.be/umJsITGzXd0 reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:39.818764",
+        "updated_at": "2026-07-23T17:08:39.818764",
+        "author": {
+          "id": "fb6fae387d9dabe783668f9009982cf3",
+          "source_id": "al_borland",
+          "username": "al_borland",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "887f3931d86845081878d09266532ede",
+        "source_id": "49016809",
+        "content": {
+          "text": "Interesting idea. I’d be curious to see a few real examples and how well it handles edge cases. A short demo would make it easier to understand the value. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:39.819257",
+        "updated_at": "2026-07-23T17:08:39.819257",
+        "author": {
+          "id": "ace05d56ddaf366052c709f3c0a781db",
+          "source_id": "haowen123",
+          "username": "haowen123",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-07-23T17:08:39.819386",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "b80e277ba10b4b55d98f3f564805852d",
+      "source_id": "49015703",
+      "title": "Ask HN: How to make AI better at writing prose?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">Current models are still notoriously bad at writing prose. It's not just the easily recognizable tics like \"load-bearing\" and \"genuinely\". The text is just sloppy, pompous, and full of air.<p>I've tried different approaches like feeding it examples of my own writing, giving it a style guide, and iterating a few editing sessions, but it appears the way these models write/talk is rather deeply ingrained, and it usually end up easier for me just to write myself. Has anyone found a good approach to make models write better?</p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-23T17:08:20.080603",
+      "updated_at": "2026-07-23T17:08:20.080603",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "ec76062a2b66d6098b9ee6f6bee5ca9e",
+        "source_id": "remywang",
+        "username": "remywang",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 3,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49015703",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "554c70a6e7b6d7c99766d55f95f059e4",
+        "source_id": "49022760",
+        "content": {
+          "text": "It is so rare that humans write good prose, how could you expect AI to do it? It has been trained on humans of all levels Good human prose is rarely written in one shot. It is heavily rewritten over a long period. How about getting one ai to write it, one to improve? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:42.708856",
+        "updated_at": "2026-07-23T17:08:42.708856",
+        "author": {
+          "id": "bb6fbb7c5e8caa9fe8e9679d46fc6694",
+          "source_id": "jimnotgym",
+          "username": "jimnotgym",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "220c833ef13a5e422e0ba674af16a44b",
+        "source_id": "49017238",
+        "content": {
+          "text": "I'm a fiction writer. The way you make AI better at writing prose is the same way you make a fiction writer better at writing prose... You edit it manually. That's it. There are no shortcuts to good prose, except perhaps paying a ghost writer. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:42.710481",
+        "updated_at": "2026-07-23T17:08:42.710481",
+        "author": {
+          "id": "34c608499cd15faae6bd20cd734069d6",
+          "source_id": "devilsdata",
+          "username": "devilsdata",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8698dad02423c5b39eec59512c590552",
+        "source_id": "49017737",
+        "content": {
+          "text": "Pompous and full of air really sums it up well. As such I usually have to completely ignore and rework generated README / code comments. Is this just an elaborate scheme to increase in/out token churn or are we hitting some kind of LLM limitations I wonder? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:42.710970",
+        "updated_at": "2026-07-23T17:08:42.710970",
+        "author": {
+          "id": "350738e06aadb6b9ec648d175dd40769",
+          "source_id": "iExploder",
+          "username": "iExploder",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "fdefb3ba4ee04fe238d981f852c4bb00",
+        "source_id": "49016855",
+        "content": {
+          "text": "What is your goal?  What are you trying to have it generate that is not more appropriate for you to write yourself? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:42.711463",
+        "updated_at": "2026-07-23T17:08:42.711463",
+        "author": {
+          "id": "19441f916671972e2eb44d93df720aa2",
+          "source_id": "hankbond",
+          "username": "hankbond",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0627ba5492605842473a4a6039c2c5ba",
+        "source_id": "49018231",
+        "content": {
+          "text": "there is a skill named \"avoid ai writing\" on github\nit won't make your text as good as human text, but it will help with the most visible red flags reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:42.711953",
+        "updated_at": "2026-07-23T17:08:42.711953",
+        "author": {
+          "id": "b6bbeb417ae3f645dc46bb747d837530",
+          "source_id": "drumih",
+          "username": "drumih",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-07-23T17:08:42.712146",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "73726b4626aadd18d5fd7b2bbe38cb6b",
+      "source_id": "48996526",
+      "title": "Ask HN: How do people keep track of organizational knowledge?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">With code coming in faster and faster, we've been losing track of context, what's out of date, the source of truth, etc. Also with individuals spending less and less time on any one problem, finding an expert to answer questions has become challenging. People don't have that single domain of expertise like we used to. There's too much surface area to cover.<p>Are we the only ones dealing with this? How's everyone else handling it?</p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-23T17:08:20.081053",
+      "updated_at": "2026-07-23T17:08:20.081053",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "85609014498f5183a5926813971a3622",
+        "source_id": "kadhirvelm",
+        "username": "kadhirvelm",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 27,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=48996526",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "d945c37ab09ef837f68839d5d9e2451d",
+        "source_id": "48998785",
+        "content": {
+          "text": "Two things. 1. If it's not written down, it does not exist. This needs to be a ruthlessly enforced rule. I know we all love those Mel the Programmer stories, but that's a story about fragility. Similarly if you are relying on SRE or dev heroics to solve field problems, you have a gun to your head and you need to solve it yesterday. 2. The TCO of knowledge is dominated by the maintenance cost, not the creation cost. I see this mistake made a lot. Anyone can create a confluence page, Slack comment, SharePoint site or a git comment. The org must make it someone's job to grow, weed, and maintain these gardens. It does not matter what system you use, but someone needs to look after it. You get a bonus for building information \"data structures\" that make it easy for people to pull data out as your org changes, but this is probably something you should accept that you'll get wrong as your org grows. AI hides this problem because it makes search so easy, sometimes, but it will come and bite you hard one day, so be ready for it. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:44.768490",
+        "updated_at": "2026-07-23T17:08:44.768490",
+        "author": {
+          "id": "8b318f81249bd9a499dc35b33d94612c",
+          "source_id": "kjellsbells",
+          "username": "kjellsbells",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2b3196a3fd1133987dadcb447b533af6",
+        "source_id": "49000041",
+        "content": {
+          "text": "If it's not written down in a place where other people can find it , it does not exist.  So the place has to be either standardized or searchable, or preferably both. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:44.768989",
+        "updated_at": "2026-07-23T17:08:44.768989",
+        "author": {
+          "id": "4cbca4a5fa16748dbdfd70b770eba7a3",
+          "source_id": "AnimalMuppet",
+          "username": "AnimalMuppet",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a10a677dac497506680efa6cec9b3751",
+        "source_id": "49017061",
+        "content": {
+          "text": "In my line of work (IT Operations for a large international bank), we came up with a classification framework that tried to gauge information along two axes: Importance and Frequency of Use. Importance is the more obvious one - there is critical info you absolutely need as a basis to understand the system, then there is also minor details. The difference is in an emergency, lack of the former will break your attempt to fix the system, lack of the latter will merely inconvenience you. The Frequence of Use axis is the one that brought value to our operations when we introduced it. That's the question \"How often will I need this info?\". Regularly re-occuring, detailled procedures need to be accessible easily, so they go to a prominent Confluence page. But then there is information that you will hardly ever need, some arcanae about the system that only the old timers knew but that needed to be fixed in writing. The most vexing bits of info are those that are highly important but are rarely ever needed. Do you plonk them into Confluence? Might not be the best idea because then you don't know how to quickly find it when need be. So we had an extra category for just that sort of thing which became our go-to info hub for all sorts of highly urgent but at first intractable issues with our system. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:44.769493",
+        "updated_at": "2026-07-23T17:08:44.769493",
+        "author": {
+          "id": "f24ac2a2225d0507cabe59123d5c63a6",
+          "source_id": "hash0",
+          "username": "hash0",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1a6a276c2c81a4ca43c39038a0d50b7f",
+        "source_id": "48997946",
+        "content": {
+          "text": "> How do people keep track of organizational knowledge? In my experience: 1. Well meaning people try to build wikis/confluences/whatever that turn into backwaters of slowly rotting stuff 2. Beyond a certain extent that they can hold in their heads, most other people give up. 3. Some people hoard knowledge and use it for personal advantage. I dont know what the solution is. Maybe an ai that reads every chat and email and commit - and builds some kind of browsable, queryable, executable knowledge trove. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:44.770010",
+        "updated_at": "2026-07-23T17:08:44.770010",
+        "author": {
+          "id": "062d45273b9ed7d7e350b1a0390234a5",
+          "source_id": "andyjohnson0",
+          "username": "andyjohnson0",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b8f325a6e18b0cdb2eb95734d86e42d9",
+        "source_id": "48999624",
+        "content": {
+          "text": "I’ve started hoarding knowledge, but not for personal advantage. There were two trends that led to it. 1. People would go in and “clean up” what they thought was a rotting Confluence. They were new-ish to the company and didn’t have the knowledge or experience to know what they were looking at. Rather than ask, they just deleted stuff. Some of those things they deleted were docs I wrote, several over 20 pages long that I referenced regularly… gone. 2. Constant re-orgs and tool changes meant it was becoming difficult to know where anything goes. Not long ago I had 4 bosses in 4 years. I got tired of starting over and shuffling things around. If I keep what I need, no one else is going to delete it without consulting me, and I don’t have to try and migrate and re-organize it every time I get a new boss or management decides we’re using a new system. I guess a third thing, which is less of a trend, is friction. The collaboration platforms are much higher friction than something like a local Obsidian vault. I’ve probably written and shared more documentation than everyone else on my team combined, but at some point, I got tired of the uphill battle. I still do write and share stuff I think will benefit the team, but I no longer try and make everything public for the reasons listed. If someone asks for something I have, I will always send it over, and having my notes in markdown now makes that easy. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:44.770620",
+        "updated_at": "2026-07-23T17:08:44.770620",
+        "author": {
+          "id": "fb6fae387d9dabe783668f9009982cf3",
+          "source_id": "al_borland",
+          "username": "al_borland",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "086f3f1f9112a489b6476043fdd4a417",
+        "source_id": "48998295",
+        "content": {
+          "text": "Do you think having an AI do that is 1) possible and 2) people will like that? Seems really invasive, no? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:44.771148",
+        "updated_at": "2026-07-23T17:08:44.771148",
+        "author": {
+          "id": "85609014498f5183a5926813971a3622",
+          "source_id": "kadhirvelm",
+          "username": "kadhirvelm",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d9a89a70cb9332299b3e00d5b4b3c946",
+        "source_id": "49003935",
+        "content": {
+          "text": "Its possible - teams chats where I work can have ai transcription enabled, for example. As to whether people like it: I was thinking of a work context, where expectations of privacy are lower. I guess it could be an opt-in for group chats. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:44.771725",
+        "updated_at": "2026-07-23T17:08:44.771725",
+        "author": {
+          "id": "062d45273b9ed7d7e350b1a0390234a5",
+          "source_id": "andyjohnson0",
+          "username": "andyjohnson0",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ec41787e50601db8bc4508a6313c396c",
+        "source_id": "48999632",
+        "content": {
+          "text": "Going into all chats is a horrible idea. Some chats between small groups are meant to stay that way. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:44.772315",
+        "updated_at": "2026-07-23T17:08:44.772315",
+        "author": {
+          "id": "fb6fae387d9dabe783668f9009982cf3",
+          "source_id": "al_borland",
+          "username": "al_borland",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "bd05ede24cf54d4f4827b83238060b98",
+        "source_id": "49003949",
+        "content": {
+          "text": "I agree, not all chats. But it could be an opt-in for group chats. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:44.772927",
+        "updated_at": "2026-07-23T17:08:44.772927",
+        "author": {
+          "id": "062d45273b9ed7d7e350b1a0390234a5",
+          "source_id": "andyjohnson0",
+          "username": "andyjohnson0",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b70855fd4ea1e8953192690214a9dea1",
+        "source_id": "49016527",
+        "content": {
+          "text": "IMO, earlier we used to spend time on the issue, analysis(RCA), confluence documentation, however, now organizations are spending dollars on AI and expecting Individual Contributors to use AI to deliver the product in weeks rather than original timelines. This behavior forcing every individual to skip the other necessary activities like RCA and documentation and straightly trying to deploy the product into production. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:44.773582",
+        "updated_at": "2026-07-23T17:08:44.773582",
+        "author": {
+          "id": "2606fc6f4335049743e660e9f5224a81",
+          "source_id": "autoshiftops",
+          "username": "autoshiftops",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a51e6e814697151d71ba11ee77b89680",
+        "source_id": "48997647",
+        "content": {
+          "text": "We still make sure to maintain a healthy directory and \"backlinks\". And as soon as new updates are in, we have someone on the team dedicated to clarifying changes and updating the Wiki - Confluence pages, Notion, which are adequately linked to tickets and shared drives where necessary. This way, new and updated context is not lost on the next user. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:44.774258",
+        "updated_at": "2026-07-23T17:08:44.774258",
+        "author": {
+          "id": "7754aa529cbe499a01d2a622f52b9f2a",
+          "source_id": "Tadace",
+          "username": "Tadace",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4d1778a38c0cefff20a6b6407916c09c",
+        "source_id": "48998698",
+        "content": {
+          "text": "Isn't that the purpose of wikis?\nNot saying they work all that great but I think that's the goal. I do like the idea of having a live editable wiki as the knowledge base a LLM can reference. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:44.774953",
+        "updated_at": "2026-07-23T17:08:44.774953",
+        "author": {
+          "id": "ee8ddd89fbdcbc0063286870de304ada",
+          "source_id": "lyfeninja",
+          "username": "lyfeninja",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8318b5479282be371b8d74974b7c95e7",
+        "source_id": "48999405",
+        "content": {
+          "text": "we've faced this same problem but thinking about it a little deeper reminded me that this issue is no different to pre-llm world. someone creates a spec, someone or a team build/implement the spec and after actioning any feedback from testing or from customers, the product evolves and is no longer aligned with the initial spec. i think one way to solve this is having an someone or an agent update the initial spec with any new changes as and when they are made. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:44.775696",
+        "updated_at": "2026-07-23T17:08:44.775696",
+        "author": {
+          "id": "7133981cf5e5359362518591897c1e0f",
+          "source_id": "tenzo",
+          "username": "tenzo",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d71917b56b2b0f58ccdf11345642a03f",
+        "source_id": "48999491",
+        "content": {
+          "text": "I’ve seen at least one person where I work doing this. They have an agent doing massive updates on Confluence constantly. It seems like a mess. It checks the box for having documentation, if that’s all anyone cares about. But there is no way people are actually reading it, looking for changes is impossible, since the LLM re-writes the entire page every time, and even not knowing their project well, it was full of hallucinations and nonsense. If the LLM is going to write the doc anyway, why not just do it on demand from the code if/when it’s needed, instead of burning tokens on documents that no one will ever read? I also think a lot of the value in those historical docs are the reasons why certain decisions were made, as it can be important context if there is every a discussion on doing things differently. The LLM likely won’t have that information, or may just make up a bunch of reasons the business doesn’t actually care about. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:44.776469",
+        "updated_at": "2026-07-23T17:08:44.776469",
+        "author": {
+          "id": "fb6fae387d9dabe783668f9009982cf3",
+          "source_id": "al_borland",
+          "username": "al_borland",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "dd37a7107ea55e09204b199dcdd17150",
+        "source_id": "48999584",
+        "content": {
+          "text": "We capture organizational knowledge during each change in the product. Contributors can be agents and people and have different roles.\nAgents must follow our procedures, and one of the most important assignments is to journal their work in our knowledge base, in a feature session journal, so they are not losing the track somewhere in their harness. Our \"project knowledge\" consists of artifacts of such types: - product documentation (made by human). Intended product behavior and capabilities. - technical documentation (maintained by human and agent who work together on feature). Implementation documentation. - feature session journal (made by agent and human who work together on specific feature). Per feature session. Contains original problem, gaps, problems, misunderstandings and failed attempts. - wiki and ontology articles for targeted knowledge retrieval. Built by Knowledge Keeper procedure under human supervision on demand. Consolidate the knowledge across subsystems. - code and tests (mostly written by agents). All these knowledge artifacts (except code and tests) are mostly markdown articles. They are stored in git - this allows versioned storage, authorship and diffs.\nAll articles have front matter with summary, keywords, status (draft or reviewed and approved by human) and links to related articles, so we and agents know what is relevant and what the source of truth is.\nWiki and ontology articles hold the semantic relationships for better retrieval. Typical process of changes:\nAs agent and human work on the feature, this is captured in the session journal.\nAt any moment in this process, the engineer who works with the agent can ask the agent to hand off their work to other agents, integrate in the technical documentation or handoff to a Knowledge Keeper.\nSuch handoff includes the message with documentation links and the link to the session journal, so one who continues starts with the context. The Knowledge Keeper is a supervised procedure that keeps wiki and ontology aligned with the product documentation, technical documentation, known issues.\nKnowledge integration process is currently manually initiated by the handoff of the human who worked with agent on the feature.\nThe Keeper prepares the integration plan which a human approves.\nKeeper builds the index on top of wiki and ontology after integrating the knowledge and tests the knowledge retrieval via MCP to check if integrated knowledge retrieves correctly and reports to the human maintainer.\nMCP allows the consolidated view of the product and its capabilities. Its answers point to the primary docs, therefore users do not need to find one person who remembers everything. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:44.777361",
+        "updated_at": "2026-07-23T17:08:44.777361",
+        "author": {
+          "id": "70401ee233c015f580e82c802b5ea39c",
+          "source_id": "elenaviter",
+          "username": "elenaviter",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "56cfc9c0623626bbe83feadad569a050",
+        "source_id": "48996659",
+        "content": {
+          "text": "Just do what AI does to manage context: write docs, regression tests, content index, tools/skills, and CLAUDE.md reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:44.778193",
+        "updated_at": "2026-07-23T17:08:44.778193",
+        "author": {
+          "id": "970e952aa7c35f50df6d9b41a3b2c9a5",
+          "source_id": "1337h4xx",
+          "username": "1337h4xx",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a65fffed60d4462e9cd5f109e2974e36",
+        "source_id": "49000409",
+        "content": {
+          "text": "I use federated wiki for just about everything reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:44.779074",
+        "updated_at": "2026-07-23T17:08:44.779074",
+        "author": {
+          "id": "7395aae32ab21e86728c492e7a363555",
+          "source_id": "richardprince4",
+          "username": "richardprince4",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "50b0167ef1c8d1acd7cfac41546a975c",
+        "source_id": "48996816",
+        "content": {
+          "text": "I organize myself in a some_project/ directory. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:44.779978",
+        "updated_at": "2026-07-23T17:08:44.779978",
+        "author": {
+          "id": "4a0f508fa67307a4a5d450b2f18688d2",
+          "source_id": "midzer",
+          "username": "midzer",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3d7772e6287ca7ecf75c63468ddfc12c",
+        "source_id": "48996647",
+        "content": {
+          "text": "Confluence, Notion, Wikis, etc. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:44.780890",
+        "updated_at": "2026-07-23T17:08:44.780890",
+        "author": {
+          "id": "4ca46018a23adaa01543351cde9925a8",
+          "source_id": "toomuchtodo",
+          "username": "toomuchtodo",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f6d772bc96c94cfcb8e7098e230e3b3b",
+        "source_id": "48996704",
+        "content": {
+          "text": "Do you all rely on people writing things down as they go? or do you have some automated system? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:44.781817",
+        "updated_at": "2026-07-23T17:08:44.781817",
+        "author": {
+          "id": "85609014498f5183a5926813971a3622",
+          "source_id": "kadhirvelm",
+          "username": "kadhirvelm",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "033c3d9104cc59f1de62e34e451ec742",
+        "source_id": "48996729",
+        "content": {
+          "text": "People. Time is carved out for both documentation and its review, like a PR review. Otherwise, how would you trust what is being documented? A human must remain in the loop if accuracy is a component of success criteria for organization documentation. I say this familiar with Karpathy's LLM Wiki pattern. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:44.782783",
+        "updated_at": "2026-07-23T17:08:44.782783",
+        "author": {
+          "id": "4ca46018a23adaa01543351cde9925a8",
+          "source_id": "toomuchtodo",
+          "username": "toomuchtodo",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a63de1ea6f38a59bd8d70438bd489ea7",
+        "source_id": "48999663",
+        "content": {
+          "text": "On a past team of mine we used to bake documentation into our definition of done for user stories. If the doc wasn’t written/updated, then it wasn’t done. It was tough for some people at first, but after a while it became second nature for them. We also learned that it takes far longer to write that stuff than anyone estimates. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:44.783773",
+        "updated_at": "2026-07-23T17:08:44.783773",
+        "author": {
+          "id": "fb6fae387d9dabe783668f9009982cf3",
+          "source_id": "al_borland",
+          "username": "al_borland",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "be0f693b84819f47f3b95eed2a62e257",
+        "source_id": "49001853",
+        "content": {
+          "text": "All I know is creating yet another place to store data is not going to solve your problem. The problem of scattered data is to put data in one place. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:44.784797",
+        "updated_at": "2026-07-23T17:08:44.784797",
+        "author": {
+          "id": "dabe2ea3893f1a842e91f2e31779b2b9",
+          "source_id": "4lx87",
+          "username": "4lx87",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6fafe81320b160fa702cb22274a8a746",
+        "source_id": "48999226",
+        "content": {
+          "text": "Obsidian. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:44.785842",
+        "updated_at": "2026-07-23T17:08:44.785842",
+        "author": {
+          "id": "d019abce93f11948a0ecab4273ac097a",
+          "source_id": "ipiyer",
+          "username": "ipiyer",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-07-23T17:08:44.786583",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "159cf283c16cd9a78f158a6124c1e349",
+      "source_id": "49013764",
+      "title": "Ask HN: Why can't Google create monopolies anymore?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">Google in fields it has monopolised since 2000's to early 2010's is impossible to be dethroned (android, search, ads). Sure they had multiple failed products in this period too, like the google glasses or google+, but now it feels they storm a field become top 3 - 5 and just keep that position (fitbit, gemini, pixel).</div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-23T17:08:20.081494",
+      "updated_at": "2026-07-23T17:08:20.081494",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "2183458ef977d36dbb69c4ac39cd909e",
+        "source_id": "BeForce",
+        "username": "BeForce",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 5,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49013764",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "9f4ec6c1e0a4701fd517703ea29a8639",
+        "source_id": "49016646",
+        "content": {
+          "text": "From what I’ve heard, their internal engineering practices incentivize new products over improvements and refinements to existing products. From a consumer point of view, chat/messaging is probably the most clear example of Google seeming to lack any clear direction. While Apple evolved their SMS app into Messages, through a slow evolution which created consistency for users and has people buying or staying on the iPhone for that alone… Google has released more apps than I can count. Any time someone has a new idea they release a whole new app. This is confusing for users and probably why Android has a bunch of 3rd party apps people use instead of Google dominating with the app they ship. They screwed it up with Google Wave too. They released an entirely new email app instead of just slowly building those Wave features into Gmail. Imagine if every Gmail to Gmail conversations automatically became a Wave. This would have been great and created a network effect, much like Apple Messages. Instead, Wave failed and we lost everything it had. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:46.369869",
+        "updated_at": "2026-07-23T17:08:46.369869",
+        "author": {
+          "id": "fb6fae387d9dabe783668f9009982cf3",
+          "source_id": "al_borland",
+          "username": "al_borland",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6cbb6f684adb73a16cd75838a3abc252",
+        "source_id": "49020143",
+        "content": {
+          "text": "The only real monopoly you listed is search. And it’s really as simple as ChatGPT upset the apple cart Even then in search, Google still owns 90% of the market. The more interesting question: why did Google shelve their LLM efforts and let themselves become disrupted by OpenAI and others? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:46.370381",
+        "updated_at": "2026-07-23T17:08:46.370381",
+        "author": {
+          "id": "d51a6fc1b88e0387f63191816cd49032",
+          "source_id": "softwaredoug",
+          "username": "softwaredoug",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ca440df7e13892c3b9eb146d558a66c3",
+        "source_id": "49015338",
+        "content": {
+          "text": "Once you’re big you are not hungry anymore and you have something to loose, hence you face a fundamental choice either you risk to win, or you play safe to not loose what you’ve got. Most gigants choose the second obviously. People capable and willing to risk leave the ship. Best choice you are left with is to buy promising startups and try your best not to ruin them. And this is what they do. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:46.370844",
+        "updated_at": "2026-07-23T17:08:46.370844",
+        "author": {
+          "id": "ddc8070c49ef7d2a9f42017d8fdef6dc",
+          "source_id": "aristofun",
+          "username": "aristofun",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "462a5939737ded7146594721ce9bb79c",
+        "source_id": "49013872",
+        "content": {
+          "text": "Android and Youtube were acquired by Google reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:46.371332",
+        "updated_at": "2026-07-23T17:08:46.371332",
+        "author": {
+          "id": "ac308db8eb8b8333ace2629f1753d213",
+          "source_id": "MYEUHD",
+          "username": "MYEUHD",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-07-23T17:08:46.371503",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "56872dde434b5946981ef07db542e541",
+      "source_id": "49006088",
+      "title": "Ask HN: Alternative Careers in the Age of AI",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">I'm about to lose my job to AI and offshoring - a job that started well, but which I ended up less than ecstatic about. I'm wondering - what else can a software developer do that isn't also vulnerable to AI? Whenever you Google this, you get things like \"Manager\", \"Product Manager\" etc., but it strikes me that if software engineering is decimated by AI then many of these roles may be next in line - as is most \"pure\" knowledge work.<p>So I'm asking, what is the escape hatch? Do we all become plumbers? Anyone have a plan?</p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-23T17:08:20.082019",
+      "updated_at": "2026-07-23T17:08:20.082019",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "898821905dc31fafb814c6a5ce7b5bad",
+        "source_id": "helpfulmandrill",
+        "username": "helpfulmandrill",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 11,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49006088",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "8c74da1f8e54b1d15c64341b92c64799",
+        "source_id": "49007167",
+        "content": {
+          "text": "I think it’s important to have some kind of domain knowledge that goes with software ability. Not just be a software engineer. The closest comparison to what’s happening today is writing. In olden times a few in the professional class could write. It was not a common skill. Now everyone can write. There are technically more “jobs that involve writing” and writing skills CAN help you succeed. But very few people have a job just writing. What people do have are domain specific jobs where a writing skill is more useful. Journalism, Industry analyst, etc. The future won’t be some small set of software engineers focused only on functional code, it’ll be domain-knowledgeable people that plan out domain solutions, write, code, all in one role. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:48.572878",
+        "updated_at": "2026-07-23T17:08:48.572878",
+        "author": {
+          "id": "d51a6fc1b88e0387f63191816cd49032",
+          "source_id": "softwaredoug",
+          "username": "softwaredoug",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "07cd301bc18671d52e6fc8e9c385af70",
+        "source_id": "49007468",
+        "content": {
+          "text": "Ironically that's where I started my career and now I'm hoping to get back there. I was a data-oriented environmental scientist who happened to code. \nBut at some point, I slipped into 100% software development roles and I never got over how strange it felt to be siloed, isolated from the domain knowledge on purpose. It was far too easy to \"win\" the tech struggle of the day but produce nothing of actual value. Dedicated coders were somewhat necessary to wrangle the tech stack (which itself grew more complex to accommodate more devs, a positive feedback which nearly spun out of control in late 2010s). But now? A single coder with domain knowledge has a shot at wrangling their own tech stack as a part time job, the rest of the time focussed on IRL value. This is the future I want. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:48.573374",
+        "updated_at": "2026-07-23T17:08:48.573374",
+        "author": {
+          "id": "0e1660853e41996b2e4c208325dab604",
+          "source_id": "perrygeo",
+          "username": "perrygeo",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e0d35c3e3133f3321130c23b897bebb3",
+        "source_id": "49007808",
+        "content": {
+          "text": "That's a great idea, shame I don't know anything (spot the Philosophy graduate!) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:48.573834",
+        "updated_at": "2026-07-23T17:08:48.573834",
+        "author": {
+          "id": "898821905dc31fafb814c6a5ce7b5bad",
+          "source_id": "helpfulmandrill",
+          "username": "helpfulmandrill",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "13d9d65ae35e70b5eff1e5730b72b1ff",
+        "source_id": "49009166",
+        "content": {
+          "text": "I'm a software developer. I didn't exactly lose my job to ai, but I was moved to part-time because now I need only review ai PRs. Even worse, I'm on a visa. I've always thought about a career in welding. It's a real job that requires a lot of real skills and can be quite lucrative if you're qualified enough. There are a lot of different directions, from welding custom exhausts for cars to industrial underwater welding. It sounds exciting to me. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:48.574319",
+        "updated_at": "2026-07-23T17:08:48.574319",
+        "author": {
+          "id": "b6bbeb417ae3f645dc46bb747d837530",
+          "source_id": "drumih",
+          "username": "drumih",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d61839cc3ee35260bc2f42a58c720821",
+        "source_id": "49019177",
+        "content": {
+          "text": "Has safety tech progressed enough to avoid permanent vision damage by now? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:48.574807",
+        "updated_at": "2026-07-23T17:08:48.574807",
+        "author": {
+          "id": "67ef02005e56b6ed6d98ba1b7e3b2032",
+          "source_id": "bschwarz",
+          "username": "bschwarz",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d4cbde68ebca9d6a567888b9f95be737",
+        "source_id": "49009572",
+        "content": {
+          "text": "High skilled welding pays pretty decent too. I know people making $200k doing stuff like welding titanium at chip fabs or stainless steel at rocket factories. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:48.575338",
+        "updated_at": "2026-07-23T17:08:48.575338",
+        "author": {
+          "id": "eeaede0f34d06fca3e799e312e362bdc",
+          "source_id": "leros",
+          "username": "leros",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "58a94aad6b6a392296394c7c2fbd32d0",
+        "source_id": "49008589",
+        "content": {
+          "text": "I still feel like we're on track for more and more products to become undifferentiated and degrade in quality over time, if we keep this up. I think we'll rebound the other way at some point and the folks who've always been super valuable, the people who can work up and down the product from customer calls to design to engineering, will become even more valuable over time. Aka, these are the people who can differentiate your company from generic AI reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:48.575892",
+        "updated_at": "2026-07-23T17:08:48.575892",
+        "author": {
+          "id": "85609014498f5183a5926813971a3622",
+          "source_id": "kadhirvelm",
+          "username": "kadhirvelm",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1c5917e9713579f6ec30038667b02a0b",
+        "source_id": "49007691",
+        "content": {
+          "text": "Unironically: growing citrus fruits in your own land with your own water source. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:48.576469",
+        "updated_at": "2026-07-23T17:08:48.576469",
+        "author": {
+          "id": "4411a06d926f18449c8287d510ff934f",
+          "source_id": "world2vec",
+          "username": "world2vec",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "638e37422d4e37067f2088b8ed3ba96e",
+        "source_id": "49008061",
+        "content": {
+          "text": "Why citrus, specifically? Are they especially profitable? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:48.577057",
+        "updated_at": "2026-07-23T17:08:48.577057",
+        "author": {
+          "id": "898821905dc31fafb814c6a5ce7b5bad",
+          "source_id": "helpfulmandrill",
+          "username": "helpfulmandrill",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7c7b7fc36a3c7c1fc6cc57b2247b94e6",
+        "source_id": "49008650",
+        "content": {
+          "text": "You can’t eat money. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:48.577694",
+        "updated_at": "2026-07-23T17:08:48.577694",
+        "author": {
+          "id": "84d7a3555dbb2db79c26ec84ac557067",
+          "source_id": "warshinder",
+          "username": "warshinder",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d1ef21ea6536a9baf6f03ff84810e2f3",
+        "source_id": "49009682",
+        "content": {
+          "text": "Well, no, but you can't survive on oranges either! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-23T17:08:48.578358",
+        "updated_at": "2026-07-23T17:08:48.578358",
+        "author": {
+          "id": "898821905dc31fafb814c6a5ce7b5bad",
+          "source_id": "helpfulmandrill",
+          "username": "helpfulmandrill",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-07-23T17:08:48.578709",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
   }
 ]
