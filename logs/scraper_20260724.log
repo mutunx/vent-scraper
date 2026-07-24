@@ -1,0 +1,126 @@
+2026-07-24 17:19:09,631 - __main__ - INFO - 运行所有爬虫
+2026-07-24 17:19:09,631 - scrapers.jandan_scraper - INFO - JandanScraper初始化完成
+2026-07-24 17:19:09,631 - scrapers.base_scraper - INFO - 开始爬取 煎蛋网
+2026-07-24 17:19:09,631 - scrapers.jandan_scraper - INFO - 开始爬取煎蛋热评
+2026-07-24 17:19:12,365 - scrapers.jandan_scraper - INFO - 成功获取HTML内容，长度: 36964
+2026-07-24 17:19:12,365 - scrapers.jandan_scraper - INFO - 调试: 手动获取评论 5877984 的吐槽数据
+2026-07-24 17:19:12,365 - scrapers.jandan_scraper - INFO - 获取评论 5877984 的吐槽内容: https://jandan.net/api/tucao/list/5877984
+2026-07-24 17:19:14,652 - scrapers.jandan_scraper - INFO - 评论 5877984 获取到 0 条热门吐槽, 0 条普通吐槽
+2026-07-24 17:19:14,652 - scrapers.jandan_scraper - INFO - 调试: 评论 5877984 获取到 0 条热门吐槽, 0 条普通吐槽
+2026-07-24 17:19:14,652 - scrapers.jandan_scraper - INFO - 开始解析页面中的评论
+2026-07-24 17:19:14,652 - scrapers.jandan_scraper - INFO - 开始解析HTML内容, 长度: 36964
+2026-07-24 17:19:14,666 - scrapers.jandan_scraper - INFO - 找到 0 条热门评论
+2026-07-24 17:19:14,666 - scrapers.jandan_scraper - INFO - 解析完成，获取到 0 条评论
+2026-07-24 17:19:14,666 - scrapers.jandan_scraper - INFO - 开始转换评论为统一格式
+2026-07-24 17:19:14,666 - scrapers.jandan_scraper - INFO - 开始转换 0 条评论到统一格式
+2026-07-24 17:19:14,666 - scrapers.jandan_scraper - INFO - 共转换 0 条评论为统一格式
+2026-07-24 17:19:14,666 - scrapers.jandan_scraper - INFO - 爬取完成，共获取 0 条热评
+2026-07-24 17:19:14,666 - scrapers.base_scraper - ERROR - 爬取 煎蛋网 失败
+2026-07-24 17:19:14,667 - scrapers.reddit_scraper - INFO - RedditScraper初始化完成
+2026-07-24 17:19:14,668 - scrapers.base_scraper - INFO - 开始爬取 Reddit
+2026-07-24 17:19:14,668 - scrapers.reddit_scraper - INFO - 开始爬取Reddit r/confessions每周热门帖子
+2026-07-24 17:19:16,365 - utils.http_utils - ERROR - 请求失败: https://www.reddit.com/r/confessions/top/.json?t=week&limit=10, 错误: 403 Client Error: Blocked for url: https://www.reddit.com/r/confessions/top/.json?t=week&limit=10
+2026-07-24 17:19:16,366 - scrapers.reddit_scraper - ERROR - 获取API数据失败: 403 Client Error: Blocked for url: https://www.reddit.com/r/confessions/top/.json?t=week&limit=10
+2026-07-24 17:19:16,366 - scrapers.base_scraper - ERROR - 爬取 Reddit 失败
+2026-07-24 17:19:16,366 - scrapers.hackernews_scraper - INFO - HackerNewsScraper初始化完成
+2026-07-24 17:19:16,366 - scrapers.base_scraper - INFO - 开始爬取 Hacker News
+2026-07-24 17:19:16,366 - scrapers.hackernews_scraper - INFO - 开始爬取Hacker News Ask HN帖子
+2026-07-24 17:19:16,366 - scrapers.hackernews_scraper - INFO - 获取Ask HN页面: https://news.ycombinator.com/ask
+2026-07-24 17:19:18,034 - scrapers.hackernews_scraper - INFO - 找到 24 个帖子行
+2026-07-24 17:19:18,035 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Is anyone giving out t..., 作者=emosenkis, 点赞=3, 评论=0
+2026-07-24 17:19:18,036 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: How to get in touch wi..., 作者=probst, 点赞=6, 评论=0
+2026-07-24 17:19:18,036 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: How much software do y..., 作者=lellow, 点赞=4, 评论=0
+2026-07-24 17:19:18,037 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Has your typing gotten..., 作者=aizk, 点赞=2, 评论=0
+2026-07-24 17:19:18,037 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Any Good Pi.dev Setups..., 作者=galsapir, 点赞=3, 评论=0
+2026-07-24 17:19:18,038 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Is there a website tha..., 作者=amichail, 点赞=30, 评论=0
+2026-07-24 17:19:18,038 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Convince me to not to ..., 作者=asdfbank, 点赞=2, 评论=0
+2026-07-24 17:19:18,039 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: If OpenAI hacked Huggi..., 作者=sam_lowry_, 点赞=27, 评论=0
+2026-07-24 17:19:18,039 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Is HN's duplicate url ..., 作者=khaledh, 点赞=4, 评论=0
+2026-07-24 17:19:18,039 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: What Linux distro do y..., 作者=addajones, 点赞=22, 评论=0
+2026-07-24 17:19:18,040 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: What changed in your l..., 作者=dondraper36, 点赞=30, 评论=0
+2026-07-24 17:19:18,040 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: What verb best describ..., 作者=jdlib, 点赞=4, 评论=0
+2026-07-24 17:19:18,041 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Have you noticed an im..., 作者=zbikowski, 点赞=3, 评论=0
+2026-07-24 17:19:18,041 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: How do people keep tra..., 作者=kadhirvelm, 点赞=29, 评论=0
+2026-07-24 17:19:18,042 - scrapers.hackernews_scraper - INFO - 成功解析故事: Ask HN: Does anyone have an ol..., 作者=bwb, 点赞=20, 评论=0
+2026-07-24 17:19:18,042 - scrapers.hackernews_scraper - INFO - 成功解析 15 个Ask HN故事
+2026-07-24 17:19:18,042 - scrapers.hackernews_scraper - INFO - 开始转换 15 个故事到统一格式
+2026-07-24 17:19:18,042 - scrapers.hackernews_scraper - INFO - 转换第 1/15 个故事: Ask HN: Is anyone giving out t...
+2026-07-24 17:19:19,662 - scrapers.hackernews_scraper - INFO - 找到 1 条评论
+2026-07-24 17:19:19,663 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Is anyone giving out t... 转换完成，包含 1 条评论
+2026-07-24 17:19:19,663 - scrapers.hackernews_scraper - INFO - 转换第 2/15 个故事: Ask HN: How to get in touch wi...
+2026-07-24 17:19:22,149 - scrapers.hackernews_scraper - INFO - 找到 1 条评论
+2026-07-24 17:19:22,149 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: How to get in touch wi... 转换完成，包含 1 条评论
+2026-07-24 17:19:22,150 - scrapers.hackernews_scraper - INFO - 转换第 3/15 个故事: Ask HN: How much software do y...
+2026-07-24 17:19:24,772 - utils.http_utils - ERROR - 请求失败: https://news.ycombinator.com/item?id=49035758, 错误: 429 Client Error: Too Many Requests for url: https://news.ycombinator.com/item?id=49035758
+2026-07-24 17:19:24,772 - scrapers.hackernews_scraper - ERROR - 获取故事详情失败: 49035758
+2026-07-24 17:19:27,208 - utils.http_utils - ERROR - 请求失败: https://news.ycombinator.com/item?id=49035758, 错误: 429 Client Error: Too Many Requests for url: https://news.ycombinator.com/item?id=49035758
+2026-07-24 17:19:27,208 - scrapers.hackernews_scraper - ERROR - 获取故事详情失败: 49035758
+2026-07-24 17:19:27,208 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: How much software do y... 转换完成，包含 0 条评论
+2026-07-24 17:19:27,208 - scrapers.hackernews_scraper - INFO - 转换第 4/15 个故事: Ask HN: Has your typing gotten...
+2026-07-24 17:19:30,030 - utils.http_utils - ERROR - 请求失败: https://news.ycombinator.com/item?id=49035464, 错误: 429 Client Error: Too Many Requests for url: https://news.ycombinator.com/item?id=49035464
+2026-07-24 17:19:30,030 - scrapers.hackernews_scraper - ERROR - 获取故事详情失败: 49035464
+2026-07-24 17:19:31,416 - utils.http_utils - ERROR - 请求失败: https://news.ycombinator.com/item?id=49035464, 错误: 429 Client Error: Too Many Requests for url: https://news.ycombinator.com/item?id=49035464
+2026-07-24 17:19:31,416 - scrapers.hackernews_scraper - ERROR - 获取故事详情失败: 49035464
+2026-07-24 17:19:31,416 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Has your typing gotten... 转换完成，包含 0 条评论
+2026-07-24 17:19:31,416 - scrapers.hackernews_scraper - INFO - 转换第 5/15 个故事: Ask HN: Any Good Pi.dev Setups...
+2026-07-24 17:19:32,782 - utils.http_utils - ERROR - 请求失败: https://news.ycombinator.com/item?id=49033767, 错误: 429 Client Error: Too Many Requests for url: https://news.ycombinator.com/item?id=49033767
+2026-07-24 17:19:32,782 - scrapers.hackernews_scraper - ERROR - 获取故事详情失败: 49033767
+2026-07-24 17:19:34,501 - utils.http_utils - ERROR - 请求失败: https://news.ycombinator.com/item?id=49033767, 错误: 429 Client Error: Too Many Requests for url: https://news.ycombinator.com/item?id=49033767
+2026-07-24 17:19:34,501 - scrapers.hackernews_scraper - ERROR - 获取故事详情失败: 49033767
+2026-07-24 17:19:34,501 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Any Good Pi.dev Setups... 转换完成，包含 0 条评论
+2026-07-24 17:19:34,501 - scrapers.hackernews_scraper - INFO - 转换第 6/15 个故事: Ask HN: Is there a website tha...
+2026-07-24 17:19:36,804 - utils.http_utils - ERROR - 请求失败: https://news.ycombinator.com/item?id=49022990, 错误: 429 Client Error: Too Many Requests for url: https://news.ycombinator.com/item?id=49022990
+2026-07-24 17:19:36,804 - scrapers.hackernews_scraper - ERROR - 获取故事详情失败: 49022990
+2026-07-24 17:19:38,365 - utils.http_utils - ERROR - 请求失败: https://news.ycombinator.com/item?id=49022990, 错误: 429 Client Error: Too Many Requests for url: https://news.ycombinator.com/item?id=49022990
+2026-07-24 17:19:38,365 - scrapers.hackernews_scraper - ERROR - 获取故事详情失败: 49022990
+2026-07-24 17:19:38,365 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Is there a website tha... 转换完成，包含 0 条评论
+2026-07-24 17:19:38,365 - scrapers.hackernews_scraper - INFO - 转换第 7/15 个故事: Ask HN: Convince me to not to ...
+2026-07-24 17:19:39,447 - scrapers.hackernews_scraper - INFO - 找到 2 条评论
+2026-07-24 17:19:39,448 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Convince me to not to ... 转换完成，包含 2 条评论
+2026-07-24 17:19:39,448 - scrapers.hackernews_scraper - INFO - 转换第 8/15 个故事: Ask HN: If OpenAI hacked Huggi...
+2026-07-24 17:19:41,533 - scrapers.hackernews_scraper - INFO - 找到 35 条评论
+2026-07-24 17:19:41,560 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: If OpenAI hacked Huggi... 转换完成，包含 35 条评论
+2026-07-24 17:19:41,560 - scrapers.hackernews_scraper - INFO - 转换第 9/15 个故事: Ask HN: Is HN's duplicate url ...
+2026-07-24 17:19:43,240 - utils.http_utils - ERROR - 请求失败: https://news.ycombinator.com/item?id=49030892, 错误: 429 Client Error: Too Many Requests for url: https://news.ycombinator.com/item?id=49030892
+2026-07-24 17:19:43,240 - scrapers.hackernews_scraper - ERROR - 获取故事详情失败: 49030892
+2026-07-24 17:19:44,794 - utils.http_utils - ERROR - 请求失败: https://news.ycombinator.com/item?id=49030892, 错误: 429 Client Error: Too Many Requests for url: https://news.ycombinator.com/item?id=49030892
+2026-07-24 17:19:44,794 - scrapers.hackernews_scraper - ERROR - 获取故事详情失败: 49030892
+2026-07-24 17:19:44,795 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Is HN's duplicate url ... 转换完成，包含 0 条评论
+2026-07-24 17:19:44,795 - scrapers.hackernews_scraper - INFO - 转换第 10/15 个故事: Ask HN: What Linux distro do y...
+2026-07-24 17:19:46,044 - scrapers.hackernews_scraper - INFO - 找到 47 条评论
+2026-07-24 17:19:46,085 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: What Linux distro do y... 转换完成，包含 47 条评论
+2026-07-24 17:19:46,085 - scrapers.hackernews_scraper - INFO - 转换第 11/15 个故事: Ask HN: What changed in your l...
+2026-07-24 17:19:48,477 - utils.http_utils - ERROR - 请求失败: https://news.ycombinator.com/item?id=49012902, 错误: 429 Client Error: Too Many Requests for url: https://news.ycombinator.com/item?id=49012902
+2026-07-24 17:19:48,477 - scrapers.hackernews_scraper - ERROR - 获取故事详情失败: 49012902
+2026-07-24 17:19:50,532 - utils.http_utils - ERROR - 请求失败: https://news.ycombinator.com/item?id=49012902, 错误: 429 Client Error: Too Many Requests for url: https://news.ycombinator.com/item?id=49012902
+2026-07-24 17:19:50,532 - scrapers.hackernews_scraper - ERROR - 获取故事详情失败: 49012902
+2026-07-24 17:19:50,532 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: What changed in your l... 转换完成，包含 0 条评论
+2026-07-24 17:19:50,532 - scrapers.hackernews_scraper - INFO - 转换第 12/15 个故事: Ask HN: What verb best describ...
+2026-07-24 17:19:51,679 - scrapers.hackernews_scraper - INFO - 找到 3 条评论
+2026-07-24 17:19:51,681 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: What verb best describ... 转换完成，包含 3 条评论
+2026-07-24 17:19:51,681 - scrapers.hackernews_scraper - INFO - 转换第 13/15 个故事: Ask HN: Have you noticed an im...
+2026-07-24 17:19:53,918 - utils.http_utils - ERROR - 请求失败: https://news.ycombinator.com/item?id=49027099, 错误: 429 Client Error: Too Many Requests for url: https://news.ycombinator.com/item?id=49027099
+2026-07-24 17:19:53,918 - scrapers.hackernews_scraper - ERROR - 获取故事详情失败: 49027099
+2026-07-24 17:19:56,034 - utils.http_utils - ERROR - 请求失败: https://news.ycombinator.com/item?id=49027099, 错误: 429 Client Error: Too Many Requests for url: https://news.ycombinator.com/item?id=49027099
+2026-07-24 17:19:56,034 - scrapers.hackernews_scraper - ERROR - 获取故事详情失败: 49027099
+2026-07-24 17:19:56,034 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Have you noticed an im... 转换完成，包含 0 条评论
+2026-07-24 17:19:56,034 - scrapers.hackernews_scraper - INFO - 转换第 14/15 个故事: Ask HN: How do people keep tra...
+2026-07-24 17:19:58,589 - utils.http_utils - ERROR - 请求失败: https://news.ycombinator.com/item?id=48996526, 错误: 429 Client Error: Too Many Requests for url: https://news.ycombinator.com/item?id=48996526
+2026-07-24 17:19:58,589 - scrapers.hackernews_scraper - ERROR - 获取故事详情失败: 48996526
+2026-07-24 17:20:00,102 - utils.http_utils - ERROR - 请求失败: https://news.ycombinator.com/item?id=48996526, 错误: 429 Client Error: Too Many Requests for url: https://news.ycombinator.com/item?id=48996526
+2026-07-24 17:20:00,103 - scrapers.hackernews_scraper - ERROR - 获取故事详情失败: 48996526
+2026-07-24 17:20:00,103 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: How do people keep tra... 转换完成，包含 0 条评论
+2026-07-24 17:20:00,103 - scrapers.hackernews_scraper - INFO - 转换第 15/15 个故事: Ask HN: Does anyone have an ol...
+2026-07-24 17:20:02,708 - scrapers.hackernews_scraper - INFO - 找到 3 条评论
+2026-07-24 17:20:02,709 - scrapers.hackernews_scraper - INFO - 故事 Ask HN: Does anyone have an ol... 转换完成，包含 3 条评论
+2026-07-24 17:20:02,709 - scrapers.hackernews_scraper - INFO - 共转换 15 个故事为统一格式
+2026-07-24 17:20:02,709 - scrapers.hackernews_scraper - INFO - 爬取完成，共获取 15 个Ask HN故事
+2026-07-24 17:20:02,891 - utils.storage_utils - INFO - 已更新源索引: hackernews
+2026-07-24 17:20:02,892 - utils.storage_utils - INFO - 数据已保存到 data/hackernews/week_2026-07-20.json
+2026-07-24 17:20:02,893 - scrapers.base_scraper - INFO - 数据已保存到 data/hackernews/week_2026-07-20.json
+2026-07-24 17:20:02,893 - scrapers.base_scraper - INFO - 成功爬取 Hacker News 的数据
+2026-07-24 17:20:02,894 - __main__ - INFO - 完成: 1/3 个爬虫成功运行
+2026-07-24 17:20:03,070 - __main__ - INFO - 归档所有源的旧数据
+2026-07-24 17:20:03,070 - __main__ - INFO - 源 jandan 归档 无需归档
+2026-07-24 17:20:03,070 - __main__ - INFO - 源 reddit 归档 无需归档
+2026-07-24 17:20:03,070 - __main__ - INFO - 源 hackernews 归档 无需归档
