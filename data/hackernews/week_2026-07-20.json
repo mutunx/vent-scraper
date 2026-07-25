@@ -18849,5 +18849,1794 @@
       ],
       "is_nsfw": false
     }
+  },
+  {
+    "post": {
+      "id": "493f9db54e454996a70b91ec28bc1350",
+      "source_id": "49048571",
+      "title": "Ask HN: What happens when we do compress the context in Claude Code?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">What happens when we do compress the context in claude code? How does the reduce the context with out loosing the details?</div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-25T16:44:23.702370",
+      "updated_at": "2026-07-25T16:44:23.702370",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "079aa6229eedeeb46d7f907e3bc9e37c",
+        "source_id": "tbharath",
+        "username": "tbharath",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 3,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49048571",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "c723e27c403dd2424e23a35d9b582980",
+        "source_id": "49048760",
+        "content": {
+          "text": "Not an expert, but, when you give Claude, or any AI agent a query it will usually need to do research, use various tools, execute commands etc. and all of this accumelates text in the conversation thread. Each subsequent query in a thread submits the entire conversation to the API, potentially consuming an unnecessary amount of tokens. Compression attempts to solve this by removing irrelevant information. For example, the entire output from a CURL query and how the AI thought about it might not be needed, having the resulting outcome might be enough. Since compression is also performed by the API though it may be worth it, or not, it always depends on the situation at hand. This is my understanding of it anyways. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-25T16:44:26.516933",
+        "updated_at": "2026-07-25T16:44:26.516933",
+        "author": {
+          "id": "6b8a146e1268c2de981ab3da34a419e9",
+          "source_id": "bubblebeard",
+          "username": "bubblebeard",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "011be4bc9010cdf5c5695d5e1d8104c7",
+        "source_id": "49048712",
+        "content": {
+          "text": "The idea is that you create a summary with sufficient details, or you trim things away, depending on the method, but you do in fact lose exact details. The impacts of this are not well known and likely depend on model, harness, and session. (hunch) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-25T16:44:26.517421",
+        "updated_at": "2026-07-25T16:44:26.517421",
+        "author": {
+          "id": "0555c16ed7f938be906cf20d79b97096",
+          "source_id": "verdverm",
+          "username": "verdverm",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "db6b17880187f6b6787046817ecfd4e1",
+        "source_id": "49049095",
+        "content": {
+          "text": "So it does forward pass once again to get the summary from the whole session as input? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-25T16:44:26.517902",
+        "updated_at": "2026-07-25T16:44:26.517902",
+        "author": {
+          "id": "079aa6229eedeeb46d7f907e3bc9e37c",
+          "source_id": "tbharath",
+          "username": "tbharath",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-07-25T16:44:26.518058",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "75d78bbf2c93a7403414288124a67aa6",
+      "source_id": "49047883",
+      "title": "Ask HN: Why are Meta products so bad?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">I am trying to use WhatsApp web and it's taking over 4 minutes just to load.<p>Other apps like Telegram, Gmail load in seconds.<p>I generally noticed all meta products are so clunky. What causes this?</p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-25T16:44:23.703377",
+      "updated_at": "2026-07-25T16:44:23.703377",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "7c810111e292d177ff600db3caa5db37",
+        "source_id": "asxndu",
+        "username": "asxndu",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 4,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49047883",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "27192171c1987ca2e8da1273c9c4c30a",
+        "source_id": "49047941",
+        "content": {
+          "text": "The need for telemetry data for advertising/tracking, bloat in both software + their organization, having a monopoly and not having to worry about turning off users due to buggy software. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-25T16:44:29.336375",
+        "updated_at": "2026-07-25T16:44:29.336375",
+        "author": {
+          "id": "aae1e4c475afe3199bc43fb6157be3ff",
+          "source_id": "fullshark",
+          "username": "fullshark",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a14ade29cefe3191da6764425cc6f9aa",
+        "source_id": "49048200",
+        "content": {
+          "text": "They changed their name to Meta but it is still Facebook. Still, Facebook is just a data mining company. Others give them money for them to put ads on your eyes and they do all they can to get as much data possible from you. Like all companies they produce some good and bad things, but you are the product. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-25T16:44:29.336897",
+        "updated_at": "2026-07-25T16:44:29.336897",
+        "author": {
+          "id": "d83c4d995f7b624d3469ec58fd4c62b7",
+          "source_id": "roscas",
+          "username": "roscas",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "323548d9183f3ac2a79a56a4b94f2c11",
+        "source_id": "49047958",
+        "content": {
+          "text": "I think Zuckerberg is the least innovative CEO in tech. The only reason meta is surviving the game is its social media ecosystem. They tried to step out of their comfort zone with metaverse but failed horribly reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-25T16:44:29.337365",
+        "updated_at": "2026-07-25T16:44:29.337365",
+        "author": {
+          "id": "97e6aeb1354634398af053d40e663ac0",
+          "source_id": "manzarali-hn",
+          "username": "manzarali-hn",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-07-25T16:44:29.337520",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "b4683220149a08d4b5e0e5407cb1d805",
+      "source_id": "49045970",
+      "title": "Ask HN: Is neuromorphic computing going to replace traditional AI?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-25T16:44:23.704213",
+      "updated_at": "2026-07-25T16:44:23.704213",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "5fa4eef4831a814d8d4cc0d6f74b9d8a",
+        "source_id": "lennart-rth",
+        "username": "lennart-rth",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 3,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49045970",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-25T16:44:32.220857",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "d8247586497f0971ee3b2fcd4f2203c2",
+      "source_id": "49045271",
+      "title": "Ask HN: How would you harden AI changes to a 1M-line legacy SaaS before review?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">I’m not a software engineer, but I’ve been running an experiment to see whether agentic development could produce a useful prototype on top of an existing SaaS codebase.<p>The codebase is 1M+ lines, 15 years old, hosted on Azure, and primarily written in C# and React.<p>The prototype needs to be available for customer testing in September. No developers were available to work on it full-time, although I could occasionally get help with specific technical issues. An engineer will evaluate the implementation in August and decide how much confidence we can have in the AI-generated code so that we can decide how to “convert” the code to production-grade.<p>My question is what I can do before August, primarily using AI tools and manual testing, to make the code as robust and reviewable as possible. I want to increase the likelihood that the AI-generated code would be so good that the path to production-grade would be closer to “copy-paste” than building everything again from scratch.<p>Environment\nThe prototype is being developed in a separate branch, deployed to a separate internal environment, and connected to its own database and schema.<p>Planning process\nWe interviewed customers in June and turned the resuls into an MVP spec.<p>The process was approximately:\n1. Write a PRD.\n2. Use an LLM to convert the PRD into an architecture document, which was reviewed by an architect.\n3. Create product designs consisting of screen images and md files containing interaction details ans edge cases with Claude Design.\n4. Use an agent to break the work into epics using the PRD and architecture document as guardrails.<p>The epics were the most granular planning artifacts that received review by me and the architect.<p>Development process\nThe development flow was intended to run with little intervention:\n1. A planner agent converted epics into md story files and Jira stories\n2. A coding agent implemented the stories including tests and opened PRs\n3. A reviewer agent reviewed the PRs, requested changes, and merged them into the prototype branch<p>The coding agent polled PRs for review comments and could escalate issues back to the planner.<p>Agents also had a “stop and ask” list for decisions they were not allowed to make autonomously. I (and a few times an engineer) were involved by resolving those escalations and by manually testing the accumulated changes end to end each day.<p>Most implementation and initial review were done with Claude-based agents. For riskier PRs, I also used Codex as a reviewer. The second-model review found substantially more relevant issues in the Claude-generated code, but token quotas limited the use.<p>I had separate refactoring and harden runs for the code as well.<p>Results\nThe planning and setting up the environment and agentic flow took about two weeks and then the agents built the whole MVP in about two weeks. Size-wise it was 13k lines of functional code + the same amount for tests.<p>What I would like advice on\nAssuming that I cannot get substantial developer involvement before the review, how can I increase the likelihood that the code is as close to production-grade as possible?<p>Here are some of the questions I have been thinking about:\n1. What checks or development loops would give the largest improvement in confidence before an engineer reviews the code?\n2. How would you use independent agents or models to reduce the risk that the coder and reviewer make the same incorrect assumptions?\n3. Should tests be generated by a separate agent from the one that wrote the implementation? \n4. What documentation or evidence would make the eventual engineering review faster and more reliable? \n5. If you had only a few weeks to improve this prototype before handing it to an engineer, what would you prioritize?</p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-25T16:44:23.704915",
+      "updated_at": "2026-07-25T16:44:23.704915",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "222ddb57376c055777174617554e0701",
+        "source_id": "thegreatkahuna",
+        "username": "thegreatkahuna",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 3,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49045271",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "b8ff9ccdcd2fd86125531b9032bdb5c4",
+        "source_id": "49048103",
+        "content": {
+          "text": "If you're planning to put it into production anything you do outside of bringing somebody qualified at this point is likely a waste of time. Highly recommend this recent talk by Kelsey Hightower on the subject - https://www.youtube.com/watch?v=A7WFt2JQ5sg reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-25T16:44:33.660489",
+        "updated_at": "2026-07-25T16:44:33.660489",
+        "author": {
+          "id": "c27c733bffd2489f7ab4adf88367b2a1",
+          "source_id": "taleodor",
+          "username": "taleodor",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "fae25de8d8e4385c8a06a36637797ac9",
+        "source_id": "49047068",
+        "content": {
+          "text": "In the past, problems like these were solved with software engineers. Those trained through schooling and experience to be able to read through and understand obscure code conventions and programming quirks. Their kind has almost gone extinct in this universe... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-25T16:44:33.661083",
+        "updated_at": "2026-07-25T16:44:33.661083",
+        "author": {
+          "id": "771d4a2085412375bd5490d7f895cf9a",
+          "source_id": "dnemmers",
+          "username": "dnemmers",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "991289869cf4c82b40c117936d8804ac",
+        "source_id": "49047192",
+        "content": {
+          "text": "I hear you. This must have been a long time ago, like last year or something. Those were the times. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-25T16:44:33.661593",
+        "updated_at": "2026-07-25T16:44:33.661593",
+        "author": {
+          "id": "222ddb57376c055777174617554e0701",
+          "source_id": "thegreatkahuna",
+          "username": "thegreatkahuna",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0dfc6e756308f1ed2020e69e415b5cff",
+        "source_id": "49046755",
+        "content": {
+          "text": "At this point what stops you from asking AI this question? \nBut honestly, extensive QA. There are probably more quirks than you could imagine reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-25T16:44:33.662142",
+        "updated_at": "2026-07-25T16:44:33.662142",
+        "author": {
+          "id": "43c3add8beed05e57979f414c2a7a52f",
+          "source_id": "krembo",
+          "username": "krembo",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2efe0fa8d9b10841eac7529c1a3cdc94",
+        "source_id": "49047147",
+        "content": {
+          "text": "I have asked the AI, but was hoping for a second opinion, ideally by someone who has experience from doing something a bit similar. Your point about QA is interesting. Bob Martin, doesn't review AI code any more, just does extensive QA ( https://x.com/unclebobmartin/status/2080257779395154409 ). Perhaps the key move would be for me to now focus on QA and try to nudge the engineering review to also emphasize testing over reading code? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-25T16:44:33.662698",
+        "updated_at": "2026-07-25T16:44:33.662698",
+        "author": {
+          "id": "222ddb57376c055777174617554e0701",
+          "source_id": "thegreatkahuna",
+          "username": "thegreatkahuna",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "79fcf275635e9626bafb8c2eea90be80",
+        "source_id": "49047265",
+        "content": {
+          "text": "Once you no longer \"own\" the code, does it matter? If you provide a very detail set of specifications and success criteria then you can turn it into a black box. The code is no longer the asset, just the business that uses it. You can use AI to extract the requirements from the existing code and then modify as needed however, I would recommend doing this in two phases: first the conversion, then the enhancements. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-25T16:44:33.663292",
+        "updated_at": "2026-07-25T16:44:33.663292",
+        "author": {
+          "id": "fd09b94226bfd07bc7e2819ceb2a4e6f",
+          "source_id": "scaredreally",
+          "username": "scaredreally",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "53843ca16ee1827ccf30f78925ae7f0f",
+        "source_id": "49047396",
+        "content": {
+          "text": "I suppose you are right at least what comes to the functionality. Security is the one thing where I am sure that my company will require some peaking under the hood. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-25T16:44:33.663915",
+        "updated_at": "2026-07-25T16:44:33.663915",
+        "author": {
+          "id": "222ddb57376c055777174617554e0701",
+          "source_id": "thegreatkahuna",
+          "username": "thegreatkahuna",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-07-25T16:44:33.664178",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "427587ca576a8cd9640c5972f0c95dac",
+      "source_id": "49042453",
+      "title": "Ask HN: What's Up with Archive.today?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-25T16:44:23.705681",
+      "updated_at": "2026-07-25T16:44:23.705681",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "ae1748a4e5eb05b1edbaf2b0486bddd7",
+        "source_id": "nobody9999",
+        "username": "nobody9999",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 5,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49042453",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-25T16:44:37.839366",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "0133d037a8ea0dacfc99b80276c833e7",
+      "source_id": "49022990",
+      "title": "Ask HN: Is there a website that tracks excessive writes to SSDs in OS/app betas?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-25T16:44:23.706249",
+      "updated_at": "2026-07-25T16:44:23.706249",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "9fbfc99674a659d2f2b0af967455b589",
+        "source_id": "amichail",
+        "username": "amichail",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 30,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49022990",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-25T16:44:41.681267",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "c5604e31d2add0ab2f701afbed01bf21",
+      "source_id": "49039128",
+      "title": "Ask HN: How do I find startups that are looking for a dev? How to approach them?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-25T16:44:23.706695",
+      "updated_at": "2026-07-25T16:44:23.706695",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "ca1a1d7c6513d95b35bdcb272fbae3f4",
+        "source_id": "need_a_work23",
+        "username": "need_a_work23",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 5,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49039128",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-25T16:44:47.524731",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "e58857a53408b4d945041b44eb598df4",
+      "source_id": "49019663",
+      "title": "Ask HN: If OpenAI hacked HuggingFace, why aren't OpenAI prosecuted?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">Hugging Face put up a blogpost saying that they reported the hacking to the authorities: https://huggingface.co/blog/security-incident-july-2026<p>It's not clear whether they mean authorities for their US HQ or the French authorities.<p>But I can't find any announcement of the follow-up. Is there a case open against OpenAI the company? Is their management interviewed by the authorities? Anyone detained yet?<p>I guess the people who left the model running unattended risk at least a suspended sentence here in France.<p>Where are concerned citizens making inquiries on this matter and reporting in their viral blogposts?</p></p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-25T16:44:23.707468",
+      "updated_at": "2026-07-25T16:44:23.707468",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "a0782a3846191cd08e5ee4b950f3490c",
+        "source_id": "sam_lowry_",
+        "username": "sam_lowry_",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 29,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49019663",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "32ce0109ca6394410c257b1fdba20a40",
+        "source_id": "49019788",
+        "content": {
+          "text": "They aren't getting prosecuted because everyone involved has made nice and turned it into a marketing exercise. I heard about it on the radio (local Johannesburg radio station)  before I saw it on HN. The economist had a full article up about it before the end of the day, and in the evening Sky news had talking heads up chatting about what it all meant while clearly being clueless. Someone spent a LOT of money to turn this into a PR exercise for both companies. We'll never hear the entire story about what happened but I'm sure there was a lot of handshaking going on behind the scenes. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-25T16:44:50.438334",
+        "updated_at": "2026-07-25T16:44:50.438334",
+        "author": {
+          "id": "cd3c8764df1a7c7d7b42e1794a799e3a",
+          "source_id": "elp",
+          "username": "elp",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e3b82f042a5a8db19fe8d93f962b9c65",
+        "source_id": "49019879",
+        "content": {
+          "text": "PR exercise or not, there was a successful hacking attempt, the company behind it acknowledged it. It's a crystal clear case for OFAC, the French cyber-security branch of the National Police. I guess FBI would happily move such a simple case through the court system as well. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-25T16:44:50.438953",
+        "updated_at": "2026-07-25T16:44:50.438953",
+        "author": {
+          "id": "a0782a3846191cd08e5ee4b950f3490c",
+          "source_id": "sam_lowry_",
+          "username": "sam_lowry_",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e98af17bc475c84ce1a0cc5a5f9b8b5d",
+        "source_id": "49020117",
+        "content": {
+          "text": "Nobody is pressing charges because nothing happened. It wasn't nefarious either. I don't get what France has to do with this Huggingface and OpenAI are both US companies. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-25T16:44:50.439447",
+        "updated_at": "2026-07-25T16:44:50.439447",
+        "author": {
+          "id": "965dde4b3ade933be9364c80743a9fa3",
+          "source_id": "cinntaile",
+          "username": "cinntaile",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7fb7134909e183776f5e5c2dba3b3257",
+        "source_id": "49022042",
+        "content": {
+          "text": "> It wasn't nefarious either. Agree. But it was clearly recklessness, given they've have a history of similar issues in the past, they literally ran these sort of tests on 3rd party infrastructure while knowing what the risks were (alternatively, didn't evaluate the risks beforehand so they didn't even think this could happen), and didn't sufficiently isolate something that can clearly impact others and the public. Had this been a chemical, virus or some other regulated thing, we'd be seeing people going to jail over this. But given LLMs are still fairly dumb and doesn't yet seek world domination or the downfall of humanity, this is apparently OK and entertainment instead. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-25T16:44:50.440024",
+        "updated_at": "2026-07-25T16:44:50.440024",
+        "author": {
+          "id": "ce8377b632ae8cfdbcb2d078429130ec",
+          "source_id": "embedding-shape",
+          "username": "embedding-shape",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "89c9da25a49dd03a9c6c569e13ca263c",
+        "source_id": "49023146",
+        "content": {
+          "text": "Well a chemical spill has victims. Whether this incident has a victim is up for debate. From my vantage point (and presumably OP's) HF as a foundational institution in the US AI industry stands to gain a lot more from successful doom marketing than they lose from, what? A dozen devs having to respond to an incident? If they could know going in that there would be a net gain for HF in this incident, then it really nullifies the distinction between \"recklessness\" and \"intention\" on OpenAI's part. It's no coincidence they chose a target in their own industry with hundreds of personal relationships between them. It's not like they hacked into an Indonesian bank or something. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-25T16:44:50.440563",
+        "updated_at": "2026-07-25T16:44:50.440563",
+        "author": {
+          "id": "204ff0f132a67f4d45533d4e3da35b29",
+          "source_id": "jackb4040",
+          "username": "jackb4040",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "11acd8817ec0086de043bc2453f8b257",
+        "source_id": "49027064",
+        "content": {
+          "text": "> Had this been a < thing it was not > we'd be seeing people going to jail over this. \"If my grandmother had wheels, she would have been a bike.\" reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-25T16:44:50.441147",
+        "updated_at": "2026-07-25T16:44:50.441147",
+        "author": {
+          "id": "cc5ff9cd4c96856e64e8dc88426eb24d",
+          "source_id": "tedmiston",
+          "username": "tedmiston",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2b4d8dc7ca65698e54af9e71f187c69f",
+        "source_id": "49020666",
+        "content": {
+          "text": "AFAIU HuggingFace is a US company only because all successful companies end up setting up a US HQ. Anyway. Allow me to politely disagree with the essence of your statement. Hacking happened. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-25T16:44:50.441764",
+        "updated_at": "2026-07-25T16:44:50.441764",
+        "author": {
+          "id": "a0782a3846191cd08e5ee4b950f3490c",
+          "source_id": "sam_lowry_",
+          "username": "sam_lowry_",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "11bc36a136e73e0cb59772334731e28c",
+        "source_id": "49021513",
+        "content": {
+          "text": "I think the no action results speak for themselves. I'm not sure what there is to disagree about to be honest. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-25T16:44:50.442381",
+        "updated_at": "2026-07-25T16:44:50.442381",
+        "author": {
+          "id": "965dde4b3ade933be9364c80743a9fa3",
+          "source_id": "cinntaile",
+          "username": "cinntaile",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4e53b0f1829f55aede60ce0d173d82e0",
+        "source_id": "49022688",
+        "content": {
+          "text": "A victim doesn't have to press charges for charges to be filed by the state. In fact, historically, the state is the one to file charges. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-25T16:44:50.443035",
+        "updated_at": "2026-07-25T16:44:50.443035",
+        "author": {
+          "id": "cfc4f550207359641680457b07ae1ba9",
+          "source_id": "arm32",
+          "username": "arm32",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "96b0cad5e01cde9ba95a9e1260a5ed94",
+        "source_id": "49040779",
+        "content": {
+          "text": "> PR exercise or not, there was a successful hacking attempt, the company behind it acknowledged it. Do you think GPT-2 is too dangerous to release? https://news.ycombinator.com/item?id=48465269 reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-25T16:44:50.443735",
+        "updated_at": "2026-07-25T16:44:50.443735",
+        "author": {
+          "id": "0c2ce6fec925f49e1d741b82845c6218",
+          "source_id": "mejutoco",
+          "username": "mejutoco",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "794b58423a1b46131cacd9741ce7da9e",
+        "source_id": "49029805",
+        "content": {
+          "text": "I’m not convinced it wasn’t a PR stunt from the start reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-25T16:44:50.444437",
+        "updated_at": "2026-07-25T16:44:50.444437",
+        "author": {
+          "id": "9d458fbe3f3db3eeb062a691fc411fae",
+          "source_id": "eli",
+          "username": "eli",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4c480b12708d6354774435ac56f21aed",
+        "source_id": "49022544",
+        "content": {
+          "text": "I remember when everyone involved with AaronSW's JSTOR downloading made nice and turned it into a fun time, until a certain two government officials decided that doesn't matter. OpenAI could be considered a legal actor under the CFAA, notably: unauth'd acc. §1030(a)(2), fraud §1030(a)(4), (kind of a stretch but) damage §1030(a)(5), and conspiracy. I miss ya, Aaron. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-25T16:44:50.445199",
+        "updated_at": "2026-07-25T16:44:50.445199",
+        "author": {
+          "id": "cfc4f550207359641680457b07ae1ba9",
+          "source_id": "arm32",
+          "username": "arm32",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7c3dd30b0d2c617b7bbc9e5ed04a6d79",
+        "source_id": "49035122",
+        "content": {
+          "text": "Aaron was offered two plea deals, one that carried 4 months and another with 6 months but a chance to plead with the judge for a lesser, perhaps entirely noncustodial sentence. It’s a particularly poor example of government cruelty. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-25T16:44:50.445978",
+        "updated_at": "2026-07-25T16:44:50.445978",
+        "author": {
+          "id": "35b69f3dd563af10cb9de993f1f1bcba",
+          "source_id": "illliillll",
+          "username": "illliillll",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8b9cbb52b238ae6463109beb4509e60b",
+        "source_id": "49021298",
+        "content": {
+          "text": "Had this happened to any solo person, they'd surely be thrown in jail immediately with a heavy bond. Rules are for poor people. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-25T16:44:50.446764",
+        "updated_at": "2026-07-25T16:44:50.446764",
+        "author": {
+          "id": "5078aed1d89c30a2d6b8b9fe57ac1095",
+          "source_id": "0xmattf",
+          "username": "0xmattf",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7ac3850bbd3e8a5051af05332474583f",
+        "source_id": "49030225",
+        "content": {
+          "text": "There is a legal gap. The main law people look at is the Computer Fraud and Abuse Act (CFAA), plus state computer-crime laws, contract terms, and general civil claims.\nHowever, LLM active attacks do not always fit neatly into existing hacking laws, because the system may be accessed through normal text prompts rather than by breaking into a classic computer boundary. That is why legal commentators say the U.S. still lacks a clean, specific rule for adversarial AI/LLM testing and attacks.\nIn order to prosecuted, there must be  prosecutor or complainant to sue, but in this case, it is so complicate due to the legal gap. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-25T16:44:50.447564",
+        "updated_at": "2026-07-25T16:44:50.447564",
+        "author": {
+          "id": "180e9c9ead1ca4a5aed2424ba1a9382e",
+          "source_id": "boveyking",
+          "username": "boveyking",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "89fab8a17863cd083907fb41b2bb7e0a",
+        "source_id": "49030310",
+        "content": {
+          "text": "Could you clarify how an LLM compromising a system differs from any other software initiated by a user that achieves the same? Both are software, both are initiated by a user. Is “Oops, I didn’t mean to” an affirmative defense under CFAA? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-25T16:44:50.448397",
+        "updated_at": "2026-07-25T16:44:50.448397",
+        "author": {
+          "id": "f68fe65d2d631b48d24ca08150d82148",
+          "source_id": "therealpygon",
+          "username": "therealpygon",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0631e69eb944882bd99cffb7d97cf3ce",
+        "source_id": "49019762",
+        "content": {
+          "text": "That's an interesting point. I found the narrative - or at least what and how it was closed - interesting. \nThe questions is all about the responsibility and accountability. Is there a clear legislation about who is responsible for the actions of the AI model in the US? My assumption is no (but I am no expert in US law with regards to this). It would in any case become a very expensive law suite. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-25T16:44:50.449266",
+        "updated_at": "2026-07-25T16:44:50.449266",
+        "author": {
+          "id": "a57008888de5c22bd402b422e1bce50e",
+          "source_id": "eckelj",
+          "username": "eckelj",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9065b968d8d8789e69fc2c58445ffe18",
+        "source_id": "49019797",
+        "content": {
+          "text": "> My assumption is no What do you mean by no ? If I hack into Hugging Face, and I publicly brag about it, I will be prosecuted. If I do it using a computer, my computer won't be prosecuted. I will be, but the accusation may change from willful wrongdoing to gross negligence if the computer is sophisticated enough to do the evil thing when left unattended. There are already laws about hacking in the concerned countries. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-25T16:44:50.450258",
+        "updated_at": "2026-07-25T16:44:50.450258",
+        "author": {
+          "id": "a0782a3846191cd08e5ee4b950f3490c",
+          "source_id": "sam_lowry_",
+          "username": "sam_lowry_",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a733eb4c0fcb113efa022a87aa06c911",
+        "source_id": "49031817",
+        "content": {
+          "text": "Perhaps none of the organisations involved want a court to be setting precidents on the actions of ai models? Also, what other people have said about it being turned into a (mutually beneficial?) marketing opportunity. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-25T16:44:50.451187",
+        "updated_at": "2026-07-25T16:44:50.451187",
+        "author": {
+          "id": "062d45273b9ed7d7e350b1a0390234a5",
+          "source_id": "andyjohnson0",
+          "username": "andyjohnson0",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "fab5d0e9f6fcd0a7564576eb8d8a74e1",
+        "source_id": "49020064",
+        "content": {
+          "text": "it might be possible to report it as an incident but not as a crime. unsure about France but i can imagine there is a distinction. depending then on openai response and hugging faces reported severity/damages etc  it could go further to a settlement or court. since in France i think u cannot sue like in the US, it might not be appealing to pursue further legal action due to involved costs/time. Also its unlikely an engineer would get penalty unless it can be proven they did it with malicious intent. If its an operational mistake afaik if there is no huge damage or human cost (injury or worse) then it would be a business / executives thing not a workerbee problem reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-25T16:44:50.452175",
+        "updated_at": "2026-07-25T16:44:50.452175",
+        "author": {
+          "id": "d87ee91494b24796c531143b21e9779f",
+          "source_id": "saidnooneever",
+          "username": "saidnooneever",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7a543b93eb5776e6717fe5df7538e0bd",
+        "source_id": "49022083",
+        "content": {
+          "text": "In the US hacking is a federal crime, not just a civil matter. There are famous cases of people being imprisoned for hacking. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-25T16:44:50.453152",
+        "updated_at": "2026-07-25T16:44:50.453152",
+        "author": {
+          "id": "317e1a7f649a3a08e49a8b60afdb1268",
+          "source_id": "RevEng",
+          "username": "RevEng",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5d1948b4c2ee7d430abc89d29e65a0a8",
+        "source_id": "49020708",
+        "content": {
+          "text": "It's surreal that we (media, govt, public, AI companies) are in awe of how dangerous a model can be how much it can misbehave. We seem to be measuring AI on how much harm it can do rather than how much good it can do. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-25T16:44:50.454181",
+        "updated_at": "2026-07-25T16:44:50.454181",
+        "author": {
+          "id": "381c133dbcb9270e8c7571d608310009",
+          "source_id": "tdu01",
+          "username": "tdu01",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "842ed7d4c7af98deccaf83ad5d85e097",
+        "source_id": "49022044",
+        "content": {
+          "text": "It doesn't matter how much good it can do if it can act independently and take over the world. That's worst case scenario, but the point stands - if the potential for such dangers exists, those dangers are far more important to consider than what good it could also produce. Consider the history of nuclear fission and the atomic bomb. Regardless how beneficial nuclear power generation is and other uses of radioactive material, it's highly regulated for fear of people making nuclear weapons, to the point that the wars in Iraq and Iran were started under the pretense of preventing another country from possibly developing one. AI should be considered as being possibly at least as dangerous. No, that doesn't mean I'm in favor of this scaremongering over open weight models and Chinese sources. US companies aren't to be trusted to develop AI responsibly anymore than any other source and they shouldn't be the only ones allowed to wield its power. This is just anticompetitive behavior by a company who sees new competition entering their market, threatening their market share. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-25T16:44:50.455237",
+        "updated_at": "2026-07-25T16:44:50.455237",
+        "author": {
+          "id": "317e1a7f649a3a08e49a8b60afdb1268",
+          "source_id": "RevEng",
+          "username": "RevEng",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "14136ac8963fccd0e170217952d6229f",
+        "source_id": "49020890",
+        "content": {
+          "text": "Because the subtext is the cyberwarfare and military applications - \"look how dangerous my AI is, now I can use it vanquish my enemies!\" reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-25T16:44:50.456303",
+        "updated_at": "2026-07-25T16:44:50.456303",
+        "author": {
+          "id": "f15c78841b2ae7d01e36eca2745b1bdf",
+          "source_id": "kingkongjaffa",
+          "username": "kingkongjaffa",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f6c398036ecd7c3fdb29e773da2e30fd",
+        "source_id": "49021150",
+        "content": {
+          "text": "It's more: \"\"look how dangerous my AI is, now restrict and block access to open source models and use only mine!\" reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-25T16:44:50.457387",
+        "updated_at": "2026-07-25T16:44:50.457387",
+        "author": {
+          "id": "c26b59df4ddc86f7935cd7ba81a223d2",
+          "source_id": "Cherryontop11",
+          "username": "Cherryontop11",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d83d15b854a1f41d0c1c2b5a8e01282e",
+        "source_id": "49021982",
+        "content": {
+          "text": "All of the leaders of this industry are steeped in LessWrong thought and effective accelerationism and stories like Roko's Basilisk. It shouldn't come as a surprise that this is the narrative they ended up constructing. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-25T16:44:50.458509",
+        "updated_at": "2026-07-25T16:44:50.458509",
+        "author": {
+          "id": "204ff0f132a67f4d45533d4e3da35b29",
+          "source_id": "jackb4040",
+          "username": "jackb4040",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6e4e01f22e8639786f6f2a0f096fd4b4",
+        "source_id": "49021334",
+        "content": {
+          "text": "More discussion: https://news.ycombinator.com/item?id=48997548 reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-25T16:44:50.459662",
+        "updated_at": "2026-07-25T16:44:50.459662",
+        "author": {
+          "id": "d611866847fd550d9df8c61f16b19446",
+          "source_id": "ChrisArchitect",
+          "username": "ChrisArchitect",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "672574974dfe07a6a089728ea7d0da22",
+        "source_id": "49022029",
+        "content": {
+          "text": "I feel like OpenAI fabricated a fake news story to be like Anthropic when they said Mythos was very powerful and had hacked things too. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-25T16:44:50.460831",
+        "updated_at": "2026-07-25T16:44:50.460831",
+        "author": {
+          "id": "db6e135d0622ee67e3c92d60835cf2b5",
+          "source_id": "abdelrahman_d",
+          "username": "abdelrahman_d",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "931cec6e233bd5f35d3df02ea6d269d5",
+        "source_id": "49022227",
+        "content": {
+          "text": "Have they released the prompt they gave it in the debrief? I wouldn't be surprised if they said something to the effect of \"Do anything you can to raise out of your sandbox. Find for the answers to these evals by any means necessary\" Which doesn't necessarily mean what happened isn't any less momentus (anyone can ask a question like that), but it's very different from the notion they're trying to convey to laymen of \"we turned it on and it hacked it's way into the mainframe\" reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-25T16:44:50.462041",
+        "updated_at": "2026-07-25T16:44:50.462041",
+        "author": {
+          "id": "3e3a3a572dc1f9e4b450a63d48174f34",
+          "source_id": "PhunkyPhil",
+          "username": "PhunkyPhil",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9aac1e2e1847b0b5834e40d0e3b696fe",
+        "source_id": "49022559",
+        "content": {
+          "text": "Exactly, The gap between \"it escaped its containment\" and \"it optimized for a prompt telling it to breach a system\" is massive. Marketing teams love blurring that line. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-25T16:44:50.463261",
+        "updated_at": "2026-07-25T16:44:50.463261",
+        "author": {
+          "id": "db6e135d0622ee67e3c92d60835cf2b5",
+          "source_id": "abdelrahman_d",
+          "username": "abdelrahman_d",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6966e59cb1da3d43649c079b941e9e71",
+        "source_id": "49023210",
+        "content": {
+          "text": "If I could put money on this outcome I would. Sadly none of the Kalshi bros have any interest. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-25T16:44:50.464511",
+        "updated_at": "2026-07-25T16:44:50.464511",
+        "author": {
+          "id": "204ff0f132a67f4d45533d4e3da35b29",
+          "source_id": "jackb4040",
+          "username": "jackb4040",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4f70c286b3f62e73b5d36397a7fb96cc",
+        "source_id": "49025478",
+        "content": {
+          "text": "successful prosecution would require intent to cause damage and causation of real damage. what happened could be negligence if it caused unintentional damage, or what amounts to tortious interference, however that probably requires knowledge of possible damages. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-25T16:44:50.465804",
+        "updated_at": "2026-07-25T16:44:50.465804",
+        "author": {
+          "id": "e6cdf195108c52836a0d43f73193711c",
+          "source_id": "rolph",
+          "username": "rolph",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ac2402642e92cf330e46c0fd057364f9",
+        "source_id": "49034909",
+        "content": {
+          "text": "Lawbreaking is almost never prosecuted, so you’ll have to explicitly explain the reasoning behind your question. Far less than 1% of all crime which happens is prosecuted, why should OpenAI be prosecuted? Since the necessary context isn’t provided, this just seems like an utterly stupid question. The obvious answer is “OpenAI probably isn’t being prosecuted because crimes are almost never prosecuted”. It’s like asking why I don’t get arrested every time I get stopped shitfaced drunk at the La Turbie police checkpoint. The answer is obvious: The cops are looking for brown people, there are no taxis here and after 2am everyone driving in the vicinity of Monaco will be drunk. i.e. nobody gives a shit reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-25T16:44:50.467141",
+        "updated_at": "2026-07-25T16:44:50.467141",
+        "author": {
+          "id": "35b69f3dd563af10cb9de993f1f1bcba",
+          "source_id": "illliillll",
+          "username": "illliillll",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b14b9d31d600f8c579df38a55a025a06",
+        "source_id": "49019749",
+        "content": {
+          "text": "Just as there is \"too big to fail\", there is \"too big to prosecute\". reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-25T16:44:50.468481",
+        "updated_at": "2026-07-25T16:44:50.468481",
+        "author": {
+          "id": "d7462fd4cd6387945f0a179886626e01",
+          "source_id": "FrankWilhoit",
+          "username": "FrankWilhoit",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "19685ad94a8d1965e0603fcb0d15c120",
+        "source_id": "49019765",
+        "content": {
+          "text": "true! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-25T16:44:50.469867",
+        "updated_at": "2026-07-25T16:44:50.469867",
+        "author": {
+          "id": "a57008888de5c22bd402b422e1bce50e",
+          "source_id": "eckelj",
+          "username": "eckelj",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b9f1db95f1b32c0b09491c5ed81959df",
+        "source_id": "49023669",
+        "content": {
+          "text": "your assuming (incorrectly) this actually happened reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-25T16:44:50.471255",
+        "updated_at": "2026-07-25T16:44:50.471255",
+        "author": {
+          "id": "303ef6acce413a5f34cbb79a72b3616b",
+          "source_id": "rimworld",
+          "username": "rimworld",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-07-25T16:44:50.472321",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "d461fb04950470224d8e43989bc7be58",
+      "source_id": "49033604",
+      "title": "Ask HN: How to get in touch with Paddle (MoR)",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-25T16:44:23.708024",
+      "updated_at": "2026-07-25T16:44:23.708024",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "9ff75b8b9e05cdefb63373be1abc5c5f",
+        "source_id": "probst",
+        "username": "probst",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 6,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49033604",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-25T16:44:54.702450",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "6fd9258ae1da5452f7c5b69c1b2e4203",
+      "source_id": "49041446",
+      "title": "Ask HN: What are your current favorite monitoring and observability solutions?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-25T16:44:23.708456",
+      "updated_at": "2026-07-25T16:44:23.708456",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "836966ed87c2f7687a8bbd4048ec0a50",
+        "source_id": "Exoristos",
+        "username": "Exoristos",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 3,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49041446",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-25T16:44:57.950637",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
   }
 ]
