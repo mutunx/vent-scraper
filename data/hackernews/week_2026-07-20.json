@@ -20638,5 +20638,2025 @@
       ],
       "is_nsfw": false
     }
+  },
+  {
+    "post": {
+      "id": "864a3043c2d23ba1f68105e0fe2c811b",
+      "source_id": "49057972",
+      "title": "Ask HN: What are the most promising RL fields for a new master student?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">i am an incoming msc student thinking about a research direction in reinforcement learning. which rl subfields do you think have the most potential right now? i am particularly interested in emboddied ai and bcis.</div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-26T16:45:51.372491",
+      "updated_at": "2026-07-26T16:45:51.372491",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "b06c582b5e0ea48584061da22f769cba",
+        "source_id": "zecice",
+        "username": "zecice",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 26,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49057972",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "e9657f15123fc0b5370aef61f2df2e93",
+        "source_id": "49058520",
+        "content": {
+          "text": "General advice from a CV PhD dropout: Lean onto the interests of assistant professors at your school instead of trying to find promising RL subtopics. This way you can get time with someone who’s deep in the field and can be a guiding light for your projects. If you’re really into embodied AI, you can add that to an existing project but doing it by yourself can be extremely tough especially if your topic requires a lot of compute and your last name is not Rockefeller. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-26T16:45:52.791156",
+        "updated_at": "2026-07-26T16:45:52.791156",
+        "author": {
+          "id": "a46f5c74814b047d5a740242fd2463c8",
+          "source_id": "gessha",
+          "username": "gessha",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ec5aad6250995d6ee24c71a1880efd27",
+        "source_id": "49058868",
+        "content": {
+          "text": "Concur! (CS PhD) And in general, depending on \"funding\", simply tapping latent ideas from profs will be an instant win-win. They've wanted to try it, and you've wanted to do work in the field. Approach it that way, as a meaningful collaboration for both of you - and if you have more than one option, then bias towards personality match and \"fun\" factor. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-26T16:45:52.791621",
+        "updated_at": "2026-07-26T16:45:52.791621",
+        "author": {
+          "id": "6986f400613cac008fa065d32dee109f",
+          "source_id": "jvanderbot",
+          "username": "jvanderbot",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "12e1a7a6012e639696d4b59036735c96",
+        "source_id": "49058738",
+        "content": {
+          "text": "It is especially important to work with early-stage researchers, as they are more eager to publish and obtain career stability than full professors. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-26T16:45:52.792028",
+        "updated_at": "2026-07-26T16:45:52.792028",
+        "author": {
+          "id": "8084b5d1ae53c6c6bc8d3a688a3d3b5b",
+          "source_id": "Tryk",
+          "username": "Tryk",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "913d49bfa8f68a9812df4933836d7b4c",
+        "source_id": "49059806",
+        "content": {
+          "text": "Intrinsic motivation/curiosity driven exploration/novelty seeking feels like it has a breakthrough paper waiting. If someone could get those methods working for LLMs, we start getting things like move37 but in math proofs and then everything else reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-26T16:45:52.792456",
+        "updated_at": "2026-07-26T16:45:52.792456",
+        "author": {
+          "id": "b8f154998d3244b3d1e16fbd46fc6452",
+          "source_id": "itkovian_",
+          "username": "itkovian_",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f20261b5cee48071ac83a94a0dffa713",
+        "source_id": "49058685",
+        "content": {
+          "text": "My advice, as somebody who has a master’s degree, is to pick a topic that you are really interested in, and that captures your imagination. You will have to dedicate yourself to this work for a considerable amount of time. Doing a CV-driven master thesis will be miserable and more likely to fail. It should be something that is fun and captivating. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-26T16:45:52.792907",
+        "updated_at": "2026-07-26T16:45:52.792907",
+        "author": {
+          "id": "a9ea0f86665b9c599f7a5142dcb98638",
+          "source_id": "Hendrikto",
+          "username": "Hendrikto",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "bef9d09ba5284e341ab959ab6cff722b",
+        "source_id": "49059396",
+        "content": {
+          "text": "I would probably follow whatever Farama is doing, https://farama.org/projects especially any of the (MO) multi-objective stuff ... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-26T16:45:52.793366",
+        "updated_at": "2026-07-26T16:45:52.793366",
+        "author": {
+          "id": "d91df25718688ee6381b75c78aab48f9",
+          "source_id": "jonbaer",
+          "username": "jonbaer",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b5f79e9015655987ba29a4e624c47eff",
+        "source_id": "49058474",
+        "content": {
+          "text": "RL for closed-loop adaptive BCIs and sim-to-real robotics still look like the strongest practical directions right now. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-26T16:45:52.793802",
+        "updated_at": "2026-07-26T16:45:52.793802",
+        "author": {
+          "id": "b771fb8742a68d4094de841cd3d32650",
+          "source_id": "murzynalbinos",
+          "username": "murzynalbinos",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "536aac2e7051881b55938577ea17215f",
+        "source_id": "49058841",
+        "content": {
+          "text": "On Policy Self Distillation and Active Learning. Anything that increases sample efficiency by providing a richer more dense feedback signal and is more efficient at exploration / sampling. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-26T16:45:52.794268",
+        "updated_at": "2026-07-26T16:45:52.794268",
+        "author": {
+          "id": "05443dd72ac4fb3cf041a97f1c911d84",
+          "source_id": "m_ke",
+          "username": "m_ke",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8cb9f60e8a12dafb74347991915733b1",
+        "source_id": "49058704",
+        "content": {
+          "text": "Depends on the structure of your Msc, the funding, the compute available, etc, you need to give those details if you want a detailed answer. If you choose something at the limits of the compute available to you, then you make things 10x as difficult. The easy answer that applies everywhere is, choose a topic that has a good volume of phds, postdocs, or professors at the college you're joining. The deep knowledge that arises from this no matter which subfield in RL it is in will later help you transition to your desired subfield much better than a surface-level effort directly in your desired subfield. The most _likely_ answer is sim2real. It has just the right mix of generative AI (funding), robotics usecases (there is an easy \"end\" for your thesis to hook onto as the \"impact\"), and lots of unexplored paths (you won't be chasing a common frontier competing with hundred others). But like I said this depends on the previous two points. Of course there's what you're passionate about and so on, but at the end of the day objectively deep knowledge matters more than passion, unless you're so deep into something, but then your choice is made and you wouldn't have asked this question, so prioritise deep knowledge. Try to actively reduce breadth, IMO the purpose of a research-oriented program is to learn to study depth-wise to the end. As for RL in BCI, as far as I know, we still use established \"RL 101\" algorithms directly applied to the brain signals. Any research deep enough (but short-term enough for a MSc) here will be less RL theory/algorithms and more about the details of this specific application. If that's what you want, go for it. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-26T16:45:52.794772",
+        "updated_at": "2026-07-26T16:45:52.794772",
+        "author": {
+          "id": "7ff9b387d786bdfdda0909ee391e65c1",
+          "source_id": "porridgeraisin",
+          "username": "porridgeraisin",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5f28e391a2f1bc6eee10852ec58c8660",
+        "source_id": "49058683",
+        "content": {
+          "text": "things that are hard to verify. ai didnt takeover the world like it was supposed to because its only good at verifiable stuff like coding but vast majority of economy isnt verifiable. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-26T16:45:52.795322",
+        "updated_at": "2026-07-26T16:45:52.795322",
+        "author": {
+          "id": "6fd86c97f61e6a058ad39c1289696e83",
+          "source_id": "dominotw",
+          "username": "dominotw",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-07-26T16:45:52.795588",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "05f83dbf96cda2ecf068d37726d0f12c",
+      "source_id": "49059389",
+      "title": "Ask HN: Is an in-page speed reader useful?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">A friend suggested I embed an RSVP reader in my blog posts, so I did a floating button in the corner of the page. It uses the Spritz heuristic for the focus letter (letter 1 for short words, up to letter 4 for long ones) but maps back through punctuation, and the timing isn't uniform either. I don't want to bury this post in technical detail, so if you're curious about any of it, just ask and I'm happy to share.<p>But I'm not really used to speed readers, so I don't know if it's actually useful. What do you think?<p>And about browser extensions? does a per-site reader still make sense when an extension works everywhere, in theory?<p>It's on my blog (glitchedcat.com) on any post the lightning bolt button in the corner.</p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-26T16:45:51.373109",
+      "updated_at": "2026-07-26T16:45:51.373109",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "d53ecf99cf45b36b728b6846be97d187",
+        "source_id": "jvbotelho",
+        "username": "jvbotelho",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 2,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49059389",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "7c751b1a775883840d7df13fac0b43d2",
+        "source_id": "49059489",
+        "content": {
+          "text": "I've tried them. It always seemed like more of a gimmick to me. I read faster, but it's not enjoyable. I think browser extensions make more sense than for a person to expect every site to implement their own version, which may all be slightly different. These days, I'll just get an AI summary of an article if I don't want to spend time reading the whole thing. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-26T16:45:55.052717",
+        "updated_at": "2026-07-26T16:45:55.052717",
+        "author": {
+          "id": "fb6fae387d9dabe783668f9009982cf3",
+          "source_id": "al_borland",
+          "username": "al_borland",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ff603389b39306de8f3ee6c0888e3d1f",
+        "source_id": "49059592",
+        "content": {
+          "text": "if you want to promote joyless reading sure reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-26T16:45:55.053133",
+        "updated_at": "2026-07-26T16:45:55.053133",
+        "author": {
+          "id": "40ebd785ec4a64b29145114b67f1784a",
+          "source_id": "blinkbat",
+          "username": "blinkbat",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-07-26T16:45:55.053249",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "7590f01701953373841e512162aff195",
+      "source_id": "49058923",
+      "title": "Ask HN: I spent personal money on game dev. How to turn stalled project around?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-26T16:45:51.373637",
+      "updated_at": "2026-07-26T16:45:51.373637",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "df5e91489fb6b328aa562c7a14a1a3f5",
+        "source_id": "pixelbyindex",
+        "username": "pixelbyindex",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 2,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49058923",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-26T16:45:58.726766",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "98a84c6bffe3c3243bf2105015cdab04",
+      "source_id": "49057337",
+      "title": "Ask HN: Are you using Rust on embedded devices yet? If not, why?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-26T16:45:51.374106",
+      "updated_at": "2026-07-26T16:45:51.374106",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "bd6db7cbd980adc9d9b10a40a47c1f1d",
+        "source_id": "mempirate",
+        "username": "mempirate",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 7,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49057337",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-26T16:46:02.749271",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "15a715c02ba2fa5c08529b41e9d3a466",
+      "source_id": "49057895",
+      "title": "Ask HN: Graal VM Relevance",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-26T16:45:51.374591",
+      "updated_at": "2026-07-26T16:45:51.374591",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "152eae40f31a136ddaae2e4b8bf56109",
+        "source_id": "sid_op",
+        "username": "sid_op",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 4,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49057895",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-26T16:46:07.093732",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "5ac4e546dfe7f275624ffe9b9d1529aa",
+      "source_id": "49057483",
+      "title": "Ask HN: Something fishy is going on with Google feed on my Android",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-26T16:45:51.375043",
+      "updated_at": "2026-07-26T16:45:51.375043",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "51a50a65bfcdb0318190e604acead89e",
+        "source_id": "motbus3",
+        "username": "motbus3",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 4,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49057483",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-26T16:46:11.937861",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "bf50c238339f0fb0c681851f0b24e53b",
+      "source_id": "49057371",
+      "title": "Ask HN: Why don't we solve aging?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">Why isn't it the top priority for everyone?<p>Do people believe it's impossible to solve aging, and death?<p>What role does religion, afterlife beliefs, wealth inequality, and financial elitism play (if any)?<p>It's a very interesting thought isn't it - that we all age and die, overall pretty quickly, and nobody seems to care too much about it. Nobody wants to talk about it.<p>As if most people don't even see a problem to solve.<p>And when I look at the problem... it seems entirely solvable! I can't help but wonder why nobody else cares?<p>I think the worst possible reply to this question tends to be something like: \"who would want to live forever?\" (a different philosophical question, also interesting, but to me less urgent).<p>I genuinely want to know why nobody cares to solve aging - a biological phenomenon easily knowable and conquerable that would easily be the greatest discovery in the history of the Universe.</p></p></p></p></p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-26T16:45:51.375522",
+      "updated_at": "2026-07-26T16:45:51.375522",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "ae003c09f34b0c5e51b5a766e8d65ae0",
+        "source_id": "goldlimetea",
+        "username": "goldlimetea",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 5,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49057371",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "da554939c6fad5f73befb729a2f2f815",
+        "source_id": "49059156",
+        "content": {
+          "text": "Actually, there was a recent breakthrough that might be the door to open a path to addressing age related degeneration (I’m assuming this is what you mean, not immortality). The enzyme is called CMLase and it prevent the glycoslylation that leads to stiff collagen and aging in the skin. The keys are probably things like preserving cell metabolism, boosting mitochondrial function, preventing telomere shortening, and reducing repair from cellular damage (which can lead to “aging” and cancer). BTDubs aging is also 100% preventable - just don’t smoke anything, don’t drink, reduce grilled and smoked meat, limit sugar, use SPF 50 multiple times daily, exercise 3-4 times a week, etc. Basically don't do anything that leads to DNA repair or glycosylation and you become a superager. The number doesn’t matter as much as the experience of being that age. You don’t really NEED a pill to do any of this. Instead we prolly all need a different type of society that is less stressful and prioritizes health education & supporting folks having great lives as they age. Ageism is killer, just take care of yourself. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-26T16:46:14.809082",
+        "updated_at": "2026-07-26T16:46:14.809082",
+        "author": {
+          "id": "3abcea6c061dcde6b0ab823230be4778",
+          "source_id": "pmpmpmpm",
+          "username": "pmpmpmpm",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4601a4301fa00ebfe13fc4b145150491",
+        "source_id": "49059656",
+        "content": {
+          "text": "We cherish abundance and happiness, but what’s the point of enduring pain and mediocrity, no matter how long it lasts? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-26T16:46:14.809538",
+        "updated_at": "2026-07-26T16:46:14.809538",
+        "author": {
+          "id": "3d3b08db4f792467c8edd2edd32002a9",
+          "source_id": "Leewen",
+          "username": "Leewen",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "85ec21e162ec759c5e001bcced81a41b",
+        "source_id": "49057465",
+        "content": {
+          "text": "https://www.sciencealert.com/ultimate-limit-of-the-human-lif... Op, consider using fewer absolutes. Many people have worked on aging science to identify how to prolong human lifetimes. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-26T16:46:14.809980",
+        "updated_at": "2026-07-26T16:46:14.809980",
+        "author": {
+          "id": "d12ca5925fed2fb54f5b3937eb89c002",
+          "source_id": "0x1d7",
+          "username": "0x1d7",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "fb11936336a188ae34f444ff84fa93d1",
+        "source_id": "49057513",
+        "content": {
+          "text": "Sorry, have we solved aging? My question seems well phrased: Why don't we? You're getting at an answer, but I'm wondering why we haven't. Adjacently sure I want to know why more people aren't working on it. You have to really step back and consider that we live in a world where people pay rent, buy groceries, have jobs, believe in gods, and watch the news. We can do things. We do do things. We're choosing it this way. Is it so bad to wonder why not something else? Especially when it comes to the one topic that affects us all, that we may be the only ones able to actually answer (in the entire Universe)? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-26T16:46:14.810543",
+        "updated_at": "2026-07-26T16:46:14.810543",
+        "author": {
+          "id": "ae003c09f34b0c5e51b5a766e8d65ae0",
+          "source_id": "goldlimetea",
+          "username": "goldlimetea",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b0a899546d2a3ab2ce0d1ab14e3a7382",
+        "source_id": "49058437",
+        "content": {
+          "text": "> Sorry, have we solved aging? My question seems well phrased: Why don't we? Examples of absolutes in your question: \"everyone\" \"impossible\" \"nobody seems to care\" \"Nobody wants to talk\" \"wonder why nobody else cares?\" \"why nobody cares\" > why we haven't. We don't really know what we're doing. We still don't today, but when I graduated, talking about life extension directly rather than specific old-age diseases like dementia and cancer was basically a sign someone didn't understand how hard the problem was. In my lifetime I've seen: the invention of mammalian cloning; full genome sequencing (not just human genome, the first non-virus full chromosome was a yeast chromosome in 1992, the first full organism was a bacteria in 1995, the first animal was the nematode worm in 1998); CRISPR for (still basic but better than retroviral) gene editing; the Nobel prize for (if not the original discovery of) telomerase and its role in lengthening the telomeres that seem to force the Hayflick limit; what feels like an endless sequence of headlines about how lab rats have various multiples of life extension from calorie restriction, genetic engineering, and senolytic drugs (those which kill senescent cells); headlines about metformin and rapamycin potentially having anti-aging effects; and of course a few versions of AlphaFold which took us from \"you can get a PhD by figuring out how just one protein folds\" to \"here's the folding of nearly every one of the 214 million proteins known to mankind plus a bunch of complexes between multiple proteins, RNA, DNA, ligands, ions, etc.\". We have a lot more work to do to get this ready for humans. Even with optimistic assistance from AI, I don't expect to see anything* on the consumer market until the mid 2030s, though it's possible to rush a lot of this stuff with a \"move fast and break things\" culture. (Between Kennedy in the USA and China's lax attitude to human rights, such a culture may in fact happen). * except metformin and rapamycin and things like them, because those are already available for other conditions, so may end up as per GLP-1 drugs for obesity reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-26T16:46:14.811078",
+        "updated_at": "2026-07-26T16:46:14.811078",
+        "author": {
+          "id": "144207a84e0598598e46603513123866",
+          "source_id": "ben_w",
+          "username": "ben_w",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5dda3adc346d7e4cb628aabe93722ef2",
+        "source_id": "49057671",
+        "content": {
+          "text": "> Why don't we? Because we have no clue of how to, yet. But I agree that we could throw more people and resources at the problem, if aging didn't seem just natural and the idea of a defeating it didn't seem a bit crazy. But it's also true that the knowledge, tools and methods that might make it possible are only very recent acquisitions. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-26T16:46:14.811600",
+        "updated_at": "2026-07-26T16:46:14.811600",
+        "author": {
+          "id": "eaff87d3e65557470579344611ec6aba",
+          "source_id": "throw310822",
+          "username": "throw310822",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "84673f74b5ef9302a28a752acfe71e54",
+        "source_id": "49057764",
+        "content": {
+          "text": "> if aging didn't seem just natural and the idea of a defeating it didn't seem a bit crazy I can't imagine having this mentality Of course aging is something we will solve - probably within the next 1000 years. We will look back on these times like before humans wore clothes and had language. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-26T16:46:14.812147",
+        "updated_at": "2026-07-26T16:46:14.812147",
+        "author": {
+          "id": "cc047fec0c6f50937799602c56e02c89",
+          "source_id": "rubyfruit",
+          "username": "rubyfruit",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1ddaff59431bcc8cc9f0d7b4f614bc94",
+        "source_id": "49058482",
+        "content": {
+          "text": "I agree, but just look around in this thread and you'll see it. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-26T16:46:14.812702",
+        "updated_at": "2026-07-26T16:46:14.812702",
+        "author": {
+          "id": "eaff87d3e65557470579344611ec6aba",
+          "source_id": "throw310822",
+          "username": "throw310822",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c3fdddafa9fff68df748e0d7422f1abd",
+        "source_id": "49059436",
+        "content": {
+          "text": "\"Why isn't it the top priority for everyone?\" You mean afte we have solved hunger, poverty, human trafficking, drought, famine, natural disasters problems ? Sure after all that, I am sure it can take priority. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-26T16:46:14.813284",
+        "updated_at": "2026-07-26T16:46:14.813284",
+        "author": {
+          "id": "73b2b8fc1fce788a8ef2cd612a35dd6c",
+          "source_id": "codegeek",
+          "username": "codegeek",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1d67de855e1968b98a77fdba12fef48b",
+        "source_id": "49057401",
+        "content": {
+          "text": "I don't see it as a problem to be solved at all. I see it as an important and necessary feature that allows for growth and adaptation as a species. It's a good thing. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-26T16:46:14.813864",
+        "updated_at": "2026-07-26T16:46:14.813864",
+        "author": {
+          "id": "98f9b9ba1cc5c4d684462d480b2982a4",
+          "source_id": "JohnFen",
+          "username": "JohnFen",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ac414989d290b6959d2b220fed9298a3",
+        "source_id": "49057466",
+        "content": {
+          "text": "May I ask if you believe in God reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-26T16:46:14.814437",
+        "updated_at": "2026-07-26T16:46:14.814437",
+        "author": {
+          "id": "ae003c09f34b0c5e51b5a766e8d65ae0",
+          "source_id": "goldlimetea",
+          "username": "goldlimetea",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "58bad47efaabc278fafbb683295a90d3",
+        "source_id": "49057578",
+        "content": {
+          "text": "In my view, the existence of God doesn't enter into it. My opinion would be the same whether God exists or not. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-26T16:46:14.815028",
+        "updated_at": "2026-07-26T16:46:14.815028",
+        "author": {
+          "id": "98f9b9ba1cc5c4d684462d480b2982a4",
+          "source_id": "JohnFen",
+          "username": "JohnFen",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "17c2d66a39c9d12636fa042e68f4ebab",
+        "source_id": "49057903",
+        "content": {
+          "text": "Interesting, it would change my opinion a lot. Since on 1 hand you got an afterlife, eternity, and what-not. And on the other, well, it's a bit like before you were born! I guess to your point - why am I not interested in the problem of those who are not yet born? Hahahah Enjoy your Sunday reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-26T16:46:14.815677",
+        "updated_at": "2026-07-26T16:46:14.815677",
+        "author": {
+          "id": "ae003c09f34b0c5e51b5a766e8d65ae0",
+          "source_id": "goldlimetea",
+          "username": "goldlimetea",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "65c73e645c52f8512ea0873042ab6e92",
+        "source_id": "49058258",
+        "content": {
+          "text": "> Since on 1 hand you got an afterlife, eternity, and what-not. You asked about the existence of God, not the existence of an afterlife. In any case, if there is some sort of afterlife, then eternal material life would impede us as a species because it would prevent attaining it. If there is no afterlife, then eternal material life would impede us as a species by preventing growth and adaptation. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-26T16:46:14.816332",
+        "updated_at": "2026-07-26T16:46:14.816332",
+        "author": {
+          "id": "98f9b9ba1cc5c4d684462d480b2982a4",
+          "source_id": "JohnFen",
+          "username": "JohnFen",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9e5f1c1af689237858f9efacbd43624e",
+        "source_id": "49057502",
+        "content": {
+          "text": "We can get right to it after we solve deaths by mosquitoes (half of all humans born were killed by mosquitoes), deaths by automobiles, lifestyle (diabetes, cardio vascular), pollution from fossil fuels (10M deaths/year from air pollution). reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-26T16:46:14.816975",
+        "updated_at": "2026-07-26T16:46:14.816975",
+        "author": {
+          "id": "9f017b139fc24d8d9863cf269e8817a9",
+          "source_id": "thelastgallon",
+          "username": "thelastgallon",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "11033c42598cc92a0aebce0543a81845",
+        "source_id": "49057527",
+        "content": {
+          "text": "> half of all humans born were killed by mosquitoes This is amazing. Yes, death prevention is a huge part of it! And to your point - even if you solve something like consciousness, I could still be blown up and we wouldn't know how to build me back. Humpty Dumpty out reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-26T16:46:14.817708",
+        "updated_at": "2026-07-26T16:46:14.817708",
+        "author": {
+          "id": "ae003c09f34b0c5e51b5a766e8d65ae0",
+          "source_id": "goldlimetea",
+          "username": "goldlimetea",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f0d87f7206fe26eb90bc83c5a86e53ca",
+        "source_id": "49058654",
+        "content": {
+          "text": "The problem is wildly more complex than typically portrayed. First of all, there is a lot of work already going in to slowing and eliminating aging. Every \"please don't smoke\" campaign is actually a \"smoking causes early death so not smoking prolongs life\" campaign, if you think about it. Healthy eating, cancer prevention and treatment, dementia etc treatment and prevention, brain training, physical and mental rehabilitation training -> all are efforts to reduce odds of untimely death meaning all are efforts to expand life expectancy. Outside of this, consider the magical curing of age related death tomorrow. Do people with unbearable conditions now have to live with them forever? With their quadrapligia, lack of long/short memory, parkinsons, etc? Suppose we can magic hand-wave our way around those. What of births? Approximately 130-140 million children are born globally each year. That's another billion in ~8 years. We already struggle to feed our current population with ~700million facing food insecurity, and estimates say that using all available space, not wasting, and being more efficient with our diets we could perhaps support 20 billion on this planet. This would, however, require perfect cooperation between everyone on earth deciding to share perfectly and agree to move to plant based diets where required. At current birth rate, we'd have less than 100 years to solve food waste and build out the capacity. Or is birth now controlled a la China? Who gets to decide? What happens when the decision turns out to be wrong and leads to inbalance of viable mating pairs? Do we pivot to global sterilization? No more births until we colonize Mars? And where does everyone live? If we are maximizing use of arable lands, humans can then only live in un-arable lands because we need farms and greenhouses on those lands. So we have to live above the green-line on mountains, tundras and permanent ice, and deserts. And the more food we have to grow, the less land we have to live in, meaning density increases meaning that the odds of a super-spreader disease increases meaning that people will die regardless because in all of this we never cured death but only age-related death. >And when I look at the problem... it seems entirely solvable! If that were the case, that you really saw a clear path, you'd write the proposals and get the funding. If it is the case, rather, that what you have is simplistic hope/belief that it \"should\" be solveable, then you're in the same boat as everyone already doing the research, minus any actual research contribution. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-26T16:46:14.818492",
+        "updated_at": "2026-07-26T16:46:14.818492",
+        "author": {
+          "id": "78fa8c12c2509a82c705b439420e676e",
+          "source_id": "goodmythical",
+          "username": "goodmythical",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "38c8d8534b03f7e0191f21dfbdd46a50",
+        "source_id": "49057588",
+        "content": {
+          "text": "https://en.wikipedia.org/wiki/Bryan_Johnson reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-26T16:46:14.819250",
+        "updated_at": "2026-07-26T16:46:14.819250",
+        "author": {
+          "id": "bd0cb82258aef29d6e43f538a8a6bd14",
+          "source_id": "turtleyacht",
+          "username": "turtleyacht",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9e16db5a537e9d8ecccfa740a698abca",
+        "source_id": "49057845",
+        "content": {
+          "text": "> Johnson has stated the aims of the company are to reduce the biological age of his organs to that of an 18-year-old I once read that we could in theory produce things like synthetic organs, but something like a synthetic liver would be the size of a 50,000 sqft factory requiring a full staff of chemists, would need a refinery complete with boilers, smokestacks, chemical waste facilities, and so-on for each individual person. Think of kidney like a dialysis machine, or a heart like an advanced blood pump, lungs like aerators, muscles, bones - we can reverse-engineer most of it. But there are still many mysteries in blood production, cellular function, digestion, hormones, genetics, and consciousness, to name a few areas. It's humbling, we are at the very earliest stages of the biological sciences. But it's something nanotech and funding could chip away significantly at IMO in our lifetime, potentially solving many of the organ-related issues like diabetes, cirrhosis, cancer, and other things. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-26T16:46:14.820047",
+        "updated_at": "2026-07-26T16:46:14.820047",
+        "author": {
+          "id": "cc047fec0c6f50937799602c56e02c89",
+          "source_id": "rubyfruit",
+          "username": "rubyfruit",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "93bb439a6b6e87cef2e59902fa6045e5",
+        "source_id": "49057872",
+        "content": {
+          "text": "Is death in old age a 'problem' to solve? Suffering, absolutely. But I think there is more nuance to death. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-26T16:46:14.820828",
+        "updated_at": "2026-07-26T16:46:14.820828",
+        "author": {
+          "id": "aed7d75ba39fbc385749443eb8d2fa46",
+          "source_id": "ectoloph",
+          "username": "ectoloph",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f4ddc3b3feb0a6cfbb0d7c14d28ce0b9",
+        "source_id": "49058054",
+        "content": {
+          "text": "That's what I keep hearing. Idk if I'll ever get it. Death and aging seem like very clear and basic problems to solve, like inventing a roof to get out of the rain. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-26T16:46:14.821616",
+        "updated_at": "2026-07-26T16:46:14.821616",
+        "author": {
+          "id": "ae003c09f34b0c5e51b5a766e8d65ae0",
+          "source_id": "goldlimetea",
+          "username": "goldlimetea",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "651f4a868ff5ecd47e4a630d5648dbf8",
+        "source_id": "49057449",
+        "content": {
+          "text": "Dude, even setting aside the question of whether eliminating aging is a good idea (for the economy, for the species, etc), what makes you think nobody’s working on it? And lol, easily solvable? Scientists have been trying to figure it out for well over a century (and non-scientists probably since the origin of the man race). They’ve made marginal progress so far. Go do a web search or two. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-26T16:46:14.822379",
+        "updated_at": "2026-07-26T16:46:14.822379",
+        "author": {
+          "id": "6b7f6c219ea995fc6ef3e9e6eae719d5",
+          "source_id": "apothegm",
+          "username": "apothegm",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3a9e32a9e71a0c825b902290740ce127",
+        "source_id": "49057484",
+        "content": {
+          "text": "Hey dude, I did some web searches but was not able to find the answer to my question there. Where is progress halted in your opinion? Consciousness/mind? Basic cellular understanding? Senescence? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-26T16:46:14.823175",
+        "updated_at": "2026-07-26T16:46:14.823175",
+        "author": {
+          "id": "ae003c09f34b0c5e51b5a766e8d65ae0",
+          "source_id": "goldlimetea",
+          "username": "goldlimetea",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9c390cb4c6a03c0360560f31ab5e7e7f",
+        "source_id": "49058062",
+        "content": {
+          "text": "I’m not following it closely, because I don’t believe that within my lifetime we’ll achieve anything that’s effective and safe; or if we do, it’ll be too late for me and more than I could possibly afford anyway. But knowing there’s plenty of research going on (mostly in mice and in cell cultures) takes little more than reading the headlines in the HN “New” feed for a few weeks. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-26T16:46:14.823970",
+        "updated_at": "2026-07-26T16:46:14.823970",
+        "author": {
+          "id": "6b7f6c219ea995fc6ef3e9e6eae719d5",
+          "source_id": "apothegm",
+          "username": "apothegm",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-07-26T16:46:14.824518",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "b54c59a3ed2de5132752faecfc745d65",
+      "source_id": "49054859",
+      "title": "Ask HN: Protecting your Sites/Services from Unwanted Traffic?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">So... If PoW (proof-of-work) schemes like Anubis ultimately don't' work in practise, because Bots/Crawlers are increasingly using headless browsers, are able to solve captures, proofs, etc;<p>What options do we have realistically to filter out or block unwanted traffic?<p>What clever schemes can we come up that don't rely on centralised serices like Cloudflare?</p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-26T16:45:51.376164",
+      "updated_at": "2026-07-26T16:45:51.376164",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "1c20ed0ae515e2de32338083f7f384a8",
+        "source_id": "prologic",
+        "username": "prologic",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 10,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49054859",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "3cde278f608d4b15cfbe51afae7d0c8b",
+        "source_id": "49056136",
+        "content": {
+          "text": "It depends on what you define as unwanted traffic. Personally I do not have an issue with bots as long as they behave and are not straight up malicious, so I rely on a combination of rate limiting, a fine-tuned OWASP CRS ruleset and an aggressive Fail2ban enforcement (hit 2 triggers and you get a 24 hour ban, 2 bans and you get banned for 30 days). My sites also make extensive use of static elements and caching. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-26T16:46:17.189084",
+        "updated_at": "2026-07-26T16:46:17.189084",
+        "author": {
+          "id": "95ada50d39838d43b23b903031022f64",
+          "source_id": "wanderingpixel",
+          "username": "wanderingpixel",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a9e57dcb53709c3d1111ae032c2c7fb7",
+        "source_id": "49057353",
+        "content": {
+          "text": "How do you deal with DDoS attacks on your infra / sites? Especially ones from residential proxies or vpn networks? These are the hardest to defend against as they often are relentless and no amount of proof-of-work, captchas or otherwise seems to stop them from coming. I don't think it's something you can easily block at any firewall level, the sheer volume of IP(s) and Subnets is too much. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-26T16:46:17.189511",
+        "updated_at": "2026-07-26T16:46:17.189511",
+        "author": {
+          "id": "1c20ed0ae515e2de32338083f7f384a8",
+          "source_id": "prologic",
+          "username": "prologic",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "efe36bae565d10fe403d5551424f4d24",
+        "source_id": "49056627",
+        "content": {
+          "text": "Browsing is absolutely intolerable these days, with almost every website having a block screen, \"we're checking your browser...\", stuff like that. Lately I just close these websites immediately. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-26T16:46:17.189913",
+        "updated_at": "2026-07-26T16:46:17.189913",
+        "author": {
+          "id": "a385c0398edd4930505638264e979f2a",
+          "source_id": "mstaoru",
+          "username": "mstaoru",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "73badaf3f40090fc5773463d80dd6d8c",
+        "source_id": "49057186",
+        "content": {
+          "text": "Cloudflare: \"We reduced bot traffic by 80%\" Me: \"Bro you reduced all traffic by 90%, my customers are pissed\" reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-26T16:46:17.190340",
+        "updated_at": "2026-07-26T16:46:17.190340",
+        "author": {
+          "id": "e7ed204562a5a26e380342bfa3055f3a",
+          "source_id": "rubylimetea",
+          "username": "rubylimetea",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "178cb13300cbfd023212dd24f046ddd2",
+        "source_id": "49058219",
+        "content": {
+          "text": "You can hide data in random static (for a novel captcha). Very obvious to most humans (if it becomes popular, the bots could probably be designed solve it; just requires diffing the images): - https://fx.leftium.com/static - https://www.youtube.com/shorts/tPfzNzy24to --- I noticed most of the traffic to my hobby sites was bot traffic (probing for common vulnerabilities). So I added a robots.txt for well-behaved bots and rules for the bad ones. It works pretty well. robots.txt: https://github.com/Leftium/robots-txt Sample cloudflare rules: (\n      http.request.uri.path contains \"/wp-login\"\n      or http.request.uri.path contains \"/wp-admin\"\n      or http.request.uri.path contains \"/wp-content\"\n      or http.request.uri.path contains \"/wp-includes\"\n      or http.request.uri.path contains \"/xmlrpc.php\"\n      or http.request.uri.path contains \"/wordpress/\"\n      or http.request.uri.path contains \"/wp-json/\"\n      or http.request.uri.path contains \"/wp-config\"\n      or http.request.uri.path contains \"/wp/\"\n      or http.request.uri.path.extension eq \"php\"\n      or http.request.uri.path.extension eq \"aspx\"\n      or http.request.uri.path.extension eq \"asp\"\n      or http.request.uri.path contains \".env\"\n      or http.request.uri.path contains \"sftp-config\"\n      or http.request.uri.path contains \".vscode/\"\n      or http.request.uri.path contains \"credentials\"\n      or http.request.uri.path contains \"stripe\"\n      or http.request.uri.path contains \"secrets\"\n      or http.request.uri.path contains \"config.json\"\n      or http.request.uri.path contains \"config.yml\"\n      or http.request.uri.path contains \"config.yaml\"\n      or http.request.uri.path contains \"config.py\"\n      or http.request.uri.path contains \"config.inc\"\n      or http.request.uri.path contains \"config.rb\"\n      or http.request.uri.path contains \"settings.json\"\n      or http.request.uri.path contains \"settings.yml\"\n      or http.request.uri.path contains \"settings.py\"\n      or http.request.uri.path contains \"application.yml\"\n      or http.request.uri.path contains \"application.properties\"\n      or http.request.uri.path contains \"parameters.yml\"\n      or http.request.uri.path contains \"appsettings.json\"\n      or http.request.uri.path contains \"docker-compose\"\n      or http.request.uri.path contains \"/.git/\"\n      or http.request.uri.path contains \"/.circleci/\"\n      or http.request.uri.path contains \"/.aws/\"\n      or http.request.uri.path contains \"/.bitbucket/\"\n      or http.request.uri.path contains \"/.travis.yml\"\n      or http.request.uri.path contains \"serverless.yml\"\n      or http.request.uri.path contains \"debug.log\"\n      or http.request.uri.path contains \"error.log\"\n      or http.request.uri.path contains \"/storage/logs/\"\n      or http.request.uri.path contains \"_profiler\"\n      or http.request.uri.path contains \"phpinfo\"\n      or http.request.uri.path contains \"/debug/\"\n      or http.request.uri.path contains \"/horizon/\"\n      or http.request.uri.path contains \"/manage/\"\n      or http.request.uri.path contains \"fileman\"\n      or http.request.uri.path contains \"assetmanager\"\n    ) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-26T16:46:17.190899",
+        "updated_at": "2026-07-26T16:46:17.190899",
+        "author": {
+          "id": "d7f7efcc8d9c9e89e5fd7c77249adbb5",
+          "source_id": "Leftium",
+          "username": "Leftium",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0f33543a8ca8c9adaf9cdc97c9cc888d",
+        "source_id": "49058470",
+        "content": {
+          "text": "I'm actually almost tempted to build a reverse proxy that detects this type of \"scanning\" behaviour and just drops it to the floor. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-26T16:46:17.191413",
+        "updated_at": "2026-07-26T16:46:17.191413",
+        "author": {
+          "id": "1c20ed0ae515e2de32338083f7f384a8",
+          "source_id": "prologic",
+          "username": "prologic",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-07-26T16:46:17.191610",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "9d134a2bbaae1fabe192b557931eb002",
+      "source_id": "49049281",
+      "title": "Ask HN: What livestream do you keep open in a tab?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-26T16:45:51.376826",
+      "updated_at": "2026-07-26T16:45:51.376826",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "73f335c69305df3c653fd9a7f75281f3",
+        "source_id": "missmoss",
+        "username": "missmoss",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 47,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49049281",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-26T16:46:20.165651",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "210a8465f2a15e6f20443d5c3488e451",
+      "source_id": "49055463",
+      "title": "Ask HN: Is Your Work Relaxing?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-26T16:45:51.377393",
+      "updated_at": "2026-07-26T16:45:51.377393",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "1f9396538d5994c1cf2d21e32e6a7e68",
+        "source_id": "julienreszka",
+        "username": "julienreszka",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 3,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49055463",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-26T16:46:23.983859",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "9cad5592b4dff8f1e958eac5685f78ca",
+      "source_id": "49049796",
+      "title": "Ask HN: Which Jabber clients support SCRAM+ and XEP-0474",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-26T16:45:51.377845",
+      "updated_at": "2026-07-26T16:45:51.377845",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "50365049936728cea84bd3a29c56297c",
+        "source_id": "Bender",
+        "username": "Bender",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 12,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49049796",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-26T16:46:28.192649",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "1638a2c56b52e9eb828bd97fc7449667",
+      "source_id": "49050356",
+      "title": "Ask HN: HotPin – lossless 120B MoE inference on 24GB RAM (CPU, 50 loc)",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">I'm a mechatronics designer with a background in control systems, robotics, PCB design, and embedded hardware. I design physical systems: motors, sensors, microcontrollers, and real-time control loops.<p>I applied this design thinking to LLM memory management – and it worked.<p>HotPin is a set of patches for llama.cpp that runs 30B–120B Mixture of Experts (MoE) models on far less RAM than their disk footprint, with bit-identical (lossless) output.<p>Tested on an AMD Ryzen AI 9 HX 370 (Zen5, AVX512), 23.6GB LPDDR5X, NVMe &gt;1GB/s, CPU-only.<p>Results:\n| Model | Disk | Min RAM | Savings | tok/s |\n|-------|------|---------|---------|-------|\n| gpt-oss:120b | 58.5GB | 19.1GB | -67% | 3.84 |\n| qwen3:30b-a3b | 18.0GB | 10.4GB | -42% | 19.7 |\n| gemma4:26b-a4b | 16.2GB | 10.6GB | -35% | 11.5 |\n| GLM-4.7-Flash | 19.0GB | 13.3GB | -30% | 12.4 |<p>Output is SHA-256 bit-identical to full-RAM runs. Verified.<p>How it works (~50 lines of C++ in llama.cpp):\n1. Profile MoE expert routing frequencies.\n2. mmap the entire model from disk.\n3. mlock only the hottest experts into physical RAM.\n4. posix_fadvise / prefetch cold experts from NVMe before they're needed.<p>Boundary condition: if Disk &gt; RAM, pinning gives +45% speedup (gpt-oss: 2.64 → 3.84 tok/s). If model fits in RAM, pinning adds zero overhead.<p>Tested on: Linux native, WSL, Windows native (VirtualLock).<p>Repo: https://github.com/LozzKappa/hotpin-llm\nPaper (PDF + LaTeX) in the repo – arXiv submission pending endorsement in cs.LG.<p>I'm looking for:\n1. An arXiv endorser (cs.LG) – if you're a researcher and this work interests you, please reach out.\n2. Feedback from anyone who tests it on their hardware.<p>The technique is simple, lossless, and works today. Test it and tell me your benchmarks.<p>Thanks for reading.</p></p></p></p></p></p></p></p></p></p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-26T16:45:51.378407",
+      "updated_at": "2026-07-26T16:45:51.378407",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "0a9eba18037ad9d174027a1ad2e8f286",
+        "source_id": "LozzKappa",
+        "username": "LozzKappa",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 10,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49050356",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-26T16:46:30.613503",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "493b73fe4f5785ee556533b09c3d2e2e",
+      "source_id": "49049986",
+      "title": "Ask HN: What do you do when your AI agents are working?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">Maybe a dumb question but I don't think I've ever experienced more down/waiting time in my career so I'm much more prone to opening YouTube, HN, etc. despite not really wanting to.<p>Most likely the answer is to just sit and do nothing. But have you discovered an approach to making agentic coding, etc work for you without feeding into distraction and attention deficit?</p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-26T16:45:51.379103",
+      "updated_at": "2026-07-26T16:45:51.379103",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "49d0884b5230b7dabe3314cc1f04f71c",
+        "source_id": "mavsman",
+        "username": "mavsman",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 8,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49049986",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "8bb251544f32cd2d57fcdb95e6a1c651",
+        "source_id": "49050668",
+        "content": {
+          "text": "There are basically two answers to this. One option is to orchestrate more agents across different repositories or projects at the same time, so there’s essentially less downtime while you’re waiting between tasks. But I really dislike that kind of constant context switching - it makes me feel a bit like Lucille Ball in that 1950s episode where she's wrapping chocolates [1]. I prefer to focus on a single project at a time. When I do hand something off to an LLM, I have three go‑to activities that I alternate between. I'll try to do some physical exercise (jumping jacks, pull-ups and push-ups), grab my violin/piano since both are less than a meter from my desk, or I'll study Japanese. [1] - https://youtu.be/AnHiAWlrYQc reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-26T16:46:32.712693",
+        "updated_at": "2026-07-26T16:46:32.712693",
+        "author": {
+          "id": "dea5e4e88b3c90e43dac73c26f591b9f",
+          "source_id": "vunderba",
+          "username": "vunderba",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6742a3d92680833edcd12b6fca87c10a",
+        "source_id": "49054885",
+        "content": {
+          "text": "In a work environment (at work), I often use Claude Code to fulfill work I would otherwise normally do with my steer and guidance. What I then do is go back to discussions, answering questions, reviewing others work, etc, until Claude has something for me to review. This allows me to basically do \"asynchronous\" work and keep-up with the increasingly complex work environment where there are lots of things going on, sometimes too many things, all at once. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-26T16:46:32.713121",
+        "updated_at": "2026-07-26T16:46:32.713121",
+        "author": {
+          "id": "1c20ed0ae515e2de32338083f7f384a8",
+          "source_id": "prologic",
+          "username": "prologic",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c1a8c5ed0bb0694d31924ae16fdbf6b7",
+        "source_id": "49057122",
+        "content": {
+          "text": "Working on multiple tasks/projects in parallel. The crux is to know where your attention is needed and quickly get the full context of the task when you come back. That’s why I built Codehydra https://github.com/stefanhoelzl/codehydra reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-26T16:46:32.713579",
+        "updated_at": "2026-07-26T16:46:32.713579",
+        "author": {
+          "id": "0b095ef63f3cf824c100a11c4ce6eefd",
+          "source_id": "stefanhoelzl",
+          "username": "stefanhoelzl",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "055e4d1959cc82cd8cf00ac6fb1bab86",
+        "source_id": "49057811",
+        "content": {
+          "text": "Drink coffee reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-26T16:46:32.713998",
+        "updated_at": "2026-07-26T16:46:32.713998",
+        "author": {
+          "id": "208c431e415d9ac4a8a13b414468009d",
+          "source_id": "Gooblebrai",
+          "username": "Gooblebrai",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8082e870bcc9effd5473bd68458d2899",
+        "source_id": "49057516",
+        "content": {
+          "text": "I mostly read books. Or I collect programming keywords to use AI better reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-26T16:46:32.714451",
+        "updated_at": "2026-07-26T16:46:32.714451",
+        "author": {
+          "id": "fd3c06125a55134322ef009ea9865cf5",
+          "source_id": "jdw64",
+          "username": "jdw64",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-07-26T16:46:32.714622",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "2aac44e4ecf48f883627c5bb62c4e0e4",
+      "source_id": "49049662",
+      "title": "Ask HN: How to get your open-source project gain popularity?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-26T16:45:51.379574",
+      "updated_at": "2026-07-26T16:45:51.379574",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "04d34ca49c12d0f40f3a03c407afc178",
+        "source_id": "Hussain04",
+        "username": "Hussain04",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 4,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49049662",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-26T16:46:37.560862",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "493f9db54e454996a70b91ec28bc1350",
+      "source_id": "49048571",
+      "title": "Ask HN: What happens when we do compress the context in Claude Code?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-26T16:45:51.380123",
+      "updated_at": "2026-07-26T16:45:51.380123",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "079aa6229eedeeb46d7f907e3bc9e37c",
+        "source_id": "tbharath",
+        "username": "tbharath",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 6,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49048571",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-26T16:46:42.151405",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
   }
 ]
