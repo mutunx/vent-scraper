@@ -10979,5 +10979,1307 @@
       ],
       "is_nsfw": false
     }
+  },
+  {
+    "post": {
+      "id": "c4bfef55744253400da701cf2536e4b6",
+      "source_id": "49124577",
+      "title": "Ask HN: What's the Point of Your Startup?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">If AI can build anything. Why do you need a human in the loop? For ideation, for market testing, for go to market, for marketing content generation?<p>Why have a startup incubator full of Stanford grads when you can just replace them with a data center and keep all the profit?<p>More importantly, if that is the general temperature of the business space, it seems like acquiring resources is more important than innovating?</p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-31T17:17:45.686863",
+      "updated_at": "2026-07-31T17:17:45.686863",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "bdd160504c22fc5a0b579fd6eb84fba7",
+        "source_id": "sawyers",
+        "username": "sawyers",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 4,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49124577",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "60afebea9f9fa1e8937e770c1e3536a4",
+        "source_id": "49125490",
+        "content": {
+          "text": "> If AI can build anything. Why do you need a human in the loop? I'm currently building a SaaS with my business partner. I'm the \"tech guy\" while he has decades of industry experience with the industry that our SaaS is targeting. What I found building this is there is a giant subset of preferences, problems, and other minor details that aren't written down anywhere, they are just kept in the minds of the people in that industry. The reason it's not written down is to those people, these things seem obvious. And these things are both extremely important but also very subtle. We use AI heavily in designing our application but there's always a testing pass where my partner goes over some changes and calls out subtle things of how \"things work in practice\". These things aren't in any manuals, they are seldom even written down and thus AI systems are completely oblivious to these details. Now you could build a system that skips some of these subtleties and still gets the job done but what you will find is potential customers will always return to their existing system that takes these into account. Now one day we might get an AI system that detects these subtleties but in order to do that you would need a load of training data around those things. But how do you even get that training data if all of it is held inside the minds of the people working in that industry? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-31T17:17:47.410293",
+        "updated_at": "2026-07-31T17:17:47.410293",
+        "author": {
+          "id": "4e6c86c13f63176affe50acd6ab1b8e1",
+          "source_id": "_fat_santa",
+          "username": "_fat_santa",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "91579548a381a3ce1143ccf0fecda2ba",
+        "source_id": "49125630",
+        "content": {
+          "text": "I agree. I think people generally want a mix of good enough, easy, and something they already know. The competition I see is from two separate directions, 1) AI companies training on the prompts you send them 2) users building their own a la carte solutions. I don't think it entirely erases Saas, but it does take a huge bite out of it. Building a Saas product seems somewhat trivial at this point. The larger hurdle now looks like having startup capital (free time to completely fail, or money to pay multiple founders to do that.) That's the risk, and the reward is income generated over time. There also don't seem to be tons of SaaS paradigms at scale that differentiate companies other than entrenchment. It's somewhat realistic to assume that a handful of companies are going to pop up that connect simple applications to SaaS backends, which lowers even more the amount of income you can generate from a SaaS and would open up the level of competition to folks who can vibe code. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-31T17:17:47.410640",
+        "updated_at": "2026-07-31T17:17:47.410640",
+        "author": {
+          "id": "bdd160504c22fc5a0b579fd6eb84fba7",
+          "source_id": "sawyers",
+          "username": "sawyers",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5785145fdec54b5a4c49de8edc4e2c10",
+        "source_id": "49125871",
+        "content": {
+          "text": "> Building a Saas product seems somewhat trivial at this point. The trap here is the word \"seems\". When I started building my SaaS years back I thought the problem space was trivial (even joked to my business partner that I could spin the whole thing up in a weekend). But almost 5 years on it's anything but trivial. The issue isn't with the core features, the core features in our app have been running for years without issue. What is very much non-trivial are all those subtle tiny features around the main feature that enhance the experience. My customers don't pay me for the primary feature, that they could reproduce in a weekend. They pay me for all the tiny sub-features that came out of all those minor things that I mentioned in my first comment. Those tiny details are the reason that it's both very easy to say things like \"SaaS is trivial\" and why the entrenched players are still at the top. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-31T17:17:47.410975",
+        "updated_at": "2026-07-31T17:17:47.410975",
+        "author": {
+          "id": "4e6c86c13f63176affe50acd6ab1b8e1",
+          "source_id": "_fat_santa",
+          "username": "_fat_santa",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f63873894627dd9300da31413d60bf9b",
+        "source_id": "49125782",
+        "content": {
+          "text": "AI can build anything... within the tiny slice of the economy/human experience that is data/software. It turns out there's a vast universe out there involving physical products, real estate, agriculture, plumbing, sanitation, health care... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-31T17:17:47.411308",
+        "updated_at": "2026-07-31T17:17:47.411308",
+        "author": {
+          "id": "fbf371f33e32d0aea3cd9c9b8b65ca94",
+          "source_id": "tacostakohashi",
+          "username": "tacostakohashi",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "264638ad7978131cf7ed73a15597f52b",
+        "source_id": "49125378",
+        "content": {
+          "text": "AI can't build everything, that assumption is just wrong. Do you even code? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-31T17:17:47.411633",
+        "updated_at": "2026-07-31T17:17:47.411633",
+        "author": {
+          "id": "57271295b4ab9e4ddae5afc446404000",
+          "source_id": "worldsavior",
+          "username": "worldsavior",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3c11efc409d372eaf130edca7ee6b190",
+        "source_id": "49125551",
+        "content": {
+          "text": "Yes. The point isn't whether it's true. It's currently the reality that's being sold by most large AI firms. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-31T17:17:47.411982",
+        "updated_at": "2026-07-31T17:17:47.411982",
+        "author": {
+          "id": "bdd160504c22fc5a0b579fd6eb84fba7",
+          "source_id": "sawyers",
+          "username": "sawyers",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-07-31T17:17:47.412138",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "85b4e5a41e3794835c7b8c017bcf7c71",
+      "source_id": "49124095",
+      "title": "Ask HN: When a post of yours does well, do you know why?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">When something I write gets an unusual amount of attention, I can always produce an explanation afterwards. Hook, timing, format, topic, the audience being in the right mood. But I can produce an explanation for the ones that got no attention too, which makes me suspect I am pattern matching on noise.<p>For those of you who post regularly, in any venue: do you think you know what causes the outliers? And has anyone managed to reproduce one deliberately?</p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-31T17:17:45.687418",
+      "updated_at": "2026-07-31T17:17:45.687418",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "cabad93cca11effc12579823e3cf5260",
+        "source_id": "john_builds",
+        "username": "john_builds",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 2,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49124095",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "4c726e72355f9f3fd04c9fc92aa8a76b",
+        "source_id": "49125246",
+        "content": {
+          "text": "Is this a fact finding journey to help your AI 'social media' startup? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-31T17:17:48.631003",
+        "updated_at": "2026-07-31T17:17:48.631003",
+        "author": {
+          "id": "771d4a2085412375bd5490d7f895cf9a",
+          "source_id": "dnemmers",
+          "username": "dnemmers",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6eda7650c89ca28c8b4fe548267598bb",
+        "source_id": "49124114",
+        "content": {
+          "text": "To be honest, no. In fact, the posts that I thought would be the most interesting don't get much attention. It's something I drafted in a single evening that suddenly gets into top-3 traffic acquirers for my blog. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-31T17:17:48.631354",
+        "updated_at": "2026-07-31T17:17:48.631354",
+        "author": {
+          "id": "6c8eec0f98be530f4111bcbd9a7b655d",
+          "source_id": "ymolodtsov",
+          "username": "ymolodtsov",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-07-31T17:17:48.631431",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "b6b6dc0b4027f85c6d0ac39bb9a1e388",
+      "source_id": "49123088",
+      "title": "Ask HN: What E-Reader to Buy?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">Hey everyone,<p>I'm looking to buy a new e-reader and am looking to crowd source some more recent opinions vs the similar threads from 2024 or earlier.<p>The two biggest new questions seem to be:\n- Color vs B&amp;W\n- Writing input vs None<p>The existing criteria still remain, these being:\n- Price\n- Screen size\n- Battery life\n- Backlight\n- Physical page turn buttons\n- Ecosystem (manufacturer, hackability, repairability, etc)<p>For recommendations, my primary criteria would be that it is in the 6-7 inch screen size range, and is not manufactured by Amazon. Mild preference for writing input (but I have seen nothing in this screen size range with this), and apathetic about color screen or not.<p>Overall, just land all your recommendations or e-reader thoughts on me!</p></p></p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-31T17:17:45.687740",
+      "updated_at": "2026-07-31T17:17:45.687740",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "3c4784b76c0147f7d14bea8dda94b98a",
+        "source_id": "conor_f",
+        "username": "conor_f",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 4,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49123088",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "bdb08f2447e7aa32b1636fc62ef0b074",
+        "source_id": "49125967",
+        "content": {
+          "text": "Kobo makes the best linux-based readers, but they're somewhat more expensive (I have a Libra 2 and a Sage, my only complaint is lack of a good web browser). Onyx Boox has some nice android readers (I have a Poke 3 that I took everywhere until dropping it one too many times killed the screen), and they are generally slightly cheaper in comparable hw classes to Kobo. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-31T17:17:50.303453",
+        "updated_at": "2026-07-31T17:17:50.303453",
+        "author": {
+          "id": "3e050d82b5fc413f48ba57fb7e31f98a",
+          "source_id": "t-3",
+          "username": "t-3",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6850322e135a0b9765732f530c89a436",
+        "source_id": "49124178",
+        "content": {
+          "text": "I have a Kobo which has worked well enough for me. I have ebooks in Calibre, which I use to sync them over to the Kobo. I think I have the Clara. There are a couple ways the Kobo will render an ebook. If not in a Kobo format, it is pretty ugly, so converting them is worth it. I read thousands of pages before realizing this. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-31T17:17:50.303839",
+        "updated_at": "2026-07-31T17:17:50.303839",
+        "author": {
+          "id": "fb6fae387d9dabe783668f9009982cf3",
+          "source_id": "al_borland",
+          "username": "al_borland",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8be2d6d22bf0c232af943011a4c0e9d7",
+        "source_id": "49124349",
+        "content": {
+          "text": "I use Remarkable 2. It's not exactly an e-reader, but more of a notebook and sketchbook with a paper-like surface. It is, however, quite expensive. It's definitely too much money just for reading. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-31T17:17:50.304258",
+        "updated_at": "2026-07-31T17:17:50.304258",
+        "author": {
+          "id": "f3ad085914e94ca15e995578f55d1196",
+          "source_id": "janrakete",
+          "username": "janrakete",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0a7f2520f3995e1bb3a8a59f123d3ff8",
+        "source_id": "49123452",
+        "content": {
+          "text": "I don't know the exact model, and I bought it 5-10+ years ago, so I don't know the current models are, but I've been really happy with my Kobo. It's as easy as drag-and-dropping files. But I do use Calibre to manage them. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-31T17:17:50.304746",
+        "updated_at": "2026-07-31T17:17:50.304746",
+        "author": {
+          "id": "a9b49b8acddd69a8d1d4d716ff7eb2d7",
+          "source_id": "keiferski",
+          "username": "keiferski",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-07-31T17:17:50.304906",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "06422e1aeec0778de6869a6a91074323",
+      "source_id": "49124351",
+      "title": "Ask HN: What are some promising fields in computer science in the next 5 yrs?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-31T17:17:45.688187",
+      "updated_at": "2026-07-31T17:17:45.688187",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "9a79973ae85e1663faa29ff232c41238",
+        "source_id": "anonymoosestdnt",
+        "username": "anonymoosestdnt",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 3,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49124351",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "bce129f80dbf4de16f9907a64a26e111",
+        "source_id": "49125781",
+        "content": {
+          "text": "Not that I am in the field, but cybersecurity is still promising after all these years. One of the main reasons is that deep inside the leadership of cybersecurity organisations, there is absolutely no trust in AI taking decisions and it will not change for a while.\nThis, combined with malicious actors integrating AI in their tooling, the demand in experienced analysts is still growing. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-31T17:17:55.407571",
+        "updated_at": "2026-07-31T17:17:55.407571",
+        "author": {
+          "id": "d34bd2a36a0e125c94e2e11910ddb5f7",
+          "source_id": "iyamani",
+          "username": "iyamani",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "573cb7d3489ebf6e3c4a8a55cfa601cd",
+        "source_id": "49124579",
+        "content": {
+          "text": "Transmission management. Right now MuleSoft is blowing up in popularity in the government sector, but it’s ripe for competition from a superior alternative. I know I could do it better and I am sure other people who have written high performance data transmission solutions could likewise do it better. Performance as a feature is a business idea I don’t see anybody leaping into. Think about custom task automation on demand as a service that also provides benchmarks and logging. I imagine that as something like test automation but as a practical business solution for humans and businesses. Self-hosting as a preconfigured and packaged product. This is largely blocked by the crazy prices of hardware, but it’s coming. Location and fleet management. This is more than distribution centers. The military, Amazon, and Walmart have super invested in this like you couldn’t imagine for over 25 years and yet this is still not as mainstream as you would think. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-31T17:17:55.407977",
+        "updated_at": "2026-07-31T17:17:55.407977",
+        "author": {
+          "id": "0ae492937dcc65e2e9ad4e3b8663757f",
+          "source_id": "austin-cheney",
+          "username": "austin-cheney",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-07-31T17:17:55.408073",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "5bfedfd2daba24b26d23f66ffadc3da2",
+      "source_id": "49121047",
+      "title": "Ask HN: What are you using for LLM inference in production?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-31T17:17:45.688483",
+      "updated_at": "2026-07-31T17:17:45.688483",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "d3e2fe35366ddeacd4991b30161e893b",
+        "source_id": "chrislim",
+        "username": "chrislim",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 6,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49121047",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-31T17:18:01.113400",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "307ea5471a0573dc471f57e13058c9e5",
+      "source_id": "49118494",
+      "title": "Ask HN: Can Apple Ever Be Disrputed?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-31T17:17:45.688815",
+      "updated_at": "2026-07-31T17:17:45.688815",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "084dfb65fed5180b2bd97118a6880d89",
+        "source_id": "Taikhoom2010",
+        "username": "Taikhoom2010",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 5,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49118494",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-31T17:18:05.274828",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "772ccd85898befe2ac3fa947f21666f7",
+      "source_id": "49116411",
+      "title": "Ask HN: What former \"must-have\" AI agent skills have you deprecated?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-31T17:17:45.689143",
+      "updated_at": "2026-07-31T17:17:45.689143",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "30921f147449494d46198f92fac0820b",
+        "source_id": "lpjstack",
+        "username": "lpjstack",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 5,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49116411",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-31T17:18:09.539289",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "6cc3e4c4f69e3c04cca39522ef9e1b15",
+      "source_id": "49118082",
+      "title": "Ask HN: After 8 Years of Failed Apps, Should I Give Up?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-31T17:17:45.689505",
+      "updated_at": "2026-07-31T17:17:45.689505",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "042cde1ddfb6bdffda72757a16a99135",
+        "source_id": "asoomi07",
+        "username": "asoomi07",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 6,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49118082",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "c6adceef58fd85faa57167ecf04811c9",
+        "source_id": "49124754",
+        "content": {
+          "text": "For my alternative rock band and our groupies (there were only a few of them), I programmed an online community aimed at punks, just for fun. I was in my early 20s at the time. The platform later grew to 100,000 members and provided me with a good monthly income. That was a coincidence. Or rather, I was naive and started the project without a business model. But what I realized later was that, without even knowing it, I had connected two things: a technological trend (social networks) and a target audience with a specific need. When starting your own projects, it makes sense to focus heavily on your target audience.I often check out global trends or the opinions of futurists and try to develop ideas from them. But I always try to avoid creating a one-size-fits-all solution. I’d rather have a small but loyal target audience than a large but disloyal one. Right now, I'm working on https://github.com/janrakete/healthcore-bulp.io . For now, it's aimed at a small target audience (tech enthusiasts who have to care for people, such as their parents). But I have no idea if it will be a success. My advice: Keep at it, keep trying. Eventually, you’ll have enough code and experience under your belt that you’ll be able to whip up a solution in no time when the next trend comes along. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-31T17:18:13.593678",
+        "updated_at": "2026-07-31T17:18:13.593678",
+        "author": {
+          "id": "f3ad085914e94ca15e995578f55d1196",
+          "source_id": "janrakete",
+          "username": "janrakete",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a97511d9b25130154437bfd8bd695665",
+        "source_id": "49123275",
+        "content": {
+          "text": "I gave up. Like you, I've built many projects in the hopes they'd generate enough income for me to never have to work a job again. I had blogs, e-commerce shopify dropshipping stores, multiple SaaS projects, e-books published, monetized social media accounts, etc. I remember waking up every morning excited to check the balances for everything. At most, maybe $10.00. That slowly brought me to depression. I was working 12+ hours per day on every thing, but had nothing to show for it. I did this for ~3 years (although I've been building things for 10+ years). I worked as a freelancer to earn real money as well. Eventually, I just had enough. Got a job. Started letting domains fade away (I owned perhaps 50+). What a tiring lifestyle! Nowadays, I will not build in the hopes of becoming rich. I'll build things I want to exist - things that I will use personally. Sure, I'll slap a price on it (as you can see on leetchess), but by no means am I trying to retire from the income. So, maybe don't give up in the sense that you no longer build. But perhaps it's worth evaluating why you build. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-31T17:18:13.594081",
+        "updated_at": "2026-07-31T17:18:13.594081",
+        "author": {
+          "id": "5078aed1d89c30a2d6b8b9fe57ac1095",
+          "source_id": "0xmattf",
+          "username": "0xmattf",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7a9f13e819c0de8f933e32fc1fef0a0d",
+        "source_id": "49123278",
+        "content": {
+          "text": "What problems did your apps solve? in my experience, people need to get excited about an idea, but then the solution needs to keep solving a problem in order to be longterm viable. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-31T17:18:13.594388",
+        "updated_at": "2026-07-31T17:18:13.594388",
+        "author": {
+          "id": "d290beebeb6c4d64ef206c2cccfa40ac",
+          "source_id": "countvon",
+          "username": "countvon",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5e74a5b203ddbf51dc15ec678847ddae",
+        "source_id": "49119036",
+        "content": {
+          "text": "Hi! I’m a PM, and I have one suggestion. If you haven’t yet, now is a great time to talk to a ton of ppl who you think might be interested in your app and learn everything you can about them. Do it until the answers you get sound the same. If your app is fun, you are working to capture attention in a crowded market. Your #1 job now should be to identify what’s different about your app that someone can’t get anywhere else & what about the differentiator makes ppl want to pay. Marketing (the result of discovering a repeatable sales model) is probably less important in the beginning than knowing who you are selling to, how and why they buy, what their options are, and what makes them choose you. Armed with this, you don’t need good ideas just dedication to your users. Good luck and hang in there! Your tenacity will pay off! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-31T17:18:13.594705",
+        "updated_at": "2026-07-31T17:18:13.594705",
+        "author": {
+          "id": "3abcea6c061dcde6b0ab823230be4778",
+          "source_id": "pmpmpmpm",
+          "username": "pmpmpmpm",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "832472669f04209bc550a3f27163d414",
+        "source_id": "49123038",
+        "content": {
+          "text": "\"trying for eight years\".   \"I tried to build tens of apps\". \"I started getting other ideas again\" I am running a bootstrapped SAAS for 11+ years. Since you asked for honest feedback, I will lay it on you straight. The fact is that most people who try what you have tried give up after few weeks or months on one project and then move on to another. That is not critical mass or time to build anything real. Most influencers/indie hackers peddling multiple products at same time or micro-saas or whatever are either inflating their numbers or outright lying. Let me be very clear. It is very difficult to do multiple things at once. It is almost impossible to make money from multiple things at once especially if they are not already established and you are starting from scratch. So the 1st question you have to ask yourself is: How bad do I want to do my own things and what is my goal exactly ? The only way possible to focus on 1 thing at least for 12-18 months minimum (ideally 2+ years) before you see anything real to even move the needle a little bit. So again, ask tyourself: what can you work on for next 12-18 months without worrying about short term or overnight success ? If you cannot answer that, you don't have anything to try yet. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-31T17:18:13.595076",
+        "updated_at": "2026-07-31T17:18:13.595076",
+        "author": {
+          "id": "73b2b8fc1fce788a8ef2cd612a35dd6c",
+          "source_id": "codegeek",
+          "username": "codegeek",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6775edbcf245e2aafcd4a5a2ab66666a",
+        "source_id": "49121464",
+        "content": {
+          "text": "If you have the tenacity to stick with it over a number of years, and have had an app with a few thousand users, you must be doing a few things right! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-31T17:18:13.595419",
+        "updated_at": "2026-07-31T17:18:13.595419",
+        "author": {
+          "id": "fbf371f33e32d0aea3cd9c9b8b65ca94",
+          "source_id": "tacostakohashi",
+          "username": "tacostakohashi",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "843a0871ca137a5528969dd19e258124",
+        "source_id": "49118370",
+        "content": {
+          "text": "If you are interested in creating a business out of it, you might want to look at ideas that will make money first and figure out the app around it. The other problem is that with only one person (you), there's only so many features you can add to an app, and a team (or AI) will now be able to duplicate those features. You need to come up with something fairly unique and hard to duplicate. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-31T17:18:13.595785",
+        "updated_at": "2026-07-31T17:18:13.595785",
+        "author": {
+          "id": "fdd890832d8ff71dd5192c3b80d15f61",
+          "source_id": "elmer2",
+          "username": "elmer2",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6b88e7d84177b2d7a24723a7a6212b33",
+        "source_id": "49118488",
+        "content": {
+          "text": "Tough to go through what you are describing. The only positive thing I can add is all this experience is making you better skilled / positioned for your next project. When the cycle repeats enough times, eventually you get success. Best wishes. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-31T17:18:13.596163",
+        "updated_at": "2026-07-31T17:18:13.596163",
+        "author": {
+          "id": "967a4e46e6f5ab442057a0af9357e280",
+          "source_id": "sagunbuilds",
+          "username": "sagunbuilds",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e49728bba8b5d17fa1f09d14c9d98a35",
+        "source_id": "49118190",
+        "content": {
+          "text": "Keep trying. You have limited downside and unlimited upside. Take the outside capital and ride the dragon. Doesn’t always work but if it does you’ll be doing fine. Took me 18 years to get to success. Sometimes these things take a while. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-31T17:18:13.596564",
+        "updated_at": "2026-07-31T17:18:13.596564",
+        "author": {
+          "id": "b0d8fa4549b645ce824d2342648d03b0",
+          "source_id": "horticulturist",
+          "username": "horticulturist",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1a35c68c5a8dc4ebfb368e81746f393b",
+        "source_id": "49118263",
+        "content": {
+          "text": "\"\"limited downside and unlimited upside\"\" This is a great sentence, thank you for your support reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-31T17:18:13.596964",
+        "updated_at": "2026-07-31T17:18:13.596964",
+        "author": {
+          "id": "042cde1ddfb6bdffda72757a16a99135",
+          "source_id": "asoomi07",
+          "username": "asoomi07",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "49b4a87d546f721bccaa81753d7fd0af",
+        "source_id": "49119487",
+        "content": {
+          "text": "So, kind of like buying a lotto ticket. “limited downside” is not necessarily true. You could waste a lot of time, worsening relationships or just missing out on time you could have spent with loved ones, who will be gone someday. Spinning your wheels can have a real cost, don’t dismiss it. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-07-31T17:18:13.597437",
+        "updated_at": "2026-07-31T17:18:13.597437",
+        "author": {
+          "id": "b9c0965b3726108bfb2fb486853a25d2",
+          "source_id": "-1",
+          "username": "-1",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-07-31T17:18:13.597657",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "d1b286d60b4be3be4fdd95b4e5a3f702",
+      "source_id": "49111613",
+      "title": "Ask HN: Do older programmers/CS academics view AI safety as a form of arrogance?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-31T17:17:45.690122",
+      "updated_at": "2026-07-31T17:17:45.690122",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "9fbfc99674a659d2f2b0af967455b589",
+        "source_id": "amichail",
+        "username": "amichail",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 5,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49111613",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-31T17:18:18.993470",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "814a6164c9a84a65f442927763e73bb9",
+      "source_id": "49109652",
+      "title": "Ask HN: Navigating Source Code (especially on large projects)",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-31T17:17:45.690440",
+      "updated_at": "2026-07-31T17:17:45.690440",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "cf5179ddd28d0175cdb417b4bd59dff2",
+        "source_id": "thekey",
+        "username": "thekey",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 5,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49109652",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-31T17:18:24.588510",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "716a76c6e8371b381e9fbe70762b3409",
+      "source_id": "49106471",
+      "title": "Ask HN: Should authors disclose if they are paid to write a blog post?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-31T17:17:45.690742",
+      "updated_at": "2026-07-31T17:17:45.690742",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "32540e7d128f784de781896d57653169",
+        "source_id": "wseqyrku",
+        "username": "wseqyrku",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 5,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49106471",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-31T17:18:29.960162",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "f4d8aacf5284ec029625d54bb2411abf",
+      "source_id": "49084404",
+      "title": "Ask HN: Crooked Timber showed showed me a virus captcha, What now?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-07-31T17:17:45.691175",
+      "updated_at": "2026-07-31T17:17:45.691175",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "d296658784ad0d75e20dcab0dab32d1a",
+        "source_id": "Jgoauh",
+        "username": "Jgoauh",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 43,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49084404",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-07-31T17:18:33.386201",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
   }
 ]
