@@ -1,0 +1,2569 @@
+[
+  {
+    "post": {
+      "id": "f4a7d64c3a018a9e3190ea3dafd504c4",
+      "source_id": "49158267",
+      "title": "Ask HN: ReAct vs. Planning Pattern",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">My question might seem stupid, but ReAct pattern seems to always work and actually gives great results in the other hand we have the plan pattern and to be honest i cannot think of how it's exactly used in production system, im not sure if this is correct but how it's technically implemented is you give the LLM context and you tell it, hey give me your plan to how you will solve this thing, so now it will build the plan but won't it also follow the same plan in the ReAct pattern to solve that exact problem? I want learn from people that used the planning pattern in production, how and why you used it? and how do you enforce the LLM the follow the plan exactly?</div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-08-03T17:40:52.983946",
+      "updated_at": "2026-08-03T17:40:52.983946",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "8906371c9e89a85cb77dd5542a13ac45",
+        "source_id": "hairymouse",
+        "username": "hairymouse",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 2,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49158267",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "ccfa6b76b0b8061f996c26664c29dc3e",
+        "source_id": "49158594",
+        "content": {
+          "text": "LLMs are unreliable, which is why I use the plan pattern 1. describe what you want in a paragraph or two 2. tell it to write a plan.md, iterate and review multiple times 3. implement and test, iterate and review multiple times Putting in more effort upfront, human in the loop planning, has a higher probability of getting out something you want, in my (vibes based) experience. Use many fresh sessions and different models for this. You want them to focus more on the current state, the intent of the changes, the complexities. What you don't want is a step-by-step plan for changing the code, which effectively is putting the thinkin / implementation in markdown first. The implementation will go much better with a well designed and vetted plan. This is where I spend more of my effort these days. KISS but detailed enough to provide framing and guidelines without being prescriptive, because we know humans too miss edge cases and need to rethink or pivot strategies. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:40:55.700055",
+        "updated_at": "2026-08-03T17:40:55.700055",
+        "author": {
+          "id": "0555c16ed7f938be906cf20d79b97096",
+          "source_id": "verdverm",
+          "username": "verdverm",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-08-03T17:40:55.700152",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "c96f17e673c33a60f1f6c9efe2468d3b",
+      "source_id": "49158021",
+      "title": "Ask HN: Early Feedback on Dez?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">Hi all I am building a open source ide based on zed it's nothing too fancy but I( along with codex)have been working on it for 1 month now I would like genuine feedback and contributions if needed. The current version is v 0.4 and I will release it officially on show hn for v 1.0. I am asking for guidance so I can move forward with a Direction.<p>Repo link : github.com/oreoro/dez</p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-08-03T17:40:52.984490",
+      "updated_at": "2026-08-03T17:40:52.984490",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "17311195fca9a1427a6b28c0c43f7a4b",
+        "source_id": "alexander2002",
+        "username": "alexander2002",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 2,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49158021",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "5ac8515ebc8c392e8769697b93fa7700",
+        "source_id": "49158289",
+        "content": {
+          "text": "What is the #1 problem it is meant to address that other IDEs don’t? What’s a non-goal (i.e. out of scope, at least for the foreseeable future)? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:40:56.774228",
+        "updated_at": "2026-08-03T17:40:56.774228",
+        "author": {
+          "id": "6c11b202722953bda00ca49493a10b8f",
+          "source_id": "andsoitis",
+          "username": "andsoitis",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "600dc2b0a03ad338b0eecd6944316ee4",
+        "source_id": "49158041",
+        "content": {
+          "text": "The intended user is obviously me for now ( since I am the only contributor and user now) but I want more ideas so more people can use it reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:40:56.774613",
+        "updated_at": "2026-08-03T17:40:56.774613",
+        "author": {
+          "id": "17311195fca9a1427a6b28c0c43f7a4b",
+          "source_id": "alexander2002",
+          "username": "alexander2002",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-08-03T17:40:56.774729",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "a5e9efb45b10d2d184bb3931a83b4026",
+      "source_id": "49150433",
+      "title": "Ask HN: Have LLMs Plateaued?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">Have we hit a point where most advances come in the form of new integrations, or applications, rather than outright better models? How much more productivity will we be able to squeeze from them?</div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-08-03T17:40:52.984939",
+      "updated_at": "2026-08-03T17:40:52.984939",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "d295d46b7d33b42f323e65b8f46f52b0",
+        "source_id": "leandrobon",
+        "username": "leandrobon",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 7,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49150433",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "71cf2f82ab3ec3fd00f56267587187d8",
+        "source_id": "49157004",
+        "content": {
+          "text": "In terms of the amount of information in the current LLMs,  I think the largest is 5.6 trillion bytes of memory, it is miniscule to what is actually out there.  There are over 13 zettabytes of information on the internet.  Part of the capacity is about absorbing information.  It has a lot further to go.  If there are emergent properties with additional knowledge in LLMs, it is scratching the surface.  I wonder what will happen with zettabyte computing. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:40:58.343035",
+        "updated_at": "2026-08-03T17:40:58.343035",
+        "author": {
+          "id": "12dd531a31903b16303371d9acde29f8",
+          "source_id": "NishanStepak",
+          "username": "NishanStepak",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "521b0fc8aff276db317171eb64e630fe",
+        "source_id": "49150757",
+        "content": {
+          "text": "Obviously not. And if you look at the things LLMs do poorly there's clearly plenty of room for improvement. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:40:58.343401",
+        "updated_at": "2026-08-03T17:40:58.343401",
+        "author": {
+          "id": "92bc3ae376a66bd4a437234b3757e997",
+          "source_id": "wmf",
+          "username": "wmf",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2264e5af28b0c297a4f72aa20c70efdf",
+        "source_id": "49151026",
+        "content": {
+          "text": "LLM shill argument in a nutshell: \"while there is room for improvement in catalytic converters, they are improving practically by the month! Within a decade, internal combustion engines will put out air that is so breathable, it could be used for ventilating a maternity ward.\" reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:40:58.343782",
+        "updated_at": "2026-08-03T17:40:58.343782",
+        "author": {
+          "id": "0785f049182f0374e632a75c8f145801",
+          "source_id": "kazinator",
+          "username": "kazinator",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ba27379a172ab36fec773211cfb346bc",
+        "source_id": "49157886",
+        "content": {
+          "text": "The exhaust from a hydrogen fuel cell car is drinkable water. However, experts do not recommend drinking it straight from the tailpipe because the water can pick up dust, dirt, and chemical residues. (it had to be disclaimed!) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:40:58.344187",
+        "updated_at": "2026-08-03T17:40:58.344187",
+        "author": {
+          "id": "6184d48d5bfad3ec96d547f825fb3e23",
+          "source_id": "cyanregiment",
+          "username": "cyanregiment",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "410b412a4bd5fb206930bb0e369f38d7",
+        "source_id": "49152159",
+        "content": {
+          "text": "I think the giant leap in AI technology was the Transformer. ChatGPT is based on it, with an incredible chat user interface. In terms of technology, there has been no similarly significant innovation since then. But user interfaces and training data keep improving, which continues to increase our productivity. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:40:58.344582",
+        "updated_at": "2026-08-03T17:40:58.344582",
+        "author": {
+          "id": "83085ad375008330d642dd0d662a175c",
+          "source_id": "markmatsushima",
+          "username": "markmatsushima",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6d145e5f42583823966791a9016ad859",
+        "source_id": "49151233",
+        "content": {
+          "text": "I think the big change was agents. The LLM improvements after that point have been relatively minor in impact. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:40:58.345021",
+        "updated_at": "2026-08-03T17:40:58.345021",
+        "author": {
+          "id": "881601d06a50db5cef9dec278bf3c5a9",
+          "source_id": "tripleee",
+          "username": "tripleee",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "371014603a9e277b3d2bc7596da67853",
+        "source_id": "49155524",
+        "content": {
+          "text": "Agents are the proof that LLMs Plateaued : you need the loop to get further. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:40:58.345446",
+        "updated_at": "2026-08-03T17:40:58.345446",
+        "author": {
+          "id": "d78b0ff93bb13f73934b5145344866a0",
+          "source_id": "ldng",
+          "username": "ldng",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f36e9e00613e20ee87c2a9054e8bc8a3",
+        "source_id": "49154517",
+        "content": {
+          "text": "Been using Kimi, and yeah... the American ones seems like heading nowhere new. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:40:58.345902",
+        "updated_at": "2026-08-03T17:40:58.345902",
+        "author": {
+          "id": "5423ef4a6a9b0b4b41de287fb0bf2592",
+          "source_id": "moizrocky1",
+          "username": "moizrocky1",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d3278a51a94a308a8080e39d605651ef",
+        "source_id": "49151014",
+        "content": {
+          "text": "I suspect you could plug GPT4 from 2023 into the integrations and workflows and it would be about the same. The \"models are getting better with every breath you take\" is just an unproven claim that the AI companies want everyone to believe and want the evangelists to use in every argument. The AI companies have to put out new models regularly, not because of any improvement but because the failure to do so will signal stagnation. That's how it works in the tech industry. It's not like the wine or cheese industry where you just follow your hundreds-of-years-old recipe exactly and people buy the product because of that. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:40:58.346428",
+        "updated_at": "2026-08-03T17:40:58.346428",
+        "author": {
+          "id": "0785f049182f0374e632a75c8f145801",
+          "source_id": "kazinator",
+          "username": "kazinator",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9847674d00a8396c2541fcccf05fe61b",
+        "source_id": "49155285",
+        "content": {
+          "text": "We've been seeing terrible performance from Opus 5, so it does look like a plateau. They most certainly reached the marginal returns realm. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:40:58.346982",
+        "updated_at": "2026-08-03T17:40:58.346982",
+        "author": {
+          "id": "72ebef9ee7bc47cab0f9800713f8a135",
+          "source_id": "rtanasa",
+          "username": "rtanasa",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ad97f473385ce21b30e7515aba2c8405",
+        "source_id": "49151155",
+        "content": {
+          "text": "nowhere near plateau, but right at the inflection point of diminishing returns imo reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:40:58.347491",
+        "updated_at": "2026-08-03T17:40:58.347491",
+        "author": {
+          "id": "5718067ef7c39b6d6f559a09121f9608",
+          "source_id": "kimjune01",
+          "username": "kimjune01",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "178a3f546dfa13ba60638c2e0fb8929f",
+        "source_id": "49155822",
+        "content": {
+          "text": "This is the best take. Return on capital is diminishing from intense competition so improvements get hidden away like the gems they are. 1) Frontier labs have no incentive to give the general public their best anymore; it's instantly distilled off of them. Why not charge governments and big corps real money to use the real good stuff instead?\n2) So we get distilled-off-frontier public APIs like 5.6 and Fable/Opus. And the open source labs are distilling off of those. \n3) There's a lot of benchmark hacking right now among all the publicly available models, actual usability of Opus for coding is far below its benchmarks suggest. \n4) But context window, cybersecurity, logical coherence, and tool usage are absolutely better on Fable and Sol. It looks to me their internal tools definitely even better and not plateauing. But we won't get to use it. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:40:58.348058",
+        "updated_at": "2026-08-03T17:40:58.348058",
+        "author": {
+          "id": "d000f8b7be2d3d057aaa029846f527b3",
+          "source_id": "hiramwen",
+          "username": "hiramwen",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "79d19768bf110018839285f642d336f3",
+        "source_id": "49151532",
+        "content": {
+          "text": "Definitely, yes, in the way the calculator did. This is the technology - this is what it is. We've all seen it at this point. We know what it can and can't do. Sure, there's Mistral 7b running locally on a Macbook vs some large frontier model with MoE, context caching and a nice UI - but it's not all that different. Don't we know what LLMs are at this point? But it's not like the mystery of AI is fully solved and all opportunity has ended. Now we have to see what can be done with it - that part I think is still mostly unexplored. People are trying things in the software space, in music, video, legal, and there are quite a few \"AI for AI\" companies (AI analytics, infra solutions) - so we'll get some innovation there. \"Harnessing\" - People will figure out better ways with model routing, multi-modality, caching, combining things we already know. I'm slowly seeing the philosophy of mind creep in and make contact with software engineering. Somewhere between \"AGI\" and Chalmers' Hard Problem of Consciousness we'll get some new innovation around the concept of thinking itself and what it means to be an intelligent being. Autonomous driving is paving the way (hehe) for autonomous humanoid robots. A concept I originally scoffed at, but now consider to be a very likely thing to happen sooner than we might realize. This is going to change so much, it alone is enough reason to say \"AI hasn't peaked\" (and these will involve interdisciplinary models like vision, navigation, and LLMs). It's like asking if \"programming has peaked\" in 1999 and it would kinda be a \"Yes\". And then a couple years later ColdFusion would hit the shelves in a giant box like a Deluxe Edition RPG - if you need a laugh: https://www.reddit.com/r/webdev/comments/1o26h3l/i_have_deve... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:40:58.348720",
+        "updated_at": "2026-08-03T17:40:58.348720",
+        "author": {
+          "id": "6184d48d5bfad3ec96d547f825fb3e23",
+          "source_id": "cyanregiment",
+          "username": "cyanregiment",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c95c62ffe919eb545674e1a278a18c28",
+        "source_id": "49153822",
+        "content": {
+          "text": "AI is beginning to do PHD-level math. If we're nearing the point where you can spin up 1,000 agents to look for ways improve existing models, then automatically run experiments to validate those ideas, we're more or less at RSI. As always with AI progress, compute will bottleneck this early on, but a few efficiency improvements could dramatically increase this pace of progress. I suspect we are at most 24 months from FOOM, but I suspect within about 6-12 months most frontier AI labs will be claiming the majority of their AI research will be AI-driven. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:40:58.349319",
+        "updated_at": "2026-08-03T17:40:58.349319",
+        "author": {
+          "id": "9d5f521e1ee045d5ce6d2cfe9b2c9018",
+          "source_id": "kypro",
+          "username": "kypro",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8d0da19fe095af76d777ab1a0e958c85",
+        "source_id": "49150748",
+        "content": {
+          "text": "I'm not answering your actual question, but... even if they have totally plateaued technically, there's still some more improvement left to be had from people learning how best to use them (and when not to). reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:40:58.349935",
+        "updated_at": "2026-08-03T17:40:58.349935",
+        "author": {
+          "id": "4cbca4a5fa16748dbdfd70b770eba7a3",
+          "source_id": "AnimalMuppet",
+          "username": "AnimalMuppet",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "951009e7682e3a1de7bde5d0ff74419d",
+        "source_id": "49156161",
+        "content": {
+          "text": "how can you learn to use a tool that keeps changing unpredictably? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:40:58.350561",
+        "updated_at": "2026-08-03T17:40:58.350561",
+        "author": {
+          "id": "5afc60cba1a65b7a07c9138652d8baaa",
+          "source_id": "vrighter",
+          "username": "vrighter",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ed9fce85d93bbd4804f00f7d6fc05185",
+        "source_id": "49157896",
+        "content": {
+          "text": "Well, I was assuming that what you learned about driving generation X of a tool would be at least mostly applicable to driving generation X+1 of it.  That may be false, at least for some values of X. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:40:58.351214",
+        "updated_at": "2026-08-03T17:40:58.351214",
+        "author": {
+          "id": "4cbca4a5fa16748dbdfd70b770eba7a3",
+          "source_id": "AnimalMuppet",
+          "username": "AnimalMuppet",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0e4144edb69f8430ee1a1c175aeb5a2f",
+        "source_id": "49154421",
+        "content": {
+          "text": "I hope so! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:40:58.351883",
+        "updated_at": "2026-08-03T17:40:58.351883",
+        "author": {
+          "id": "8db1bbd134d4aac28a4947d21af724b0",
+          "source_id": "aborsy",
+          "username": "aborsy",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-08-03T17:40:58.352317",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "e647918da3d8173e4c3abad0273ac4dd",
+      "source_id": "49139703",
+      "title": "Ask HN: Anyone still do work on Intel Macs?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">I might need to hop on a 2018 mac for some dev work, so just curious what those still on it think about it. Are there major roadblocks, or you mostly fine once you get your code editor/remote ssh?</div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-08-03T17:40:52.985438",
+      "updated_at": "2026-08-03T17:40:52.985438",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "1ad9727916a87b6f7319a923612ef0dc",
+        "source_id": "senor_digimon",
+        "username": "senor_digimon",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 21,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49139703",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "44ffa9546130a051bd64c3026e4986df",
+        "source_id": "49143560",
+        "content": {
+          "text": "I am typing this on an 2017 iMac Pro running Intel, which has been my main work and personal machine for the last 7 years. I do like 90% of my computing on it. Works fine, I kinda love it, and don't want to give it up any time soon. The 27\" 5K iMac form factor has become my favorite form factor, and I'm kind of unwilling to use anything else now. The newer Apple silicon chips will spank this old Xeon in terms of performance and bang-for-buck. Buuuuut I just can't really bring myself to care and get excited about the newer machines. It's running macOS 15.7.8 Sequoia, which is far as it will go, and I'm just fine with that. Newer Mac software releases won't support Intel at all. Haven't run in to any that I actually care about. Virtualization is mediocre. Can't really run more that 2 VMs on it at the same time before it starts to bog down. And the VM experience on it is disappointing even if you're only running one, especially when it comes to UI responsiveness and graphics. But that's kind of a \"power user\" use case. Homebrew will be dropping support for macOS 15 soon, if that's something you care about. That one actually will be a bummer. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:40:59.593247",
+        "updated_at": "2026-08-03T17:40:59.593247",
+        "author": {
+          "id": "f2655c58b02a0252a861da184a9557a4",
+          "source_id": "andrewjanke",
+          "username": "andrewjanke",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1505b50a6e2c5552322642a224e689b6",
+        "source_id": "49140465",
+        "content": {
+          "text": "I still very actively use a Mac Pro 2013 (aka trashcan). It has 64 GB RAM, an 8 core Xeon cpu, and 1TB NVMe. I'm running macOS Monterey (12.7.6) on it. The hardware is still plenty powerful enough to be very useful. Supported software is getting to be more troublesome as the days go by. When the pain gets too great I'll look into installing Linux on it with the goal of continuing to use it. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:40:59.593625",
+        "updated_at": "2026-08-03T17:40:59.593625",
+        "author": {
+          "id": "6e7716d59ce0dfe34b4a07cc0ddfb677",
+          "source_id": "neverartful",
+          "username": "neverartful",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0f5e6437a7053b38e7a0c4ba1d99e1d7",
+        "source_id": "49149329",
+        "content": {
+          "text": "Any plans for upgrading to cheese grater Mac Pro 2019? :) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:40:59.594001",
+        "updated_at": "2026-08-03T17:40:59.594001",
+        "author": {
+          "id": "4a93f630c58857ef4e6e5a337f4e5c60",
+          "source_id": "zerr",
+          "username": "zerr",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2a39dd185ffb78005bf0e025ac1d69ce",
+        "source_id": "49150346",
+        "content": {
+          "text": "wow, got 64G ram in 2013,  that was very nice at that time. how much you paid for the MBP ? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:40:59.594389",
+        "updated_at": "2026-08-03T17:40:59.594389",
+        "author": {
+          "id": "0adff7b8545faa63d01087664b1a65cb",
+          "source_id": "nittanymount",
+          "username": "nittanymount",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "33bd090d6cc3109b67640306576601b6",
+        "source_id": "49145461",
+        "content": {
+          "text": "I wonder how well a coding agent could be out Apple silicon programs to older Intel chips. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:40:59.594802",
+        "updated_at": "2026-08-03T17:40:59.594802",
+        "author": {
+          "id": "193498a52a513503b159bf6589878dd3",
+          "source_id": "MikeNotThePope",
+          "username": "MikeNotThePope",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f3443cdfeacc8aa4215f23924d700e22",
+        "source_id": "49141612",
+        "content": {
+          "text": "I've got a 2015 MacBook Pro running Monterey which I can code on. It's offline (no DNS entries) but I can AirDrop[1] stuff to it. I use Dash[2] for offline documentation and Sublime Text[3] for editing. It's really just an experiment to see how little (software, hardware and internet) I can get away with. We are moving next year and I may not have space for the large desk and monitor I have now. [1] https://en.wikipedia.org/wiki/AirDrop [2] https://kapeli.com/dash [3] https://www.sublimetext.com reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:40:59.595298",
+        "updated_at": "2026-08-03T17:40:59.595298",
+        "author": {
+          "id": "0ab69fa5917a4aa6fc66c550c18ad997",
+          "source_id": "tonyedgecombe",
+          "username": "tonyedgecombe",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "cca391c164827be7a4dc9e26ad7b7a3c",
+        "source_id": "49154564",
+        "content": {
+          "text": "My friend has the macbook pro with that Touch Bar... apparently he bought it just a month before M1 dropped. Silly guy! But I see him still using it and when the fans are on, it's like a jet engine. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:40:59.595751",
+        "updated_at": "2026-08-03T17:40:59.595751",
+        "author": {
+          "id": "5423ef4a6a9b0b4b41de287fb0bf2592",
+          "source_id": "moizrocky1",
+          "username": "moizrocky1",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0269fcdc2fdeb4ea1f7728b96077e070",
+        "source_id": "49143532",
+        "content": {
+          "text": "There's absolutely no way I'm using a gas guzzling 2018 intel clunker with unsupported software issues. Maybe if i need the box to double as a space heater. Basline mac mini is $800 and gets you into the M4 tier chips. Overkill for web dev and iOS apps. Enough power to carry you for 10+ years of dev work before your next upgrade. I'm still on the M1 mini and plan upgrade at the 10 year mark (2031) or if I need more power sooner (unlikey). I feel the mini's are price competitive. They say \"apple tax\" but go on to some linux machine provider, select similar stats, and see the price tag rocket past the mini. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:40:59.596226",
+        "updated_at": "2026-08-03T17:40:59.596226",
+        "author": {
+          "id": "429647488f6baa769febd319f9911b75",
+          "source_id": "Cheese48923846",
+          "username": "Cheese48923846",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0acce53ca020e2e532138ef34b6cbcb2",
+        "source_id": "49143892",
+        "content": {
+          "text": "Keep in mind that the rest of the world does not even come close to US salaries. Buying a mac in most countries in the world means giving away multiple monthly salaries. Even in Germany, one of the richest countries in the world, a simple 16\" Mac goes way way beyong the average salary. Still going strong on a 2019 Intel MacBook, just for economic reasons. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:40:59.596719",
+        "updated_at": "2026-08-03T17:40:59.596719",
+        "author": {
+          "id": "5152fe88a38ef5244594840fde24a0d8",
+          "source_id": "sliqqq",
+          "username": "sliqqq",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e0db2dd9ecfd789f02593c86a03045ee",
+        "source_id": "49145920",
+        "content": {
+          "text": "The title question is about people doing work on Intel Macs. Working tools for most skilled professions should cost and mostly do cost a couple of monthly salaries. They should pay for themselves reasonably quickly. And people can always buy used. First generation M1 Macs are selling for $400 or below at the moment, and are very capable professional tools. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:40:59.597246",
+        "updated_at": "2026-08-03T17:40:59.597246",
+        "author": {
+          "id": "2ce7104292ca8f2979b4a97ef08b1f01",
+          "source_id": "carlosjobim",
+          "username": "carlosjobim",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "979fedb89a32923e64b2eabb4da9f303",
+        "source_id": "49146892",
+        "content": {
+          "text": "OCLP. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:40:59.597779",
+        "updated_at": "2026-08-03T17:40:59.597779",
+        "author": {
+          "id": "6a558f803683f7234b1b10480f1a727e",
+          "source_id": "literoldolphin",
+          "username": "literoldolphin",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "97364e252be0f1b582823884359b68f0",
+        "source_id": "49150034",
+        "content": {
+          "text": "I still use a macbook pro 2012 (lubuntu). It's the longest lasting machine I've ever bought. The build quality is fantastic. I use it as a backend to my Hermes Agent and it works fine. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:40:59.598351",
+        "updated_at": "2026-08-03T17:40:59.598351",
+        "author": {
+          "id": "07983917f4a451b765e8935e08f37bef",
+          "source_id": "dhruvkar",
+          "username": "dhruvkar",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c705bd1acfce8824f6ad31570f5f65d2",
+        "source_id": "49141841",
+        "content": {
+          "text": "I remember using an old 2018 Intel MacBook Air with 8GB of RAM about two years ago. That thing was noisy. Every time I tried to compile a larger project or work in Logic, the RAM would fill up and the fans would go full blast. Now I am on an M1 MacBook Pro, also with 8GB. Granted, the RAM is still a bottleneck, but the fan noise is completely gone and the machine always stays at a comfortable temperature. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:40:59.598928",
+        "updated_at": "2026-08-03T17:40:59.598928",
+        "author": {
+          "id": "cb2dd5b6fbf4a65e410ba9ac528078fb",
+          "source_id": "vlad_kalinkin",
+          "username": "vlad_kalinkin",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5fb4e37862ca7e877029bc2b9de34a43",
+        "source_id": "49145458",
+        "content": {
+          "text": "I've got my old Intel MacBook in my workshop. It works great for Fusion 360 which is fairly intense. I don't code on it anymore though. Having run massive code bases on average laptops before, I think you'd be fine. It might just take longer to index and compile. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:40:59.599520",
+        "updated_at": "2026-08-03T17:40:59.599520",
+        "author": {
+          "id": "eeaede0f34d06fca3e799e312e362bdc",
+          "source_id": "leros",
+          "username": "leros",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3edc63a5d32587733f44b31ee22380a6",
+        "source_id": "49142098",
+        "content": {
+          "text": "2018 Mac mini, running Monterey, for webdev and Ruby scripting and it’s still fine. The biggest issue, as ever, is that the OS can only feasibly be upgraded to a certain point and that ultimately limits whether you can run current browsers. Xcode and Android Studio do, of course, necessitate a more recent Mac. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:40:59.600156",
+        "updated_at": "2026-08-03T17:40:59.600156",
+        "author": {
+          "id": "e13a6879e7615b72faa7ac45008b097b",
+          "source_id": "Doctor_Fegg",
+          "username": "Doctor_Fegg",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "18d62abb113d55812b00c479be54fc6d",
+        "source_id": "49141025",
+        "content": {
+          "text": "Still on intel Monterey 2015 mbp and emacs 30 something. Switched to macports in 2024 and no complaints. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:40:59.600797",
+        "updated_at": "2026-08-03T17:40:59.600797",
+        "author": {
+          "id": "cc8987d1889286a52fcd6781c1957707",
+          "source_id": "mediumsmart",
+          "username": "mediumsmart",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "953b0eef2dc6b7ca53e8934fb0e930fa",
+        "source_id": "49139838",
+        "content": {
+          "text": "I have 2 (an i7 MBP and an i9 iMac)and rarely think about it, except when I want to try some local AI idea or do something intensively GPU related. Unless you want to do something like videotranscoding or high-res, high frame rate gaming/simulation/eye candy, they work great. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:40:59.601450",
+        "updated_at": "2026-08-03T17:40:59.601450",
+        "author": {
+          "id": "864eed9704aa4fb871b397b553b2ef97",
+          "source_id": "anigbrowl",
+          "username": "anigbrowl",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1be99e780c803fc2a79fc6788abf517e",
+        "source_id": "49141865",
+        "content": {
+          "text": "I use a 2019 27-inch iMac every day.\nI replaced its internal drive with a 1TB SSD myself, and it handles all my work needs perfectly.\nI use Ghostty for remote server access and Parsec to remotely control my Windows PC. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:40:59.602138",
+        "updated_at": "2026-08-03T17:40:59.602138",
+        "author": {
+          "id": "349c1e00ec8dfd95127e726e889dd77a",
+          "source_id": "leoprctmp",
+          "username": "leoprctmp",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e0e7950d4c8aa327afe7f79a9a820cf7",
+        "source_id": "49140505",
+        "content": {
+          "text": "I have a macbook air from 2017. I use it when I travel, major work being done on a m4 mac mini. The issue is end of support for brew and many of the new/ latest apps not working but otherwise for simple things is works well reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:40:59.602833",
+        "updated_at": "2026-08-03T17:40:59.602833",
+        "author": {
+          "id": "89946f4927eda6f80c904d0cecc2a5bf",
+          "source_id": "the-mitr",
+          "username": "the-mitr",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "455853486d009885e8d2a89df0d55060",
+        "source_id": "49146141",
+        "content": {
+          "text": "Never had one, but I might pick one up on ebay if I ever need to support Intel Mac users. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:40:59.603540",
+        "updated_at": "2026-08-03T17:40:59.603540",
+        "author": {
+          "id": "7d2c212bc3c3e303c69ea1fd2086765e",
+          "source_id": "Archit3ch",
+          "username": "Archit3ch",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "08a6bcda088207b14c3847a0cfdb45dd",
+        "source_id": "49149091",
+        "content": {
+          "text": "macOS 26, Tahoe, is the last supporting Intel Mac. Tahoe will be superseded in 2026. 2 more years for Tahoe updates (unless they change how they support previous os versions (current + 2 versions back)) Not much longer for supported versions. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:40:59.604286",
+        "updated_at": "2026-08-03T17:40:59.604286",
+        "author": {
+          "id": "41b5acba3818b458b87c9a8656484a24",
+          "source_id": "rovr138",
+          "username": "rovr138",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "416a5011e783386510bc20adbad3e35b",
+        "source_id": "49140563",
+        "content": {
+          "text": "I've heard it rumored (maybe on this site??) that it's wise to avoid upgrading to Tahoe, on intel macs, but I don't have any evidence to back this up. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:40:59.605051",
+        "updated_at": "2026-08-03T17:40:59.605051",
+        "author": {
+          "id": "518654bbf66bea8ddd98c32680667180",
+          "source_id": "somewhatrandom9",
+          "username": "somewhatrandom9",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8a9fd151bfa8872aaf3d4fd1a658a086",
+        "source_id": "49141306",
+        "content": {
+          "text": "I have one as a backup machine, but nothing important is really supposed to happen on it unless something catastrophic has happened. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:40:59.605822",
+        "updated_at": "2026-08-03T17:40:59.605822",
+        "author": {
+          "id": "962235490a8cbe099b41329816b4d68d",
+          "source_id": "Telaneo",
+          "username": "Telaneo",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f5c157391de284a8a4e19d86b0f2f196",
+        "source_id": "49140412",
+        "content": {
+          "text": "Intel is very very close to dead now as apple has officially EOLed them and software communities are following suit (eg homebrew and nix). I just picked up an apple silicon because the writing was on the wall that it could be any day that I could no longer get “real work done” on the intel machine reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:40:59.606609",
+        "updated_at": "2026-08-03T17:40:59.606609",
+        "author": {
+          "id": "6c55fd4f89bdde26467a678c31aa8217",
+          "source_id": "JamesSwift",
+          "username": "JamesSwift",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "adc02f8da1015fd8bf3e0b588261a08e",
+        "source_id": "49140589",
+        "content": {
+          "text": "why not? its more like a retro machine nowadays but still a good one. but then i should admit that most power-hungry workloads have now been offloaded to newer machines, alas.. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:40:59.607431",
+        "updated_at": "2026-08-03T17:40:59.607431",
+        "author": {
+          "id": "31aec5f08ffd2770159af8ae0ba14908",
+          "source_id": "nh43215rgb",
+          "username": "nh43215rgb",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5dfeae10600700b43c19f58d578baefd",
+        "source_id": "49141487",
+        "content": {
+          "text": "It'll run Linux if you want, but they're fairly functional. What do you need to do on it? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:40:59.608268",
+        "updated_at": "2026-08-03T17:40:59.608268",
+        "author": {
+          "id": "4b918371ac4bee063c7010a77dd84146",
+          "source_id": "fragmede",
+          "username": "fragmede",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "597f50fd970956580875c029db02333f",
+        "source_id": "49139792",
+        "content": {
+          "text": "I still have my iMac G3 Bondi Blue in my basement. I had an Intel MacBook but sold it because it only ran up to MacOS 10.7. It worked fine about 10 years ago. Now I doubt it will. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:40:59.609136",
+        "updated_at": "2026-08-03T17:40:59.609136",
+        "author": {
+          "id": "be159f034e7316060230b86254c974ea",
+          "source_id": "orionblastar",
+          "username": "orionblastar",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "66a48f3f72ad4547bbe513188e0c9cd4",
+        "source_id": "49144600",
+        "content": {
+          "text": "Not sure what year it was produced, but I am running Void Linux on an old Macbook Air. Resume from suspend is buggy, and Linux touchpad support is atrocious (I use synclient to help) but otherwise, I really dig it. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:40:59.610026",
+        "updated_at": "2026-08-03T17:40:59.610026",
+        "author": {
+          "id": "7917f99c65269c873306560235f63d2a",
+          "source_id": "eth0up",
+          "username": "eth0up",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-08-03T17:40:59.610672",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "b5feb3af3f8e0444fd23f4ec6375ce85",
+      "source_id": "49149599",
+      "title": "Ask HN: What's Next for LLMs?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">I've been using DeepSeek v4 flash for guided agent workflows (in-IDE, prompt/review diffs) and have found no noticeable benefit to using Haiku, Opus, Sonnet in this workflow.<p>For around a dollar a day, I am able to more than double my own productivity. What are the frontier models for/what are they trying to solve?<p>Are they designed to one shot applications? Is the expectation that we want to be able to \"yolo\" prompt LLMs and have them complete work unsupervised?</p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-08-03T17:40:52.985789",
+      "updated_at": "2026-08-03T17:40:52.985789",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "4072c055fa52966976be0a0e1f0d4ad6",
+        "source_id": "apatheticonion",
+        "username": "apatheticonion",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 4,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49149599",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "ed4065221939ab9686bdaa717ef2722f",
+        "source_id": "49150271",
+        "content": {
+          "text": "If you can't find a difference between Haiku & Opus, something's going wrong reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:41:02.422364",
+        "updated_at": "2026-08-03T17:41:02.422364",
+        "author": {
+          "id": "b439ecc3b74242c1049299814f3f7c5f",
+          "source_id": "FergusArgyll",
+          "username": "FergusArgyll",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f95459e9b7e448e33dae9378f51e05fd",
+        "source_id": "49150387",
+        "content": {
+          "text": "It's because of my workflow, I think. I have my IDE open and a prompt a given task with limited scope - like \"write a function that does xyz\" \"add tests\" \"create an endpoint that accepts this json\" \"write a sql repository for this schema\" etc. I use Rust on the backend so if it compiles it works, meaning I don't need to worry about runtime errors - if it looks right, it's right. On the frontend I use Angular, which is about as constrained an environment as you can get in the FE world, so it takes a lot to lead an LLM astray. So my requirement for high intelligence is pretty low and I am able to review diffs quickly. Deepseek flash is extremely fast so it can render my prompts quickly - while Haiku, Opus and Sonnet are slow and create the same outputs. I'm guessing the value of Sonnet+ is less hand holding letting you give it larger scopes of work? Giving an AI a high level task and letting it do its thing without needing to review the output? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:41:02.422792",
+        "updated_at": "2026-08-03T17:41:02.422792",
+        "author": {
+          "id": "4072c055fa52966976be0a0e1f0d4ad6",
+          "source_id": "apatheticonion",
+          "username": "apatheticonion",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "026ea3c0b677935e90a3d9994aa09536",
+        "source_id": "49151828",
+        "content": {
+          "text": "I take that back, Haiku is considerably worse at following instructions compared to DeepSeek Flash reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:41:02.423152",
+        "updated_at": "2026-08-03T17:41:02.423152",
+        "author": {
+          "id": "4072c055fa52966976be0a0e1f0d4ad6",
+          "source_id": "apatheticonion",
+          "username": "apatheticonion",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f531f59dbc87a808f8c000bd81125c13",
+        "source_id": "49154150",
+        "content": {
+          "text": "china one reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:41:02.423526",
+        "updated_at": "2026-08-03T17:41:02.423526",
+        "author": {
+          "id": "4dbb7de8fc79946d5c49bf158ca02d8b",
+          "source_id": "natsu529",
+          "username": "natsu529",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-08-03T17:41:02.423672",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "9f83bce0e2a2257d91805ea0e2143cc1",
+      "source_id": "49139845",
+      "title": "Ask HN: I still don't understand why AI agents need \"skills\"",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">I’ve asked AI a few times and I still don’t get it.<p>Why do frameworks like Claude Code or Codex have the concept of “skills” instead of just using well-organized Markdown docs?<p>Couldn’t I just have an AGENTS.md that points to folders of .md files and tells the agent when to read them? That feels functionally equivalent to me.<p>What am I missing? Is there a real architectural benefit, or is it mostly a standardization/convenience thing?<p>I doubt we’d create so much hype about skills if they’d just be a md file that’s in a skills folder. So I feel I’m missing something.</p></p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-08-03T17:40:52.986379",
+      "updated_at": "2026-08-03T17:40:52.986379",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "50fd33b4dffdcb187723d8eddf77a989",
+        "source_id": "skeptic_ai",
+        "username": "skeptic_ai",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 14,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49139845",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "b60fa1f128d304941cb7f5fa0d07c9a7",
+        "source_id": "49139888",
+        "content": {
+          "text": "> Why do frameworks like Claude Code or Codex have the concept of “skills” instead of just using well-organized Markdown docs? \"Well-organized markdown docs\" are exactly what skills are . More specifically, they are well-organized markdown docs that explain how to do some particular thing. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:41:05.213398",
+        "updated_at": "2026-08-03T17:41:05.213398",
+        "author": {
+          "id": "afef6d79c61301220c84b2a47ba451eb",
+          "source_id": "infotainment",
+          "username": "infotainment",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7714db710668b2651d92bb9d2cddfc5e",
+        "source_id": "49139979",
+        "content": {
+          "text": "This.  Skills are exactly that, well structured markdown documents.  Its the same with AI agents. You define the structure, what it can and can't do, setup rules and guidelines and then the AI sticks to that exact model. I sell skills on marketplace because sometimes, crafting the perfect prompt can be hard - you want something specific and very particular and don't know how to ask AI to do that.  This is where skills come in.  You can create your own skills or get them from someone else.  They're great. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:41:05.213794",
+        "updated_at": "2026-08-03T17:41:05.213794",
+        "author": {
+          "id": "09be566081b3b457b4bcfe99e13f688c",
+          "source_id": "getstowly",
+          "username": "getstowly",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d74569142dd9aa97deff0bc5986089a6",
+        "source_id": "49147258",
+        "content": {
+          "text": "How do you sell them - do you give a preview or how else do you protect it from just being copy/pasted? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:41:05.214153",
+        "updated_at": "2026-08-03T17:41:05.214153",
+        "author": {
+          "id": "5e05a6a2ed83ae1ddbc12cf7e5e06469",
+          "source_id": "kzzzznot",
+          "username": "kzzzznot",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "566322d72a096342c634e1e6ddfadbc3",
+        "source_id": "49140987",
+        "content": {
+          "text": "how much do you make selling skills on marketplace, just curious? It seems like it'd be impossible to vet a skill without reading it, so the entire concept mystifies me just a little bit. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:41:05.214524",
+        "updated_at": "2026-08-03T17:41:05.214524",
+        "author": {
+          "id": "484cbd19674b9581097a176a95611ade",
+          "source_id": "kian",
+          "username": "kian",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "75e4729abde09017b2e000e46e43688d",
+        "source_id": "49141032",
+        "content": {
+          "text": "Usually only charge a few bucks because honestly, anyone can make them but those that buy get them because they don't want to spend the time on making them.  You can sell them for $10 or $15, maybe more depending on the skill.  Not always a lot but if you have a ton of them, you can make some serious cash. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:41:05.214931",
+        "updated_at": "2026-08-03T17:41:05.214931",
+        "author": {
+          "id": "09be566081b3b457b4bcfe99e13f688c",
+          "source_id": "getstowly",
+          "username": "getstowly",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3cb3159378da8f4b9dbf39d44ecb2585",
+        "source_id": "49141448",
+        "content": {
+          "text": "Where are you selling them? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:41:05.215344",
+        "updated_at": "2026-08-03T17:41:05.215344",
+        "author": {
+          "id": "e63a4c7a1bde1e78aecd331c2ca08812",
+          "source_id": "greazy",
+          "username": "greazy",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d8f0713b1b609dfbea75bf467e76a9f4",
+        "source_id": "49153344",
+        "content": {
+          "text": "A skill is more like a packaging convention around instructions, with the difference that the runtime knows it's a reusable unit. That lets it expose only the skill's name/description initially and load the full instructions (and sometimes bundled scripts or other resources) only when needed. Truth is that if you implemented the same lazy behavior with AGENTS.md and a bunch of Markdown files you'd end up with something that is functionally very close to a skills system. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:41:05.215786",
+        "updated_at": "2026-08-03T17:41:05.215786",
+        "author": {
+          "id": "ccc1926c5246cb4530ee4ab43b200f9a",
+          "source_id": "watchdog408",
+          "username": "watchdog408",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9b3247b43bf9a74c6a38c1e66764f67a",
+        "source_id": "49154541",
+        "content": {
+          "text": "Something like instructions in Projects? Or how? Could you please describe the pros and cons of each and when to use each? That'd be truly helpful! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:41:05.216248",
+        "updated_at": "2026-08-03T17:41:05.216248",
+        "author": {
+          "id": "5423ef4a6a9b0b4b41de287fb0bf2592",
+          "source_id": "moizrocky1",
+          "username": "moizrocky1",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6866f1574b5b1b6323f47f321a301d36",
+        "source_id": "49141797",
+        "content": {
+          "text": "Skill is a document that AI agent ignores, distorts and forgets immediately after reading it :) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:41:05.216724",
+        "updated_at": "2026-08-03T17:41:05.216724",
+        "author": {
+          "id": "990ffbaae6e60ec39396bafbc551aa96",
+          "source_id": "toplinesoftsys",
+          "username": "toplinesoftsys",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "255779160c2bc29f47fd9fcdb9d66058",
+        "source_id": "49142248",
+        "content": {
+          "text": "It is just marketing speak to evoke some similarity to Sci-fi movies show AI robots learning stuff by quickly going books. Nothing of the sort happens here though... So you are not missing anything. What you think is exactly what it is. Just some   prefix for preloading the LLM context with.. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:41:05.217239",
+        "updated_at": "2026-08-03T17:41:05.217239",
+        "author": {
+          "id": "af958f72a78b1660697f68125c44edb7",
+          "source_id": "qsera",
+          "username": "qsera",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1e8f7f1917eeccee651ef8504d2191f3",
+        "source_id": "49142116",
+        "content": {
+          "text": "Skills represent a pattern many of us converged to before it was named as such (very useful for comms): Progressive disclosure, determistic scripts bundled (not just markdowns). See past comment: https://news.ycombinator.com/item?id=48132477 Don't underestimate the value of \"Skill builder\" skills too. Great UX reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:41:05.217794",
+        "updated_at": "2026-08-03T17:41:05.217794",
+        "author": {
+          "id": "6347e45fdb89ac0dd8766e420251e441",
+          "source_id": "alexhans",
+          "username": "alexhans",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ea0c3c4066978c900c68d22713a60794",
+        "source_id": "49141677",
+        "content": {
+          "text": "Skills is just lazy loading of well-organized Markdown docs. The \"lazy\" part is the core part. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:41:05.218336",
+        "updated_at": "2026-08-03T17:41:05.218336",
+        "author": {
+          "id": "d33e5973e867d4fbc29b38ded28906e9",
+          "source_id": "bad_username",
+          "username": "bad_username",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "05c6589bb484695b71dde2af1768a9c2",
+        "source_id": "49140102",
+        "content": {
+          "text": "To add to what the other person said, they're also loaded differently than arbitrary docs. They're presented as a list of titles and descriptions to the LLM and it can pick which ones seem relevant and load them. Markdown docs the LLM needs to make a tool call to read the files and potentially multiple tool calls to discover data if there's a hierarchy. Additionally, it now has to decide if it should read the entire file or cherry pick parts of it. Skills organize that in an atomic and composable way. I think ChatGPT and Claude skills will also package arbitrary artifacts like scripts as well. Not sure if that's standard or not reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:41:05.218934",
+        "updated_at": "2026-08-03T17:41:05.218934",
+        "author": {
+          "id": "ff028105ec3a930ad9b84ffbda8f0ab5",
+          "source_id": "nijave",
+          "username": "nijave",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f1d33f888f2a4a00e8077745d3f69c28",
+        "source_id": "49142259",
+        "content": {
+          "text": "Skills are lazy loaded. AGENTS.md is not. It’s stupid regardless. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:41:05.219511",
+        "updated_at": "2026-08-03T17:41:05.219511",
+        "author": {
+          "id": "7df3c55383e5d2af65e1389c9c7a0522",
+          "source_id": "sharts",
+          "username": "sharts",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b3c7ece54b846105c6e2f82f2444625a",
+        "source_id": "49140472",
+        "content": {
+          "text": "Aren't \"skills\" just some words and syntax that tokenize in a fashion that gets an instance of an LLM primed for (you hope) the right thing statistically? After that, I think \"skill\" is just a good name. It sounds more \"AI\" than a \"spell\" or \"incantation\", which would sound magical and esoteric. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:41:05.220164",
+        "updated_at": "2026-08-03T17:41:05.220164",
+        "author": {
+          "id": "36524916f4345143f6506644dc193d12",
+          "source_id": "bediger4000",
+          "username": "bediger4000",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-08-03T17:41:05.220538",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "4df8a8f71a6aaa899cddd3122dd217ee",
+      "source_id": "49138466",
+      "title": "Ask HN: How are you using AI to learn?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-08-03T17:40:52.986728",
+      "updated_at": "2026-08-03T17:40:52.986728",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "f35b4b2f455e832afff297bd4dad8de0",
+        "source_id": "mfalcon",
+        "username": "mfalcon",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 9,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49138466",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-08-03T17:41:08.393015",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "ffce03e3156d57d8dfe9c99c3a0876d8",
+      "source_id": "49143456",
+      "title": "Ask HN: What's Your BHAG?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">Just wondering, what is everyone's Big Hairy Audacious Goal?</div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-08-03T17:40:52.987192",
+      "updated_at": "2026-08-03T17:40:52.987192",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "944d3e99427bdd11857998617e825411",
+        "source_id": "sudo_cowsay",
+        "username": "sudo_cowsay",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 7,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49143456",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "ee521748d06e5306b9563958c9acc8ad",
+        "source_id": "49153042",
+        "content": {
+          "text": "I want to create a freelancing app for Nursing Staff let it be India/US or any country. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:41:10.454331",
+        "updated_at": "2026-08-03T17:41:10.454331",
+        "author": {
+          "id": "7ff211d3c1a08c2929da836f4e398f6c",
+          "source_id": "jeetdhandha",
+          "username": "jeetdhandha",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "205a2cf3b695181759795c82bc994687",
+        "source_id": "49153040",
+        "content": {
+          "text": "I want to create an affordable + portable + small + mobile driven - EEG machine reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:41:10.454716",
+        "updated_at": "2026-08-03T17:41:10.454716",
+        "author": {
+          "id": "7ff211d3c1a08c2929da836f4e398f6c",
+          "source_id": "jeetdhandha",
+          "username": "jeetdhandha",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0fb017ec61b1b22c24aae45e428457b8",
+        "source_id": "49144808",
+        "content": {
+          "text": "To work on something related to cycling and the geospatial field. edit Also to do so remotely so me and my wife can move to Japan and be closer to her family. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:41:10.455093",
+        "updated_at": "2026-08-03T17:41:10.455093",
+        "author": {
+          "id": "07f47bd67c62e6c1dcd76d4c49b5212b",
+          "source_id": "nasaeclipse",
+          "username": "nasaeclipse",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "77d9dbcdef99ce78e4abd6768ce4b335",
+        "source_id": "49145026",
+        "content": {
+          "text": "Create something that outlives me and improves millions of lives. Everything else is just a milestone. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:41:10.455470",
+        "updated_at": "2026-08-03T17:41:10.455470",
+        "author": {
+          "id": "5821a352d54c9c1fa084f43967b6b47a",
+          "source_id": "Bhagya1111",
+          "username": "Bhagya1111",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c607bff1f9fd513f0bf2829ca6a99cfa",
+        "source_id": "49144597",
+        "content": {
+          "text": "To work on a major project related to universal libraries or universal knowledge graphs. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:41:10.455868",
+        "updated_at": "2026-08-03T17:41:10.455868",
+        "author": {
+          "id": "12dd531a31903b16303371d9acde29f8",
+          "source_id": "NishanStepak",
+          "username": "NishanStepak",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f29c8ecea1693872612b6bf6be2fe1c5",
+        "source_id": "49148046",
+        "content": {
+          "text": "be content and not get annoyed at stuff reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:41:10.456276",
+        "updated_at": "2026-08-03T17:41:10.456276",
+        "author": {
+          "id": "a30a8695019e97e5413f4a0335aae62a",
+          "source_id": "moomoo11",
+          "username": "moomoo11",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7bfa943520f860b8b1fde7d13b9b9f3e",
+        "source_id": "49148228",
+        "content": {
+          "text": "Damn! I need to post this on my wall!(8-(( reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:41:10.456718",
+        "updated_at": "2026-08-03T17:41:10.456718",
+        "author": {
+          "id": "610b1427d3a7b83c8107497cb9bd39f7",
+          "source_id": "giardini",
+          "username": "giardini",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f9510b26ed529e18e698e7dee580ac6d",
+        "source_id": "49147356",
+        "content": {
+          "text": "Living to age 135. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:41:10.457158",
+        "updated_at": "2026-08-03T17:41:10.457158",
+        "author": {
+          "id": "9a688e4c7583fd52091f8f5b41db97b2",
+          "source_id": "brudgers",
+          "username": "brudgers",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "52bbbb1900527c39fbe90295fc1d0545",
+        "source_id": "49152975",
+        "content": {
+          "text": "Mine is Living to age 150. To see all the technological advancements every 10 yrs. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:41:10.457630",
+        "updated_at": "2026-08-03T17:41:10.457630",
+        "author": {
+          "id": "7ff211d3c1a08c2929da836f4e398f6c",
+          "source_id": "jeetdhandha",
+          "username": "jeetdhandha",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9f85e179535e98e6b1798558226cca9d",
+        "source_id": "49148217",
+        "content": {
+          "text": "Why 135? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:41:10.458124",
+        "updated_at": "2026-08-03T17:41:10.458124",
+        "author": {
+          "id": "610b1427d3a7b83c8107497cb9bd39f7",
+          "source_id": "giardini",
+          "username": "giardini",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "81b9d346b45528ffde19bb074c1f80e3",
+        "source_id": "49151137",
+        "content": {
+          "text": "When I was a child [1], I was disappointed that I would only be 35 in the year 2000. 135 would get me to two century years. Bonus, my boy will be 100. [1] I was young enough that the Guinness Book of World Records was not on my circle of friends radar yet. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:41:10.458683",
+        "updated_at": "2026-08-03T17:41:10.458683",
+        "author": {
+          "id": "9a688e4c7583fd52091f8f5b41db97b2",
+          "source_id": "brudgers",
+          "username": "brudgers",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "467d02d2b7d34535674c6b8cb3fc4395",
+        "source_id": "49154499",
+        "content": {
+          "text": "I mean... isn't everybody's dream stuck at nowhere land because of just one individual, i.e., Trump? When he leaves office, I'm pretty sure the world should heal and all of our dreams should come true. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-03T17:41:10.459231",
+        "updated_at": "2026-08-03T17:41:10.459231",
+        "author": {
+          "id": "5423ef4a6a9b0b4b41de287fb0bf2592",
+          "source_id": "moizrocky1",
+          "username": "moizrocky1",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-08-03T17:41:10.459526",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "d3e6d28a952544c5d9a91634ec035044",
+      "source_id": "49142464",
+      "title": "Ask HN: When will ChatGPT Voice be able to control my phone?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-08-03T17:40:52.987512",
+      "updated_at": "2026-08-03T17:40:52.987512",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "bcb3a25a096db2832bfb4a793b649f9d",
+        "source_id": "spapas82",
+        "username": "spapas82",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 2,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49142464",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-08-03T17:41:15.215432",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "78c615ec25c50a2bb9efe0b1a37e06b4",
+      "source_id": "49155492",
+      "title": "Ask HN: What are the viable alternatives to DuckDuckGo?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-08-03T17:40:52.987839",
+      "updated_at": "2026-08-03T17:40:52.987839",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "d78b0ff93bb13f73934b5145344866a0",
+        "source_id": "ldng",
+        "username": "ldng",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 30,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49155492",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-08-03T17:41:19.184322",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  }
+]
