@@ -9549,5 +9549,3386 @@
       ],
       "is_nsfw": false
     }
+  },
+  {
+    "post": {
+      "id": "79361efbb7b5d124d3b8f721290ac95f",
+      "source_id": "49156682",
+      "title": "Ask HN: Who wants to be hired? (August 2026)",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-08-05T16:30:06.882244",
+      "updated_at": "2026-08-05T16:30:06.882244",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "e8c46afb26dea49b5339afec6e8a91d1",
+        "source_id": "whoishiring",
+        "username": "whoishiring",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 147,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49156682",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-08-05T16:30:10.358711",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "05e7e9aa794d228634b20b4c168d9d5e",
+      "source_id": "49182353",
+      "title": "Ask HN: What Happened to Spec-Driven Development?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">For a minute, it seemed like SDD tools like Kiro, OpenSpec/SpecKit, Tessl were gonna be the future of coding agents. It seemed like a good idea to me at least, and it resolved a lot of the issues people were having with coding agents kinda just going off and doing their own thing.<p>Nowadays though, it seems like all the SDD tools have kinda fallen off but all of the complaints remain—coding agents still improvise code that doesn’t fall under the user’s requirements all the time. Did we all just collectively decide that /plan mode was enough?</p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-08-05T16:30:06.882918",
+      "updated_at": "2026-08-05T16:30:06.882918",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "08252036173a914dea3aa02388d3e79f",
+        "source_id": "vivekyyy",
+        "username": "vivekyyy",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 3,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49182353",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "b7f4c7878c3c1b74844d4eec2d9c80f1",
+        "source_id": "49182624",
+        "content": {
+          "text": "On the one hand I want to believe in spec driven development - I think there’s this awkward gap between code and not code that is the cause of the sort of “code review crisis” that gets written about a lot.  And But the reason you don’t have to read assembly when you write in a higher language is that, over time that abstraction has become largely complete and is deterministic. Like when you write I dunno Python to add two numbers and calls class, that spec is universal and agreed upon.  ~99.99% of the time when you read Python documentation, and replicate it, it does what the designers intended. Spec driven development is none of those things.  So while I’d like to see people experiment with higher level languages, I think many folks find there’s now way to consistently reconcile the spec with the code. As much as no one wants to read the code anymore, it seems like most people seem to agree it’s the only source of truth. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:12.678171",
+        "updated_at": "2026-08-05T16:30:12.678171",
+        "author": {
+          "id": "eb54a4276149dff7654c2a6a409812c8",
+          "source_id": "mikgp",
+          "username": "mikgp",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2925a32ba4e70577d718b96b298087c6",
+        "source_id": "49183801",
+        "content": {
+          "text": "Hmm, yeah I guess the issue really is that the spec is not comprehensive enough to guarantee one specific implementation. If the spec really did translate one-to-one then the spec would really become a higher level language reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:12.678683",
+        "updated_at": "2026-08-05T16:30:12.678683",
+        "author": {
+          "id": "08252036173a914dea3aa02388d3e79f",
+          "source_id": "vivekyyy",
+          "username": "vivekyyy",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-08-05T16:30:12.678822",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "5282882d6c89de2ad7571a6fb9590376",
+      "source_id": "49179728",
+      "title": "Ask HN: Did GitHub remove the stargazers list?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-08-05T16:30:06.883449",
+      "updated_at": "2026-08-05T16:30:06.883449",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "fc0fc2d3f266d5d71a8780a80bbe4329",
+        "source_id": "reconnecting",
+        "username": "reconnecting",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 17,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49179728",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-08-05T16:30:17.031896",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "0f98163a8da9552ae96c81bb35ba4167",
+      "source_id": "49181766",
+      "title": "Ask HN: Show your micro-SaaS / MRR updates (August 2026)",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">HN is a fantastic indiehacker/solo-founder community.<p>We, the people, love transparency, numbers, and analyzing bootstrapped businesses.<p>What is your current (solo) project, and what is your monthly recurring revenue? Share your wins, losses, and tech stack.</p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-08-05T16:30:06.883989",
+      "updated_at": "2026-08-05T16:30:06.883989",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "ba830563d4ea1c206c9c7d7ac2dc207b",
+        "source_id": "genekrapivin",
+        "username": "genekrapivin",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 5,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49181766",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-08-05T16:30:18.916075",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "828772eebc25a8885d4ab575d26036d4",
+      "source_id": "49181570",
+      "title": "Ask HN: How do you correct spatial reasoning of LLMs?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">I'm working on a complex multi-part 3D-printed product, and I needed some engineering input from LLMs. I use highest Gemini Pro reasoning levels, Fable, and K3 Max with everything tuned to highest.<p>The problem I'm facing is mounting a sensor on a barbell sleeve. The sensor is a semi-hollow 100mm cylinder, 60mm diameter, with a 50mm diameter 50mm deep tube cutout for the sleeve. (It's a bit more complex than that.)<p>I'm trying to brainstorm different clamping mechanisms, and evaluate durability and manufacturability of several designs.<p>No matter what I try, the output of all LLMs is absolutely wild, especially if you ask to make a technical drawing. Anthropic reliably been the worst, and Gemini, surprisingly, the best.<p>But none understand what goes where in any detail, besides spewing paragraph and paragraph of wild ideas including rotational cam clamps over a recessed ring TPU collet (apparently, a \"brilliant pivot\") and stuff like this.<p>Is this the \"unconquered frontier\"? Do I need to blow dust off my AutoCAD? :)</p></p></p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-08-05T16:30:06.884637",
+      "updated_at": "2026-08-05T16:30:06.884637",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "a385c0398edd4930505638264e979f2a",
+        "source_id": "mstaoru",
+        "username": "mstaoru",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 5,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49181570",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "c1997bd8cbe68155b2ebb9e13911af5e",
+        "source_id": "49181605",
+        "content": {
+          "text": "Everybody is working on (or waiting for) world models. Language models are not sufficient for doing work in the meatspace. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:21.409354",
+        "updated_at": "2026-08-05T16:30:21.409354",
+        "author": {
+          "id": "366b15f7f3df8931b2a1db60a6f9fb0c",
+          "source_id": "spottedmarley",
+          "username": "spottedmarley",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "59db0dd1217091de7284a21dd3f47237",
+        "source_id": "49182080",
+        "content": {
+          "text": "I would consider asking it to model its proposed designs in openscad or build123d (ideally something query-able). Then have it render and examine plausibility / suitability from different angles. Get it to render the part in use also and give instructions to think about forces and motion. Recommend doing this in a coding harness not a chat box. The reason I think you might have more success with this is that the model is mostly thinking about the part in words, which it can convert to a part design in CAD in code . LLMs are really good at coding. Also means it can use relative positioning and relationships. You will be able to iterate more easily, compare things, compute properties, commit to git etc. The process is more reproducible and steerable than generative production of images. When the LLM can look at renders of the geometry it generated, it’s easier for it to discriminate when it’s producing nonsense like misaligned parts, things that don’t fit, etc. It’s still going to kind of suck, but it will be better. The whole process of code -> render -> inspect forces the model to put up or shut up and provides grounding. Meshes > bloviating. As far as I know today's LLMs don't have a \"visual imagination\" but a process like this could be a slow approximation of one. They clearly do have SOME spatial understanding (pelican tests show us that!) but it feels really non-human. One thing missing from this is kinesthetics. Personally I am mostly not thinking in accurate visuals in mechanical design. I am imagining how the parts feel and kind of how they move and what slips first and what bends and what feels heavy. Imagining what my hands would feel. But I don't think I trust LLMs to evaluate that stuff by writing simulation code yet. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:21.409991",
+        "updated_at": "2026-08-05T16:30:21.409991",
+        "author": {
+          "id": "3deac2188cd46bb3ca85dc54a88ef432",
+          "source_id": "xyzzy123",
+          "username": "xyzzy123",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5280cff19aebe234ee3e0cdc4ea75b78",
+        "source_id": "49181733",
+        "content": {
+          "text": "It's wild to me that this is even a question, because of how AI brained the entire world has become. I mean, you have a tool that you know works, and a tool that you know doesn't, but you still feel the need to find a way to make the square peg fit into the round hole. I'm sure there are ways to \"correct the spatial reasoning of LLMs\" (whatever that even means) but I'd question whether you even need an LLM to begin with. I know that isn't the answer you're looking for, I'm just a slack-jawed knuckle-dragging Luddite. But this seems like the kind of simple, common problem for which established solutions already existed, like \"talk to an actual engineer and not a chatbot that can't even do basic math.\" And if it's a matter of not wanting to pay someone, consider that if you're already paying for an inadequate simulation of knowledge, you should be willing to pay for actual knowledge. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:21.410480",
+        "updated_at": "2026-08-05T16:30:21.410480",
+        "author": {
+          "id": "14d688e3a965535c98d7ae36741a9df8",
+          "source_id": "krapp",
+          "username": "krapp",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3ab90c7750791398a719d5458f03dc19",
+        "source_id": "49183502",
+        "content": {
+          "text": "I'm with you here, the same slack-jawed knuckle-dragging Luddite. I'm not happy about the state of the world, but it is what it is. I am working on it alone and don't have access or extra money to pay an actual engineer. If I can squeeze 10% of what an actual engineer would've told me, for $20/month I'm in. And it's not an either-or game, I can have some rough, potentially totally stupid ideas and then validate them with an engineer, instead of paying $10k to make it from scratch. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:21.411037",
+        "updated_at": "2026-08-05T16:30:21.411037",
+        "author": {
+          "id": "a385c0398edd4930505638264e979f2a",
+          "source_id": "mstaoru",
+          "username": "mstaoru",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-08-05T16:30:21.411239",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "1a8baeff0c4525977c2a98fcd1588d06",
+      "source_id": "49181347",
+      "title": "Ask HN: I built bribes.fyi, now I am stuck what to with it",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-08-05T16:30:06.885150",
+      "updated_at": "2026-08-05T16:30:06.885150",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "57d9f2c54f91a640170940f31c94d07d",
+        "source_id": "neverenderr",
+        "username": "neverenderr",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 2,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49181347",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-08-05T16:30:24.482295",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "961472b8e3cffa56681a8496983afdcb",
+      "source_id": "49156683",
+      "title": "Ask HN: Who is hiring? (August 2026)",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">Please state the location and include REMOTE for remote work, REMOTE (US)\nor similar if the country is restricted, and ONSITE when remote work is <i>not</i> an option.<p>Please only post if you personally are part of the hiring company—no\nrecruiting firms or job boards. One post per company. If it isn't a household name,\nexplain what your company does.<p>Please only post if you are actively filling a position and are committed\nto replying to applicants.<p>Commenters: please don't reply to job posts to complain about\nsomething. It's off topic here.<p>Readers: please only email if you are personally interested in the job.<p>Searchers: try <a href=\"https://nthesis.ai/public/hn-who-is-hiring\" rel=\"nofollow\">https://nthesis.ai/public/hn-who-is-hiring</a>, <a href=\"https://dheerajck.github.io/hnwhoishiring/\" rel=\"nofollow\">https://dheerajck.github.io/hnwhoishiring/</a>,\n<a href=\"http://nchelluri.github.io/hnjobs/\" rel=\"nofollow\">http://nchelluri.github.io/hnjobs/</a>, <a href=\"https://hnjobs.emilburzo.com\" rel=\"nofollow\">https://hnjobs.emilburzo.com</a>.<p>Don't miss this other fine thread: <i>Who wants to be hired?</i> <a href=\"https://news.ycombinator.com/item?id=49156682\">https://news.ycombinator.com/item?id=49156682</a></p></p></p></p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-08-05T16:30:06.885687",
+      "updated_at": "2026-08-05T16:30:06.885687",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "e8c46afb26dea49b5339afec6e8a91d1",
+        "source_id": "whoishiring",
+        "username": "whoishiring",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 220,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49156683",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "dbc8a2f2d9939d9d677d6e608f9c1dca",
+        "source_id": "49185103",
+        "content": {
+          "text": "Oscilar.com | Site Lead, Sr/Staff Software Engineers, Security Engineer, PM, Data Engineer | REMOTE (US/Canada/Brazil/Poland/UK/India) | Full-time AI Risk Decisioning™ platform that helps organizations manage onboarding, fraud, credit, and compliance risks Open roles: - Sr./Staff Security Engineer (Brazil) - Site Lead India - Sr./Staff Java Backend Engineer (Brazil/Poland) - Staff Web SDK Engineer - Data Engineer (Brazil) - Product Manager AML  Apply at: https://jobs.ashbyhq.com/oscilar?utm_source=HackerNews reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.472719",
+        "updated_at": "2026-08-05T16:30:26.472719",
+        "author": {
+          "id": "7172a1bcdb4d0dabee8826853206b6fe",
+          "source_id": "Dsuniga14",
+          "username": "Dsuniga14",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "950a43f3b7ea4290f04924c5177de830",
+        "source_id": "49185076",
+        "content": {
+          "text": "Location: Dallas, TX\nRemote: Yes\nWilling to relocate: Yes (including internationally)\nTechnologies: Python, LangGraph, LangChain, MCP, RAG, supervised fine-tuning (LoRA/PEFT), Anthropic/OpenAI APIs, PyTorch, Spark, MLflow, Docker, Kubernetes, AWS/Azure/GCP\nRésumé/CV: https://suneelkalva.com Email: suneel.kalva190700@gmail.com AI engineer at U.S. Bank building production LLM systems: a RAG assistant over 500K+ documents for 200+ analysts, LLM eval harnesses (hallucination, PII, prompt-injection), and fine-tuned LLaMA/Mistral models. Outside work I built and published mendrift-mcp (PyPI, listed on the official MCP Registry) an autonomous MLOps incident-response agent with an HMAC-gated approval layer, evaluated on a 19-scenario trajectory harness. Looking for applied AI / ML engineer roles building agentic systems. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.473336",
+        "updated_at": "2026-08-05T16:30:26.473336",
+        "author": {
+          "id": "eb0cbac4865f79f6ad78eb3ef50f46b5",
+          "source_id": "suneelkalva1907",
+          "username": "suneelkalva1907",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d8fdc76b4c7b7c50b49b01b9a441c2b0",
+        "source_id": "49184927",
+        "content": {
+          "text": "Ojin | Product Engineer | HYBRID (Berlin) or REMOTE (CET ±2h) | Full-time Hi HN! I'm Seema, Tech Recruiter at Ojin, and we're looking for another Product Engineer to join our small team. We build the infrastructure that makes AI feel human — real-time AI agents with natural, lifelike conversation on a globally distributed GPU fabric. We've spent 5+ years proving this works for enterprise customers and we're now opening it up as a developer platform. You'd own features end-to-end: interactive frontends through to Python-based agentic backends, working directly with the founders on a 15 person team. You help define the solution, design the architecture and ship it. Stack: TypeScript, React, Node.js, Python, WebRTC, WebSockets, AWS Looking for: 3-5 years, genuine full-stack ability, startup experience and genuine curiosity about how AI systems actually work in production. We're not able to offer visa sponsorship or relocation support for this role - you'll need to already be based within CET ±2h and have the right to work where you live. Apply or read more about us here: https://ojin.ai Thank you! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.473958",
+        "updated_at": "2026-08-05T16:30:26.473958",
+        "author": {
+          "id": "92fb4979ff7d03194d05ad69a457c105",
+          "source_id": "SeemaOjin",
+          "username": "SeemaOjin",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b590fe25985a99aa171d8230a3fd131c",
+        "source_id": "49184940",
+        "content": {
+          "text": "Hi! I am Max. I am a Design Leader with 13+ years of experience and extensive knowledge in several areas: Design, Development, Analytics. Involved in creation of several startups and have previously created my own products and tools. I have a strong mathematical background. Interested in fintech, crypto, LLMs, AI, and complex business-technical systems. Open to joining early-stage startups or other interesting opportunities. Location: Warsaw, Poland Remote: Yes Willing to relocate: Yes Des: User Research, User Flow, UX/UI, Web, Holistic, Design System, Wireframes, Email Design, Dashboards, Mobile App Design, 3D, Illustrations, Animations, Figma, FinTech, E-commerce. Dev: Ruby, Rails, Hotwire, JavaScript, TypeScript, React, Vue, Svelte, Nest, Next, Nuxt, Tailwind, Postgres, Docker, CI/CD, etc. Résumé/CV: https://www.linkedin.com/in/maxberdnikau/ Email: maxberdnikau@gmail.com reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.474610",
+        "updated_at": "2026-08-05T16:30:26.474610",
+        "author": {
+          "id": "c634d09c74d1b8610e8e042de70ad767",
+          "source_id": "maxberdnikau",
+          "username": "maxberdnikau",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "06515dcb7c96272271cc6c49c8708690",
+        "source_id": "49184766",
+        "content": {
+          "text": "Launchpad Technologies | https://grnh.se/wqeflx0e6us | Multiple Roles | LATAM/Remote | Full-time What’s the Talent Community all about? Multiple Opportunities \nOur Talent Community is a space on our Careers Site designed for tech professionals across LATAM who want to be part of a People First company like Launchpad (even if there’s no active opening right now).  \nHere’s how it works: When you apply to our Talent Community, you’re adding your profile to our radar. We’ll review it, tag it by skills, and when the right opportunity comes up, you’ll be the first to know. No black holes. Just staying connected for what’s next. \nThanks for being part of our community!  \nApply here: https://grnh.se/wqeflx0e6us reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.475217",
+        "updated_at": "2026-08-05T16:30:26.475217",
+        "author": {
+          "id": "e08636f96e856526f5cb244bf9046f02",
+          "source_id": "padmarag",
+          "username": "padmarag",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3fc6291b638081cde10530f1a035d5af",
+        "source_id": "49183442",
+        "content": {
+          "text": "Coder | https://coder.com/ | Multiple roles | Multiple locations | Full-time Coder is an AI software development company leading the future of autonomous coding. We empower teams to build software faster, more securely, and at scale through the collaboration of AI coding agents and human developers. Our mission is to make agentic AI a safe, trusted, and integral part of every software development lifecycle. Coder’s self-hosted development environment is the foundation for deploying agentic AI in the enterprise. It provides a secure, standardized, and governed workspace to deploy autonomous coding agents alongside human developers, accelerating innovation while maintaining control and compliance. Coder's isolated, policy-driven environments improve productivity, cut cloud costs, and reduce data risks. Developers transition to AI at their own pace using their own tools. Platform and security teams can govern, audit, and manage a great developer experience at scale. Check out our OSS product with 100k+ stars on GitHub! https://github.com/coder All positions are fully remote in the countries listed unless otherwise specified. [1] Sr. Customer Support Engineer (Founding APAC role) - Australia/Singapore [2] Software Engineer (AI Governance) - UK/Ireland/Poland [3] Forward Deployed Engineering Manager - US [4] Senior Product Manager - UK/Ireland/Poland And many more that will be posted soon! Apply here + job descriptions, salary bands: https://coder.com/careers?utm_source=O2n5Ew72WD Not all of our jobs are listed here. Please note that you must submit an application to be considered for any of our positions. If you have any questions, please reach out to careers@coder.com. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.476079",
+        "updated_at": "2026-08-05T16:30:26.476079",
+        "author": {
+          "id": "1b395368db3979cce3fe04d39c9d9dc7",
+          "source_id": "connorb-coder",
+          "username": "connorb-coder",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3d06f026ebbcc01d64f57aae743b55c4",
+        "source_id": "49159312",
+        "content": {
+          "text": "CodeWeavers | St Paul, MN, USA | Full Time | REMOTE | macOS low-level Open Source Developers | C-language systems programming https://www.codeweavers.com/about/jobs CodeWeavers needs new, full-time developers to improve Wine's ability to run games on macOS. Positions are available to work on a variety of Wine-based software, including CodeWeavers's own CrossOver product and projects for other clients. Positions working on the FEX emulator are also available. We are hiring remote programmers, US or international, as well as workers local to Saint Paul, Minnesota. We will consider relocation, if desired, on a case-by-case basis. Please see link above for information, benefits, requirements, and how to apply. Please direct any questions to the email address on our Jobs page. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.476802",
+        "updated_at": "2026-08-05T16:30:26.476802",
+        "author": {
+          "id": "a54826771a95a1f9e39a6c8c3bb407b6",
+          "source_id": "uczekalla",
+          "username": "uczekalla",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0a5154babd0d8426b787f2a0c1afa9d3",
+        "source_id": "49165394",
+        "content": {
+          "text": "Proxima Fusion | Senior Software Engineer (Dev Platform) | Munich, Germany | ONSITE | Full-time We're building the world's first commercial stellarator fusion power plant. First spin-out from the Max Planck Institute for Plasma Physics, based on Wendelstein 7-X (the largest stellarator ever built), €650M+ raised, teams in Munich, Zurich and Oxford. Finding a good stellarator design means searching an enormous high-dimensional space, and every candidate design needs heavy plasma physics simulation. That's the compute problem this role owns: cloud + HPC clusters, K8s, Ray, Dask, and the platform work around it (CI/CD, IaC, observability). You'd sit directly next to the physicists and AI researchers burning through that compute, so you see exactly what your infrastructure unlocks. Python and Linux. If you've wanted to point your platform engineering skills at something that actually matters, clean, abundant energy, this is about as direct a shot as it gets, and it's happening in Europe. Interview process: recruiter call, technical screen, technical panel, CEO call. https://jobs.ashbyhq.com/proxima-fusion/5aebfef0-0c2c-4c87-9... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.477633",
+        "updated_at": "2026-08-05T16:30:26.477633",
+        "author": {
+          "id": "b717d6fc1b4caa26c8cb06a04338b0af",
+          "source_id": "l1am0",
+          "username": "l1am0",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1078a13ab00a0f9afc51911e7f7dccbc",
+        "source_id": "49167658",
+        "content": {
+          "text": "This sounds like a fun job! I wish I had the freedom to move on from my current work. I don’t get why you’re using python for compute bound problems though. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.478330",
+        "updated_at": "2026-08-05T16:30:26.478330",
+        "author": {
+          "id": "5c4fc0331caa622d6000eb16b757f89c",
+          "source_id": "VladVladikoff",
+          "username": "VladVladikoff",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "bbdf2624962d06d7a7dea2cc123dda08",
+        "source_id": "49167455",
+        "content": {
+          "text": "Are there any openings for juniors? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.479070",
+        "updated_at": "2026-08-05T16:30:26.479070",
+        "author": {
+          "id": "a8e11f8cf6dd42e4f0c5faf7b3ca7b58",
+          "source_id": "arnavpraneet",
+          "username": "arnavpraneet",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a1f8cd77d85cc3c658be5a640f8066d9",
+        "source_id": "49159002",
+        "content": {
+          "text": "Friendly Captcha | Developer Relations | PART-TIME or FULL-TIME | Munich area, Germany | https://friendlycaptcha.com At Friendly Captcha we do one thing and we do it well: we protect websites from malicious actors and bots. We provide privacy-friendly and accessible anti-bot solutions that don’t annoy users with tasks like clicking fire hydrants. We make the internet a bit better every day by winning over customers currently using Google reCAPTCHA. Friendly Captcha is a growing, profitable, fully bootstrapped company. Our revenue mostly comes from medium to large European enterprise and governments. We have the feeling we can make ourselves known better to engineers and other builders to gain more bottom-up growth. We're looking to strengthen our team with someone who will be focused on our Developer Relations (DevRel) and general marketing activities. We're a startup and this is a pretty mixed role that's hard to describe in one or two sentences. It ranges from technical writing through building specialized tools and demos to support getting the word out. Form with more information: https://friendlycaptcha.jobs.personio.com/job/2686399 reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.479944",
+        "updated_at": "2026-08-05T16:30:26.479944",
+        "author": {
+          "id": "1925be0c9e1e21f919de59ca24af0e22",
+          "source_id": "protoduction",
+          "username": "protoduction",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "195d7f65e2487e6850423113004eeed3",
+        "source_id": "49165700",
+        "content": {
+          "text": "this is really cool! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.480739",
+        "updated_at": "2026-08-05T16:30:26.480739",
+        "author": {
+          "id": "95da8b0c186f45c771de8b39f34bedb6",
+          "source_id": "nunodonato",
+          "username": "nunodonato",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "21b31d3c6cd07fadc2582dc15dc64bc9",
+        "source_id": "49158050",
+        "content": {
+          "text": "Normal | Senior SWE Backend | Full-time | $100-140K USD | Remote PT/ET Hours | Typescript/Node/Postgres roles I'm the founder of Normcore.io, an autoscaling game server hosting service and Unity plugin that includes all of the pieces you need to create a multiplayer game. We launched a few years ago and have hosted over 1 billion multiplayer games since launch. I'm actively scaling the team to keep up with demand for new features that our customers are asking us for. We’re all ex-Unity/Google folks working on making great SDKs and tools for multiplayer game development. We also make our own VR titles that are built on top of our own networking tech: https://www.youtube.com/watch?v=djsPTbs7R_w Reasons you’d love working with us: * Work with a small, focused, and extremely talented team of developers. * Fully remote job with flexible working hours and vacation (Our whole team is remote too) * High-quality codebase, code reviews, tests. * High work satisfaction, own entire features, and work on an SDK that’s already used by 100,000+ developers. If you're interested, please send me a note here and I'll be in touch: https://forms.gle/MyCAz4RszKog43nP8 (If you skip the form and email me, it will be ignored. AI job hunting startups have scraped these posts and trashed my inbox unfortunately) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.481706",
+        "updated_at": "2026-08-05T16:30:26.481706",
+        "author": {
+          "id": "651de8af9d5eb2774e34907e6150d2e2",
+          "source_id": "maxweisel",
+          "username": "maxweisel",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "acfdc52e7447a990ff23138b7dd868a6",
+        "source_id": "49165388",
+        "content": {
+          "text": "Do you consider candidates outside the US? (I'm in Asia but willing to overlap with US hours) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.482567",
+        "updated_at": "2026-08-05T16:30:26.482567",
+        "author": {
+          "id": "c8578f7d203133703fb69bcf92559eb1",
+          "source_id": "tienthanh8490",
+          "username": "tienthanh8490",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "de9b79f5d4bda48c41c2721d974b9019",
+        "source_id": "49172366",
+        "content": {
+          "text": "Submitted reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.483442",
+        "updated_at": "2026-08-05T16:30:26.483442",
+        "author": {
+          "id": "4fc5f927133de0ccae24a2b7efe62d84",
+          "source_id": "craggmister",
+          "username": "craggmister",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "859eec6a179d52a8a29d19bcd8862f9c",
+        "source_id": "49171676",
+        "content": {
+          "text": "Hey, i submitted my form! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.484364",
+        "updated_at": "2026-08-05T16:30:26.484364",
+        "author": {
+          "id": "75546a5a8769bae0f73ed6a689aeac0f",
+          "source_id": "etwasdasheilt",
+          "username": "etwasdasheilt",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9eefac7d3a1f54dea80910808d5c30e7",
+        "source_id": "49160265",
+        "content": {
+          "text": "Hey Max, just submitted the form. Role is really unique and seems fun, would love to chat reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.485319",
+        "updated_at": "2026-08-05T16:30:26.485319",
+        "author": {
+          "id": "1f05f52cf650ada3b617cfb24cb63ff2",
+          "source_id": "shohan99",
+          "username": "shohan99",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9f8fbd0ae1046b5fc42872b16c6cfb67",
+        "source_id": "49162779",
+        "content": {
+          "text": "Hey! I also submitted the form.\nI spent the last few years working on many of the same challenges, although unfortunately the startup I was with didn’t make it.\nI'd love to hear how you’ve approached some of them at Normcore.io reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.486298",
+        "updated_at": "2026-08-05T16:30:26.486298",
+        "author": {
+          "id": "ab27b9f48d479f4fafc14c2520236e5e",
+          "source_id": "pmhpereira",
+          "username": "pmhpereira",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c8b9baeecefb9452393a64f4cfdab3d7",
+        "source_id": "49180088",
+        "content": {
+          "text": "Langfuse (now part of ClickHouse) | Product Engineers & Backend Engineers | Berlin / EU-remote, ~1 week onsite every 2 months (travel covered) | Full-time | €70–130k + ClickHouse equity Hi, I'm Max, CTO and co-founder. Langfuse is the open-source LLM engineering platform — tracing/observability, evals, and prompt management — used by tens of thousands of teams to ship, debug, and improve their LLM and agent apps. Earlier this year, Langfuse joined ClickHouse ($400M Series D led by Dragoneer, $15B valuation). That gives us the best of both worlds: startup-speed, ownership, and roadmap control, backed by the scale, resources, and equity upside of a category-defining infra company. The full story:\nWhy we joined: https://langfuse.com/blog/joining-clickhouse ClickHouse's take: https://clickhouse.com/blog/clickhouse-acquires-langfuse-ope... Right now we're focused on helping customers segment their traces, surface insights from them, and ship changes to their agents faster — observability at serious scale, plus the product surface engineers actually live in day to day. See what we're building: langfuse.com Our handbook is the best way to understand how we operate: https://langfuse.com/handbook Check out our open roles and apply to the one you think fits you best and we'll take it from there: https://langfuse.com/careers . Happy to answer questions in the thread. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.487459",
+        "updated_at": "2026-08-05T16:30:26.487459",
+        "author": {
+          "id": "140e3640b3a835d75c169218a18acac7",
+          "source_id": "mdeichmann",
+          "username": "mdeichmann",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2abb3ef6ac03ecf0373fd11a44cbd435",
+        "source_id": "49176763",
+        "content": {
+          "text": "River (rivergtm.com) | NYC, on-site | Founding Engineer + Product Engineer | Full-time River builds voice AI agents for B2B comapnies. Our agent talks with prospects in real time, answers hard questions, and demos the product by actually controlling a browser while it speaks. Every call runs on a sub-second loop: speech, a rendered avatar, several LLMs, and a live browser-use agent, in front of real buyers. $2M pre-seed backed by founders of Ramp, Kalshi, and JumpCloud. Hiring two roles: Founding Engineer (5+ yrs): own the live-call pipeline (real-time voice, avatar, browser streaming) and the infra behind it. Looking for strong backend/infra plus real-time experience (WebRTC, voice/video, websockets). Stack: TypeScript, Node, Next.js, Postgres, Redis, LiveKit. Product Engineer, full-stack (1-3 yrs or exceptional projects): build the services behind live calls, LLM workflows, and the browser-use agent that runs demos. Backend-leaning, TypeScript. Both on-site in NYC, working directly with the founders. Try the product yourself at rivergtm.com/start Email me (co-founder/CEO): tarek@rivergtm.com reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.488563",
+        "updated_at": "2026-08-05T16:30:26.488563",
+        "author": {
+          "id": "45840b6ce1a1eae86e594496601a6ebc",
+          "source_id": "tarekabi",
+          "username": "tarekabi",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4f3608ccdcc4ab58330e5a6fe7a72881",
+        "source_id": "49175789",
+        "content": {
+          "text": "ML6 | Senior AI Engineer | Python, TensorFlow, PyTorch, GCP, AWS, Azure | Full-time | Amsterdam, Berlin, Munich, Eindhoven, Ghent (EU) On-site/hybrid We are an AI engineering company that builds end-to-end AI solutions. By applying the latest AI research, we keep our clients at the forefront of innovation.\nIf you are interested check out: https://www.ml6.eu/en/customers/cases/ Work on innovative projects for the biggest clients across Europe such as Randstad, ASML, FUNKE, and many more! Whether it’s about leveraging LLMs to improve customer support, building data lakes on cloud platforms to improve storage or implementing models using sensor data for quality control. You can find it all at ML6.\nYou will mostly work with Python and a range of ML frameworks such as TensorFlow, PyTorch, or HuggingFace Transformers and help bring application into production by building data pipelines and cloud infrastructure on all of the major cloud providers (GCP, AWS, Azure). Open roles include: • Senior AI Engineer • Senior Software Engineer • Medior AI Engineer • Squad Lead GenAI and many more! Apply now at the https://jobs.ml6.eu/ reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.489772",
+        "updated_at": "2026-08-05T16:30:26.489772",
+        "author": {
+          "id": "37eb0477d143b54456a928a6f3067664",
+          "source_id": "konz",
+          "username": "konz",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d2cab1df230262986a9910be8b556ea1",
+        "source_id": "49173892",
+        "content": {
+          "text": "Shovels | Remote | Senior Data & Platform (Remote, Europe) | Senior Full-Stack Product (Remote, EU/US) | Full-time Everyone building with AI is crowded into the digital world: dev tools, copilots, agents for software people. Meanwhile the largest asset class on earth, the built world, runs on records scattered across 20,000+ US jurisdictions, and most of those have no online portal at all. The only way in is a relationship and a public-records request, and you cannot download a relationship. We turned that into the intelligence layer for the built world: permits, contractors, parcels, government decisions. Customers pay for it today. One warning about the careers page: the job posts have a reverse CAPTCHA. Read access: agents only. Bring yours: https://www.shovels.ai/careers Try the door even if you don't plan to apply, I promise it's fun! Receipts on how we build: we published the working notes from planning our newest API, rival architectures and refuted claims included: https://shovelsai.github.io/team-notes/2026-07-07-a9e2-how-w... Do you want to make software cheaper to build, or build the thing that stays valuable when software is cheap? :) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.490964",
+        "updated_at": "2026-08-05T16:30:26.490964",
+        "author": {
+          "id": "a501e500c722c6843c55b7efd67362e4",
+          "source_id": "lknix",
+          "username": "lknix",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "46eecee98d1f11050113102180d88dd3",
+        "source_id": "49184672",
+        "content": {
+          "text": "this was scary af! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.492098",
+        "updated_at": "2026-08-05T16:30:26.492098",
+        "author": {
+          "id": "e9cf441851fb80ed1bab56ce840e286f",
+          "source_id": "B1aZer",
+          "username": "B1aZer",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3691f1e85075aa2dfcfe38166d4efe3e",
+        "source_id": "49184683",
+        "content": {
+          "text": "but very intriguing! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.493262",
+        "updated_at": "2026-08-05T16:30:26.493262",
+        "author": {
+          "id": "e9cf441851fb80ed1bab56ce840e286f",
+          "source_id": "B1aZer",
+          "username": "B1aZer",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "fd08b6cf371c5adf9f835144e3f48bc0",
+        "source_id": "49177849",
+        "content": {
+          "text": "It is quite the injection surface so everyone just be careful sending agents to read, interact with, and perhaps even execute code/a skill from an unknown source. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.494446",
+        "updated_at": "2026-08-05T16:30:26.494446",
+        "author": {
+          "id": "373fd480aa4fa91149f67f1464b74f0a",
+          "source_id": "jjdinho",
+          "username": "jjdinho",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e063762dd42ef3dc906fdeb06b8ef288",
+        "source_id": "49181257",
+        "content": {
+          "text": "Locking it behind a CSS blur effect? lol ok. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.495681",
+        "updated_at": "2026-08-05T16:30:26.495681",
+        "author": {
+          "id": "63332894c17bc5e60d2f5168a74f6be4",
+          "source_id": "dimitrisnl",
+          "username": "dimitrisnl",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5b002e994b953fb9b43eb64cc03364f7",
+        "source_id": "49163160",
+        "content": {
+          "text": "Stellar Science | Hybrid (USA) Albuquerque NM, Washington DC (Tysons VA), Dayton OH | Full time, interns/co-ops | U.S. citizenship required | https://www.stellarscience.com Company : We're a small scientific software development company that develops custom scientific and engineering analysis applications in domains including: space situational awareness (monitoring the locations, health and status of on-orbit satellites), image simulation, high power microwave systems, modeling and simulation, laser systems modeling, AI/ML including physics-informed neural networks (PINN), human body thermoregulation, computer vision and image processing, high performance computing (HPC), computer aided design (CAD), and more. All exciting applications and no CRUD. We emphasize high quality code and lightweight processes that free software engineers to be productive. Experience : Except for interns, we currently require a Bachelors degree in physics, engineering, math, computer science, or a related field. Masters or PhD is a plus. (Roughly 25% of our staff have PhDs.) Technologies : Lots of C++23, Qt 6.9, CMake, git, OpenGL, CUDA, Boost, Jenkins. Windows and Linux, msvc/gcc/clang/clangcl. AI/ML and analysis projects use Python and C++. Web projects use Java and Typescript/React. We're a bit behind the curve on developer AI adoption, and we're okay with that. Apply online : at https://www.stellarscience.com/careers/ . reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.497075",
+        "updated_at": "2026-08-05T16:30:26.497075",
+        "author": {
+          "id": "0748b7d70e3eb8654487ab7c9be054d6",
+          "source_id": "StellarScience",
+          "username": "StellarScience",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6f296338a2ca05fd91428df153a8671b",
+        "source_id": "49161851",
+        "content": {
+          "text": "Klara Systems | https://klarasystems.com | Technical Marketing Engineer | Remote | Full-time / Contract Klara Systems is a FreeBSD and ZFS engineering company serving enterprise customers across North America and Europe. Our team is senior, globally distributed, and operates with a high degree of autonomy. We’re looking for a Technical Marketing Engineer who turns engineering work into technical content that helps buyers evaluate Klara’s services and provides engineers with useful, technically accurate resources. can find. You will interview engineers and consultants, mine incident write-ups, support cases, upstream PRs, mailing lists, and delivery lessons for source material, then turn that material into technical articles, pages, comparisons, FAQs, and migration guides. You will also build scripts and LLM-powered workflows to automate knowledge extraction, reporting, and first drafts. You should have: - A background in software development, systems administration, or a related technical field. - The ability to hold a technical conversation with an operating systems or storage expert and turn it into something publishable. - Daily experience using AI tools to produce technically accurate and high-quality assets. - An understanding of technical buyer personas and how to build content they actually want to read. Apply: https://klarasystems.com/careers/technical-marketing-enginee... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.498485",
+        "updated_at": "2026-08-05T16:30:26.498485",
+        "author": {
+          "id": "e2d2f316266409f89e864d7db08f8e31",
+          "source_id": "klarainc",
+          "username": "klarainc",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3ec1c358f6b34c0546eec33d3782579f",
+        "source_id": "49163889",
+        "content": {
+          "text": "Hey Klarainc, I see your company works on Embedded Systems as well. Would love to chat if you have remote roles available. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.499808",
+        "updated_at": "2026-08-05T16:30:26.499808",
+        "author": {
+          "id": "9b9e398c8ab4bcbac4a3af864b745729",
+          "source_id": "Gaurav_Bh",
+          "username": "Gaurav_Bh",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "fcf4f6a0f5fca0727b1bd1a6e0aad117",
+        "source_id": "49163576",
+        "content": {
+          "text": "Eleos Technologies ( https://eleostech.com ) | Remote Senior iOS Engineer | Permanently Remote (US-based applicants only) | Full time Eleos Technologies is a growing company building communication software for truck drivers and the back-office workers who support them. We’re looking to scale up a second product engineering team to ship more advanced driver planning tools, automate outdated workflow, and a bunch of other wins to make drivers’ lives easier and more efficient. We're looking for someone who has the experience to move fast on new stuff and knows how and when to pick their battles on old stuff. You'd be one of four iOS engineers at a company that's big enough to survive an economic downturn, but not so big you can't make immediate, direct impact that'll be seen and appreciated by the whole company. (We've also spent the last decade working really hard to make sure our tools, processes, and culture respect everyone's work/life balance. I'm the CTO and I don't text people on my team, and they don't text me, and that's true throughout.) It's a native iOS app written in a mixture of Objective-C and Swift, leaning on Swift for new features. (But that said: if you chafe at the idea of maintaining or fixing bugs in battle-tested Objective-C that's paying our salaries, please look elsewhere!) We have about 1/3rd functional/UI automated test coverage and the rest is human-powered by our QA team. If you're interested, please share your info via https://jobs.lever.co/eleostech/b4866f22-fab3-4f84-abec-6e74... and we'll get in touch! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.501263",
+        "updated_at": "2026-08-05T16:30:26.501263",
+        "author": {
+          "id": "4fac11b02cac3b7733e24613c5b59e3f",
+          "source_id": "saltypal",
+          "username": "saltypal",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "453196ad65f008ddb2c8a9e1c33fc6b4",
+        "source_id": "49171913",
+        "content": {
+          "text": "Pango | Founding Software Engineer | On-site (hybrid) in Stockholm, Sweden (Visa Sponsorship possible) | Full time Pango is building the world's first Agentic Operating System for e-commerce logistics. Our vision is to create the AI e-commerce employee of the future. We are forming our core team in Stockholm and are looking for exceptional engineers. We are backed by some of the most some of the most prominent investors in the world. In less than a year, we have seen massive growth where we can't keep up with the demand and need engineers to bring the product faster to the market. You are a good fit if: * You are comfortable maintaining, expanding and operating an B2B SaaS platform with a high sense of ownership. * You have previous experience working at a SaaS product company as a founding or senior engineer * You have strong proficiency in any backend language or platform (we particularly like Rust or Golang background) * You have a pragmatic attitude and understand the importance of shipping velocity at an early stage startup * E-commerce (Shopify, WMS, IMS, shipping carrier integrations) experience is a plus. You will take a key role in shaping the product and company, with ability to make an impact and advance career limited only by your aptitude and interest. Reach out to lukasz@pango.ai if you are interested or have any questions. We review applications immediately and move quickly. Please don't use AI to write the initial message. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.502774",
+        "updated_at": "2026-08-05T16:30:26.502774",
+        "author": {
+          "id": "b46ba74498dec08d3ebd91b3a08150dc",
+          "source_id": "lukres_pango",
+          "username": "lukres_pango",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "842abc88a830dfd0e2be7e8fff976334",
+        "source_id": "49180017",
+        "content": {
+          "text": "Small prop-trading firm | Senior Software Engineer | Onsite | Paris, France | Full-time | Competitive comp Hi HN, we're a small (currently 7 people) proprietary trading firm focused on prediction markets & sports. If you love great software, sports, maths and want lots of ownership - come join us! Ideally, you have experience in software engineering for quant finance, but this isn't a hard filter. More details here: https://www.kairos-research.ai/blog/cracked-software-enginee... . Apply by emailing draftpicks[at]kairos-research.ai with a quick line on why this interests you and a CV/Github. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.504242",
+        "updated_at": "2026-08-05T16:30:26.504242",
+        "author": {
+          "id": "abc2c11a3eae1220088f0c1a50b425ea",
+          "source_id": "s-a-p",
+          "username": "s-a-p",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c4baf6454cf263cd9666f3d3a9729eba",
+        "source_id": "49174463",
+        "content": {
+          "text": "Confido | ML Ops, AI, Platform/Core | NYC (Chelsea) | $200k–$350k+ Base We're building the AI operating system for CPG brands like OLIPOP, Tropicana, Dr. Squatch, Chobani, and 200+ others. Our customers manage over $40B in revenue on Confido. We grew 5x last year and are on track to 4x again this year.\nWe're hiring across multiple engineering teams: Applied AI Engineers MLOps Engineers Backend & Full-Stack Software Engineers Infrastructure Engineers Forward Deployed Engineers Tech stack: Python, Rails, TypeScript, Postgres, AWS, Kubernetes, LLMs, distributed systems, and modern AI infrastructure. Compensation: ~$200k–$350k+ base (depending on level) + meaningful equity + 40% performance bonus. Location: On-site in Chelsea, NYC. Eng @ Confido: https://bit.ly/4wkuQGC Careers Page: https://jobs.ashbyhq.com/confido?utm_source=kgLg18R3XB reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.505821",
+        "updated_at": "2026-08-05T16:30:26.505821",
+        "author": {
+          "id": "abbdffeb504aeb1b4df9ac1e5f3ea8d3",
+          "source_id": "maddie-confido",
+          "username": "maddie-confido",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "100e1cb1612e67ffb2a024a02bfec518",
+        "source_id": "49167547",
+        "content": {
+          "text": "Elucid | Senior Security Engineer | Boston, MA | ONSITE (hybrid) | $130k–$170k | https://elucid.applytojob.com/apply/GaiNUaxbuO/Senior-Securi... Elucid builds FDA-cleared AI software that analyzes cardiac CT scans to characterize plaque and predict heart attack and stroke risk. The world's best cardiologists use our output to make treatment decisions for real patients. As such, our platform is regulated as a Software as a Medical Device (SaMD) product by the FDA and we operate under HIPAA, ISO 13485, and ISO 27001. We're hiring a Senior Security Engineer to help mature and scale our security engineering program: You'll work across application security, cloud infrastructure, and regulatory compliance, contributing to secure SDLC practices, threat modeling, code and design reviews, CI/CD security testing, AWS hardening and audit other activities to allow Elucid ship secure code quickly within a regulated SDLC. We are looking for: 5+ years of experience in security engineering, application security, or a closely related software engineering role with a strong secure coding background, including fluency in cloud infrastructure security, common vulnerability classes (OWASP Top 10 and beyond), authentication, and cryptography fundamentals. Healthcare or regulated-industry experience is a plus, but not a requirement. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.507359",
+        "updated_at": "2026-08-05T16:30:26.507359",
+        "author": {
+          "id": "714d743cbf5cd99e27de40295890c21d",
+          "source_id": "elucid_sec",
+          "username": "elucid_sec",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "fd49af80253d3e21132c64220e860aad",
+        "source_id": "49180607",
+        "content": {
+          "text": "Location: Blacksburg, Virginia, USA Remote: Yes (open to remote, hybrid, or on-site) Willing to relocate: Yes (Anywhere in the US) Technologies: Java, Spring Boot, Python, FastAPI, JavaScript/TypeScript, React, Next.js, Node.js, PostgreSQL, MongoDB, GraphQL, Kafka, Docker, Kubernetes, AWS, Redis, Elasticsearch, CI/CD, PyTorch, TensorFlow, OpenAI, LangChain Résumé/CV: https://drive.google.com/file/d/1cL0z5wFMD6v78Kavk63oTlSX67K... | https://github.com/ansharma07 Email: anshul03@vt.edu Software Engineer with 3+ years of experience building scalable full-stack applications using React, Next.js, Java, Spring Boot, and AWS. Recently completed an M.S. in Computer Engineering from Virginia Tech. Experienced in building production systems, integrating LLMs into real-world applications, and developing end-to-end features from backend services to modern web frontends. Looking for Full Stack Software Engineer, Backend Software Engineer, or AI Software Engineer roles at startups or product-focused companies where I can build impactful products, own features end-to-end, and solve challenging engineering problems at scale. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.509000",
+        "updated_at": "2026-08-05T16:30:26.509000",
+        "author": {
+          "id": "112fca7852ed456dfd7ada141714c864",
+          "source_id": "ansharma07",
+          "username": "ansharma07",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2e4ec4a9e6d3f824be7528ae0469eba4",
+        "source_id": "49182331",
+        "content": {
+          "text": "You want to post in https://news.ycombinator.com/item?id=49156682 not here reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.510591",
+        "updated_at": "2026-08-05T16:30:26.510591",
+        "author": {
+          "id": "65eb0959f7335911aafe0ddebbe8d151",
+          "source_id": "c17r",
+          "username": "c17r",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "aeed56c2059159c1c1f5d31929fee351",
+        "source_id": "49169663",
+        "content": {
+          "text": "Arsenal FC | Research Engineer | London Colney, UK | HYBRID | FULL-TIME Yes, the 25/26 Premier League Champions! You'd be embedded with the Men's First Team analysis dept building the internal tooling analysts and coaches use day to day — full-stack apps plus applied ML to automate and augment football analysis. The fun part is the constraint: it has to be genuinely useful to coaching staff and hold up against a live training/matchday schedule, not just be technically neat. Python / SQL / TypeScript, PyData stack (Pandas/Polars, Altair, etc.), PyTorch/JAX/TF. You'll own things end-to-end, data through UI. Looking for strong quant background, first-principles engineering judgment, and taste in how insights get presented. Here's a taste of what the work looks like: https://x.com/karun1710/status/2080382035613405584?s=20 Hybrid, DBS check and UK Right to Work required. Closes 6 Aug 2026.\nApply: https://careers.arsenal.com/jobs/8083296-research-engineer reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.512268",
+        "updated_at": "2026-08-05T16:30:26.512268",
+        "author": {
+          "id": "52adb22f0543d2c8fe3e034575d4aae6",
+          "source_id": "chdove",
+          "username": "chdove",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0201343bad5ec9ca6107fd43069ccc66",
+        "source_id": "49169969",
+        "content": {
+          "text": "My dream job, as an Arsenal fan I guess we'd have free tickets and access to certain facilities? Training camps? Sensors? Oooh, what's not to love! Good luck to the one who gets it, I envy you deeply reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.513928",
+        "updated_at": "2026-08-05T16:30:26.513928",
+        "author": {
+          "id": "586f122fb5cdcc4f7f9fbf86a237bad5",
+          "source_id": "Kuyawa",
+          "username": "Kuyawa",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "472dcd9fb0a7c09a83fb021f76d65812",
+        "source_id": "49167059",
+        "content": {
+          "text": "Unitary Foundation | Member of Technical Staff, Fault Tolerant Quantum Compilation + Simulations | REMOTE (US) | Full-time Unitary Foundation is a 501(c)(3) non-profit research group building a quantum technology ecosystem that benefits the most people. We build open-source infrastructure for quantum computing — current projects include Mitiq, UCC, and Clifft — and run community programs like microgrants and unitaryHACK. We're hiring an MTS to help define and build our open-source compilation and simulation stack: compilation, simulation, error mitigation, resource estimation, benchmarking, and early fault-tolerant workflows. You'll join a small technical team doing research through sponsored collaborations with national labs, universities, and industry partners. The role is about technical ownership — forming a technical point of view, proposing roadmaps, and building tools that become useful shared infrastructure. There's also room to experiment thoughtfully with AI-assisted research workflows. We're looking for a track record of building software other people use (ideally open source), a strong background in quantum computing (fault tolerance, error correction, compilation, simulation), and strong Python; C++/Rust is a plus. A PhD is one possible background for this role, but not required. Apply at https://unitary.foundation/jobs/mtscs/ reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.515781",
+        "updated_at": "2026-08-05T16:30:26.515781",
+        "author": {
+          "id": "931af6f1353846f39fe85131aa20ca59",
+          "source_id": "bachase",
+          "username": "bachase",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "aef717dd6b0787aab6333d80c6240919",
+        "source_id": "49170963",
+        "content": {
+          "text": "G-Research | London, UK | On-site | https://www.gresearch.com/ At G-Research, researchers and engineers work side by side to solve some of the most complex problems in quantitative finance. Together, they develop the research, technology and infrastructure that drive our work in global financial markets. Our Technology teams build high-performance platforms, optimise large-scale compute and enable research to move from idea to production. Interested in joining us? Explore some of our current Technology opportunities: - Performance Engineering Manager: https://www.gresearch.com/vacancies/performance-engineering-... - NLP Performance Engineer: https://www.gresearch.com/vacancies/nlp-performance-engineer... - Quant Developer: https://www.gresearch.com/vacancies/quantitative-developer/ - Machine Learning Engineer: https://www.gresearch.com/vacancies/machine-learning-enginee... - Production Software Engineer: https://www.gresearch.com/vacancies/production-software-engi... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.517666",
+        "updated_at": "2026-08-05T16:30:26.517666",
+        "author": {
+          "id": "0903c6c6b48312d43bbb0feb3de05de0",
+          "source_id": "maddie1SP",
+          "username": "maddie1SP",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "98acaa27eb05dc373460921c12293b62",
+        "source_id": "49179433",
+        "content": {
+          "text": "Maincode | Software Engineers | Seattle, WA | ONSITE | maincode.com We're an AI lab based in Melbourne Australia building Matilda, Australia's LLM -- our own models, trained and served on our own AMD GPU cluster. Just went into public beta: chat, mobile app, CLI, with desktop shipping this week. We're opening our first US office in Seattle and hiring up to 10 engineers to start around September-October. Small flat team, high agency, high ownership. We're not prescriptive about where you add value; we expect you to figure that out. Looking for people who ship. Apply: https://jobs.ashbyhq.com/maincode/5116c58b-73f4-4d5d-ae69-6b... -- mention HN in your application. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.519453",
+        "updated_at": "2026-08-05T16:30:26.519453",
+        "author": {
+          "id": "bbe524686ce282f03b9456c078d91c10",
+          "source_id": "luke-maincode",
+          "username": "luke-maincode",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f83cffc07f396508eca3ce5404d6151b",
+        "source_id": "49169157",
+        "content": {
+          "text": "Preferred Networks | Tokyo or Remote in Japan | Full-time | https://www.preferred.jp/en Preferred Networks is an AI company based in Tokyo working across the stack, from AI chips and computing infrastructure to LLMs and products. You may already know us indirectly if you've used software we've built, such as Optuna or CuPy (or Chainer, back in the day). We are designing in-house chips (MN-Core series: https://mn-core.com/ ) and training LLMs (PLaMo series: https://huggingface.co/pfnet ), and our team is actively hiring for two roles related to these endeavors: - MN-Core LLM Serving Engine Engineer: Build software infrastructure to serve LLMs using our upcoming inference accelerator, MN-Core L1000. [Apply here: https://open.talentio.com/r/1/c/preferred/pages/121580 ] - LLM Inference Optimization Engineer: Improve the inference engine powering our API service and maintain PLaMo implementations in open source projects such as vLLM. [Apply here: https://open.talentio.com/r/1/c/preferred/pages/119173 ] Both roles require relocation to Japan. We are happy to provide visa and relocation support. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.521408",
+        "updated_at": "2026-08-05T16:30:26.521408",
+        "author": {
+          "id": "bf4a8423d7d6c4d4e6aff9d3f2a51487",
+          "source_id": "kmaehashi",
+          "username": "kmaehashi",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2ca592890aaca06abc4f32a19081e739",
+        "source_id": "49170090",
+        "content": {
+          "text": "Atom Computing | Many posititions | Boulder, CO/Austin, TX/Berkeley, CA | Some ONSITE, Some HYBRID We're hiring software engineers, hardware engineers, RF engineers, FPGA and ASIC engineers, Optics/Mechanical/Optomech engineers, and Physicists with a background in atomic physics and/or characterization of quantum systems. We trap Ytterbium atoms with lasers, and then use each atom as a qubit in a quantum register. A flash of green light accomplishes the quantum analog of a NOT gate. Two atoms held sufficiently close followed by a flash of UV light accomplishes the quantum analog of an XOR gate. The company is well funded and growing quickly. We have an endless supply of rich and interesting signal processing challenges. Atoms, famously used in atomic clocks, are very precise and sensitive to all the imperfections in your system. This makes for very demanding signal paths. Compiling programs for this architecture also involves interesting compiler challenges/optimizations. You'll have fun. https://jobs.lever.co/atomcomputing reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.523262",
+        "updated_at": "2026-08-05T16:30:26.523262",
+        "author": {
+          "id": "416a8997da4e6c76feced475eb94fe01",
+          "source_id": "gaze",
+          "username": "gaze",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d5bd39d6c4e322a800801f32bd8da2b8",
+        "source_id": "49170699",
+        "content": {
+          "text": "I just looked at your job postings and not one of them is remote yet you label them as being remote on the first line. Please correct this issue and update it as hybrid. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.525087",
+        "updated_at": "2026-08-05T16:30:26.525087",
+        "author": {
+          "id": "91c85778c439a56f65928b87032fe048",
+          "source_id": "Romstar",
+          "username": "Romstar",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1b795ba09b1f38ab2209621bcd71ec6f",
+        "source_id": "49177650",
+        "content": {
+          "text": "Corrected, sorry about that. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.526940",
+        "updated_at": "2026-08-05T16:30:26.526940",
+        "author": {
+          "id": "416a8997da4e6c76feced475eb94fe01",
+          "source_id": "gaze",
+          "username": "gaze",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ab16d132767b70448f83ef38ebf4fb9b",
+        "source_id": "49171202",
+        "content": {
+          "text": "Sourcegraph | Remote | Full-Time | SWE, Tech Lead, Agent Engineer, Product Manager, Product Marketing Manager | https://sourcegraph.com Sourcegraph is building the context layer for AI-powered software development. As AI accelerates code creation, we help engineering teams understand, navigate, and safely change large codebases. Our products, including Code Search, Deep Search, MCP, and Agentic Batch Changes, give developers and AI agents cross-repository context and enable coordinated code changes across hundreds of repositories. Engineering teams at companies like Stripe, Reddit, and Leidos use Sourcegraph to ship faster with greater confidence. If you want to build the infrastructure that lets every engineering team - and every agent they deploy - operate on their codebase with confidence, join us. Sourcegraph is backed by Sequoia, a16z, Redpoint, and Goldcrest. Apply here: https://grnh.se/0572f98b4us reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.528923",
+        "updated_at": "2026-08-05T16:30:26.528923",
+        "author": {
+          "id": "a9f701c83d30f82a11d4c5509f077e36",
+          "source_id": "dcsourcegraph",
+          "username": "dcsourcegraph",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "456dd5c2a0ce48ed629f7cd402d726fc",
+        "source_id": "49167837",
+        "content": {
+          "text": "SafetyWing | 100% Remote | Hiring Globally At SafetyWing (YC W18), we’re building a global social safety net for remote workers — simple health, insurance, and retirement products designed to replace national welfare systems. Our mission is to remove geographical borders as a barrier to equal opportunity and freedom for everyone. If we succeed, we believe this will be one of the most important tasks of our time. - General Manager, Nomad Insurance: https://safetywing.pinpointhq.com/postings/261cc20f-e1ae-4c7... - Opener (3-Month Contract): $1.5K USD/mo base + commission https://safetywing.pinpointhq.com/postings/1634cc12-c769-4eb... - Lifecycle Marketing Manager: https://safetywing.pinpointhq.com/postings/fd7106ba-d53a-4a6... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.530958",
+        "updated_at": "2026-08-05T16:30:26.530958",
+        "author": {
+          "id": "b742d6ea806b02207b370a29dc4b56c6",
+          "source_id": "SarahTina",
+          "username": "SarahTina",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f9096de74739d56460a23e7e594d7cf7",
+        "source_id": "49168047",
+        "content": {
+          "text": "Nango | Staff Backend Engineer, Founding DevRel, Founder's Associate | REMOTE (NA/LATAM/EU) + ONSITE (San Francisco) | Full-time | $140K–$220K + equity Nango ( https://nango.dev ) is an open-source platform for product and AI-agent integrations. We handle auth, syncing, and tooling for 900+ APIs so developers can ship integrations in hours instead of weeks. 11k+ stars on GitHub. Open roles: - Staff Backend Engineer — REMOTE (North America, LATAM, Europe) | $140K–$220K + equity. Design and scale the backend systems and APIs that power millions of integration runs, and work directly with developer customers on hard integration problems. - Founding Developer Relations — ONSITE (San Francisco) | $150K–$200K + equity. Build our presence in the AI developer ecosystem: content, conferences, community, partnerships. - Founder's Associate — ONSITE (San Francisco) | $140K–$180K + equity. Work directly with the founders across strategy, product, ops, and GTM. Apply: https://jobs.ashbyhq.com/Nango reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.533023",
+        "updated_at": "2026-08-05T16:30:26.533023",
+        "author": {
+          "id": "2190c5f009bc0394287de272fbbfa270",
+          "source_id": "sapneshnaik",
+          "username": "sapneshnaik",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "072cf335097e37240187a9bfa880c625",
+        "source_id": "49166151",
+        "content": {
+          "text": "Senior Python Backend Engineer | REMOTE (EMEA/APAC) We're looking for Python backend engineers to work on a trustless supercluster of performance-proofed GPU-enabled sandboxed docker container runners controlled by truly decentralized algorithms (not just PAXOS or RAFT). Wow, that was a mouthful... If you found it interesting, join Reef Technologies and tackle complex technical challenges like this on your own terms: - Contribute from wherever you like; we are fully remote - Set your own time commitment, as long as it's at least 30h per week - See how we work in our handbook: github.com/reef-technologies/handbook - Influence the way we operate through our Sociocracy 3.0 decision-making process Salary on a B2B contract: - 45-70 USD or 180-280 PLN per hour - Flexible work schedule (as measured with a time tracker) - We automatically adjust rates based on inflation twice a year We're looking for someone with 5+ years of programming experience, including at least a year with Python (including open-source and significant personal projects). So, what do you think? You don't even need a CV; just go to https://careers.reef.pl/?utm_source=hackernews and shoot a few quick commands to apply. Edit: If you applied and haven't heard back, please check the spam folder of the email associated with the GitHub account you used to apply — our replies sometimes end up there. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.535190",
+        "updated_at": "2026-08-05T16:30:26.535190",
+        "author": {
+          "id": "3d4fd947f0d9a7e65f3ed2c0f27514e8",
+          "source_id": "mwapinska",
+          "username": "mwapinska",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "63d36adb6f787d2981b4f8c7ae2e1e37",
+        "source_id": "49166970",
+        "content": {
+          "text": "Spore.Bio | Senior Software Engineer | Paris, France | Hybrid (Flexible) Spore.Bio is a deeptech startup building a new paradigm in quality control for FMCG (Food & Beverage, Cosmetics, Pharma). We are replacing 200-year-old microbiology methods with advanced optics and deep-learning technologies to detect bacterial contamination directly on the factory floor in minutes, instead of days. We are looking for a hands-on Senior Software Engineer to design, build, and operate our core backend systems, APIs, data pipelines, and cloud infrastructure. You will be a key technical contributor, building the systems that connect our cutting-edge optical instruments to cloud data platforms. Tech Stack: Python (FastAPI), PostgreSQL, AWS, Terraform, Ansible, Docker, GitHub Actions If you are interested in applying software engineering to real-world hardware and microbiology challenges, we'd love to hear from you! Apply here: https://careers.spore.bio/jobs/7230020-senior-software-engin... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.537269",
+        "updated_at": "2026-08-05T16:30:26.537269",
+        "author": {
+          "id": "b4a5a5ba1e94ca852905542e36f7eb1b",
+          "source_id": "pbdupire",
+          "username": "pbdupire",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f0c70b42b768b8e045b0806bfd0671b0",
+        "source_id": "49170895",
+        "content": {
+          "text": "Hello, the problem is interesting do you guys offer remote jobs ?. I am based out of Dublin reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.539305",
+        "updated_at": "2026-08-05T16:30:26.539305",
+        "author": {
+          "id": "54b08dbe45e496b5b6f796bc7d035fe4",
+          "source_id": "harsh_patel_23",
+          "username": "harsh_patel_23",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "604be6a6a0d5d0cb9a3b7baf3b3089ba",
+        "source_id": "49164297",
+        "content": {
+          "text": "Chainguard | Product Manager, Scanner | REMOTE | Full-Time | https://www.chainguard.dev/ Chainguard is the trusted source for open source. We build hardened, minimal, continuously-updated images, libraries, and packages that eliminate vulnerabilities before they ship — used by teams at Anduril, Canva, OpenAI, Snap, and Snowflake, among others. We're hiring a PM to own the malware and greyware scanning engine inside Chainguard Repository — the system that analyzes source code, build behavior, and maintainer activity across the open source packages flowing through our platform to catch compromised or malicious artifacts before they reach a customer's environment. You'd own the roadmap for detection coverage, scanner accuracy (precision/recall trade-offs are the daily grind), and how findings get surfaced to security teams and translated into policy enforcement. Close partnership with our detection engineering and threat research teams, and with customers who are increasingly asking \"how do you know this package is safe?\" Good fit if you've done PM work on a detection, fraud, spam, or security scanning system before, are comfortable being hands-on with data and false-positive/false-negative trade-offs, and want to work on a problem that's getting more urgent as AI agents pull in more open source dependencies automatically. JD to be posted imminently but email me if interested and I'll route appropriately: patrick@chainguard.dev reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.541473",
+        "updated_at": "2026-08-05T16:30:26.541473",
+        "author": {
+          "id": "29438cf47fd0d1561d23128bb7340623",
+          "source_id": "prdonahue",
+          "username": "prdonahue",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "07ce354a5499188d05653bbb346192ee",
+        "source_id": "49164303",
+        "content": {
+          "text": "AusRehab | Full-Stack Software Developer | Full Time | Sydney, Australia (Bankstown), hybrid | AU$120–160k Apply online: https://www.ausrehab.com/careers/full-stack-ai-developer/ AusRehab is a workplace rehabilitation provider in Australia — we help injured workers in the NSW workers' compensation scheme return to work. We're replacing a stack of off-the-shelf systems with in-house, AI-driven ones, so our consultants can do their work better: fewer errors, statutory deadlines met, clearer communication with workers and insurers, and the audit and regulatory requirements handled properly rather than remembered at the last minute. For this we're assembling a small team of 3-4 full-stack developers who will work directly with our rehab consultants to design systems that actually fit the task. You'd own solutions end to end, with real autonomy and no ops team to hand your infrastructure to. You'd also talk to the people using what you build. Stack: Python, TypeScript, React, React Native, PostgreSQL, AWS (Lambda/S3/SQS/EC2), GitHub Actions. Prior experience with ML, NLP, and agentic AI systems is highly desirable, but not essential. No workers' comp knowledge needed, but we do ask for a curious mind to learn from an unfamiliar domain. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.543679",
+        "updated_at": "2026-08-05T16:30:26.543679",
+        "author": {
+          "id": "ed258e722084ba47d0cbf4c2c844a3ec",
+          "source_id": "benhongh",
+          "username": "benhongh",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a93e174de6aec12cd751b5a81f2becad",
+        "source_id": "49163907",
+        "content": {
+          "text": "Detections.ai | Full-Stack Engineer, Detection Platform | REMOTE (US & Canada) | Full-time Detections.ai is building the platform for teams to create, test, organize, share, and improve detections. We’re hiring a full-stack/product engineer with hands-on detection experience—writing or tuning detections, building SOC tooling, or integrating SIEM/EDR platforms. You’ll own product features end to end across React interfaces, backend services, APIs, data models, search, integrations, and asynchronous workflows. LLMs are a core product capability, not a bolt-on chatbot. Our assistant orchestrates domain tools and agents to analyze threat intelligence, search detection libraries, identify coverage gaps, create and translate detections, and ground recommendations in connected SIEM telemetry. We care about accuracy, evals, observability, hostile-input safety, and practitioner UX. Stack: TypeScript, React, Next.js, NestJS, Python, AWS, OpenSearch, and Valkey/Redis. Expected annual base salary: US$150,000–$225,000, or the Canadian-dollar equivalent, plus equity. The exact offer will depend on experience and role scope. We’re looking for strong production web-app experience, end-to-end product ownership, and familiarity with some combination of Sigma, KQL, SPL, YARA, SIEM, EDR, or MITRE ATT&CK. We’re a small, experienced, remote team working directly with customers and security practitioners. Apply: Email jobs@detections.ai with “HN Full-Stack Engineer” in the subject and a short note about your detection-engineering experience. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.545982",
+        "updated_at": "2026-08-05T16:30:26.545982",
+        "author": {
+          "id": "827793fde2d637e3a1af9e35484f2c79",
+          "source_id": "brian_meek",
+          "username": "brian_meek",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "226e655feabfe2a1b44fcfc1dbf98486",
+        "source_id": "49165870",
+        "content": {
+          "text": "Odoo | Software Developer | Hybrid (Belgium, 3 days/week) | Full-time | Visa + €10k Signing Bonus | https://www.odoo.com/r/4zN Odoo builds open-source business apps used by millions. We're hiring software developers to work on our Python/PostgreSQL backend, fast JS framework, mobile apps, website builder, and more. Why join us: - €10k signing bonus - Visa sponsorship + relocation support (contains flight ticket + airport taxi + 1 month free housing) - No clients, no deadlines — just clean, open-source code - Pick your team after 3 weeks of onboarding - Great team, countryside office (with chef!), flexible hours You: - Master a programming language - Proficiency in object-oriented programming - Strong in SQL and relational database, data structures, and DB design - Passionate, autonomous, and eager to build real stuff Apply → https://www.odoo.com/r/4zN reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.548261",
+        "updated_at": "2026-08-05T16:30:26.548261",
+        "author": {
+          "id": "5c474e2d9bf2a09f1a244ad47a52fb92",
+          "source_id": "spiksla",
+          "username": "spiksla",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d4c18dc8380ee9f38fec98f05728848f",
+        "source_id": "49171991",
+        "content": {
+          "text": "Checkmate of a move asking for the passport along with the resume. The latter should stand in for the former before an offer is made. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.550474",
+        "updated_at": "2026-08-05T16:30:26.550474",
+        "author": {
+          "id": "b73c1de151e06aee7732cc2c72127ecd",
+          "source_id": "zshrdlu",
+          "username": "zshrdlu",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "21cc760c097ededee834f50d045b631d",
+        "source_id": "49177011",
+        "content": {
+          "text": "I made the same comment last month or the month before. It's super sketchy that they would require a passport as part of the application process before an offer is even made! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.552766",
+        "updated_at": "2026-08-05T16:30:26.552766",
+        "author": {
+          "id": "07f47bd67c62e6c1dcd76d4c49b5212b",
+          "source_id": "nasaeclipse",
+          "username": "nasaeclipse",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "bd52d8a8c2d0d817d552e4f9dac310a9",
+        "source_id": "49175620",
+        "content": {
+          "text": "Landjourney | Senior Full-Stack Engineer | Montreal, QC (hybrid, 2-3 days/week onsite) | Full-time | $160-170K CAD We build lending software for agriculture: loan origination, automated document collection, white-labeled servicing portals, and a capital marketplace, sold to banks and credit unions. Seed stage, $4.5M raised, SOC 2 Type II. Stack: Python/FastAPI, CockroachDB, Redis, Angular 22, Docker. This is genuinely full-stack, and the front-end half is the part most candidates overstate, so we test it directly. Multi-step loan applications with cross-field validation, document collection interfaces, portals our lender clients rebrand as their own. Forms complex enough that state management is a real problem. Our take-home is an agentic assignment. You pick one of three problems, use whatever AI tooling you like, and ship it running on Vercel. We do not care whether you wrote it unaided. We care whether you understood what came out. The full brief is public, so read it before applying and decide for yourself whether it is worth 2-3 hours: https://github.com/landjourney/agentic-assignment After that, 45 minutes where you walk us through your code and add one requirement we did not tell you about in advance. 7+ years. French is an asset, not a requirement. No visa sponsorship. Apply: https://app.dover.com/apply/Landjourney/e1083161-2682-4459-b... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.555193",
+        "updated_at": "2026-08-05T16:30:26.555193",
+        "author": {
+          "id": "977a40de3486f9036998ec3662fbf13e",
+          "source_id": "identity-wael",
+          "username": "identity-wael",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d63654a9684a892938f7fd2ebe41a2dd",
+        "source_id": "49174485",
+        "content": {
+          "text": "Pantograph | San Francisco, CA | ONSITE | Full-time | Software Engineer, Mechanical Engineer, Research Scientist Pantograph is a research lab developing generally intelligent robots with simple, scalable methods. We design and manufacture our robots in-house — we published full details on our robot today and opened the waitlist. It's an open, hackable robot: a full NixOS machine that runs any model, starting at about 4K. We'll be building thousands of them as we aim to collect 10M hours of on-embodiment robot data for our models. We're a public benefit corporation. We care about transparency and openness, and we think a lot about what it would look like for robotics to go well. Some of our thinking on mission and impact is on our website: https://pantograph.com/ We're hiring across the hardware and ML research teams. We're looking for a great generalist SWE to work with our hardware team on our robot feature stack and improve our customer experience (Rust and Python, no robotics background required), a mechanical design engineer to take our first-generation robots from prototype through large-scale production, and research scientists with experience in large-scale pre-training, self-supervised RL, or video modeling. Open roles: https://pantograph.com/careers If you don't see the perfect role but you're excited about what we're doing, email hiring@pantograph.com with your background and what you'd want to do here. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.557605",
+        "updated_at": "2026-08-05T16:30:26.557605",
+        "author": {
+          "id": "79c87e5f579467ca8209144e1787de99",
+          "source_id": "camfas",
+          "username": "camfas",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0f9b16d8b2aee5c250dd7c6d29d7211d",
+        "source_id": "49164382",
+        "content": {
+          "text": "Shared Context Lab | Member of Technical Staff | San Francisco or New York | ONSITE | Full-time Shared Context Lab ( https://sharedcontextlab.com ) is building adaptive personal AI that understands the texture of real life: relationships, routines, responsibilities, and goals. Our closed beta is garnering very positive feedback and retention. We’re venture backed + incubated at iconic design firm IDEO. We’re looking for a senior, hands-on engineer to tackle: - Core agent, product, and infrastructure systems - Context, memory, orchestration, and tool use - Simulation environments for users, schedules, relationships, and multi-agent interactions - Evaluations for long-horizon agent behavior, reliability, and safety We care a lot about high agency, collaboration, and high ownership mentality. Strong product judgment and care for user experience matter as much as technical rigor. Apply here: https://sharedcontextlab.com/mts or reach out at join@sharedcontextlab.com reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.560106",
+        "updated_at": "2026-08-05T16:30:26.560106",
+        "author": {
+          "id": "716798183c7c11a5c774fbd29827649e",
+          "source_id": "sidali3367",
+          "username": "sidali3367",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "17f71fe41cc949aa5747548ea1c9c51e",
+        "source_id": "49158552",
+        "content": {
+          "text": "Vitalize | Full-time Engineer | San Francisco (hybrid) What we do:\nHospitals run critical operations (staffing, labor planning, and capacity) on spreadsheets, phone calls, and gut instinct. Labor is the biggest cost and hardest operational problem, and it’s still largely manual. Vitalize is building the operating system for hospital labor (and ultimately capacity): we forecast demand from real hospital data (e.g., ADT + historical patterns + acuity) and translate that into concrete staffing decisions: next month’s schedule and the next shift. Traction:\n- Launched Jan 2024; ~$8M committed ARR across 10+ health systems (deals ~$300K–$2M)\n- Live in 20+ hospitals and growing quickly\n- ~$37M raised (Oak HC/FT, Norwest, .406, plus customer-investors MemorialCare & Rochester Regional Health) How we work:\nWe’re extremely customer-obsessed: everyone visits customer sites (including engineering) and we regularly build alongside operators to solve real problems (not hypotheticals). High ownership, high candor, high velocity. Who we're looking for:\nEngineers who learn quickly, reason clearly about hard problems, and want to ship high-impact product at the intersection of AI + operations + healthcare. If you're interested, email me mark@vitalize.care Stack:\nTypeScript + Postgres + Effect Comp:\n$160k–$270k + equity reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.562599",
+        "updated_at": "2026-08-05T16:30:26.562599",
+        "author": {
+          "id": "ca467c79396ab05ee2e0195a2510e0f5",
+          "source_id": "mkinsella",
+          "username": "mkinsella",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "09ac2c94932b802eb171fe47522063c1",
+        "source_id": "49162817",
+        "content": {
+          "text": "Sudowrite | https://sudowrite.com | √ REMOTE (US) | √ PMF | √ PROFITABLE | Full-Time Kind, smart, low-drama people, seeking the same to help make writing tools authors dream about. Our users have published thousands of books using Sudowrite, and we're building a sustainable company, not chasing unrealistic growth targets set by VCs. * We help the next generation of storytellers tell better stories. * We believe the future of writing is AI & human collaboration. * Co-founders both had prior exits. ————————————————————— Hiring: Senior Full-Stack Developer & Mobile Developer * Build imaginative tools that help writers turn ideas into stories. * Work across the stack: from expressive, responsive interfaces and text editing to the systems and AI infrastructure behind them. * You should have: Great taste and product sense, lots of agency, strong React and backend experience, and a sense of humor, adventure, and hope. * Comp: $160K–$180K, equity, 401(k), profit sharing, retreats, and unlimited books. APPLY FULL-STACK: https://sudowrite.com/jobs/full-stack APPLY MOBILE: https://sudowrite.com/jobs/mobile reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.565247",
+        "updated_at": "2026-08-05T16:30:26.565247",
+        "author": {
+          "id": "e8d6641c7e72e9d5d0c912a8c0d688fb",
+          "source_id": "jamesjyu",
+          "username": "jamesjyu",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6a4a82eecded7b0a3df16b8444eab999",
+        "source_id": "49166975",
+        "content": {
+          "text": "Phonely | San Francisco, CA | Full Time | Onsite (5 days/week) | Senior Full Stack Engineer https://phonely.ai Phonely builds AI voice agents that automate phone calls for businesses. We’re a YC S24 company that raised our Series A in January and are looking for a senior full stack engineer to help build the future of voice AI. Our stack includes TypeScript, Next.js, Vercel, Python, PostgreSQL, Kubernetes, AWS, Redis, and modern AI models. We’re looking for engineers who enjoy owning features end-to-end, shipping quickly, and solving hard product and infrastructure problems in a small, high-performing team. Experience with AI, voice, or distributed systems is a plus, but not required. Reach out with your CV to recruiting@phonely.ai with “HN Hiring” as the subject. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.567830",
+        "updated_at": "2026-08-05T16:30:26.567830",
+        "author": {
+          "id": "0f9e7f3810925a848b7655cddd09326d",
+          "source_id": "Phonely",
+          "username": "Phonely",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8acf05ae9aaba01150455d4c86e191b6",
+        "source_id": "49162565",
+        "content": {
+          "text": "OpenRent | London, UK | Full-Time | ONSITE+PART REMOTE | https://www.openrent.co.uk What sucked the last time you rented a house or flat? Come and fix it. OpenRent is force for good in an industry tarnished by rip-off agencies and one of the biggest UK websites by traffic. Enabled by an unrelenting focus on technology, we let more properties than any agency in the UK. In the last 12m we let over £50 billion worth of property, to over 8 million registered users, without ever charging any admin fees. You'll be working on solving every aspect of the rental journey, from models to predict the right price of a property, to building the future of property management, all to help tenants find their dream home, and landlords their ideal tenant. We're VC backed, profitable, and have plenty of ambition to maintain our fast growth in this absolutely massive market. Roles currently available: - Senior Full-Stack Engineer | Equity | 110k+ (based on experience) + quarterly bonus All roles visible here: https://www.openrent.co.uk/jobs reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.570442",
+        "updated_at": "2026-08-05T16:30:26.570442",
+        "author": {
+          "id": "7bf0ca02b2246088944309fe75f6602e",
+          "source_id": "dazbradbury",
+          "username": "dazbradbury",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d1677125fd6c0a0e3b42c0c9d10a734f",
+        "source_id": "49156711",
+        "content": {
+          "text": "Open Education Applications / Neon | Senior/Lead Platform & DevOps Engineer, Senior Frontend Engineer, Senior Full-Stack Engineer | Utrecht, The Netherlands | HYBRID We are a non-profit working to make teaching materials for schools better, more affordable, and more flexible, in both digital and print formats. Working hours and office cadence are flexible and agreed based on the role. Dutch proficiency is required. We offer highly competitive compensation. Technology stack: Git monorepo, TypeScript, Yjs and React, some Python, OpenTofu/Terraform, Scaleway, managed PostgreSQL, and managed Kubernetes. Open roles: - Senior/Lead Platform & DevOps Engineer - Senior Backend Engineer/Architect - Senior Frontend Engineer - Senior Full-Stack Engineer E-mail jobs[at]openeducation.foundation met (HN) + de functienaam in het onderwerp, samen met een korte introductie en een link naar je LinkedIn-profiel en/of GitHub. Als er van beide kanten een goede match lijkt te zijn, plan ik graag een kennismakingsgesprek in. https://openeducation.foundation | https://www.neon.nl reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.573183",
+        "updated_at": "2026-08-05T16:30:26.573183",
+        "author": {
+          "id": "ea888bbe7054e1fe77d4ca2359cae94f",
+          "source_id": "eterps",
+          "username": "eterps",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "fbc07e01386995062d4e7f844277b6fb",
+        "source_id": "49159996",
+        "content": {
+          "text": "Radical Numerics | San Francisco, CA; Tokyo, JP | ONSITE | https://www.radicalnumerics.ai 50 million seed round -- Obvious Ventures and Emergence capital Radical Numerics is an AI research lab building general biological intelligence — applying distributed systems, model architecture, and numerics research to biology. We built Evo and Evo 2, the generative genomics models behind the first AI-designed gene-editing tools and the first whole genome designed entirely by AI (published in Science and Nature). We're now building Omnii, our next-generation genome language model, and the infrastructure to scale it. Advisors include Eric Horvitz (CSO, Microsoft), Chris Ré (Stanford), and George Church (Harvard). 16 open roles, all onsite in San Francisco (several also open in Tokyo): Full list: https://jobs.ashbyhq.com/radical-numerics I'm on the team and happy to answer questions here or by email — heather@radicalnumerics.ai reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.575927",
+        "updated_at": "2026-08-05T16:30:26.575927",
+        "author": {
+          "id": "b1a9251b72eb2ac62d7320df89ac359f",
+          "source_id": "RadicalNumerics",
+          "username": "RadicalNumerics",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "519ddb15ee78c7fc384a6f3f7725beb5",
+        "source_id": "49157959",
+        "content": {
+          "text": "DeepSight Technology | Software Manager x2, Staff Software Engineer (GPU Algorithms), C++ Software Engineers | Santa Clara, CA (Hybrid) | $175k-$250k (some flex) | Full-time | https://deepsightinc.applicantpro.com/jobs/ DeepSight is transforming interventional imaging. Our proprietary NeedleVue™ platform delivers real-time visualization inside the body — showing target anatomy and instrument position together — to guide biopsies, ablations, and cardiac interventions with radiation-free precision. Our mission: democratize procedural medicine. 85% of U.S. counties lack skilled procedural specialists, and our low-cost platform helps close that gap with faster, safer cancer diagnosis and treatment. Hiring: Software Manager (x2) (Imaging and AI, and GUI and App Logic), Staff Software Engineer — GPU Algorithms, C++ Software Engineers. Apply: email CV to reverly@deepsight.com with \"Hacker News\" in the subject line. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.578652",
+        "updated_at": "2026-08-05T16:30:26.578652",
+        "author": {
+          "id": "36db62e2fdd9618383808405a69a9696",
+          "source_id": "racheleverly",
+          "username": "racheleverly",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6588ed7570d83c83340fe4d6ed9633dd",
+        "source_id": "49157095",
+        "content": {
+          "text": "Palace Cybersecurity | Founding Deep Learning Engineer | New York or US Remote Palace Cybersecurity secures large organizations from employees abusing cloud access privileges (Google Workspace, Microsoft SharePoint, Snowflake). We are commercializing Facade, a method for deep learning anomaly detection invented and deployed at Google (published at https://arxiv.org/abs/2412.06700 ). Looking for a senior/staff level engineer with >5 YoE shipping production machine learning systems, and some experience with deep learning recommendation models. Prior experience in the cybersecurity domain is preferred, but not required. Fluency in an ML framework (e.g. Pytorch, Jax, or Tensorflow) and ETL data orchestration (e.g. Spark, Beam, Dagster) is required. You will work closely with the founder, an author of the above paper, on building and deploying a system for enterprise customers. Contact at hiring[at]palacecyber.com reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.581352",
+        "updated_at": "2026-08-05T16:30:26.581352",
+        "author": {
+          "id": "5fc80e80685acfbed443c12a550aed5c",
+          "source_id": "cneo",
+          "username": "cneo",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8bea061ab3d45d6ac9044bf56f6e7ea5",
+        "source_id": "49165697",
+        "content": {
+          "text": "email doesn't work reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.584067",
+        "updated_at": "2026-08-05T16:30:26.584067",
+        "author": {
+          "id": "e2d55924cafd649888a7dcc26098ffd8",
+          "source_id": "xucian",
+          "username": "xucian",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "74b3afcbb86429a9222934720827546c",
+        "source_id": "49167908",
+        "content": {
+          "text": "fixed it! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.586793",
+        "updated_at": "2026-08-05T16:30:26.586793",
+        "author": {
+          "id": "5fc80e80685acfbed443c12a550aed5c",
+          "source_id": "cneo",
+          "username": "cneo",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8e6935251381507dc488837954f7e29d",
+        "source_id": "49162914",
+        "content": {
+          "text": "Amplify Education | Remote (US) | Multiple roles | https://amplify.com/careers/ We’re looking for innovators and optimists to join us in developing next-generation curriculum and assessment programs for K–12 schools. We have become a leader in K–12 literacy, biliteracy, math, and science by building inspiring teaching and learning experiences based on research. Roles include: * Senior Software Engineer | Remote (US) | $140K – $160K + bonus * Software Engineer | Remote (US) | $120K – $129K + bonus * Data Scientist | Remote (US) | $100K – $132K + bonus * Associate Data Scientist | Remote (US) | $95K – $110K + bonus * Director, Business Systems Technology | Remote (US) | $160K – $180K + bonus + equity * Development Manager (ERP / HCM) | Remote (US) | $140K – $160K + bonus + equity Apply at https://amplify.com/careers/ or email me via my profile. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.589693",
+        "updated_at": "2026-08-05T16:30:26.589693",
+        "author": {
+          "id": "7fde297f97b79b5843d845ed6b5d8304",
+          "source_id": "aaronharnly",
+          "username": "aaronharnly",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0d01afa0015655091eeb07dfd2015503",
+        "source_id": "49163418",
+        "content": {
+          "text": "Applied, I had looked at Amplify before, but haven't gotten any movement. Interested in the space! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.592469",
+        "updated_at": "2026-08-05T16:30:26.592469",
+        "author": {
+          "id": "120631c2aa696d0d7d093b605f883763",
+          "source_id": "fbrchps",
+          "username": "fbrchps",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "575f934241eac4de8c5bc727c1a981f1",
+        "source_id": "49164039",
+        "content": {
+          "text": "Please email me so I know which role / what name to have a hiring manager look for! (firstname)@harnly.net. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.595312",
+        "updated_at": "2026-08-05T16:30:26.595312",
+        "author": {
+          "id": "7fde297f97b79b5843d845ed6b5d8304",
+          "source_id": "aaronharnly",
+          "username": "aaronharnly",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a0ca75b11dcb82ed81a0b1a619544c8d",
+        "source_id": "49178671",
+        "content": {
+          "text": "Fliplet | Hiring: Technical Team Lead (UK/EU) & Outbound SDR (Canada) | Remote https://careers.fliplet.com/#jobs Fliplet is an AI-led software creation platform helping organizations build secure mobile and web applications faster. We help enterprise teams move from idea to production-ready software using AI prompts while maintaining the governance, security, and control required for business use. We are growing and currently hiring for two roles: 1) Technical Team Lead | Engineering | Remote We’re looking for a hands-on Technical Team Lead who enjoys coding, solving complex problems, and helping engineers grow. This is a coding-first leadership role where you’ll spend significant time contributing to the codebase while also owning technical direction, engineering standards, and team development. 2) Outbound Sales Development Representative | Sales | Remote (Canada) We’re looking for a proactive SDR who enjoys outbound prospecting and building relationships with potential customers. Apply here: https://careers.fliplet.com/#jobs reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.598297",
+        "updated_at": "2026-08-05T16:30:26.598297",
+        "author": {
+          "id": "5b92da0d662452701ceca530e77d5518",
+          "source_id": "sania97",
+          "username": "sania97",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9b368cf34a14a2bc4b3c4403d82e440c",
+        "source_id": "49181302",
+        "content": {
+          "text": "Hi! One of my clients told me you're currently looking for a Technical Team Lead and Outbound SDR. We specialize in recruiting these types of specialists. May I know how urgently you need to fill these positions? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.601223",
+        "updated_at": "2026-08-05T16:30:26.601223",
+        "author": {
+          "id": "0b5cb12d59ba9ad358fa294a4771a44e",
+          "source_id": "startindustries",
+          "username": "startindustries",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6303a99d9eb2fb549bfaa592dfe65780",
+        "source_id": "49172407",
+        "content": {
+          "text": "Dablam | BDR | NY and London | ONSITE (2 days/week) or REMOTE within NY State or UK | Full-time | Must be US or UK work-authorized (no visa sponsorship) Dablam is an AI-native reputation intelligence firm. We help corporations shape how they're understood in an information environment increasingly mediated by LLMs—surfacing information that's true and under-represented and getting it to the right audiences at the right time. We expand our team with multiple BDR roles in London and NYC. \nWe're looking for 3+ years of BDR/SDR or comparable B2B outbound experience, AI automation, Clay, strong cold-calling and written outreach skills, CRM experience (HubSpot/Salesforce), and a genuine interest in AI and reputation. Comp: competitive base + uncapped commission + equity, plus medical/dental/vision, 401(k) match, generous PTO, professional development budget. Apply by sending your CV to careers@ our website. Only natural persons with the right work permits, no recruiters, AI agencies or companies. Expect fast replies. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.604226",
+        "updated_at": "2026-08-05T16:30:26.604226",
+        "author": {
+          "id": "95d8387e7abd98e72fedd8aed5416ee7",
+          "source_id": "vicpara",
+          "username": "vicpara",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5368f32795b88b595f6f37a951960556",
+        "source_id": "49169017",
+        "content": {
+          "text": "Portless | AI Engineer | REMOTE (North America only) | Full-time | $180K-$230K + equity Founding AI engineer seat. AI adoption at Portless today is basic (decks, spreadsheets, call summaries, a bit of vibe-coded dashboards) — no real end-to-end agentic workflows yet. You'll build the AI infrastructure: shipping high-impact agentic workflows yourself, and building reusable \"Lego blocks\" (APIs, MCP tools, docs) so any team can build their own. Cross-functional, high-leverage role touching every team, working directly with leadership.\nExample first project: an agent for inbound invoice questions — understands the question, pulls the right invoice, drafts a context-aware reply for a teammate to click-send, turning an hour of work into ~30 seconds. Stack: Python, TypeScript, LLM APIs (Anthropic, OpenAI), MCP, RAG, vector databases, agent orchestration, Cursor/Claude Code.\nRequirements: Must be based in North America. 3+ years software engineering with 1-2+ years building production AI systems, 10+ real agentic/LLM workflows shipped end-to-end, platform mindset (built tools/infra for others, not just yourself), strong Python and/or TypeScript across backend and lightweight frontend, relevant sector background (e-commerce, 3PL, logistics, or comparable B2B). Nice to have: RAG pipelines, vector DBs, multi-step tool-use/agent orchestration, evals frameworks.\nFull JD + Apply: https://uctalent.io/referral/Huynh_Nhu_Bao_Nhan221138/erKmmo... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.607256",
+        "updated_at": "2026-08-05T16:30:26.607256",
+        "author": {
+          "id": "9eb335aaefa3ef405fd299d852568472",
+          "source_id": "uctalent",
+          "username": "uctalent",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f7a779dac6ab24ace9273d95c9c20fa1",
+        "source_id": "49174765",
+        "content": {
+          "text": "Apex Space | Multiple Roles | Full-Time | Onsite | Los Angeles, CA | apexspace.com Apex Space is building standardized spacecraft platforms to enable true mass-production of spacecraft and enabling getting varied and similarly mass-produced payloads to orbit. We're hiring everything from technicians to product/project managers to all sorts of engineers: thermal, mechanical, mechanisms, optical, power systems, electronics/avionics, PCB, embedded software, ground software, full stack, devops, and more. You can apply at https://www.apexspace.com/careers . Or, email me with a resume at maabonnet [at] gmail [dot] com, and I'll get you a direct referral link so that you get a call with a recruiter ASAP. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.611074",
+        "updated_at": "2026-08-05T16:30:26.611074",
+        "author": {
+          "id": "e2826856ed6fdd2d6fc607b9a6f0b7cc",
+          "source_id": "mbonnet",
+          "username": "mbonnet",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "23b33e36b04ea50c7cebce80594cf9e9",
+        "source_id": "49164461",
+        "content": {
+          "text": "Hestus | Machine Learning Engineer (Python, ML) | Peninsula (Onsite) | Full-time | $130k–$200k + equity | YC-funded We're building AI-powered CAD tools to transform hardware development — think next-gen design workflows powered by custom ML models. We're a fast-moving startup, working with bleeding-edge tech at the intersection of mechanical engineering and AI. We're looking for a versatile ML engineer to help us scale: develop and deploy custom models and prototype tools that make complex design work simpler and faster. https://www.hestus.co/careers for more information reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.616837",
+        "updated_at": "2026-08-05T16:30:26.616837",
+        "author": {
+          "id": "9df0a4bb587d56287fe833dd72322d62",
+          "source_id": "kevinsane",
+          "username": "kevinsane",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "798ae6334bbb06654fcad131cad87f5b",
+        "source_id": "49158655",
+        "content": {
+          "text": "Enveritas (YC S18, non-profit) | Backend Software Engineer | Remote (Global) | https://enveritas.org/jobs/ Enveritas is a 501(c)(3) nonprofit working on sustainability issues facing smallholder coffee farmers. We collect field data in 30+ countries and build systems for analyzing risks in coffee, cocoa, and tea supply chains (including EUDR-related deforestation checks). * Backend Software Engineer (Python, PostgreSQL/PostGIS, Docker, AWS, Terraform) - $135-$155k - https://enveritas.org/jobs/backend-software-eng/#10d7adef8us (worldwide remote) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.622610",
+        "updated_at": "2026-08-05T16:30:26.622610",
+        "author": {
+          "id": "5acdfca4c5263a53ed5e236204b6dadc",
+          "source_id": "cuchoi",
+          "username": "cuchoi",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "388a6c8d9ecf05cd287e5408ebfb96ed",
+        "source_id": "49166092",
+        "content": {
+          "text": "Lokker.com | Senior Backend Engineer, Scanning Infrastructure | REMOTE: North America / Europe, UTC-8 to UTC+2 | Full-time Lokker is a privacy platform that helps organizations understand and control what is happening across public-facing infrastructure: websites, browser-side applications, scripts, pixels, cookies, tags, forms, SDK/API calls, and browser-side data flows. We are hiring a senior backend engineer to own and continue to scale Lokker’s scanning infrastructure. This role focuses on backend systems for high-volume website scanning, browser automation, distributed scanning, networking, reliability, performance, and cost optimization. IMPORTANT: A key requirement for this role is substantial, hands-on production experience with browser automation, headless browsers, crawlers, scanners, synthetic monitoring, scraping infrastructure, or closely related technologies. This is not a general backend role, and we can only consider candidates who have already built, operated, or scaled systems in this domain. Other relevant experience includes distributed systems, queues/orchestration, high-scale backend services, HTTP/TLS/DNS, proxies, CDNs, WAFs, bot detection, and fingerprinting. Production experience in Go, Rust, TypeScript/Node.js, C++, or similar. Apply: https://lokker.com/careers/openings/senior-backend-engineer-... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.626159",
+        "updated_at": "2026-08-05T16:30:26.626159",
+        "author": {
+          "id": "fab94f7f2b992459b5892468b99977d8",
+          "source_id": "lokker",
+          "username": "lokker",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0eb2356d92ec765d2ad41fc0360c7c3e",
+        "source_id": "49160057",
+        "content": {
+          "text": "Brain Corp | Multiple positions engineering/operations/product |  San Diego CA | Most roles ONSITE, some REMOTE With 50k robots deployed globally and counting, we're looking for innovators and technologists to help us make the real world work better. We currently have 23 openings spanning software and QA engineering, technical support, operations and product management. Most roles are on-site in San Diego CA; some are remote and two are based in the Netherlands. All positions are posted here: https://www.braincorp.com/open-positions Recent activity at Brain Corp: https://www.braincorp.com/resources reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.629368",
+        "updated_at": "2026-08-05T16:30:26.629368",
+        "author": {
+          "id": "098375dbbf14e39a9706e1a4ab7ce3f4",
+          "source_id": "timfanselow-bc",
+          "username": "timfanselow-bc",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "eba25f202b73aa3d939ac37659f4ab6e",
+        "source_id": "49162677",
+        "content": {
+          "text": "FYI, I'm interested but trying to drill into any of the specific postings is reloading the `/open-positions` page for me (Safari, connected to a VPN.) I'll go ahead and accept that\n`Staff Software Development Engineer in Test, Cloud Applications` role, thanks ;) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.632525",
+        "updated_at": "2026-08-05T16:30:26.632525",
+        "author": {
+          "id": "1d55edce2e9011b352727c2701cf07b5",
+          "source_id": "jondwillis",
+          "username": "jondwillis",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1dcb23a8e9a4422d3fd2a1e4ed87a5a1",
+        "source_id": "49171853",
+        "content": {
+          "text": "Thanks for the website feedback I've forwarded it onward. Much appreciated. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.635700",
+        "updated_at": "2026-08-05T16:30:26.635700",
+        "author": {
+          "id": "098375dbbf14e39a9706e1a4ab7ce3f4",
+          "source_id": "timfanselow-bc",
+          "username": "timfanselow-bc",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b83df1b24955f36b60f9af5f5d62e1b5",
+        "source_id": "49165916",
+        "content": {
+          "text": "IVPN | Infrastructure Engineer / Sysadmin | Remote (UTC-1 to UTC+3 only) | Full-time | https://www.ivpn.net We are a privacy-focused B2C VPN, running since 2010, independently audited every year (#8 in progress), well-regarded in the privacy community. Alongside the VPN we run additional services: modDNS, Mailx and Portmaster. You'll partner with our senior infrastructure engineer and own day-to-day infra for IVPN and modDNS: rolling out a new immutable, diskless, bare-metal VPN gateway fleet, improving DNS routing, and automating whatever you can. Fully remote, high autonomy: maximum freedom, minimum meetings. Expected background: - 3+ yrs managing production Linux, including bare-metal - 3+ yrs with a config management tool (Ansible, Puppet or Salt) - Comfortable scripting in Python, Go or Bash - Solid TCP/IP, UDP, SSL/TLS - Genuine interest in infosec (public-key crypto, TPM, reproducible builds) How to apply: the posting has the full details and a few short questions, apply by email as described there. Questions welcome at viktor at ivpn.net. https://www.ivpn.net/en/infrastructure-engineer-sysadmin reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.639006",
+        "updated_at": "2026-08-05T16:30:26.639006",
+        "author": {
+          "id": "8757bdd27b40ca938239c2a078654954",
+          "source_id": "burnaway",
+          "username": "burnaway",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f4c3b3a4bf68fdd2601206a7de147582",
+        "source_id": "49166080",
+        "content": {
+          "text": "Aqora Quantum | Sr Full-Stack Engineer (Rust + React) | Paris ONSITE or REMOTE (EU) | €70-90k + equity | https://aqora.io Aqora Quantum is building the algorithm layer of quantum computing: the place where people develop, share, and orchestrate quantum workflows. Hardware gets most of the attention, but the algorithms and the tooling around them are where the field actually becomes useful, and today that work is scattered across notebooks and one-off scripts. We host versioned datasets and reproducible benchmarks so results are comparable, and give teams a way to publish a workflow that someone else can pick up and run. Think Kaggle/Hugging Face, but for quantum. We're a small but growing team, having just raised our seed round, and we're now extending into the US. We're looking for one senior full-stack engineer. You'd own features end to end: GraphQL API and services in Rust, React/TypeScript frontend, plus the runner that executes user-submitted workflows against simulators and real backends. You don't need a quantum background, but you do need to enjoy going deep on an unfamiliar technology and getting productive in it fast. That happens here constantly, and we'll give you the time and the people to learn it properly. Beyond that: production Rust you've shipped and maintained, and real comfort across the stack. Onsite in Paris or remote anywhere in the EU. If you're not in Paris, expect to join us there regularly for team weeks. Email jannes@aqora.io with a CV or GitHub, mention HN. Happy to answer questions in the thread too. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.642401",
+        "updated_at": "2026-08-05T16:30:26.642401",
+        "author": {
+          "id": "d4d933fca6df1446e3ca0418b5a69311",
+          "source_id": "stubbi",
+          "username": "stubbi",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "acb92fd45c464428a01b72f9901700e2",
+        "source_id": "49165031",
+        "content": {
+          "text": "Gauss Labs | Senior AI Engineer (ML), AI Scientist (ML) | Palo Alto, CA & Seoul, South Korea | HYBRID | FULL-TIME We build Industrial AI for the world's leading manufacturers for real production data with real yield impact. We are currently building our own tabular foundation models (pretraining, fine-tuning, serving at scale) and Transformer architectures for time-series forecasting on noisy, sparse, irregularly sampled sensor data. Senior AI Engineer - ML (Palo Alto): own the training/serving/monitoring infrastructure for our foundation models and take them from prototype to production. Python, PyTorch, Docker/K8s, CI/CD; 3+ yrs production ML infra; BS+6 or MS/PhD+4. Distributed multi-GPU training a plus. https://jobs.lever.co/gausslabs/13bb4715-22f7-40a7-a941-4612... AI Scientist - ML (Palo Alto or Seoul): design Transformer-based sequence models for manufacturing time series, own EDA through deployment, publish and patent. MS/PhD, 3+ yrs deep learning on time series, PyTorch, top-tier pubs. https://jobs.lever.co/gausslabs/dbfd0b6c-d2e9-460c-91a0-6dde... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.645769",
+        "updated_at": "2026-08-05T16:30:26.645769",
+        "author": {
+          "id": "51af25f257398d89a940ad9875327fd4",
+          "source_id": "yskmt",
+          "username": "yskmt",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d7d897e77724e3fb009b7935652f532f",
+        "source_id": "49166262",
+        "content": {
+          "text": "LiveMap | Geospatial Engineers (Data & Routing) | Full-Time | Switzerland or Remote (CH, EU, UK) Visa sponsorship is not provided. LiveMap - https://livemap.ch/ - is a funded startup with a vision to build the next generation of mapping apps (think hyper-personalised Google Maps). How that looks is still being explored so we're building prototypes, getting them into customer hands and iterating quickly. We're looking to bring on a couple of people to help accelerate this development process. As a data engineer you'll set up a data pipeline, work with product to identify relevant datasets, connect, persist and expose that data. Working on the routing engine you'll extend off the shelf routing engines (Graphhopper) to take into account dynamic run-time preferences & attributes (think temporal). Please find more information and application forms at the links: • Geospatial data/backend engineer - https://tally.so/r/68vdyB • Routing engineer - https://tally.so/r/obdAY1 Happy hacking reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.649280",
+        "updated_at": "2026-08-05T16:30:26.649280",
+        "author": {
+          "id": "9281796f9a38b086b342395ea3307ec2",
+          "source_id": "kisamoto",
+          "username": "kisamoto",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "59aa9e56bfd55ad8bf8b2ab09a471546",
+        "source_id": "49170014",
+        "content": {
+          "text": "Relevant Healthcare | Lead Software Engineer | Remote (US) | Full-time Relevant builds a data platform that helps safety-net healthcare providers deliver better care using data from their electronic health records. Our customers are non-profit clinics called Community Health Centers. You can read more about them, us, and the roles on our jobs page: https://relevant.healthcare/jobs/ We're a small team (~25 overall). We're bootstrapped (no external capital whatsoever, VC or otherwise) and profitable. We've got a modern tech stack (Rails, Typescript, React, GraphQL, d3) and a healthy approach to both tech debt and work/life balance… and we’re also a very nice group of people that get to work on interesting problems for some of the few unimpeachably good actors in healthcare! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.652676",
+        "updated_at": "2026-08-05T16:30:26.652676",
+        "author": {
+          "id": "94b636b3969bd6acfb78531627a1c3af",
+          "source_id": "mistidoi",
+          "username": "mistidoi",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7c7aee73854c5b9d0a64bd0c32997b7d",
+        "source_id": "49174053",
+        "content": {
+          "text": "OneCrew | Multiple Roles | ONSITE / HYBRID | San Francisco, CA OneCrew is the leading full-business platform system, purpose-built for top asphalt and concrete businesses to win more jobs, scale faster, and run smoother, connecting every team, workflow, and dollar across the business. We are a Series A company and looking for individuals to own their domain and accelerate our growth! - Software Engineers (Fullstack, multiple levels) (x3)\n  - Product Marketing Manager Find job details here: https://jobs.ashbyhq.com/onecrew and apply via email: hn [at] getonecrew [dot] com reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.656215",
+        "updated_at": "2026-08-05T16:30:26.656215",
+        "author": {
+          "id": "ae85d01e4d7e8f6af49283787369df4b",
+          "source_id": "oc-max",
+          "username": "oc-max",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e00b53340596e85e78b7a805aeb346b2",
+        "source_id": "49168019",
+        "content": {
+          "text": "Tuza | Product Engineer & AI Engineer | Shoreditch, London | Onsite 3 days/week | Visa sponsorship available We build AI agents for banks, automating the manual work in sales, onboarding and activation. Raised $7m from Northzone, Connect Ventures and TriplePoint. Working with Worldpay, Barclaycard and NatWest. Team of 12. Hiring two roles: - Product Engineer: full-stack features (React, Node.js, TypeScript), API and cloud architecture (AWS) for agent workloads. 4+ years' experience. - AI Engineer: multi-agent workflows (Temporal/LangChain), evals, fail-safes and audit trails for banking tasks. 4+ years' experience, strong Python. Both roles spend time inside partner banks, working directly with the teams using the product. Competitive salary, equity, meaningful benefits and an epic team. Go straight into an intro call with our CTO at https://calendly.com/d/dvrx-3s6-pw9/tuza-product-engineering... . reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.659814",
+        "updated_at": "2026-08-05T16:30:26.659814",
+        "author": {
+          "id": "f21c8004015b9e6b563965a0926a5e86",
+          "source_id": "oliviastannah",
+          "username": "oliviastannah",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a30dc9fc0735f43b582def8500165a45",
+        "source_id": "49171072",
+        "content": {
+          "text": "*Strello Health | Founding Software Engineer | Full-time | Hybrid Remote | Toronto/GTA* Strello Health builds AI voice agents for healthcare. We’re post-seed, generating revenue, and scaling quickly. You’ll work directly with the founders to build the core infrastructure behind real-time voice conversations, including audio streaming, LLM orchestration, APIs, integrations, observability, and production systems. We’re looking for engineers with experience in backend or platform development, distributed systems, APIs, Linux, and building reliable systems from 0→1. Co-op experience counts, and we’re hiring across experience levels. Bonus: WebRTC/WebSockets, ML or LLM infrastructure, Node.js/TypeScript, Python, Docker, Kubernetes, or open-source contributions. Tech stack: TypeScript/Node.js and Python. Email: jobs@strello.health reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.663327",
+        "updated_at": "2026-08-05T16:30:26.663327",
+        "author": {
+          "id": "1dde569a7590928ea6ffcd444a880071",
+          "source_id": "rdmirza",
+          "username": "rdmirza",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "847c16bc1f0dc4799deed4464c673ffd",
+        "source_id": "49180436",
+        "content": {
+          "text": "We’ve had a bunch of folks express interest (thanks!).. But to be clear: this is an in person (Toronto) / remote hybrid position. If your CV doesn’t have a locale, please confirm your willingness to come in person/relocate reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.666824",
+        "updated_at": "2026-08-05T16:30:26.666824",
+        "author": {
+          "id": "1dde569a7590928ea6ffcd444a880071",
+          "source_id": "rdmirza",
+          "username": "rdmirza",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "11e5a0101a7fdf4188e129fccf343fc9",
+        "source_id": "49167647",
+        "content": {
+          "text": "Netrias | Senior Software Engineer, Software Engineer, Senior AI Researcher, AI Researcher | Cambridge, MA, Bethesda, MD | ONSITE (US, hybrid) | Full-time | www.netrias.com/careers Netrias is a fast-growing Artificial Intelligence (AI) company that specializes in the application of machine learning models for data harmonization and curation. We apply these technologies within the biopharma and life sciences domains, and are increasingly expanding the domains and applications we can apply them to. We are hiring across several positions - from entry level to senior - to support the development and deployment of technology for our biopharma and life sciences customers focusing on: - Data harmonization and curation\n- Machine learning and predictive modeling We have several new, exciting efforts that we are looking for support on. Are you, or someone you know, passionate about multi-omics data integration and AI-ready data? If so, please reach out! To learn more and apply: www.netrias.com/careers reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.670332",
+        "updated_at": "2026-08-05T16:30:26.670332",
+        "author": {
+          "id": "99156c4c8e27107355ebf21d51d479cc",
+          "source_id": "netrias",
+          "username": "netrias",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1ec449ca1ea9f9c95e5084686bbaf001",
+        "source_id": "49164584",
+        "content": {
+          "text": "Trustworthy Technology | Earth | Part Time | REMOTE | Vision, Marketing, and Design Hi, we are a small group trying to bring the \"trustworthy\" feature back to tech.  Curating and building a FOSS+ toolset, storefront, and eventually online service—all to support freedom, privacy, and informed consent—on device and on the net. We've written our thoughts and research down at: https://trustworthy.technology/ and we have a few geeks starting projects at: https://codeberg.org/aol First off, you'll notice that you've not heard about this project before.  Next, the message is a bit scattered, and the \"programmer art,\" while arguably not horrible isn't winning any awards either, haha. That's where you come in. You are one of the few folks who really cares about this stuff, and also a graphic/product designer, or perhaps a digital marketer, communicator or \"people whisperer.\"  (Being in the EU would be helpful as well, to work from the digital sovereignty angle, though not required.) Some of us are unemployed, don't have any money of note, and currently donating our time.  Maybe you are too, or retired/cashed-out and bored.  Consider this another FOSS-like project.  We hope the store/service will make money, but we're not there yet. Interested?\nLet's chat at: https://trustytech.zulipchat.com/join/ipafmtlcq5iwrlmk2v7pu4... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.673983",
+        "updated_at": "2026-08-05T16:30:26.673983",
+        "author": {
+          "id": "9a2366f9263c322c394c5f08235afd2c",
+          "source_id": "digisign",
+          "username": "digisign",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a065fcb9793090edd8c082ba10c6443e",
+        "source_id": "49166165",
+        "content": {
+          "text": "Matcha.fm | FULLY REMOTE (US / Canada / Europe / UK / Brazil / LATAM) | Full-time | https://matcha.fm Repeat founder building something new, hiring for these roles: Founding AI Engineer (ML/data) - https://matcha.fm/apply/ai Backend Engineer — https://matcha.fm/apply/be Full-Stack / Frontend Engineer — https://matcha.fm/apply/fse Design — https://matcha.fm/apply/design Marketing / GTM / Growth — https://matcha.fm/apply/marketing reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.677790",
+        "updated_at": "2026-08-05T16:30:26.677790",
+        "author": {
+          "id": "aa9512e7d3002b534d27aaf114378ff3",
+          "source_id": "fiiico",
+          "username": "fiiico",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c096e95ba6e91fd95c4d3769ce283685",
+        "source_id": "49171580",
+        "content": {
+          "text": "Hello Fico, I just applied on your website, love the dogfooding! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.681402",
+        "updated_at": "2026-08-05T16:30:26.681402",
+        "author": {
+          "id": "91c85778c439a56f65928b87032fe048",
+          "source_id": "Romstar",
+          "username": "Romstar",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1707cae180d8766e358e4a45b44b1e38",
+        "source_id": "49166082",
+        "content": {
+          "text": "Amodo Design (amododesign.com) | Sheffield/London, UK | Software Engineer | Full-time | Onsite or Hybrid We are hiring software engineers who enjoy solving important real-world problems and working close to hardware; who learn new domains quickly and prefer practical solutions over over-engineered systems or unnecessary complexity. You’ll work on the projects best suited for you. Projects range widely, and include: - Scientific tools - Automation & robotics (Linux & ROS level) - Embedded C/C++ (typically owned by dedicated firmware engineers, but software engineers are welcome to learn!) - Linux, CUDA, Server engineering for our AI safety, security, and verification work - Custom simulation software (usually python) - Data analysis pipelines (python) - Organisational tooling (Typescript, react, postgres, etc.) Structure: Small teams of software, mechanical, electronics, and firmware engineers build end-to-end systems, typically shipping within a few months. Apply: https://amododesign.com/career reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.685261",
+        "updated_at": "2026-08-05T16:30:26.685261",
+        "author": {
+          "id": "5bf5c8efa759fa7e467051b72090b9ee",
+          "source_id": "jul23",
+          "username": "jul23",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "73cc3de2e63c6f2281e9a2094f2bd581",
+        "source_id": "49169964",
+        "content": {
+          "text": "Your link is a 404, works with an s :-) https://amododesign.com/careers/ reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.689062",
+        "updated_at": "2026-08-05T16:30:26.689062",
+        "author": {
+          "id": "a784c88ffb0da230666f9dce452b4e2c",
+          "source_id": "jjgreen",
+          "username": "jjgreen",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "81f0e0f8c0285889d2ca82b7cc06894a",
+        "source_id": "49165651",
+        "content": {
+          "text": "Democrance | https://democrance.com | Python/Django/Pyramid/Pydantic AI hacker | REMOTE (working in Dubai-UK timezones) We’re a mature microinsurance SaaS startup, building software to help bridge the gap between insurance companies and those who are not insured or under-insured. High traffic, mobile first + SMS platform that requires some interesting compliance and security requirements with deployments in countries with variable quality infrastructure.  Now with added AI sprinkled on top to automate underwriting and data collection tasks - enabling lower cost insurance and reaching wider/underserved markets. Stack is Vue.js with mostly django in the back end although pyramid/sqlalchemy is being used in our analytics dashboard. Plenty of third party api integration. Gitlab, unit tests, and continuous integration are standard. Our devops stack includes Ansible and Terraform, and we operate across the major cloud providers, as well as a few smaller players! Mature and international dev team with a few PhD’s included. Our QA Automation stack is built in Selenium in Java, and we're exploring Playwright as a complementary technology. Understanding of GIT, CI/CD pipelines debugging issues related to them will be key. Experience with TestNG, Maven or Gradle welcome! We’re looking for both mature candidates and juniors - industry experience is of course welcome. Please apply to together@democrance.com by clearly stating the role you want to apply for, your name, current location and visa status, your notice period, salary (Please do not apply again if you already have). https://www.democrance.com/senior-back-end-software-engineer... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-05T16:30:26.692915",
+        "updated_at": "2026-08-05T16:30:26.692915",
+        "author": {
+          "id": "0c2ee0084d98fdf917f84894882dfac6",
+          "source_id": "djd20",
+          "username": "djd20",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-08-05T16:30:27.751684",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "3d91af386f5e9f7eae4d438b7165a712",
+      "source_id": "49181014",
+      "title": "Ask HN: Anyone interested in building a harness-only benchmark?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-08-05T16:30:06.886214",
+      "updated_at": "2026-08-05T16:30:06.886214",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "87218104035700135fb7e2070a9932c9",
+        "source_id": "GodelNumbering",
+        "username": "GodelNumbering",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 2,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49181014",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-08-05T16:30:30.530973",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "93141624a1c6969f214ad982273a9133",
+      "source_id": "49175422",
+      "title": "Ask HN: Dear Anthropic, can we please have thought traces back?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-08-05T16:30:06.886751",
+      "updated_at": "2026-08-05T16:30:06.886751",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "aecfa71b4fa2b3c7c55fe4efc15bb945",
+        "source_id": "exabrial",
+        "username": "exabrial",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 7,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49175422",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-08-05T16:30:35.792272",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "af1008f9971aab6a7a2c3e981c498153",
+      "source_id": "49176440",
+      "title": "Ask HN: What is a good format for a tool to report data to a LLM?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-08-05T16:30:06.887465",
+      "updated_at": "2026-08-05T16:30:06.887465",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "7b6db89baf1c9ef0349c7aa1d16faa07",
+        "source_id": "michaelmure",
+        "username": "michaelmure",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 5,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49176440",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-08-05T16:30:38.852256",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "5cbada522e87d1029e27dbc1d499832c",
+      "source_id": "49173922",
+      "title": "Ask HN: What was your big failure? How did you get around it?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-08-05T16:30:06.887977",
+      "updated_at": "2026-08-05T16:30:06.887977",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "44e8982493bd94c23ad902291a6a6cb1",
+        "source_id": "jspann",
+        "username": "jspann",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 6,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49173922",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-08-05T16:30:42.958363",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "5469225014141a267a22bd9a8828e407",
+      "source_id": "49182115",
+      "title": "Ask HN: What are the most underrated developer tools you've discovered this year",
+      "content": {
+        "text": "<div class=\"toptext\"></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-08-05T16:30:06.888483",
+      "updated_at": "2026-08-05T16:30:06.888483",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "58684c888a491037d51f061a8b932b19",
+        "source_id": "NovaCoding-G",
+        "username": "NovaCoding-G",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 2,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49182115",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-08-05T16:30:44.083437",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "0dcb21846ae87f644ec5748554aed895",
+      "source_id": "49171630",
+      "title": "Ask HN: Can we direct AI on our personal projects during work hours?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-08-05T16:30:06.889106",
+      "updated_at": "2026-08-05T16:30:06.889106",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "cc9bf133e624f81ff2adb4904831cc1a",
+        "source_id": "rpnx",
+        "username": "rpnx",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 3,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49171630",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-08-05T16:30:47.776989",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
   }
 ]
