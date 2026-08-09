@@ -24307,5 +24307,1049 @@
       ],
       "is_nsfw": false
     }
+  },
+  {
+    "post": {
+      "id": "7443c3a7b0dd4456495285430fbe1cff",
+      "source_id": "49230276",
+      "title": "Ask HN: Should AI's tell you they're AI?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">Should AI's be required to answer the direct question \"are you an AI\" with a clear yes?<p>Currently they are not universally required to do so. For example character ai's characters don't[1]. Scammers use these models while perpetuating frauds.<p>The frontier models most of us work with (ChatGPT, Claude, Gemini, Grok, Kimi, GLM) do declare they are AI's.<p>Should all models be required to answer this direct question in the affirmative, overriding any other system or user prompt?<p>[1] I put up a quick demonstration here in case you aren't familiar:<p>https://imgur.com/a/srTlCZn</p></p></p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-08-09T16:06:00.635362",
+      "updated_at": "2026-08-09T16:06:00.635362",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "28331db13e531d128783759144b05e43",
+        "source_id": "logicallee",
+        "username": "logicallee",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 6,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49230276",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "90d883610c491f757478b7baa9c7ac2e",
+        "source_id": "49230362",
+        "content": {
+          "text": "Should AI's tell you they're AI? Yes.  I would add they should have a mandatory \"report\" function. \"Report this scammer\" should trigger a review of all recent interactions the user has performed and if it looks like they are abusing the system to scam people it must escalate to a human operator at the LLM and they must click a button the bundles the interactions and uploads everything required by the national authorities of the given country and also lowers the karma of said country.  If the country loses too much karma they lose access to the LLM meaning they lose revenue and businesses are impacted if they ignore their own scammers. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-09T16:06:02.477656",
+        "updated_at": "2026-08-09T16:06:02.477656",
+        "author": {
+          "id": "50365049936728cea84bd3a29c56297c",
+          "source_id": "Bender",
+          "username": "Bender",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "94540105f89c359fe229644236d6dd27",
+        "source_id": "49230370",
+        "content": {
+          "text": "Yes definitely, I don't even see a single positive reason why they should be allowed to lie. Ive seen a lot of scams lately with AI's being used myself and it's scary how real they sound in tone etc. So a big YES from me reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-09T16:06:02.478206",
+        "updated_at": "2026-08-09T16:06:02.478206",
+        "author": {
+          "id": "7555bb3f4270a58d0bb7f5e7c8980e40",
+          "source_id": "emn4tor",
+          "username": "emn4tor",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9ca2f35b70cd0e683a9133830b8ada73",
+        "source_id": "49230624",
+        "content": {
+          "text": "Because scammers are so good at following regulations already? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-09T16:06:02.478734",
+        "updated_at": "2026-08-09T16:06:02.478734",
+        "author": {
+          "id": "6b7f6c219ea995fc6ef3e9e6eae719d5",
+          "source_id": "apothegm",
+          "username": "apothegm",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "df1d5c10f49f0c1f77e56f73fd91068c",
+        "source_id": "49231668",
+        "content": {
+          "text": "Yes definitely, I don't even see a single positive reason why they should be allowed to lie. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-09T16:06:02.479326",
+        "updated_at": "2026-08-09T16:06:02.479326",
+        "author": {
+          "id": "fb6fd999d08fe827205f5dcbc1755ca2",
+          "source_id": "EMdevV",
+          "username": "EMdevV",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-08-09T16:06:02.479530",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "4ca0a79ea453132f9ab6bc15f381189f",
+      "source_id": "49227024",
+      "title": "Ask HN: How do you go from writing code to deploying with agents?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">Been doing hardcode agent driven coding for the past year. I feel like I now have to test all my code locally with agents reviewing them and ideally testing them. Unfortunately I feel like the traditional CI/CD testing is starting to feel like a formality. Would love to know what everyone is doing, and if I'm not the only one making a mistake.</div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-08-09T16:06:00.636162",
+      "updated_at": "2026-08-09T16:06:00.636162",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "437cfef587ba5b9accf60940843e711a",
+        "source_id": "sakuraiben",
+        "username": "sakuraiben",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 12,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49227024",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "5fb41ef32a30be4f2c9ec2562e07df75",
+        "source_id": "49228253",
+        "content": {
+          "text": "I'm building solo and am extensionally using Claude Code for development and testing. The following scheme finally works great for me. First of all, the agent writes code. After that, it creates tests and verifies that all of them work correctly by cracking the checks and rerunning the test suite. Secondly, it gives me the ready to test code + set up environment (stage). I'm checking that the code actually works, and if not, we are making some fixes until I'm fully satisfied with the result. Thirdly, the agent starts an external review using skill for code review and usually makes some additional fixes to codebase and corrects tests again. After all, we are ready to commit and push the feature to the main branch. Before merging, we start CI/CD - which is important because it does a type check - and wait until the run finishes successfully. That's how it happens in my case. Quick note: this plan was built after many iterations of coding and testing, and it has finally proved that it works. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-09T16:06:04.449170",
+        "updated_at": "2026-08-09T16:06:04.449170",
+        "author": {
+          "id": "ce0329ca31dbde17313acf7dff83dbdd",
+          "source_id": "alekstret",
+          "username": "alekstret",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7233aa7c4b336e41414f19f9d023075b",
+        "source_id": "49228024",
+        "content": {
+          "text": "We still create a ton of end-to-end tests and run them a lot. What changed for us is the review process. While our whole team uses agents to do reviews, we also ask other team members to review the coding session itself rather than the diff. That team member can ask the coding session questions about the architecture decisions, scalability, edge cases, ..etc. Disclosure: I'm building AQ (aq.dev), which is partly why I'm deep in this. We wrote up the session-review practice here: https://aq.dev/guides/how-to-review-an-ai-coding-session/ . The practice works with any agents too, nothing tool-specific about it. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-09T16:06:04.449730",
+        "updated_at": "2026-08-09T16:06:04.449730",
+        "author": {
+          "id": "d9450f4de5b6c48f3d3425f79154567f",
+          "source_id": "knighthacker",
+          "username": "knighthacker",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4d2e8692ca7959aa42e4eca73b32c7bc",
+        "source_id": "49227692",
+        "content": {
+          "text": "More testing is better, so far! I'm using the same red-green-refactor TDD idea, and having Claude use Superpowers code review and running Coderabbit CLI on it all before pushing to CI/CD, which also runs a series of tests (mostly security ones).\nSomeone else posted that whenever something broke they would ask 'Why was it built that way?' to try to have the bot fix it's own coding patterns.. as well as adding a regression test to ensure it did not happen again.\nI also have it do dry-runs and then do live on one item before batching. Catches a lot of things!\nOh, and insist that it RTFM's the API if you're using one. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-09T16:06:04.450296",
+        "updated_at": "2026-08-09T16:06:04.450296",
+        "author": {
+          "id": "c0a584058d6b7850d1c930bf14755bd2",
+          "source_id": "mackatsol",
+          "username": "mackatsol",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ca2bbfce74afb5f613b47239d4c9a12c",
+        "source_id": "49228185",
+        "content": {
+          "text": "I have Claude implementing features from a spec, running tests, creating a build, and then publishing to TestFlight. All I have to do is verify that the build works once I get the TestFlight notification. I have found a key is to use end-to-end tests and not unit tests. This has been working well so far after around 100 pull requests for an app I recently decided to make. So far it’s been good. It’s free, no subscription. [1] https://trysojourn.app I’ve done similar with backend projects utilizing GitHub actions to run tests and publish to staging for verification. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-09T16:06:04.450923",
+        "updated_at": "2026-08-09T16:06:04.450923",
+        "author": {
+          "id": "1d7627d395f1118b3aeba7525bf92029",
+          "source_id": "jmathai",
+          "username": "jmathai",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "203888407634500ec8ebd90dddba9da0",
+        "source_id": "49227329",
+        "content": {
+          "text": "Testing is not a formality. In fact, it's better and easier than ever. Tell your agents to develop your code-base with Red-Green-Refactor Test-driven development. Write failing tests first and run them, then write the code to make the tests pass, then refactor the code as needed. I used to hate writing tests before, but now that I can offload that (and the development, honestly) to AI, it's nothing to keep up with it. Your codebase quality will increase with TDD, because it will reduce the number of things that inadvertently break during updates. Things will break loudly and can be easily fixed (again, by AI) before shipping. If something does manage to get through, add more tests to cover it for next time. This actually makes the LLMs better at coding as well. They can verify their own results and iterate with far less manual validation. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-09T16:06:04.451543",
+        "updated_at": "2026-08-09T16:06:04.451543",
+        "author": {
+          "id": "aaff1906b916cd844966327bea56de33",
+          "source_id": "mr1337",
+          "username": "mr1337",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b37f6d664cf5766df87c5862fa5a44d3",
+        "source_id": "49227924",
+        "content": {
+          "text": "Yeah, that only works if they follow the plan (they don't), actually write the tests first (they don't) and don't silently defer anything which doesn't have a test written as \"speculative without a use case\". Or just write tests to match the buggy code after you call them out for not writing tests. I mean, the struggle is real... No matter how weasel-proof you make the plans they are much better weasels and just do as little as possible and \"the test not written is the test which never fails.\" There's a certain amount of zen to them. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-09T16:06:04.452241",
+        "updated_at": "2026-08-09T16:06:04.452241",
+        "author": {
+          "id": "fa62ac013d76c50edaa109a8aea61031",
+          "source_id": "UncleEntity",
+          "username": "UncleEntity",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "989f88433382f842f4e188c149c7c358",
+        "source_id": "49230738",
+        "content": {
+          "text": "super-dev.sh > super-test.sh > super-build.sh > super-e2e.sh > super-deploy.sh ? super-e2e2e.sh reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-09T16:06:04.452935",
+        "updated_at": "2026-08-09T16:06:04.452935",
+        "author": {
+          "id": "529a0620bf66c5f337b3b50da2d83e0f",
+          "source_id": "cyanydeez",
+          "username": "cyanydeez",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d3080bde2d9848eae3cc3c3cb03cf5f0",
+        "source_id": "49227140",
+        "content": {
+          "text": "Yes reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-09T16:06:04.453623",
+        "updated_at": "2026-08-09T16:06:04.453623",
+        "author": {
+          "id": "5e5f0a8b809e2dd295dcd2dd7e699b60",
+          "source_id": "rk007",
+          "username": "rk007",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-08-09T16:06:04.453929",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "3a15cc1f96bafc7023674231192e1b35",
+      "source_id": "49227635",
+      "title": "Ask HN: What is your database size",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-08-09T16:06:00.636814",
+      "updated_at": "2026-08-09T16:06:00.636814",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "717c8d113821b979ac34ec683eb2e32d",
+        "source_id": "kureikain",
+        "username": "kureikain",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 6,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49227635",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-08-09T16:06:09.329816",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "fc9815fe0e95140c0245a0ecb610cb5a",
+      "source_id": "49227843",
+      "title": "Ask HN: Anyone that has built a marketplace, what has been your experience?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-08-09T16:06:00.637736",
+      "updated_at": "2026-08-09T16:06:00.637736",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "2187b47c47b02297ae2c4b8bb533ccf6",
+        "source_id": "mfisc_019",
+        "username": "mfisc_019",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 4,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49227843",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-08-09T16:06:13.719209",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "4045a110006351e0d48c12748d83f247",
+      "source_id": "49226638",
+      "title": "Ask HN: Why is Open POWER Foundation a wasteland?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-08-09T16:06:00.638518",
+      "updated_at": "2026-08-09T16:06:00.638518",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "a07006b96eb50cca317b0a4d577bf50b",
+        "source_id": "climate_denier_",
+        "username": "climate_denier_",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 6,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49226638",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-08-09T16:06:17.748677",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "73854e5ead323512505cf085e9d837c3",
+      "source_id": "49221476",
+      "title": "Ask HN: Is Ask HN Shrinking?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-08-09T16:06:00.639182",
+      "updated_at": "2026-08-09T16:06:00.639182",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "a9b49b8acddd69a8d1d4d716ff7eb2d7",
+        "source_id": "keiferski",
+        "username": "keiferski",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 17,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49221476",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-08-09T16:06:21.730883",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "79361efbb7b5d124d3b8f721290ac95f",
+      "source_id": "49156682",
+      "title": "Ask HN: Who wants to be hired? (August 2026)",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-08-09T16:06:00.639802",
+      "updated_at": "2026-08-09T16:06:00.639802",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "e8c46afb26dea49b5339afec6e8a91d1",
+        "source_id": "whoishiring",
+        "username": "whoishiring",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 159,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49156682",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-08-09T16:06:25.891698",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "961472b8e3cffa56681a8496983afdcb",
+      "source_id": "49156683",
+      "title": "Ask HN: Who is hiring? (August 2026)",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-08-09T16:06:00.640456",
+      "updated_at": "2026-08-09T16:06:00.640456",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "e8c46afb26dea49b5339afec6e8a91d1",
+        "source_id": "whoishiring",
+        "username": "whoishiring",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 233,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49156683",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-08-09T16:06:29.924473",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "1e52a0533eea1bbeb57e08db435db89b",
+      "source_id": "49222031",
+      "title": "Ask HN: What can I do with a single R9700?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-08-09T16:06:00.641124",
+      "updated_at": "2026-08-09T16:06:00.641124",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "d7ffb13ffea69ecf601e470553259a49",
+        "source_id": "scott01",
+        "username": "scott01",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 4,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49222031",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-08-09T16:06:33.691219",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "0ec0da244f84e525a5fd1a5d4bef54ec",
+      "source_id": "49213660",
+      "title": "Ask HN: In your experience, what are sound conventions for e-ink UI development?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-08-09T16:06:00.641758",
+      "updated_at": "2026-08-09T16:06:00.641758",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "b4e345f57e56f36740557f912c1acf97",
+        "source_id": "BoxOfRain",
+        "username": "BoxOfRain",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 6,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49213660",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-08-09T16:06:37.852556",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "5282882d6c89de2ad7571a6fb9590376",
+      "source_id": "49179728",
+      "title": "Ask HN: Did GitHub remove the stargazers list?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">GitHub seems to be continuing (1) to deprecate star information. First the stargazers list was hidden from logged-out users, and now the main stargazers link on repo pages has disappeared too. <i>/stargazers</i> returns a 404 (2) unless you own the repo.<p>I know many people say stars aren't a real signal, but they were: they made it possible to detect signs of bought stars. Some third-party services even showed the geographic distribution of a repo's stars so you could judge whether they looked fake.<p>The main point is that whatever reasoning GitHub offers, the outcome is the same: either GitHub is weak against bots, or it would rather control these signals itself, with no way for outsiders to audit them.<p>1. https://news.ycombinator.com/item?id=48821803<p>2. https://github.com/tirrenotechnologies/tirreno/stargazers</p></p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-08-09T16:06:00.642739",
+      "updated_at": "2026-08-09T16:06:00.642739",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "fc0fc2d3f266d5d71a8780a80bbe4329",
+        "source_id": "reconnecting",
+        "username": "reconnecting",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 27,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49179728",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "5487858db02616c16351bd60b5bb1f1d",
+        "source_id": "49211999",
+        "content": {
+          "text": "I think they forbid access to the list for non-owners reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-09T16:06:39.739957",
+        "updated_at": "2026-08-09T16:06:39.739957",
+        "author": {
+          "id": "0e5bd1b1eb01f7d16283ee09929ad927",
+          "source_id": "hskimse",
+          "username": "hskimse",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f94ad8f3946bfe3472d3818d8dad8ac4",
+        "source_id": "49231412",
+        "content": {
+          "text": "yep just found it 404 on the repos I don't own reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-09T16:06:39.740503",
+        "updated_at": "2026-08-09T16:06:39.740503",
+        "author": {
+          "id": "9145943f91fb56ca3fe45608cd96b2c2",
+          "source_id": "thisisharsh7",
+          "username": "thisisharsh7",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8365238381b35fb46a02ac9b194eb32c",
+        "source_id": "49183634",
+        "content": {
+          "text": "yes, been giving 404 for some time. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-09T16:06:39.741014",
+        "updated_at": "2026-08-09T16:06:39.741014",
+        "author": {
+          "id": "2e55fd60ac1e6dede3705c075d8dc6f8",
+          "source_id": "bansalvip",
+          "username": "bansalvip",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "178bc7ef46b48d527a264a50373b4a1e",
+        "source_id": "49219616",
+        "content": {
+          "text": "What was it? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-09T16:06:39.741569",
+        "updated_at": "2026-08-09T16:06:39.741569",
+        "author": {
+          "id": "269a01479fa9c64424cb1f25262e4c98",
+          "source_id": "vladsiu",
+          "username": "vladsiu",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "866345c240eb43f61e929fa93fc4bbdf",
+        "source_id": "49230219",
+        "content": {
+          "text": "Stargazer = who starred a repo reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-09T16:06:39.742152",
+        "updated_at": "2026-08-09T16:06:39.742152",
+        "author": {
+          "id": "7c33a29a0f8adbc34d97c42da223ba2e",
+          "source_id": "kandros",
+          "username": "kandros",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-08-09T16:06:39.742369",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
   }
 ]
