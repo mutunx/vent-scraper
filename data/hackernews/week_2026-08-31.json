@@ -1,0 +1,1390 @@
+[
+  {
+    "post": {
+      "id": "4fd2a142010b32b5de758ff71d3e622c",
+      "source_id": "49510066",
+      "title": "Ask HN: What would happen if your company stopped using all AI tomorrow?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">This is something I’ve been turning over in my head lately. I’m not denying AI is being used everywhere, but I don’t know if it’s actually helping businesses overall. If we shut it all down it seems that businesses would be fine (and maybe even better since there’d be no token burning budgets).</div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-08-31T16:03:15.045618",
+      "updated_at": "2026-08-31T16:03:15.045618",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "8367aab1256e0d5c0f410a021c0e05c3",
+        "source_id": "jc_811",
+        "username": "jc_811",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 12,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49510066",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "f29f6c2c0384bc680330a72bfa7a1990",
+        "source_id": "49510595",
+        "content": {
+          "text": "Pretty much nothing.  We'd remove the AI integrations, the UI elements, then back to where we were.  Luckily, we have no load bearing AI. But if everyone else got to keep their AI, we'd lose customers very quickly. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-31T16:03:17.980060",
+        "updated_at": "2026-08-31T16:03:17.980060",
+        "author": {
+          "id": "889af839cde9d37fdc8b5ad4d76900ea",
+          "source_id": "wax66",
+          "username": "wax66",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "969aeda6501a4587f62922c8977a8c56",
+        "source_id": "49510674",
+        "content": {
+          "text": "so ironic to see “load bearing” in a comment about removing AI. certain phrases have been ruined by fable/opus 5 for all time. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-31T16:03:17.980594",
+        "updated_at": "2026-08-31T16:03:17.980594",
+        "author": {
+          "id": "b21ec391f82f8419853130bfd9e70d7d",
+          "source_id": "joshuamoyers",
+          "username": "joshuamoyers",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9b19c5b3c9656e0006a2ea75b83bbd35",
+        "source_id": "49511322",
+        "content": {
+          "text": "Pretty much same. We only use it for internal projects when coding and for research for all team members, not just developers. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-31T16:03:17.981144",
+        "updated_at": "2026-08-31T16:03:17.981144",
+        "author": {
+          "id": "e8e91c17a34c78e8d465019f1875b2a1",
+          "source_id": "sixothree",
+          "username": "sixothree",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9bd029a082fd5337bf4c88a54ab6d660",
+        "source_id": "49510820",
+        "content": {
+          "text": "I would guess that AI has given me a 30% improvement in pace? I don't know, it would feel like riding a bike on level ground instead of downhill reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-31T16:03:17.981691",
+        "updated_at": "2026-08-31T16:03:17.981691",
+        "author": {
+          "id": "46fa3cdb8fe3542bd3e5af20d549f260",
+          "source_id": "chuckgreenman",
+          "username": "chuckgreenman",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6d3ea3939a4f394c0f2ec820cd551c91",
+        "source_id": "49511218",
+        "content": {
+          "text": "Hotfixes would go down by probably 50 to 60%. On a bi-weekly release rotation it was not abnormal to see 4 to 5 hot fix versions. In the past year, however, it is not uncommon to do 15 hotfix builds per release. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-31T16:03:17.982292",
+        "updated_at": "2026-08-31T16:03:17.982292",
+        "author": {
+          "id": "120bef74ee042560c74696633230a0df",
+          "source_id": "gottagocode",
+          "username": "gottagocode",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "36bd2b8b5fe443351931d4cd942781ee",
+        "source_id": "49511231",
+        "content": {
+          "text": "We're an app dev agency so we would inflate our costs and timelines by 5x and we'd never win another bid. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-31T16:03:17.982997",
+        "updated_at": "2026-08-31T16:03:17.982997",
+        "author": {
+          "id": "32503aeb87e0a4e351b70a17e153330f",
+          "source_id": "_menelaus",
+          "username": "_menelaus",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "bdedd9b3853bb3f57838611c8b93ad3e",
+        "source_id": "49510881",
+        "content": {
+          "text": "I generally agree that the business does not see increased productivity and revenue from AI, if it does it is small enough to be within error. That said, if everyone (not just devs) came in and there was no AI, the org would come to a halt. AI is load-bearing in my company. Everything from dev, code reviews, planning, doc writing, ops heavily uses AI. I mean heavily, there are dev that would not know where to start triaging an alarm without the robots. Same with customer service. So much of the human capital has leaked out of peoples' brains that is fair to compare it to brain drain. Realistically, it would be painful for 1-3 months. People would go to teams with AI. A year from now, leadership is gonna have a hard time justifying keeping the lights out. It is akin to asking \"what would happen if your company stopped using the internet(to look things up)\". reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-31T16:03:17.983679",
+        "updated_at": "2026-08-31T16:03:17.983679",
+        "author": {
+          "id": "d137f6d7db4d466b7ac940c3142947c8",
+          "source_id": "oldsklgdfth",
+          "username": "oldsklgdfth",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1322509d9811c759864fac3fed4e7802",
+        "source_id": "49511135",
+        "content": {
+          "text": "My new business would instantly die, my old business (30+ years) would barely notice; those clients ain’t going nowhere. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-31T16:03:17.984351",
+        "updated_at": "2026-08-31T16:03:17.984351",
+        "author": {
+          "id": "85cef90793637257605b1802d8431171",
+          "source_id": "anonzzzies",
+          "username": "anonzzzies",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4700222a9bbdcda880ef3ad5f7474f64",
+        "source_id": "49510606",
+        "content": {
+          "text": "I’d have to stop interacting with meat proxies and wouldn’t have to read copy pasted LLM text. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-31T16:03:17.985049",
+        "updated_at": "2026-08-31T16:03:17.985049",
+        "author": {
+          "id": "ddf0741907356bded542f197d4d3908b",
+          "source_id": "vips7L",
+          "username": "vips7L",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4648e0067692c59d622d32f82ec1e6fe",
+        "source_id": "49510529",
+        "content": {
+          "text": "In support, we chuck in the logs and get detailed analysis of possible problems and causes. AI based support request handling has been literally Godsend. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-31T16:03:17.985750",
+        "updated_at": "2026-08-31T16:03:17.985750",
+        "author": {
+          "id": "6ee2ad6bc63e5c3c2f181893991bb271",
+          "source_id": "conmod278",
+          "username": "conmod278",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3fbfba70d7fbc8a5155dc4b666085b2a",
+        "source_id": "49511014",
+        "content": {
+          "text": "One-man show here - I own a dozen small e-commerce brands. I'll assume you're just taking away AI, but not the tools I've built with AI. I've got all kinds of useful tools that do helpful things, like check to make sure Amazon hasn't lost a bunch of my inventory or suddenly deindexed my product from search. These sorts of things happen without warning from time to time and are trivially fixable if you catch them, but you have to be constantly monitoring 10 different things to catch anything that could go wrong in a timely fashion. I've similarly got an inventory/cashflow management system that's deterministic that would be fine, but some of my other tools, like one that scrapes my Alibaba/WeChat/Whatsapp/Gmail supplier convos to keep my order status board updated, is finicky. I wouldn't be able to repair that once it broke. For some tasks, I'd have to go back to freelancers. At this point, when I take over a new brand and want to refresh images or want to A/B test new ones with an existing brand, I can do that entirely with image gen. No AI would just send me back to Upwork. For other tasks, I'd just have to do them myself. Right now when I acquire a brand, I have a Claude skill that runs through all of the Amazon search and ads reports to find the key search terms, analyzes the text of the listing and proposes updates to make sure we're hitting the ones that matter. I used to do that myself, but it takes somewhere between 2-10 hours depending how many products we're talking about. The biggest loss would be the inability to expand. I started out just buying Amazon-only brands because Amazon provides a crazy amount of infrastructure that enables me to run a lot of them by myself. My most recent acquisition came with a Shopify site that had minimal sales plus a Meta ad account the guy who sold me the brand had done a little experimentation with. A year ago, I would've just discarded those, since my time is the biggest bottleneck. It takes a lot of time to run your own site and Meta ads, so it makes more sense for me not to bother and instead just make more Amazon-only acquisitions. But now I'm having a great time really pushing Claude and ChatGPT to do most of the work. I redesigned the site more or less by just having ChatGPT do research on competitors and best practices, then having Claude run with that. That took maybe eight total hours of work. I'm spinning up an enormous amount of creative to test on Meta, and I had ChatGPT research and spec all of the kinds of landing pages that are worth trying. Claude implemented them and set up the ads using Meta's ads APIs. I got all of that done yesterday. So yeah, basically if I couldn't use AI any more, I'd get back to the original thesis of my business, which is buying small brands at reasonable prices and operating them as leanly as possible. It still works, but it'd be a lot less fun and profitable. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-31T16:03:17.986591",
+        "updated_at": "2026-08-31T16:03:17.986591",
+        "author": {
+          "id": "5d5c7f1efc1f99465449cbf71efa16e0",
+          "source_id": "idopmstuff",
+          "username": "idopmstuff",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "580e40ba7d69aeff96eba88799c0e442",
+        "source_id": "49511250",
+        "content": {
+          "text": "Off topic, but where do you find these brands to buy? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-31T16:03:17.987363",
+        "updated_at": "2026-08-31T16:03:17.987363",
+        "author": {
+          "id": "8965ba9c92d2e8668cd8dd2e68031e47",
+          "source_id": "mrdependable",
+          "username": "mrdependable",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "92e0bb50c6cb561013bbaae54bc6ef18",
+        "source_id": "49511261",
+        "content": {
+          "text": "Flippa, Empire Flippers and to a lesser degree Quiet Light Brokerage reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-31T16:03:17.988173",
+        "updated_at": "2026-08-31T16:03:17.988173",
+        "author": {
+          "id": "5d5c7f1efc1f99465449cbf71efa16e0",
+          "source_id": "idopmstuff",
+          "username": "idopmstuff",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c62d3ff0f519f942f4eacbf55996995d",
+        "source_id": "49510789",
+        "content": {
+          "text": "If it were just my company and not the whole industry for some newly discovered reason/vulnerability, I would quit because leadership has gone retarded. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-31T16:03:17.989008",
+        "updated_at": "2026-08-31T16:03:17.989008",
+        "author": {
+          "id": "582b60dac4dc9c4c43da40fa1383e231",
+          "source_id": "temp_praneshp",
+          "username": "temp_praneshp",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-08-31T16:03:17.989474",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "095389cc26824733ab7f276cd1d7425d",
+      "source_id": "49508552",
+      "title": "Ask HN: Which self-hosted Docker UIs support rootless mode?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">I went through the docs of 10 Docker web UIs (Portainer, Dockge,\nDockhand, Arcane, Dokploy, Coolify, Komodo, Runtipi, Rancher,\nStacker) looking for one thing: which actually support rootless\nDocker? Anyone actually running these against a rootless daemon? What\nbroke?</div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-08-31T16:03:15.047101",
+      "updated_at": "2026-08-31T16:03:15.047101",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "395e0bd1c4ad18774fc636703c09dc85",
+        "source_id": "vsilent",
+        "username": "vsilent",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 3,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49508552",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-08-31T16:03:20.004736",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "993c517c3653d59a44c55356bc8bb920",
+      "source_id": "49506794",
+      "title": "Ask HN: Why is Founder Mode not working for Airbnb?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">I really liked Airbnb and was rooting for them ever since they launched.<p>The stock never attained the peak it reached post-ipo (only this month it's gotten close), while Booking Holdings roughly doubled in the same period.<p>The sentiment online seems to be against them (or at least in my bubble). Poor customer service and overprotected hosts seem to be recurring issues.</p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-08-31T16:03:15.047691",
+      "updated_at": "2026-08-31T16:03:15.047691",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "d74a17d12e1931a0a0b7fa70f23f6b7c",
+        "source_id": "jorisboris",
+        "username": "jorisboris",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 4,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49506794",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "3681ba2429dfc4b49d88735771546d16",
+        "source_id": "49510086",
+        "content": {
+          "text": "I'd say \"founder mode\" (if we must use such silly terms) did pretty well for them to IPO at over 100 billion for a single segment of the travel market Booking Holdings could easily have done themselves (and to an extent actually does) in the middle of the pandemic though. But all the growth since then was priced in to the market's expectations for them to deliver upon, as were expectations that AirBnB might expand into other markets... Booking Holdings generates more revenue and profit from having more products in more markets, and was underpriced rather than overpriced in 2020. People moan about them at least as much as AirBnB, but ultimately people moan about their websites or policies because they're using them... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-31T16:03:21.299038",
+        "updated_at": "2026-08-31T16:03:21.299038",
+        "author": {
+          "id": "49e2e48fa708322929bd0d60395f2238",
+          "source_id": "notahacker",
+          "username": "notahacker",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2faf055adee904da616f79ba81ec8fc2",
+        "source_id": "49509082",
+        "content": {
+          "text": "Maybe this isn't really a founder mode problem. Airbnb has a two-sided marketplace, so improving the experience for guests can sometimes hurt hosts, and vice versa. Some of the recurring complaints about customer service may therefore come from incentives built into the marketplace rather than from a lack of founder involvement. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-31T16:03:21.299561",
+        "updated_at": "2026-08-31T16:03:21.299561",
+        "author": {
+          "id": "570c577804414d92c1d81b075fd5ba3c",
+          "source_id": "vikramshwetabh2",
+          "username": "vikramshwetabh2",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-08-31T16:03:21.299696",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "b5ea9af4ca1dcb8f9add9b1c31827975",
+      "source_id": "49505033",
+      "title": "Ask HN: What do your job interviews look like? (August 2026)",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">For those who have recently (Summer 2026) gone through software engineering job interviews, have you noticed any changes in the interview process?<p>Is it still the usual Leetcode, system design, behavioral and leadership questions, and maybe technology specific questions (e.g., Spring for Java devs, borrow checker details for Rust devs, etc.)?<p>Or have you noticed something completely different because of the AI agentic era, with companies taking a fundamentally different approach to interviewing engineers? If so, could you share some of the more unique or unusual things you've seen?</p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-08-31T16:03:15.048276",
+      "updated_at": "2026-08-31T16:03:15.048276",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "c83a03f5f6d536a632663cc75b8dc67a",
+        "source_id": "Hixon10",
+        "username": "Hixon10",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 20,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49505033",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "7aa6fdf1bad558b2dfcb12b8402641a7",
+        "source_id": "49508981",
+        "content": {
+          "text": "Same interview process. Recruiter call, Live coding, System design, Behaviour interview. The only difference is that in the Live coding session they now allow AI to be used. I didn’t use it and went old way (because I had already rehearsed it the old way, and found no feedback on the internet about how the company assess AI usage, so I didn’t want to be the Guinea pig) Interview took place this summer. Major tech company in EU (not faang tho). Also Live coding is not leetcode. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-31T16:03:23.364534",
+        "updated_at": "2026-08-31T16:03:23.364534",
+        "author": {
+          "id": "f5dde00778fdf68564c59a9c85fb4020",
+          "source_id": "sdevonoes",
+          "username": "sdevonoes",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3af96a97efbe02b131b23eb67a55b06a",
+        "source_id": "49508255",
+        "content": {
+          "text": "Did a few interviews during the summer and received 2 offers. No AI involved, except screening the CV. But one thing is very common. It's that the cultural fit interviews are longer and carry more value than ever (possibly more than technical interview). Out of 5 stages, 2 or 3 are meeting non tech people, coming to the office, having an informal chat, etc. Companies really want to know you as a person and are very careful who they pick. It's the same for remote, hybrid or office based work. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-31T16:03:23.365097",
+        "updated_at": "2026-08-31T16:03:23.365097",
+        "author": {
+          "id": "ba8321153b6e56becf911edc33aafd0c",
+          "source_id": "vertigolimbo",
+          "username": "vertigolimbo",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8d50bd831c8781ba0b6e68471951a826",
+        "source_id": "49507631",
+        "content": {
+          "text": "Yes, something different.\n5 stages interviews are more common now, technical questions during first HR interview (they record and use transcript), personal projects don't matter, recommendation don't matter. Thinking about which profession to choose next, cause I'm not passing so many gates so far. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-31T16:03:23.365635",
+        "updated_at": "2026-08-31T16:03:23.365635",
+        "author": {
+          "id": "0dabf385559a34216f41abbd860aa1fb",
+          "source_id": "asmyshlyaev177",
+          "username": "asmyshlyaev177",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "aad8767f2cbe87944823dbc2556e67ff",
+        "source_id": "49507613",
+        "content": {
+          "text": "Interview first task, help this laptop (windows) install ai agent (Openclaw or Hermes). that's what happen in my last interview. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-31T16:03:23.366207",
+        "updated_at": "2026-08-31T16:03:23.366207",
+        "author": {
+          "id": "fca874663b2c5cfc84962977779c95e2",
+          "source_id": "bimmpoke",
+          "username": "bimmpoke",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "cf8107572908bb8e5af05050bfc6b7f4",
+        "source_id": "49509680",
+        "content": {
+          "text": "What job interviews? The market is trash dude reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-31T16:03:23.366806",
+        "updated_at": "2026-08-31T16:03:23.366806",
+        "author": {
+          "id": "9d1237be63cf6e7f58907f4a4af572c2",
+          "source_id": "firefax",
+          "username": "firefax",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e5bbb80079a1d27eb48c84c9f1fd7360",
+        "source_id": "49506989",
+        "content": {
+          "text": "now more like IA interviews, in order to speak with ppl at least you need to speak with a couple of machines. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-31T16:03:23.367424",
+        "updated_at": "2026-08-31T16:03:23.367424",
+        "author": {
+          "id": "0822fd7a2db77e98836f823f9c62ee9d",
+          "source_id": "ale-xyz",
+          "username": "ale-xyz",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-08-31T16:03:23.367667",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "0e28c808be0becb4f86acdd244ff7ecd",
+      "source_id": "49507599",
+      "title": "Ask HN: What is the next Burning Man in NA?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-08-31T16:03:15.048877",
+      "updated_at": "2026-08-31T16:03:15.048877",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "c7fad2d9523f9b485fc4b2512c5e2300",
+        "source_id": "johnnyApplePRNG",
+        "username": "johnnyApplePRNG",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 3,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49507599",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-08-31T16:03:29.270938",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "649ed7e6f5a45dd658cfc2806ec73d37",
+      "source_id": "49507259",
+      "title": "Ask HN: What to do when a vendor doesn't respond to security issues?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-08-31T16:03:15.049430",
+      "updated_at": "2026-08-31T16:03:15.049430",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "45616a5a008b6cc6012d9b8c8c6e7ca7",
+        "source_id": "cudder",
+        "username": "cudder",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 3,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49507259",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-08-31T16:03:34.085543",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "30691480d8249e64fee114525893f791",
+      "source_id": "49506998",
+      "title": "Ask HN: Are Prompt Injections \"Malware\"?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-08-31T16:03:15.049992",
+      "updated_at": "2026-08-31T16:03:15.049992",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "a8593f5189a7725190a3c47374c42f01",
+        "source_id": "razorbeamz",
+        "username": "razorbeamz",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 2,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49506998",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-08-31T16:03:37.331092",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "a50548a809694b141c0585c7f3b50b1e",
+      "source_id": "49506838",
+      "title": "Ask HN: Is Rust is a real niche programming language？",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-08-31T16:03:15.050534",
+      "updated_at": "2026-08-31T16:03:15.050534",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "20154db0541e79b754df96eacdf51cd8",
+        "source_id": "juntz",
+        "username": "juntz",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 3,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49506838",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-08-31T16:03:42.305425",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "135003c350872d815aaf4dde202a38c9",
+      "source_id": "49503285",
+      "title": "Ask HN: What are your biggest problems and fixes with multisession engineering?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">I have run into a lot of issues using multiple sessions at once to build things, and I really want to hear from those that have figured a good amount out.<p>Or at least hear what problems people are having to know if I am running into the same blockers everyone is.<p>For example, I often want to have agents stop at certain points, but fail to get a mechanism that works.</p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-08-31T16:03:15.051100",
+      "updated_at": "2026-08-31T16:03:15.051100",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "bf09bcc2a85f4b0eb8ed9527b3d8c929",
+        "source_id": "top_rooster",
+        "username": "top_rooster",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 5,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49503285",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "060837d540ecf32ab2b5691d95e3b74f",
+        "source_id": "49509548",
+        "content": {
+          "text": "Personally, I don’t run multiple sessions / agents (apart from the one claude code spawns on it’s own). \nBut it seems you need an agent workspace manager - perhaps something like gastown? https://github.com/gastownhall/gastown reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-31T16:03:45.040328",
+        "updated_at": "2026-08-31T16:03:45.040328",
+        "author": {
+          "id": "b54cb93a9aa4af782b37adce13aed6ea",
+          "source_id": "hackeryogi",
+          "username": "hackeryogi",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "19aa19f692143b2df9f9992cce3bc051",
+        "source_id": "49506859",
+        "content": {
+          "text": "I'm only running a few agents in parallel so far, but I don't let them write or read anything w/out my approval. This slows things down quite a bit, but it means that I have exactly the opposite of your problem of stopping them. I've only started really thinking about developing my own harness, but one of the reasons would be to implement some mechanism where I could give the agent a \"turn budget\", say, 5 turns, when I can clearly see what the agent is going to be doing for the next few turns, without my needing to allow each turn to go forward. But it sounds like the same thing would be useful for you as well, just in the other direction. Could you say more about what \"certain points\" you're trying to get them to stop at? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-08-31T16:03:45.040934",
+        "updated_at": "2026-08-31T16:03:45.040934",
+        "author": {
+          "id": "266fcd42a1002b29dc89fed2d3a931ca",
+          "source_id": "ebcode",
+          "username": "ebcode",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-08-31T16:03:45.041069",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "950adf789045762a28200c5942fac304",
+      "source_id": "49501306",
+      "title": "Ask HN: AI for Home Lab Infra?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-08-31T16:03:15.052237",
+      "updated_at": "2026-08-31T16:03:15.052237",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "e16ccf79a6786db9bcb93b5a59fbbf71",
+        "source_id": "voakbasda",
+        "username": "voakbasda",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 2,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49501306",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-08-31T16:03:49.508918",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "7441c009b116200a6992fcbb1dfd5735",
+      "source_id": "49498145",
+      "title": "Ask HN: Do you run A/B Tests?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-08-31T16:03:15.052803",
+      "updated_at": "2026-08-31T16:03:15.052803",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "b54cb93a9aa4af782b37adce13aed6ea",
+        "source_id": "hackeryogi",
+        "username": "hackeryogi",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 5,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49498145",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-08-31T16:03:54.487012",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "0fb4ec8e82fde9cea76174a2d70bbbfe",
+      "source_id": "49476981",
+      "title": "Ask HN: What's a Good Physical Printer?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-08-31T16:03:15.053334",
+      "updated_at": "2026-08-31T16:03:15.053334",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "8e8eb7572ff5a9042dc988d5ae7bef69",
+        "source_id": "xrd",
+        "username": "xrd",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 10,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49476981",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-08-31T16:03:57.391701",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "8a8e03f9fd3df0a99e1cbd7c65d5e326",
+      "source_id": "49465640",
+      "title": "Ask HN: Hugging Face is out. Who is hosting open models?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-08-31T16:03:15.053876",
+      "updated_at": "2026-08-31T16:03:15.053876",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "df6e7b6e491a490a1fecba662c792d02",
+        "source_id": "FireUpTheTorren",
+        "username": "FireUpTheTorren",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 23,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49465640",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-08-31T16:04:01.969082",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "abc10b16b6432cbc4d1775590634f452",
+      "source_id": "49417766",
+      "title": "Ask HN: Those making $500/month on side projects in 2026 – Show and tell",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-08-31T16:03:15.054409",
+      "updated_at": "2026-08-31T16:03:15.054409",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "e04510c2ffe0b7ae27b9007f18bc927b",
+        "source_id": "kaladan",
+        "username": "kaladan",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 80,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49417766",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-08-31T16:04:06.956197",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  }
+]
