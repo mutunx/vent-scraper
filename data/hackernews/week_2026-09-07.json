@@ -52023,5 +52023,4989 @@
       ],
       "is_nsfw": false
     }
+  },
+  {
+    "post": {
+      "id": "a5b9b721eccc3bc25da9c1dc70524136",
+      "source_id": "49668196",
+      "title": "Ask HN: Did Google kill its enterprise workhorse model?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">Is anyone else in a panic over the Gemini 2.5 model generation (Pro, Flash) being sunset in October before there's even any Pro class model in general availability (with geo restrictions etc.)?   Google wants everyone to migrate to 3.x Flash, which beats the older Pro models on the benchmarked tasks, but isn't the same thing as the Pro class on reasoning-heavy tasks like complex reasoning on very large documents (my big use case).<p>The Gemini family had a distinct niche in document comprehension, with thousand page input documents taking only 300k tokens.  Nothing quite like that in OpenAI or Anthropic world, even at more than 10x the token adjusted price.  Should we just give up on Google at this point and engineer around the competitors' limits and eat the costs?  Totally unnecessary own goal by team Google.</p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-12T16:03:07.513584",
+      "updated_at": "2026-09-12T16:03:07.513584",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "450dba55f4321504dc7e58d8e4bfafcc",
+        "source_id": "waldrews",
+        "username": "waldrews",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 20,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49668196",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "a8edcf7d9a52c27b2d1da02cad89c129",
+        "source_id": "49668687",
+        "content": {
+          "text": "Sounds like they did. IMO, building your business on anything but open-weight models is a bad idea. Unless you're on the s&p 500 you are an insect to google, anthropic, grok (ew), and openai - and they could crush you at any time without even noticing. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:09.891647",
+        "updated_at": "2026-09-12T16:03:09.891647",
+        "author": {
+          "id": "9144fc67f70de99f49de2c5e64c0680a",
+          "source_id": "kennywinker",
+          "username": "kennywinker",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4e9d4522d1de5bba4d1d90169f8947bb",
+        "source_id": "49669581",
+        "content": {
+          "text": "Sunsetting a model with a two-month notice is exactly why the open-weight argument keeps winning. The API is a dependency you don't control. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:09.892199",
+        "updated_at": "2026-09-12T16:03:09.892199",
+        "author": {
+          "id": "5ff97c48cf30aad877e1c15694ff81f3",
+          "source_id": "torvin92",
+          "username": "torvin92",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0cd7019bb87b060dee06d050643adb35",
+        "source_id": "49671390",
+        "content": {
+          "text": "2.5 flash was also good to use with as the llm layer for voice products. but google gonna google. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:09.892737",
+        "updated_at": "2026-09-12T16:03:09.892737",
+        "author": {
+          "id": "03363b3d882a3a5581fe8006598b7d67",
+          "source_id": "dzonga",
+          "username": "dzonga",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6ebb20d3b3cdd11ca81efd913c16195b",
+        "source_id": "49672684",
+        "content": {
+          "text": "Google is falling behind in this competition. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:09.893322",
+        "updated_at": "2026-09-12T16:03:09.893322",
+        "author": {
+          "id": "bd4c3c7ff66051a2bc3f7a90b124c344",
+          "source_id": "PaulShin",
+          "username": "PaulShin",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "34a1c86a9526f5da9dcd5c05ea94adad",
+        "source_id": "49668964",
+        "content": {
+          "text": "Might be missing something —- are there any issues with Gemini 3.1 Pro that aren’t there in 2.5? I agree, though. 2.5 Pro is a great model. Very competent, knows a lot, and can process tons of text (and videos, and images, and audio too iirc?). Basically unlimited access to it too via AI Studio. I used it for processing and transforming bucketloads of data, ingesting masses of transcripts and converting them to flashcards, etc. I’ll be sad to see it go. None of the newer, cheaper, but obviously less intelligent benchmaxxed smaller models really seem to hold a candle to it for lots of things. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:09.893928",
+        "updated_at": "2026-09-12T16:03:09.893928",
+        "author": {
+          "id": "66a34d507a78dd1d50e287252e63ae7e",
+          "source_id": "grahamnorton39",
+          "username": "grahamnorton39",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "bda41c6ddcaec629ec2e2e1b025982f7",
+        "source_id": "49669047",
+        "content": {
+          "text": "It's still 'preview' and not generally available, so can't run it for US restricted workloads. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:09.894566",
+        "updated_at": "2026-09-12T16:03:09.894566",
+        "author": {
+          "id": "450dba55f4321504dc7e58d8e4bfafcc",
+          "source_id": "waldrews",
+          "username": "waldrews",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0c515af2d607a74b899551177e4ac276",
+        "source_id": "49670270",
+        "content": {
+          "text": "Nope. The projects I'm on where we use it, we're carefully migrating to the newer models. Where we can we test with evals to try and get an understanding of how the models have changed. It's not all roses -- I've seen some regressions -- but generally the 3.x Flash models are pretty great for our use cases. The great thing about LLMs though is it's incredibly easy to diversify and have fallbacks. But of course that means additional costs, mostly centered around engineering efforts to test and integrate them. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:09.895261",
+        "updated_at": "2026-09-12T16:03:09.895261",
+        "author": {
+          "id": "5d3a74dd4f83a4d5bb9d76005ff8f33a",
+          "source_id": "davedx",
+          "username": "davedx",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "187ddd0779c6432b3b0f5b10fcc45027",
+        "source_id": "49672518",
+        "content": {
+          "text": "As an alternative, it's not a bad idea to first convert each document to markdown via a thinking or agentic LLM. Embedded figures can even be embedded as readable tables or Latex or Mermaid. Do record the name and parameters of the model that performs the conversion. You can then query the markdown using any model with an input token cost that is exactly equal to the encoding of the markdown. For multiple queries you can also use input caching. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:09.895913",
+        "updated_at": "2026-09-12T16:03:09.895913",
+        "author": {
+          "id": "2b34cf2c8a1bb9f57765febb60ae5f65",
+          "source_id": "OutOfHere",
+          "username": "OutOfHere",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "512756fcaae73beca8b365f835c44f97",
+        "source_id": "49669394",
+        "content": {
+          "text": "Flash is the new Pro, try it first reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:09.896609",
+        "updated_at": "2026-09-12T16:03:09.896609",
+        "author": {
+          "id": "9ef41060c832cd10f0b8f5bca1a9d10d",
+          "source_id": "ernsheong",
+          "username": "ernsheong",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9ddd4a2c1537a4d88358d82a1d984e5a",
+        "source_id": "49669061",
+        "content": {
+          "text": "Check model garden on vertex ai for other models that you can access Models you can download and use elsewhere if Google nixes access reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:09.897337",
+        "updated_at": "2026-09-12T16:03:09.897337",
+        "author": {
+          "id": "b519cd0cf89f4ce43d6c2e8cb8ab6429",
+          "source_id": "yieldcrv",
+          "username": "yieldcrv",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-09-12T16:03:09.897681",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "246dd3a4e1ba27519f8770e38453a1df",
+      "source_id": "49668960",
+      "title": "Ask HN: What's a good \"semi-dumb\" phone/watch for kids?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">Hard req: has to have cell connectivity &amp; support roaming (US &lt;&gt; EU). Not for daily use, but for comms when they're out of the house in case they need to reach out. I looked at apple watch family and it's great, except that it doesn't allow roaming or plans abroad (it seems that BetterRoaming might work but it's unclear). The Garmin Bounce 2 looks like it fits the bill, but it has ZERO reviews and some comments make it look like it's crap.<p>The Light Phone III seems like an awesome idea, but at ~$900 it's a strong pass.<p>The Punkt MP02 is so far my top contender.<p>Any suggestions?</p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-12T16:03:07.514517",
+      "updated_at": "2026-09-12T16:03:07.514517",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "6ad8ceaab54e4df00fc4e26ee6c8c485",
+        "source_id": "funkaster",
+        "username": "funkaster",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 5,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49668960",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "8b0d6931af8e2d7c8ae053603797ffe5",
+        "source_id": "49669067",
+        "content": {
+          "text": "The iPhone has a mode called Assistive Access. It’s meant for older people or those with cognitive impairments, but could work well for children as well. It changes the UI, limits the apps available, and simplifies those apps, so they just have very basic features. You could set it up on a cheaper or hand-me-down iPhone (if you have one). https://support.apple.com/guide/assistive-access-iphone/welc... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:11.210322",
+        "updated_at": "2026-09-12T16:03:11.210322",
+        "author": {
+          "id": "fb6fae387d9dabe783668f9009982cf3",
+          "source_id": "al_borland",
+          "username": "al_borland",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6f8b9dfa7d060ad9ddaf9b597344cdbb",
+        "source_id": "49671912",
+        "content": {
+          "text": "My nephew had a Gabb watch for a bit. Would not recommend. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:11.210833",
+        "updated_at": "2026-09-12T16:03:11.210833",
+        "author": {
+          "id": "80c24a99098f9bacde4a3b082af31a20",
+          "source_id": "darkzip",
+          "username": "darkzip",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "714b266027c02d496765e6c1fe1d696f",
+        "source_id": "49670073",
+        "content": {
+          "text": "+1 for people who want no spying modules and need the phone to serve connectivity (tethering, hotspot). I was very upset to find FB and similar on recent Nokia products. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:11.211398",
+        "updated_at": "2026-09-12T16:03:11.211398",
+        "author": {
+          "id": "0553368fd65499a7250c54eff41c625d",
+          "source_id": "mdp2021",
+          "username": "mdp2021",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4889d2f3c8d7e10e45a306683f623554",
+        "source_id": "49671098",
+        "content": {
+          "text": "Why not a Volte feature phone? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:11.211939",
+        "updated_at": "2026-09-12T16:03:11.211939",
+        "author": {
+          "id": "0cbb4a81aecb5fe6daa83445551374c3",
+          "source_id": "Egg-Man",
+          "username": "Egg-Man",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "aa7b1f2326340c92865cdf830406ed30",
+        "source_id": "49672207",
+        "content": {
+          "text": "What ages? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:11.212521",
+        "updated_at": "2026-09-12T16:03:11.212521",
+        "author": {
+          "id": "9a688e4c7583fd52091f8f5b41db97b2",
+          "source_id": "brudgers",
+          "username": "brudgers",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f289c5c536a81d7e55e61bb71fc7089d",
+        "source_id": "49670700",
+        "content": {
+          "text": "For the phone, a good candidate is the Commodore Callback. Runs Linux, deliberately blocks all social media, operates like a semi-dumb phone. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:11.213135",
+        "updated_at": "2026-09-12T16:03:11.213135",
+        "author": {
+          "id": "d9410e8dc9c7e428bb470a125a583614",
+          "source_id": "d3Xt3r",
+          "username": "d3Xt3r",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-09-12T16:03:11.213377",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "188a72199922a5b73e47b7f15733363f",
+      "source_id": "49657850",
+      "title": "Ask HN: Can we please limit the AI news flood?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">Over past couple months I noticed that HN feed is almost exclusively AI or AI-adjacent news. Meanwhile the legitimately, broadly-hacker stuff gets left out for the most part.<p>I noticed that because the things I find genuinely interesting that I post here now get zero traction, which is the stuff that I believe would previously be met with some discussion.<p>Note that I don't care that my submissions were ignored, I don't need that validation. Problem is that if my stuff gains no traction, I am myself not seeing similar stuff posted by others, stuff I am genuinely <i>also</i> interested in and would want to hear about from this community.<p>Here are two most recent examples:<p>- Lenovo showed a model that incorporates solid-state air cooling. That technology has been around for a while but it looks like it matured and is production-ready. This allows for super-light and slim designs, which, in turn, should allow for bigger batteries installed and I think it's some sort of breakthrough:  \nhttps://news.ycombinator.com/item?id=49580229<p>- Brax Industries devices, genuinely interesting, open-soruce and innovative, especially the wall display, with its modularity and on-device processing compatible with Home Assistant. I also appreciate the very clean design:  \nhttps://news.ycombinator.com/item?id=49643215<p>As said, I honestly believe this would gain some traction here on HN a year or two ago. I no longer find HN a good source of \"what's new\" in the industry, it's almost exclusively AI talk now.<p>So I think the point I am trying to make is that maybe YC could start curating the content somehow to give those easily-drowned-out articles a visibility bump?<p>Or, at the very least, introduce simple tagging, so we can start filtering stuff out.</p></p></p></p></p></p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-12T16:03:07.515122",
+      "updated_at": "2026-09-12T16:03:07.515122",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "2eb665cc2dd2af583af8075124c94eca",
+        "source_id": "cromka",
+        "username": "cromka",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 807,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49657850",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "ba6c15013fb4feb93d6f31a586cb1332",
+        "source_id": "49657887",
+        "content": {
+          "text": "HN is a reflection of the industry and we're at peak hype-cycle at the moment. I use this when I need a break https://elijahpotter.dev/hnsansai . reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.359263",
+        "updated_at": "2026-09-12T16:03:15.359263",
+        "author": {
+          "id": "5a1f2d6374ccc789282989dce30d75d7",
+          "source_id": "leonheld",
+          "username": "leonheld",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "02a2b2993416b5f10883924e30530642",
+        "source_id": "49658199",
+        "content": {
+          "text": "There's also https://unslop.news , which removes just the posts about AI, rather than all posts that mention it at all reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.359893",
+        "updated_at": "2026-09-12T16:03:15.359893",
+        "author": {
+          "id": "eee29af24773a93426fb893fc6ec856c",
+          "source_id": "flexagoon",
+          "username": "flexagoon",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c3cbd9bd89e89dc90498d9782fac59aa",
+        "source_id": "49658249",
+        "content": {
+          "text": "OK, this is cool, actually! Thanks! It cannot be a long-term solution, though. Most people don't use them and if HN continues to be AI-foremost, many will simply stop coming here to post other interesting, non-AI stuff. A vicious circle. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.360473",
+        "updated_at": "2026-09-12T16:03:15.360473",
+        "author": {
+          "id": "2eb665cc2dd2af583af8075124c94eca",
+          "source_id": "cromka",
+          "username": "cromka",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e3725e88f4115ea8b3814133b934d05d",
+        "source_id": "49658318",
+        "content": {
+          "text": "theres also https://sprinklz.io/public/pdwt4dve5uai which additionally lets you add and modify custom filters reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.361105",
+        "updated_at": "2026-09-12T16:03:15.361105",
+        "author": {
+          "id": "2dbdcf031864c4ac6b2303a28160c1bf",
+          "source_id": "sammy0910",
+          "username": "sammy0910",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "95ad3f320ee5c64a602cdf0915289b93",
+        "source_id": "49664689",
+        "content": {
+          "text": "I am inclusive in that sense and enjoy both AI and non-AI content, and will post both. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.361762",
+        "updated_at": "2026-09-12T16:03:15.361762",
+        "author": {
+          "id": "59baf08e11906165ee446de7acf59603",
+          "source_id": "teekert",
+          "username": "teekert",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b655a155f8fcdba860b7a0aebfa04f52",
+        "source_id": "49658570",
+        "content": {
+          "text": "I'm curious where people would go to as an alternative. I like looking at lobste.rs for non-AI stuff, but to post there you need to be invited by an existing member so it's not a perfect alternative. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.362422",
+        "updated_at": "2026-09-12T16:03:15.362422",
+        "author": {
+          "id": "a64ded658d9c01b8ce281e8b3bd44f45",
+          "source_id": "otherayden",
+          "username": "otherayden",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c4d5272dda7c733566727ef017aac896",
+        "source_id": "49658591",
+        "content": {
+          "text": "The fediverse. Mastodon or Lemmy are viable alternatives if you curate well enough. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.363100",
+        "updated_at": "2026-09-12T16:03:15.363100",
+        "author": {
+          "id": "14d688e3a965535c98d7ae36741a9df8",
+          "source_id": "krapp",
+          "username": "krapp",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "79b058a2e53d9bd6b74c3e7a10b4bd73",
+        "source_id": "49658646",
+        "content": {
+          "text": "So nothing to worry about then. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.363798",
+        "updated_at": "2026-09-12T16:03:15.363798",
+        "author": {
+          "id": "5a25736209a3644595e9ff10eedd8142",
+          "source_id": "nickthegreek",
+          "username": "nickthegreek",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6077fa006dce3e35832a8c555a659f60",
+        "source_id": "49658878",
+        "content": {
+          "text": "Unless you're one of those people who only ever use HN and make it a part of your identity, sure. You can just leave for greener pastures. Or learn to care less. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.364531",
+        "updated_at": "2026-09-12T16:03:15.364531",
+        "author": {
+          "id": "14d688e3a965535c98d7ae36741a9df8",
+          "source_id": "krapp",
+          "username": "krapp",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c0956d6f46abb817ce7f28c85727831b",
+        "source_id": "49659591",
+        "content": {
+          "text": "tildes.net is also great, though it's not just for tech stuff reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.365289",
+        "updated_at": "2026-09-12T16:03:15.365289",
+        "author": {
+          "id": "eee29af24773a93426fb893fc6ec856c",
+          "source_id": "flexagoon",
+          "username": "flexagoon",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "191f0909c6cf03377088b832dc7e4919",
+        "source_id": "49660241",
+        "content": {
+          "text": "Thanks for the recommendation, I had actually never heard of this but it looks promising reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.366080",
+        "updated_at": "2026-09-12T16:03:15.366080",
+        "author": {
+          "id": "a64ded658d9c01b8ce281e8b3bd44f45",
+          "source_id": "otherayden",
+          "username": "otherayden",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2b4945992547d81d2946d5cdb002c578",
+        "source_id": "49659945",
+        "content": {
+          "text": "Thank you for that recommendation. I find the website hard to read¹, but the submissions themselves are as a whole much more interesting² than any HN homepage in the past year. ¹ But I can do something about that, as opposed to the submissions as a whole. ² Even if one of them is about someone’s son pooping in the toilet. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.366908",
+        "updated_at": "2026-09-12T16:03:15.366908",
+        "author": {
+          "id": "d08e124546d9fe3bf50156a1840cb1b6",
+          "source_id": "latexr",
+          "username": "latexr",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "22555414cf4ae7221a51777fea28d5da",
+        "source_id": "49659079",
+        "content": {
+          "text": "[flagged]",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.367696",
+        "updated_at": "2026-09-12T16:03:15.367696",
+        "author": {
+          "id": "61376762881c7e651c1cafee5e5fabf7",
+          "source_id": "anslopic666",
+          "username": "anslopic666",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7952a8824355c40a22e6201624cc9cf5",
+        "source_id": "49659119",
+        "content": {
+          "text": "Second on the list of things HN needs a solution to is fucking troll green accounts because it's getting ridiculous. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.368571",
+        "updated_at": "2026-09-12T16:03:15.368571",
+        "author": {
+          "id": "14d688e3a965535c98d7ae36741a9df8",
+          "source_id": "krapp",
+          "username": "krapp",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1913e9eefdf0dd21ebb03a79028f6141",
+        "source_id": "49659210",
+        "content": {
+          "text": "> if HN continues The NN revolution which started 15 years ago cannot be understated - if anything, some areas are not progressing as fast as they should and some of us are nervously waiting. Have you actually multiplied the weight of submissions in your mental model by how consequential each one is? Because we are still submitting even more idle \"intellectual curiosities\" - but these are in no way \"times of static peace and ordinary administration\". reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.369521",
+        "updated_at": "2026-09-12T16:03:15.369521",
+        "author": {
+          "id": "0553368fd65499a7250c54eff41c625d",
+          "source_id": "mdp2021",
+          "username": "mdp2021",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c7da2eaea785ebddaf6f0e9e047aadb3",
+        "source_id": "49659344",
+        "content": {
+          "text": "What does the \"NN\" in \"NN revolution\" mean? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.370455",
+        "updated_at": "2026-09-12T16:03:15.370455",
+        "author": {
+          "id": "4b183bf1d4b7fbd371fc29f889b85d36",
+          "source_id": "domador",
+          "username": "domador",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a84532f87d747a345107343b15be669e",
+        "source_id": "49659407",
+        "content": {
+          "text": "Neural networks. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.371411",
+        "updated_at": "2026-09-12T16:03:15.371411",
+        "author": {
+          "id": "25053cce3ba99fd2b9745cc0a37c127c",
+          "source_id": "notpushkin",
+          "username": "notpushkin",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "68e483d0570145558e3386d95f41ea4a",
+        "source_id": "49661593",
+        "content": {
+          "text": "Frigging snipers. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.372405",
+        "updated_at": "2026-09-12T16:03:15.372405",
+        "author": {
+          "id": "0553368fd65499a7250c54eff41c625d",
+          "source_id": "mdp2021",
+          "username": "mdp2021",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "93fa70021aa34be64d10e7b3cbeba17c",
+        "source_id": "49659332",
+        "content": {
+          "text": "\"92 of 179 articles survived the filter\". So about half of the posts are about AI now, more than I expected. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.373428",
+        "updated_at": "2026-09-12T16:03:15.373428",
+        "author": {
+          "id": "33fd3d38d2435f870bb9fe51db851d9b",
+          "source_id": "wolvoleo",
+          "username": "wolvoleo",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "eff3b60c9b163a787e08bd46c30b0745",
+        "source_id": "49660260",
+        "content": {
+          "text": "I made the website, and I wish I had tracked the stats from day one. I've seen it hit closer 75% on some days, though reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.374482",
+        "updated_at": "2026-09-12T16:03:15.374482",
+        "author": {
+          "id": "a64ded658d9c01b8ce281e8b3bd44f45",
+          "source_id": "otherayden",
+          "username": "otherayden",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "be6952696a6b420faabe5e08f65597e6",
+        "source_id": "49668059",
+        "content": {
+          "text": "Potentially more. Example, the data center articles don't match the AI filter, but they are certainly AI driven. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.375571",
+        "updated_at": "2026-09-12T16:03:15.375571",
+        "author": {
+          "id": "b06d86ea31f67682648ec88004753e04",
+          "source_id": "slumberlust",
+          "username": "slumberlust",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "40624b35e3ad5239cbb81828929ef635",
+        "source_id": "49658491",
+        "content": {
+          "text": "Thank you for plugging my site :) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.376684",
+        "updated_at": "2026-09-12T16:03:15.376684",
+        "author": {
+          "id": "a64ded658d9c01b8ce281e8b3bd44f45",
+          "source_id": "otherayden",
+          "username": "otherayden",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0d2c75a3127dbf98b3326c591144c960",
+        "source_id": "49660224",
+        "content": {
+          "text": "Thank you from the bottom of our organic hearts! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.377821",
+        "updated_at": "2026-09-12T16:03:15.377821",
+        "author": {
+          "id": "a8788ae09886fb122317aede7d53057b",
+          "source_id": "Keyframe",
+          "username": "Keyframe",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "73cf8a68197eeb96b7b67bf30cfed1b5",
+        "source_id": "49659975",
+        "content": {
+          "text": "Thanks for making it! Saw it on FMHY and have been using it since then reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.378999",
+        "updated_at": "2026-09-12T16:03:15.378999",
+        "author": {
+          "id": "eee29af24773a93426fb893fc6ec856c",
+          "source_id": "flexagoon",
+          "username": "flexagoon",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "969afaad763e52da4690695477021687",
+        "source_id": "49659093",
+        "content": {
+          "text": "\"Ironically, this project was built with AI coding and uses AI to filter out articles about AI. Go figure.\" reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.380206",
+        "updated_at": "2026-09-12T16:03:15.380206",
+        "author": {
+          "id": "8777970efa8806c61a1cc306ab5c9a62",
+          "source_id": "slowpacket",
+          "username": "slowpacket",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "479eac3ddf25c1f5205090c6929bdee1",
+        "source_id": "49659369",
+        "content": {
+          "text": "Well it is the best way to do a 'fuzzy' filter like that. Rather than trying frantically to chase keywords. I don't think anyone considers AI to be something useless. It sure has its uses, I use it a lot to help with research. But it is sometimes shoehorned into things it doesn't belong, or its capabilities overblown for marketing. I think that's what people object to. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.381443",
+        "updated_at": "2026-09-12T16:03:15.381443",
+        "author": {
+          "id": "33fd3d38d2435f870bb9fe51db851d9b",
+          "source_id": "wolvoleo",
+          "username": "wolvoleo",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6db096036653a3394c22e59789a5703f",
+        "source_id": "49660067",
+        "content": {
+          "text": "This is where I’m at. I find AI to be useful but there’s a tendency for it to suck the oxygen out of the room. Other things still matter. Edit: I'll also note that while its nice to see real novel AI news I find a lot of it is extremely marginal value.  I mentally associate most discussion with debating what color of marker to use when marking the edge of your CDs to improve the sound. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.382710",
+        "updated_at": "2026-09-12T16:03:15.382710",
+        "author": {
+          "id": "2225a1e8b277aef721430ede508b253b",
+          "source_id": "kentm",
+          "username": "kentm",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8f9cafb88e6bf7687e64357b7c37453f",
+        "source_id": "49659887",
+        "content": {
+          "text": "That and the sheer volume drowns out everything else. The S/N ratio entirely depends on whether you care about AI and I don't not really. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.384027",
+        "updated_at": "2026-09-12T16:03:15.384027",
+        "author": {
+          "id": "92474fcc4f57425d31b7a6c14e5c1204",
+          "source_id": "noir_lord",
+          "username": "noir_lord",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4612fbb82a3936a56404466ab255e2df",
+        "source_id": "49660299",
+        "content": {
+          "text": "Man, that last sentence is ambiguous as hell. I'm not sure if you do or do not care. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.385423",
+        "updated_at": "2026-09-12T16:03:15.385423",
+        "author": {
+          "id": "13fd6bef80a080c9c5270f7ab8fb116e",
+          "source_id": "dylan604",
+          "username": "dylan604",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ff241bfbc064cfc2b2425fc3c48fbca6",
+        "source_id": "49660604",
+        "content": {
+          "text": "Yeah I didn't word that well at all, at least you know it wasn't an LLM. I meant I don't really care, I keep half an eye on what they are up to (have to live in the same world as them) but I'm not really interested in it at all beyond playing with some local models, the constant onslaught of it has just become tiresome, then I got to YT to watch my usual history content which mentions something I didn't know about so I do a search to see if there is a video on that and that is wall to wall AI slop and that annoys me so I go to do something else, do a search and the results are slop if the AI doesn't try and answer it for me first. It just feels like if you want to do anything on-line you get force fed slop whether you want it or not and it's damn hard to filter it , can't even block channels on YT without an extension. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.386834",
+        "updated_at": "2026-09-12T16:03:15.386834",
+        "author": {
+          "id": "92474fcc4f57425d31b7a6c14e5c1204",
+          "source_id": "noir_lord",
+          "username": "noir_lord",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7c16b4dd3b56865ca1912888d4880afa",
+        "source_id": "49660653",
+        "content": {
+          "text": "In the old days we had this thing called a redaction. It was like a dungeon master vs playing the same hardcoded level again and again. Had one suggested automating it back then even the greatest optimist wouldn't see how you replace [say] Stephen King with a calculator but here we are - true believers. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.388232",
+        "updated_at": "2026-09-12T16:03:15.388232",
+        "author": {
+          "id": "9f637cab389052ab0a39516b1af4a119",
+          "source_id": "econ",
+          "username": "econ",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4fbc226fc822534d2b5f09780a6346dc",
+        "source_id": "49659422",
+        "content": {
+          "text": "An AI slop to filter out AI slops -- the pinnacle of AI. Sadly this would not end just as a joke. We'll be doing this forever from now on. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.389662",
+        "updated_at": "2026-09-12T16:03:15.389662",
+        "author": {
+          "id": "5865995763eb9b62df503014633cb7c0",
+          "source_id": "esjeon",
+          "username": "esjeon",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ec04f7ee056e1968623968134ee7eef4",
+        "source_id": "49659901",
+        "content": {
+          "text": "Humans becoming the adversarial network to the AI is indeed a Black Mirror episode worthy outcome. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.391124",
+        "updated_at": "2026-09-12T16:03:15.391124",
+        "author": {
+          "id": "92474fcc4f57425d31b7a6c14e5c1204",
+          "source_id": "noir_lord",
+          "username": "noir_lord",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "afdc1741bdb66483a39940f338a9b0af",
+        "source_id": "49659941",
+        "content": {
+          "text": "I guess \"hype cycle\" is an accurate description, but it feels overly negative, in the sense that we now have a revolutionary technology that's still quite young and moving fast, and folks everywhere are trying to figure out how to leverage it, both to do new things, and to deal with the problems it causes. So it just feels like a high-energy time where we're going to have a billion ideas, most of them will suck, and we'll eventually find out where the real winners are. Given that context, having a hacker site cover what's happening with that revolution makes sense. All that said, I agree with OP that it does drown out other cool things happening, but that's just how mass psychology works. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.392633",
+        "updated_at": "2026-09-12T16:03:15.392633",
+        "author": {
+          "id": "8f02db5d9666f7d9441ea8c73f01ac85",
+          "source_id": "rpdillon",
+          "username": "rpdillon",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0f0c729d1f93aca4537ba8951b4d2907",
+        "source_id": "49658080",
+        "content": {
+          "text": "This is so refreshing. Almost everything in top/new/best is an interesting read. Either I don't know anything about the topic (\"...the spanning tree protocol\") or am seriously interested in the topic (\"Remembering Hong Kong\", \"Automattic's board forces CEO...\"). None of these made to frontpage over the last two days AFAIK. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.394156",
+        "updated_at": "2026-09-12T16:03:15.394156",
+        "author": {
+          "id": "3fb7e853f1d8e7f291bc515ad29b8a27",
+          "source_id": "execat",
+          "username": "execat",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "363ae1ab2b672997f4d80fb82c924a06",
+        "source_id": "49658219",
+        "content": {
+          "text": "They're all on the front page, just buried between all the AI stuff reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.395679",
+        "updated_at": "2026-09-12T16:03:15.395679",
+        "author": {
+          "id": "eee29af24773a93426fb893fc6ec856c",
+          "source_id": "flexagoon",
+          "username": "flexagoon",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "be21ee596c0683643600254a2124ae14",
+        "source_id": "49658753",
+        "content": {
+          "text": "Which kind of makes my point: these pages filter AI stuff, but do not make room for non-AI stuff. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.397272",
+        "updated_at": "2026-09-12T16:03:15.397272",
+        "author": {
+          "id": "2eb665cc2dd2af583af8075124c94eca",
+          "source_id": "cromka",
+          "username": "cromka",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6773b7a7949ec920ae137abcc94acfcd",
+        "source_id": "49658412",
+        "content": {
+          "text": "Its important to use these filtered front pages though, so that eventually theres a sizable Referrer traffic chunk coming not from HN's frontpage itself that will signal to the admins that something is up reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.398857",
+        "updated_at": "2026-09-12T16:03:15.398857",
+        "author": {
+          "id": "da4c20ea03516962ee2bcaa5eb6ee296",
+          "source_id": "tetris11",
+          "username": "tetris11",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f5391dd9adb7ae8a936a596b1c7ae678",
+        "source_id": "49662813",
+        "content": {
+          "text": "No disrespect intended at all, I like HN and have used it for what feels like a long time and the moderation team that keeps it one of the more reasonable places to have a conversation on the internet (for the most part). That out of the way, The admin/moderators can hardly be unware given they work for a startup accelerator that is heavily in on the AI stuff , it is the way it is because that is the way they want it to be. HN is great but it's bias has always skewed to what is hot in the VC market or that they are heavily in on at the time (as someone who was around when it seemed like every other post was blockchain/crypto it's not even \"new\"). reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.400560",
+        "updated_at": "2026-09-12T16:03:15.400560",
+        "author": {
+          "id": "92474fcc4f57425d31b7a6c14e5c1204",
+          "source_id": "noir_lord",
+          "username": "noir_lord",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "33ea706742c8cbcf7762a53112b98faa",
+        "source_id": "49663153",
+        "content": {
+          "text": "oh absolutely, but if they lose half their audience due to the sloppification of their front page, then they lose both legitimacy as an interesting and impartial platform to promote said AI tech reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.402216",
+        "updated_at": "2026-09-12T16:03:15.402216",
+        "author": {
+          "id": "da4c20ea03516962ee2bcaa5eb6ee296",
+          "source_id": "tetris11",
+          "username": "tetris11",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "cbe9c3475e71ba6f260bbc27114f6c40",
+        "source_id": "49663748",
+        "content": {
+          "text": "The mods have said that they consider the cynicism and \"curmudgeonliness\" in the community to be a problem and they want newer people coming in. The most direct way to accomplish that would be to drive the old grumps out and replace them with a younger pro-AI userbase. After all, every startup YC will fund in the forseeable future will be first and foremost an AI startup. There just isn't going to be a place here for people who actually enjoy programming as an art, or the human element in any creative activity, nor any benefit to YC in maintaining that culture. You can't serve humanity and the machine, you have to choose a master. YC has no choice but to choose the machine because that's where the money is, so HN has no choice but to follow suit. Hacker News is an AI forum. I'm not suggesting there is some kind of conspiracy afoot but I wouldn't be surprised if they decided to just give in let nature take its course. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.403910",
+        "updated_at": "2026-09-12T16:03:15.403910",
+        "author": {
+          "id": "14d688e3a965535c98d7ae36741a9df8",
+          "source_id": "krapp",
+          "username": "krapp",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "03f7d8734a50695598a6431b47c7fd09",
+        "source_id": "49663975",
+        "content": {
+          "text": "They will lose half their audience and gain it back from all the Twitter AI bros. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.405929",
+        "updated_at": "2026-09-12T16:03:15.405929",
+        "author": {
+          "id": "eee29af24773a93426fb893fc6ec856c",
+          "source_id": "flexagoon",
+          "username": "flexagoon",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "61abb789222b0a39e57797f6304d0d63",
+        "source_id": "49659970",
+        "content": {
+          "text": "(The Automattic story did make it to the front page.) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.407705",
+        "updated_at": "2026-09-12T16:03:15.407705",
+        "author": {
+          "id": "72f620b1c61de48d7693a08269141418",
+          "source_id": "Kwpolska",
+          "username": "Kwpolska",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c487f652f7503b9091d1555d38fc8e62",
+        "source_id": "49658229",
+        "content": {
+          "text": "This is just asking for a parody-site that displays literally an empty page though. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.409481",
+        "updated_at": "2026-09-12T16:03:15.409481",
+        "author": {
+          "id": "026eda7275cc74c379b2e9693d32699d",
+          "source_id": "vanschelven",
+          "username": "vanschelven",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "da1f73e82f380a4e6335fb32135de46b",
+        "source_id": "49658331",
+        "content": {
+          "text": "As inspired by this tumblr which did not age well: https://www.tumblr.com/picturesofpeoplescanningqrcodes reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.411316",
+        "updated_at": "2026-09-12T16:03:15.411316",
+        "author": {
+          "id": "026eda7275cc74c379b2e9693d32699d",
+          "source_id": "vanschelven",
+          "username": "vanschelven",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7e43ec3a2ce78aedc1e594abccc041a8",
+        "source_id": "49658287",
+        "content": {
+          "text": "Good idea, I'll ask Claude to spin that up reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.413158",
+        "updated_at": "2026-09-12T16:03:15.413158",
+        "author": {
+          "id": "17a84d3e45e1447990c5c2ad515f2f07",
+          "source_id": "hellon3wheels",
+          "username": "hellon3wheels",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b513fae886d313f3c944cc352caa1228",
+        "source_id": "49658313",
+        "content": {
+          "text": "Make sure to generate a wordy blog post on it and the ramifications of generating empty parody versions of social media pages or people won't know that you did it. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.415019",
+        "updated_at": "2026-09-12T16:03:15.415019",
+        "author": {
+          "id": "118f1d22bf3252777ad066a8686a4a91",
+          "source_id": "Tanjreeve",
+          "username": "Tanjreeve",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "678b01813678c79ba6c731cde60a6459",
+        "source_id": "49658038",
+        "content": {
+          "text": "It's unlikely that right now is peak anything AI. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.416892",
+        "updated_at": "2026-09-12T16:03:15.416892",
+        "author": {
+          "id": "291d3271c4049b35fa8d46329d980bc2",
+          "source_id": "jstummbillig",
+          "username": "jstummbillig",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1976dae3a24d7a73dce82ff0c844d4e8",
+        "source_id": "49660231",
+        "content": {
+          "text": "Yeah, that's like someone in 1998 saying we're at peak internet hype reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.419376",
+        "updated_at": "2026-09-12T16:03:15.419376",
+        "author": {
+          "id": "6b2c22ee785d307c8d586494f4bdf243",
+          "source_id": "bensyverson",
+          "username": "bensyverson",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "09cd5b555e930ae83705e7209ca4637b",
+        "source_id": "49658400",
+        "content": {
+          "text": "It would be cool if one could visualise (graph wise) the number of posts around different hypes (eg. crypto, not sure what else was prominent like AI) throughout the history of HN. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.421328",
+        "updated_at": "2026-09-12T16:03:15.421328",
+        "author": {
+          "id": "e9a502671b60292d53e30062b3d19d02",
+          "source_id": "griffiths",
+          "username": "griffiths",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "eee3d68f852ca59eea3d7fd849e22ed9",
+        "source_id": "49659024",
+        "content": {
+          "text": "Fascinating. It would seem OP is spot on. I just used this and it reduced the front page of 30 posts to 14. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.423328",
+        "updated_at": "2026-09-12T16:03:15.423328",
+        "author": {
+          "id": "177aa3e84865d61e626f9de84d6c6dd1",
+          "source_id": "burningChrome",
+          "username": "burningChrome",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1a93b252549e584ea3bc33c5aacd14cd",
+        "source_id": "49658225",
+        "content": {
+          "text": "People have been saying we've been \"at peak hype-cycle\" for years reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.425344",
+        "updated_at": "2026-09-12T16:03:15.425344",
+        "author": {
+          "id": "9947ae3c54b7fac107a813d3d169fe02",
+          "source_id": "kurtis_reed",
+          "username": "kurtis_reed",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8785f8557d313dfdf3b90ecafc003c7e",
+        "source_id": "49658440",
+        "content": {
+          "text": "Peak so far . Maybe there’s a hype singularity where the hype is so strong that nothing can escape. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.427430",
+        "updated_at": "2026-09-12T16:03:15.427430",
+        "author": {
+          "id": "420e083b1c9f35b539e67422027977a7",
+          "source_id": "shermantanktop",
+          "username": "shermantanktop",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "722e17389b4af870bf24fa0a5919884a",
+        "source_id": "49659826",
+        "content": {
+          "text": "Ironically this thread became Yet Another AI Discussion. Really its just the agi takes that are the most useless and annoying. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.429583",
+        "updated_at": "2026-09-12T16:03:15.429583",
+        "author": {
+          "id": "5f56a1e1031c9a8b74764f1f7a03c36b",
+          "source_id": "dpweb",
+          "username": "dpweb",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f08616f1adb38a130094669d7fdda438",
+        "source_id": "49658253",
+        "content": {
+          "text": "Thank you so much for sharing this reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.431689",
+        "updated_at": "2026-09-12T16:03:15.431689",
+        "author": {
+          "id": "c38f4fb0e7637d6ebc35990bdfbe5097",
+          "source_id": "polonbike",
+          "username": "polonbike",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d23658ad2dc0a74bf22b271ed90d9738",
+        "source_id": "49658113",
+        "content": {
+          "text": "thanks, rebinded my Tridactyl shortcut for HN to this. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.433813",
+        "updated_at": "2026-09-12T16:03:15.433813",
+        "author": {
+          "id": "39922bd495cc1f5a15d0e7c6f083aa58",
+          "source_id": "utopiah",
+          "username": "utopiah",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "af3b9f622c4374102017ee1c79bc7692",
+        "source_id": "49658351",
+        "content": {
+          "text": "Hero reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.435973",
+        "updated_at": "2026-09-12T16:03:15.435973",
+        "author": {
+          "id": "42cb47f54f5bcba5a9c40b3b2db7f022",
+          "source_id": "the__alchemist",
+          "username": "the__alchemist",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ce7ec2a6e3e08f4ae0c942c5608b483f",
+        "source_id": "49659864",
+        "content": {
+          "text": "It's more complicated than that. This place has changed. The biggest tell is reposting something interesting from a year or two ago that received hundreds of upvotes. Now it will get 2 or three upvotes whilst \"lulz Trump\" /r/politics style culture war BS will be immediately hurled up and onto the front page. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.438195",
+        "updated_at": "2026-09-12T16:03:15.438195",
+        "author": {
+          "id": "904a818f36651093970426007920cae6",
+          "source_id": "sippingabonedry",
+          "username": "sippingabonedry",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f3d9bea8e14649469d0f657020b63f0d",
+        "source_id": "49660223",
+        "content": {
+          "text": "Those posts get buried really quickly by the anti flamewar algorithms. I really don’t think anything changed regarding political stuff over the past 2y on this site (other than the fact the US has a new administration doing pretty insane things, resulting in way more important political topics, such as everything related to Iran) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.440411",
+        "updated_at": "2026-09-12T16:03:15.440411",
+        "author": {
+          "id": "6566aa110f7447b68cc1d61110618b53",
+          "source_id": "dgellow",
+          "username": "dgellow",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ded74fb0d73de6d48e24fcf3ebfd56e2",
+        "source_id": "49658132",
+        "content": {
+          "text": "Thank you, could you make the UI match exactly? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.442657",
+        "updated_at": "2026-09-12T16:03:15.442657",
+        "author": {
+          "id": "907e0ab9b9fa9afedcfb6a935d5c2062",
+          "source_id": "pixel_popping",
+          "username": "pixel_popping",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9d1090ce5726ee622e73b442b41c7df3",
+        "source_id": "49658583",
+        "content": {
+          "text": "To be clear: I'm not the author. I just use the service. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.444925",
+        "updated_at": "2026-09-12T16:03:15.444925",
+        "author": {
+          "id": "5a1f2d6374ccc789282989dce30d75d7",
+          "source_id": "leonheld",
+          "username": "leonheld",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "fc146ab239b933861a2158f0863bd5ec",
+        "source_id": "49663679",
+        "content": {
+          "text": "Calling AI \"hype\" is like calling the internet hype. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.447231",
+        "updated_at": "2026-09-12T16:03:15.447231",
+        "author": {
+          "id": "5c57466db7a232d2de0d69b20257ddfc",
+          "source_id": "Gud",
+          "username": "Gud",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "42e4df4a123d1a354fcf4ae26f3b2234",
+        "source_id": "49659049",
+        "content": {
+          "text": "This is great! I hope it was vibe coded reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.449554",
+        "updated_at": "2026-09-12T16:03:15.449554",
+        "author": {
+          "id": "ef6d448dad0678aa5fe7ea3676d8927d",
+          "source_id": "eggfriedrice",
+          "username": "eggfriedrice",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4ec95c1ea402ee0faa021868d435c737",
+        "source_id": "49657913",
+        "content": {
+          "text": "At least the frontpage is no longer filled with Ruby and Ruby on Rails projects anymore :) These things tend to improve/get worse by themselves over time, if it's not AI, it'll be something else, until the industry moves on. Right now, seems we're still \"discovering\" new things around AI, so the submissions will surely continue, and interested parties will continue to upvote. But AI will have its eventually Ruby/RoR moment in the future too surely, where eventually you hardly see any frontpage submissions about it ever. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.451922",
+        "updated_at": "2026-09-12T16:03:15.451922",
+        "author": {
+          "id": "ce8377b632ae8cfdbcb2d078429130ec",
+          "source_id": "embedding-shape",
+          "username": "embedding-shape",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f8d0b3aa8a6c807830e21dc0df35ad3c",
+        "source_id": "49658040",
+        "content": {
+          "text": "The Erlang front page was nice, though: https://news.ycombinator.com/front?day=2009-03-11 reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.454324",
+        "updated_at": "2026-09-12T16:03:15.454324",
+        "author": {
+          "id": "d918cfc0ead465ae07a2a4d79a6a039b",
+          "source_id": "Tomte",
+          "username": "Tomte",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "85c63e54eb8b735db16de47e65af18d7",
+        "source_id": "49658749",
+        "content": {
+          "text": "For reference, the glut of Erlang posts was due to pg posting \"Why HN is slow lately\": https://news.ycombinator.com/item?id=512145 > it would be better to have posts about the innards of Erlang than women who create sites to get hired by Twitter reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.456761",
+        "updated_at": "2026-09-12T16:03:15.456761",
+        "author": {
+          "id": "4af888dccf44d85b221c8f836c0d8252",
+          "source_id": "shmolyneaux",
+          "username": "shmolyneaux",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c41ef7bac4c096684691de1b5fbbefa0",
+        "source_id": "49659823",
+        "content": {
+          "text": "He's not wrong. It would still be better to have posts about the innards of Erlang, than the daily press releases or manufactured Twitter drama by OpenAI and Anthropic to generate hype for their IPO. We will just have to close an eye for the weekly point release of major AI models get 10 posts + associated reactions by thought leaders reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.459340",
+        "updated_at": "2026-09-12T16:03:15.459340",
+        "author": {
+          "id": "7d0b39bf6b7f729c8f9c43a6da410109",
+          "source_id": "sph",
+          "username": "sph",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "24e003a59b5ee55f5bb4df1b8dfd4957",
+        "source_id": "49659910",
+        "content": {
+          "text": "He's annoying right with the \"You guys are like the crowdsourced version of one of those troublesome overliteral genies\" part too, which accurately represents LLMs as well... Wait, are LLMs training on us perhaps? (It's a joke, of course they are) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.461822",
+        "updated_at": "2026-09-12T16:03:15.461822",
+        "author": {
+          "id": "ce8377b632ae8cfdbcb2d078429130ec",
+          "source_id": "embedding-shape",
+          "username": "embedding-shape",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "48d94315bd7422e899be89484958b7c7",
+        "source_id": "49658651",
+        "content": {
+          "text": "Yeah, Haskell, Erlang and also the whole functional programming wave was fun and is missed dearly. Also Clojure used to be featured on the frontpage a lot more, would be a fun exercise to write some small script to see what specific day had to most Clojure-stories at the same time, I remember one day we had two of them at least! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.464378",
+        "updated_at": "2026-09-12T16:03:15.464378",
+        "author": {
+          "id": "ce8377b632ae8cfdbcb2d078429130ec",
+          "source_id": "embedding-shape",
+          "username": "embedding-shape",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2160a847b0646e084d9ca4c9f0144f61",
+        "source_id": "49659992",
+        "content": {
+          "text": "The difference between ruby, rust or react or whatever hyped technology was ruling the frontpage in the past, none of them transformed programming the way AI did and still does. Whether I programmed in this or that framework did not matter so much, as I was still typing. Now I (allmost) don't code anymore. That is a pretty big change and I still try to cope with it and I suspect many who hate AI, just don't want to face this new reality.\nBut it really is not just another technology where the hype will fade out and it becomes forgotten. It becomes part of the standard and we are still figuring out how. So more diverse submission on the front page would be nice, but AI just is what keeps most programmer busy these days, whether they like it or not. So naturally there is interest. It became existential. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.466932",
+        "updated_at": "2026-09-12T16:03:15.466932",
+        "author": {
+          "id": "6d22390dd4e99c08cc19791b3cdb87b4",
+          "source_id": "lukan",
+          "username": "lukan",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6356857fa5e601f0458bd21f5dc6d99d",
+        "source_id": "49658257",
+        "content": {
+          "text": "This is like when cryptocurrency was in full hype cycle,  but even more severe as it touches every inch of the industry. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.469488",
+        "updated_at": "2026-09-12T16:03:15.469488",
+        "author": {
+          "id": "7e319c2646790843f22c510bd94e7117",
+          "source_id": "cphoover",
+          "username": "cphoover",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7da75b47df93d325e4598fe84cd27e07",
+        "source_id": "49658018",
+        "content": {
+          "text": "I thought the last round was the (JS) framework wars reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.472092",
+        "updated_at": "2026-09-12T16:03:15.472092",
+        "author": {
+          "id": "85b6186920b5d3c8c2166a8116e2cb54",
+          "source_id": "springtimesun",
+          "username": "springtimesun",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "83986f914e6e68d3154f12a270143c2f",
+        "source_id": "49658227",
+        "content": {
+          "text": "I remember those days! And Elixir/Phoenix had to be hyped in every 5th post. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.474693",
+        "updated_at": "2026-09-12T16:03:15.474693",
+        "author": {
+          "id": "d8cfefaf385df1927f38489ada82b356",
+          "source_id": "unsupp0rted",
+          "username": "unsupp0rted",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "65e8f3f894deec0f83698badb283f11c",
+        "source_id": "49659075",
+        "content": {
+          "text": "I miss these times! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.477338",
+        "updated_at": "2026-09-12T16:03:15.477338",
+        "author": {
+          "id": "5fb2ebbf7c82dfee0f21a7814c3ffc44",
+          "source_id": "bdelmas",
+          "username": "bdelmas",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "fb36ed1e21d3a9fc64299ae92ff2b37b",
+        "source_id": "49660507",
+        "content": {
+          "text": "(Django won.) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.480019",
+        "updated_at": "2026-09-12T16:03:15.480019",
+        "author": {
+          "id": "7bc50bf5eeb5433d72d0445f461b3a8a",
+          "source_id": "BeetleB",
+          "username": "BeetleB",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8960791482d1a2301ffd98df84facbc1",
+        "source_id": "49660457",
+        "content": {
+          "text": "Yep, HN loves/loved Ruby :) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.482706",
+        "updated_at": "2026-09-12T16:03:15.482706",
+        "author": {
+          "id": "23af273db4985a0ae766d7d996636e78",
+          "source_id": "lackoftactics",
+          "username": "lackoftactics",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f7acd342a83c9b5f6d32bc081bc1c57b",
+        "source_id": "49657986",
+        "content": {
+          "text": ">> At least the frontpage is no longer filled with Ruby and Ruby on Rails projects anymore Thank god. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.485447",
+        "updated_at": "2026-09-12T16:03:15.485447",
+        "author": {
+          "id": "9fdbde06c873435d542cbe86ec4bb461",
+          "source_id": "andrewstuart",
+          "username": "andrewstuart",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "63cbb30d826c39de797953ef08f1e87e",
+        "source_id": "49658205",
+        "content": {
+          "text": "[flagged]",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.488155",
+        "updated_at": "2026-09-12T16:03:15.488155",
+        "author": {
+          "id": "d1f23c2eb5ddd621aaebdf3d3ab1e323",
+          "source_id": "HNisDead2",
+          "username": "HNisDead2",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "95536d80d7e0eeb80a302c3279788ba7",
+        "source_id": "49658221",
+        "content": {
+          "text": "HHhH is a decent book; it's probably DHH? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.490944",
+        "updated_at": "2026-09-12T16:03:15.490944",
+        "author": {
+          "id": "79e02e352be864cbfbe6e4631f33bb4f",
+          "source_id": "barrenko",
+          "username": "barrenko",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b122a9e28e18fb165ae3840d01c26079",
+        "source_id": "49658050",
+        "content": {
+          "text": "That's a hot take.  AI has fundamentally shifted things.  Start-ups can start up 10x faster, and HN is start-up flavored. If people quit talking about AI, it'll be because it's become foundational infrastructure, so it's not the primary focus of the articles, but just the atmosphere they all exist within, like the computer, or the internet. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.493775",
+        "updated_at": "2026-09-12T16:03:15.493775",
+        "author": {
+          "id": "fdc9c93227d908e41e07c4e4c0d7be1d",
+          "source_id": "ipsod",
+          "username": "ipsod",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e5aabb08ad954a85a899cbd995d4e358",
+        "source_id": "49658150",
+        "content": {
+          "text": "But do you think this is our first rodeo with \"XYZ has fundamentally shifted things and startups now start up faster\"? RoR did the same, Bootstrap as well, and countless of other things. Don't get me wrong, I leverage these AI tools as well to be more productive, I'm not against using it or anything else. But I'm also old enough to know that eventually AI will be \"old news\" when the next hot topic comes around. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.496622",
+        "updated_at": "2026-09-12T16:03:15.496622",
+        "author": {
+          "id": "ce8377b632ae8cfdbcb2d078429130ec",
+          "source_id": "embedding-shape",
+          "username": "embedding-shape",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6ad9813f9e66890ed7011d80db8aacab",
+        "source_id": "49659566",
+        "content": {
+          "text": "> But do you think this is our first rodeo with \"XYZ has fundamentally shifted things and startups now start up faster\"? RoR did the same, Bootstrap as well, and countless of other things. I really don't understand anyone who can say something like this with a straight face. Comparing AI to Bootstrap? I... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.499507",
+        "updated_at": "2026-09-12T16:03:15.499507",
+        "author": {
+          "id": "44c06519082624876a137a61cb0e2cf0",
+          "source_id": "ChickeNES",
+          "username": "ChickeNES",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0f5e7507d1f3bbd13eeded85f4c689cf",
+        "source_id": "49660013",
+        "content": {
+          "text": "Both have sped up front end development at the cost of making half of the internet look the same. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.502422",
+        "updated_at": "2026-09-12T16:03:15.502422",
+        "author": {
+          "id": "f942b8453e6ebb13872935d0be6465f0",
+          "source_id": "pibaker",
+          "username": "pibaker",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f6e099b8cc0aa86ca1a12dbc23e53ed0",
+        "source_id": "49667928",
+        "content": {
+          "text": "I don't think it's fair to blame AI just because people aren't prompting unique design elements into their vibe-coding. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.505355",
+        "updated_at": "2026-09-12T16:03:15.505355",
+        "author": {
+          "id": "433dd1f600e821c6a7c0c49d838fc708",
+          "source_id": "ranger_danger",
+          "username": "ranger_danger",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d4a3bd2eeae197a4b77881cacb0d92e3",
+        "source_id": "49670314",
+        "content": {
+          "text": "It must be some sort of denial playing into this reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.508322",
+        "updated_at": "2026-09-12T16:03:15.508322",
+        "author": {
+          "id": "056429f2739148fea5bb216c75226cb4",
+          "source_id": "davenci",
+          "username": "davenci",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f282c5e9193af57b551c03782d2a7271",
+        "source_id": "49658441",
+        "content": {
+          "text": "That seems like comparing the internet to jQuery. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.511313",
+        "updated_at": "2026-09-12T16:03:15.511313",
+        "author": {
+          "id": "0a4105828bcd365ba7b7195de12efda5",
+          "source_id": "user43928",
+          "username": "user43928",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "cbdee2caf08087ef2b3fc567ff24d303",
+        "source_id": "49658577",
+        "content": {
+          "text": "Only if you're actively inside of the hype-machine and don't see it from the outside with the experience of previously having been inside of the hype-machine. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.514344",
+        "updated_at": "2026-09-12T16:03:15.514344",
+        "author": {
+          "id": "ce8377b632ae8cfdbcb2d078429130ec",
+          "source_id": "embedding-shape",
+          "username": "embedding-shape",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "21c1ab7aeef5d56cfe734b919967f6d5",
+        "source_id": "49659299",
+        "content": {
+          "text": "No.  RoR lets you build a certain class of web apps faster.  AI lets you build almost anything faster. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.517382",
+        "updated_at": "2026-09-12T16:03:15.517382",
+        "author": {
+          "id": "fdc9c93227d908e41e07c4e4c0d7be1d",
+          "source_id": "ipsod",
+          "username": "ipsod",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "71a7c43b2f5611ec14c5538e73312969",
+        "source_id": "49659648",
+        "content": {
+          "text": "Again, I'm not bashing AI and I'm much more productive with AI myself too, no need to try to defend something I'm not attacking... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.520464",
+        "updated_at": "2026-09-12T16:03:15.520464",
+        "author": {
+          "id": "ce8377b632ae8cfdbcb2d078429130ec",
+          "source_id": "embedding-shape",
+          "username": "embedding-shape",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "379dfec928d0ee0969d2c22761b20080",
+        "source_id": "49659770",
+        "content": {
+          "text": "I'm not defending AI, I'm attacking your logic. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.523634",
+        "updated_at": "2026-09-12T16:03:15.523634",
+        "author": {
+          "id": "fdc9c93227d908e41e07c4e4c0d7be1d",
+          "source_id": "ipsod",
+          "username": "ipsod",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5d76ea6eaced7944d8db871efd88d1ef",
+        "source_id": "49659926",
+        "content": {
+          "text": "The logic was/is \"other topics been popular on the HN frontpage in the past and their advocates have made bunch of claims about their topics, and eventually it'll die down too, like the others did\", that's hardly under attack here as you're on some wild tangent right now. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.526773",
+        "updated_at": "2026-09-12T16:03:15.526773",
+        "author": {
+          "id": "ce8377b632ae8cfdbcb2d078429130ec",
+          "source_id": "embedding-shape",
+          "username": "embedding-shape",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7aff42c87c2ce0415d02202f440f35a6",
+        "source_id": "49658322",
+        "content": {
+          "text": "> because it's become foundational infrastructure Which will happen in due time, like electricity and the general computer. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.529953",
+        "updated_at": "2026-09-12T16:03:15.529953",
+        "author": {
+          "id": "e6cdba2d5c0da131245ab178b8f72751",
+          "source_id": "skeledrew",
+          "username": "skeledrew",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7dcfe6e32c2678292e23307ccf3fbfa8",
+        "source_id": "49660533",
+        "content": {
+          "text": "Why 10x?  If you’re making up numbers why not 100x or 1000x? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.533172",
+        "updated_at": "2026-09-12T16:03:15.533172",
+        "author": {
+          "id": "3e6c75be800a1d9066b47314f47acbeb",
+          "source_id": "sceptic123",
+          "username": "sceptic123",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "fd57164f416effa801075e4108a349ec",
+        "source_id": "49660683",
+        "content": {
+          "text": "I'm pretty confident that, presently, with AI, I get more done than I could with 5x hours, but less than I could with 20x hours, and 10's a nice round number. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.536401",
+        "updated_at": "2026-09-12T16:03:15.536401",
+        "author": {
+          "id": "fdc9c93227d908e41e07c4e4c0d7be1d",
+          "source_id": "ipsod",
+          "username": "ipsod",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9bab8064a5950c0cd35213de4c4b1227",
+        "source_id": "49661098",
+        "content": {
+          "text": "And like AI, I imagine you're confidently wrong here. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.539657",
+        "updated_at": "2026-09-12T16:03:15.539657",
+        "author": {
+          "id": "3e6c75be800a1d9066b47314f47acbeb",
+          "source_id": "sceptic123",
+          "username": "sceptic123",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d71b5c5e86c3c05ac3fc2d80306078bf",
+        "source_id": "49661266",
+        "content": {
+          "text": "Nah.  I've committed over a million LOC in the past 4 months, discounting personal projects.  LOC is a fuzzy measure that doesn't tell much, but, it's easier to mention that than to describe the details of my work. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.542955",
+        "updated_at": "2026-09-12T16:03:15.542955",
+        "author": {
+          "id": "fdc9c93227d908e41e07c4e4c0d7be1d",
+          "source_id": "ipsod",
+          "username": "ipsod",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "dccefb97c4eb08de008f7effff784589",
+        "source_id": "49658270",
+        "content": {
+          "text": "HN has a lot of Ruby posts because it was, and still is, a really good language and ecosystem for making web applications, and most of the companies at the time were web startups. It's a solid language, still one of the better ones for making real, practical web apps. If you don't want to see Ruby posts and AI posts, why are you here? Do you realize that you have control over what media you consume? A lot of HN readers like Ruby and we like AI and we would like to have one place to do that without all the negativity, hatred, and low quality comments coming from people that don't care about the things we care about. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.546288",
+        "updated_at": "2026-09-12T16:03:15.546288",
+        "author": {
+          "id": "a8a22ec5dfa0995daf8a034282c010fe",
+          "source_id": "throwaway323929",
+          "username": "throwaway323929",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "017cc01a99c515e871f6f1a81bf25959",
+        "source_id": "49658307",
+        "content": {
+          "text": "> If you don't want to see ruby posts and AI posts, why are you even here? I don't know what feeling you got of me from my comment, but it's wrong. I don't mind either Ruby posts or AI posts, and I'd personally probably put Ruby somewhere along 1-3 top programming languages I like to work with professionally, so not sure why you feel like you have to defend something here. > HN has a lot of Ruby posts because it was, and still is, a really good language Agreed, but I was talking about specifically frontpage submissions, it used to be filled with them, almost every day, and now there is hardly any anymore. I think most of us long-term users can clearly see the trends over time, or at least feel them. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.549672",
+        "updated_at": "2026-09-12T16:03:15.549672",
+        "author": {
+          "id": "ce8377b632ae8cfdbcb2d078429130ec",
+          "source_id": "embedding-shape",
+          "username": "embedding-shape",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ce7edf1059df89dd8ed5095cff4ee66a",
+        "source_id": "49658405",
+        "content": {
+          "text": "Go to new, click down vote on every AI post. That is how we have less AI stuff on the front page. But if other people are interested in it and there are more of them than you then you might not get your way. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.553135",
+        "updated_at": "2026-09-12T16:03:15.553135",
+        "author": {
+          "id": "01422871a1c44aedf7e7b63dc234207b",
+          "source_id": "pixl97",
+          "username": "pixl97",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "fd6244ac7b39e276e4bcc9c7b60aa58d",
+        "source_id": "49658588",
+        "content": {
+          "text": "> Go to new, click down vote on every AI post. I'm sorry, why would I? Is most of my comment not coherent English or what's going on? > you might not get your way. Please do tell me, what is \"my way\" I'm advocating for here, or implied advocating for? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:15.556818",
+        "updated_at": "2026-09-12T16:03:15.556818",
+        "author": {
+          "id": "ce8377b632ae8cfdbcb2d078429130ec",
+          "source_id": "embedding-shape",
+          "username": "embedding-shape",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-09-12T16:03:17.719391",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "18e9970f39f7ff60a0a7846ac8edcffa",
+      "source_id": "49662978",
+      "title": "Ask HN: How are much smarter AI models made?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">I am curious what actually happens between two generations of AI models.<p>For example, how do you go from Sonnet to Opus? Is Opus trained from scratch, built on Sonnet, or mostly the same model with more compute and training?<p>And how do models like Astra suddenly make a big jump in some capabilities? What is stopping Anthropic, Mistral, or others from doing the same thing?\nIs the main difference just more compute and money, or are there training methods, data, architecture, and research breakthroughs that competitors may not know about?<p>I can't think of a better place to ask this. I am guessing there are people here who actually work on these models and know what goes on behind the scenes.</p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-12T16:03:07.515792",
+      "updated_at": "2026-09-12T16:03:07.515792",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "5337accb5b61823022403bb7bce642a9",
+        "source_id": "superasn",
+        "username": "superasn",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 9,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49662978",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "cd15c673ebbac34c27e280562d8040c5",
+        "source_id": "49670925",
+        "content": {
+          "text": "Lots of RLHF - reinforcement learning from human feedback. Also: \"distillation\" - seeding or running training sessions on the output of frontier models. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:19.984113",
+        "updated_at": "2026-09-12T16:03:19.984113",
+        "author": {
+          "id": "5d3a74dd4f83a4d5bb9d76005ff8f33a",
+          "source_id": "davedx",
+          "username": "davedx",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "aafbbbe4073464aee71c3d6906dc255c",
+        "source_id": "49665591",
+        "content": {
+          "text": "Scaling laws project that a model with more parameters trained for longer on more data yields predictably better performance, and that generally you want to scale these factors commensurately. More of the compute budget is being spent on RLVR [0] for which we also fit scaling laws Researchers tweak data mix, reward shape, model architecture, etc etc, breakthroughs which reduce the cost to train a just-as-smart model. But this increases the returns to scale, which further incentivizes bigger models trained for longer on more data [0] \"...to run reinforcement learning training...at pretraining scale.\" https://x.ai/news/grok-4?_bhlid=b9339d7816a05adeb52bae7050cc... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:19.984703",
+        "updated_at": "2026-09-12T16:03:19.984703",
+        "author": {
+          "id": "79f2041973cfcda1da8100158abc6dcd",
+          "source_id": "XTXinverseXTY",
+          "username": "XTXinverseXTY",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4ae299bb4a96a1336050f84591d87899",
+        "source_id": "49670948",
+        "content": {
+          "text": "compute and improvements in pretraning and RL reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:19.985290",
+        "updated_at": "2026-09-12T16:03:19.985290",
+        "author": {
+          "id": "e93147356c26628d1bc535da33402e08",
+          "source_id": "in_making",
+          "username": "in_making",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f4006d5d0a0842f3a173b08b3e89ff31",
+        "source_id": "49667758",
+        "content": {
+          "text": "Bonsoir tous le monde je voulais m'inscrire sur le site de Hubski.com il demande d'etre invité par un utilisateur si quelqu'un pourrait m'aider \nMerci d'avance reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:19.985830",
+        "updated_at": "2026-09-12T16:03:19.985830",
+        "author": {
+          "id": "983f1b5f83133bdd7ba1e1ff7929afa4",
+          "source_id": "mooo7",
+          "username": "mooo7",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-09-12T16:03:19.986042",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "714500671739f02759908c54796eb6a9",
+      "source_id": "49589914",
+      "title": "Ask HN: How do you manage skills files?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-12T16:03:07.516470",
+      "updated_at": "2026-09-12T16:03:07.516470",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "32c4d311124d3c34a9db0c482bea4e40",
+        "source_id": "imadtaieber",
+        "username": "imadtaieber",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 319,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49589914",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-09-12T16:03:25.603815",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "dbbe2ba40fcdbfe4edff69d838f6636f",
+      "source_id": "49663205",
+      "title": "Ask HN: Where are the innovations happening today?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-12T16:03:07.517140",
+      "updated_at": "2026-09-12T16:03:07.517140",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "bcf15608f641521fcfb892334b9d438d",
+        "source_id": "cauliflower99",
+        "username": "cauliflower99",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 5,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49663205",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-09-12T16:03:28.816705",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "c79d0be42aedc034a4824bb39d6010de",
+      "source_id": "49672966",
+      "title": "Ask HN: What default model do you use and why?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">I use claude for most of what I do, and Fable is largely overkill for me and frequently burns through my Max plan's session credits in minutes (!) when just doing an initial mobile app planning with 4 agents. After I waited out the timeout period 6 hours later,  and I picked up again, the cache had timed out so it burned through 2% of the session in less than a minute. Opus 4.8 is now my goto and I will be avoiding 5 until I see a reason to switch back. 4.8 is 'good enough' for what I need and has been a great value. It mostly gets things right. Most of what I do is web and mobile , largely cloud backend.</div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-12T16:03:07.517891",
+      "updated_at": "2026-09-12T16:03:07.517891",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "dcba68123aadb777991d585cfef8c65e",
+        "source_id": "stikit",
+        "username": "stikit",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 24,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49672966",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "ae1db93886a4fec6297c09640bd3548b",
+        "source_id": "49673395",
+        "content": {
+          "text": "I used to main Claude, but I can't stand how it writes. I feel like I'm wasting too much time trying to decipher the output. Adding writing rules does not seem to work. Now I use GPT 5.6 Terra high fast mode, with Luna for everything else. I might consider using Sol for planning. I can't stand using Sol or smarter models for coding, because they will eventually try to rewrite everything in the codebase. I also don't want to use the Claude Code and Codex agent harnesses. The good thing with Codex subscription is that it can be used in other harnesses, unlike Claude. As far as I know, only Anthropic has this restriction. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:30.590021",
+        "updated_at": "2026-09-12T16:03:30.590021",
+        "author": {
+          "id": "c763012ff444f46e7a09d525bb20e317",
+          "source_id": "o_m",
+          "username": "o_m",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "410114a49e1e71b72313ab148226ae83",
+        "source_id": "49673720",
+        "content": {
+          "text": "I recently switched over to GPT from Claude once my subscription lapsed, it's too early to tell, but I do appreciate how more straight to the point Sol 5.6 seems to be, vs. the insane wordslop machine Opus tends to be. It's really strange because when Opus 5 released, there were some that pointed this out, but a bunch simply said it was the best and as good as Fable etc etc. but for me, it caused me to get very demotivated and avoid interacting with the model, at least when using Claude Code. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:30.590746",
+        "updated_at": "2026-09-12T16:03:30.590746",
+        "author": {
+          "id": "0eddc77f99a79840b6e50ddc8c8bd719",
+          "source_id": "r_lee",
+          "username": "r_lee",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7a5bbb3532028ebc23adc800805d34c6",
+        "source_id": "49673681",
+        "content": {
+          "text": "For personal use, Luna-xhigh on the Plus subscription. I only ever hit my limits if I decide to use Sol or Astra for a bit more quality. For work, given we pay API pricing anyway, I've been happy experimenting with K3-medium as my default, and now I'm planning on trying GLM 5.3 as well. Sol-medium is my fallback for my work purposes but I occasionally use Opus 4.8 as an additional reviewer. I like the open weight models because much of my time at work is spent on security hardening (specifically, hardening my own service), and Sol/Opus keep snitching on me and blocking my prompts. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:30.591414",
+        "updated_at": "2026-09-12T16:03:30.591414",
+        "author": {
+          "id": "a4f6f83f5a838c928b658c141cb93ec8",
+          "source_id": "conradludgate",
+          "username": "conradludgate",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d33e30eb5a0c16500f083cd981afae4c",
+        "source_id": "49673682",
+        "content": {
+          "text": "Enterprise pay as you go across a few vendors. But still cost conscious. Defaulting to Sol Medium/Light for most planning and implementation I think is tricky or want more care in. Luna Extra High for everything else (implementation, tedious take over my browser and do stuff). I read all of its output tokens and lots of thinking tokens to understand the general flow of things, but only minimally look at code these days. I can't grok what Claude models speak and it's gotten worse. OAI models speak my kind of tech language I guess. Light human review, some automated review. Most work is for internal use. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:30.592076",
+        "updated_at": "2026-09-12T16:03:30.592076",
+        "author": {
+          "id": "a0874dc374121709bb735afb4bd0bb13",
+          "source_id": "m0rde",
+          "username": "m0rde",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0d22059bfa5da89373547606facc183c",
+        "source_id": "49673562",
+        "content": {
+          "text": "If I had to pick just one, these days it’s Composer. It is just a cheap, fast, surgical workhorse. My workflow uses other models as well for various phases: Opus for planning, Sonnet for review, etc. I prefer Cursor at this point just because of Composer. Claude Code is passable but the lack of a good, fast, cheap workhorse sucks. Sonnet and Haiku aren’t it. I also do like Codex and Sol, Terra, and Luna. They are decent but I don’t find they stand out enough to use over the others. Additionally, I have not tried Astra and found Fable to really not worth the cost for the tasks I do. Finally, the latest Grok is actually a beast of a model, but expensive enough to not be a stand out. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:30.593173",
+        "updated_at": "2026-09-12T16:03:30.593173",
+        "author": {
+          "id": "eb618a33b502c3ccb4fd54b99877a7bf",
+          "source_id": "time0ut",
+          "username": "time0ut",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c3dd21e51aa6bb6bf5cb1f992b0528a7",
+        "source_id": "49673239",
+        "content": {
+          "text": "I've found good success with the new Gemini models on Antigravity. Granted I use my models either: - like a fancy auto complete (here are some stub methods, they should do X, fill them in) - using fairly detailed plans and test harnesses, so blowing up the world is hard The 3.X Flash family have been fairly capable models, and the selling point for me is just raw speed. Gemini is noticeably faster than the competition, about 3-4x, and I just get work done faster with it. That said I'm keeping an eye on Open Weights. DS4 Flash was good until price hikes, and finding a provider that serves at high speed and without quantisation at the prior price is tricky. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:30.594227",
+        "updated_at": "2026-09-12T16:03:30.594227",
+        "author": {
+          "id": "49db88f5677bdbcaeddbaff25d227b53",
+          "source_id": "vallerie",
+          "username": "vallerie",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6d9c5b88e7b467a6f437073df55b3b97",
+        "source_id": "49673588",
+        "content": {
+          "text": "Same. I have a promo plan that's currently $3/month, which gets you a model that's almost opus, very fast speeds, and very generous limits. There's no Gemini pro model currently, so you gotta pair that with a 20 openai plan for access to more advanced stuff if you need it. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:30.595032",
+        "updated_at": "2026-09-12T16:03:30.595032",
+        "author": {
+          "id": "087a6a8c13f169f787b7479edf2c9e07",
+          "source_id": "martythemaniak",
+          "username": "martythemaniak",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f16c1e5bcb46d6a36a7659a5c1710ec3",
+        "source_id": "49673685",
+        "content": {
+          "text": "Sonnet. It makes my token budget go further and I prefer to have the LLM churn away on rote work while I do the thinking. So while Opus and Fable are undoubtedly smarter, that doesn't materially affect _my_ workflow. I'm not as up to date on the other vendors' models, but when I last used Gemini my feelings were similar between Pro and Flash. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:30.595726",
+        "updated_at": "2026-09-12T16:03:30.595726",
+        "author": {
+          "id": "af377382899c1c436bd84646f4410eb8",
+          "source_id": "seabrookmx",
+          "username": "seabrookmx",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ca1d367ddabc6ff5eb54020f188c842c",
+        "source_id": "49673655",
+        "content": {
+          "text": "Gemini 3.8 flash via Antigravity desktop has been my daily driver for the last few weeks. I also use DeepSeek V4 flash and a Qwen 3.6 MoE for local stuff. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:30.596448",
+        "updated_at": "2026-09-12T16:03:30.596448",
+        "author": {
+          "id": "d77063e7873e31d3cc4788bf46d2c731",
+          "source_id": "seanmcdirmid",
+          "username": "seanmcdirmid",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "bf943edd2ae6d4854c5962fb0e0db586",
+        "source_id": "49673633",
+        "content": {
+          "text": "For personal needs I use a local Qwen3.8-Next-Flash setup on a GB10 cluster. For work, Guthub Copilot with either GPT 5 mini or toss up between Opus/Sol depending on the complexity of the task. Used to pay for a Claude 20x plan and did everything in Opus, but I hate how it talks now and recent events (OAI scooping, Anthropic's spying, third party Chinese model hosts stealing and selling credentials) have really pushed me towards local AI for personal needs. Am not allowed to use Chinese models for work even if self-hosted so not much choice there. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:30.597389",
+        "updated_at": "2026-09-12T16:03:30.597389",
+        "author": {
+          "id": "0b2627c334a3590b8adbe615fbf92bea",
+          "source_id": "hgoel",
+          "username": "hgoel",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a76377ff61a5d15334b95cf0ec99fff9",
+        "source_id": "49673699",
+        "content": {
+          "text": "Given the tremendous variety of answers here, one has to wonder how much it matters. Reminds me of when you ask a bunch of motorcyclists what oil to use reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:30.598182",
+        "updated_at": "2026-09-12T16:03:30.598182",
+        "author": {
+          "id": "6cb9d0c21dc68b1341a7271af616685e",
+          "source_id": "beej71",
+          "username": "beej71",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a9d3778f5ae2e80365de52d4f9d10783",
+        "source_id": "49673336",
+        "content": {
+          "text": "I think for me stuff peaked around Opus 4.7, I was leaning heavily on the model with paired supervision from reviewing the output manually every step of the way. Ever since that things got a little more complicated and in an unsustainable pace for me, I am trying to remove myself from the equation and build verifiable and reliable tests with quick feedback loops that let frontier models run autonomously but in all honesty not seeing it scale well, I need to take a step back and reassess if the trade off was worthwhile. Frontier models are being incredible at making me feel like they passed my tests only to eventually reveal some tech debt that forces me to take large pivots. It seems the speed is sexy but the results are questionable, models may have hit a limit in my workflow and I think harness engineering is more important than anything. Would love to hear feedback on this take and if others have experienced similar things and what they did to overcome this. (Context would be solo founder bootstrapping greenfield work with full autonomy and sometimes more room for rapid iteration) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:30.598949",
+        "updated_at": "2026-09-12T16:03:30.598949",
+        "author": {
+          "id": "d4d529fffb773a600d4d46528be288ed",
+          "source_id": "hmokiguess",
+          "username": "hmokiguess",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "47f1e3c793f2c4dcc44e969929ba9be0",
+        "source_id": "49673701",
+        "content": {
+          "text": "Terra Medium/High for most implementations, Sol High for tracking down hard bugs and planning more complex systems. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:30.599912",
+        "updated_at": "2026-09-12T16:03:30.599912",
+        "author": {
+          "id": "82a277ecce9e9a49884fea1035524ccd",
+          "source_id": "ghosty141",
+          "username": "ghosty141",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "35c5e81fb9399fab320fc4386b233978",
+        "source_id": "49673455",
+        "content": {
+          "text": "I use Sonnit for my personal work and Opus for my professional work. For my personal stuff, I'm on a small $20 plan, so I need to use tokens conservatively. I was very rarely exceeding limits until I built a Dark Software Factory. It's not as efficient at token use. So, I use Sonnit over Opus here. At work I have a $100 plan that I rarely exceed so I use Opus. I have access to Fable too, and I did use it a lot while it was new, but I don't find it improves most of my work by too much. I do mostly bug fixing across several hundred repositories with hundreds of thousands of lines of code, mostly written by humans over the past 20-years. These projects interact with each other so I run claude from the root of my sandbox (I was nervous to try this but I'm not looking back now). I also use Sol as a secondary for my personal work. I pay for it because I like to talk to ChatGPT on the web. Since I already have the subscription, I let Sol write plans for me. It does a better job at certain tasks and it saves me some Claude tokens. Maybe I should consider Terra for the task, but I don't run up against my usage limits for the little bit I use it. I'm trying to use Gemma 4 12b for some workloads but I haven't mastered the model yet. It's still very experimental for me. I can get work from it but it takes a lot of hand-holding. For local models, however, it's all I have the RAM for. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:30.600901",
+        "updated_at": "2026-09-12T16:03:30.600901",
+        "author": {
+          "id": "395eb19ba5e3d6a20d48543801118c97",
+          "source_id": "codazoda",
+          "username": "codazoda",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6d3752a375af5f501022df013623a3fe",
+        "source_id": "49673591",
+        "content": {
+          "text": "How is the Dark Software Factory set up? What is it producing? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:30.601785",
+        "updated_at": "2026-09-12T16:03:30.601785",
+        "author": {
+          "id": "7480d808fd91c0cb9068cce07e3d3b7c",
+          "source_id": "pighive",
+          "username": "pighive",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b36714307b94c1108615508d864a475b",
+        "source_id": "49673611",
+        "content": {
+          "text": "Context will be important for answers to be meaningfully comparable: - LLM expense budget - What type of dev: work, personal, real time spaceship thrust vectoring, html contact forms for family, etc. - human in the loop with short as possible turns, software factories that can run for days, or something in the middle Just off the top of my head.  I'm sure there are others I'm missing. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:30.602748",
+        "updated_at": "2026-09-12T16:03:30.602748",
+        "author": {
+          "id": "3ac6beb80b183fc72dccd7457839518c",
+          "source_id": "rsyring",
+          "username": "rsyring",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "878aaad125c86e817dcc9ef24296e015",
+        "source_id": "49673581",
+        "content": {
+          "text": "ZAI/GLM because a friend has generously shared an API key. They have other subscriptions and also a lot more from their employer. A day ago I activated Google AI Pro free via Google's tie-up with a local company (I do pay for this company's product though and it's anything but costly). Now I will use this too. No other reasons to pick these, or not picking anything else. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:30.603698",
+        "updated_at": "2026-09-12T16:03:30.603698",
+        "author": {
+          "id": "0d9176fc15917cc9fafa5013ee7ad1cf",
+          "source_id": "shelled",
+          "username": "shelled",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "60655379cd2927fce52de6e851f6d17c",
+        "source_id": "49673603",
+        "content": {
+          "text": "I feel like the odd man out ITT but Terra has been absolutely amazing for me and totally blows Sonnet out of the water. My company pays for Claude so I use Sonnet in the office but at home I use Terra and I find it far more likely to one shot some very decent code. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:30.604652",
+        "updated_at": "2026-09-12T16:03:30.604652",
+        "author": {
+          "id": "b9eb619f0c43c6f15c609eefbd23abbd",
+          "source_id": "donatj",
+          "username": "donatj",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "97e7f3640c84f918e86165f6b4e2c72b",
+        "source_id": "49673518",
+        "content": {
+          "text": "I like AI more on the short leash, giving it specific agents tasks, one at a time (centaur mode). I found GPT 5.6 LUNA to be astonishingly capable. Plus, it so fast, that it does not block my flow of throughts, like the more capable but slower models often do.\nAnd it is so cheap that I do not use Ollama local models anymore. Luna is far more capable, and so cheap that the energy prices here in Germany eat the gains of local hosting ;-) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:30.605655",
+        "updated_at": "2026-09-12T16:03:30.605655",
+        "author": {
+          "id": "68671e0a98a4d0e02f2c8087c45b8500",
+          "source_id": "oduis",
+          "username": "oduis",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "bca3bc99d3f35346ca9f9355a37108ef",
+        "source_id": "49673582",
+        "content": {
+          "text": "Gemini is the least stupid/most neurotypical model family IMHO. Works great for me reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:30.607043",
+        "updated_at": "2026-09-12T16:03:30.607043",
+        "author": {
+          "id": "e969152e112d7a2ac3f9cc770fe3257d",
+          "source_id": "rpmisms",
+          "username": "rpmisms",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e78cb5cc25c71ef996ccbbcec29adcea",
+        "source_id": "49673549",
+        "content": {
+          "text": "Reading through this thread, I notice not many people are using models from the Chinese AI labs ... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:30.608165",
+        "updated_at": "2026-09-12T16:03:30.608165",
+        "author": {
+          "id": "16f2f47bb80434d8a9d0741b8ed835f8",
+          "source_id": "amelius",
+          "username": "amelius",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "16f48c048b7a8e0fd3ff9e8f440971ee",
+        "source_id": "49673670",
+        "content": {
+          "text": "My current vibe/playing around setup is deepseek v4.1 flash with opus/sol as advisor agent, dsv4.1flash agents for self review and final review with opus/sol. I love how fast and cheap deepseek is. Using omp as harness. Privacy policy is not great with deepseek api, but you are always just trusting their word with any hosted llm and in theory i could at least self host the models i use from deepseek. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:30.609468",
+        "updated_at": "2026-09-12T16:03:30.609468",
+        "author": {
+          "id": "dfc80f4ac99f17aae2e129236e0bbc83",
+          "source_id": "tiluha",
+          "username": "tiluha",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "cf796289b6e76d7e22804ec4cfdedcee",
+        "source_id": "49673437",
+        "content": {
+          "text": "Sol High-Xhigh, and Opus 5. Granted, yesterday I threw a few tasks to Astra which the former 2 botches; it produced clean, correct solutions quickly, so pending further eval, this may take over. IMO unless it's a mechanical tasks, it's worth it to use carefully -crafted queries on the more expensive models, than iterate through messier solutions on the cheaper ones. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:30.610628",
+        "updated_at": "2026-09-12T16:03:30.610628",
+        "author": {
+          "id": "42cb47f54f5bcba5a9c40b3b2db7f022",
+          "source_id": "the__alchemist",
+          "username": "the__alchemist",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d8d58e7f135f93122527f8255df37d5e",
+        "source_id": "49673419",
+        "content": {
+          "text": "I was using various open weights models until glm-5.3-flash came out recently.  It's incredibly capable and cheap, even if it's very verbose and not the fastest.  I've assigned it to all my agents across my harness and it's getting the job done.  Still needs a good steer every now and then, but a great work horse. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:30.611757",
+        "updated_at": "2026-09-12T16:03:30.611757",
+        "author": {
+          "id": "c7317b89c0433348209b432d06c088dd",
+          "source_id": "jinnko",
+          "username": "jinnko",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f772e6053758a74030720be983e75cd7",
+        "source_id": "49673289",
+        "content": {
+          "text": "Claude, not necessarily because it's better. I find deepseek flash to be of similar quality. But because it's so heavily subsidized. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:30.612908",
+        "updated_at": "2026-09-12T16:03:30.612908",
+        "author": {
+          "id": "a9bdcdad7702c4f58ee94582482ac57e",
+          "source_id": "traverseda",
+          "username": "traverseda",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c3c2de14d7677279803e158282208591",
+        "source_id": "49673210",
+        "content": {
+          "text": "I have an 'ask' alias in my shell that just uses Haiku. I use it daily for pretty much everything For more long work, I now use Fable to create a PLAN.md. I tell it to make a plan that will be executed by other models, and most of the time it ends up choosing Opus or Sonnet. I didn't start doing this recently. Before that, I would just use the top model for everything. Splitting the work across different models depending on the task has helped a lot. They run faster, and I usually get much better results reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:30.614174",
+        "updated_at": "2026-09-12T16:03:30.614174",
+        "author": {
+          "id": "24ec0ad8b009191dd4164a68f5ba2fe9",
+          "source_id": "mariocesar",
+          "username": "mariocesar",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "36cb84134b6425396112e78564a6deb5",
+        "source_id": "49673427",
+        "content": {
+          "text": "i can not believe you really use Haiku? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:30.615390",
+        "updated_at": "2026-09-12T16:03:30.615390",
+        "author": {
+          "id": "2e8036a117b878bfa21be23c9fc6ff23",
+          "source_id": "sourcecodeplz",
+          "username": "sourcecodeplz",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8f134281d3d5c3dcd3174c50ee001c4b",
+        "source_id": "49673525",
+        "content": {
+          "text": "To ask for web search, simple commands and research, or passing logs to analyze it's more than enough Here is the script https://github.com/mariocesar/dotfiles/blob/main/common/.loc... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:30.616658",
+        "updated_at": "2026-09-12T16:03:30.616658",
+        "author": {
+          "id": "24ec0ad8b009191dd4164a68f5ba2fe9",
+          "source_id": "mariocesar",
+          "username": "mariocesar",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "11325479f95b0c613f7d6874fdc41e64",
+        "source_id": "49673604",
+        "content": {
+          "text": "this is a really neat idea. thanks for sharing! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:30.617934",
+        "updated_at": "2026-09-12T16:03:30.617934",
+        "author": {
+          "id": "3573348e8e7820cc1b2578b166aaf267",
+          "source_id": "notnmeyer",
+          "username": "notnmeyer",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "89e870f2e705fabcecbe211b000852b5",
+        "source_id": "49673369",
+        "content": {
+          "text": "Qwen 3.8 flash-next or Gemma 26B because I care about responsible and sustainable usage of LLM's. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:30.619259",
+        "updated_at": "2026-09-12T16:03:30.619259",
+        "author": {
+          "id": "41cd61757fb7af91a92d2d12a3c5ef5e",
+          "source_id": "expedited123",
+          "username": "expedited123",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "17c9f24a4f274456ef98b29aeb4ddb5e",
+        "source_id": "49673382",
+        "content": {
+          "text": "Glm-5.3-flash for me. I like faster models because I stay involved all the way through. I don't delegate full control to the agent because it's harder to understand the end result that way. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:30.620587",
+        "updated_at": "2026-09-12T16:03:30.620587",
+        "author": {
+          "id": "df3a00ca33c109e48490cf7596bfc750",
+          "source_id": "philbo",
+          "username": "philbo",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5d66a23d6bc662c3ab46f982f50cd965",
+        "source_id": "49673237",
+        "content": {
+          "text": "Astra low for pretty much everything gets me through the work week with a bit to spare on the 5x max plan. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:30.621933",
+        "updated_at": "2026-09-12T16:03:30.621933",
+        "author": {
+          "id": "1b7831a582b97d0d8cbf8fafbed9e8e7",
+          "source_id": "alstonite",
+          "username": "alstonite",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "370c13be266c274d247f65a6f9143658",
+        "source_id": "49673375",
+        "content": {
+          "text": "How are you managing your tokenomics so well? Astra low on the $200/mo \"20x Pro\" plan gets me through a single day. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:30.623333",
+        "updated_at": "2026-09-12T16:03:30.623333",
+        "author": {
+          "id": "00769a3f239bbe6406e5489aa0d58805",
+          "source_id": "ewindisch",
+          "username": "ewindisch",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "76619ec8810ce392bc72e28a050f6c63",
+        "source_id": "49673515",
+        "content": {
+          "text": "I honestly don’t think I could blow through a 20x plan in a day if I was trying. What are you doing that uses so many tokens? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:30.624711",
+        "updated_at": "2026-09-12T16:03:30.624711",
+        "author": {
+          "id": "a95472cb556cd1d03de26857b99cd952",
+          "source_id": "jbonatakis",
+          "username": "jbonatakis",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "fec0bcb38974d463e2597dd8144002ab",
+        "source_id": "49673398",
+        "content": {
+          "text": "I'm using a lot of gpt-5.6-Luna and glm-5.3-flash. Astra is really fantastic but it's too expensive. I average about 50-90B/tok/mo. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:30.626129",
+        "updated_at": "2026-09-12T16:03:30.626129",
+        "author": {
+          "id": "00769a3f239bbe6406e5489aa0d58805",
+          "source_id": "ewindisch",
+          "username": "ewindisch",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2f4ca82d65e865bbe7ced17fd24f503e",
+        "source_id": "49673421",
+        "content": {
+          "text": "i like Luna but only until 130k context, over that it becomes dumb. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:30.627579",
+        "updated_at": "2026-09-12T16:03:30.627579",
+        "author": {
+          "id": "2e8036a117b878bfa21be23c9fc6ff23",
+          "source_id": "sourcecodeplz",
+          "username": "sourcecodeplz",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9fa1bef9035e2230cc46a874f0bec723",
+        "source_id": "49673342",
+        "content": {
+          "text": "- Default: Codex with Terra Max (because it's crazy cheap) - Preferred: Claude Code with Opus 5 Medium reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:30.629069",
+        "updated_at": "2026-09-12T16:03:30.629069",
+        "author": {
+          "id": "70ddd2db86605a48b7db911727738d40",
+          "source_id": "herpdyderp",
+          "username": "herpdyderp",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "191582e15fa973c9b9e18ae27fcd61c2",
+        "source_id": "49673643",
+        "content": {
+          "text": "Qwen3.8 reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:30.630603",
+        "updated_at": "2026-09-12T16:03:30.630603",
+        "author": {
+          "id": "529a0620bf66c5f337b3b50da2d83e0f",
+          "source_id": "cyanydeez",
+          "username": "cyanydeez",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a5cfe2d99f3bfea16b464e11ab2c3833",
+        "source_id": "49673402",
+        "content": {
+          "text": "Muse Spark 1.3 Contribs unbeatable price/intel ratio per M tokens: $0.10 (input) $0.20 (output) $0.002 (cached-input) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:30.632185",
+        "updated_at": "2026-09-12T16:03:30.632185",
+        "author": {
+          "id": "2e8036a117b878bfa21be23c9fc6ff23",
+          "source_id": "sourcecodeplz",
+          "username": "sourcecodeplz",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "63d407d1c1cf36659311d399a271029a",
+        "source_id": "49673605",
+        "content": {
+          "text": "Glm 5.3 Flash and DeepSeek 4.1 Flash reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:30.633729",
+        "updated_at": "2026-09-12T16:03:30.633729",
+        "author": {
+          "id": "546c4d839afb632361ff2600682038ab",
+          "source_id": "behole",
+          "username": "behole",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f33416187d9a59d822f9f31375ab79c8",
+        "source_id": "49673430",
+        "content": {
+          "text": "I use gemma 4 12B and Qwen 3.8 9B reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:30.635313",
+        "updated_at": "2026-09-12T16:03:30.635313",
+        "author": {
+          "id": "a7cab08d8ca3cc87dda26ed610e01df9",
+          "source_id": "w22oop",
+          "username": "w22oop",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "614163a4b63f35ca63af9a8c59de6368",
+        "source_id": "49673492",
+        "content": {
+          "text": "GLM5.3 - I'm on one of the ancient plans, meaning basically unlimited. ...and then sprinkle in some other models when i think a second opinion will help reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:30.636916",
+        "updated_at": "2026-09-12T16:03:30.636916",
+        "author": {
+          "id": "21231fcd34fa464dfa18b63ba53917dd",
+          "source_id": "Havoc",
+          "username": "Havoc",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6ba937c70e14d7627c451e9d7aef4a68",
+        "source_id": "49673221",
+        "content": {
+          "text": "opusplan, for the same reasons. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:30.638557",
+        "updated_at": "2026-09-12T16:03:30.638557",
+        "author": {
+          "id": "850dd64e256a4b3c0072bebf350b189b",
+          "source_id": "jraedisch",
+          "username": "jraedisch",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1e4a015d75a08bdfa1a0c7766348b4e6",
+        "source_id": "49673218",
+        "content": {
+          "text": "mimo-v2.5-free, mimo-v2.5, deepseek-flash in that order, honestly don’t even bother using qwen3.6-35b-a3b now unless i need uncensored tasks finished, mostly reverse engineering most engineering tasks don’t require frontier llms when they get stuck, then i consider moving up to more capable models purchasing a claude plan seems widely unnecessary to me the tasks they do better than the average engineer cut both ways: unless you have an existing portfolio of well written and designed work done pre-llms, it looks like you’re producing slop that pretends to be well designed poor typography choices despite using the mode, poor layout choices despite using popular CSS frameworks etc bad engineers will always be bad engineers tools don’t make up for it edit: a follow up to this— everyone is using eyebrows in their layouts and have no fucking clue why it was done to begin with everyone has a status pill floating above their front page hero display text and its not fucking status related so gross reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:30.640367",
+        "updated_at": "2026-09-12T16:03:30.640367",
+        "author": {
+          "id": "8591f1437b378e984e0ead91699783f9",
+          "source_id": "bellowsgulch",
+          "username": "bellowsgulch",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9bffe7d3c9e18cc30b16721169addbe0",
+        "source_id": "49673550",
+        "content": {
+          "text": "Where are you getting mimo-v2.5 for free? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:30.642072",
+        "updated_at": "2026-09-12T16:03:30.642072",
+        "author": {
+          "id": "5a45731f30fbb227f0a427c7319d90b7",
+          "source_id": "admiralrohan",
+          "username": "admiralrohan",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-09-12T16:03:30.643411",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "58000f9b4513257806f44208f5cf4572",
+      "source_id": "49661691",
+      "title": "Ask HN: Is GPT-6 Astra worth the 2.5x cost increase over GPT-5.6 Sol?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-12T16:03:07.518552",
+      "updated_at": "2026-09-12T16:03:07.518552",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "fbe2cba180d4465e981ed05c7fba9cc9",
+        "source_id": "minimaxir",
+        "username": "minimaxir",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 7,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49661691",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-09-12T16:03:34.024447",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "edb4df4bf055c072214a1b7e4d7ff308",
+      "source_id": "49660811",
+      "title": "Ask HN: AI and Math",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-12T16:03:07.519214",
+      "updated_at": "2026-09-12T16:03:07.519214",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "fa1fdddc1b743950a21c3972eb4ff62a",
+        "source_id": "ekm2",
+        "username": "ekm2",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 2,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49660811",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-09-12T16:03:36.319812",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "5c3a7b904051f7cef33b7dd60a12b27c",
+      "source_id": "49658131",
+      "title": "Ask HN: What is the average number of hops in your social network to 9-11 death?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-12T16:03:07.519738",
+      "updated_at": "2026-09-12T16:03:07.519738",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "5dc51c23f7acaff0f0aa2babaef4b4c1",
+        "source_id": "MrCoffee7",
+        "username": "MrCoffee7",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 2,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49658131",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-09-12T16:03:40.027447",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "d8c1220bc8e1aff03ec1a8aba354cf61",
+      "source_id": "49590656",
+      "title": "Ask HN: Show your micro-SaaS",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-12T16:03:07.520392",
+      "updated_at": "2026-09-12T16:03:07.520392",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "ba830563d4ea1c206c9c7d7ac2dc207b",
+        "source_id": "genekrapivin",
+        "username": "genekrapivin",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 29,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49590656",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-09-12T16:03:44.053274",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "4d1d6635ecf5bf568c93c11ff5ccdfbb",
+      "source_id": "49628792",
+      "title": "Ask HN: Software Licenses that prevent LLMs from training on open source?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-12T16:03:07.521054",
+      "updated_at": "2026-09-12T16:03:07.521054",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "42069ed7b5f5f96f0afc0a8be8f66316",
+        "source_id": "mattm",
+        "username": "mattm",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 9,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49628792",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "d430df4b2cc2c570d50dc58ca6c6ac1f",
+        "source_id": "49638370",
+        "content": {
+          "text": "IANAL and this is not legal advice, but to explain the issue further in a number of countries training is considered fair use. If someone training the model can find one country where this is the case (and there are no edge case issues from things like copying the data for training) training is legal. So far, the US hasn’t restricted importing models (which specifically for open source might not be possible due to free speech) so using that model in the US is legal as well. And understood that there are strong opinions on both sides of the argument if this is good or bad. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:46.673433",
+        "updated_at": "2026-09-12T16:03:46.673433",
+        "author": {
+          "id": "683f8e9930f48a5ae0b9260a72860051",
+          "source_id": "appenz",
+          "username": "appenz",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e54c8c55c1428f8f7dfed168593b5705",
+        "source_id": "49637051",
+        "content": {
+          "text": "There’s nothing you can do to stop this. If your stuff is on the internet it will be crawled. Don’t want the LLMs or anyone else to gobble up your project then keep it private. The licenses are a gentleman’s agreement in a world of no gentlemen. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:46.674046",
+        "updated_at": "2026-09-12T16:03:46.674046",
+        "author": {
+          "id": "6c3a26f5645c1a5cdfcc6a3352ba2c98",
+          "source_id": "linesofcode",
+          "username": "linesofcode",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f98b23b9c12c2407c47b01d5034a0517",
+        "source_id": "49635365",
+        "content": {
+          "text": "There probably can't be. I assume they don't even look at the license when they crawl. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:46.674580",
+        "updated_at": "2026-09-12T16:03:46.674580",
+        "author": {
+          "id": "92bc3ae376a66bd4a437234b3757e997",
+          "source_id": "wmf",
+          "username": "wmf",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6e2ea2b06901745447aab186acc6b926",
+        "source_id": "49630373",
+        "content": {
+          "text": "Chivalry and honor. Fight them to a duel to the death on horseback and javelin jousting. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:46.675154",
+        "updated_at": "2026-09-12T16:03:46.675154",
+        "author": {
+          "id": "f96af2e6537256be59475faead166816",
+          "source_id": "sigbottle",
+          "username": "sigbottle",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "43c1e7196ea448f61dd0c68e25451dcc",
+        "source_id": "49634753",
+        "content": {
+          "text": "Unless your license is backed up by the legal wherewithal to enforce its terms, your choice doesn't matter. There are is no Software License Enforcement Agency. And by \"legal wherewithal\" I mean enough money to out lawyer the big AI companies who have many billions of dollars on the line and therefore a few billion for legal fees. Also keep in mind that scraping by open-source projects is a proven tactic for corporate ingestion while generating plausible legal protection. Good luck. Good luck. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-12T16:03:46.675780",
+        "updated_at": "2026-09-12T16:03:46.675780",
+        "author": {
+          "id": "9a688e4c7583fd52091f8f5b41db97b2",
+          "source_id": "brudgers",
+          "username": "brudgers",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-09-12T16:03:46.676011",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "9d43cef370c4ddcb37655517cbc55a6d",
+      "source_id": "49586386",
+      "title": "Ask HN: Any Software Engineers here who enjoy their AI-native dev workflow?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-12T16:03:07.521576",
+      "updated_at": "2026-09-12T16:03:07.521576",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "1b35113cef4fdd5f404ee875817953fb",
+        "source_id": "pkos98",
+        "username": "pkos98",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 17,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49586386",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-09-12T16:03:51.190699",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
   }
 ]
