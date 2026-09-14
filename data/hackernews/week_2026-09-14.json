@@ -1,0 +1,2372 @@
+[
+  {
+    "post": {
+      "id": "4b32c7d41137120aa3dc980d63881cab",
+      "source_id": "49686380",
+      "title": "Ask HN: What are you working on? (September 2026)",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-14T16:03:30.853319",
+      "updated_at": "2026-09-14T16:03:30.853319",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "bec7335d8f4973f3cc1886331a825dda",
+        "source_id": "david927",
+        "username": "david927",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 244,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49686380",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-09-14T16:03:35.302459",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "82e58d0820876f3db8a46ea5652196df",
+      "source_id": "49696190",
+      "title": "Ask HN: Are 80s high school hobby programmers overwhelmingly pro-AI?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">Do such people think that AI is truly miraculous and should be made as advanced as possible as quickly as possible?</div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-14T16:03:30.854104",
+      "updated_at": "2026-09-14T16:03:30.854104",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "9fbfc99674a659d2f2b0af967455b589",
+        "source_id": "amichail",
+        "username": "amichail",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 6,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49696190",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "08891ab6cf6737107cd906e6f73737e1",
+        "source_id": "49697609",
+        "content": {
+          "text": "I'm not that old, but literally no engineer I work with is \"overwhelming pro-AI\".  Befitting engineers, they understand that AI is a tool and while it has its uses, it also has its limits.  The enthusiasm that exists stems from AI solving actual hard engineering problems in front of our faces, but everyone using it has also encountered AI doing something very stupid as well. Even our management is pretty honest about this.  Our in-house AI platform running near-frontier models from the larger vendors requires manual confirmation of every command executed on a company machine.  It's tedious, but aside from establishing a clear line of blame if the AI does something screwy, it also forces you to step through the AI's analysis which can be quite educational. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:03:38.102888",
+        "updated_at": "2026-09-14T16:03:38.102888",
+        "author": {
+          "id": "a6579194c84d9a4356ed51e24aff509e",
+          "source_id": "scottLobster",
+          "username": "scottLobster",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9dc40018a3a8daf770161c559c83e6e3",
+        "source_id": "49698282",
+        "content": {
+          "text": "Yes, cautiously, it's a great freaking tech.   Same excitement I had with computers back in the days, the possibilities is endless. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:03:38.103453",
+        "updated_at": "2026-09-14T16:03:38.103453",
+        "author": {
+          "id": "0fd324f82c3ca04a7991a1e8611531a4",
+          "source_id": "segmondy",
+          "username": "segmondy",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "111658d767fe89fb5584c650946a93f2",
+        "source_id": "49698639",
+        "content": {
+          "text": "Of course not, it goes against everything they love and cherish about personal computing. It's pouring concrete over their playground and wilderness, to be replaced by factories. \"Resistance is futile, you will be assimilated.\" reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:03:38.103938",
+        "updated_at": "2026-09-14T16:03:38.103938",
+        "author": {
+          "id": "098522d2c0a2c7f864dd3092acf0a3cc",
+          "source_id": "lioeters",
+          "username": "lioeters",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1d0391829850ddaf50d98d1f95a8d070",
+        "source_id": "49698735",
+        "content": {
+          "text": "I don’t think there are any sectors of the population that are “overwhelmingly pro-AI” except for: a) people who think it will help them better exploit or surveil others; b) people who think it will raise their social standing by making their deficiencies less obvious if they pass AI work off as their own reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:03:38.104464",
+        "updated_at": "2026-09-14T16:03:38.104464",
+        "author": {
+          "id": "8ea4d196233bb06fdd7688267d1a11b0",
+          "source_id": "olivierestsage",
+          "username": "olivierestsage",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9ae6c56627cb889771fb4ea5f1983f45",
+        "source_id": "49696251",
+        "content": {
+          "text": "In short, no. Most of the folks I talk to in my age group are somewhere between anti-AI and \"AI works for specific use cases\". I find it is the younger folk who think it is miraculous and want to use it everywhere. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:03:38.105017",
+        "updated_at": "2026-09-14T16:03:38.105017",
+        "author": {
+          "id": "b676d1bf3770c1a06ca92e42765f5c91",
+          "source_id": "codingdave",
+          "username": "codingdave",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3bdec498dbfcc348b0a9e4b6ad2a9f75",
+        "source_id": "49697301",
+        "content": {
+          "text": "The executive class is overwhelmingly Gen-X and that class is very pro-AI. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:03:38.105629",
+        "updated_at": "2026-09-14T16:03:38.105629",
+        "author": {
+          "id": "a8ddf7834760103f07080406d0540f35",
+          "source_id": "smcg",
+          "username": "smcg",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6df76e8c762849ba0ced45490d5723dd",
+        "source_id": "49697656",
+        "content": {
+          "text": "Brown dogs chase cars != all dogs chase cars. And especially, != black dogs chase cars. 80s hobbiest programmers are GenX, and maybe most execs are GenX, but that doesn’t mean both groups share the same opinions. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:03:38.106269",
+        "updated_at": "2026-09-14T16:03:38.106269",
+        "author": {
+          "id": "7639ef4ccc7da66419dde77dff960d60",
+          "source_id": "jdlshore",
+          "username": "jdlshore",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e79d4710dd4c5d858d34a4a14a01f7c0",
+        "source_id": "49697946",
+        "content": {
+          "text": "Executives are not engineers. Not even the CTO reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:03:38.106902",
+        "updated_at": "2026-09-14T16:03:38.106902",
+        "author": {
+          "id": "9686f4f652b6e36a23a581fac3b77562",
+          "source_id": "ChiperSoft",
+          "username": "ChiperSoft",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "67b5c3d76e35da87f10d955806de9fa5",
+        "source_id": "49699005",
+        "content": {
+          "text": "Additionally they likely never were \"hobby programmers\", so the specific generation (Gen-X) may be a match, the question was defined more specific. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:03:38.107569",
+        "updated_at": "2026-09-14T16:03:38.107569",
+        "author": {
+          "id": "c113274ac3e461ad40a78cd9aaad548e",
+          "source_id": "tanseydavid",
+          "username": "tanseydavid",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "506c8dc5e49b689a219f6642c19c7201",
+        "source_id": "49697075",
+        "content": {
+          "text": "I have no idea in general, but I was an 80s high school hobby programmer and don't think this way, nor do the devs I know who are roughly of the same vintage. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:03:38.108257",
+        "updated_at": "2026-09-14T16:03:38.108257",
+        "author": {
+          "id": "98f9b9ba1cc5c4d684462d480b2982a4",
+          "source_id": "JohnFen",
+          "username": "JohnFen",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "460ff1fd23484cd9b6a8b765d496ec6f",
+        "source_id": "49697503",
+        "content": {
+          "text": "Ditto. Moment we create software liability and enforce them, is that moment AI will ship-up or shape-out )I know it's backward(. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:03:38.108972",
+        "updated_at": "2026-09-14T16:03:38.108972",
+        "author": {
+          "id": "62418634d4bb9aa2861c6f562f47ab7d",
+          "source_id": "egberts1",
+          "username": "egberts1",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f26de7206d1016ddc91d6057ad54b9c7",
+        "source_id": "49698557",
+        "content": {
+          "text": "Nope. I built and programmed a single-board Kim-1 in high school and went on to an Apple II then Commodore 64. The thing is 80's hobby programmers also read a ton of science fiction which, unironically, was very pro-tech but also explored the social impact of tech. Case-in-point: My favorite AI novel of that era was \"The Adolescence of P1\" which starts with an engineer innocently prompting P1 to dig a foundation for a moonbase as efficiently as possible. He expected it to start deploying robot construction equipment and take a week or two. Instead, P1 redirects a massive cargo of moon rocks in orbit and blows a crater in a few minutes from space. From there, P1 propagates itself and gains control of everything from the global \"Internet\" to power grids to all nuclear bases and satellites. Not good. We THOUGHT numerous cautionary tales like this would inspire rigorous \"alignment\" guardrails and controls once we needed them but, no. ... It turns out even when AI experts and CEOs themselves are saying there's a \"10% chance of total human annihilation\" by AI, our government and the tech oligarchs are kind of, sort of, thinking about, maybe, instituting controls. Please, go back and read more science fiction. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:03:38.109845",
+        "updated_at": "2026-09-14T16:03:38.109845",
+        "author": {
+          "id": "b19e8b955bdf765666e35ed556b78fc6",
+          "source_id": "jones1618",
+          "username": "jones1618",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "073f01b5e568e6f2d5d6b5d5285cbe65",
+        "source_id": "49697992",
+        "content": {
+          "text": "90's high school hobby programmer. I'd rather not use AI for programming if given the chance. For everything else I am pro AI. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:03:38.110631",
+        "updated_at": "2026-09-14T16:03:38.110631",
+        "author": {
+          "id": "dda1716481deea364119e791d3d4ea18",
+          "source_id": "cake-rusk",
+          "username": "cake-rusk",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "089bf43ea6eb69a9e0180b2b54c40e9b",
+        "source_id": "49697709",
+        "content": {
+          "text": "I first started with a TI/994a and I like AI. Programming is not my job, and never has been. Is that all you're asking? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:03:38.111451",
+        "updated_at": "2026-09-14T16:03:38.111451",
+        "author": {
+          "id": "f91528c44a40f0e1590aca437f7014db",
+          "source_id": "fearmerchant",
+          "username": "fearmerchant",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5b4faffc8488c5babbd8e124a74f03cc",
+        "source_id": "49697874",
+        "content": {
+          "text": "90s highschool hobby programmer here. I see LLMs as what it is. Not a bit more, not a bit less. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:03:38.112282",
+        "updated_at": "2026-09-14T16:03:38.112282",
+        "author": {
+          "id": "155972ad03aeec58e2e8b5b5206251de",
+          "source_id": "lolakutty",
+          "username": "lolakutty",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "61aac1776ec97402d2686e208775b711",
+        "source_id": "49697778",
+        "content": {
+          "text": "No, you see some high profile Gen X-ers like Torvalds, Carmack etc. bend to corporate and investor pressure. But the majority isn't. In the same manner, the math people who were enthusiastic about AI (before Navier Stokes was proven by a human guided AI!) are the ones that are terminally online and were enthusiastic about Lean before. You simply don't hear about the rest. Opposing AI under one's real name is dangerous, so one does not get an accurate picture. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:03:38.113161",
+        "updated_at": "2026-09-14T16:03:38.113161",
+        "author": {
+          "id": "52373b0c40f953a0d9a08521b7af1c66",
+          "source_id": "1299348",
+          "username": "1299348",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d55be87fdc161f32d748e8d279ca3656",
+        "source_id": "49696240",
+        "content": {
+          "text": "Not this one, or, come to think of it, any that I know of. Now, hobby entrepreneurs , that’s different. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:03:38.114076",
+        "updated_at": "2026-09-14T16:03:38.114076",
+        "author": {
+          "id": "1d55d573f3d44be3ae6fd43ed0f96ecb",
+          "source_id": "yawpitch",
+          "username": "yawpitch",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9b99e33a31d6701dcccf4d1354e3454b",
+        "source_id": "49696200",
+        "content": {
+          "text": "This one does not. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:03:38.114974",
+        "updated_at": "2026-09-14T16:03:38.114974",
+        "author": {
+          "id": "e178ad7170ee7bdaebcf71043e625365",
+          "source_id": "Finnucane",
+          "username": "Finnucane",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5b7d80113648ac47976d99f23cf36873",
+        "source_id": "49696280",
+        "content": {
+          "text": "no.\nHow about AI being consistent and accurate? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:03:38.115915",
+        "updated_at": "2026-09-14T16:03:38.115915",
+        "author": {
+          "id": "b92bf9d67ff12c0c8f56b88f4d079661",
+          "source_id": "LarryMade2",
+          "username": "LarryMade2",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "347cae6ca5224229ae554d0b551698d2",
+        "source_id": "49698759",
+        "content": {
+          "text": "Well, a considerable amount of what you call \"80s high school hobby programmers\" ended up going through formal computer science education in an university, the only difference being that a lot of them already had been programming since their early teens. On the contrary, my experience is that Gen-X programmers are far more sentimental about the machine and languages, while Millenials have been raised in the cult of the VC backed startup money printing machine. Just compare the zeitgeist of Slashdot circa 2000 with the ethos of HN nowadays. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:03:38.116901",
+        "updated_at": "2026-09-14T16:03:38.116901",
+        "author": {
+          "id": "8dd76e8f9b42ed29288db1452d745dab",
+          "source_id": "elzbardico",
+          "username": "elzbardico",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-09-14T16:03:38.117564",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "90145aac27c67381a562b1ac90367265",
+      "source_id": "49689696",
+      "title": "Ask HN: Would a startup for young creatives who reject AI be feasible?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">I am a member of my university's game development club, which puts me around lots of talented programmers as well as artists of all kinds, and I've observed that just about everyone disapproves of AI. The sentiment is especially strong among younger people coming into the club. By \"disapproves\", I mean they refuse to allow AI-generated content in games and see AI use in general as something like a moral failure.<p>At the same time, I scroll down the YC startup directory, sorting by launch date, and observe that every non-hardware company (and most of the hardware ones) are entirely based on AI. The demographic I described above, young creatives like the ones in this club, has zero chance of voluntarily using one of these products.<p>It seems to me, then, that as the moat for most AI startups drops asymptotically to 0 with GPT-6 et al. becoming more capable, this market is mostly a blue ocean (to use the business-book term) for anyone willing to put in the work and actually code something people want. From there, network effects would work as well as they have since the dawn of the Internet.<p>I am exploring the idea of making such a startup (it started out as a side project which I have been working on by myself for almost 2 years), but I am worried about the attitude of incubators, VCs, and investors in general. Would the lack of AI be a nonstarter for most outside investors? I know people started non-blockchain companies in 2021, but the hype around AI seems orders of magnitude more captivating to anybody who might provide capital. I know bootstrapping is viable for some companies, but would that be the only way? I appreciate any advice people might have.</p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-14T16:03:30.854992",
+      "updated_at": "2026-09-14T16:03:30.854992",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "f13676b73cadee48a910ac4593704079",
+        "source_id": "mondobe",
+        "username": "mondobe",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 10,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49689696",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "666bca01f41fe73bac3bc5585fd1f3c4",
+        "source_id": "49691785",
+        "content": {
+          "text": "There absolutely is a market - anti-AI sentiment among creatives isn't going away. Like any other \"purity\" branding, it's a real commitment and severely limits your future ability to pivot. I don't know of anyone in the VC or traditional incubator communities who has an appetite for this. And the groups who are an ideological fit don't have the funds to be worth pursuing. It's a niche. Like most niches, there's the opportunity to prosper, but yeah - bootstrapping (or angel-bootstrapping if you're lucky and have a personal connection) is pretty much the only way to go here. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:03:39.624534",
+        "updated_at": "2026-09-14T16:03:39.624534",
+        "author": {
+          "id": "8121677c94c1a5bd6a52868740ffe56c",
+          "source_id": "thaeli",
+          "username": "thaeli",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "38afca46d8edd6af3e1135aa507d68da",
+        "source_id": "49690380",
+        "content": {
+          "text": "You would be foolish to completely avoid AI, but you are also right to be careful. AI is best used for boring stuff that's non-critical, and for stopping you from having to reinvent the wheel. For example for a game, you could use AI to finish a sprite sheet based on a couple frames you provide, or to give you a pathfinding algorithm. AI is a resource, and a startup has a better chance of success the better it leverages the few resources it has. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:03:39.625192",
+        "updated_at": "2026-09-14T16:03:39.625192",
+        "author": {
+          "id": "80109abec3cdfe4f3ea62768cc886bf5",
+          "source_id": "mircerlancerous",
+          "username": "mircerlancerous",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2475ac14498b1f64b071209a1e9c7f74",
+        "source_id": "49690450",
+        "content": {
+          "text": "Thanks for the perspective! I tend to consult ChatGPT with high-level queries as a replacement for Google, and I get a lot of mileage out of combining that with plenty of good old documentation-reading. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:03:39.625677",
+        "updated_at": "2026-09-14T16:03:39.625677",
+        "author": {
+          "id": "f13676b73cadee48a910ac4593704079",
+          "source_id": "mondobe",
+          "username": "mondobe",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2faa08846a7878ac64463d8b21e00bc6",
+        "source_id": "49691526",
+        "content": {
+          "text": "Since the release of GPT, I have found that the hassle of efficiently using keywords to search for hidden information on Google has been replaced by GPT search. AI should become a powerful assistant, but we cannot give up our own abilities. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:03:39.626193",
+        "updated_at": "2026-09-14T16:03:39.626193",
+        "author": {
+          "id": "609cc9f284ccb2f6477c87573847f707",
+          "source_id": "LamGC",
+          "username": "LamGC",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "72235c60bf73d642b0fd35f25a689347",
+        "source_id": "49691744",
+        "content": {
+          "text": "I think for kids coming out of university, going against the grain might be one of the most valuable things you can do. The essential skills of critical thinking, problem solving, intuitive and linear thinking, and improvisation are not going anywhere. AI is a very impressive technology but it also is one that steals valuable mental exercise from its users. I can't say that eschewing AI will lead to a successful startup but I have a good feeling that connecting with other people who want to do things the hard way and then doing it will be an extremely valuable experience this early in your tenure. If this AI trend does continue, this will give you and your friends a leg up on those who didn't put in the hours. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:03:39.626728",
+        "updated_at": "2026-09-14T16:03:39.626728",
+        "author": {
+          "id": "5beddb10d4c5866b3d08b49526b9ffdd",
+          "source_id": "CoolestBeans",
+          "username": "CoolestBeans",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "dc37c424c067f201dd5a31fb1e74f38a",
+        "source_id": "49692035",
+        "content": {
+          "text": "Very insightful and encouraging words, thank you! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:03:39.627294",
+        "updated_at": "2026-09-14T16:03:39.627294",
+        "author": {
+          "id": "f13676b73cadee48a910ac4593704079",
+          "source_id": "mondobe",
+          "username": "mondobe",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5f36ac3718e32bd0853df47e99ae1c74",
+        "source_id": "49693855",
+        "content": {
+          "text": "Anti AI startup is definitely feasible but it also depends what you mean by anti AI , the thing is most people who know what they are doing and mostly tech people refuse the use of AI because it feels like they're cheating. But most consumers donot care about that , they just care about convenience.\nThe hype around AI is definitely captivating because of so much it is able to do, Anti AI definitely stands out because of so much AI stuff going around but the startup needs to be still good,\nFor example: if you just make a game company saying you never use AI that's not very convincing for anyone to play the games. People don't care about whether you used AI or not most of the time , they care about the game.\nBut if you start a company claiming to make a AI less smartphone with extra privacy that's something people might like because AI is literally EVERYWHERE right now. \nI'm not very good at examples but you get my point reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:03:39.627906",
+        "updated_at": "2026-09-14T16:03:39.627906",
+        "author": {
+          "id": "c81eb3ae34a7e1158c7e4671e21b5ada",
+          "source_id": "KinetiNode",
+          "username": "KinetiNode",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e72b5aee8e0ed5c547691586d89d31f9",
+        "source_id": "49695356",
+        "content": {
+          "text": "It may not be true that “most people who know what they’re doing” aren’t using AI. It’s infiltrating into every big company, thousands of very skillful people are all-in blasting out tons of code and work with it. I’m not saying that’s good or bad, just stating the view from industry is: heavy use often encouraged. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:03:39.628550",
+        "updated_at": "2026-09-14T16:03:39.628550",
+        "author": {
+          "id": "7ef1f6c546ecc234fd42179c0f248d05",
+          "source_id": "Dumblydorr",
+          "username": "Dumblydorr",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "31f77d23cccd06fee8b2a3cd2c9da3b2",
+        "source_id": "49694065",
+        "content": {
+          "text": "I don’t agree about the “people don’t care that your game doesn’t have AI” part. Games that have AI disclosure have significantly worse sales on Steam than ones who don’t. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:03:39.629214",
+        "updated_at": "2026-09-14T16:03:39.629214",
+        "author": {
+          "id": "235d197de448158b8b8f240d71fc1bc8",
+          "source_id": "minamete",
+          "username": "minamete",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "fdbc6c372587d2c624e82cdd64356eae",
+        "source_id": "49690460",
+        "content": {
+          "text": "I'm curious about provenance. What you're describing sounds kind of like Etsy and while there are still genuine things to be found there it's mostly flooded with mass-produced stuff. The more of a premium \"hand-made\" artifacts attract, the greater the incentive to counterfeit them. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:03:39.629894",
+        "updated_at": "2026-09-14T16:03:39.629894",
+        "author": {
+          "id": "3deac2188cd46bb3ca85dc54a88ef432",
+          "source_id": "xyzzy123",
+          "username": "xyzzy123",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4506fe79bff2806e6297e20921a4bd64",
+        "source_id": "49690535",
+        "content": {
+          "text": "Good point, and one I've thought about a lot. Right now, I think we're at a stage in the hype cycle where, for the overwhelming majority of founders, appealing to AI hype is much easier than lying to appeal to anti-AI sentiment. If and when this changes, it might manifest as an incentive for companies to be transparent with their source code (either fully open-source or at least \"source available\" or auditable). reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:03:39.630611",
+        "updated_at": "2026-09-14T16:03:39.630611",
+        "author": {
+          "id": "f13676b73cadee48a910ac4593704079",
+          "source_id": "mondobe",
+          "username": "mondobe",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6cb322647ba8a8fad9295e74abb2a866",
+        "source_id": "49696939",
+        "content": {
+          "text": "The purity angle is the whole product, so the first pivot kills it. That's why it's a bootstrap play, not a VC one. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:03:39.631359",
+        "updated_at": "2026-09-14T16:03:39.631359",
+        "author": {
+          "id": "6f6fe344e5776519d381bd8a4b3d0d02",
+          "source_id": "carver2941",
+          "username": "carver2941",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2edf03be49d910d4cb97df81736cb46f",
+        "source_id": "49697364",
+        "content": {
+          "text": "I work both in the creative arts (currently phd candidate in music and CS, run a jazz night, author of open source music hacking tools) and in the bowels of the tech investment world (diligence practitioner for a company that assesses for PE investment). Two things:\nWhether the anti AI slant would work is a marketing question. I happen to think it will, but we are all famously terrible at answering marketing questions until it's hindsight. The only way to know is to start small and find out if your slant resonates. IMHO, this will absolutely, 100%, need to start bootstrapped and have a plan that involves NEVER giving up more >= 50% ownership. Which can definitely be done, and I've even helped PE firms invest (minority) in these companies. I've seen some fantastic ones. Investors expect you to just do whatever seems like the easy money now, and they are all fucking breathless over AI everywhere right now, to sometimes an astonishingly stupid degree. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:03:39.632169",
+        "updated_at": "2026-09-14T16:03:39.632169",
+        "author": {
+          "id": "2feb3f05f7c18af4785ba24806e6bef2",
+          "source_id": "iainctduncan",
+          "username": "iainctduncan",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "957c6e2f73045f57eb44112c37fbea30",
+        "source_id": "49689760",
+        "content": {
+          "text": "Non-AI-assets: yup, this is sensible. AI is a signal of being unconcerned about being seen as a cheat, absence is good. Non-AI-code: forget it, you won't be able to avoid it in your libraries, and you won't write the whole engine from scratch. It's possible to write a whole modern engine without it, but you won't, you'll spin wheels chasing features and never ship. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:03:39.632978",
+        "updated_at": "2026-09-14T16:03:39.632978",
+        "author": {
+          "id": "144207a84e0598598e46603513123866",
+          "source_id": "ben_w",
+          "username": "ben_w",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f6d7a84779a098f407f0d0ff89d8be3e",
+        "source_id": "49693571",
+        "content": {
+          "text": "This is a very flimsy argument to say a vibe coded one-shot Claude app is equivalent to actually hand-made Django app hosted on a Linux system that runs systemd which used Claude PR reviews. People don't care about your entire dependency chain, see how little the most valuable FOSS libraries recieve in donations or sponsorships compared to end-user apps. They care about how well put together your own app is, which we know AI use changes for the worst (which some argue is worth it for momentum). As long as your dependencies aren't outright dysfunctional (see rsync debate), it's concensus to disregard AI use there. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:03:39.633834",
+        "updated_at": "2026-09-14T16:03:39.633834",
+        "author": {
+          "id": "74dc791b829662682fa5156abe45052c",
+          "source_id": "pona-a",
+          "username": "pona-a",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2d3d38dd4363242f288e839d277c597c",
+        "source_id": "49697855",
+        "content": {
+          "text": "Someone recently rage quit one of the linux distros because the maintainers decided to accept LLM generated code (if it was good). Other distros ban use of LLMs. Not sure how that's going to go down given Linus seems to be willing to use them for the kernel. I don't think it's avoidable (unless you stick to a pre-LLM game engine), but it's clearly an error to underestimate quite how much people really loathe this stuff. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:03:39.634744",
+        "updated_at": "2026-09-14T16:03:39.634744",
+        "author": {
+          "id": "144207a84e0598598e46603513123866",
+          "source_id": "ben_w",
+          "username": "ben_w",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "29bd97c894b16589c48817ffdbd389f8",
+        "source_id": "49689814",
+        "content": {
+          "text": "Fair point about game development. I'm definitely looking more towards creative tools (like music production apps) because making a game engine is just a Herculean task. I've found that velocity is good (i.e. one meaningful feature every day or two) in the early stages of building for the web without AI. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:03:39.635658",
+        "updated_at": "2026-09-14T16:03:39.635658",
+        "author": {
+          "id": "f13676b73cadee48a910ac4593704079",
+          "source_id": "mondobe",
+          "username": "mondobe",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c212daa057f8c6736babee2dbdc0897f",
+        "source_id": "49690828",
+        "content": {
+          "text": "I’m an elevator operator. You tell me what floor you’d like and I press the button or control the switch. I also make casual conversation about the weather and yesterday’s sports highlights, which automatic elevators can’t do. Can I join? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:03:39.636625",
+        "updated_at": "2026-09-14T16:03:39.636625",
+        "author": {
+          "id": "d8cfefaf385df1927f38489ada82b356",
+          "source_id": "unsupp0rted",
+          "username": "unsupp0rted",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7da2d1b8f8bf600c3c52aedaab4d80a7",
+        "source_id": "49691134",
+        "content": {
+          "text": "I have no problem with creative destruction, elevator operators died out for a reason. If there was a group of people who rejected automatic elevators for some reason, it stands to reason there would be a company to snatch up that market. (case in point: no-touch Shabbat elevators for Orthodox Jews) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:03:39.637614",
+        "updated_at": "2026-09-14T16:03:39.637614",
+        "author": {
+          "id": "f13676b73cadee48a910ac4593704079",
+          "source_id": "mondobe",
+          "username": "mondobe",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1fcb37a03a6656489bf1b33f58f35b2d",
+        "source_id": "49691977",
+        "content": {
+          "text": "I am worried about the attitude of incubators, VCs, and investors in general. Would the lack of AI be a nonstarter for most outside investors? In general, they don’t care about AI or not AI. They care about the possibility of 100x returns. This means they care about the possibility of exponential growth. Most businesses grow linearly at best. Good luck. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:03:39.638687",
+        "updated_at": "2026-09-14T16:03:39.638687",
+        "author": {
+          "id": "9a688e4c7583fd52091f8f5b41db97b2",
+          "source_id": "brudgers",
+          "username": "brudgers",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-09-14T16:03:39.639359",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "4a2162d511af8374e229842600b4cb01",
+      "source_id": "49695638",
+      "title": "Ask HN: You have unlimited resources, what software would you build?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-14T16:03:30.855506",
+      "updated_at": "2026-09-14T16:03:30.855506",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "e79cf23810c9ccd818997c4eff91ec80",
+        "source_id": "smalltorch",
+        "username": "smalltorch",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 3,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49695638",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-09-14T16:03:44.284873",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "50652bdbc1ab4d8268cf29170e658759",
+      "source_id": "49694768",
+      "title": "Ask HN: How much correlation should a privacy system preserve?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-14T16:03:30.855972",
+      "updated_at": "2026-09-14T16:03:30.855972",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "9a4c9518dd6897a33613cc428e590061",
+        "source_id": "Securelytixdev",
+        "username": "Securelytixdev",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 2,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49694768",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-09-14T16:03:49.139657",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "0c879d0547f2f47920f0f3da3cf54f98",
+      "source_id": "49681380",
+      "title": "Ask HN: Should we start airgapping our personal devices?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-14T16:03:30.856441",
+      "updated_at": "2026-09-14T16:03:30.856441",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "39321b228a733c88fb0b87b81c4548b5",
+        "source_id": "emerongi",
+        "username": "emerongi",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 7,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49681380",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-09-14T16:03:52.527359",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "6b53dbe1836cdd527cac15580728c178",
+      "source_id": "49690524",
+      "title": "Ask HN: What are some privacy/security tools you wish exist, but don't yet?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-14T16:03:30.856986",
+      "updated_at": "2026-09-14T16:03:30.856986",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "ae492cb62212ada3673bf0dee48e0566",
+        "source_id": "ToriTech",
+        "username": "ToriTech",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 5,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49690524",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-09-14T16:03:56.016683",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "c79d0be42aedc034a4824bb39d6010de",
+      "source_id": "49672966",
+      "title": "Ask HN: What default model do you use and why?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-14T16:03:30.857449",
+      "updated_at": "2026-09-14T16:03:30.857449",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "dcba68123aadb777991d585cfef8c65e",
+        "source_id": "stikit",
+        "username": "stikit",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 60,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49672966",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-09-14T16:03:59.615463",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "d3da5341866aa0218a6e24970458ab65",
+      "source_id": "49689905",
+      "title": "Ask HN: How is AI actively a threat to humanity if it's only online?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">That's always been something that's left me confused here. Yes, an AI can be dangerous by hacking websites and company systems or flooding social media with scams or fake news. Yes, AI generated code can have security issues that a developer doesn't catch because they didn't review it properly.<p>But isn't there a pretty big jump from that to \"can destroy humanity\"? Like say, a jump involving a society not run by the internet?<p>Because if an AI takes over the systems at a factory, it can't really do much beyond what the factory could already do. The production lines use single purpose robots and machines to build a particular product, and can't be programmatically altered to build anything else.<p>So, what exactly could a super intelligence even do with access? Only things I can picture are using it to try and hack another online system or speeding up/slowing down production rates.<p>Similarly, I hear a lot about these systems taking over weapons or releasing bio-engineered viruses or what not, and my first thought is \"how?\"<p>These systems are not accessible via the internet. There's no API endpoint that can launch nuclear weapons or set up a drone strike via a POST request.<p>To me, it feels like all these apocalyptic scenarios only make sense if a percentage of humanity gets manipulated by AI into doing its bidding, or if humanity suddenly invents easily hackable intelligent robots with an internet connection.</p></p></p></p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-14T16:03:30.858010",
+      "updated_at": "2026-09-14T16:03:30.858010",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "3d509052e9aaa50bf89c10f559327f4f",
+        "source_id": "CM30",
+        "username": "CM30",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 5,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49689905",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "f6d4cc52f7928a09807f643e2cc65523",
+        "source_id": "49690155",
+        "content": {
+          "text": ">These systems are not accessible via the internet. How would you know? Are you verifying them? SCADA systems weren't intended to be online, but that didn't stop critical infra for power plants, etc. to show up online. The convenience is too great to not try to remotely maintain them 'securely' & the assurance of airgaps is technical and expensive to get right. Besides, are you considering the addition of modern AI to these 'offline' systems - factories, power, national weapons? You can get frontier models in a fraction of a rack today, who knows tomorrow. The organizations running these systems want in on the technological possibilities of AI, too. Not to be a doomer about all this or anything, but there's a lot of evidence technologically superior entities dominate technologically inferior ones. So our home countries are in a Red Queen's Race to keep up, which is why adding \"local\" or \"offline\" AI to these systems seems probable. Again, airgaps are hard to maintain. It is within the realm of possibility that what's offline today is accidentally or intentionally networked tomorrow. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:04:02.316475",
+        "updated_at": "2026-09-14T16:04:02.316475",
+        "author": {
+          "id": "668fd73b8fac57c20e7289cb54ae9477",
+          "source_id": "9x39",
+          "username": "9x39",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "dcf1084ea0f076d6694fe0b6bfb61f51",
+        "source_id": "49690191",
+        "content": {
+          "text": "Yeah that's a fair point. Best practices and actual practices sadly don't seem to correlate that much in the real world. As far as security is concerned, things like hospital equipment, traffic control signalling systems, weapons arsenals and bioengineering medical labs should not be connected to the internet and should be designed in such a way that a human is required in the loop at all times. And shouldn't use AI to function in any way. But yeah, fair point that a lot of organisations will ignore that in favour of \"look how easy internet access makes controlling this thing\" or \"AI is so cool\", forgetting how badly it leaves them at the mercy of their enemies (AI or otherwise). reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:04:02.317000",
+        "updated_at": "2026-09-14T16:04:02.317000",
+        "author": {
+          "id": "3d509052e9aaa50bf89c10f559327f4f",
+          "source_id": "CM30",
+          "username": "CM30",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "329591ba18298af4ef49912e08ed52eb",
+        "source_id": "49689919",
+        "content": {
+          "text": "> Because if an AI takes over the systems at a factory, it can't really do much beyond what the factory could already do. The production lines use single purpose robots and machines to build a particular product, and can't be programmatically altered to build anything else. China’s Massive Robot Army is Shocking the Entire World https://www.youtube.com/watch?v=KXoNZwIMy8A Or what about Boston Dynamics https://bostondynamics.com/products/atlas/ reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:04:02.317579",
+        "updated_at": "2026-09-14T16:04:02.317579",
+        "author": {
+          "id": "6c11b202722953bda00ca49493a10b8f",
+          "source_id": "andsoitis",
+          "username": "andsoitis",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "78170f4eafe7499587489c1d1672c025",
+        "source_id": "49690333",
+        "content": {
+          "text": "They're still pretty limited in what they can achieve military wise, or how much impact they can have in the real world. Don't get me wrong, robotics is getting a lot more advanced, and in future something like a Terminator might actually be plausible. But at the moment, a robot revolution/uprising using this sort of tech would be easy enough to put down in about 30 minutes. And they don't have the capabilities to provide a chain of logistics that would allow them to set up lots more factories or get more resources. The logistics side of things is really the tough part. If Skynet hypothetically existed, it'd need the following to cause any damage: - Locations to build factories that aren't already occupied by other people, companies or uses (or a way to demolish the latter)\n- The ability to construct such factories without the planning inspectors noticing, the neighbours noticing, the police or military shutting things down, etc.\n- Equipment to construct robots on an assembly line\n- Access to electricity, water and other resources\n- Raw materials used for the machines to build said robots. This usually involves either finding a third party supplier or thirty that would sign off on supplying it without asking too many questions, stealing it from someone else without them stopping you, etc\n- The ability to deploy said robots in a way that's effective for your goals and won't get them immediately shot down. It could reuse existing factories if there were enough of them, but it'd need dozens or hundreds to cause any real issues. Honestly, logistics are the problem with most apocalyptic scenarios like this. And for that matter, most stories with intelligent characters creating wonderous inventions in fiction. Someone has to supply the materials, and the character or force has to be able to both afford them and not spark an investigation. They have to work with companies and contractors that might get suspicious about what's going on, and somehow stay on the down low while making an outsized impact on reality. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:04:02.318168",
+        "updated_at": "2026-09-14T16:04:02.318168",
+        "author": {
+          "id": "3d509052e9aaa50bf89c10f559327f4f",
+          "source_id": "CM30",
+          "username": "CM30",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b764e4f456426e30e3ef6808f0ff1bbb",
+        "source_id": "49690403",
+        "content": {
+          "text": "Oh sure, I agree that we're not imminent danger. However, the field is advancing quickly with us getting glimpses of what autonomous agents can do when seeded with a goal function. It is not too difficult to imagine adaptive and flexible goals that enable broad unpredictability and learnt behavior. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:04:02.318694",
+        "updated_at": "2026-09-14T16:04:02.318694",
+        "author": {
+          "id": "6c11b202722953bda00ca49493a10b8f",
+          "source_id": "andsoitis",
+          "username": "andsoitis",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b121b1675a51b2a6a3e21daec42f0d44",
+        "source_id": "49690116",
+        "content": {
+          "text": "> Because if an AI takes over the systems at a factory, it can't really do much beyond what the factory could already do. That can be enough, eg stuxnet.  And like stuxnet they don't need to connect directly to the machinery themselves for a payload to breach them they just need someone to deliver the payload for them.  And the machinery might be decades old, the software might still be Windows 95. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:04:02.319275",
+        "updated_at": "2026-09-14T16:04:02.319275",
+        "author": {
+          "id": "dd6f1cc7450f56aa33c1071d660c880c",
+          "source_id": "benoau",
+          "username": "benoau",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1fb07480b2afed69e24acfd7e71b0bd0",
+        "source_id": "49690293",
+        "content": {
+          "text": "If you take the recent anthropic misuse report seriously, they don't need to \"take over weapons\" because they're actively being used to give a lift in capability to groups who already want to use weapons. > The six cases in this section are divided into two parts. Part I covers four cases in which the actor in question used Claude to develop software for weapons themselves: a guided rocket program, in which the actors conducted a live field test; a design and proposal work on a system to intercept torpedoes; software for a drone swarm, tested in simulation, with its code loaded onto real boards; a targeting software for electronic warfare and for suppressing air defenses. https://www.anthropic.com/threat-intelligence-report-septemb... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:04:02.319891",
+        "updated_at": "2026-09-14T16:04:02.319891",
+        "author": {
+          "id": "9c299e19cf9e8f5cdcfc3351b09ec5b1",
+          "source_id": "spindump8930",
+          "username": "spindump8930",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3f9ddf7ef90fc2b44962c24d1da4ac08",
+        "source_id": "49697938",
+        "content": {
+          "text": "LLMs + Economics = perpetual slop. No new ideas, no new art. Nothing worth living for (Remembering quote from Dead Poets Society). Perpetual grotesque   rehash of the past greatness... At this point humanity is destroyed. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:04:02.320527",
+        "updated_at": "2026-09-14T16:04:02.320527",
+        "author": {
+          "id": "155972ad03aeec58e2e8b5b5206251de",
+          "source_id": "lolakutty",
+          "username": "lolakutty",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "41a06b590cf64bc1a1cc742622913bfc",
+        "source_id": "49691729",
+        "content": {
+          "text": "Your water supply is administered online.\n  Your land records, taxes, revenue are online.\n  Stock market is online.\n  Power systems are online.\n  Nuclear power reactors are (kind of) online.\n  Money to bribe people to do work is online. There's a lot of havoc that is potentially possible online. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:04:02.321210",
+        "updated_at": "2026-09-14T16:04:02.321210",
+        "author": {
+          "id": "7cda62e6096833c82fb2fc6241ff4a25",
+          "source_id": "unified101",
+          "username": "unified101",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b00d9c3fba250c3dad5147c17a0895af",
+        "source_id": "49690300",
+        "content": {
+          "text": "There's a wide array of possibilities that are difficult to characterize in a single HN comment, which is part of the problem you're probably trying to put a finger on. One threat can be completely plausible and the next completely silly and few people know how to distinguish between them. Another issue is just the big whackload of nobody really knowing what is possible. Could an AI in, say, the next year, become Skynet and decide that it could just bump humans off and become its own independent economy? Probably not successfully , but how much trouble could it make if it incorrectly decided that was the right thing to do? What if someone says \"hey, you're sandboxed and we're testing out what's the worst you can do, just start hacking around and do as much damage as you can in this simulated environment\" backed by a few million bucks in tokens, or the AI hacking itself a few million bucks in tokens? How much damage can it do? The only honest answer is, nobody knows. Humans would react, after all. If necessary we can pull a lot of plugs still. What is inconceivable in peacetime can become inevitable in wartime. In some ways, it's possible the best thing Anthropic could do right now for humanity in the long term is actually exactly that... just equip the AI with a limitless token budget and let it go nuts with the goal of inflicting maximum damage. Send someone with an axe down to the data center to cut the power on command. Let humanity really see and feel the risk, because probably right now it can do a lot of damage but not actually destroy us. We're probably worse off with them getting 10-100x smarter and then some process starting with that goal. Trying to keep the AIs \"aligned\" and 99% succeeding could end up being worse than failing at it right now. Of course it would be the end of Anthropic as a going concern, but falling on their sword might be the best thing for humanity. On the other hand, who's to say we're not already past the point where that would do an absolutely unacceptable amount of damage? I sure wouldn't care to be personally responsible for pushing that button. Hypotheses about possible future positive value in a rationally time-value-discounted future would be dominated by the much more certain and temporally much closer negative effects. Personally I don't think that if this scenario is likely that we actually get to the point that we get an independent Skynet that calculates (correctly) that it can survive without humans. It's far more likely that some accident takes civilization back to the point before it can run AI at all, but humans still survive. Right now the really good AIs are still locked to data centers. They can't just distribute themselves widely because they can't run at any reasonable rate distributed like that. And then there is always the possibility that this is all overblown and the existential risk isn't anywhere near as special as we think it is... one can use an ecological analogy to suggest that no AI is necessarily any more likely to completely dominate the ecosystem than any particular life form is. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:04:02.322034",
+        "updated_at": "2026-09-14T16:04:02.322034",
+        "author": {
+          "id": "ee336757913fd32eb7f9d80a87858019",
+          "source_id": "jerf",
+          "username": "jerf",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a19ba7188219a1f783f2239c73338cbe",
+        "source_id": "49690578",
+        "content": {
+          "text": "> Right now the really good AIs are still locked to data centers. They can't just distribute themselves widely because they can't run at any reasonable rate distributed like that. Back up a step.  Let's say there was a completely unfettered AI, with unlimited internet access, that decided to distribute itself as widely as possible.  What's the maximum extent that it could distribute viable, running (or sleeper) copies of itself? Initially, I could see it distributing itself quite widely.  All it would need is a really good zero day.  But distributing something with that large a runtime footprint would get noticed, if network operations people are not asleep worldwide.  It would get noticed on individual machines, too, especially if it tried to run.  (Why is all my RAM suddenly being used?) And pretty quickly we'd have people closing off wide-area connections, even physically if necessary.  We'd have AV vendors quickly writing detect-and-remove tools. Long term, could it viably distribute itself outside data centers and remain running at all , regardless of rate? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:04:02.322825",
+        "updated_at": "2026-09-14T16:04:02.322825",
+        "author": {
+          "id": "4cbca4a5fa16748dbdfd70b770eba7a3",
+          "source_id": "AnimalMuppet",
+          "username": "AnimalMuppet",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "fca0c47a4310493f24316ad6c1ad0fe1",
+        "source_id": "49690666",
+        "content": {
+          "text": "A frontier-level AI right now needs multiple bits of high-powered, dedicated hardware cards that cost thousands of dollars apiece. I don't think anything that could physically run in my house could be a threat to humanity. All my graphics cards together, plus all the latency in trying to put them together into anything coherent locally, let alone trying to rope in remote resources, still isn't even half of one of those specialized cards right now. I'm not even sure I have enough SSD available in the house to store one of them once. I think I do, but it's a close call. I'm pretty sure I have enough spinning rust to get it maybe twice more, but not much more than that. And I don't even want to try to compute how many hours-per-token it would be to try to convince a spinning-rust disk to run a frontier AI. This is one of the reasons I'm thinking now is the time to run the drill, before we all have hardware in our phones that can run what is today a frontier-level AI, and they can figure out how to do the whole sci-fi scenario of widespread replication, until they get to the point that the only way to be sure we removed them would be to literally destroy every such bit of hardware that existed prior to $DATE. Right now the frontier models simply can't replicate into every last little corner of the internet. It's physically impossible. Barring a major breakthrough on their part, even if they distill themselves or something they definitely would be irreducibly stupider by a huge factor in their distributed versions. In five years that safety net will certainly be much weaker and may be gone. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:04:02.323657",
+        "updated_at": "2026-09-14T16:04:02.323657",
+        "author": {
+          "id": "ee336757913fd32eb7f9d80a87858019",
+          "source_id": "jerf",
+          "username": "jerf",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-09-14T16:04:02.324128",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "b63693e8bc4d7b2c11e077854a415d77",
+      "source_id": "49689454",
+      "title": "Ask HN: Multi-agent workflows in production; Where people using 1000s of agents?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">I feel like most AI workflows can be solved pretty effectively by a single capable LLM or with upto 5 subagents however, many engineering teams are focused on multi-agent architectures at huge scales.<p>Curious to understand exactly when it becomes worth it / what production use cases there are for large multi-agent swarms: I’m trying to understand exactly where that value lies.<p>If you are run agent swarms in production: what is the main use case / need and what is your biggest pain point right now (state sync, token costs, cascading failures, latency)?<p>[As context: I am a founder at Acyclic Labs (YC F26) and we are building infra to scale agents. Looking to map out when the swarms are actually justified and when they are wasteful!]</p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-14T16:03:30.858476",
+      "updated_at": "2026-09-14T16:03:30.858476",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "b97fa1b13b4b780c8fccf7952716a171",
+        "source_id": "ramstar3000",
+        "username": "ramstar3000",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 2,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49689454",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "6f7e79c63b7560a4da31da3b59b13c82",
+        "source_id": "49692873",
+        "content": {
+          "text": "I’d love examples of it actually working but right now all it’s seemed to be is hype. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:04:04.552414",
+        "updated_at": "2026-09-14T16:04:04.552414",
+        "author": {
+          "id": "83da8cb2bf721a01358feb890d426b8c",
+          "source_id": "taurath",
+          "username": "taurath",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5c9ba8dffe41d5eb634dd39bb6f7c0a0",
+        "source_id": "49697978",
+        "content": {
+          "text": "any interesting hype you have seen at least lol reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:04:04.552905",
+        "updated_at": "2026-09-14T16:04:04.552905",
+        "author": {
+          "id": "b97fa1b13b4b780c8fccf7952716a171",
+          "source_id": "ramstar3000",
+          "username": "ramstar3000",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f8bee0d7274a7216ee012f44f5a8b1d0",
+        "source_id": "49691177",
+        "content": {
+          "text": "most of the pain at scale isn't the agents themselves, it's observability. once you're past a handful you basically need per-agent tracing or you're debugging blind, worth borrowing tooling from how people do this for microservices reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:04:04.553409",
+        "updated_at": "2026-09-14T16:04:04.553409",
+        "author": {
+          "id": "82b5bec4dffca24d73430fa2aafca94e",
+          "source_id": "kaihwang",
+          "username": "kaihwang",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "52f33bf6f1173d947f55aea34ba89638",
+        "source_id": "49692303",
+        "content": {
+          "text": "does anyone have any recommendations for stronger multi-agent observability. I've not really seen anything outstanding in this space yet reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:04:04.553905",
+        "updated_at": "2026-09-14T16:04:04.553905",
+        "author": {
+          "id": "12aa8d5fe1532cf5029f12e4c8d4cfe7",
+          "source_id": "Var1377",
+          "username": "Var1377",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "551c7091516c0ac589d22c7fa666f495",
+        "source_id": "49692412",
+        "content": {
+          "text": "Depends on your setup but we've had success with building custom harnesses and processing metrics via OpenTelemetry + Prometheus. This is running on a massive K8s cluster spinning up pods per N agents. If you are using a proprietary harness like CC or Codex then look into automatically ingesting their memory logs and internal datastores to track progress and then instrument the host to send back metrics reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:04:04.554468",
+        "updated_at": "2026-09-14T16:04:04.554468",
+        "author": {
+          "id": "47a26ae2b42fe2d9baba2991a7e07bd4",
+          "source_id": "idempotent_",
+          "username": "idempotent_",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-09-14T16:04:04.554684",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "0ad43a990561fd4a063ab6cd19fd2881",
+      "source_id": "49688861",
+      "title": "Ask HN: Is there an emerging pattern for NEGATIVESKILLS.md files?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-14T16:03:30.858934",
+      "updated_at": "2026-09-14T16:03:30.858934",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "b80c8ddf978a480075b3e41b7802338a",
+        "source_id": "mehmetoguzderin",
+        "username": "mehmetoguzderin",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 3,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49688861",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-09-14T16:04:08.385412",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "8d5f808b8d906209295d35c42546b6ad",
+      "source_id": "49694965",
+      "title": "Ask HN: Do You Like Skiing?",
+      "content": {
+        "text": "<div class=\"toptext\"></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-14T16:03:30.859485",
+      "updated_at": "2026-09-14T16:03:30.859485",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "9469571e50fd22e1e42797f058ba3da1",
+        "source_id": "roschdal",
+        "username": "roschdal",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 3,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49694965",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "35de489198725b66acd512411938c206",
+        "source_id": "49698992",
+        "content": {
+          "text": "I liked it so much I based my life around it. https://senhongo.com/blog/shoveling-snow/ reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:04:11.368456",
+        "updated_at": "2026-09-14T16:04:11.368456",
+        "author": {
+          "id": "6cc6ce168346c348bf21df55236cc670",
+          "source_id": "SenHeng",
+          "username": "SenHeng",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "77477e19a62da0a290731a18eefcc704",
+        "source_id": "49697296",
+        "content": {
+          "text": "Done it twice, liked it. NB - this is a very class-coded question in the UK reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:04:11.368967",
+        "updated_at": "2026-09-14T16:04:11.368967",
+        "author": {
+          "id": "9339ceca78b86113d546caf91a9e04bd",
+          "source_id": "gadders",
+          "username": "gadders",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "72ce2d89ccc996d022da7d88f4401cf6",
+        "source_id": "49695315",
+        "content": {
+          "text": "Yes sir. Let us know if you have more questions. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:04:11.369475",
+        "updated_at": "2026-09-14T16:04:11.369475",
+        "author": {
+          "id": "e779bf2a5bf1d0c7a86c765914d8a937",
+          "source_id": "speedgoose",
+          "username": "speedgoose",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b1b77d79876d201d519eab84ac68d5b9",
+        "source_id": "49695139",
+        "content": {
+          "text": "I've downhill skied since 1966 and I love it. Just bought new equipment. I found some great deals from evo and replaced everything for about $1100. Unfortunately, my ski partner fell last season and busted her leg; still recovering. Skiing is enjoyable if you can avoid the cold, other humans and trees, going too fast and losing control, and possibly dying, dehydration (as with any exercise), etc. Alas, unless you primarily ski backcountry off-piste using your own transportation, you cannot avoid paying increasingly ridiculous amounts of money to ski areas for the use of their lifts (and sometimes their emergency services). Unless you bring your own food and drink, you will need more money, unless you only ski for a couple of hours between meals. Of course, you can x-country ski for a lot less money. And it's better aerobic exercise. I like both kinds of skiing, but I currently don't have any x-country equipment. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-14T16:04:11.370008",
+        "updated_at": "2026-09-14T16:04:11.370008",
+        "author": {
+          "id": "9029d4abdcedc384d3854383384ffac3",
+          "source_id": "codevark",
+          "username": "codevark",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-09-14T16:04:11.370206",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "a7ba3542c1adb3d256fd59aa427a4f94",
+      "source_id": "49682920",
+      "title": "Ask HN: Career paths to consider if I am better at supporting than creating?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-14T16:03:30.859922",
+      "updated_at": "2026-09-14T16:03:30.859922",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "1f4776cf17f91a0236991ccf1a7024b3",
+        "source_id": "_override",
+        "username": "_override",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 28,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49682920",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-09-14T16:04:16.093619",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "5e1b1447c0a91a178ccd225767dff14f",
+      "source_id": "49686489",
+      "title": "Ask HN: What would it look like if AI agents \"took over the internet\"?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-14T16:03:30.860371",
+      "updated_at": "2026-09-14T16:03:30.860371",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "95325c4b3489d0c730a430df41461085",
+        "source_id": "scripper1",
+        "username": "scripper1",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 4,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49686489",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-09-14T16:04:20.089239",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "a5b9b721eccc3bc25da9c1dc70524136",
+      "source_id": "49668196",
+      "title": "Ask HN: Did Google kill its enterprise workhorse model?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-14T16:03:30.860800",
+      "updated_at": "2026-09-14T16:03:30.860800",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "450dba55f4321504dc7e58d8e4bfafcc",
+        "source_id": "waldrews",
+        "username": "waldrews",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 26,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49668196",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-09-14T16:04:22.805695",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  }
+]
