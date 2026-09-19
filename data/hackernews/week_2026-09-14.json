@@ -29733,5 +29733,3405 @@
       ],
       "is_nsfw": false
     }
+  },
+  {
+    "post": {
+      "id": "452b373b27c1923af4110017c1b1ad4b",
+      "source_id": "49764727",
+      "title": "Ask HN: Losing motivation to work in the IT field, need advice",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">Hello folks,<p>I am a senior Software Engineer working in the IT field for close to 16 years.<p>Before AI coding tools became prevalent, I enjoyed writing code, architecting software systems, and speaking to the stakeholders.  These past 2 - 3 years, since companies have been using AI tools heavily, I noticed most of the work has been delegated to AI.  It's just prompting it to do work while I monitor its inputs and outputs, then redefining the prompts.<p>This work flow really took away my passion and joy of writing and building software systems.  I don't know where I am heading next...  most of my friends either move on to work on their solopreneur journey or switch careers completely.  I can say my passion for building software is definitely diminished due to heavy AI usage<p>Has anyone experienced this?  How do you cope with it?  Did you end up switching careers?<p>thanks for your comments :)</p></p></p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-19T16:02:49.201587",
+      "updated_at": "2026-09-19T16:02:49.201587",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "56d6ec8e3e91713e9ef111495373be1e",
+        "source_id": "trowa159",
+        "username": "trowa159",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 9,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49764727",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "01a056c3f933b2f53f026625d99994cb",
+        "source_id": "49764805",
+        "content": {
+          "text": "People who write code with AI are mostly just moving their time from coding to reviewing the output of AI. If you just keep coding you won't be seen as going any slower, and if your peers are bad at reviewing you'll look better than them because your output won't fail testing as much. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:51.643693",
+        "updated_at": "2026-09-19T16:02:51.643693",
+        "author": {
+          "id": "e4033a4ce1122ce620f8a045f1fa9622",
+          "source_id": "onion2k",
+          "username": "onion2k",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0b45b8d5777a0f5edf14a91ea553377d",
+        "source_id": "49765089",
+        "content": {
+          "text": "I feel the same way. I miss the joy of creative flow that came with architecting and solving problems. I also feel the entire computer tech industry is headed in the wrong direction. We're creating systems that are too complex to understand, that lack human discretion when it's most needed, and then we're turning over control of whole organizations to those systems. onion2k has a point. You can still write a lot of code by hand, or at least write the interesting code by hand, but your output may fall behind your peers. After 27 years in the industry, I've cut down to part-time software dev work, and I've enjoyed learning and doing more hands-on work, including bicycle and motorcycle repair. It's actually really nice to get away from the screen and the constant reading of internet garbage during those down times when I'm waiting for tests to run or an AI bot to come back with a response. My mind feels less polluted. But I'm not making money at my new hobbies. My answer to your question is I don't know. But often, if you can free up some time and mental space, you'll find you start to drift toward other things that interest you. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:51.643992",
+        "updated_at": "2026-09-19T16:02:51.643992",
+        "author": {
+          "id": "4824cc7c4412611985ecbd635893b3c4",
+          "source_id": "diamondap",
+          "username": "diamondap",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-09-19T16:02:51.644065",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "46d15d3f9d5392d64b2b89a71442a758",
+      "source_id": "49742976",
+      "title": "Ask HN: How to recover Google auth after phone stolen?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">As we know, google has been effective at automating a lot of their systems, to the point where it can feel like there isn't any help available from a human. So what is supposed to be the plan when this type of situation happens?<p>Basically I have a situation that after my phone was stolen, I can't get into any of my accounts that are either connected to google, or connected to the phone via 2FA. This has made it complicated/impossible not only to get info about my phone, but also my banking, email, drive, etc.<p>Of course they offer you \"multiple options\" to recover an account, but not if you forgot your old email's password. At that point the options you get are,<p><pre><code>  a) Use old phone (obviously the phone is long gone)\n  b) Use current phone (the phone is gone)\n  c) Use old email (I haven't used it in like 12 years)\n</code></pre>\nDoes anyone know if their is a process to appeal 2FA or anything to deal with this type of situation?<p>I'd imagine that this has happened to people many many times, and given how phones and particularly, google auth have become so critical to accomplishing essential tasks within society, there must be some way. Or maybe it's just like, once your phone is gone, you are completely over with society? If anyone has any experience with this or inside knowledge please share it!<p>I'm sure people here have heard of this, and maybe experienced it themselves.<p>Is there a secret option that exists that allows us to use passwords instead of rigamarole? I would love an account that let me simply log in with a password, like google used to be.</p></p></p></p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-19T16:02:49.201925",
+      "updated_at": "2026-09-19T16:02:49.201925",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "6e956d9b40c709d477739c7ac2f29959",
+        "source_id": "keymasta",
+        "username": "keymasta",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 113,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49742976",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "7838ffbaaccdeb05ef1dae8f341be815",
+        "source_id": "49743190",
+        "content": {
+          "text": "Isn't there an SMS option? buy a new phone and have them send you an OTP via SMS. > once you're phone is gone, you are completely over with society? yes, I'm waiting for the Black-Mirror episode where someone drops their phone and basically dies, can't contact anyone, can't unlock or start their car, can't get an uber, can't pay for anything, can't navigate without gps, can't log into anything etc. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.033229",
+        "updated_at": "2026-09-19T16:02:54.033229",
+        "author": {
+          "id": "beef81c913cd843ade13c2f36e233372",
+          "source_id": "ticulatedspline",
+          "username": "ticulatedspline",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "604e0b620cfb394e006a2c82fc8a2c8f",
+        "source_id": "49747462",
+        "content": {
+          "text": "Something I learned the hard way: it's a bad time if you are a Google Fi customer and your Android phone with an eSim becomes inoperable while traveling :) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.033498",
+        "updated_at": "2026-09-19T16:02:54.033498",
+        "author": {
+          "id": "33e025dad7d735e7d3758bc921c78282",
+          "source_id": "ryanhecht",
+          "username": "ryanhecht",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7b9280a842cc739082802c3fb82ce783",
+        "source_id": "49752771",
+        "content": {
+          "text": "Went through the same last month. I had to both buy a new phone and still have my old one repaired to be able to authenticate to set up the new one. I was a CyanogenMod user before switching to Pixel, and that experience was a monumental shove towards moving to Graphene. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.033761",
+        "updated_at": "2026-09-19T16:02:54.033761",
+        "author": {
+          "id": "996aa074a7286c1672b447765b81ebc0",
+          "source_id": "washadjeffmad",
+          "username": "washadjeffmad",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b968fdf9a25e063333de4a19f299cd5b",
+        "source_id": "49749295",
+        "content": {
+          "text": "just in general, it's difficult if your phone with an esim dies/lost/stolen (ie no access) to move the esim over. It's especially annoying if it just died, because instead of just popping the sim over you end up in a maze with the carrier (unless you are lucky enough to other lines on the account you have access to) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.034041",
+        "updated_at": "2026-09-19T16:02:54.034041",
+        "author": {
+          "id": "e896afa6ee5d48410266271e031dc2c0",
+          "source_id": "dogmatism",
+          "username": "dogmatism",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0eac6c02b8141308c8a3d02531150489",
+        "source_id": "49743452",
+        "content": {
+          "text": "Pretty similar to how my life feels right now. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.034326",
+        "updated_at": "2026-09-19T16:02:54.034326",
+        "author": {
+          "id": "6e956d9b40c709d477739c7ac2f29959",
+          "source_id": "keymasta",
+          "username": "keymasta",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d33762b2dafef9ebaf205b7be5c24018",
+        "source_id": "49744010",
+        "content": {
+          "text": "As an old curmudgeon I recoil at any service I can't interact with sans-phone. I hardly use mine for anything. Just be glad your phone number is tied to your account, if you lose the number itself you are royally screwed, and basically anyone who gets your old number owns all your accounts now. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.034632",
+        "updated_at": "2026-09-19T16:02:54.034632",
+        "author": {
+          "id": "beef81c913cd843ade13c2f36e233372",
+          "source_id": "ticulatedspline",
+          "username": "ticulatedspline",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "aeec826e16d7ce1cfb5f52bae1eeed8c",
+        "source_id": "49745789",
+        "content": {
+          "text": "Same, it is kind of strange. Back in 2005 I was one of the first to carry the full internet on my phone and now I am leading the charge to avoid having to carry the internet in my pocket. If your product or service requires a phone, I just don't do business with you. I know I sound archaic recommending this, but we (as a society) need to push back on your phone being the key to your life. My phone is no more special than my laptop, however this requires an incredible amount of inconvenience for most people along with the constant social pressure to carry a cellphone. As you can imagine, I do not have many friends these days. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.034966",
+        "updated_at": "2026-09-19T16:02:54.034966",
+        "author": {
+          "id": "06db34d707bfbc0ff2a67c005925b8b0",
+          "source_id": "kxrm",
+          "username": "kxrm",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e064fb763da10c8fc337ac2d1914b818",
+        "source_id": "49750743",
+        "content": {
+          "text": "It sounds like you solved the problem of losing access to society by losing access to society. Have you considered having backups instead? Carry a physical credit card, make sure you have a backup phone uncharged at home ready for a swap? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.035294",
+        "updated_at": "2026-09-19T16:02:54.035294",
+        "author": {
+          "id": "5bae89e01f8fe415342d7534b8a20429",
+          "source_id": "jurgenburgen",
+          "username": "jurgenburgen",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0c6c039a4feff7175af78a48a467bc82",
+        "source_id": "49760220",
+        "content": {
+          "text": "> It sounds like you solved the problem of losing access to society by losing access to society. Perhaps, but frankly I have been more on the lookout for people like me. Natural filter for compatibility? > Have you considered having backups instead? Carry a physical credit card, make sure you have a backup phone uncharged at home ready for a swap? I mean, I carry a wallet. Most vendors and society still take cash or card. Where the real friction comes in is staying connected to a community. Everyone wants to keep social connections virtual for some odd reason. As a remote worker I definitely get the virtues of remote interaction, but sometimes meeting people in person has benefits. It does not have to be all-or-nothing and it feels like we are moving to an all-or-nothing digital way of life. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.035651",
+        "updated_at": "2026-09-19T16:02:54.035651",
+        "author": {
+          "id": "06db34d707bfbc0ff2a67c005925b8b0",
+          "source_id": "kxrm",
+          "username": "kxrm",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ac6877364f255cd8a4b10d340f5b6b39",
+        "source_id": "49755561",
+        "content": {
+          "text": "When I dropped my landline after more than 40 years, I transferred the number to a flip phone. This number is also used my family members as a backup phone number for 2FA and voice. Everyone has access to voice mail and can leave messages for others if a phone is lost, broken or stolen. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.036011",
+        "updated_at": "2026-09-19T16:02:54.036011",
+        "author": {
+          "id": "deabd3e498f9f7e662b58b5caf04e065",
+          "source_id": "memcg",
+          "username": "memcg",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0cca427be395ac26d086cb206012b15d",
+        "source_id": "49748489",
+        "content": {
+          "text": "My wife recently had this happen to a work acquaintance. They are a recent immigrant who has only lived in New York since moving here, who was sent out to the Midwest where there is no public transportation and driving is mandatory, and is staying at a hotel. She lost her phone, and thus could not get anywhere or communicate with anyone, and couldn't pay for anything due to her phone being where all her money is stored (no physical credit cards or anything). Luckily, my wife was able to get her around and help her out until they eventually discovered it was in a lost and found. If she had been alone, I don't know what she would have done. Imagine being on vacation and you lose your phone, or it breaks. You offloaded your payments to digital and have no cards or cash, you can't get in your hotel room because you used a digital key like hotels all want you to, maybe you brought a car but oops it's a Tesla and you're depending on your phone as the key because it's less stuff to carry! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.036389",
+        "updated_at": "2026-09-19T16:02:54.036389",
+        "author": {
+          "id": "eb0549153d3af5e5eb552f2860ba3500",
+          "source_id": "foobarchu",
+          "username": "foobarchu",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ab37ea225eee83f31cbf557bdf11a13b",
+        "source_id": "49748631",
+        "content": {
+          "text": "I recently switched to a Minimal Phone with an e-ink screen, and it sucks (which is the point, obviously).  One of the things that sucks is NFC.  The payment terminals constantly have a hard time grabbing it, and when they do, they often throw a bizaare \"multiple cards detected\" error, which is extra strange, since I only have one card stored. I have a separate sleeve wallet, which I can attach to the back of the phone magnetically that contains my physical debit card + drivers license.  If I lost the phone, there's probably about a 50/50 chance that I'd still have the wallet sleeve in my pocket, so I'd at least have my ID and a way to pay for things...but if I lost them both, I'd be pretty screwed. Convenience is nice, but switching to a shitty phone made me realise I can live without a lot of convenient things, and it's safer not to keep all your eggs in one black rectangle. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.036790",
+        "updated_at": "2026-09-19T16:02:54.036790",
+        "author": {
+          "id": "079c57ca32745cb15f8bd04046ddd267",
+          "source_id": "hexapus",
+          "username": "hexapus",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4819a283fe5b0cf9ba10a4b821c7fb18",
+        "source_id": "49750978",
+        "content": {
+          "text": "We need to better educate non-technical users about making multiple local backups of things like password managers, TOTP seeds, etc. Yes, even writing the most important ones on a piece of paper and keeping it somewhere safe (like a safe in your house) is an option, as long as you have a low threat model, of course. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.037210",
+        "updated_at": "2026-09-19T16:02:54.037210",
+        "author": {
+          "id": "a5147bdb27dbb400e6c1cd06876e93f5",
+          "source_id": "pid0x17",
+          "username": "pid0x17",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0e6d9fe4e600051a2bef226a5176986f",
+        "source_id": "49752477",
+        "content": {
+          "text": "I lost my phone, and slacks recovery model is essentially like this. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.037627",
+        "updated_at": "2026-09-19T16:02:54.037627",
+        "author": {
+          "id": "ee8ddd89fbdcbc0063286870de304ada",
+          "source_id": "lyfeninja",
+          "username": "lyfeninja",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c3ede93371328cd908c212487065ea36",
+        "source_id": "49743148",
+        "content": {
+          "text": "If you don't have the authenticator backup codes and you didn't turn on cloud sync in the app, you might be out of luck. You can get a replacement SIM though and use it with a new phone, so the phone number recovery option should work. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.038072",
+        "updated_at": "2026-09-19T16:02:54.038072",
+        "author": {
+          "id": "b6dffadbcfe4563f67a8f854e506b07f",
+          "source_id": "sampullman",
+          "username": "sampullman",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a1bdf7b4f3af267c294efb5b63172b4d",
+        "source_id": "49744258",
+        "content": {
+          "text": "Happened to me, I was able to get SMS and recovery codes, but Google still required additional verification on now lost phone :D. On the end I acutely found the phone and was able to restore access. So what they do after couple of days of failed attempts the require additional verification, lets call it 3 step. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.038517",
+        "updated_at": "2026-09-19T16:02:54.038517",
+        "author": {
+          "id": "c08a27d21a67bbec457366cb85fe5ab6",
+          "source_id": "dz0ny",
+          "username": "dz0ny",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a16a5b627ea6dc2458672d51955a5dd2",
+        "source_id": "49762915",
+        "content": {
+          "text": "This feels objectively worse than writing down a password somewhere reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.038989",
+        "updated_at": "2026-09-19T16:02:54.038989",
+        "author": {
+          "id": "d699ecb803701282222edf92aeaec9f8",
+          "source_id": "kaycey2022",
+          "username": "kaycey2022",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "88a00c87e02a2924d01bb9560b193391",
+        "source_id": "49745442",
+        "content": {
+          "text": "I have passkeys, authenticator etc... and everything except phone number, and now i am unable to login my account in other device. Google sucks, they are randomly denying access because their dumb model can't figure out not everyone is trying to steal account. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.039474",
+        "updated_at": "2026-09-19T16:02:54.039474",
+        "author": {
+          "id": "a5a02dadec54681e8c2ba84464edb682",
+          "source_id": "cute_boi",
+          "username": "cute_boi",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2bb52cebfdca60e6d976ddd99f5b8c38",
+        "source_id": "49743191",
+        "content": {
+          "text": "This. Can't you get your number moved to a new phone? I have never don't anything magic when upgrading my phone other than move contacts. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.039973",
+        "updated_at": "2026-09-19T16:02:54.039973",
+        "author": {
+          "id": "a314504e563e2f66cf08099fe8b0bff8",
+          "source_id": "uberman",
+          "username": "uberman",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e2826f78393884b72c95657c631454fa",
+        "source_id": "49744127",
+        "content": {
+          "text": "How would moving your number to a new phone help? We're talking TOTP here, not SMS \"auth\". reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.040486",
+        "updated_at": "2026-09-19T16:02:54.040486",
+        "author": {
+          "id": "bd2ccae086ff6d262d8827f66593f846",
+          "source_id": "jwr",
+          "username": "jwr",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ebed2a11dda1ff6ceccf349a5834d42d",
+        "source_id": "49744742",
+        "content": {
+          "text": "does google not offer a backup via sms? it's a common enough recovery flow elsewhere. (i dont use google stuff, so i am genuinely asking) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.041014",
+        "updated_at": "2026-09-19T16:02:54.041014",
+        "author": {
+          "id": "c89419da07d180d0596ba1ecfbdafb9f",
+          "source_id": "john_strinlai",
+          "username": "john_strinlai",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "33e4f1d0d926143b65575e9e2a04f7f0",
+        "source_id": "49744850",
+        "content": {
+          "text": "Any less secure backup method, means others are less secure. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.041549",
+        "updated_at": "2026-09-19T16:02:54.041549",
+        "author": {
+          "id": "712b397a4f1afe8f45769a3791743a51",
+          "source_id": "b112",
+          "username": "b112",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "335b9e48e3b27dc6133e77317976911a",
+        "source_id": "49748633",
+        "content": {
+          "text": "A required “more secure” method is less secure if it means you can be locked out by not-exactly-uncommon real-life situations. Denial of service is a security issue. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.042116",
+        "updated_at": "2026-09-19T16:02:54.042116",
+        "author": {
+          "id": "047cac4df68b73e7f9db5b4c26f5d2e1",
+          "source_id": "cwillu",
+          "username": "cwillu",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a4b15c9aed68bc48fb94ea2975b67247",
+        "source_id": "49748789",
+        "content": {
+          "text": "I’ve repeated it a hundred times security = confidentiality, integrity and availability. One reason to strongly prefer Apple over Google is that (as I understand it) you can still walk into a store with ID and recover your online identity. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.042691",
+        "updated_at": "2026-09-19T16:02:54.042691",
+        "author": {
+          "id": "e7780736c99f2581a3e3c76f5187151f",
+          "source_id": "hedora",
+          "username": "hedora",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "143641e58e23c94d99a605eab98e33cc",
+        "source_id": "49751368",
+        "content": {
+          "text": "> One reason to strongly prefer Apple over Google is that (as I understand it) you can still walk into a store with ID and recover your online identity. Is this true? If so, in what countries? (Poland has no Apple stores, for example, for inexplicable reasons Apple has been giving the middle finger to this market) That would be a huge difference. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.043305",
+        "updated_at": "2026-09-19T16:02:54.043305",
+        "author": {
+          "id": "bd2ccae086ff6d262d8827f66593f846",
+          "source_id": "jwr",
+          "username": "jwr",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "dbc1b6a22fdcb50c636fd883ee190a17",
+        "source_id": "49762928",
+        "content": {
+          "text": "I think Google’s own textbook on SRE has an example in its very first chapter where everyone gets locked out of their bus fleet WiFi thanks to their secure system reaching an unforeseen state reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.043943",
+        "updated_at": "2026-09-19T16:02:54.043943",
+        "author": {
+          "id": "d699ecb803701282222edf92aeaec9f8",
+          "source_id": "kaycey2022",
+          "username": "kaycey2022",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "06d69e0dc3fbcc3f9c52c5587de07836",
+        "source_id": "49744913",
+        "content": {
+          "text": "yes, i understand. i was asking specifically whether google has sms recovery flow, not how secure sms recovery flow is compared to other options. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.044569",
+        "updated_at": "2026-09-19T16:02:54.044569",
+        "author": {
+          "id": "c89419da07d180d0596ba1ecfbdafb9f",
+          "source_id": "john_strinlai",
+          "username": "john_strinlai",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a56525c35c955c6717fca4506ec1f817",
+        "source_id": "49745081",
+        "content": {
+          "text": "Google actually puts effort into security for \"normal\" people who don't want to earn a PhD in cryptography just to have a damn free email account or watch Mr. Beast That's why they had powerful and effective account takeover protection even 15 years ago. The kind that will prevent the hacker from taking over your account even though they got access to all your factors, because it shouldn't take expertise to know that if you logged in from Oregon twenty minutes ago, you definitely aren't also logging in from Ecuador. Which of course makes it all the more stupid that your credit card company, all your medical service providers, and Facebook don't meet that absurdly low bar. Facebook will happily hand control to the scammer in Laos who got one of your factors and somehow that gave them access to change your password and recovery email reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.045256",
+        "updated_at": "2026-09-19T16:02:54.045256",
+        "author": {
+          "id": "b64c8c7294fa8d89d9092726b2d3397d",
+          "source_id": "mrguyorama",
+          "username": "mrguyorama",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "00f367ba3d4b37970d3f51f91352a3a8",
+        "source_id": "49750560",
+        "content": {
+          "text": "The best backup method doesn't need any computer knowledge, it's writing down or printing a few passwords and putting that piece of paper in the same box as your taxes or birth certificate. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.045932",
+        "updated_at": "2026-09-19T16:02:54.045932",
+        "author": {
+          "id": "decc547e6953406f4cd45feb3dfc8ecb",
+          "source_id": "Dylan16807",
+          "username": "Dylan16807",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f3950aa4bcae999184169fad76985fd3",
+        "source_id": "49745663",
+        "content": {
+          "text": "You can export from Google Authenticator to another device just fine. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.046608",
+        "updated_at": "2026-09-19T16:02:54.046608",
+        "author": {
+          "id": "e612987d4455aa898943e926f26480ef",
+          "source_id": "chinathrow",
+          "username": "chinathrow",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2329f4d37b8ab2688dc7abe01f5017e6",
+        "source_id": "49765377",
+        "content": {
+          "text": "How do you export from a phone you no longer have? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.047299",
+        "updated_at": "2026-09-19T16:02:54.047299",
+        "author": {
+          "id": "bd2ccae086ff6d262d8827f66593f846",
+          "source_id": "jwr",
+          "username": "jwr",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "29b80c059a8728cc0f08af991ae16723",
+        "source_id": "49743806",
+        "content": {
+          "text": "This is why my self-hosted Vaultwarden is my one password that I have to remember and requires no 2fa, which is the only important account that doesn't have 2fa. If I wake up in a bathtub missing a kidney I can still get to my passwords and 2fa sources stored with it. Some accounts require SMS (annoyingly) so I'd have to buy a phone but the auth and credit card numbers I need to do that are in Vaultwarden, too. I don't have good solutions now for OP (other than buy a new phone through your carrier and transfer the number). But everyone else do think through your personal DRP. Generate backup codes and put them somewhere safe, too. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.048023",
+        "updated_at": "2026-09-19T16:02:54.048023",
+        "author": {
+          "id": "a4dd78d40eba8f99a584968d5225250f",
+          "source_id": "mrj",
+          "username": "mrj",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "37eeedf7db4431bd92ba05a6aa9cf2eb",
+        "source_id": "49744452",
+        "content": {
+          "text": "Welll yeh until a Hargrove fails on your self hosted server reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.048736",
+        "updated_at": "2026-09-19T16:02:54.048736",
+        "author": {
+          "id": "35c6f6a7019872705c75802d3cf65cd7",
+          "source_id": "bazmattaz",
+          "username": "bazmattaz",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a99d1b353be794282af18b389a48e5b1",
+        "source_id": "49744766",
+        "content": {
+          "text": "One of my favorite things about self-hosted Vaultwarden is that you get distributed backups for free. Every client keeps an offline copy of your entire password vault, kept in sync when the client is online. So for me to lose my vault, not only would my server have to get hit by a bus, but also my phone, my desktop, my HTPC, both laptops... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.049480",
+        "updated_at": "2026-09-19T16:02:54.049480",
+        "author": {
+          "id": "833979f8b6eec19352f00ed78effdf39",
+          "source_id": "nyx",
+          "username": "nyx",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4dbc0147785ec14220365812ff72ee26",
+        "source_id": "49749835",
+        "content": {
+          "text": "True.. but now you have more devices to have to secure against attacks... Edit: this \"feature\" did save me when my home hosted vaultwarden died due to hdd failure. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.050242",
+        "updated_at": "2026-09-19T16:02:54.050242",
+        "author": {
+          "id": "85990eb91024cf4d09159925309a9207",
+          "source_id": "627467",
+          "username": "627467",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9781fbcf8ceef67175d7c12307663d6c",
+        "source_id": "49743360",
+        "content": {
+          "text": "You're going to have more success working with the providers of the other accounts and services rather than Google. That means a lot more legwork on your part but banks and other online services all have processes to deal with lost passwords and 2FA devices. In some cases you may have to physically go somewhere with ID and other documents. Consider it a learning experience. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.051019",
+        "updated_at": "2026-09-19T16:02:54.051019",
+        "author": {
+          "id": "09e4935f62f4a4b1c17fb25be787e5cf",
+          "source_id": "SoftTalker",
+          "username": "SoftTalker",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4c66ea218db4d667d37c3dfd936bf7df",
+        "source_id": "49744889",
+        "content": {
+          "text": "I had similar issues: https://news.ycombinator.com/item?id=45451567 (including my personal domain, Dropbox; my Apple account is still MIA...) We've all been reduced to a passphrase. When I've lobbed this scenario to the security managers/employees at these companies, they all give me a really great answer: Q: What happens if a sitting senator gets mugged and they have their printed 2fa codes sitting in their wallet? A: They have a special number they can call. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.051829",
+        "updated_at": "2026-09-19T16:02:54.051829",
+        "author": {
+          "id": "0b486fc37cc81abef9e9e3b2950ef348",
+          "source_id": "joshmn",
+          "username": "joshmn",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "107538dcbb8620e2be6b33fab40e7b9a",
+        "source_id": "49745611",
+        "content": {
+          "text": "After they go get a second phone reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.052623",
+        "updated_at": "2026-09-19T16:02:54.052623",
+        "author": {
+          "id": "1f93202ca595b16c06129a059d2598b8",
+          "source_id": "bshaughn",
+          "username": "bshaughn",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7780175f2667303e19d64e5fd1f6a749",
+        "source_id": "49743749",
+        "content": {
+          "text": "It's a good reminder to everyone who uses 2FA. Be sure you have multiple ways in for when your phone becomes unusable. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.053436",
+        "updated_at": "2026-09-19T16:02:54.053436",
+        "author": {
+          "id": "6cb9d0c21dc68b1341a7271af616685e",
+          "source_id": "beej71",
+          "username": "beej71",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "95dde8e7946608d7868bbce789c8afd8",
+        "source_id": "49745763",
+        "content": {
+          "text": "Yeah I lost my phone some months ago. Quite the panick because I am also MS365 admin for 2 orgs... 3 hr later a trucker called my wife using the iPhone emergency contact feature (what a hero). Now I bought an iPad that stays at home and has all the apps. Honestly, I should also put a second phone somewhere else. Also frees me up to experiment a bit more on the Phone side (just got a Pixel 10 with GrapheneOS), although, so far it all just works (with Google Services of course). It's annoying that you really do need either Android or iOS nowadays. If only we could virtualize one of those platforms properly (and free as in freedomly). reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.054282",
+        "updated_at": "2026-09-19T16:02:54.054282",
+        "author": {
+          "id": "59baf08e11906165ee446de7acf59603",
+          "source_id": "teekert",
+          "username": "teekert",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "bd35cbf6941d2ac940a31f30c6d82903",
+        "source_id": "49763934",
+        "content": {
+          "text": "At one time I heeded advice not to rely on 2FA SMS because you know it's not secure, so I kept everything in a 2FA app. Well through an unfortunate sequence of button clicks I wiped my 2FA state and had a hell of a time getting into the apps that I removed my SMS from. In theory yes SMS is an attack vector but personally the safety and convenience of SMS is more valuable than the odds that someone impersonates me at my mobile provider. (Also I stopped using that 2FA app and just use a keepass db stored in onedrive). reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.055148",
+        "updated_at": "2026-09-19T16:02:54.055148",
+        "author": {
+          "id": "b1ad6d9dd4b0fc3d92acaea70db95629",
+          "source_id": "bentcorner",
+          "username": "bentcorner",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d305dbc95b999fe1e4d482270096240a",
+        "source_id": "49745964",
+        "content": {
+          "text": "Doesn't help obviously if you already lost your phone, but I recommend anyone to use a third party authenticator app. Most services offer to scan a QR code to set up MFA, which can easily be backed up. Don't use Google/Microsoft authenticator apps directly. Personally I use Stratum, but any that allows export/import will do. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.056009",
+        "updated_at": "2026-09-19T16:02:54.056009",
+        "author": {
+          "id": "f76f1cad0725fa4995eb742317a511ed",
+          "source_id": "emaro",
+          "username": "emaro",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4f84326752b84af4fe076778440238d7",
+        "source_id": "49746253",
+        "content": {
+          "text": "This. Authy and a throwaway phone added in that sits in a safe place. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.056886",
+        "updated_at": "2026-09-19T16:02:54.056886",
+        "author": {
+          "id": "2a7ab3cd19e7991b6f8ce5dc3e12d282",
+          "source_id": "varispeed",
+          "username": "varispeed",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "42c7b29e9b994ec0e2ba509d8e6cd8e1",
+        "source_id": "49752871",
+        "content": {
+          "text": "I stopped using Authy when they were bought by Twilio and stopped supporting their desktop client (thus eliminating my alternate device backups). I can highly recommend Ente Auth though. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.057775",
+        "updated_at": "2026-09-19T16:02:54.057775",
+        "author": {
+          "id": "52df6e8a77c30137ae025f699d514027",
+          "source_id": "croon",
+          "username": "croon",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "85aa13dc3a0a610ea025e191772957a4",
+        "source_id": "49744054",
+        "content": {
+          "text": "All those times you logged in and were prompted to verify your backup email address, and when you set up 2FA and were given recovery codes, and when given the option to sync 2FA codes to another copy of the authenticator app:  This Is Why. I'm sorry you're dealing with this - hopefully everyone else here can take it as a cautionary tale. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.058681",
+        "updated_at": "2026-09-19T16:02:54.058681",
+        "author": {
+          "id": "511718d074558c7ec7454c79f3706bb1",
+          "source_id": "happyopossum",
+          "username": "happyopossum",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "cc7d134f9b0ca6a4b03e1b79acf12a2a",
+        "source_id": "49744286",
+        "content": {
+          "text": "I'll fill out a \"help my friend\" form internally unless someone beats me to it (I have a 1hr meeting coming up). The gmail address in question is the same one as on your website? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.059595",
+        "updated_at": "2026-09-19T16:02:54.059595",
+        "author": {
+          "id": "978f6e67058640b56e3089a73e3a8fb5",
+          "source_id": "luka",
+          "username": "luka",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "601bda073140aba665f4ebd25a7a54d2",
+        "source_id": "49744442",
+        "content": {
+          "text": "That's nice of you, but I'd urge anyone with influence at Google to consider 1) many many many more people who use Google services probably don't know or run in the same circles as Googlers who can bail them out of such a scenario, and 2) these people, being much less likely to understand 2FA, are also more likely to accidentally lock themselves out. An separate class of people who know how a system works or have connections to its operators become nose blind to its terrible UX because they have access to workarounds. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.060533",
+        "updated_at": "2026-09-19T16:02:54.060533",
+        "author": {
+          "id": "673d873cc351bd713d76177fb28681bc",
+          "source_id": "dgunay",
+          "username": "dgunay",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "cce457eb84555cdffddd5bb4049a4c46",
+        "source_id": "49745369",
+        "content": {
+          "text": "Consider the fact that they have made this difficult a sign that they have no interest in making it easy. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.061488",
+        "updated_at": "2026-09-19T16:02:54.061488",
+        "author": {
+          "id": "294b1933551ab2d03b95a2ded3fb77ae",
+          "source_id": "asdff",
+          "username": "asdff",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5747b4f20a93b76efa891692d59b492c",
+        "source_id": "49744576",
+        "content": {
+          "text": "All true, but I’m guessing the set of people at Google who can fill out that form is about 1000x larger than the ones who have the ability to influence the underlying product decisions that led to this situation. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.062465",
+        "updated_at": "2026-09-19T16:02:54.062465",
+        "author": {
+          "id": "8fbff9d9b487c8ea58472032d1e169a4",
+          "source_id": "senordevnyc",
+          "username": "senordevnyc",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5c8fc71ef889063bea118c2b99645538",
+        "source_id": "49744752",
+        "content": {
+          "text": "Sorry to bother, but I have been without access to the account I use for my YouTube channel for months because I stupidly entered a random phone number many years ago and it is now demanding access to it. If you would be willing to fill out that form for me, I would greatly appreciate it. Account is this username at gmail. Thanks! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.063441",
+        "updated_at": "2026-09-19T16:02:54.063441",
+        "author": {
+          "id": "2fc3b5749e18cdbb37d5858d3fc6818f",
+          "source_id": "ihg5000mrtnav",
+          "username": "ihg5000mrtnav",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c90167c3f7154bcb6fda00ab79a46c46",
+        "source_id": "49745340",
+        "content": {
+          "text": "Did you try going through the normal account recovery procedure?\nDuring that procedure, did you have to provide an alternative email address that you have access to? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.064437",
+        "updated_at": "2026-09-19T16:02:54.064437",
+        "author": {
+          "id": "978f6e67058640b56e3089a73e3a8fb5",
+          "source_id": "luka",
+          "username": "luka",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a12693f894c9b094effc143adea99655",
+        "source_id": "49745497",
+        "content": {
+          "text": "The account recovery procedure only asks for the last password I remember (which I know is correct) and then says \"You can’t recover your account at this time because Google doesn’t have enough info to be sure this account is yours.\" I know the email, password, (wrong) phone number on file, and associated YouTube channel. I am logging in from a different IP address but on the same ASN and approximate geolocation that I always logged in and used the account from. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.065451",
+        "updated_at": "2026-09-19T16:02:54.065451",
+        "author": {
+          "id": "2fc3b5749e18cdbb37d5858d3fc6818f",
+          "source_id": "ihg5000mrtnav",
+          "username": "ihg5000mrtnav",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1c1fca93c3299afe79848fb9161c302a",
+        "source_id": "49745861",
+        "content": {
+          "text": "\"Try another way\" until you can give an alternative email address that you have access to. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.066477",
+        "updated_at": "2026-09-19T16:02:54.066477",
+        "author": {
+          "id": "978f6e67058640b56e3089a73e3a8fb5",
+          "source_id": "luka",
+          "username": "luka",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b7fc7035a5eda20c5bd9455b33304b26",
+        "source_id": "49746078",
+        "content": {
+          "text": "I have tried all combinations of entering password, entering the phone number, try another way, etc., and it never lets me enter an alternative email address. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.067514",
+        "updated_at": "2026-09-19T16:02:54.067514",
+        "author": {
+          "id": "2fc3b5749e18cdbb37d5858d3fc6818f",
+          "source_id": "ihg5000mrtnav",
+          "username": "ihg5000mrtnav",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c3ecff3f09dc76b5006592686e8bfa35",
+        "source_id": "49746308",
+        "content": {
+          "text": "I have to click \"Try another way\" at least twice on g.co/AccountRecoveryRequest to get the option to provide an alternative contact email address. Maybe try a private session to make sure coookies aren't taken into account. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.068567",
+        "updated_at": "2026-09-19T16:02:54.068567",
+        "author": {
+          "id": "978f6e67058640b56e3089a73e3a8fb5",
+          "source_id": "luka",
+          "username": "luka",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c0a1526c123c6b92e245aff2e208794c",
+        "source_id": "49748444",
+        "content": {
+          "text": "Attempt 1: Entered email, got captcha, clicked \"try another way\". Result: Google couldn’t verify this account belongs to you. Try again later or use Account Recovery for help. Attempt 2: Entered email, got captcha, completed captcha, got enter last password screen, clicked \"try another way\". Form asked to confirm phone number. Entered phone number, sent code (which I can't get), clicked \"I don't have my phone\". Site asked for alternate email, which I provided and supplied the code. Result: \"Reply to your Google support email or contact to let the team know you've successfully completed your account recovery request. To try signing in again, follow the steps in our Help Center on how to recover your account.\" Attempt 3: Entered email, got captcha, completed captcha, got enter last password screen, entered password, got asked to confirm phone number, clicked \"I don't have my phone\". Site asked for alternate email, which I provided and supplied the code. Result: \"Reply to your Google support email or contact to let the team know you've successfully completed your account recovery request. To try signing in again, follow the steps in our Help Center on how to recover your account.\" All attempts were done with new Chrome Incognito windows and no other Incognito windows open. I still can't sign in at all. Is this account just permanently locked? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.069674",
+        "updated_at": "2026-09-19T16:02:54.069674",
+        "author": {
+          "id": "2fc3b5749e18cdbb37d5858d3fc6818f",
+          "source_id": "ihg5000mrtnav",
+          "username": "ihg5000mrtnav",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "81ca125a388e6b751c34487976d62684",
+        "source_id": "49755424",
+        "content": {
+          "text": "Attempt 2 enabled the potential internal escalation to proceed. The form is now asking me for details that we best talk non-publicly about. What's the best place to contact you privately, other than HN? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.070770",
+        "updated_at": "2026-09-19T16:02:54.070770",
+        "author": {
+          "id": "978f6e67058640b56e3089a73e3a8fb5",
+          "source_id": "luka",
+          "username": "luka",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "eaaf027eda8e7cbc88c5f7a168a3d8a6",
+        "source_id": "49755576",
+        "content": {
+          "text": "Discord, please. Username is on my profile here. If you don't use Discord, please use the email on my profile. I will remove them once you send me a friend request on Discord or email. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.071875",
+        "updated_at": "2026-09-19T16:02:54.071875",
+        "author": {
+          "id": "2fc3b5749e18cdbb37d5858d3fc6818f",
+          "source_id": "ihg5000mrtnav",
+          "username": "ihg5000mrtnav",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "98ad610f94a635eff30a323307b50f30",
+        "source_id": "49755879",
+        "content": {
+          "text": "Sent on Discord! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.072991",
+        "updated_at": "2026-09-19T16:02:54.072991",
+        "author": {
+          "id": "978f6e67058640b56e3089a73e3a8fb5",
+          "source_id": "luka",
+          "username": "luka",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "60f5b28f7bb1f6a65926575afb66824d",
+        "source_id": "49744444",
+        "content": {
+          "text": "Recovery is similar to leaving a copy of your door keys to a trusted neighbour (a tradition in some places, it comes in handy when someone goes out and realizes they forgot the keys inside...), so in that comparison, having a recovery email unused for 12 years feels like leaving your backup keys to a neighbor that you never saw ever again in more than a decade. This kind of posts are a valuable trigger for all others who are reading it. To the author: good luck, I hope you sort your situation soon! I'm now headed to check my accounts for what recovery options I left in there. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.074124",
+        "updated_at": "2026-09-19T16:02:54.074124",
+        "author": {
+          "id": "95c86d7010a8cc93745e89b346ab3603",
+          "source_id": "j1elo",
+          "username": "j1elo",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9e3facd66d318bc6c21f9d3e77b18142",
+        "source_id": "49744243",
+        "content": {
+          "text": "This happened to me on my iPhone 8 many years ago. I reset it to let my son use it, and did not have google authenticator in mind. I had to reset each account with the providers. Now I use a cloud account to sync these. I reset most accounts with an SMS or email one time code -- which led me to remove SMS and email as recovery options from google. And, I put a code on t-mobile to prevent sim transfer. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.075264",
+        "updated_at": "2026-09-19T16:02:54.075264",
+        "author": {
+          "id": "29fd2c4856f98bb65b59147d168569fb",
+          "source_id": "splitwheel",
+          "username": "splitwheel",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4df0793e8c6a5ac2193ec515926f7621",
+        "source_id": "49743341",
+        "content": {
+          "text": "Everything you listed, plus a recovery email option, plus backup codes, plus SMS. That's already a lot and anything easier would allow people to just take over accounts that they don't have a right to. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.076443",
+        "updated_at": "2026-09-19T16:02:54.076443",
+        "author": {
+          "id": "d6c592a6e75e8fa966dc55adec842614",
+          "source_id": "wccrawford",
+          "username": "wccrawford",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "584d79cb74bfcbe25226bf01a78f1b29",
+        "source_id": "49747761",
+        "content": {
+          "text": "I'm not saying it's the best option or anything but I use authy authenticator which I have on multiple devices. I got burned by Google authenticator in the past and had to jump through hoops to regain access to my accounts (non Google ones). It was painful. I learned the hard way I suppose. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.077615",
+        "updated_at": "2026-09-19T16:02:54.077615",
+        "author": {
+          "id": "bb529f4b4132de2fcf5419fcad0c1236",
+          "source_id": "karim79",
+          "username": "karim79",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b9c331a509181979c8b47353412d5acd",
+        "source_id": "49743086",
+        "content": {
+          "text": "The only secret option I know of is to have a popular social media account and complain online. Other than that, I copy/pasted your post into Claude and it had some good ideas. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.078804",
+        "updated_at": "2026-09-19T16:02:54.078804",
+        "author": {
+          "id": "05370b441130fa037368d3902b7fe968",
+          "source_id": "runjake",
+          "username": "runjake",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b6f11c52916cbe1816f99ea8ca908344",
+        "source_id": "49745829",
+        "content": {
+          "text": "It's a \"feature\" that you can't call google to help with getting \"locked out\": \"For your security, you can't call Google for help to sign into your account. We don’t work with any service that claims to provide account or password support. Do not give out your passwords or verification codes.\" for the future: https://support.google.com/accounts/answer/7684753 reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.080035",
+        "updated_at": "2026-09-19T16:02:54.080035",
+        "author": {
+          "id": "60157dff91e95941b2d53e9071c9059f",
+          "source_id": "throw7",
+          "username": "throw7",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "62ef5fcae8175d039b62106995681926",
+        "source_id": "49743909",
+        "content": {
+          "text": "You can add a passkey (preferably a physical one) to authenticate. You can also add a software passkey but that kind of defeats the purpose. Actually keeping your recovery options recent is the trick. Print out your recovery codes or store them somewhere safe. Check regularly (yearly, maybe more often) that there's a way to access your critical accounts. For Google, you can also grab the cheapest Android phone you can find, sign in, and maybe boot it once a month or so to keep the tokens active. If you've set up your account to only accept one source of 2FA and you lose thst source of 2FA, you lose your account. Same happens when you set up your account to only accept your password and then lose your password. If you lose your recovery email/2FA backup codes, you lose access, unless you're special enough to convince customer support that you are who you claim you are and not just a bot trying to hack you. If you've lost your account and haven't set up any recovery mechanisms, you're probably out of luck. Your best bet will be looking for an old browser session with enough trust from Google's side to get access without reconfirming your 2FA trust. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.081278",
+        "updated_at": "2026-09-19T16:02:54.081278",
+        "author": {
+          "id": "b8b50dc0cdbfd0cafe06f408308c2b81",
+          "source_id": "jeroenhd",
+          "username": "jeroenhd",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b5908373b650f9c8e6747dbbcfb90c4a",
+        "source_id": "49743996",
+        "content": {
+          "text": "Yup, having _two_ active devices which are logged in to Google (and possibly other services that you rely on that opt you in to app-based 2FA) + with backups of 2FA is a must at this point. When I buy a new phone, I make it a \"primary\", and keep my old phone as \"backup\". If you're not into cloud-based password/2FA syncing, Google Authenticator supports local export/import across devices via a QR code. For passwords, I use KeePass Portable / Keepass2Android + syncing between devices from time to time through a USB-C pendrive (The source of truth KP DB is on pendrive, and both phones work off a local on-device cache). You don't need to have your phone stolen for things to get messed up. If your screen breaks, you can't type in a PIN anymore, can't unblock with a fingerprint, and you effectively can't access anything on the phone. ADB won't connect because screen is off, and you can't unlock / accept a new external connection etc. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.082522",
+        "updated_at": "2026-09-19T16:02:54.082522",
+        "author": {
+          "id": "b4ab53228fc99ec9f5145ba3b15c0d01",
+          "source_id": "jakub_g",
+          "username": "jakub_g",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "86a9c471a396c32d87e71f396fbb3ed6",
+        "source_id": "49744184",
+        "content": {
+          "text": "> buy a new phone, I make it a \"primary\", and keep my old phone as \"backup\". Sadly this is why I never end up trading in my phone. Always feels too risky to not have an overlap period. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.083830",
+        "updated_at": "2026-09-19T16:02:54.083830",
+        "author": {
+          "id": "e17a0108b5528c26455be4cab57a4f13",
+          "source_id": "cj",
+          "username": "cj",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "52ac323c1bd780da371a9f60d6308be7",
+        "source_id": "49743219",
+        "content": {
+          "text": "The same way you recover any other deleted data for which you didn't make a backup: you don't. You eat the loss & make new accounts. Then you remember to make and test backups for the future. Even if they had customer support, if that customer support had a backdoor to unlock your account it would be regularly used by malicious parties to steal people's accounts & data. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.085115",
+        "updated_at": "2026-09-19T16:02:54.085115",
+        "author": {
+          "id": "019f516f7ce85afa0e86e4d55322d867",
+          "source_id": "SAI_Peregrinus",
+          "username": "SAI_Peregrinus",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "12b40f7febbf498cdbc64f65bbbb86e7",
+        "source_id": "49743442",
+        "content": {
+          "text": "They could do ID verification reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.086391",
+        "updated_at": "2026-09-19T16:02:54.086391",
+        "author": {
+          "id": "4318a3123b95fd0e90402be05c40af61",
+          "source_id": "dvngnt_",
+          "username": "dvngnt_",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c74526e052f6fa7ae58264de530dbc83",
+        "source_id": "49743118",
+        "content": {
+          "text": "There's no way, no human contact. That's why I de-googled myself. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.087693",
+        "updated_at": "2026-09-19T16:02:54.087693",
+        "author": {
+          "id": "8c9dc84f002646867a3477fb1977c90e",
+          "source_id": "mococa",
+          "username": "mococa",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "90a2e2cd38b69a3105a500480b9432be",
+        "source_id": "49743218",
+        "content": {
+          "text": "No human contact is a plus for security, as the human is the weakest link that can give up your authentication to someone that isn’t you. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.089008",
+        "updated_at": "2026-09-19T16:02:54.089008",
+        "author": {
+          "id": "2c52418e39bc8cd23355dd4fb279c868",
+          "source_id": "lotsofpulp",
+          "username": "lotsofpulp",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1e329d1d1f7818014d549a52c3671c50",
+        "source_id": "49743618",
+        "content": {
+          "text": "The human factor is walking into your local branch with your face and an ID - something that can’t be done on a large scale by bots. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.090336",
+        "updated_at": "2026-09-19T16:02:54.090336",
+        "author": {
+          "id": "3cd5a7e7de8c1bc36e34ed88d94509ae",
+          "source_id": "ks2048",
+          "username": "ks2048",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b020368bd54d3a29abfd63474d22b3d0",
+        "source_id": "49744100",
+        "content": {
+          "text": "This has often been abused with mobile phone carriers to get SIM cards issued for targets by just knowing enough customer details. This then allowed them to intercept SMS 2FA challenges and access even more sensitive accounts. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.091680",
+        "updated_at": "2026-09-19T16:02:54.091680",
+        "author": {
+          "id": "25a7ea4abe83f5f6396d1e35940aa44d",
+          "source_id": "vel0city",
+          "username": "vel0city",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ee23f7f0194683d4cd69f3380bf6d52c",
+        "source_id": "49743311",
+        "content": {
+          "text": "Have you heard about Meta AI doing support? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.093050",
+        "updated_at": "2026-09-19T16:02:54.093050",
+        "author": {
+          "id": "8c9dc84f002646867a3477fb1977c90e",
+          "source_id": "mococa",
+          "username": "mococa",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e0dd4c450177b345dfa768919dffd538",
+        "source_id": "49744370",
+        "content": {
+          "text": "Only if you can log in.  I am Meta Verified, but I cannot log in to get support. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.094418",
+        "updated_at": "2026-09-19T16:02:54.094418",
+        "author": {
+          "id": "9a1e5df4549f713429c4ad381a950984",
+          "source_id": "rationalist",
+          "username": "rationalist",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0622a728dcaee1e88229a36f29c8058b",
+        "source_id": "49743324",
+        "content": {
+          "text": "\"I am permanently locked out of my account with no recourse\" is also a security issue. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.095810",
+        "updated_at": "2026-09-19T16:02:54.095810",
+        "author": {
+          "id": "59f7a2e9b256a08b6506c77e787725bd",
+          "source_id": "tempfile",
+          "username": "tempfile",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0e6e3e7e6919988a565622a9c24abae8",
+        "source_id": "49743089",
+        "content": {
+          "text": "need to save your recovery keys (text file) before you lost the phone reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.097234",
+        "updated_at": "2026-09-19T16:02:54.097234",
+        "author": {
+          "id": "f18a1fe1c202762d5a51dc3170356283",
+          "source_id": "phildougherty",
+          "username": "phildougherty",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "39dc9a43ae261ee443eef47bc0e14763",
+        "source_id": "49745100",
+        "content": {
+          "text": "Excellent idea... shit my house just burned down with my phone. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.098655",
+        "updated_at": "2026-09-19T16:02:54.098655",
+        "author": {
+          "id": "01422871a1c44aedf7e7b63dc234207b",
+          "source_id": "pixl97",
+          "username": "pixl97",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "651e50c83e7535ad2a55151ea857df13",
+        "source_id": "49745263",
+        "content": {
+          "text": "Backups, backups, backups. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.100092",
+        "updated_at": "2026-09-19T16:02:54.100092",
+        "author": {
+          "id": "962235490a8cbe099b41329816b4d68d",
+          "source_id": "Telaneo",
+          "username": "Telaneo",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a8c2ae2be870f5c98d574de94b9ce617",
+        "source_id": "49745551",
+        "content": {
+          "text": "Now on to how to keep those backups secure. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.101541",
+        "updated_at": "2026-09-19T16:02:54.101541",
+        "author": {
+          "id": "01422871a1c44aedf7e7b63dc234207b",
+          "source_id": "pixl97",
+          "username": "pixl97",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "819420acd8f815a502b4cf0c9d9c2f88",
+        "source_id": "49746036",
+        "content": {
+          "text": "need to save your recovery keys (text file) before you lost the backups reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.103006",
+        "updated_at": "2026-09-19T16:02:54.103006",
+        "author": {
+          "id": "bbbc476c58eeff711d16e822d179ea12",
+          "source_id": "butlike",
+          "username": "butlike",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2cf14a47306c97198b1434779e8b1bc3",
+        "source_id": "49745632",
+        "content": {
+          "text": "Dumb question, does backing up my iphone to icloud help solve this? Assuming im willing and able to get a brand new phone? What 2fa would the Apple store need, if hypothetically my lost iphone was my only apple product? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.104472",
+        "updated_at": "2026-09-19T16:02:54.104472",
+        "author": {
+          "id": "1f93202ca595b16c06129a059d2598b8",
+          "source_id": "bshaughn",
+          "username": "bshaughn",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1e02291fe20aca4afc851a396188bcb2",
+        "source_id": "49746018",
+        "content": {
+          "text": "It's not a dumb question, but there isn't any single answer. It depends on what protections you have on your iCloud account. For most users, if you've lost your phone, but remember your iCloud password and have a new phone with the same number, you can get in. It's made even easier if you have another device already signed in, such as a laptop. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.105972",
+        "updated_at": "2026-09-19T16:02:54.105972",
+        "author": {
+          "id": "4d760e3b2c70cfcc39ca973c9f149219",
+          "source_id": "thesuitonym",
+          "username": "thesuitonym",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "73007485a1b3074d205f92f648664973",
+        "source_id": "49746652",
+        "content": {
+          "text": "Luckily I do have a macbook, and try to put all my passwords in a \"neutral\" password manager, but this post has made me think about the edge cases of this sort of thing. Ive always said, the number one reason I will stick with an iphone - despite any present for future dumb ux changes - is that I will always be able to physically go to an apple store and get someone to help me. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.107497",
+        "updated_at": "2026-09-19T16:02:54.107497",
+        "author": {
+          "id": "1f93202ca595b16c06129a059d2598b8",
+          "source_id": "bshaughn",
+          "username": "bshaughn",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2e66c5c9e166e52bdac6d3290740c5fe",
+        "source_id": "49762881",
+        "content": {
+          "text": "Very sorry to hear this, I thought phone theft was becoming rare nowadays. Did it get stolen abroad? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.109032",
+        "updated_at": "2026-09-19T16:02:54.109032",
+        "author": {
+          "id": "90ba0eb1187e21482725d01726e7a104",
+          "source_id": "xpct",
+          "username": "xpct",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "45da89d66bbd88ba0cd63ad28a354738",
+        "source_id": "49746026",
+        "content": {
+          "text": "This situation is why I don't use authenticator apps, or passkeys linked to a device. Single point of failure, and obviously with any of the big tech companies, zero recourse. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.110563",
+        "updated_at": "2026-09-19T16:02:54.110563",
+        "author": {
+          "id": "9d398e0d4c6b08564fb9ddd4594babc1",
+          "source_id": "ifh-hn",
+          "username": "ifh-hn",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f0b55f5a704e9f7c4869ae6e4ed6fffa",
+        "source_id": "49752935",
+        "content": {
+          "text": "I have Ente Auth on my phone, desktop and laptop (on top of printed recovery keys for each service using the authenticator). reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.112110",
+        "updated_at": "2026-09-19T16:02:54.112110",
+        "author": {
+          "id": "52df6e8a77c30137ae025f699d514027",
+          "source_id": "croon",
+          "username": "croon",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1ea750039a0c61b596da0bab108d6649",
+        "source_id": "49746394",
+        "content": {
+          "text": "I think many services allow you to set up more than one passkey for this reason. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.113668",
+        "updated_at": "2026-09-19T16:02:54.113668",
+        "author": {
+          "id": "e332d89943311440230ff5db66c21345",
+          "source_id": "snowwrestler",
+          "username": "snowwrestler",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2ea82c53912cb8b3a303a04c80cc5dd9",
+        "source_id": "49762784",
+        "content": {
+          "text": "This is why I always have at lest two devices connected to 2fa and a UF2 Security Key reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.115240",
+        "updated_at": "2026-09-19T16:02:54.115240",
+        "author": {
+          "id": "6ff6e26d51e2bb83668762e709235de0",
+          "source_id": "trinsic2",
+          "username": "trinsic2",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "37637e18351a97dfe016165d5fcd20cc",
+        "source_id": "49754798",
+        "content": {
+          "text": "Try blocking the phone first, then recover your number, and only after that try recovering the account. Or, if you have any backup verification methods through email or something like that, use those. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.116826",
+        "updated_at": "2026-09-19T16:02:54.116826",
+        "author": {
+          "id": "7f67eb74af10c51a35cd967bf4921c2e",
+          "source_id": "MotoriX",
+          "username": "MotoriX",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "12a64b8e22e4973acbd963a77321a3e6",
+        "source_id": "49743834",
+        "content": {
+          "text": "Have a look at: https://github.com/muquit/twofa-rescue reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.118443",
+        "updated_at": "2026-09-19T16:02:54.118443",
+        "author": {
+          "id": "5e1db3a64e5a1d9ad3ff007e7a845962",
+          "source_id": "mqtx",
+          "username": "mqtx",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "78890074b9acc9f638561d571edee65b",
+        "source_id": "49752489",
+        "content": {
+          "text": "If you have another device that is logged in, you can get a code from that one to log into your account on your new phone or other device. It is an option but it's kind of buried. There's a special link you go to. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.120057",
+        "updated_at": "2026-09-19T16:02:54.120057",
+        "author": {
+          "id": "ee8ddd89fbdcbc0063286870de304ada",
+          "source_id": "lyfeninja",
+          "username": "lyfeninja",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ca7f8eaa6e8a77282bb37715bd90864d",
+        "source_id": "49750122",
+        "content": {
+          "text": "You are screwed. I lost access to my account, by trying to buy YouTube premium ironically. If Google even tried to help me I would still use them but they don't, so I switched to Proton and use YouTube with VPN only so they get zero ad revenue :) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.121686",
+        "updated_at": "2026-09-19T16:02:54.121686",
+        "author": {
+          "id": "284b5e4e4b0eb6fb6aeb1fd6752ba882",
+          "source_id": "Gengar",
+          "username": "Gengar",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c47b94cd38a9d38ea9de16f5cd23bd27",
+        "source_id": "49743467",
+        "content": {
+          "text": "Man, passwords sure are nice aren't they! All you have to do is remember one because your password manager remembers all the rest of your randomly generated passwords for you and as long as you keep a backup of the password database you never have to worry about this bullshit. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.123327",
+        "updated_at": "2026-09-19T16:02:54.123327",
+        "author": {
+          "id": "a15fee6fcf8d75c1e8ea5eb31fecbb7e",
+          "source_id": "autoexec",
+          "username": "autoexec",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f5836e988883b3e65ade1d9bb15beeb2",
+        "source_id": "49745131",
+        "content": {
+          "text": "OTP works with a password manager too. I have Authy on my Android, and Pass on my Linux computers. The second is backed up properly. This approach just means that enabling 2FA (which is mostly OTP in any case) just means registering the OTP URI in two locations instead of one. Additional benefit: I can generate an OTP for any service protected like this without having to get my phone from wherever it is. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.124999",
+        "updated_at": "2026-09-19T16:02:54.124999",
+        "author": {
+          "id": "a227f9dda6fcd40108b6519591c77524",
+          "source_id": "Freak_NL",
+          "username": "Freak_NL",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d5abefe29967e67f7d8e576552308b31",
+        "source_id": "49761672",
+        "content": {
+          "text": "All the more reason email and banking should be handled by the post office. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.126666",
+        "updated_at": "2026-09-19T16:02:54.126666",
+        "author": {
+          "id": "7df3c55383e5d2af65e1389c9c7a0522",
+          "source_id": "sharts",
+          "username": "sharts",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "31084ba9533012d626e3e624b0fe09f7",
+        "source_id": "49743421",
+        "content": {
+          "text": "Going forward, consider using an authenticator that securely syncs across multiple devices to remove the single point of failure risk. I use Proton Authenticator now [0] Authy used to do this, then they enshittified their app and bricked the desktop version. [0]: https://proton.me/authenticator reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.128382",
+        "updated_at": "2026-09-19T16:02:54.128382",
+        "author": {
+          "id": "be3f817ca2df8a393ad8a88e5d116065",
+          "source_id": "pards",
+          "username": "pards",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "be7dce3a929e9110d8c753e40756c89a",
+        "source_id": "49743548",
+        "content": {
+          "text": "Google authenticator supports syncing across multiple devices. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.130090",
+        "updated_at": "2026-09-19T16:02:54.130090",
+        "author": {
+          "id": "658a1641aabcb85896e9962761b0a7fc",
+          "source_id": "flowerlad",
+          "username": "flowerlad",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "077cf430399e293ebc6c04971ac94e89",
+        "source_id": "49743835",
+        "content": {
+          "text": "is that new? I migrated at the time from GA to Authy and from Authy to Ente because it was not supported. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:02:54.131798",
+        "updated_at": "2026-09-19T16:02:54.131798",
+        "author": {
+          "id": "36a5a384ce2fadc343507e0d458d175b",
+          "source_id": "kwanbix",
+          "username": "kwanbix",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-09-19T16:02:54.181825",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "bf190fed2036e6923537ca18d28dbc94",
+      "source_id": "49763466",
+      "title": "Ask HN: Remember N8n? Anyone?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-19T16:02:49.202176",
+      "updated_at": "2026-09-19T16:02:49.202176",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "4e29f1dff2761af701bacabc8feffa95",
+        "source_id": "sankalpdomore",
+        "username": "sankalpdomore",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 4,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49763466",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-09-19T16:02:59.255416",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "b3cdc72bc1b877423461e59bc7b15577",
+      "source_id": "49755575",
+      "title": "Ask HN: What happens when Claude Code goes away?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-19T16:02:49.202580",
+      "updated_at": "2026-09-19T16:02:49.202580",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "f640edd6f2b8894b41ab8a277379e301",
+        "source_id": "HoldOnAMinute",
+        "username": "HoldOnAMinute",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 4,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49755575",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-09-19T16:03:01.751932",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "eedc3a39fa00a03a6dd0ed6da54bbf27",
+      "source_id": "49755126",
+      "title": "Ask HN: Have you stopped underestimating AI yet?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">I think most technical people who are not AI researchers have a tendency to underestimate what frontier AI can do.</div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-19T16:02:49.202936",
+      "updated_at": "2026-09-19T16:02:49.202936",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "9fbfc99674a659d2f2b0af967455b589",
+        "source_id": "amichail",
+        "username": "amichail",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 4,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49755126",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "4d6821f74fa494c3c159f9f76003f63d",
+        "source_id": "49756528",
+        "content": {
+          "text": "In my organization, the people who use AI the most are not the most productive nor the ones who generate value for the company. Some of the most productive employees, in fact, have a strict \"no AI\" stance. I understand how AI is helping me, and I wonder how much better these guys could get with some AI help, but I'm convinced a lot of people overestimate AI's capabilities to help them be more productive. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:03:03.377970",
+        "updated_at": "2026-09-19T16:03:03.377970",
+        "author": {
+          "id": "4aa6085dfd5ba408cc96f8281353bccf",
+          "source_id": "dyingkneepad",
+          "username": "dyingkneepad",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "92d489e01b8e7474891aad3178af931e",
+        "source_id": "49755897",
+        "content": {
+          "text": "Have you stopped overestimating it yet? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:03:03.378227",
+        "updated_at": "2026-09-19T16:03:03.378227",
+        "author": {
+          "id": "6e796a9aa001ec7e96f836a05e3013fd",
+          "source_id": "sejje",
+          "username": "sejje",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "300b4e69e32159656bf860b2104b967b",
+        "source_id": "49755588",
+        "content": {
+          "text": "It’s not about what the AI can do, it’s about your ability as a human to keep up with the details so you can make effective decisions. You the human are ultimately responsible. Because where dangers lie is when you lose track of that one tiny important thing that turns out to really really matter. The AI won’t get fired, you will. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:03:03.378491",
+        "updated_at": "2026-09-19T16:03:03.378491",
+        "author": {
+          "id": "d51a6fc1b88e0387f63191816cd49032",
+          "source_id": "softwaredoug",
+          "username": "softwaredoug",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6af151dadd371d616b1e41ba63ccf964",
+        "source_id": "49755854",
+        "content": {
+          "text": "Have you stopped beating your wife? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:03:03.378755",
+        "updated_at": "2026-09-19T16:03:03.378755",
+        "author": {
+          "id": "a784c88ffb0da230666f9dce452b4e2c",
+          "source_id": "jjgreen",
+          "username": "jjgreen",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4bd0c4e2e269f6ad9835710775d7a287",
+        "source_id": "49757624",
+        "content": {
+          "text": "Mu. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:03:03.379031",
+        "updated_at": "2026-09-19T16:03:03.379031",
+        "author": {
+          "id": "d712a88c3676afb687f4a1956153f46a",
+          "source_id": "vetronauta",
+          "username": "vetronauta",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "406ff9e627765a3e93253925d00adbf7",
+        "source_id": "49757082",
+        "content": {
+          "text": "Given that AI CEOs are in the habit of frequently lying about what frontier AI can do, it's hard to get a good grasp either way. We can estimate from our hands-on experience and go from there, but very few people even have acess to the latest models. Some of the stuff I've read makes it sound like they're technically impressive but not all that useful in practical scenarios. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:03:03.379325",
+        "updated_at": "2026-09-19T16:03:03.379325",
+        "author": {
+          "id": "510570291ca1872857ffcdebc841b836",
+          "source_id": "bored-at-work",
+          "username": "bored-at-work",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4ccd9cb1f7cb571fa5b704e2f344df46",
+        "source_id": "49763040",
+        "content": {
+          "text": "Have you stopped listening to your Silicon Valley delusions? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-19T16:03:03.379623",
+        "updated_at": "2026-09-19T16:03:03.379623",
+        "author": {
+          "id": "1c7eed8bb4da2d75e1fde7d8e118d5ce",
+          "source_id": "camillomiller",
+          "username": "camillomiller",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-09-19T16:03:03.379757",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "2c6ec4d3f47995faef535d3295116d01",
+      "source_id": "49743493",
+      "title": "Ask HN: Co-Founder(s). Do I need any? How would I even find them?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-19T16:02:49.203238",
+      "updated_at": "2026-09-19T16:02:49.203238",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "7e33719bbfea88037e560b16ae8ef7db",
+        "source_id": "bhollan",
+        "username": "bhollan",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 11,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49743493",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-09-19T16:03:07.309825",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "e3a28905b5d3c65e9c7ea874971c56b2",
+      "source_id": "49752505",
+      "title": "Ask HN: Help choosing between AWS ECS and EKS",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-19T16:02:49.203469",
+      "updated_at": "2026-09-19T16:02:49.203469",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "822826e5249ddabb90bce88e7ff107e6",
+        "source_id": "pigradish",
+        "username": "pigradish",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 5,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49752505",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-09-19T16:03:12.070238",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "d76ffc3c41e033c9b58f27325ed5e8c9",
+      "source_id": "49724691",
+      "title": "Ask HN: What is the most career altering course or book you have gone through?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-19T16:02:49.203698",
+      "updated_at": "2026-09-19T16:02:49.203698",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "186f3e57000a36fda668416a4c7d323b",
+        "source_id": "learner_yearner",
+        "username": "learner_yearner",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 18,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49724691",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-09-19T16:03:16.505728",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "c35006b3cc4d3a664d18084c3936f229",
+      "source_id": "49752806",
+      "title": "Ask HN: Alternatives to Twitter/X?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-19T16:02:49.204049",
+      "updated_at": "2026-09-19T16:02:49.204049",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "52acaa55bce97a526d04ff6bfc4ca8d4",
+        "source_id": "throwaway2027",
+        "username": "throwaway2027",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 6,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49752806",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-09-19T16:03:21.265248",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "6d99d1856b0d351dbdb7f9d183d5e58d",
+      "source_id": "49746527",
+      "title": "Ask HN: What self-hosted apps do you use daily?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-19T16:02:49.204288",
+      "updated_at": "2026-09-19T16:02:49.204288",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "85195bc21078653cea1cb21c1d910d4c",
+        "source_id": "osr00",
+        "username": "osr00",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 5,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49746527",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-09-19T16:03:25.203952",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "9a495b0e5912cb30609a661f14d38dc4",
+      "source_id": "49698914",
+      "title": "Ask HN: How are you managing aging relatives passwords?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-19T16:02:49.204521",
+      "updated_at": "2026-09-19T16:02:49.204521",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "32f20fce6a7c7a75dc9fec6ae948c1f9",
+        "source_id": "rylando",
+        "username": "rylando",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 13,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49698914",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-09-19T16:03:28.931086",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "4971e1b5ddb1c72b5d69536901e360a9",
+      "source_id": "49743419",
+      "title": "Ask HN: What Makes Tokens Expensive?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-19T16:02:49.204750",
+      "updated_at": "2026-09-19T16:02:49.204750",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "88c6bd8f6a9e80cda8ad5507db633131",
+        "source_id": "mtokarski",
+        "username": "mtokarski",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 3,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49743419",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-09-19T16:03:33.170937",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
   }
 ]
