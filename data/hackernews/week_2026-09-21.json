@@ -1,0 +1,3563 @@
+[
+  {
+    "post": {
+      "id": "38dd157c82a89c6344d3c4847950d12d",
+      "source_id": "49786609",
+      "title": "Ask HN: Is it impossible to disable Siri on macOS 27?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">I disabled Siri in the Settings app, and then further disabled Siri and its extensions in Settings &gt; Screen Time.<p>Next, I disabled all Siri-related and Apple Intelligence-related services as per https://github.com/OleksandrKrupko/mac-os-debloat<p>But after restarting, I could still see a \"Siri\" process running in Activity Monitor. Upon further inspection, I found that it is the \"Siri AI.app\".<p>These \"features\", together with Apple's Personal Context sound very similar to Microsoft's Recall.<p>Does anyone have the same experience? Is it really impossible to fully turn off Siri, Siri AI, Apple Intelligence and all related services and features on macOS 27?</p></p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-21T16:03:50.476685",
+      "updated_at": "2026-09-21T16:03:50.476685",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "3b3927c3cfb3de03cafc685f3b21d4d2",
+        "source_id": "semidror",
+        "username": "semidror",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 90,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49786609",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "9d9bd88583afb021e772ba283adcdb5e",
+        "source_id": "49787227",
+        "content": {
+          "text": "Just as a note, from what I see the problem is not only the privacy implications but also that the local AI comes with a baggage amounting to 10% of the space on the base mac models. Which is already severely limited. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:03:52.791629",
+        "updated_at": "2026-09-21T16:03:52.791629",
+        "author": {
+          "id": "1eb91b263d347252b14bb40adba945a5",
+          "source_id": "nottorp",
+          "username": "nottorp",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "fb76372265cfb2625cfdd0c8f00add88",
+        "source_id": "49787508",
+        "content": {
+          "text": "I have not found the local/remote hand off to be very reliable either, so tasks that used to be almost instantaneous for Siri are now spinning to the point where I assume they failed. A simple 2 minute timer took almost 30 seconds to set the other day. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:03:52.792174",
+        "updated_at": "2026-09-21T16:03:52.792174",
+        "author": {
+          "id": "6c718a05b941d110918d5a96468d8622",
+          "source_id": "threetonesun",
+          "username": "threetonesun",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f1ad0fbf189463929643b493648531b4",
+        "source_id": "49787802",
+        "content": {
+          "text": "You're brave. I'm still on Sequoia. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:03:52.792736",
+        "updated_at": "2026-09-21T16:03:52.792736",
+        "author": {
+          "id": "1eb91b263d347252b14bb40adba945a5",
+          "source_id": "nottorp",
+          "username": "nottorp",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6755dac955ee3ed0aebc0f4f1587c8ea",
+        "source_id": "49787196",
+        "content": {
+          "text": "I've been daily-driving a mac for 10 years now and I've only ever triggered Siri by accident.  I do use it pretty regularly on the phone, mostly to set timers, get directions, and call contacts, but I've been well trained over these years to not expect it to be capable of more than that. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:03:52.793282",
+        "updated_at": "2026-09-21T16:03:52.793282",
+        "author": {
+          "id": "62cb4a724d814cd7f082534f91f895a7",
+          "source_id": "chuckadams",
+          "username": "chuckadams",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0628532a4f93e68f1ac79a5ae713921f",
+        "source_id": "49787908",
+        "content": {
+          "text": "I remember it being pretty useful on phone. Now, it can't even \"like\" a song when I'm driving and I want it to add a song to my Spotify favourites list. It could do a few months ago, now it refuses with \"sorry there was a problem with the app\". I've had to resort to asking it to take a screenshot so I can go find the song later. Three quarters of the time it never saves the screenshot though, despite seeing the screen flash out of the corner of my eye. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:03:52.793895",
+        "updated_at": "2026-09-21T16:03:52.793895",
+        "author": {
+          "id": "6288a69faa75a84d655ce028d5a96410",
+          "source_id": "lloydatkinson",
+          "username": "lloydatkinson",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "95fe6e6f5e613a51b4540392599f5bc3",
+        "source_id": "49788508",
+        "content": {
+          "text": "> now it refuses with \"sorry there was a problem with the app\". > I want it to add a song to my Spotify favourites list There's your problem reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:03:52.794557",
+        "updated_at": "2026-09-21T16:03:52.794557",
+        "author": {
+          "id": "2793bd40bf3dad748bcea4f87a7083a8",
+          "source_id": "nozzlegear",
+          "username": "nozzlegear",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "73c9bdc43e49090b160b3c5701f7a4e7",
+        "source_id": "49787779",
+        "content": {
+          "text": "Your training is now out of date. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:03:52.795190",
+        "updated_at": "2026-09-21T16:03:52.795190",
+        "author": {
+          "id": "dc0b257dc5d0b78eea025b0c218d4cd6",
+          "source_id": "baggy_trough",
+          "username": "baggy_trough",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d1a8a12135e2f42bc3ee098b8e98502e",
+        "source_id": "49788576",
+        "content": {
+          "text": "One workaround that I know would work would be an enterprise profile. I know this because I’m one of the people tasked with blocking AI stuff at my org. How you’d implement this without a subscription to management (MDM) software I leave to you to research. I know it’s possible without proprietary tools because I’ve read about people using profiles to block software updates on their personal computers, but I don’t recall how that’s done. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:03:52.795864",
+        "updated_at": "2026-09-21T16:03:52.795864",
+        "author": {
+          "id": "4385258ef098ae6fc4716df0652b0679",
+          "source_id": "alsetmusic",
+          "username": "alsetmusic",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0f5202601940a80ec5aad6b3a071e97a",
+        "source_id": "49788919",
+        "content": {
+          "text": "You can just use Apple Configurator to make a .mobileconfig file and apply that, no MDM required. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:03:52.796558",
+        "updated_at": "2026-09-21T16:03:52.796558",
+        "author": {
+          "id": "b7969127499ac4d908941130718b1ca9",
+          "source_id": "jonathantf2",
+          "username": "jonathantf2",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "88b20104940fe2162bb874e2c208eb93",
+        "source_id": "49787605",
+        "content": {
+          "text": "There’s the old trick of setting your computer language to be different from the Siri language. I get the following error message when I open Siri in Settings: > Apple Intelligence requires that Mac and Siri are set to the same language. Currently your Mac is set to English (United States) and Siri is set to English (Canada). I think at one point they may have removed this limitation but then they reintroduced it in macOS 27.0. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:03:52.797290",
+        "updated_at": "2026-09-21T16:03:52.797290",
+        "author": {
+          "id": "9f1a0eddf627931157ff3751fd798ac1",
+          "source_id": "kccqzy",
+          "username": "kccqzy",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9a5bd4fe5e0b328ef495a53ae7eec306",
+        "source_id": "49787722",
+        "content": {
+          "text": "Yes, I did something similar: prior to disabling Siri, I set Siri's language to French and kept the system language set to English (UK), but the Siri AI.app (\"Siri\" process in Activity Monitor) just keeps running despite Siri being indicated as disabled in Settings. If you are on macOS 27, could you please open Activity Monitor, search (filter) for \"siri\" and see if a process called \"Siri\" is still running? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:03:52.798066",
+        "updated_at": "2026-09-21T16:03:52.798066",
+        "author": {
+          "id": "3b3927c3cfb3de03cafc685f3b21d4d2",
+          "source_id": "semidror",
+          "username": "semidror",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "bc4d39fb702598095e019fef78031934",
+        "source_id": "49788032",
+        "content": {
+          "text": "You are right. The UI shows Siri disabled and offers to turn it on, but the process is still running. That process seems to change its name based on whether the UI thinks Siri is enabled; it can be called either just \"Siri\" or \"Siri AI\" but it’s the same executable. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:03:52.798845",
+        "updated_at": "2026-09-21T16:03:52.798845",
+        "author": {
+          "id": "9f1a0eddf627931157ff3751fd798ac1",
+          "source_id": "kccqzy",
+          "username": "kccqzy",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "31955ac3d5bc5a56326fafac2b2a8697",
+        "source_id": "49787108",
+        "content": {
+          "text": "In Screen Time -> Content and Privacy, there's a setting to switch Siri to 'Siri Classic' which strips out the Apple Intelligence-backed behavior specifically. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:03:52.799669",
+        "updated_at": "2026-09-21T16:03:52.799669",
+        "author": {
+          "id": "e3c35d9c3afda125e321905cf93f9049",
+          "source_id": "Nata_Elisym",
+          "username": "Nata_Elisym",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f32a0c08b61fb87f753b4840c718b1e2",
+        "source_id": "49787520",
+        "content": {
+          "text": "Instead of \"Siri Classic\", I selected the \"Don’t Allow Siri\" option, but it didn't help. The \"Siri\" (Siri AI.app) process keeps running regardless. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:03:52.800581",
+        "updated_at": "2026-09-21T16:03:52.800581",
+        "author": {
+          "id": "3b3927c3cfb3de03cafc685f3b21d4d2",
+          "source_id": "semidror",
+          "username": "semidror",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f66ed7a6bcffe7c9cbc7ebf7fe70f2df",
+        "source_id": "49787703",
+        "content": {
+          "text": "Sounds like Apple hired some of the Microsoft project managers. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:03:52.801448",
+        "updated_at": "2026-09-21T16:03:52.801448",
+        "author": {
+          "id": "01422871a1c44aedf7e7b63dc234207b",
+          "source_id": "pixl97",
+          "username": "pixl97",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "fafad2a98e03a618bb1a2b8204ff5bc5",
+        "source_id": "49787699",
+        "content": {
+          "text": "The process that shows the Spotlight UI is now the one called \"Siri\", previously it was called \"Spotlight\". reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:03:52.802327",
+        "updated_at": "2026-09-21T16:03:52.802327",
+        "author": {
+          "id": "35c2492b3c441c12b5b3b443d2f979df",
+          "source_id": "galad87",
+          "username": "galad87",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2fa4355a9d4aed6ad749da416fee93e9",
+        "source_id": "49787792",
+        "content": {
+          "text": "Thanks, that's an interesting observation! When I double-clicked on the \"Siri\" process in Activity Monitor, I saw that it's an app called \"Siri AI\". If the \"Siri AI\" app has replaced Spotlight, then I wonder if Apple keeps building \"personal context\" despite Siri and Apple Intelligence being disabled. It for sure doesn't sound well to disable Siri and still see a \"Siri\" process. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:03:52.803312",
+        "updated_at": "2026-09-21T16:03:52.803312",
+        "author": {
+          "id": "3b3927c3cfb3de03cafc685f3b21d4d2",
+          "source_id": "semidror",
+          "username": "semidror",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3a1db5bceaf34adb81f3a5a7816d38ea",
+        "source_id": "49788942",
+        "content": {
+          "text": "Couldn’t it be due to spotlight being entirely replaced by this new Siri AI? Not sure how things work under the hood now. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:03:52.804325",
+        "updated_at": "2026-09-21T16:03:52.804325",
+        "author": {
+          "id": "00c88a2bdc0c21273ff38f94d8884ce2",
+          "source_id": "kdkdkcekckek",
+          "username": "kdkdkcekckek",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f3fe71021c974d8b48cd171afa71ef65",
+        "source_id": "49787427",
+        "content": {
+          "text": "I've love to disable Apple Intelligence just to get the space back. It's murdering my Mac Mini. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:03:52.805297",
+        "updated_at": "2026-09-21T16:03:52.805297",
+        "author": {
+          "id": "af4e433e19805029d24e58681e434d6b",
+          "source_id": "VCFundedGenYer",
+          "username": "VCFundedGenYer",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "750d7e4f94c6396e7642d99a14cab852",
+        "source_id": "49787091",
+        "content": {
+          "text": "Resistance is futile. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:03:52.806298",
+        "updated_at": "2026-09-21T16:03:52.806298",
+        "author": {
+          "id": "009b7042bfbea4057407125b36e37ff7",
+          "source_id": "dosisking",
+          "username": "dosisking",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f77cfc7dd06e0f1c82b9a901cef9191a",
+        "source_id": "49788777",
+        "content": {
+          "text": "you will be assimilated reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:03:52.807316",
+        "updated_at": "2026-09-21T16:03:52.807316",
+        "author": {
+          "id": "fcf2f8857c94d8d0939798d425580f23",
+          "source_id": "andrekandre",
+          "username": "andrekandre",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "51f8109dff6366ebc671acd615df7b09",
+        "source_id": "49788317",
+        "content": {
+          "text": "See https://news.ycombinator.com/item?id=49787535 reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:03:52.808404",
+        "updated_at": "2026-09-21T16:03:52.808404",
+        "author": {
+          "id": "a56660758b3534eeef9e64ed4ca31219",
+          "source_id": "pluc",
+          "username": "pluc",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "64607d2e702457353f57f107b6c55d0b",
+        "source_id": "49787455",
+        "content": {
+          "text": "I didn't check it yet but I hope being in EU macOS 27 upgrade is basically small UI tweaks and thats it :D Still holding off for now reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:03:52.809495",
+        "updated_at": "2026-09-21T16:03:52.809495",
+        "author": {
+          "id": "b13f8c114ba87d6fda25bb2dc824e83d",
+          "source_id": "danfritz",
+          "username": "danfritz",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a392bdc4d88e967a21fb453bf4f244ba",
+        "source_id": "49787111",
+        "content": {
+          "text": "Try disabling any of the launchd tasks related to it, odds are theres a service that starts at boot/login regardless of any user-facing setting that do nothing if they're all turned off (just like iCloud related daemons). Odds are you'll probably run into something that requires you to disable SIP, like I did when I got tired of mediaanalysisd eating up CPU cycles on a 2018 Mac mini. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:03:52.810610",
+        "updated_at": "2026-09-21T16:03:52.810610",
+        "author": {
+          "id": "d8f2d92cd0126f53fdc2f74418d21d33",
+          "source_id": "wpm",
+          "username": "wpm",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7523d98ad54d8dd388e15d29163caad2",
+        "source_id": "49787664",
+        "content": {
+          "text": "Thanks, I believe this is what the debloat script mentioned in my post does. I manually executed the `launchctl bootout` and `launchctl disable` commands on all Siri and AI-related services in the https://github.com/OleksandrKrupko/mac-os-debloat/blob/main/... script, but the \"Siri\" process (\"Siri AI.app\") still keeps running even after restarting. The Siri AI.app is read-only, so I could not even remove it. But perhaps it would be possible to boot into Recovery, mount the system partition as rw and delete the Siri AI.app from the filesystem? P.S. I did also disable mediaanalysisd and photoanalysisd, and those are NOT running. However, the Siri AI.app does keep running... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:03:52.811798",
+        "updated_at": "2026-09-21T16:03:52.811798",
+        "author": {
+          "id": "3b3927c3cfb3de03cafc685f3b21d4d2",
+          "source_id": "semidror",
+          "username": "semidror",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "05f037db5531777f4065c6c31b7c35d6",
+        "source_id": "49788177",
+        "content": {
+          "text": "if you dont want a car with the hood welded shut.....Dont buy a car with the hood welded shut. plenty of better operating systems out their reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:03:52.812972",
+        "updated_at": "2026-09-21T16:03:52.812972",
+        "author": {
+          "id": "196a8e49213fe31738d606db37927d5e",
+          "source_id": "jzemeocala",
+          "username": "jzemeocala",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c3ad5644f0d9f66b04ac856133379ca3",
+        "source_id": "49788917",
+        "content": {
+          "text": "Plenty of other operating systems out there ? Yeah. Better? Depends. Hardware as a package? Absolutely not and it’s by such a wide margin there’s no competition whatsoever. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:03:52.814197",
+        "updated_at": "2026-09-21T16:03:52.814197",
+        "author": {
+          "id": "85b8e6199462d18ccc7e0ded95d50852",
+          "source_id": "ksnsiwxjek",
+          "username": "ksnsiwxjek",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "eab0e42fdb7d33e440fa71e301ea3426",
+        "source_id": "49788580",
+        "content": {
+          "text": "Silly argument. It’s more like buying a BWM and being happy with everything expect a stupid decision like placement of the handbrake. Of course you can complain about it. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:03:52.815477",
+        "updated_at": "2026-09-21T16:03:52.815477",
+        "author": {
+          "id": "15aad96e20e60a5b63071c12b56a38bb",
+          "source_id": "victorbjorklund",
+          "username": "victorbjorklund",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4183a99a56207b25a777326d07d32343",
+        "source_id": "49788298",
+        "content": {
+          "text": "I don’t particularly care for MacOS but Apple’s hardware is generally best in class, particularly for battery life, touchpad, and other laptop specifics. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:03:52.816772",
+        "updated_at": "2026-09-21T16:03:52.816772",
+        "author": {
+          "id": "94c26af830b62f626218c2dce14dcf31",
+          "source_id": "stackghost",
+          "username": "stackghost",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5ed20b640e5c9835af72be84f4391a03",
+        "source_id": "49788634",
+        "content": {
+          "text": "I still have to find anybody using Siri on his Mac Please tell me what the use case is. Somebody somewhere must find it useful otherwise it would not be so prominent. This a genuine question btw not trying to be sarcastic or dismissive reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:03:52.818132",
+        "updated_at": "2026-09-21T16:03:52.818132",
+        "author": {
+          "id": "4cfb3fd2aefc6169d6cd6bc023746c6d",
+          "source_id": "seviu",
+          "username": "seviu",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4525ca31d18bdf17be6e48c51b2e23d4",
+        "source_id": "49788647",
+        "content": {
+          "text": "The 27 release still has so many bugs. It's depressing to see certain bugs persist in each new beta. You know they'll be in release. I gave up reporting anything years ago. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:03:52.819514",
+        "updated_at": "2026-09-21T16:03:52.819514",
+        "author": {
+          "id": "2f777db4955a6bd1d2f7cba96e1c6730",
+          "source_id": "Razengan",
+          "username": "Razengan",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "85b658029af50d4ea4b1331694abec45",
+        "source_id": "49787479",
+        "content": {
+          "text": "Sequoia will be taken from my cold dead hands. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:03:52.820880",
+        "updated_at": "2026-09-21T16:03:52.820880",
+        "author": {
+          "id": "054403184af7f891071b236653dc0310",
+          "source_id": "avazhi",
+          "username": "avazhi",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4c7396a1388ba527f46ec6e9857ee0dc",
+        "source_id": "49787587",
+        "content": {
+          "text": "Same here. Unfortunately, if you use Xcode to develop for iOS, then Apple basically forces you to install macOS 27 to be able to develop for the new iPhones. The iPhone 18 Pro requires Xcode 27, and Xcode 27 won't run on Sequoia. If anyone knows how to make the iPhone 18 Pro work with Xcode 26 on Sequoia, and in turn with iOS 27, I (and I'm sure many other people) would be very happy to hear how! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:03:52.822284",
+        "updated_at": "2026-09-21T16:03:52.822284",
+        "author": {
+          "id": "3b3927c3cfb3de03cafc685f3b21d4d2",
+          "source_id": "semidror",
+          "username": "semidror",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d2d68f95b3a8f4e308065fbec09481a7",
+        "source_id": "49788258",
+        "content": {
+          "text": "This is how Apple have forced Mac upgrades for the last 20 years, there is no way round it other than to comply and buy yourself a new Mac. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:03:52.823737",
+        "updated_at": "2026-09-21T16:03:52.823737",
+        "author": {
+          "id": "a674474f406f0e773a34f16765780156",
+          "source_id": "alt227",
+          "username": "alt227",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "19c38a7f96413312d57176a4f9a80441",
+        "source_id": "49788442",
+        "content": {
+          "text": "I started de-googling a long time ago, part of it was an iPhone (12 mini), 5 years later I really felt like de-Appling as well. The Appstore is a cesspool, privacy concerns are about the same as Google now (or perhaps always were?). I went with GrapheneOS. Very good experience, but not without Google Play (store and services). It's all sandboxed, so presumably I'm only leaking consciously chosen data. It's really aimed at security, not so much de-googling. Something like Murena's /e/OS is much more aimed at de-Googling, but as GrapheneOS devs will usually be quick to point out here, they are \"quite poor\" with their security. A de-Googled functional appstore on a FairPhone (+ with all the GrapheneOS required security bells and wistles) would be ideal for me. But it's still either optimal security focussed OR de-Googling/de-big-teching focused. Yes there is f-droid, but there are too many apps that require the Google services (like banking). Atm 1 app does not work, one of my banking apps required the highest tier of Google control. I will happily install on devices that have been years without security updates though :s Overall the GrapheneOS experience (base launcher etc) is very clean, fast, minimal, ad free. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:03:52.825211",
+        "updated_at": "2026-09-21T16:03:52.825211",
+        "author": {
+          "id": "59baf08e11906165ee446de7acf59603",
+          "source_id": "teekert",
+          "username": "teekert",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-09-21T16:03:52.826270",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "69ea00c18ef700ff68f43bfba73f9b40",
+      "source_id": "49788756",
+      "title": "Ask HN: What is the most interesting project you are working on?",
+      "content": {
+        "text": "<div class=\"toptext\"></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-21T16:03:50.477749",
+      "updated_at": "2026-09-21T16:03:50.477749",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "cda9b1d64b6d7c42a7d49f1e66b9d4ed",
+        "source_id": "skwasimin",
+        "username": "skwasimin",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 3,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49788756",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "c8e57234dd576dfe6890cf31fbee3963",
+        "source_id": "49788846",
+        "content": {
+          "text": "At work, standing up openmetadata to capture data lineage from airflow. At home, increasing the number of libraries I can check live availability for for Leafle. (Library software is a wild place man) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:03:54.582803",
+        "updated_at": "2026-09-21T16:03:54.582803",
+        "author": {
+          "id": "9257a251d473e96be91b17929652a140",
+          "source_id": "kidnoodle",
+          "username": "kidnoodle",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-09-21T16:03:54.582935",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "a1cc90ab38574ad2f82c56ba5c6b7add",
+      "source_id": "49783865",
+      "title": "Ask HN: My recent show HN post got flagged need guidance",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">hi recently i shared my work which is an opensource platform i made and yesterday i shared its details and its repo link on hackernews under show hn it gained good traffic reaching 16 points under 1 hour but got flagged now i need help understanding why this happened and how can i unflag it or how i can share my work with HN community</div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-21T16:03:50.478336",
+      "updated_at": "2026-09-21T16:03:50.478336",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "175f1b8b17f05c2ecc7c767d3c3b0406",
+        "source_id": "theguysudo",
+        "username": "theguysudo",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 4,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49783865",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "9398b4d72a464b934a034dac5d071c84",
+        "source_id": "49786629",
+        "content": {
+          "text": "I seen a lot of bitching about this lately. You will continue to be flagged. 1. Do some self reflection. This site is not all about you. 2. You have a karma of 3, therefore you are a worthless spambot. If you want better then contribute to the site as a human with real contributions that are not about you. 3. I am willing to bet all your flagged submissions are some bullshit related to AI. Perhaps try meaningful time developing something not related to or written by AI and then see how that goes. Until these happen you will continue to be flagged and everyone else will be happier for it. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:03:55.897182",
+        "updated_at": "2026-09-21T16:03:55.897182",
+        "author": {
+          "id": "0ae492937dcc65e2e9ad4e3b8663757f",
+          "source_id": "austin-cheney",
+          "username": "austin-cheney",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c679324b3fb0fb9cee166cf87cb82dc5",
+        "source_id": "49784618",
+        "content": {
+          "text": "I got the same problem with my posts and comments.\nThey were flagged, which was obvious for me after i activated the \"showdead\" option in my profile, or they got marked as \"shadow-dead\" and I only found out via the public JSON API.\n\"Shadow-Dead\" means, for me, everything looked okay, but no one else saw my post. After that, I asked an HN Mod what the problem was, and they thought my posts were created by GenAI, and because of that, they were flagged. And he gave me the advice that I don't use GenAI at all for HN, not even to polish my crappy text. Hope this was helpful, wish you a good Day reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:03:55.897773",
+        "updated_at": "2026-09-21T16:03:55.897773",
+        "author": {
+          "id": "32fbf01d504c85220b88e0175509d523",
+          "source_id": "HerrlichDigital",
+          "username": "HerrlichDigital",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1ba25c23b120a8e2428e45ed6db3433d",
+        "source_id": "49784781",
+        "content": {
+          "text": "I didn't flag it, but... it was the third time you submitted the same thing, wasn't it? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:03:55.898295",
+        "updated_at": "2026-09-21T16:03:55.898295",
+        "author": {
+          "id": "8d313dd4b60c81e5e867a7c8c7ba8956",
+          "source_id": "genezeta",
+          "username": "genezeta",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b52532f5e54dfbaf52e0fdc7bc8ef932",
+        "source_id": "49786296",
+        "content": {
+          "text": "> i need help understanding why this happened I don't know for sure but, as others have pointed out, yesterday's submission was the third time you'd posted it to Show HN. People have a low tolerance for dupe posts, especially if they're perceived as excessive self-promotion. Also, your work might be seen as vibecoded and therefore \"ai slop\". I dont know if it is, but all it takes is a perception. Finally, your work might be seen as a commercial threat by some people here - causing them to flag it. > how i can share my work with HN community Write a technical article about some aspect of what you've done. Talk about the challenges and how you solved them. Include a link to the repo. Put it in an external site (even github) and submit a link. If its interesting then people will notice. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:03:55.898904",
+        "updated_at": "2026-09-21T16:03:55.898904",
+        "author": {
+          "id": "062d45273b9ed7d7e350b1a0390234a5",
+          "source_id": "andyjohnson0",
+          "username": "andyjohnson0",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "af74eca3bdb5c07dddc9018c022f3dfb",
+        "source_id": "49785685",
+        "content": {
+          "text": "https://news.ycombinator.com/item?id=48321198 reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:03:55.899486",
+        "updated_at": "2026-09-21T16:03:55.899486",
+        "author": {
+          "id": "a26966f71f87c35cc87937d3d7e8f084",
+          "source_id": "bjourne",
+          "username": "bjourne",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f74bb9e005582c347ac0eccf7b9ec57e",
+        "source_id": "49784225",
+        "content": {
+          "text": "It just looks like slop. Now, I wouldn't flag because of this, but someone else might. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:03:55.900074",
+        "updated_at": "2026-09-21T16:03:55.900074",
+        "author": {
+          "id": "a7bd8b99fa7a8059db41120bf00738e8",
+          "source_id": "no_time",
+          "username": "no_time",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e5d2dbe3208bdd29074eaa571be3222b",
+        "source_id": "49783873",
+        "content": {
+          "text": "any guide will be very helpful for me as i am quite new here reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:03:55.900706",
+        "updated_at": "2026-09-21T16:03:55.900706",
+        "author": {
+          "id": "175f1b8b17f05c2ecc7c767d3c3b0406",
+          "source_id": "theguysudo",
+          "username": "theguysudo",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "02cd85e0f8f418d69182bf9d2bd989e2",
+        "source_id": "49785955",
+        "content": {
+          "text": "It looks like you have a new account and your only posts and comments are about promoting your project. Self-promotion is tolerated to a degree, but shouldn't be the primary or only thing you do here. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:03:55.901361",
+        "updated_at": "2026-09-21T16:03:55.901361",
+        "author": {
+          "id": "98f9b9ba1cc5c4d684462d480b2982a4",
+          "source_id": "JohnFen",
+          "username": "JohnFen",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b73ca545ea58e038bbd747be10356d6b",
+        "source_id": "49784030",
+        "content": {
+          "text": "I have no special insight, but I think this commenter cut to the core of the problem: > \"I came to the comments because the web page for Enzo explains everything except what the hell it does. Then I couldn't understand the [submission] comment either.\" I think you need to practice your \"elevator pitch\" technique before you submit here again. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:03:55.902058",
+        "updated_at": "2026-09-21T16:03:55.902058",
+        "author": {
+          "id": "8344e1a8ee633d3e96910928a79df3c2",
+          "source_id": "dcminter",
+          "username": "dcminter",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b49d01eaa4e3f1c27a4d670eab5208f9",
+        "source_id": "49784024",
+        "content": {
+          "text": "Read the comments people wrote against your submission. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:03:55.902778",
+        "updated_at": "2026-09-21T16:03:55.902778",
+        "author": {
+          "id": "6c11b202722953bda00ca49493a10b8f",
+          "source_id": "andsoitis",
+          "username": "andsoitis",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-09-21T16:03:55.903132",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "d8a5ed8a6e09d7c0c473c78707be021c",
+      "source_id": "49768826",
+      "title": "Ask HN: How do you interview devs in a post-AI world?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-21T16:03:50.479045",
+      "updated_at": "2026-09-21T16:03:50.479045",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "81442dfa29615ebf6ca205f86dab3d23",
+        "source_id": "mdwelsh",
+        "username": "mdwelsh",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 44,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49768826",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-09-21T16:04:00.439132",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "46d15d3f9d5392d64b2b89a71442a758",
+      "source_id": "49742976",
+      "title": "Ask HN: How to recover Google auth after phone stolen?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-21T16:03:50.479656",
+      "updated_at": "2026-09-21T16:03:50.479656",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "6e956d9b40c709d477739c7ac2f29959",
+        "source_id": "keymasta",
+        "username": "keymasta",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 119,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49742976",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-09-21T16:04:03.788868",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "5bdaca3041f630b98b3b50a05ba92b15",
+      "source_id": "49777234",
+      "title": "Ask HN: Diablo 4 on Ubuntu?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">Has anyone here got it to reliably work? Please let me know how?<p>So many different guides / tutorials online, but sadly every one I try comes up short in some way.<p>I really don’t want to have to dual boot Windows.<p>Kinda hoping there’s an HNer that figured out.<p>Thanks.</p></p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-21T16:03:50.480197",
+      "updated_at": "2026-09-21T16:03:50.480197",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "6b6014bf469b0f1a11fb0ceb00744e22",
+        "source_id": "herodoturtle",
+        "username": "herodoturtle",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 3,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49777234",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "3c75e752ea826c7021472ad5dd08a5a6",
+        "source_id": "49783481",
+        "content": {
+          "text": "I installed Battle.net launcher in Steam, the .exe file. From there I installed Diablo. Works fine. I had some performance issues and had to add some command line args. Codex/claude code helped me with all of that, it ended up running very smooth (I've since deleted it). But Steam -> custom app -> battle.net exe -> run it in 'compatibility/proton mode' and you should be good. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:06.626781",
+        "updated_at": "2026-09-21T16:04:06.626781",
+        "author": {
+          "id": "a7c3481abcdf75f363fb1e0e57f1e060",
+          "source_id": "type4",
+          "username": "type4",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e8043d1a2bd5e9113a5ddd66ad76dfbc",
+        "source_id": "49779296",
+        "content": {
+          "text": "Can't give you any specific help since you didn't specify your problems. However it worked for me in the steamdeck with Proton out of the box. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:06.627314",
+        "updated_at": "2026-09-21T16:04:06.627314",
+        "author": {
+          "id": "bfa8f226e7e28f8e1914e7434062e70e",
+          "source_id": "zufallsheld",
+          "username": "zufallsheld",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b3d0fcfd76821153af1575fe356ac309",
+        "source_id": "49779481",
+        "content": {
+          "text": "Fair point. I'm on vanilla Ubuntu 22.04 but have also tried vanilla 24.04, with an Nvidia card. That said, I thought steamdeck was just the handheld device - not sure if this would help with my Ubuntu situation - but I don't know enough about steamdeck so perhaps I am misinterpreting your comment. Thanks either way. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:06.627904",
+        "updated_at": "2026-09-21T16:04:06.627904",
+        "author": {
+          "id": "6b6014bf469b0f1a11fb0ceb00744e22",
+          "source_id": "herodoturtle",
+          "username": "herodoturtle",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "044eb8de8e5d6e5e31daf80f99d19635",
+        "source_id": "49782082",
+        "content": {
+          "text": "tl;dr: go to protondb.com, search for Diablo 4, and then filter the list of results by \"Distro\" for Ubuntu (and Mint), and try the options that people say worked for them ProtonDB is a site that aggregates reports from users of Proton, the compatibility layer to let Windows games run on Linux. For lots of games, users will submit reports of their system info (distro, CPU, GPU, driver version, Proton version) and any configuration they needed to do to get that game working on their setup. The usual solutions are switching the Proton version you use and/or commands you add to the custom commands in the configuration for that particular game in the Steam menu. I just looked at Diablo 4, and specifically filtered for Ubuntu users; I see 22 reports, with the most recent ones being people saying it worked for them. There are also successful reports from people on Linux Mint, which is based on Ubuntu. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:06.628489",
+        "updated_at": "2026-09-21T16:04:06.628489",
+        "author": {
+          "id": "b3bf33e428393239d5f46a38c918a1dd",
+          "source_id": "embeng4096",
+          "username": "embeng4096",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "cda691c7bafd2bcf3f301672efc34954",
+        "source_id": "49780139",
+        "content": {
+          "text": "Ubuntu isn't suitable for gaming... or anything at all. It's only really good for corporations because their offer paid support if you get Pro. Instead, I'd recommend switching to something more optimised for gaming, like Bazzite or Nobara. Both work fine with nVidia cards. But I also recommend trying a different Proton, like Proton Experimental or Proton-GE, as they often get compatibility updates before mainstream Proton. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:06.629191",
+        "updated_at": "2026-09-21T16:04:06.629191",
+        "author": {
+          "id": "d9410e8dc9c7e428bb470a125a583614",
+          "source_id": "d3Xt3r",
+          "username": "d3Xt3r",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9623322043befe00429044ccf489190d",
+        "source_id": "49778411",
+        "content": {
+          "text": "Not sure. See if you shift the itch to another game, WoW I know works on Linux always. Diablo 4 in particular won’t even run on a Mac I believe, so they don’t care too much about making that multi platform. Albion Online is another one with great great portability, literally on everything. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:06.629823",
+        "updated_at": "2026-09-21T16:04:06.629823",
+        "author": {
+          "id": "03885c52e34c55878c92441f7ab9467a",
+          "source_id": "general_reveal",
+          "username": "general_reveal",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "dcfd4ee1a2808b3ef17bbf719991a4ef",
+        "source_id": "49778450",
+        "content": {
+          "text": "Albion Online looks interesting, thanks, will check it out. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:06.630461",
+        "updated_at": "2026-09-21T16:04:06.630461",
+        "author": {
+          "id": "6b6014bf469b0f1a11fb0ceb00744e22",
+          "source_id": "herodoturtle",
+          "username": "herodoturtle",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-09-21T16:04:06.630735",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "bf190fed2036e6923537ca18d28dbc94",
+      "source_id": "49763466",
+      "title": "Ask HN: Remember N8n? Anyone?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">Wonder what happened to all their hype and agentic connector workflow?<p>Did Claude/GPT ate that market for good?</p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-21T16:03:50.480982",
+      "updated_at": "2026-09-21T16:03:50.480982",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "4e29f1dff2761af701bacabc8feffa95",
+        "source_id": "sankalpdomore",
+        "username": "sankalpdomore",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 9,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49763466",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "291aa3b669117205b80a7ff952379a7f",
+        "source_id": "49779798",
+        "content": {
+          "text": "Yes I use it for a few workflows for a client. Been using their hosted version since it was dirt cheap (and grandfathered in to that pricing). It’s been very reliable, I would continue to use it for workflow automations now as it’s simpler to reason with than LLM generated spaghetti code. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:08.934155",
+        "updated_at": "2026-09-21T16:04:08.934155",
+        "author": {
+          "id": "ad886b214856f6a1201027a8714f60bb",
+          "source_id": "scrivna",
+          "username": "scrivna",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d90deb9a8fbe9483e3f1d4a01f7f0902",
+        "source_id": "49773391",
+        "content": {
+          "text": "I remember 38400, 8, n, 1 38400 bits per second, 8 bits per character, no parity, 1 stop bit reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:08.934735",
+        "updated_at": "2026-09-21T16:04:08.934735",
+        "author": {
+          "id": "cf2bd8bbc1ac7fac6aa1daa41272d5d3",
+          "source_id": "mikewarot",
+          "username": "mikewarot",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1f9e5dc7f7ba2087b214ea165fefdd88",
+        "source_id": "49764442",
+        "content": {
+          "text": "I'm still using it just fine. I'm not sure how well the cloud business is doing, though. It's great as open source. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:08.935263",
+        "updated_at": "2026-09-21T16:04:08.935263",
+        "author": {
+          "id": "f3e803c20c811043584dfaf0cdc1543a",
+          "source_id": "haebom",
+          "username": "haebom",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "69b2cb10efa3f40275c04086f17e2bc4",
+        "source_id": "49771088",
+        "content": {
+          "text": "Dito. Running on my mac mini: Local LLM and n8n reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:08.935840",
+        "updated_at": "2026-09-21T16:04:08.935840",
+        "author": {
+          "id": "340dd406ff412a4435de7ae5c5a4e2c5",
+          "source_id": "eMpHaSe",
+          "username": "eMpHaSe",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "49439b11e8f8eedc4577372692eff46a",
+        "source_id": "49763988",
+        "content": {
+          "text": "No, lots of job postings still ask for them reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:08.936423",
+        "updated_at": "2026-09-21T16:04:08.936423",
+        "author": {
+          "id": "2845ad0a586c89a9cc07525be66375d7",
+          "source_id": "chistev",
+          "username": "chistev",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3e21f061fefb15db80e2aabe1c78b87b",
+        "source_id": "49778835",
+        "content": {
+          "text": "haven't seen a lot - which was the one you saw last? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:08.937040",
+        "updated_at": "2026-09-21T16:04:08.937040",
+        "author": {
+          "id": "4e29f1dff2761af701bacabc8feffa95",
+          "source_id": "sankalpdomore",
+          "username": "sankalpdomore",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a3200bad99ec6d393571e8608c49b386",
+        "source_id": "49764394",
+        "content": {
+          "text": "n8n - nodemation, a workflow automation platform and the Berlin company, n8n GmbH, that develops it. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:08.937693",
+        "updated_at": "2026-09-21T16:04:08.937693",
+        "author": {
+          "id": "69f0767ab0add52d50578e72caf83fb6",
+          "source_id": "pestatije",
+          "username": "pestatije",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-09-21T16:04:08.937973",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "452b373b27c1923af4110017c1b1ad4b",
+      "source_id": "49764727",
+      "title": "Ask HN: Losing motivation to work in the IT field, need advice",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-21T16:03:50.481663",
+      "updated_at": "2026-09-21T16:03:50.481663",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "56d6ec8e3e91713e9ef111495373be1e",
+        "source_id": "trowa159",
+        "username": "trowa159",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 21,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49764727",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-09-21T16:04:14.053785",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "83a59ead03d2b0f22f6d8aa8991227e2",
+      "source_id": "49770744",
+      "title": "Ask HN: Anyone using DeepSeek Harness (dsh) as part of a customer-facing agent?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">Is there anyone shipping dsh where your own customers/users are the ones interacting with it as part of the product (they do something, dsh runs, they get the result back).</div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-21T16:03:50.482197",
+      "updated_at": "2026-09-21T16:03:50.482197",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "2a8f95409da902cbe725c9f8b945c25f",
+        "source_id": "mmartindevelope",
+        "username": "mmartindevelope",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 5,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49770744",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-09-21T16:04:16.421854",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "b3cdc72bc1b877423461e59bc7b15577",
+      "source_id": "49755575",
+      "title": "Ask HN: What happens when Claude Code goes away?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">I have become very proficient with Claude Code and I use it for everything, both at work and in my personal life.  At this point, if I lost access to it, it would be like missing a body part.  At the risk of hyperbole, it makes me a better person.  I am more effective in everything I do.  Someday it will probably go away.  I haven't had great success making Claude Code work with local Ollama/Quen.</div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-21T16:03:50.482849",
+      "updated_at": "2026-09-21T16:03:50.482849",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "f640edd6f2b8894b41ab8a277379e301",
+        "source_id": "HoldOnAMinute",
+        "username": "HoldOnAMinute",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 8,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49755575",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "4d4207654460f77db20bfaefed00832e",
+        "source_id": "49757329",
+        "content": {
+          "text": "Losing access to Claude Code - just imagine it. That's really the main reason people push for local open-source models. If you build everything around a closed cloud API, you're basicly staking your whole career on someone else's rules. Anthropic can change prices or shut down your account anytime, and suddenly, your productivity takes a nosedive. There's only one way out: leran to run your own setup. Right now, getting Claude Code to work well alongside Ollama or Qwen is tough. Context management and system instructions are tricky. But honestly, it's our only real safety net. If you can fire up quantized Qwen 2.5 coder model on your own machine, you control your workflow. Sure, it might not be as fast as Sonnet, but there's no kill-switch, no subscriptions, and no strings attached. Think of AI tools like servers: if you can't self-host a backup, you don't really own your workflow. I worked with a friend on a local AI-Agent that can code, that can talk with you about anything and can control your whole computer, even spotify it can easily search on spotify or you can say \"open zapzap\" or \"open whatsapp\" it looks for apps on your computer if nothing found with the name it opens the browser and google if you say \"open youtube\" it opens the browser with https://www.youtube.com . of course you can say it with your voice what you want, so you haven't write it to it per keyboard if your busy. if you wanna try just write a response here and I talk to my friend if I can make it open source. Sorry for self-promoten here but it's something about the topic. if you have a problem with the self-promoten just write a reply and I'll remove this comment. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:18.568709",
+        "updated_at": "2026-09-21T16:04:18.568709",
+        "author": {
+          "id": "30ac155acf777eaf4ed7a0344e6c0d16",
+          "source_id": "gtadesktop1",
+          "username": "gtadesktop1",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7192e8843cde780894038103cb2f7abd",
+        "source_id": "49758407",
+        "content": {
+          "text": "I've had a Claude max plan that I've been using daily for about 6 months now.  This month I decided to turn off auto-renew and moved over to Codex to try it out.  There's virtually no switching costs.  Of course there are some slight differences I'm noticing between the two but nothing that would keep me loyal to one over the other. Also, Claude Code is the agentic harness with the underlying models being the anthropic ones.  If it's the harness you're worried about, try out Codex or any of the open source ones like OpenCode, Pi, Goose. This will never go away.  Instead it will become more local.  In the future, it's more likely that you have a model running on your computer.  These companies have no moat.  You don't need to worry about it going away or them charging beyond what you can pay. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:18.569311",
+        "updated_at": "2026-09-21T16:04:18.569311",
+        "author": {
+          "id": "42069ed7b5f5f96f0afc0a8be8f66316",
+          "source_id": "mattm",
+          "username": "mattm",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "beddc606058eab0b14f48894fb8aa43f",
+        "source_id": "49769885",
+        "content": {
+          "text": "Hopefully by then local models will be more useful or more accessible on decent hardware. For now, all my Codex projects include instructions to comment all code for human readers, develop unit tests, and document everything in human readable formats with a human audience in mind. Caveat: I was a pretty decent programmer before AI. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:18.569932",
+        "updated_at": "2026-09-21T16:04:18.569932",
+        "author": {
+          "id": "05370b441130fa037368d3902b7fe968",
+          "source_id": "runjake",
+          "username": "runjake",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9d4c0b6e7164b3792fd19d55b5c09246",
+        "source_id": "49774828",
+        "content": {
+          "text": "Yeah I have been using it to automate almost everything, even my gitlab ci's sometimes when those ci fails I just ask claude to use glab cli to figure things out on it's own. I have used codex and antigravity but not a huge fan of them. I feel my I am too much in favour of claude also because of plugins like GSD and superpower which I am accustomed too. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:18.570519",
+        "updated_at": "2026-09-21T16:04:18.570519",
+        "author": {
+          "id": "bdc724171bdf0795dd1ffce5d4b91085",
+          "source_id": "JoyenBenitto",
+          "username": "JoyenBenitto",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "18382b84e6846bcc2993c516eacca72e",
+        "source_id": "49771392",
+        "content": {
+          "text": "I've moved to Codex lately, Astra does better with less bugs. When GPT does poorly, I use Cursor. The autocomplete itself is extremely good. And then there's Kimi code and similar which can't keep up with the existing demand, much less the demand if all other tools go down. Then Opencode, which would probably be a year or so behind SOTA but it's good enough. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:18.571139",
+        "updated_at": "2026-09-21T16:04:18.571139",
+        "author": {
+          "id": "65547db35ad470ce1d9e44d413173434",
+          "source_id": "muzani",
+          "username": "muzani",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "bf66f83c5267b2d457353b13bc123f0d",
+        "source_id": "49755665",
+        "content": {
+          "text": "> Someday it will probably go away. It won't. There are dumps of the early Claude Code codebase/repo and it can be rebuilt from scratch by the community. You might lose access to Anthropic's models one day, but there are hundreds of alternative model choices. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:18.571802",
+        "updated_at": "2026-09-21T16:04:18.571802",
+        "author": {
+          "id": "6f8a0ef01950f54a2a0192e326613555",
+          "source_id": "bigyabai",
+          "username": "bigyabai",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "abb324cd2e04a4508fda36b0e157416b",
+        "source_id": "49756302",
+        "content": {
+          "text": "The model and the harness go hand in hand, in my opinion; other models aren't interchangeable here for quality results. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:18.572470",
+        "updated_at": "2026-09-21T16:04:18.572470",
+        "author": {
+          "id": "46d0c9228351522ad9090cd598f43a10",
+          "source_id": "ezulabs",
+          "username": "ezulabs",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "076a90967afeec046c5bc135058611f0",
+        "source_id": "49757149",
+        "content": {
+          "text": "I disagree. I abandoned Claude during Opus 4.8 for GLM 5, it was a flat upgrade for my work. I can't imagine going back to Claude and dealing with refusals or silent model degradation. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:18.573141",
+        "updated_at": "2026-09-21T16:04:18.573141",
+        "author": {
+          "id": "6f8a0ef01950f54a2a0192e326613555",
+          "source_id": "bigyabai",
+          "username": "bigyabai",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "642147d6f6fa01d6d5247a8a97134c2a",
+        "source_id": "49758016",
+        "content": {
+          "text": "This is what I'm referring to - the seamless integration - \"it just works\". reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:18.573867",
+        "updated_at": "2026-09-21T16:04:18.573867",
+        "author": {
+          "id": "f640edd6f2b8894b41ab8a277379e301",
+          "source_id": "HoldOnAMinute",
+          "username": "HoldOnAMinute",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5f378797d14bc252196c7c716ad3b444",
+        "source_id": "49758531",
+        "content": {
+          "text": "You can ask Claude to run a pre-mortem on this scenario happening and get it to recommend pre-emptive solutions. I irregularly use a framework similar to the one by Klein, Sonkin, Paul Johnson https://leonlins.com/writing/premortem to get one AI agent to consider the problems and potential solutions to vendor lock in. If this is for Claude specifically, feels like most common alternatives (Codex) are viable. If this is for AI agents generally, I've been backing up local model workflows as well reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:18.574685",
+        "updated_at": "2026-09-21T16:04:18.574685",
+        "author": {
+          "id": "5ad52402f738ab702bd13d4b7dd5cd33",
+          "source_id": "avoidboringppl",
+          "username": "avoidboringppl",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "917186725ccb78ce848dc9846b97bbf0",
+        "source_id": "49756508",
+        "content": {
+          "text": "bliss, that is what happens when it goes away. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:18.575459",
+        "updated_at": "2026-09-21T16:04:18.575459",
+        "author": {
+          "id": "cb37a7755a6e958054aa482ca7734c69",
+          "source_id": "soapdog",
+          "username": "soapdog",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "da8fe92339cae86a7769c98dad15de77",
+        "source_id": "49756078",
+        "content": {
+          "text": "Yeah, I know how you feel.  When my tokens run out doing work, I bounce to YouTube until I'm recharged.  Claude, like prostitution, drugs, and gambling, will never go away.  That's not how markets work. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:18.576236",
+        "updated_at": "2026-09-21T16:04:18.576236",
+        "author": {
+          "id": "e058ea9e7b7af7b8e8a1027b5bbef20b",
+          "source_id": "ferdy_zizmore",
+          "username": "ferdy_zizmore",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "31f06d1340ff6237b7b06b51769963b1",
+        "source_id": "49763984",
+        "content": {
+          "text": "“I haven't had great success making Claude Code work with local Ollama/Quen.” What’s been the biggest blocker for you? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:18.577070",
+        "updated_at": "2026-09-21T16:04:18.577070",
+        "author": {
+          "id": "7f8f98ce91cd5058c4d6c67021853453",
+          "source_id": "chachachainsaw",
+          "username": "chachachainsaw",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e076f06ba53f89d783ecdfc1502c55f2",
+        "source_id": "49756754",
+        "content": {
+          "text": "All bleeding stops. If Ed Zitron is to be believed, Anthropic, and all the other LLM based tools companies are bleeding cash at one of the highest burn rates in history, subsidizing your tools, and likely giving them to you at around 5-10% of their costs. Even if you're prepared to pay 10x or more for the same thing, most aren't, and they don't have a sustainable future. Your best bet is to develop a local capability on your own hardware while you've still got Claude to compare it to. Second best is to have an LLM model and harness you can run in the cloud independent of Anthropic or any other AI company. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:18.577951",
+        "updated_at": "2026-09-21T16:04:18.577951",
+        "author": {
+          "id": "cf2bd8bbc1ac7fac6aa1daa41272d5d3",
+          "source_id": "mikewarot",
+          "username": "mikewarot",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ea5f9cc85aebad03c8729492a3ea432e",
+        "source_id": "49777785",
+        "content": {
+          "text": "Ed Zitron is a clown. Look at his track record the past few years. Why would anyone believe him? https://danluu.com/zitron/ reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:18.578856",
+        "updated_at": "2026-09-21T16:04:18.578856",
+        "author": {
+          "id": "b2a03eaff8125aff11fdf95c6d0dc917",
+          "source_id": "askafriend",
+          "username": "askafriend",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a626cd7a498a4e528424577dc64b018b",
+        "source_id": "49777293",
+        "content": {
+          "text": "Jackpot! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:18.579765",
+        "updated_at": "2026-09-21T16:04:18.579765",
+        "author": {
+          "id": "155972ad03aeec58e2e8b5b5206251de",
+          "source_id": "lolakutty",
+          "username": "lolakutty",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3aba59b67aef05f14173e2485c38ee90",
+        "source_id": "49755972",
+        "content": {
+          "text": "use codex reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:18.580712",
+        "updated_at": "2026-09-21T16:04:18.580712",
+        "author": {
+          "id": "687f6b9554c7b9682c59428100d13530",
+          "source_id": "jearry",
+          "username": "jearry",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "18cb92be071d91434a5e5d86cabc241f",
+        "source_id": "49755673",
+        "content": {
+          "text": "You mean the model not the harness right reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:18.581695",
+        "updated_at": "2026-09-21T16:04:18.581695",
+        "author": {
+          "id": "40ebd785ec4a64b29145114b67f1784a",
+          "source_id": "blinkbat",
+          "username": "blinkbat",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "111b63709968d1c9d6df9ce839411d84",
+        "source_id": "49758005",
+        "content": {
+          "text": "No - Here is what I mean.  When I use Claude Code locally with Ollama/Quen, it can do the work just fine - like creating a script - but it just outputs it, rather than placing it into a file.  So far I can't convince it to actually WRITE to a file.  With Claude Code, it just works.  Recursing around the file system, it just does it.   I can't get that working locally. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:18.582746",
+        "updated_at": "2026-09-21T16:04:18.582746",
+        "author": {
+          "id": "f640edd6f2b8894b41ab8a277379e301",
+          "source_id": "HoldOnAMinute",
+          "username": "HoldOnAMinute",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3f3b9a1868783ba59cfce3f1cc5672b2",
+        "source_id": "49758286",
+        "content": {
+          "text": "The feature you're describing is called \"tool calling\" in harness parlance. It's not Anthropic-exclusive, it's probably broken on your local models because you misconfigured Ollama (or it misconfigured itself; Ollama isn't a great inference server). reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:18.583782",
+        "updated_at": "2026-09-21T16:04:18.583782",
+        "author": {
+          "id": "6f8a0ef01950f54a2a0192e326613555",
+          "source_id": "bigyabai",
+          "username": "bigyabai",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8479ed0d83d35b7f24fa96efca689c0f",
+        "source_id": "49760016",
+        "content": {
+          "text": "I would live as I did in :gasp: 2019. I would simply write code myself and spend less time talking to chatbots. I was more in demand then too. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:18.584831",
+        "updated_at": "2026-09-21T16:04:18.584831",
+        "author": {
+          "id": "45830fe5b76f5ab67aa306cd4f2352fd",
+          "source_id": "larrykubin",
+          "username": "larrykubin",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-09-21T16:04:18.585541",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "d76ffc3c41e033c9b58f27325ed5e8c9",
+      "source_id": "49724691",
+      "title": "Ask HN: What is the most career altering course or book you have gone through?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">Pls provide link if the course materials are available anywhere.</div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-21T16:03:50.483401",
+      "updated_at": "2026-09-21T16:03:50.483401",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "186f3e57000a36fda668416a4c7d323b",
+        "source_id": "learner_yearner",
+        "username": "learner_yearner",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 25,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49724691",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "874eaa708aa90b5e7deab9f289f0cb89",
+        "source_id": "49743024",
+        "content": {
+          "text": "Code: The Hidden Language of Computer Hardware And Software by Charles Petzold. I read it in my second year of studying computer-science during the summer break, and it completely changed how I view computing. First of all, the contents alone are quite valuable, even though it is an old book, as it basically walks you through building a simple relay computer on paper, with a CPU, RAM, simplified input devices, teaches you Intel 8080 assembly as an example of assembly programming, and then even goes over a simplified BIOS, OS, GPU and higher-level languages at the end, and it does not assume you have any previous knowledge; it starts from the basic physics behind electricity, then goes into boolean algebra, logic gates, etc. It's basically computer-architecture for the layman. Beyond the content of the book, I think the biggest mark it left on me is that it taught me that there is no magic behind the layers of abstraction, and that breaking problems and concepts down into simpler ones can make what initially seems like a very complex topic into something that someone can easily follow and understand. After I read the book, a lot of things I had already learnt at university felt like they made more sense, and I then took courses like Computer Architecture and Digital Circuit Design, where I felt a lot more confident than I probably would have, had I not read that book. It definitely colored how I viewed a lot of the courses I took at university after having read it. In my career as a software developer, I still often think about that book, and I love to learn things by re-inventing the wheel and building simpler versions of complex existing software. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:20.983706",
+        "updated_at": "2026-09-21T16:04:20.983706",
+        "author": {
+          "id": "a5147bdb27dbb400e6c1cd06876e93f5",
+          "source_id": "pid0x17",
+          "username": "pid0x17",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "48d09217185f921ba3a62e42ff7b5a2b",
+        "source_id": "49729121",
+        "content": {
+          "text": "Not a book or course per say, but based on a book: The Gervais Principle, Or The Office According to \"The Office\" by Venkat [0] Other contenders: Sapiens by Yuval Noah Harari [1] Haseeb qureshi's articles on Negotiating [2] These along with er... mind-altering substances, helped me see that reality as we live it (careers, status, institutions, ect) is like software: built/programmed by humans and can be changed by shifting your perspective. [0] https://ribbonfarm.com/series/the-gervais-principle/ [1] https://www.youtube.com/watch?v=CGhTQ4iruLc&list=PLfc2WtGuVP... [2] https://haseebq.com/my-ten-rules-for-negotiating-a-job-offer... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:20.984476",
+        "updated_at": "2026-09-21T16:04:20.984476",
+        "author": {
+          "id": "b17bc5222b54d8a9fbfc1b189a462c73",
+          "source_id": "neuralkoi",
+          "username": "neuralkoi",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2b878aedd5e21c9da9e91176c5a1afac",
+        "source_id": "49781088",
+        "content": {
+          "text": "I always see that book Sapiens recommended, but it has been heavily criticized by the scientific community as having lots of inaccuracies, which has restrained me from reading it. Carl Sagan has a better acclaimed book on the topic. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:20.985034",
+        "updated_at": "2026-09-21T16:04:20.985034",
+        "author": {
+          "id": "2845ad0a586c89a9cc07525be66375d7",
+          "source_id": "chistev",
+          "username": "chistev",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "79765cccbe1e7749b3e0ab5db60c039c",
+        "source_id": "49781129",
+        "content": {
+          "text": "Database Design for Mere Mortals. The first afternoon I spent reading and puzzling through that book was worth an entire semester of computer science classes on the topic — and caused me to fall in love with relational databases. With special mentions to K&R as well as The Manager’s Path. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:20.985641",
+        "updated_at": "2026-09-21T16:04:20.985641",
+        "author": {
+          "id": "6b7f6c219ea995fc6ef3e9e6eae719d5",
+          "source_id": "apothegm",
+          "username": "apothegm",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5518ee0d1b1b4b71323af031fad3cb6d",
+        "source_id": "49766896",
+        "content": {
+          "text": "Not a single book but learning from the writings of Cal Newport (blog, books, podcast) over the years have slowly but surely improved my understanding of career capital and how to best utilize attention & time, at least in tech industry. He does sound a little preachy sometimes but the underlying concepts/frameworks are coherent. https://calnewport.com/ reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:20.986277",
+        "updated_at": "2026-09-21T16:04:20.986277",
+        "author": {
+          "id": "50f39fd35500ca71c9c08f87a9ae1403",
+          "source_id": "imakwana",
+          "username": "imakwana",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ec86b4243efbc55d32395791b661629b",
+        "source_id": "49729804",
+        "content": {
+          "text": "https://en.wikipedia.org/wiki/How_to_Fail_at_Almost_Everythi... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:20.986928",
+        "updated_at": "2026-09-21T16:04:20.986928",
+        "author": {
+          "id": "47efcff6135cb9b94ce8c7a6bfa04c81",
+          "source_id": "oumua_don17",
+          "username": "oumua_don17",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ec5a3afd90a50085a5e047c2a8867211",
+        "source_id": "49733448",
+        "content": {
+          "text": "Sounds about right.  It is called failing forward.  Fail forwards, fail fast and keep going. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:20.987592",
+        "updated_at": "2026-09-21T16:04:20.987592",
+        "author": {
+          "id": "12dd531a31903b16303371d9acde29f8",
+          "source_id": "NishanStepak",
+          "username": "NishanStepak",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "94e70d095b45c032d54e5e18e4f98911",
+        "source_id": "49727450",
+        "content": {
+          "text": "Two books I read after 9/11 shaped my path greatly: 1.) Stasi: The Untold Story Of The East German Secret Police ISBN #: 0813337445 2.) The Rise and Fall of the Third Reich ISBN #: 9780671728694 Both should be available in most public libraries, but with the ISBN you can usually get almost anything via inter-library loan. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:20.988315",
+        "updated_at": "2026-09-21T16:04:20.988315",
+        "author": {
+          "id": "9d1237be63cf6e7f58907f4a4af572c2",
+          "source_id": "firefax",
+          "username": "firefax",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a66b87a71d6380cdd0b4735baa6c7da0",
+        "source_id": "49729318",
+        "content": {
+          "text": ">The Rise and Fall of the Third Reich An amazing book.  I'm not sure how it's particularly career-path-impacting, but it is fascinating being able to follow the cause and effect chain in Germany leading up to and all through the war (in excruciating detail). reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:20.989050",
+        "updated_at": "2026-09-21T16:04:20.989050",
+        "author": {
+          "id": "5f77df60237eccd9e982830c784e5d9e",
+          "source_id": "kbelder",
+          "username": "kbelder",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1b22ab7f058e284800891ff7507b70d4",
+        "source_id": "49766196",
+        "content": {
+          "text": "For me, a real gem though I don't usually recommend it since it's only in Italian is Decalogo della complessità by Alberto Felice De Toni. And the other one was Thinking, Fast and Slow by psychologist Daniel Kahneman. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:20.989827",
+        "updated_at": "2026-09-21T16:04:20.989827",
+        "author": {
+          "id": "4be44e9dd8b49025c68adf567646dbe4",
+          "source_id": "romerocarlos",
+          "username": "romerocarlos",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b4604f13e346e5f827d4120d405ab871",
+        "source_id": "49730886",
+        "content": {
+          "text": "\"The C Programming Language\", by Kernighan and Ritchie. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:20.990606",
+        "updated_at": "2026-09-21T16:04:20.990606",
+        "author": {
+          "id": "4cbca4a5fa16748dbdfd70b770eba7a3",
+          "source_id": "AnimalMuppet",
+          "username": "AnimalMuppet",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "856400798f1c31cb706555f450a6f966",
+        "source_id": "49724799",
+        "content": {
+          "text": "Data Smart, by John Foreman.\nOut of print, but you can get it from Abe Books: https://www.abebooks.com/book-search/title/data-smart-using-... Why it is cool? Because instead of R, Gadoop, Spark, Python, whatever... it started explaining data science with excel. The best part for me was optimization. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:20.991467",
+        "updated_at": "2026-09-21T16:04:20.991467",
+        "author": {
+          "id": "c173483576152814e102981effd53fd1",
+          "source_id": "eb0la",
+          "username": "eb0la",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c3ea3c1896b137be0488f51442bc8bf9",
+        "source_id": "49734714",
+        "content": {
+          "text": "I loved that book! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:20.992271",
+        "updated_at": "2026-09-21T16:04:20.992271",
+        "author": {
+          "id": "f19170f2d4573b5be9df47e048a9af44",
+          "source_id": "jfil",
+          "username": "jfil",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8ba75eafc41441d672723ea300f43048",
+        "source_id": "49736156",
+        "content": {
+          "text": "To answer the question as I misread it: What's the most career altering *course of action* you've gone through? I was an IT guy, and I took a job making gears in a job shop.  The pay and commute were horrible, but it was immensely satisfying. Some of the gears I helped make will still be in service in a century. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:20.993168",
+        "updated_at": "2026-09-21T16:04:20.993168",
+        "author": {
+          "id": "cf2bd8bbc1ac7fac6aa1daa41272d5d3",
+          "source_id": "mikewarot",
+          "username": "mikewarot",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "06a60c07c6bb1b52a04f672ff10de442",
+        "source_id": "49733183",
+        "content": {
+          "text": "\"The Annotated Turing\" - I didn't know you could meaningfully intertwine biography and technical analysis like that. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:20.994061",
+        "updated_at": "2026-09-21T16:04:20.994061",
+        "author": {
+          "id": "dae2cc8c41141fa0ff86a88b7e56b964",
+          "source_id": "schmudde",
+          "username": "schmudde",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "70652ed076b762518419fc708bee0b87",
+        "source_id": "49754097",
+        "content": {
+          "text": "Fantastic book. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:20.994977",
+        "updated_at": "2026-09-21T16:04:20.994977",
+        "author": {
+          "id": "54409067adfcbd8bebfaf8d094f0646e",
+          "source_id": "commandersaki",
+          "username": "commandersaki",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "48ef3a5e18f03bd93ac99aed7af36f6a",
+        "source_id": "49730637",
+        "content": {
+          "text": "Programming Perl, 1st Ed. from Larry Wall.\nThe three great virtues of a programmer were enlightening for a fresh-outta-college beginner. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:20.995912",
+        "updated_at": "2026-09-21T16:04:20.995912",
+        "author": {
+          "id": "e51e81c104c69ab9978267ce8e981fce",
+          "source_id": "slipwalker",
+          "username": "slipwalker",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "714976d58c223c56eb9b339f4ee62141",
+        "source_id": "49746925",
+        "content": {
+          "text": "Creativity, Inc. It taught me to not limit my imagination and to think of creativity as a way of approaching problems rather than something limited to art. As a developer, it genuinely changed the way I think about building things. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:20.996887",
+        "updated_at": "2026-09-21T16:04:20.996887",
+        "author": {
+          "id": "50e2646708f4f50f26fc833358c3980d",
+          "source_id": "arnav714412",
+          "username": "arnav714412",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6802ab3acb2660b2b85d11c2c2168ee8",
+        "source_id": "49750299",
+        "content": {
+          "text": "How Will You Measure Your Life? by Clayton Christensen. He basically took business strategy and applied it to personal life and career choices. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:20.997888",
+        "updated_at": "2026-09-21T16:04:20.997888",
+        "author": {
+          "id": "e1883bbe776f9b1748b015cc1799c151",
+          "source_id": "evaltoken",
+          "username": "evaltoken",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "dbc721af1b17f87f8873b319e27e5cd4",
+        "source_id": "49727985",
+        "content": {
+          "text": "The Boy's Second book of Electronics by Alfred Morgan(1957) introduced me to electronics circa 1975, and lead to a technical mindset and lifestyle. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:20.998942",
+        "updated_at": "2026-09-21T16:04:20.998942",
+        "author": {
+          "id": "cf2bd8bbc1ac7fac6aa1daa41272d5d3",
+          "source_id": "mikewarot",
+          "username": "mikewarot",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "335b514254c2891c414468107736bbed",
+        "source_id": "49774841",
+        "content": {
+          "text": "The Bible. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:20.999987",
+        "updated_at": "2026-09-21T16:04:20.999987",
+        "author": {
+          "id": "03885c52e34c55878c92441f7ab9467a",
+          "source_id": "general_reveal",
+          "username": "general_reveal",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7924d0769170aae76c915f2900a38a81",
+        "source_id": "49756375",
+        "content": {
+          "text": "not career altering but worth to mention \"Head First Series\" when it comes to tech books. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:21.001073",
+        "updated_at": "2026-09-21T16:04:21.001073",
+        "author": {
+          "id": "46d0c9228351522ad9090cd598f43a10",
+          "source_id": "ezulabs",
+          "username": "ezulabs",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ac41362f42e2fa084baa73c9ef9f6e9d",
+        "source_id": "49738052",
+        "content": {
+          "text": "A/B testing. I learned how to write high performance JavaScript code directly to the DOM without a bunch of abstraction bullshit. Turns out this proved to be a bias because our experiment code frequently executed faster and failed far less than the actual production code that went out later. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:21.002184",
+        "updated_at": "2026-09-21T16:04:21.002184",
+        "author": {
+          "id": "0ae492937dcc65e2e9ad4e3b8663757f",
+          "source_id": "austin-cheney",
+          "username": "austin-cheney",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a00f09ae298ebd1913e76e405a9f11cd",
+        "source_id": "49725743",
+        "content": {
+          "text": "A digital electronics design course I took at the local science museum when I was 11. It was free, so what the heck, I took it on a whim. I didn't know it at the time, but it set the course of my career for the rest of my life even though I'm a software, not electronic, engineer. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:21.003333",
+        "updated_at": "2026-09-21T16:04:21.003333",
+        "author": {
+          "id": "98f9b9ba1cc5c4d684462d480b2982a4",
+          "source_id": "JohnFen",
+          "username": "JohnFen",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1c8bd32b8da382eade9e9db46e398fbd",
+        "source_id": "49724704",
+        "content": {
+          "text": "for me it was learning devops reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:21.004626",
+        "updated_at": "2026-09-21T16:04:21.004626",
+        "author": {
+          "id": "9de675b7505fdd2400efb6db18f7f3e1",
+          "source_id": "Natashash23",
+          "username": "Natashash23",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6070f27f2bd5b4b20e3c31db0a02efd3",
+        "source_id": "49750587",
+        "content": {
+          "text": "Which books ? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:21.005871",
+        "updated_at": "2026-09-21T16:04:21.005871",
+        "author": {
+          "id": "eefed1a5afae21378eae1c4cc6e708dd",
+          "source_id": "BOOSTERHIDROGEN",
+          "username": "BOOSTERHIDROGEN",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-09-21T16:04:21.006752",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "17eb798ddcd0dd06d4678e8f48b0677d",
+      "source_id": "49767888",
+      "title": "Ask HN: ICLR went from 143 submissions to 62,301 submission IDs – what happened?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">10 years ago, ICLR had just 143 submissions. ICLR 2026 received 19,525 valid submissions. Just before the ICLR 2027 deadline, we saw submission ID #62,302. The OpenReview ID isn't the final submission count, but the growth is pretty wild to see.</div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-21T16:03:50.483932",
+      "updated_at": "2026-09-21T16:03:50.483932",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "fa64b0f3da19fe689a4d4780db9fd313",
+        "source_id": "luxshan_t",
+        "username": "luxshan_t",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 8,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49767888",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "a9400eda847a8bfd06d5e6ddfd2fbf25",
+        "source_id": "49774548",
+        "content": {
+          "text": "Used to be in every AI/ML job advert, that they preferred those who had previously published in the top 3. Ironically now it has become a bit of a meme and I see it less often as one of the \"nice to have\". reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:23.978026",
+        "updated_at": "2026-09-21T16:04:23.978026",
+        "author": {
+          "id": "fafec89166c4f4388377bd943ae40186",
+          "source_id": "giacomoforte",
+          "username": "giacomoforte",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1518f10a460d9795698c9a044a74c94d",
+        "source_id": "49785517",
+        "content": {
+          "text": "To save those browsing the google: \"International Conference on Learning Representation\" so an AI conference. > ... what happened? Seriously? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:23.978638",
+        "updated_at": "2026-09-21T16:04:23.978638",
+        "author": {
+          "id": "8344e1a8ee633d3e96910928a79df3c2",
+          "source_id": "dcminter",
+          "username": "dcminter",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "957e730789d5f1df6764b08209e56e5f",
+        "source_id": "49768012",
+        "content": {
+          "text": "This is wild. I submitted at 11:08am IST, the submission ID was already #55,005. By 11:45am IST it had reached #55,499. a HUGE submission number!!! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:23.979154",
+        "updated_at": "2026-09-21T16:04:23.979154",
+        "author": {
+          "id": "feef64cf72fd11995940840f0e372f8f",
+          "source_id": "sivasuthan9",
+          "username": "sivasuthan9",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "83acb820f1d646ea00c5a794dd02fb03",
+        "source_id": "49768663",
+        "content": {
+          "text": "Really curious to see what research will look like 5–10 years from now :) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:23.979716",
+        "updated_at": "2026-09-21T16:04:23.979716",
+        "author": {
+          "id": "feef64cf72fd11995940840f0e372f8f",
+          "source_id": "sivasuthan9",
+          "username": "sivasuthan9",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f07d87986d6486c832974f6f0ab478a5",
+        "source_id": "49769144",
+        "content": {
+          "text": "1,500,000 submissions for ICLR. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:23.980301",
+        "updated_at": "2026-09-21T16:04:23.980301",
+        "author": {
+          "id": "e5579028078892c9e3645eff863284b6",
+          "source_id": "jubeerathan",
+          "username": "jubeerathan",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "11092ee6ee65ace7d12897016881942e",
+        "source_id": "49768744",
+        "content": {
+          "text": "there’s another interesting problem, do authors always understand what they submit? Some CMU researchers looked into exactly this and proposed a method to tackle it: https://www.cs.cmu.edu/~nihars/preprints/greCAPTCHA.pdf reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-21T16:04:23.980955",
+        "updated_at": "2026-09-21T16:04:23.980955",
+        "author": {
+          "id": "feef64cf72fd11995940840f0e372f8f",
+          "source_id": "sivasuthan9",
+          "username": "sivasuthan9",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-09-21T16:04:23.981200",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "2c6ec4d3f47995faef535d3295116d01",
+      "source_id": "49743493",
+      "title": "Ask HN: Co-Founder(s). Do I need any? How would I even find them?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-21T16:03:50.484717",
+      "updated_at": "2026-09-21T16:03:50.484717",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "7e33719bbfea88037e560b16ae8ef7db",
+        "source_id": "bhollan",
+        "username": "bhollan",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 15,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49743493",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-09-21T16:04:27.108270",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  }
+]
