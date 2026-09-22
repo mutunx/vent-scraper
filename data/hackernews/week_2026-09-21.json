@@ -3559,5 +3559,3642 @@
       ],
       "is_nsfw": false
     }
+  },
+  {
+    "post": {
+      "id": "9706ca8a6e0d7558ae18be12e91e6b88",
+      "source_id": "49802417",
+      "title": "Ask HN: Should we still learn coding?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-22T16:03:14.165978",
+      "updated_at": "2026-09-22T16:03:14.165978",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "03a84a5b236f10c760d793377065dacd",
+        "source_id": "NarcisMirandes",
+        "username": "NarcisMirandes",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 6,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49802417",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-09-22T16:03:18.871910",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "38dd157c82a89c6344d3c4847950d12d",
+      "source_id": "49786609",
+      "title": "Ask HN: Is it impossible to disable Siri on macOS 27?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">I disabled Siri in the Settings app, and then further disabled Siri and its extensions in Settings &gt; Screen Time.<p>Next, I disabled all Siri-related and Apple Intelligence-related services as per https://github.com/OleksandrKrupko/mac-os-debloat<p>But after restarting, I could still see a \"Siri\" process running in Activity Monitor. Upon further inspection, I found that it is the \"Siri AI.app\".<p>These \"features\", together with Apple's Personal Context sound very similar to Microsoft's Recall.<p>Does anyone have the same experience? Is it really impossible to fully turn off Siri, Siri AI, Apple Intelligence and all related services and features on macOS 27?</p></p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-22T16:03:14.166729",
+      "updated_at": "2026-09-22T16:03:14.166729",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "3b3927c3cfb3de03cafc685f3b21d4d2",
+        "source_id": "semidror",
+        "username": "semidror",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 148,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49786609",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "a5336996c3419d142fbaae63e7543a6a",
+        "source_id": "49789912",
+        "content": {
+          "text": "You should make use of Cunningham's Law[1]. Instead of posting an \"Ask HN\" asking if it's impossible to disable, post a \"Show HN\" claiming that it is impossible to disable. Then people will flock to tell you how it can be disabled by XYZ. [1] https://meta.wikimedia.org/wiki/Cunningham%27s_Law reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.880841",
+        "updated_at": "2026-09-22T16:03:20.880841",
+        "author": {
+          "id": "39b51ec1a24a4f993bf6db3e7dd12659",
+          "source_id": "jodrellblank",
+          "username": "jodrellblank",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "724b554ce670c169688cb352d7a120c3",
+        "source_id": "49795078",
+        "content": {
+          "text": "Great advice. I should definitely heed this more often. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.881394",
+        "updated_at": "2026-09-22T16:03:20.881394",
+        "author": {
+          "id": "770b26a8a6e39a843f350294ad7e008c",
+          "source_id": "anguishe",
+          "username": "anguishe",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9d9bd88583afb021e772ba283adcdb5e",
+        "source_id": "49787227",
+        "content": {
+          "text": "Just as a note, from what I see the problem is not only the privacy implications but also that the local AI comes with a baggage amounting to 10% of the space on the base mac models. Which is already severely limited. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.881916",
+        "updated_at": "2026-09-22T16:03:20.881916",
+        "author": {
+          "id": "1eb91b263d347252b14bb40adba945a5",
+          "source_id": "nottorp",
+          "username": "nottorp",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "fb76372265cfb2625cfdd0c8f00add88",
+        "source_id": "49787508",
+        "content": {
+          "text": "I have not found the local/remote hand off to be very reliable either, so tasks that used to be almost instantaneous for Siri are now spinning to the point where I assume they failed. A simple 2 minute timer took almost 30 seconds to set the other day. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.882486",
+        "updated_at": "2026-09-22T16:03:20.882486",
+        "author": {
+          "id": "6c718a05b941d110918d5a96468d8622",
+          "source_id": "threetonesun",
+          "username": "threetonesun",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f1ad0fbf189463929643b493648531b4",
+        "source_id": "49787802",
+        "content": {
+          "text": "You're brave. I'm still on Sequoia. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.883057",
+        "updated_at": "2026-09-22T16:03:20.883057",
+        "author": {
+          "id": "1eb91b263d347252b14bb40adba945a5",
+          "source_id": "nottorp",
+          "username": "nottorp",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b3dbb37f3aaa17a0d34763c1bc94cbd8",
+        "source_id": "49801891",
+        "content": {
+          "text": "I'm still on Mojave (10.14!) and it's just brilliant compared to the more modern MacOS. There's a Firefox fork called Momiji ( https://github.com/aobaharuki2005/momiji-web-browser ) which backports recent Firefox to very much older macOSes, and basically I still use 32 bit x86 applications sometimes. My next laptop computer (which is sorely overdue) will be Linux with macOS in a VM. A pity, because Keynote is great. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.883739",
+        "updated_at": "2026-09-22T16:03:20.883739",
+        "author": {
+          "id": "d31444cc75fb26590ba61a6711c84f9f",
+          "source_id": "azalemeth",
+          "username": "azalemeth",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "cca52c1a4303184a219134240482f63a",
+        "source_id": "49790754",
+        "content": {
+          "text": "Same here. The new macOS'es always seem to add more restrictions, more bloat, etc nowadays. I was thinking of upgrading the other day; glad I didn't. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.884393",
+        "updated_at": "2026-09-22T16:03:20.884393",
+        "author": {
+          "id": "5d049bafa7e60507bbe91558e41b5e7e",
+          "source_id": "elcritch",
+          "username": "elcritch",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "810b441d698fee3a11806f6199f9bb30",
+        "source_id": "49790710",
+        "content": {
+          "text": "considering security i think you are the one who is brave but i am biassed so dont worry more than u already do xD reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.885061",
+        "updated_at": "2026-09-22T16:03:20.885061",
+        "author": {
+          "id": "d87ee91494b24796c531143b21e9779f",
+          "source_id": "saidnooneever",
+          "username": "saidnooneever",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "fff804a0b5a1657a79055be22d183eac",
+        "source_id": "49791622",
+        "content": {
+          "text": "Oh look at that, there's a new update for Sequoia in settings! It did take me a week to notice because the assholes keep spamming me about 26 or 27, but it's there. > The new macOS'es always seem to add more restrictions, more bloat The main reason I'm on Sequoia is the low contrast UI with the invisible resize points. The \"intelligence\" taking up space and probably having no off button is secondary. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.885792",
+        "updated_at": "2026-09-22T16:03:20.885792",
+        "author": {
+          "id": "1eb91b263d347252b14bb40adba945a5",
+          "source_id": "nottorp",
+          "username": "nottorp",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3c6bbd7d4d86829fecf59430b1261fd1",
+        "source_id": "49798112",
+        "content": {
+          "text": "Oh look at that, there's a new update for Sequoia in settings! Apple only guarantees to fix all known issues and security bugs in their latest OS versions. Note: Because of dependency on architecture and system changes to any current version of Apple operating systems (for example, iOS 27, macOS 27, and so on), not all known security issues are addressed in previous versions (for example, iOS 26, macOS 26, and so on). https://support.apple.com/guide/deployment/about-software-up... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.886598",
+        "updated_at": "2026-09-22T16:03:20.886598",
+        "author": {
+          "id": "d48d40edb30a22c9e4407eda4ce48f7d",
+          "source_id": "hurfdurf",
+          "username": "hurfdurf",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "fafad2a98e03a618bb1a2b8204ff5bc5",
+        "source_id": "49787699",
+        "content": {
+          "text": "The process that shows the Spotlight UI is now the one called \"Siri\", previously it was called \"Spotlight\". reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.887353",
+        "updated_at": "2026-09-22T16:03:20.887353",
+        "author": {
+          "id": "35c2492b3c441c12b5b3b443d2f979df",
+          "source_id": "galad87",
+          "username": "galad87",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2fa4355a9d4aed6ad749da416fee93e9",
+        "source_id": "49787792",
+        "content": {
+          "text": "Thanks, that's an interesting observation! When I double-clicked on the \"Siri\" process in Activity Monitor, I saw that it's an app called \"Siri AI\". If the \"Siri AI\" app has replaced Spotlight, then I wonder if Apple keeps building \"personal context\" despite Siri and Apple Intelligence being disabled. It for sure doesn't sound well to disable Siri and still see a \"Siri\" process. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.888143",
+        "updated_at": "2026-09-22T16:03:20.888143",
+        "author": {
+          "id": "3b3927c3cfb3de03cafc685f3b21d4d2",
+          "source_id": "semidror",
+          "username": "semidror",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "fc0bafe7534e54bfbe23739d45db6c7b",
+        "source_id": "49789846",
+        "content": {
+          "text": "This sounds similar to Microsoft and the start menu. A few years ago I went to extreme lengths to disable cortana (powershell guid uninstall). This invisibly and inexplicably disabled updates to the start menu search feature. The index remained the feature worked, it just never got updated again.  No amount of manually reindexing the disk helped. Reinstalling cortana got it working. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.888956",
+        "updated_at": "2026-09-22T16:03:20.888956",
+        "author": {
+          "id": "6b687a1a41cc92ac3eafcd6830194af3",
+          "source_id": "cosmotic",
+          "username": "cosmotic",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "45eded0e2652f54845a7e72eda3dd4cc",
+        "source_id": "49790372",
+        "content": {
+          "text": "That makes sense. Sending SIGKILL to that process causes the spotlight UI in the menu bar to flash. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.889808",
+        "updated_at": "2026-09-22T16:03:20.889808",
+        "author": {
+          "id": "9f1a0eddf627931157ff3751fd798ac1",
+          "source_id": "kccqzy",
+          "username": "kccqzy",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6755dac955ee3ed0aebc0f4f1587c8ea",
+        "source_id": "49787196",
+        "content": {
+          "text": "I've been daily-driving a mac for 10 years now and I've only ever triggered Siri by accident.  I do use it pretty regularly on the phone, mostly to set timers, get directions, and call contacts, but I've been well trained over these years to not expect it to be capable of more than that. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.890676",
+        "updated_at": "2026-09-22T16:03:20.890676",
+        "author": {
+          "id": "62cb4a724d814cd7f082534f91f895a7",
+          "source_id": "chuckadams",
+          "username": "chuckadams",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2f50972779b9d36b751a1fafe82ef840",
+        "source_id": "49789387",
+        "content": {
+          "text": "Trivia: the most popular method of using Siri, per the analytics, is \"accidental activation\". reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.891569",
+        "updated_at": "2026-09-22T16:03:20.891569",
+        "author": {
+          "id": "05370b441130fa037368d3902b7fe968",
+          "source_id": "runjake",
+          "username": "runjake",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0628532a4f93e68f1ac79a5ae713921f",
+        "source_id": "49787908",
+        "content": {
+          "text": "I remember it being pretty useful on phone. Now, it can't even \"like\" a song when I'm driving and I want it to add a song to my Spotify favourites list. It could do a few months ago, now it refuses with \"sorry there was a problem with the app\". I've had to resort to asking it to take a screenshot so I can go find the song later. Three quarters of the time it never saves the screenshot though, despite seeing the screen flash out of the corner of my eye. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.892509",
+        "updated_at": "2026-09-22T16:03:20.892509",
+        "author": {
+          "id": "6288a69faa75a84d655ce028d5a96410",
+          "source_id": "lloydatkinson",
+          "username": "lloydatkinson",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "807c65abb9c6c90615f7d81c6895b400",
+        "source_id": "49791827",
+        "content": {
+          "text": "Gemini is similarly a step back. Google Assistant could hear me speak up and ask it to like or skip a song being played, driving or otherwise. It would quickly beep at me, pause the music/etc, accept input, process, then finish and resume the music (or skip to next track if asked). Now it takes 10-15 seconds to start after a voice command, won't audibly alert or even stop music to take voice input, and usually fails to hear anything then quit out. Half the time it does that it then pauses the music and quits... With Tidal Gemini can't do anything using voice commands. Maybe SOTA models can help those on the bleeding edge, but 95% of tech users just want it to work and be cheap enough. Apple figured this out a long time ago but can't help itself with being too clever. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.893492",
+        "updated_at": "2026-09-22T16:03:20.893492",
+        "author": {
+          "id": "fd472ce6841719a3b584cec8cfe842cd",
+          "source_id": "selicos",
+          "username": "selicos",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1ff01045e1e9c373fbe36f0e6facc0bb",
+        "source_id": "49801395",
+        "content": {
+          "text": "> Gemini is similarly a step back. Google Assistant could hear me speak up and ask it to like or skip a song being played, driving or otherwise. It would quickly beep at me, pause the music/etc, accept input, process, then finish and resume the music (or skip to next track if asked). Yeah I used the old Assistant regularly, but after the Gemini update it started refusing to set a timer for me, so I churned. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.894495",
+        "updated_at": "2026-09-22T16:03:20.894495",
+        "author": {
+          "id": "9f913ea68ec4cb8b60d5f46952d80889",
+          "source_id": "disgruntledphd2",
+          "username": "disgruntledphd2",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d4e7865cc8508fa7e35394892d7618c2",
+        "source_id": "49789226",
+        "content": {
+          "text": "I've been using an iPhone 12 Mini since however long it's been out, never used Siri intentionally either, would prefer to disable it fully, but CarPlay for some reason cannot be used without Siri, even though I never use Siri. I consider it 1st party malware at this point. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.895505",
+        "updated_at": "2026-09-22T16:03:20.895505",
+        "author": {
+          "id": "ce8377b632ae8cfdbcb2d078429130ec",
+          "source_id": "embedding-shape",
+          "username": "embedding-shape",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b90cab080b35213ce7d3798b5cad361c",
+        "source_id": "49789348",
+        "content": {
+          "text": "It’s because they’d prefer you interacted with CarPlay with voice rather than looking away from the road. An admirable objective, but given how “well” siri has worked in the past, an unrealistic one.  We’ll see if 27 is a significant improvement.  If I had to bet, I’d bet no, at least for the next year. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.896569",
+        "updated_at": "2026-09-22T16:03:20.896569",
+        "author": {
+          "id": "3eed93066847963a6ea10f3b76f2ad53",
+          "source_id": "gumby",
+          "username": "gumby",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "19c66a16f06b68ec2795551230561289",
+        "source_id": "49797967",
+        "content": {
+          "text": "> It’s because they’d prefer you interacted with CarPlay with voice rather than looking away from the road. So given I don't want to look at the phone nor speak with Siri, can I turn off interacting with the phone at all while it's connected? No, somehow, they do it the opposite way, and oh no, accidentally I need to also agree that Siri can listen all the time and also agree to... Come on, it's very transparent what they're doing. Siri on or off doesn't make me or others look more or less on the phone. Forcing Siri on, forces us who don't use Siri and don't want to use Siri, to accidentally trigger Siri while we fucking drive, which is absolutely horrible. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.897673",
+        "updated_at": "2026-09-22T16:03:20.897673",
+        "author": {
+          "id": "ce8377b632ae8cfdbcb2d078429130ec",
+          "source_id": "embedding-shape",
+          "username": "embedding-shape",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "73c9bdc43e49090b160b3c5701f7a4e7",
+        "source_id": "49787779",
+        "content": {
+          "text": "Your training is now out of date. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.898765",
+        "updated_at": "2026-09-22T16:03:20.898765",
+        "author": {
+          "id": "dc0b257dc5d0b78eea025b0c218d4cd6",
+          "source_id": "baggy_trough",
+          "username": "baggy_trough",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "31955ac3d5bc5a56326fafac2b2a8697",
+        "source_id": "49787108",
+        "content": {
+          "text": "In Screen Time -> Content and Privacy, there's a setting to switch Siri to 'Siri Classic' which strips out the Apple Intelligence-backed behavior specifically. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.899887",
+        "updated_at": "2026-09-22T16:03:20.899887",
+        "author": {
+          "id": "e3c35d9c3afda125e321905cf93f9049",
+          "source_id": "Nata_Elisym",
+          "username": "Nata_Elisym",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f32a0c08b61fb87f753b4840c718b1e2",
+        "source_id": "49787520",
+        "content": {
+          "text": "Instead of \"Siri Classic\", I selected the \"Don’t Allow Siri\" option, but it didn't help. The \"Siri\" (Siri AI.app) process keeps running regardless. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.901036",
+        "updated_at": "2026-09-22T16:03:20.901036",
+        "author": {
+          "id": "3b3927c3cfb3de03cafc685f3b21d4d2",
+          "source_id": "semidror",
+          "username": "semidror",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f66ed7a6bcffe7c9cbc7ebf7fe70f2df",
+        "source_id": "49787703",
+        "content": {
+          "text": "Sounds like Apple hired some of the Microsoft project managers. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.902235",
+        "updated_at": "2026-09-22T16:03:20.902235",
+        "author": {
+          "id": "01422871a1c44aedf7e7b63dc234207b",
+          "source_id": "pixl97",
+          "username": "pixl97",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b3dff45628353ed95f4c9556489be0f5",
+        "source_id": "49791038",
+        "content": {
+          "text": "In my experience, every company with more than 1000 employees absolutely has garbage project managers! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.903517",
+        "updated_at": "2026-09-22T16:03:20.903517",
+        "author": {
+          "id": "706262d2786b5f843959fff1d6422b81",
+          "source_id": "skort",
+          "username": "skort",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "77037e940ac789abdb8380495be9f60f",
+        "source_id": "49789683",
+        "content": {
+          "text": "Why would you say that? Can't it be a genuine Apple product? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.904758",
+        "updated_at": "2026-09-22T16:03:20.904758",
+        "author": {
+          "id": "952c1c5d83f4d31605943018dea7b2a7",
+          "source_id": "alexaholic",
+          "username": "alexaholic",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "09311755279cde4b79b0abe5cd30963b",
+        "source_id": "49790021",
+        "content": {
+          "text": "It's a joke. Microsoft has been ignoring user preferences and doing what is good for Microsoft for many years now, and the parent poster was implying that Apple is now doing the same kind of bad behavior. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.906021",
+        "updated_at": "2026-09-22T16:03:20.906021",
+        "author": {
+          "id": "ed99bc9b0e9a3d5006544943dc85da1f",
+          "source_id": "bigstrat2003",
+          "username": "bigstrat2003",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "265a9a44dee1567885fc17ceb96d230c",
+        "source_id": "49790343",
+        "content": {
+          "text": "I disagree with what you say, so remind me later. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.907332",
+        "updated_at": "2026-09-22T16:03:20.907332",
+        "author": {
+          "id": "9c0e14c039967a562a6d4ef0caf03d5c",
+          "source_id": "card_zero",
+          "username": "card_zero",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "410e807482ca2318a426c30801b97e77",
+        "source_id": "49791224",
+        "content": {
+          "text": "I think the people who aren't greeted by this dichotomy when turning their PC aren't catching the reference. At the risk of explaining a joke: Windows tries to get you to set up things like OneDrive on startup with a \"do it now\" or \"remind me later\", there's no \"never ask me about this again\". reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.908664",
+        "updated_at": "2026-09-22T16:03:20.908664",
+        "author": {
+          "id": "0013a1d8872c7f2bf0684f9c8f0d44a5",
+          "source_id": "mh-",
+          "username": "mh-",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "88b20104940fe2162bb874e2c208eb93",
+        "source_id": "49787605",
+        "content": {
+          "text": "There’s the old trick of setting your computer language to be different from the Siri language. I get the following error message when I open Siri in Settings: > Apple Intelligence requires that Mac and Siri are set to the same language. Currently your Mac is set to English (United States) and Siri is set to English (Canada). I think at one point they may have removed this limitation but then they reintroduced it in macOS 27.0. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.910047",
+        "updated_at": "2026-09-22T16:03:20.910047",
+        "author": {
+          "id": "9f1a0eddf627931157ff3751fd798ac1",
+          "source_id": "kccqzy",
+          "username": "kccqzy",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9a5bd4fe5e0b328ef495a53ae7eec306",
+        "source_id": "49787722",
+        "content": {
+          "text": "Yes, I did something similar: prior to disabling Siri, I set Siri's language to French and kept the system language set to English (UK), but the Siri AI.app (\"Siri\" process in Activity Monitor) just keeps running despite Siri being indicated as disabled in Settings. If you are on macOS 27, could you please open Activity Monitor, search (filter) for \"siri\" and see if a process called \"Siri\" is still running? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.911457",
+        "updated_at": "2026-09-22T16:03:20.911457",
+        "author": {
+          "id": "3b3927c3cfb3de03cafc685f3b21d4d2",
+          "source_id": "semidror",
+          "username": "semidror",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "bc4d39fb702598095e019fef78031934",
+        "source_id": "49788032",
+        "content": {
+          "text": "You are right. The UI shows Siri disabled and offers to turn it on, but the process is still running. That process seems to change its name based on whether the UI thinks Siri is enabled; it can be called either just \"Siri\" or \"Siri AI\" but it’s the same executable. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.912873",
+        "updated_at": "2026-09-22T16:03:20.912873",
+        "author": {
+          "id": "9f1a0eddf627931157ff3751fd798ac1",
+          "source_id": "kccqzy",
+          "username": "kccqzy",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d6ed513c4aafc79937d2a05517e60506",
+        "source_id": "49792396",
+        "content": {
+          "text": "FWIW it's entirely possible (and not uncommon) for a single executable to behave differently depending on the name it was launched under. I have no idea in this case, but it's possible that \"Siri\" and \"Siri AI\" are genuinely different in behaviours and interfaces and dependencies, even if they are the same binary. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.914345",
+        "updated_at": "2026-09-22T16:03:20.914345",
+        "author": {
+          "id": "e1eb7124429c5ee426b3c3511ebbee3c",
+          "source_id": "quesera",
+          "username": "quesera",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9896b06fe6b01b9a7c9caa006d4f4a24",
+        "source_id": "49790054",
+        "content": {
+          "text": "This is a reddit thread where OP claims to have gotten instructions from Apple Support to remove Apple Intelligence. https://www.reddit.com/r/mac/comments/1wlm6gd/apple_support_... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.915834",
+        "updated_at": "2026-09-22T16:03:20.915834",
+        "author": {
+          "id": "1c4f77584b1b11fa4c2bd697cdb51aac",
+          "source_id": "Shuddown",
+          "username": "Shuddown",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "60e537aa00467c095e1df3f4059845b0",
+        "source_id": "49790956",
+        "content": {
+          "text": "I like how Apple designed an optional feature that requires you to disable SIP to reclaim storage space. If you don't manually delete the files, they remain on your Mac until your storage is nearly full. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.917354",
+        "updated_at": "2026-09-22T16:03:20.917354",
+        "author": {
+          "id": "576eb3097d492389e1441f2eb3b497f7",
+          "source_id": "iAMkenough",
+          "username": "iAMkenough",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d1a8a12135e2f42bc3ee098b8e98502e",
+        "source_id": "49788576",
+        "content": {
+          "text": "One workaround that I know would work would be an enterprise profile. I know this because I’m one of the people tasked with blocking AI stuff at my org. How you’d implement this without a subscription to management (MDM) software I leave to you to research. I know it’s possible without proprietary tools because I’ve read about people using profiles to block software updates on their personal computers, but I don’t recall how that’s done. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.918871",
+        "updated_at": "2026-09-22T16:03:20.918871",
+        "author": {
+          "id": "4385258ef098ae6fc4716df0652b0679",
+          "source_id": "alsetmusic",
+          "username": "alsetmusic",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0f5202601940a80ec5aad6b3a071e97a",
+        "source_id": "49788919",
+        "content": {
+          "text": "You can just use Apple Configurator to make a .mobileconfig file and apply that, no MDM required. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.920443",
+        "updated_at": "2026-09-22T16:03:20.920443",
+        "author": {
+          "id": "b7969127499ac4d908941130718b1ca9",
+          "source_id": "jonathantf2",
+          "username": "jonathantf2",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d3354017dade826029311524ec738dbc",
+        "source_id": "49790025",
+        "content": {
+          "text": "The absolute arrogance of taking up this much disk space for an application that most serious users will simply never engage with. Garbage. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.922013",
+        "updated_at": "2026-09-22T16:03:20.922013",
+        "author": {
+          "id": "7ce879d9c18cff12a6c80939a4ee7905",
+          "source_id": "sklargh",
+          "username": "sklargh",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "59150696c4d527cba988c8f7c8d92c54",
+        "source_id": "49791368",
+        "content": {
+          "text": "Yeah but siri/apple AI has 100% adoption rate on apple devices ;) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.923634",
+        "updated_at": "2026-09-22T16:03:20.923634",
+        "author": {
+          "id": "39839b01e8042a577c743dc5a41cd580",
+          "source_id": "toasty228",
+          "username": "toasty228",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f3fe71021c974d8b48cd171afa71ef65",
+        "source_id": "49787427",
+        "content": {
+          "text": "I've love to disable Apple Intelligence just to get the space back. It's murdering my Mac Mini. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.925289",
+        "updated_at": "2026-09-22T16:03:20.925289",
+        "author": {
+          "id": "af4e433e19805029d24e58681e434d6b",
+          "source_id": "VCFundedGenYer",
+          "username": "VCFundedGenYer",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3f570bc32397f9c06d87353049ae4d6f",
+        "source_id": "49797993",
+        "content": {
+          "text": "Personally, I think Apple should have gotten rid of Siri a long time ago. It's a pretty useless assistant. They'd be better off integrating Gemini or ChatGPT instead. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.926941",
+        "updated_at": "2026-09-22T16:03:20.926941",
+        "author": {
+          "id": "7f67eb74af10c51a35cd967bf4921c2e",
+          "source_id": "MotoriX",
+          "username": "MotoriX",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "750d7e4f94c6396e7642d99a14cab852",
+        "source_id": "49787091",
+        "content": {
+          "text": "Resistance is futile. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.928630",
+        "updated_at": "2026-09-22T16:03:20.928630",
+        "author": {
+          "id": "009b7042bfbea4057407125b36e37ff7",
+          "source_id": "dosisking",
+          "username": "dosisking",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f77cfc7dd06e0f1c82b9a901cef9191a",
+        "source_id": "49788777",
+        "content": {
+          "text": "you will be assimilated reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.930371",
+        "updated_at": "2026-09-22T16:03:20.930371",
+        "author": {
+          "id": "fcf2f8857c94d8d0939798d425580f23",
+          "source_id": "andrekandre",
+          "username": "andrekandre",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "610ccde35ed4283694caae0f3554a362",
+        "source_id": "49789901",
+        "content": {
+          "text": "One thing is for certain: there is no stopping them; the AI bots will soon be here. And I, for one, welcome our new AI overlords. I'd like to remind them that I can be helpful in rounding up others to toil in their underground data centers. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.932126",
+        "updated_at": "2026-09-22T16:03:20.932126",
+        "author": {
+          "id": "c58c97eaad2f37aaf4cc5c8f5e17bd4c",
+          "source_id": "chmaynard",
+          "username": "chmaynard",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "51f8109dff6366ebc671acd615df7b09",
+        "source_id": "49788317",
+        "content": {
+          "text": "See https://news.ycombinator.com/item?id=49787535 reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.933935",
+        "updated_at": "2026-09-22T16:03:20.933935",
+        "author": {
+          "id": "a56660758b3534eeef9e64ed4ca31219",
+          "source_id": "pluc",
+          "username": "pluc",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a392bdc4d88e967a21fb453bf4f244ba",
+        "source_id": "49787111",
+        "content": {
+          "text": "Try disabling any of the launchd tasks related to it, odds are theres a service that starts at boot/login regardless of any user-facing setting that do nothing if they're all turned off (just like iCloud related daemons). Odds are you'll probably run into something that requires you to disable SIP, like I did when I got tired of mediaanalysisd eating up CPU cycles on a 2018 Mac mini. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.935760",
+        "updated_at": "2026-09-22T16:03:20.935760",
+        "author": {
+          "id": "d8f2d92cd0126f53fdc2f74418d21d33",
+          "source_id": "wpm",
+          "username": "wpm",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7523d98ad54d8dd388e15d29163caad2",
+        "source_id": "49787664",
+        "content": {
+          "text": "Thanks, I believe this is what the debloat script mentioned in my post does. I manually executed the `launchctl bootout` and `launchctl disable` commands on all Siri and AI-related services in the https://github.com/OleksandrKrupko/mac-os-debloat/blob/main/... script, but the \"Siri\" process (\"Siri AI.app\") still keeps running even after restarting. The Siri AI.app is read-only, so I could not even remove it. But perhaps it would be possible to boot into Recovery, mount the system partition as rw and delete the Siri AI.app from the filesystem? P.S. I did also disable mediaanalysisd and photoanalysisd, and those are NOT running. However, the Siri AI.app does keep running... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.937639",
+        "updated_at": "2026-09-22T16:03:20.937639",
+        "author": {
+          "id": "3b3927c3cfb3de03cafc685f3b21d4d2",
+          "source_id": "semidror",
+          "username": "semidror",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3a1db5bceaf34adb81f3a5a7816d38ea",
+        "source_id": "49788942",
+        "content": {
+          "text": "Couldn’t it be due to spotlight being entirely replaced by this new Siri AI? Not sure how things work under the hood now. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.939503",
+        "updated_at": "2026-09-22T16:03:20.939503",
+        "author": {
+          "id": "00c88a2bdc0c21273ff38f94d8884ce2",
+          "source_id": "kdkdkcekckek",
+          "username": "kdkdkcekckek",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3e6b10984fcc06cf56ae59c7fb572295",
+        "source_id": "49790190",
+        "content": {
+          "text": "You can move over to Microsoft and use Copilot or if that isn’t enough, you can buy a new Googlebook laptop. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.941403",
+        "updated_at": "2026-09-22T16:03:20.941403",
+        "author": {
+          "id": "78db412a15a0734bfa91ad372b3b5244",
+          "source_id": "Danox",
+          "username": "Danox",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d604aef9033fbb43ca1d0d66cf5c0df7",
+        "source_id": "49790542",
+        "content": {
+          "text": "Goobledygook laptops would be as much of an abomination as those Windows S laptops reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.943328",
+        "updated_at": "2026-09-22T16:03:20.943328",
+        "author": {
+          "id": "877c770fbac1dff0cc2c6e6cc8e98c69",
+          "source_id": "type0",
+          "username": "type0",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "36ce34c0d7a3c3dcfbb87b50dd1aee5c",
+        "source_id": "49790283",
+        "content": {
+          "text": "They might as well merge and become Chromicrapple. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.945272",
+        "updated_at": "2026-09-22T16:03:20.945272",
+        "author": {
+          "id": "9c0e14c039967a562a6d4ef0caf03d5c",
+          "source_id": "card_zero",
+          "username": "card_zero",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "64607d2e702457353f57f107b6c55d0b",
+        "source_id": "49787455",
+        "content": {
+          "text": "I didn't check it yet but I hope being in EU macOS 27 upgrade is basically small UI tweaks and thats it :D Still holding off for now reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.947244",
+        "updated_at": "2026-09-22T16:03:20.947244",
+        "author": {
+          "id": "b13f8c114ba87d6fda25bb2dc824e83d",
+          "source_id": "danfritz",
+          "username": "danfritz",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f6d811143d81c5fdce228bcca00a7b9f",
+        "source_id": "49790070",
+        "content": {
+          "text": "Maybe \"macOS 27: Workaround to avoid downloading AI models and save storage\": * https://news.ycombinator.com/item?id=49787535 reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.949280",
+        "updated_at": "2026-09-22T16:03:20.949280",
+        "author": {
+          "id": "0dbdd8511aae3207ec7f6207dcea9e48",
+          "source_id": "throw0101a",
+          "username": "throw0101a",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5600b91673503757a3d134f95b1d7008",
+        "source_id": "49790084",
+        "content": {
+          "text": "> I could still see a \"Siri\" process running in Activity Monitor. Upon further inspection, I found that it is the \"Siri AI.app\". Is it doing anything (what are its CPU and memory usage like)? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.951320",
+        "updated_at": "2026-09-22T16:03:20.951320",
+        "author": {
+          "id": "e37081a4249d90c70ca1f5bfe761f74c",
+          "source_id": "Someone",
+          "username": "Someone",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4525ca31d18bdf17be6e48c51b2e23d4",
+        "source_id": "49788647",
+        "content": {
+          "text": "The final release of 27 still has so many bugs. It's depressing to see certain bugs persist in each new beta. You know they'll be in release. I gave up reporting anything years ago. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.953420",
+        "updated_at": "2026-09-22T16:03:20.953420",
+        "author": {
+          "id": "2f777db4955a6bd1d2f7cba96e1c6730",
+          "source_id": "Razengan",
+          "username": "Razengan",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3aeaa7c0e5dd1009471ad5e69e3b0349",
+        "source_id": "49789555",
+        "content": {
+          "text": "I really can't believe how bad it's gotten. I know people on here have been complaining about the direction of macOS for years but in the last few years it increasingly feels like I'm being punished for using my computer. A bicycle for your mind with squeaking brakes and a skipping chain. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.955504",
+        "updated_at": "2026-09-22T16:03:20.955504",
+        "author": {
+          "id": "e3134b71b0934e8b611aa17aeb30a9bf",
+          "source_id": "jimbloat",
+          "username": "jimbloat",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "72384dedf2e9fbbaa28aed8f9f465d2d",
+        "source_id": "49790126",
+        "content": {
+          "text": "I jumped to mac with Tiger when they started using x86.\nAround 2006 I believe.\nIt was always to become more comfortable with POSIX, but I liked it and have stayed. My current laptop is a 2019 MBP and as they are now phasing out Intel support I'm now buying a thinkpad and finally moving on to Linux. Macos has just become too annoying, and macs  too expensive. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.957604",
+        "updated_at": "2026-09-22T16:03:20.957604",
+        "author": {
+          "id": "0cf356fa2a3791ddcb36a96009ec3ae6",
+          "source_id": "Tistron",
+          "username": "Tistron",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e2cc6918020121c5f9371e2706400031",
+        "source_id": "49792259",
+        "content": {
+          "text": "Try Omarchy, you might enjoy it and to my knowledge everything should work out of the box. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.959734",
+        "updated_at": "2026-09-22T16:03:20.959734",
+        "author": {
+          "id": "43ec295d97af35251da8e623602b020d",
+          "source_id": "jasonvorhe",
+          "username": "jasonvorhe",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "db89bd369edb6adff521c456102ea071",
+        "source_id": "49801855",
+        "content": {
+          "text": ":)\nI'm not trying omarchy. I'll probably go with Fedora or NixOS. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.961903",
+        "updated_at": "2026-09-22T16:03:20.961903",
+        "author": {
+          "id": "0cf356fa2a3791ddcb36a96009ec3ae6",
+          "source_id": "Tistron",
+          "username": "Tistron",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d07d5740a7980d531ea074a597bd2907",
+        "source_id": "49790685",
+        "content": {
+          "text": "It's not a bicycle for your mind, it's a railbike draisine that only goes on the rails that Apple allows you to use. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.964131",
+        "updated_at": "2026-09-22T16:03:20.964131",
+        "author": {
+          "id": "877c770fbac1dff0cc2c6e6cc8e98c69",
+          "source_id": "type0",
+          "username": "type0",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "85b658029af50d4ea4b1331694abec45",
+        "source_id": "49787479",
+        "content": {
+          "text": "Sequoia will be taken from my cold dead hands. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.966476",
+        "updated_at": "2026-09-22T16:03:20.966476",
+        "author": {
+          "id": "054403184af7f891071b236653dc0310",
+          "source_id": "avazhi",
+          "username": "avazhi",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4c7396a1388ba527f46ec6e9857ee0dc",
+        "source_id": "49787587",
+        "content": {
+          "text": "Same here. Unfortunately, if you use Xcode to develop for iOS, then Apple basically forces you to install macOS 27 to be able to develop for the new iPhones. The iPhone 18 Pro requires Xcode 27, and Xcode 27 won't run on Sequoia. If anyone knows how to make the iPhone 18 Pro work with Xcode 26 on Sequoia, and in turn with iOS 27, I (and I'm sure many other people) would be very happy to hear how! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.968736",
+        "updated_at": "2026-09-22T16:03:20.968736",
+        "author": {
+          "id": "3b3927c3cfb3de03cafc685f3b21d4d2",
+          "source_id": "semidror",
+          "username": "semidror",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d2d68f95b3a8f4e308065fbec09481a7",
+        "source_id": "49788258",
+        "content": {
+          "text": "This is how Apple have forced Mac upgrades for the last 20 years, there is no way round it other than to comply and buy yourself a new Mac. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.971005",
+        "updated_at": "2026-09-22T16:03:20.971005",
+        "author": {
+          "id": "a674474f406f0e773a34f16765780156",
+          "source_id": "alt227",
+          "username": "alt227",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3401d6dd433ac4464cf1314938af1491",
+        "source_id": "49789924",
+        "content": {
+          "text": "Does Xcode 26 still work on Sequoia? They usually stop supporting N-1 around March. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.973329",
+        "updated_at": "2026-09-22T16:03:20.973329",
+        "author": {
+          "id": "043c80cc811dd2a5707bbf25c76eebdf",
+          "source_id": "dwaite",
+          "username": "dwaite",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "49bc0f66d8b0c334997d28abafef863d",
+        "source_id": "49790304",
+        "content": {
+          "text": "It does. The latest officially supported Xcode version runnable on Sequoia is 26.3. See https://developer.apple.com/xcode/system-requirements/ But it is possible to run even the latest Xcode 26.6 by directly executing Xcode.app/Contents/MacOS/Xcode, and Xcode will run. This trick doesn't work with Xcode 27 anymore though. If you try that, you'll see a warning message that says something like \"Xcode requires macOS 26 to run\". reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.975706",
+        "updated_at": "2026-09-22T16:03:20.975706",
+        "author": {
+          "id": "3b3927c3cfb3de03cafc685f3b21d4d2",
+          "source_id": "semidror",
+          "username": "semidror",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6dbba1405f0876e5a38f88d2ec8f9a85",
+        "source_id": "49789148",
+        "content": {
+          "text": "> Sequoia will be taken from my cold dead hands. I'm still running Leopard. The built in X11 server, combined with X11 forwarding, and a Linux box works fine for my meager needs. I can run Chromium using X11 forwarding, seems to work fine for the most part. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.978067",
+        "updated_at": "2026-09-22T16:03:20.978067",
+        "author": {
+          "id": "009b7042bfbea4057407125b36e37ff7",
+          "source_id": "dosisking",
+          "username": "dosisking",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5ed20b640e5c9835af72be84f4391a03",
+        "source_id": "49788634",
+        "content": {
+          "text": "I still have to find anybody using Siri on his Mac Please tell me what the use case is. Somebody somewhere must find it useful otherwise it would not be so prominent. This a genuine question btw not trying to be sarcastic or dismissive reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.980493",
+        "updated_at": "2026-09-22T16:03:20.980493",
+        "author": {
+          "id": "4cfb3fd2aefc6169d6cd6bc023746c6d",
+          "source_id": "seviu",
+          "username": "seviu",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "76de1c29f6a2625f84d8f43461f48993",
+        "source_id": "49789868",
+        "content": {
+          "text": "Not sure. People are saying \"Siri\" but complaining about space utilization which I assume is for the foundational models. Those are used pervasively, and are exposed as a resource for third party app usage as well. Apple's goal was to have a set of foundational models to discourage proliferation of small bundled models in first and third party software. So ironically, they exist to try to save people disk space. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.982925",
+        "updated_at": "2026-09-22T16:03:20.982925",
+        "author": {
+          "id": "043c80cc811dd2a5707bbf25c76eebdf",
+          "source_id": "dwaite",
+          "username": "dwaite",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f56976c36fdc3cd9f0926945f71a5d73",
+        "source_id": "49789625",
+        "content": {
+          "text": "My guess is that iOS, iPadOS and macOS are converging on some points, and Siri gets included. It would be interesting on macOS if it had amazing computer use and was able to control all aspects of all apps, and you’d be able to instantly do anything with voice only. Siri Actions are one tiny step closer to that, but we’re pretty far away from this. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.985432",
+        "updated_at": "2026-09-22T16:03:20.985432",
+        "author": {
+          "id": "13caa6a05587fd8cbbe550f3501866ee",
+          "source_id": "jiehong",
+          "username": "jiehong",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "55976cb049aaff6378f0f7d95fe2bb93",
+        "source_id": "49791367",
+        "content": {
+          "text": "Garbage like this is why I'm never going back to a proprietary OS. I remember being unable to kill Cortana on Windows (it would automatically restart itself) being the last straw. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.987912",
+        "updated_at": "2026-09-22T16:03:20.987912",
+        "author": {
+          "id": "b71adbeb897c1231e7f2ee30c1d9aaa1",
+          "source_id": "thrance",
+          "username": "thrance",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "05f037db5531777f4065c6c31b7c35d6",
+        "source_id": "49788177",
+        "content": {
+          "text": "if you dont want a car with the hood welded shut.....Dont buy a car with the hood welded shut. plenty of better operating systems out their reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.990440",
+        "updated_at": "2026-09-22T16:03:20.990440",
+        "author": {
+          "id": "196a8e49213fe31738d606db37927d5e",
+          "source_id": "jzemeocala",
+          "username": "jzemeocala",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "eab0e42fdb7d33e440fa71e301ea3426",
+        "source_id": "49788580",
+        "content": {
+          "text": "Silly argument. It’s more like buying a BWM and being happy with everything expect a stupid decision like placement of the handbrake. Of course you can complain about it. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.992966",
+        "updated_at": "2026-09-22T16:03:20.992966",
+        "author": {
+          "id": "15aad96e20e60a5b63071c12b56a38bb",
+          "source_id": "victorbjorklund",
+          "username": "victorbjorklund",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "cf63072cdb5361547c18049257d7ce4a",
+        "source_id": "49789959",
+        "content": {
+          "text": "I think the counter-argument would be that one obviously should have gotten a Kia K4. Otherwise equivalent for everyone's needs excluding hand brake location. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.995533",
+        "updated_at": "2026-09-22T16:03:20.995533",
+        "author": {
+          "id": "043c80cc811dd2a5707bbf25c76eebdf",
+          "source_id": "dwaite",
+          "username": "dwaite",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b6e4c491a854d00ea254efaad1e028ed",
+        "source_id": "49793600",
+        "content": {
+          "text": "Not a car person but pretty sure they are a KIA and a BWM isn’t identical cars. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:20.998112",
+        "updated_at": "2026-09-22T16:03:20.998112",
+        "author": {
+          "id": "15aad96e20e60a5b63071c12b56a38bb",
+          "source_id": "victorbjorklund",
+          "username": "victorbjorklund",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c3ad5644f0d9f66b04ac856133379ca3",
+        "source_id": "49788917",
+        "content": {
+          "text": "Plenty of other operating systems out there ? Yeah. Better? Depends. Hardware as a package? Absolutely not and it’s by such a wide margin there’s no competition whatsoever. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:21.000870",
+        "updated_at": "2026-09-22T16:03:21.000870",
+        "author": {
+          "id": "85b8e6199462d18ccc7e0ded95d50852",
+          "source_id": "ksnsiwxjek",
+          "username": "ksnsiwxjek",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4183a99a56207b25a777326d07d32343",
+        "source_id": "49788298",
+        "content": {
+          "text": "I don’t particularly care for MacOS but Apple’s hardware is generally best in class, particularly for battery life, touchpad, and other laptop specifics. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:21.003516",
+        "updated_at": "2026-09-22T16:03:21.003516",
+        "author": {
+          "id": "94c26af830b62f626218c2dce14dcf31",
+          "source_id": "stackghost",
+          "username": "stackghost",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a6fdf125e5b7510dc424cb25a20e49e6",
+        "source_id": "49792305",
+        "content": {
+          "text": "Huawei has been shipping decent MBA-like laptops for some years now. The latest Panther Lake laptops seem to have made some leaps towards Apple on the hardware side as well. I still won't expect any Windows laptop in these form factors to outlive most MacBooks though. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:21.006195",
+        "updated_at": "2026-09-22T16:03:21.006195",
+        "author": {
+          "id": "43ec295d97af35251da8e623602b020d",
+          "source_id": "jasonvorhe",
+          "username": "jasonvorhe",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "19c38a7f96413312d57176a4f9a80441",
+        "source_id": "49788442",
+        "content": {
+          "text": "I started de-googling a long time ago, part of it was an iPhone (12 mini), 5 years later I really felt like de-Appling as well. The Appstore is a cesspool, privacy concerns are about the same as Google now (or perhaps always were?). I went with GrapheneOS. Very good experience, but not without Google Play (store and services). It's all sandboxed, so presumably I'm only leaking consciously chosen data. It's really aimed at security, not so much de-googling. Something like Murena's /e/OS is much more aimed at de-Googling, but as GrapheneOS devs will usually be quick to point out here, they are \"quite poor\" with their security. A de-Googled functional appstore on a FairPhone (+ with all the GrapheneOS required security bells and wistles) would be ideal for me. But it's still either optimal security focussed OR de-Googling/de-big-teching focused. Yes there is f-droid, but there are too many apps that require the Google services (like banking). Atm 1 app does not work, one of my banking apps required the highest tier of Google control. I will happily install on devices that have been years without security updates though :s Overall the GrapheneOS experience (base launcher etc) is very clean, fast, minimal, ad free. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:21.008921",
+        "updated_at": "2026-09-22T16:03:21.008921",
+        "author": {
+          "id": "59baf08e11906165ee446de7acf59603",
+          "source_id": "teekert",
+          "username": "teekert",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-09-22T16:03:21.011266",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "82f2f87a2ca9fa8c2293defd806c1aea",
+      "source_id": "49798435",
+      "title": "Ask HN: What do you expect from the next 5 years of AI?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-22T16:03:14.167627",
+      "updated_at": "2026-09-22T16:03:14.167627",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "26c79264e9c6ef18db68021785c6ddb1",
+        "source_id": "msuniverse2026",
+        "username": "msuniverse2026",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 4,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49798435",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-09-22T16:03:25.120712",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "48ae2eb304ef62433174ad4991a50df7",
+      "source_id": "49793764",
+      "title": "Ask HN: Dead Internet",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-22T16:03:14.168272",
+      "updated_at": "2026-09-22T16:03:14.168272",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "8ad8fda9fa08b58e039e9cf985fda2f7",
+        "source_id": "basilikum",
+        "username": "basilikum",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 13,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49793764",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-09-22T16:03:29.187138",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "0b4372a36e25a430735d47f93cf91787",
+      "source_id": "49793381",
+      "title": "Ask HN: Why does it matter if no one reads your novel as long as the AIs do?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">AI can in principle surface content that you create that no humans consume directly. And it could even credit and financially compensate you whenever this happens.<p>So it seems that you can have a creator-only economy where all humans create and the AIs do most of the consuming.<p>And stuff that the AIs surface in their replies allows humans to indirectly consume some of your content (in which case you would be credited and financially compensated) and perhaps even lead to them directly consuming it as a result of the free advertising.<p>Do you think this is workable as a future model for creation and consumption (and not just for novels)?</p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-22T16:03:14.168873",
+      "updated_at": "2026-09-22T16:03:14.168873",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "9fbfc99674a659d2f2b0af967455b589",
+        "source_id": "amichail",
+        "username": "amichail",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 9,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49793381",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "58ab8d1c0e6ce5459d45091ed9cc7658",
+        "source_id": "49793978",
+        "content": {
+          "text": "We're already at the point where, for the vast majority of novelists (which is where I'm most knowledgeable), writing is not a primary source of income.  With the exception of the very few bestsellers who are super-famous, most have other jobs or a spouse to provide income (and, in the US, health insurance).  So most authors aren't doing it only for the money. It's also hard to imagine a situation where authors are paid when AI ingests or remixes their work; this is already not the case.  Legal cases have slapped down _piracy_, but it seems that _training_ is considered fair use, so long as the AI company buys at least one copy of the book. There's no reason for the AI companies to bother paying anyone for their work. But let's ignore all of that. I write so I can tell the story.  I write so other people can enjoy it -- so I can gross them out, or shock them with a clever plot twist they should've seen coming, or make them think about something differently, or let them have a moment of heartwarming joy, or just escape into a wild adventure of my own imagining.  Otherwise, I'd just say \"Odysseus had a long trip home\" and be done. If nobody reads my book unless it's been processed by an AI and mashed up with the writing of others... then nobody's actually reading _my_ book, and I see no purpose to throwing my work into the grinder. Disclosure: I write novels, have one published, and plan to publish more, but I very much do not make a living off of them.  Most of the (unlikely) futures in which I rely on writing income alone assume massive savings from my current tech job. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:31.861350",
+        "updated_at": "2026-09-22T16:03:31.861350",
+        "author": {
+          "id": "b07dc904a2b5c35db24dbfe809be03a7",
+          "source_id": "rznicolet",
+          "username": "rznicolet",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0c9ab7167ca46549ea35f41003c16934",
+        "source_id": "49794503",
+        "content": {
+          "text": "Ai can be that somebody with exquisite taste and it can probably tell a good novel versus a bad one.  It can also figure if an idea is unique or generic.   I can understand Ai as a paying consumer. Generic stuff: $5.. superb: $100k.. That way quality of human writing can be appreciated at least by some entity since many humans will eventually give up. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:31.861877",
+        "updated_at": "2026-09-22T16:03:31.861877",
+        "author": {
+          "id": "be9e01d2881f9bd690048243d087d119",
+          "source_id": "silverFork",
+          "username": "silverFork",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "43a89f1a4075cbe140dc9967353b6da7",
+        "source_id": "49794772",
+        "content": {
+          "text": "Alas, at present, AI mostly serves to fill my email folder with vapid praise that clumsily restates the back-of-the-book blurb and then tries to get me to give someone else money for dubious (nonexistent) marketing services. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:31.862436",
+        "updated_at": "2026-09-22T16:03:31.862436",
+        "author": {
+          "id": "b07dc904a2b5c35db24dbfe809be03a7",
+          "source_id": "rznicolet",
+          "username": "rznicolet",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "cd0d66bf9bcdcfc9c7339093e273f17f",
+        "source_id": "49794914",
+        "content": {
+          "text": "LOL.. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:31.862984",
+        "updated_at": "2026-09-22T16:03:31.862984",
+        "author": {
+          "id": "be9e01d2881f9bd690048243d087d119",
+          "source_id": "silverFork",
+          "username": "silverFork",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "421ec78600f916dca4d3a87332a2929a",
+        "source_id": "49800139",
+        "content": {
+          "text": "I can only see this making sense for reference books, not novels. I don’t know why an AI would ever be bringing up a novel that no one has read. As it stands, it’s only going to bring up novels that I’m asking about or asking for ideas on what to read. Having it tell me to read random novels no other human has read is not valuable, that’s just an ad for a book that probably isn’t any good. Novels are made for people, not for AI. I also don’t know where this payment model comes from. These AI companies have all shown that they can and will use the collective works of humanity to train, while giving nothing back to the writers, artists, scientists, developers, etc who created it all. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:31.863602",
+        "updated_at": "2026-09-22T16:03:31.863602",
+        "author": {
+          "id": "fb6fae387d9dabe783668f9009982cf3",
+          "source_id": "al_borland",
+          "username": "al_borland",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e80ad6ddc8b8c11d48905205a7cf0260",
+        "source_id": "49803352",
+        "content": {
+          "text": "The novel might have some interesting ideas that are relevant to the user’s prompt. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:31.864213",
+        "updated_at": "2026-09-22T16:03:31.864213",
+        "author": {
+          "id": "9fbfc99674a659d2f2b0af967455b589",
+          "source_id": "amichail",
+          "username": "amichail",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7168d7a1c622500392fe9b9879c9d35a",
+        "source_id": "49797608",
+        "content": {
+          "text": "No, of course not. Unless by writing a novel, you mean that the writing is done fully by a LLM and the author is just doing it for the money. This is a very silly question, it should be obvious that the writing itself is important, it's like asking a musician if they are okay that their recorded song is never heard, but instead people will hear some LLM generated garble similar to it. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:31.864839",
+        "updated_at": "2026-09-22T16:03:31.864839",
+        "author": {
+          "id": "adcbf30ea9eed9c0d94a9debeb9e001b",
+          "source_id": "iamsaitam",
+          "username": "iamsaitam",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d608e0c26f254459d7c25edc45bb1fd6",
+        "source_id": "49793871",
+        "content": {
+          "text": "If your world only revolves around money and nothing else and you have no interest in, I don't know, actual contact with your readers, then why not, I guess... But I think even purely economically this won't work: For starters, who would set the price for your book? Your book would become an exchangeable commodity, with the \"purchase decision\" done solely by AIs (and their companies), not the \"readers\". The financial success of your book would depend on whatever criteria AIs use to decide about including your content or not, not your (human) readers (or what's left of them). As with most commodities, this would enter a \"race to the bottom\" that would probably leave you with pennies - or steer your writing into a direction that you were never intending to go in. Just a question: In such a system, why would you still write the book yourself and not have an LLM write it? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:31.865546",
+        "updated_at": "2026-09-22T16:03:31.865546",
+        "author": {
+          "id": "5bab883c6848d6736af7d4ccdc7e83bf",
+          "source_id": "xg15",
+          "username": "xg15",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9a3d90460583a2b39bc3195aa5bf1f87",
+        "source_id": "49793802",
+        "content": {
+          "text": "That should have already happened. The AI companies should had first created a market where people submit there stuff to be included in the training. It would have been slower progress but it would have been better for public adoption and their own reputation. I've heard people are getting paid now, not sure, but they definitely yoinked all the content without permission, when it could have been an entire market around it. So yeah, I think that's a good idea, and why I want AI to stay away from being used for one-shot creative output. Luckily that is still not very good, at least not for unique and creative applications. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:31.866251",
+        "updated_at": "2026-09-22T16:03:31.866251",
+        "author": {
+          "id": "8c56a54bd37833598325e72d61ba65c0",
+          "source_id": "proc0",
+          "username": "proc0",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "358fcc0b245cd62b99d322fb262180d3",
+        "source_id": "49795285",
+        "content": {
+          "text": "AI is incredible for consumption. Using it as an assistant for summarisation and learning I think is fine. But it should stay very far away from creation of anything. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:31.866954",
+        "updated_at": "2026-09-22T16:03:31.866954",
+        "author": {
+          "id": "34c608499cd15faae6bd20cd734069d6",
+          "source_id": "devilsdata",
+          "username": "devilsdata",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0273e8fb10c915c7fd9e710b70c4cefc",
+        "source_id": "49793439",
+        "content": {
+          "text": "> And it could even credit and financially compensate you whenever this happens. It could, but it doesn't. Also, have you considered that perhaps creative people who write novels actually want people to directly consume their work, and not indirectly? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:31.867805",
+        "updated_at": "2026-09-22T16:03:31.867805",
+        "author": {
+          "id": "c8d2122337a8595577f0f31ee07bb26d",
+          "source_id": "pavel_lishin",
+          "username": "pavel_lishin",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "bf17c000ec524ce9fde86426790b9740",
+        "source_id": "49793488",
+        "content": {
+          "text": "Mathematicians seem content with having only a few people read and understand their proofs in full. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:31.868579",
+        "updated_at": "2026-09-22T16:03:31.868579",
+        "author": {
+          "id": "9fbfc99674a659d2f2b0af967455b589",
+          "source_id": "amichail",
+          "username": "amichail",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ffecb914b7ee3559820ffed72bb123bd",
+        "source_id": "49793556",
+        "content": {
+          "text": "That sort of writing is very different, with very different motivations, than something like a novel. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:31.869390",
+        "updated_at": "2026-09-22T16:03:31.869390",
+        "author": {
+          "id": "98f9b9ba1cc5c4d684462d480b2982a4",
+          "source_id": "JohnFen",
+          "username": "JohnFen",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a732865d154e6dbe9c396bf95dafad04",
+        "source_id": "49793590",
+        "content": {
+          "text": "A novel not read by humans could still influence future novels indirectly because its ideas are mentioned in AI responses. And you would get credit and financial compensation for those ideas that are mentioned. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:31.870222",
+        "updated_at": "2026-09-22T16:03:31.870222",
+        "author": {
+          "id": "9fbfc99674a659d2f2b0af967455b589",
+          "source_id": "amichail",
+          "username": "amichail",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "09988e79a4e027072597b7a952658e92",
+        "source_id": "49793619",
+        "content": {
+          "text": "> A novel not read by humans could still influence future novels That isn't at all relevant to why I engage in creative writing. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:31.871077",
+        "updated_at": "2026-09-22T16:03:31.871077",
+        "author": {
+          "id": "98f9b9ba1cc5c4d684462d480b2982a4",
+          "source_id": "JohnFen",
+          "username": "JohnFen",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "11790874227d26edaf36e09242d2beb2",
+        "source_id": "49793613",
+        "content": {
+          "text": "I really do wonder sometimes whether these questions you post are trolling or if you truly don't understand how humans work on a fundamental level. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:31.871978",
+        "updated_at": "2026-09-22T16:03:31.871978",
+        "author": {
+          "id": "14d688e3a965535c98d7ae36741a9df8",
+          "source_id": "krapp",
+          "username": "krapp",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "73f8f56c23dfc3ecd9fc53032d433bd1",
+        "source_id": "49793576",
+        "content": {
+          "text": "Have you considered that mathematicians aren't writers? Or that your original framing was having no one , rather than \"only a few people,\" read your work? Do you think mathematicians would be content with having no one but AIs read their work? I don't think so. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:31.872946",
+        "updated_at": "2026-09-22T16:03:31.872946",
+        "author": {
+          "id": "14d688e3a965535c98d7ae36741a9df8",
+          "source_id": "krapp",
+          "username": "krapp",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "348a70cc731496c3c2368793becfba29",
+        "source_id": "49793609",
+        "content": {
+          "text": "This will be the reality of math soon. Complicated proofs will only be checked completely by AI. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:31.873888",
+        "updated_at": "2026-09-22T16:03:31.873888",
+        "author": {
+          "id": "9fbfc99674a659d2f2b0af967455b589",
+          "source_id": "amichail",
+          "username": "amichail",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b56a3498575896ea7e8a1e2df4b05d83",
+        "source_id": "49793646",
+        "content": {
+          "text": "That doesn't actually answer any questions, but I doubt mathematicians are entirely thrilled about the prospect of having their field automated, even if they still get paid. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:31.874866",
+        "updated_at": "2026-09-22T16:03:31.874866",
+        "author": {
+          "id": "14d688e3a965535c98d7ae36741a9df8",
+          "source_id": "krapp",
+          "username": "krapp",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "563d33cccd809248435d49bb521ba7fa",
+        "source_id": "49795891",
+        "content": {
+          "text": "Damn. I was accessing HN on another device, and missed who the author of this post was. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:31.875867",
+        "updated_at": "2026-09-22T16:03:31.875867",
+        "author": {
+          "id": "c8d2122337a8595577f0f31ee07bb26d",
+          "source_id": "pavel_lishin",
+          "username": "pavel_lishin",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8316a536129ab9322cc309d2d78c2353",
+        "source_id": "49793526",
+        "content": {
+          "text": "If no human is reading what I write, then there's no point in publishing it. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:31.876885",
+        "updated_at": "2026-09-22T16:03:31.876885",
+        "author": {
+          "id": "98f9b9ba1cc5c4d684462d480b2982a4",
+          "source_id": "JohnFen",
+          "username": "JohnFen",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "adfc58f612395599210af72f30bfb49f",
+        "source_id": "49793544",
+        "content": {
+          "text": "But you could still get credit and financial compensation. Mathematicians write proofs that only a few people read in full and understand. And yet, they are fine with that. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:31.877948",
+        "updated_at": "2026-09-22T16:03:31.877948",
+        "author": {
+          "id": "9fbfc99674a659d2f2b0af967455b589",
+          "source_id": "amichail",
+          "username": "amichail",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "545231f84af7ac8141ba1b8e7261b589",
+        "source_id": "49793577",
+        "content": {
+          "text": "> But you could still get credit and financial compensation. Sure, but that doesn't make up for the loss of the primary reason for writing the material in the first place. > Mathematicians write proofs that only a few people read in full and understand. And yet, they are fine with that. As I said in another comment (before I saw this), that sort of writing is very different, with different motivations and target audiences, than writing something like a novel. Apples and oranges. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:31.879070",
+        "updated_at": "2026-09-22T16:03:31.879070",
+        "author": {
+          "id": "98f9b9ba1cc5c4d684462d480b2982a4",
+          "source_id": "JohnFen",
+          "username": "JohnFen",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "058b41871d89617c74305574ad459b9e",
+        "source_id": "49793421",
+        "content": {
+          "text": "Interesting concept.  But who pays Ai?  there has to be an ultimate consumer no matter who the creator is.  Humans are the only ones that would take the credit.  Can Ai say, it was my idea, nope!  LOL reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:31.880200",
+        "updated_at": "2026-09-22T16:03:31.880200",
+        "author": {
+          "id": "be9e01d2881f9bd690048243d087d119",
+          "source_id": "silverFork",
+          "username": "silverFork",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-09-22T16:03:31.880949",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "46d15d3f9d5392d64b2b89a71442a758",
+      "source_id": "49742976",
+      "title": "Ask HN: How to recover Google auth after phone stolen?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-22T16:03:14.169625",
+      "updated_at": "2026-09-22T16:03:14.169625",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "6e956d9b40c709d477739c7ac2f29959",
+        "source_id": "keymasta",
+        "username": "keymasta",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 120,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49742976",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-09-22T16:03:35.511600",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "d8a5ed8a6e09d7c0c473c78707be021c",
+      "source_id": "49768826",
+      "title": "Ask HN: How do you interview devs in a post-AI world?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-22T16:03:14.170254",
+      "updated_at": "2026-09-22T16:03:14.170254",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "81442dfa29615ebf6ca205f86dab3d23",
+        "source_id": "mdwelsh",
+        "username": "mdwelsh",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 45,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49768826",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-09-22T16:03:39.601510",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "a1cc90ab38574ad2f82c56ba5c6b7add",
+      "source_id": "49783865",
+      "title": "Ask HN: My recent show HN post got flagged need guidance",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-22T16:03:14.170847",
+      "updated_at": "2026-09-22T16:03:14.170847",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "175f1b8b17f05c2ecc7c767d3c3b0406",
+        "source_id": "theguysudo",
+        "username": "theguysudo",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 6,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49783865",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-09-22T16:03:43.107981",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "bf190fed2036e6923537ca18d28dbc94",
+      "source_id": "49763466",
+      "title": "Ask HN: Remember N8n? Anyone?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">Wonder what happened to all their hype and agentic connector workflow?<p>Did Claude/GPT ate that market for good?</p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-22T16:03:14.171459",
+      "updated_at": "2026-09-22T16:03:14.171459",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "4e29f1dff2761af701bacabc8feffa95",
+        "source_id": "sankalpdomore",
+        "username": "sankalpdomore",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 13,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49763466",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "291aa3b669117205b80a7ff952379a7f",
+        "source_id": "49779798",
+        "content": {
+          "text": "Yes I use it for a few workflows for a client. Been using their hosted version since it was dirt cheap (and grandfathered in to that pricing). It’s been very reliable, I would continue to use it for workflow automations now as it’s simpler to reason with than LLM generated spaghetti code. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:44.979939",
+        "updated_at": "2026-09-22T16:03:44.979939",
+        "author": {
+          "id": "ad886b214856f6a1201027a8714f60bb",
+          "source_id": "scrivna",
+          "username": "scrivna",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "71678834df046052d682c06f90c3f1b8",
+        "source_id": "49794349",
+        "content": {
+          "text": "I don't think Vibecode can completely replace workflow. For example, Langgraph still need wrting workflow in its software. To conclude, AI  cannot absolutely follow my plan, but a workflow can. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:44.980469",
+        "updated_at": "2026-09-22T16:03:44.980469",
+        "author": {
+          "id": "7a9949edd960d0dfc19928d07dd3503b",
+          "source_id": "LittleFishK",
+          "username": "LittleFishK",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "00a93c3e0b8aa5dae547c6fd0584574d",
+        "source_id": "49797768",
+        "content": {
+          "text": "Been using Claude for most of my work and it's been doing pretty good. I've made most of the workflows into their own .md files reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:44.980978",
+        "updated_at": "2026-09-22T16:03:44.980978",
+        "author": {
+          "id": "4e29f1dff2761af701bacabc8feffa95",
+          "source_id": "sankalpdomore",
+          "username": "sankalpdomore",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1f9e5dc7f7ba2087b214ea165fefdd88",
+        "source_id": "49764442",
+        "content": {
+          "text": "I'm still using it just fine. I'm not sure how well the cloud business is doing, though. It's great as open source. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:44.981528",
+        "updated_at": "2026-09-22T16:03:44.981528",
+        "author": {
+          "id": "f3e803c20c811043584dfaf0cdc1543a",
+          "source_id": "haebom",
+          "username": "haebom",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "69b2cb10efa3f40275c04086f17e2bc4",
+        "source_id": "49771088",
+        "content": {
+          "text": "Dito. Running on my mac mini: Local LLM and n8n reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:44.982082",
+        "updated_at": "2026-09-22T16:03:44.982082",
+        "author": {
+          "id": "340dd406ff412a4435de7ae5c5a4e2c5",
+          "source_id": "eMpHaSe",
+          "username": "eMpHaSe",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d90deb9a8fbe9483e3f1d4a01f7f0902",
+        "source_id": "49773391",
+        "content": {
+          "text": "I remember 38400, 8, n, 1 38400 bits per second, 8 bits per character, no parity, 1 stop bit reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:44.982704",
+        "updated_at": "2026-09-22T16:03:44.982704",
+        "author": {
+          "id": "cf2bd8bbc1ac7fac6aa1daa41272d5d3",
+          "source_id": "mikewarot",
+          "username": "mikewarot",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "37c2453c7a4b558c662f8c5171254eec",
+        "source_id": "49797359",
+        "content": {
+          "text": "Look at this fancy lad with his 36.6 while the rest of us are cruising at 14.4 reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:44.983323",
+        "updated_at": "2026-09-22T16:03:44.983323",
+        "author": {
+          "id": "6c7c2a50bb85586397391839c57c35ec",
+          "source_id": "mikestorrent",
+          "username": "mikestorrent",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "49439b11e8f8eedc4577372692eff46a",
+        "source_id": "49763988",
+        "content": {
+          "text": "No, lots of job postings still ask for them reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:44.983950",
+        "updated_at": "2026-09-22T16:03:44.983950",
+        "author": {
+          "id": "2845ad0a586c89a9cc07525be66375d7",
+          "source_id": "chistev",
+          "username": "chistev",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3e21f061fefb15db80e2aabe1c78b87b",
+        "source_id": "49778835",
+        "content": {
+          "text": "haven't seen a lot - which was the one you saw last? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:44.984617",
+        "updated_at": "2026-09-22T16:03:44.984617",
+        "author": {
+          "id": "4e29f1dff2761af701bacabc8feffa95",
+          "source_id": "sankalpdomore",
+          "username": "sankalpdomore",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a3200bad99ec6d393571e8608c49b386",
+        "source_id": "49764394",
+        "content": {
+          "text": "n8n - nodemation, a workflow automation platform and the Berlin company, n8n GmbH, that develops it. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-22T16:03:44.985329",
+        "updated_at": "2026-09-22T16:03:44.985329",
+        "author": {
+          "id": "69f0767ab0add52d50578e72caf83fb6",
+          "source_id": "pestatije",
+          "username": "pestatije",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-09-22T16:03:44.985666",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "5bdaca3041f630b98b3b50a05ba92b15",
+      "source_id": "49777234",
+      "title": "Ask HN: Diablo 4 on Ubuntu?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-22T16:03:14.172326",
+      "updated_at": "2026-09-22T16:03:14.172326",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "6b6014bf469b0f1a11fb0ceb00744e22",
+        "source_id": "herodoturtle",
+        "username": "herodoturtle",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 3,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49777234",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-09-22T16:03:48.293817",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "69ea00c18ef700ff68f43bfba73f9b40",
+      "source_id": "49788756",
+      "title": "Ask HN: What is the most interesting project you are working on?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-22T16:03:14.172929",
+      "updated_at": "2026-09-22T16:03:14.172929",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "cda9b1d64b6d7c42a7d49f1e66b9d4ed",
+        "source_id": "skwasimin",
+        "username": "skwasimin",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 10,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49788756",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-09-22T16:03:52.473149",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "452b373b27c1923af4110017c1b1ad4b",
+      "source_id": "49764727",
+      "title": "Ask HN: Losing motivation to work in the IT field, need advice",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-22T16:03:14.173548",
+      "updated_at": "2026-09-22T16:03:14.173548",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "56d6ec8e3e91713e9ef111495373be1e",
+        "source_id": "trowa159",
+        "username": "trowa159",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 22,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49764727",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-09-22T16:03:56.580026",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "b3cdc72bc1b877423461e59bc7b15577",
+      "source_id": "49755575",
+      "title": "Ask HN: What happens when Claude Code goes away?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-22T16:03:14.174407",
+      "updated_at": "2026-09-22T16:03:14.174407",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "f640edd6f2b8894b41ab8a277379e301",
+        "source_id": "HoldOnAMinute",
+        "username": "HoldOnAMinute",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 10,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49755575",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-09-22T16:04:01.966357",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "83a59ead03d2b0f22f6d8aa8991227e2",
+      "source_id": "49770744",
+      "title": "Ask HN: Anyone using DeepSeek Harness (dsh) as part of a customer-facing agent?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-22T16:03:14.175001",
+      "updated_at": "2026-09-22T16:03:14.175001",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "2a8f95409da902cbe725c9f8b945c25f",
+        "source_id": "mmartindevelope",
+        "username": "mmartindevelope",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 5,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49770744",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-09-22T16:04:05.589399",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
   }
 ]
