@@ -7196,5 +7196,5152 @@
       ],
       "is_nsfw": false
     }
+  },
+  {
+    "post": {
+      "id": "7cc61c553504587a864f98142d86c16c",
+      "source_id": "49816567",
+      "title": "Ask HN: What job boards are good these days?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-23T16:03:43.712554",
+      "updated_at": "2026-09-23T16:03:43.712554",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "5a3ccbced51b4a609485166847e8a54f",
+        "source_id": "phendrenad2",
+        "username": "phendrenad2",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 4,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49816567",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-09-23T16:03:46.202709",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "b7466678e515dad6b06ba45f5267bdab",
+      "source_id": "49815568",
+      "title": "Ask HN: Which harness do you use with Qwen3.8 27B? And why?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">I tried several but for me the biggest difference is the browser integration tool/skill. Because without that any model is quite limited to debug the code at runtime</div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-23T16:03:43.713308",
+      "updated_at": "2026-09-23T16:03:43.713308",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "f5ee22947821d30d28cb7d6d78ac9c95",
+        "source_id": "grigio",
+        "username": "grigio",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 2,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49815568",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "98a46de31fc4fc6de716a0f4cbee1b4a",
+        "source_id": "49816913",
+        "content": {
+          "text": "pi.dev with \"packages\": [\n    \"npm:context-mode\",\n    \"npm:pi-subagents\",\n    \"npm:pi-web-access\",\n    \"npm:pi-bar\",\n    \"npm:pi-opencode-bridge\",\n    \"npm:@ssweens/pi-leash\",\n    \"npm:pi-caveman\",\n    \"npm:@ff-labs/pi-fff\",\n    \"npm:pi-ui-hephaestus\",\n    \"npm:@alexanderfortin/pi-zai-usage\",\n    \"npm:pi-cache-optimizer\",\n    \"npm:@hypabolic/pi-hypa\"\n] reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:03:47.605294",
+        "updated_at": "2026-09-23T16:03:47.605294",
+        "author": {
+          "id": "e51e81c104c69ab9978267ce8e981fce",
+          "source_id": "slipwalker",
+          "username": "slipwalker",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f97ab2cea7abbc0be5437b5b253f9b39",
+        "source_id": "49815884",
+        "content": {
+          "text": "I've been mostly drawn to pi simply because I can modify it so easily to have extensions or behavior I want. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:03:47.605829",
+        "updated_at": "2026-09-23T16:03:47.605829",
+        "author": {
+          "id": "87943deac608fa838d0129091b387dcc",
+          "source_id": "wookmaster",
+          "username": "wookmaster",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d94cf1db083754a5801bbad5175e0035",
+        "source_id": "49816013",
+        "content": {
+          "text": "You need a harness? Does llama include one? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:03:47.606350",
+        "updated_at": "2026-09-23T16:03:47.606350",
+        "author": {
+          "id": "c7dd5db0de266d43a0b34adb33a65db9",
+          "source_id": "bilsbie",
+          "username": "bilsbie",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-09-23T16:03:47.606534",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "05d39ff96b542dd64e3f34714bfa9708",
+      "source_id": "49815385",
+      "title": "Ask HN: Declarative vs. Imperative",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-23T16:03:43.713968",
+      "updated_at": "2026-09-23T16:03:43.713968",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "2671ab741668eb719c22a740c7c4acca",
+        "source_id": "KenPainter",
+        "username": "KenPainter",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 2,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49815385",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-09-23T16:03:51.731094",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "b46694a5f75de5f97a0ad801ad76a8a7",
+      "source_id": "49813172",
+      "title": "Ask HN: How do GitHub Copilot and Anthropic Claude compare in cost?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-23T16:03:43.714870",
+      "updated_at": "2026-09-23T16:03:43.714870",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "ba0350b21f6048d86158d35e878dba98",
+        "source_id": "erwindegroot",
+        "username": "erwindegroot",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 3,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49813172",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-09-23T16:03:56.113865",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "38dd157c82a89c6344d3c4847950d12d",
+      "source_id": "49786609",
+      "title": "Ask HN: Is it impossible to disable Siri on macOS 27?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-23T16:03:43.715658",
+      "updated_at": "2026-09-23T16:03:43.715658",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "3b3927c3cfb3de03cafc685f3b21d4d2",
+        "source_id": "semidror",
+        "username": "semidror",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 151,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49786609",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-09-23T16:04:00.629529",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "013ee443560281221d140e8cad120c79",
+      "source_id": "49807413",
+      "title": "Ask HN: When is fine-tuning a small LLM worth it?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">I'd be interested in hearing about your experiences. What kind of task did you use it for, what model did you train, and what were the results?<p>Feel free to share examples of what you've tried.</p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-23T16:03:43.716436",
+      "updated_at": "2026-09-23T16:03:43.716436",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "c78e2db966a3f16140fec875a09fb125",
+        "source_id": "kooldeep7",
+        "username": "kooldeep7",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 8,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49807413",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "b7e6b8b3edde6e604dcd53223294e2f2",
+        "source_id": "49809154",
+        "content": {
+          "text": "I fine-tuned a model for my first AI web app back in 2019. It created plausible reviews of artwork from prompts. They were totally hallucinated though and had nothing to do with actual images. It was interesting for language and bias analysis above all else. But, it was enough of a novelty that I got thousands of users. I have considered going through the whole process from scratch with Mistral to make a bespoke model and correlate it with a modern vision model. But, I don't want to spend any more money on this project. Hosting an unmonetized public facing AI app for 7 years was not cheap. https://artreviewgenerator.com/ reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:03.061393",
+        "updated_at": "2026-09-23T16:04:03.061393",
+        "author": {
+          "id": "3782731c8c24449cdeab3111aa534f1e",
+          "source_id": "ogou",
+          "username": "ogou",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1ee5e8c6f9c556b12ce89beda4e26a47",
+        "source_id": "49812394",
+        "content": {
+          "text": "I think it's almost never worth it now. An up to date LLM with a good few-shot prompt, or an agentic LLM will likely outperform a small finetuned LLM, at a lower cost with more flexibility. Moreover, it's very seldom that you have enough high-quality data to do a meaningful fine-tune. I have successfully finetuned a small Gemma to play chess badly, and that worked. Mostly because chess data is plentiful and because my aim was to not have perfect answers. I'm self hosting the model inference because running it in the cloud would be too costly. I also finetuned small LLMs using too small datasets of business specific human conversations and the results were disappointing. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:03.061952",
+        "updated_at": "2026-09-23T16:04:03.061952",
+        "author": {
+          "id": "e779bf2a5bf1d0c7a86c765914d8a937",
+          "source_id": "speedgoose",
+          "username": "speedgoose",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "01f1203b6149a449ee2d1073ef7d66f0",
+        "source_id": "49814091",
+        "content": {
+          "text": "Thanks for your insights. Can you share more about your experience in self hosting the model inference to reduce cost or make it even zero if possible ? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:03.062498",
+        "updated_at": "2026-09-23T16:04:03.062498",
+        "author": {
+          "id": "f0184d2067813b70e2f93330a4f6e5c5",
+          "source_id": "rahuljha0403",
+          "username": "rahuljha0403",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "62626e4da7e9baaa164b725c73669ad3",
+        "source_id": "49808221",
+        "content": {
+          "text": "I've trained two small models, one I attempted to train it to be an expert (decent?) hearts (card game) player, and the other I trained on dream interpretation texts, I wanted to see if a model could interpret dreams reasonably well if it were trained on all the literature in existence (that I could find anyway). The hearts experiment was a general failure because the game of hearts as played by humans just has too many strategies to consider. I trained it purely on games (~20,000 hands of hearts in the RL dataset I generated) and the trained model did about as good as any decently written procedural game logic would have. the dream analyst training was a bit more successful. I can hand the model a dream log and it will offer some interesting insights. are they accurate? hard to say, it's a very subjective type of training, but definitely a better experiment than the hearts expert training run. in both cases the biggest and most time intensive part is generating the training dataset. building the LoRa is the easy part. I was using Qwen3.5:2b models for both, running on Dell Pro Max GB10 Cuda,128GB. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:03.063076",
+        "updated_at": "2026-09-23T16:04:03.063076",
+        "author": {
+          "id": "366b15f7f3df8931b2a1db60a6f9fb0c",
+          "source_id": "spottedmarley",
+          "username": "spottedmarley",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "bd24581ac2ea2edd46e159c5dff61774",
+        "source_id": "49814108",
+        "content": {
+          "text": "Interesting experiment. My favorite is the dream one. Can you share more about datasets you got to train on for this? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:03.063677",
+        "updated_at": "2026-09-23T16:04:03.063677",
+        "author": {
+          "id": "f0184d2067813b70e2f93330a4f6e5c5",
+          "source_id": "rahuljha0403",
+          "username": "rahuljha0403",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "deaf63c25cdc1d2dda66e0c7d76ad3bd",
+        "source_id": "49811133",
+        "content": {
+          "text": "That seems interesting reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:03.064279",
+        "updated_at": "2026-09-23T16:04:03.064279",
+        "author": {
+          "id": "c78e2db966a3f16140fec875a09fb125",
+          "source_id": "kooldeep7",
+          "username": "kooldeep7",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5742e7258456abda63961bc366cff69f",
+        "source_id": "49807578",
+        "content": {
+          "text": "It's worth it if a) you have a decent sample size of data for your problem and b) you have a cost-effective infra to host it. Notably the latter is more of the bottleneck, particularly with the price race-to-zero with models such as GPT-6 Luna. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:03.064932",
+        "updated_at": "2026-09-23T16:04:03.064932",
+        "author": {
+          "id": "fbe2cba180d4465e981ed05c7fba9cc9",
+          "source_id": "minimaxir",
+          "username": "minimaxir",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "94849a7ed3e5378414359674af37fb0e",
+        "source_id": "49807753",
+        "content": {
+          "text": "There are allegedly multi-tenant LoRA offerings in the works which would change the hosting-pricing constraints considerably. Keeping my fingers crossed they materialize reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:03.065613",
+        "updated_at": "2026-09-23T16:04:03.065613",
+        "author": {
+          "id": "0555c16ed7f938be906cf20d79b97096",
+          "source_id": "verdverm",
+          "username": "verdverm",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a434123f91e1661343b647f454d39eb1",
+        "source_id": "49808350",
+        "content": {
+          "text": "I personally would only do it if I need it to solve a highly specialized problem that requires every inch of privacy I can get. Otherwise there are better options out there reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:03.066281",
+        "updated_at": "2026-09-23T16:04:03.066281",
+        "author": {
+          "id": "96901df6b9cdfc74f9ee6bbc48e142c4",
+          "source_id": "Vicmed13",
+          "username": "Vicmed13",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "cfc50d710ea7c18cdb90bbfaef107bea",
+        "source_id": "49807924",
+        "content": {
+          "text": "Maybe when you want to learn the process for when/if you ever need to fine-tune a larger model? It's faster to make iterate when you're toying around with a 1B model than a 27B one. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:03.067049",
+        "updated_at": "2026-09-23T16:04:03.067049",
+        "author": {
+          "id": "3a727e83eddf038667500ef93d5e2531",
+          "source_id": "carlos_rpn",
+          "username": "carlos_rpn",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d09e6db62e23f52fc50133228718a460",
+        "source_id": "49811239",
+        "content": {
+          "text": "that's a very good reason to try this! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:03.067808",
+        "updated_at": "2026-09-23T16:04:03.067808",
+        "author": {
+          "id": "c78e2db966a3f16140fec875a09fb125",
+          "source_id": "kooldeep7",
+          "username": "kooldeep7",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-09-23T16:04:03.068190",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "d1d8ce67766ead9e26b4237795c819e9",
+      "source_id": "49805594",
+      "title": "Ask HN: Which is cheaper: ChatGPT tokens or a 2nd Pro 20x subscription?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-23T16:03:43.717167",
+      "updated_at": "2026-09-23T16:03:43.717167",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "ee373f257131d88ae7f7be4d544a9567",
+        "source_id": "yesitcan",
+        "username": "yesitcan",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 3,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49805594",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-09-23T16:04:06.638974",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "683252f13dbee940e0a1f406a91699e3",
+      "source_id": "49804573",
+      "title": "Ask HN: How do your teams share and distribute agent skills?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">Hi HN,<p>I'm seeing agent skills being distributed quite extensively by employees, and wondering what tools do you use<p>I've heard of Notion, Github or even just sharing .md files, but obviously all of these come with drawbacks - for example, Github is too complicated for our business users to learn<p>Would love your thoughts</p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-23T16:03:43.717793",
+      "updated_at": "2026-09-23T16:03:43.717793",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "9c243278a753440f4726c3935c78d5f3",
+        "source_id": "juanviera23",
+        "username": "juanviera23",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 3,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49804573",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "d520a949cd202084586fcc3456e46bb2",
+        "source_id": "49807212",
+        "content": {
+          "text": "We built this for our team, you're welcome to give it a try: https://radio.plasma.ai/ reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:09.434771",
+        "updated_at": "2026-09-23T16:04:09.434771",
+        "author": {
+          "id": "5ad71531f20be8154736139ca49b08cc",
+          "source_id": "NatalieTrono",
+          "username": "NatalieTrono",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f03519ef746841182ba8c841aebb3991",
+        "source_id": "49806224",
+        "content": {
+          "text": "we have a repo. <org>/<team-name>-skills reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:09.435288",
+        "updated_at": "2026-09-23T16:04:09.435288",
+        "author": {
+          "id": "6b59582acfc2b1bd3a45229d7df5556d",
+          "source_id": "blinded",
+          "username": "blinded",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-09-23T16:04:09.435458",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "46d15d3f9d5392d64b2b89a71442a758",
+      "source_id": "49742976",
+      "title": "Ask HN: How to recover Google auth after phone stolen?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">As we know, google has been effective at automating a lot of their systems, to the point where it can feel like there isn't any help available from a human. So what is supposed to be the plan when this type of situation happens?<p>Basically I have a situation that after my phone was stolen, I can't get into any of my accounts that are either connected to google, or connected to the phone via 2FA. This has made it complicated/impossible not only to get info about my phone, but also my banking, email, drive, etc.<p>Of course they offer you \"multiple options\" to recover an account, but not if you forgot your old email's password. At that point the options you get are,<p><pre><code>  a) Use old phone (obviously the phone is long gone)\n  b) Use current phone (the phone is gone)\n  c) Use old email (I haven't used it in like 12 years)\n</code></pre>\nDoes anyone know if their is a process to appeal 2FA or anything to deal with this type of situation?<p>I'd imagine that this has happened to people many many times, and given how phones and particularly, google auth have become so critical to accomplishing essential tasks within society, there must be some way. Or maybe it's just like, once your phone is gone, you are completely over with society? If anyone has any experience with this or inside knowledge please share it!<p>I'm sure people here have heard of this, and maybe experienced it themselves.<p>Is there a secret option that exists that allows us to use passwords instead of rigamarole? I would love an account that let me simply log in with a password, like google used to be.</p></p></p></p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-23T16:03:43.718595",
+      "updated_at": "2026-09-23T16:03:43.718595",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "6e956d9b40c709d477739c7ac2f29959",
+        "source_id": "keymasta",
+        "username": "keymasta",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 121,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49742976",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "7838ffbaaccdeb05ef1dae8f341be815",
+        "source_id": "49743190",
+        "content": {
+          "text": "Isn't there an SMS option? buy a new phone and have them send you an OTP via SMS. > once you're phone is gone, you are completely over with society? yes, I'm waiting for the Black-Mirror episode where someone drops their phone and basically dies, can't contact anyone, can't unlock or start their car, can't get an uber, can't pay for anything, can't navigate without gps, can't log into anything etc. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:10.980947",
+        "updated_at": "2026-09-23T16:04:10.980947",
+        "author": {
+          "id": "beef81c913cd843ade13c2f36e233372",
+          "source_id": "ticulatedspline",
+          "username": "ticulatedspline",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "604e0b620cfb394e006a2c82fc8a2c8f",
+        "source_id": "49747462",
+        "content": {
+          "text": "Something I learned the hard way: it's a bad time if you are a Google Fi customer and your Android phone with an eSim becomes inoperable while traveling :) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:10.981499",
+        "updated_at": "2026-09-23T16:04:10.981499",
+        "author": {
+          "id": "33e025dad7d735e7d3758bc921c78282",
+          "source_id": "ryanhecht",
+          "username": "ryanhecht",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b968fdf9a25e063333de4a19f299cd5b",
+        "source_id": "49749295",
+        "content": {
+          "text": "just in general, it's difficult if your phone with an esim dies/lost/stolen (ie no access) to move the esim over. It's especially annoying if it just died, because instead of just popping the sim over you end up in a maze with the carrier (unless you are lucky enough to other lines on the account you have access to) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:10.982023",
+        "updated_at": "2026-09-23T16:04:10.982023",
+        "author": {
+          "id": "e896afa6ee5d48410266271e031dc2c0",
+          "source_id": "dogmatism",
+          "username": "dogmatism",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7b9280a842cc739082802c3fb82ce783",
+        "source_id": "49752771",
+        "content": {
+          "text": "Went through the same last month. I had to both buy a new phone and still have my old one repaired to be able to authenticate to set up the new one. I was a CyanogenMod user before switching to Pixel, and that experience was a monumental shove towards moving to Graphene. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:10.982616",
+        "updated_at": "2026-09-23T16:04:10.982616",
+        "author": {
+          "id": "996aa074a7286c1672b447765b81ebc0",
+          "source_id": "washadjeffmad",
+          "username": "washadjeffmad",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0eac6c02b8141308c8a3d02531150489",
+        "source_id": "49743452",
+        "content": {
+          "text": "Pretty similar to how my life feels right now. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:10.983190",
+        "updated_at": "2026-09-23T16:04:10.983190",
+        "author": {
+          "id": "6e956d9b40c709d477739c7ac2f29959",
+          "source_id": "keymasta",
+          "username": "keymasta",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d33762b2dafef9ebaf205b7be5c24018",
+        "source_id": "49744010",
+        "content": {
+          "text": "As an old curmudgeon I recoil at any service I can't interact with sans-phone. I hardly use mine for anything. Just be glad your phone number is tied to your account, if you lose the number itself you are royally screwed, and basically anyone who gets your old number owns all your accounts now. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:10.983842",
+        "updated_at": "2026-09-23T16:04:10.983842",
+        "author": {
+          "id": "beef81c913cd843ade13c2f36e233372",
+          "source_id": "ticulatedspline",
+          "username": "ticulatedspline",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "aeec826e16d7ce1cfb5f52bae1eeed8c",
+        "source_id": "49745789",
+        "content": {
+          "text": "Same, it is kind of strange. Back in 2005 I was one of the first to carry the full internet on my phone and now I am leading the charge to avoid having to carry the internet in my pocket. If your product or service requires a phone, I just don't do business with you. I know I sound archaic recommending this, but we (as a society) need to push back on your phone being the key to your life. My phone is no more special than my laptop, however this requires an incredible amount of inconvenience for most people along with the constant social pressure to carry a cellphone. As you can imagine, I do not have many friends these days. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:10.984519",
+        "updated_at": "2026-09-23T16:04:10.984519",
+        "author": {
+          "id": "06db34d707bfbc0ff2a67c005925b8b0",
+          "source_id": "kxrm",
+          "username": "kxrm",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b66732c003ad18afb959fba476a081ea",
+        "source_id": "49792391",
+        "content": {
+          "text": "I never understood why people would bring their phones in public.  From getting stolen, lost or broken to the tracking and border accessing your social media accounts, personal photos and bank information it makes very little sense when no one actual calls anyone anymore. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:10.985173",
+        "updated_at": "2026-09-23T16:04:10.985173",
+        "author": {
+          "id": "6aae57c9d297e8e3406124fb707840a9",
+          "source_id": "ipaddr",
+          "username": "ipaddr",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e064fb763da10c8fc337ac2d1914b818",
+        "source_id": "49750743",
+        "content": {
+          "text": "It sounds like you solved the problem of losing access to society by losing access to society. Have you considered having backups instead? Carry a physical credit card, make sure you have a backup phone uncharged at home ready for a swap? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:10.985894",
+        "updated_at": "2026-09-23T16:04:10.985894",
+        "author": {
+          "id": "5bae89e01f8fe415342d7534b8a20429",
+          "source_id": "jurgenburgen",
+          "username": "jurgenburgen",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0c6c039a4feff7175af78a48a467bc82",
+        "source_id": "49760220",
+        "content": {
+          "text": "> It sounds like you solved the problem of losing access to society by losing access to society. Perhaps, but frankly I have been more on the lookout for people like me. Natural filter for compatibility? > Have you considered having backups instead? Carry a physical credit card, make sure you have a backup phone uncharged at home ready for a swap? I mean, I carry a wallet. Most vendors and society still take cash or card. Where the real friction comes in is staying connected to a community. Everyone wants to keep social connections virtual for some odd reason. As a remote worker I definitely get the virtues of remote interaction, but sometimes meeting people in person has benefits. It does not have to be all-or-nothing and it feels like we are moving to an all-or-nothing digital way of life. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:10.986674",
+        "updated_at": "2026-09-23T16:04:10.986674",
+        "author": {
+          "id": "06db34d707bfbc0ff2a67c005925b8b0",
+          "source_id": "kxrm",
+          "username": "kxrm",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ac6877364f255cd8a4b10d340f5b6b39",
+        "source_id": "49755561",
+        "content": {
+          "text": "When I dropped my landline after more than 40 years, I transferred the number to a flip phone. This number is also used my family members as a backup phone number for 2FA and voice. Everyone has access to voice mail and can leave messages for others if a phone is lost, broken or stolen. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:10.987452",
+        "updated_at": "2026-09-23T16:04:10.987452",
+        "author": {
+          "id": "deabd3e498f9f7e662b58b5caf04e065",
+          "source_id": "memcg",
+          "username": "memcg",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0cca427be395ac26d086cb206012b15d",
+        "source_id": "49748489",
+        "content": {
+          "text": "My wife recently had this happen to a work acquaintance. They are a recent immigrant who has only lived in New York since moving here, who was sent out to the Midwest where there is no public transportation and driving is mandatory, and is staying at a hotel. She lost her phone, and thus could not get anywhere or communicate with anyone, and couldn't pay for anything due to her phone being where all her money is stored (no physical credit cards or anything). Luckily, my wife was able to get her around and help her out until they eventually discovered it was in a lost and found. If she had been alone, I don't know what she would have done. Imagine being on vacation and you lose your phone, or it breaks. You offloaded your payments to digital and have no cards or cash, you can't get in your hotel room because you used a digital key like hotels all want you to, maybe you brought a car but oops it's a Tesla and you're depending on your phone as the key because it's less stuff to carry! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:10.988244",
+        "updated_at": "2026-09-23T16:04:10.988244",
+        "author": {
+          "id": "eb0549153d3af5e5eb552f2860ba3500",
+          "source_id": "foobarchu",
+          "username": "foobarchu",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ab37ea225eee83f31cbf557bdf11a13b",
+        "source_id": "49748631",
+        "content": {
+          "text": "I recently switched to a Minimal Phone with an e-ink screen, and it sucks (which is the point, obviously).  One of the things that sucks is NFC.  The payment terminals constantly have a hard time grabbing it, and when they do, they often throw a bizaare \"multiple cards detected\" error, which is extra strange, since I only have one card stored. I have a separate sleeve wallet, which I can attach to the back of the phone magnetically that contains my physical debit card + drivers license.  If I lost the phone, there's probably about a 50/50 chance that I'd still have the wallet sleeve in my pocket, so I'd at least have my ID and a way to pay for things...but if I lost them both, I'd be pretty screwed. Convenience is nice, but switching to a shitty phone made me realise I can live without a lot of convenient things, and it's safer not to keep all your eggs in one black rectangle. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:10.989096",
+        "updated_at": "2026-09-23T16:04:10.989096",
+        "author": {
+          "id": "079c57ca32745cb15f8bd04046ddd267",
+          "source_id": "hexapus",
+          "username": "hexapus",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4819a283fe5b0cf9ba10a4b821c7fb18",
+        "source_id": "49750978",
+        "content": {
+          "text": "We need to better educate non-technical users about making multiple local backups of things like password managers, TOTP seeds, etc. Yes, even writing the most important ones on a piece of paper and keeping it somewhere safe (like a safe in your house) is an option, as long as you have a low threat model, of course. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:10.989957",
+        "updated_at": "2026-09-23T16:04:10.989957",
+        "author": {
+          "id": "a5147bdb27dbb400e6c1cd06876e93f5",
+          "source_id": "pid0x17",
+          "username": "pid0x17",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0e6d9fe4e600051a2bef226a5176986f",
+        "source_id": "49752477",
+        "content": {
+          "text": "I lost my phone, and slacks recovery model is essentially like this. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:10.990839",
+        "updated_at": "2026-09-23T16:04:10.990839",
+        "author": {
+          "id": "ee8ddd89fbdcbc0063286870de304ada",
+          "source_id": "lyfeninja",
+          "username": "lyfeninja",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c3ede93371328cd908c212487065ea36",
+        "source_id": "49743148",
+        "content": {
+          "text": "If you don't have the authenticator backup codes and you didn't turn on cloud sync in the app, you might be out of luck. You can get a replacement SIM though and use it with a new phone, so the phone number recovery option should work. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:10.991769",
+        "updated_at": "2026-09-23T16:04:10.991769",
+        "author": {
+          "id": "b6dffadbcfe4563f67a8f854e506b07f",
+          "source_id": "sampullman",
+          "username": "sampullman",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a1bdf7b4f3af267c294efb5b63172b4d",
+        "source_id": "49744258",
+        "content": {
+          "text": "Happened to me, I was able to get SMS and recovery codes, but Google still required additional verification on now lost phone :D. On the end I acutely found the phone and was able to restore access. So what they do after couple of days of failed attempts the require additional verification, lets call it 3 step. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:10.992714",
+        "updated_at": "2026-09-23T16:04:10.992714",
+        "author": {
+          "id": "c08a27d21a67bbec457366cb85fe5ab6",
+          "source_id": "dz0ny",
+          "username": "dz0ny",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "88a00c87e02a2924d01bb9560b193391",
+        "source_id": "49745442",
+        "content": {
+          "text": "I have passkeys, authenticator etc... and everything except phone number, and now i am unable to login my account in other device. Google sucks, they are randomly denying access because their dumb model can't figure out not everyone is trying to steal account. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:10.993710",
+        "updated_at": "2026-09-23T16:04:10.993710",
+        "author": {
+          "id": "a5a02dadec54681e8c2ba84464edb682",
+          "source_id": "cute_boi",
+          "username": "cute_boi",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a16a5b627ea6dc2458672d51955a5dd2",
+        "source_id": "49762915",
+        "content": {
+          "text": "This feels objectively worse than writing down a password somewhere reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:10.994708",
+        "updated_at": "2026-09-23T16:04:10.994708",
+        "author": {
+          "id": "d699ecb803701282222edf92aeaec9f8",
+          "source_id": "kaycey2022",
+          "username": "kaycey2022",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2bb52cebfdca60e6d976ddd99f5b8c38",
+        "source_id": "49743191",
+        "content": {
+          "text": "This. Can't you get your number moved to a new phone? I have never don't anything magic when upgrading my phone other than move contacts. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:10.995730",
+        "updated_at": "2026-09-23T16:04:10.995730",
+        "author": {
+          "id": "a314504e563e2f66cf08099fe8b0bff8",
+          "source_id": "uberman",
+          "username": "uberman",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e2826f78393884b72c95657c631454fa",
+        "source_id": "49744127",
+        "content": {
+          "text": "How would moving your number to a new phone help? We're talking TOTP here, not SMS \"auth\". reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:10.996789",
+        "updated_at": "2026-09-23T16:04:10.996789",
+        "author": {
+          "id": "bd2ccae086ff6d262d8827f66593f846",
+          "source_id": "jwr",
+          "username": "jwr",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ebed2a11dda1ff6ceccf349a5834d42d",
+        "source_id": "49744742",
+        "content": {
+          "text": "does google not offer a backup via sms? it's a common enough recovery flow elsewhere. (i dont use google stuff, so i am genuinely asking) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:10.997877",
+        "updated_at": "2026-09-23T16:04:10.997877",
+        "author": {
+          "id": "c89419da07d180d0596ba1ecfbdafb9f",
+          "source_id": "john_strinlai",
+          "username": "john_strinlai",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "33e4f1d0d926143b65575e9e2a04f7f0",
+        "source_id": "49744850",
+        "content": {
+          "text": "Any less secure backup method, means others are less secure. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:10.999016",
+        "updated_at": "2026-09-23T16:04:10.999016",
+        "author": {
+          "id": "712b397a4f1afe8f45769a3791743a51",
+          "source_id": "b112",
+          "username": "b112",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a56525c35c955c6717fca4506ec1f817",
+        "source_id": "49745081",
+        "content": {
+          "text": "Google actually puts effort into security for \"normal\" people who don't want to earn a PhD in cryptography just to have a damn free email account or watch Mr. Beast That's why they had powerful and effective account takeover protection even 15 years ago. The kind that will prevent the hacker from taking over your account even though they got access to all your factors, because it shouldn't take expertise to know that if you logged in from Oregon twenty minutes ago, you definitely aren't also logging in from Ecuador. Which of course makes it all the more stupid that your credit card company, all your medical service providers, and Facebook don't meet that absurdly low bar. Facebook will happily hand control to the scammer in Laos who got one of your factors and somehow that gave them access to change your password and recovery email reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.000233",
+        "updated_at": "2026-09-23T16:04:11.000233",
+        "author": {
+          "id": "b64c8c7294fa8d89d9092726b2d3397d",
+          "source_id": "mrguyorama",
+          "username": "mrguyorama",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "00f367ba3d4b37970d3f51f91352a3a8",
+        "source_id": "49750560",
+        "content": {
+          "text": "The best backup method doesn't need any computer knowledge, it's writing down or printing a few passwords and putting that piece of paper in the same box as your taxes or birth certificate. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.001420",
+        "updated_at": "2026-09-23T16:04:11.001420",
+        "author": {
+          "id": "decc547e6953406f4cd45feb3dfc8ecb",
+          "source_id": "Dylan16807",
+          "username": "Dylan16807",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "335b9e48e3b27dc6133e77317976911a",
+        "source_id": "49748633",
+        "content": {
+          "text": "A required “more secure” method is less secure if it means you can be locked out by not-exactly-uncommon real-life situations. Denial of service is a security issue. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.002642",
+        "updated_at": "2026-09-23T16:04:11.002642",
+        "author": {
+          "id": "047cac4df68b73e7f9db5b4c26f5d2e1",
+          "source_id": "cwillu",
+          "username": "cwillu",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a4b15c9aed68bc48fb94ea2975b67247",
+        "source_id": "49748789",
+        "content": {
+          "text": "I’ve repeated it a hundred times security = confidentiality, integrity and availability. One reason to strongly prefer Apple over Google is that (as I understand it) you can still walk into a store with ID and recover your online identity. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.003903",
+        "updated_at": "2026-09-23T16:04:11.003903",
+        "author": {
+          "id": "e7780736c99f2581a3e3c76f5187151f",
+          "source_id": "hedora",
+          "username": "hedora",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "143641e58e23c94d99a605eab98e33cc",
+        "source_id": "49751368",
+        "content": {
+          "text": "> One reason to strongly prefer Apple over Google is that (as I understand it) you can still walk into a store with ID and recover your online identity. Is this true? If so, in what countries? (Poland has no Apple stores, for example, for inexplicable reasons Apple has been giving the middle finger to this market) That would be a huge difference. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.005201",
+        "updated_at": "2026-09-23T16:04:11.005201",
+        "author": {
+          "id": "bd2ccae086ff6d262d8827f66593f846",
+          "source_id": "jwr",
+          "username": "jwr",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "dbc1b6a22fdcb50c636fd883ee190a17",
+        "source_id": "49762928",
+        "content": {
+          "text": "I think Google’s own textbook on SRE has an example in its very first chapter where everyone gets locked out of their bus fleet WiFi thanks to their secure system reaching an unforeseen state reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.006515",
+        "updated_at": "2026-09-23T16:04:11.006515",
+        "author": {
+          "id": "d699ecb803701282222edf92aeaec9f8",
+          "source_id": "kaycey2022",
+          "username": "kaycey2022",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "06d69e0dc3fbcc3f9c52c5587de07836",
+        "source_id": "49744913",
+        "content": {
+          "text": "yes, i understand. i was asking specifically whether google has sms recovery flow, not how secure sms recovery flow is compared to other options. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.007832",
+        "updated_at": "2026-09-23T16:04:11.007832",
+        "author": {
+          "id": "c89419da07d180d0596ba1ecfbdafb9f",
+          "source_id": "john_strinlai",
+          "username": "john_strinlai",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f3950aa4bcae999184169fad76985fd3",
+        "source_id": "49745663",
+        "content": {
+          "text": "You can export from Google Authenticator to another device just fine. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.009176",
+        "updated_at": "2026-09-23T16:04:11.009176",
+        "author": {
+          "id": "e612987d4455aa898943e926f26480ef",
+          "source_id": "chinathrow",
+          "username": "chinathrow",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2329f4d37b8ab2688dc7abe01f5017e6",
+        "source_id": "49765377",
+        "content": {
+          "text": "How do you export from a phone you no longer have? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.010569",
+        "updated_at": "2026-09-23T16:04:11.010569",
+        "author": {
+          "id": "bd2ccae086ff6d262d8827f66593f846",
+          "source_id": "jwr",
+          "username": "jwr",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "31df6c152bd05f3ff89789047b30c8d8",
+        "source_id": "49769725",
+        "content": {
+          "text": "I misread your comment, you're right. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.011972",
+        "updated_at": "2026-09-23T16:04:11.011972",
+        "author": {
+          "id": "e612987d4455aa898943e926f26480ef",
+          "source_id": "chinathrow",
+          "username": "chinathrow",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "29b80c059a8728cc0f08af991ae16723",
+        "source_id": "49743806",
+        "content": {
+          "text": "This is why my self-hosted Vaultwarden is my one password that I have to remember and requires no 2fa, which is the only important account that doesn't have 2fa. If I wake up in a bathtub missing a kidney I can still get to my passwords and 2fa sources stored with it. Some accounts require SMS (annoyingly) so I'd have to buy a phone but the auth and credit card numbers I need to do that are in Vaultwarden, too. I don't have good solutions now for OP (other than buy a new phone through your carrier and transfer the number). But everyone else do think through your personal DRP. Generate backup codes and put them somewhere safe, too. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.013456",
+        "updated_at": "2026-09-23T16:04:11.013456",
+        "author": {
+          "id": "a4dd78d40eba8f99a584968d5225250f",
+          "source_id": "mrj",
+          "username": "mrj",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "37eeedf7db4431bd92ba05a6aa9cf2eb",
+        "source_id": "49744452",
+        "content": {
+          "text": "Welll yeh until a Hargrove fails on your self hosted server reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.014907",
+        "updated_at": "2026-09-23T16:04:11.014907",
+        "author": {
+          "id": "35c6f6a7019872705c75802d3cf65cd7",
+          "source_id": "bazmattaz",
+          "username": "bazmattaz",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a99d1b353be794282af18b389a48e5b1",
+        "source_id": "49744766",
+        "content": {
+          "text": "One of my favorite things about self-hosted Vaultwarden is that you get distributed backups for free. Every client keeps an offline copy of your entire password vault, kept in sync when the client is online. So for me to lose my vault, not only would my server have to get hit by a bus, but also my phone, my desktop, my HTPC, both laptops... reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.016437",
+        "updated_at": "2026-09-23T16:04:11.016437",
+        "author": {
+          "id": "833979f8b6eec19352f00ed78effdf39",
+          "source_id": "nyx",
+          "username": "nyx",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4dbc0147785ec14220365812ff72ee26",
+        "source_id": "49749835",
+        "content": {
+          "text": "True.. but now you have more devices to have to secure against attacks... Edit: this \"feature\" did save me when my home hosted vaultwarden died due to hdd failure. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.017969",
+        "updated_at": "2026-09-23T16:04:11.017969",
+        "author": {
+          "id": "85990eb91024cf4d09159925309a9207",
+          "source_id": "627467",
+          "username": "627467",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9781fbcf8ceef67175d7c12307663d6c",
+        "source_id": "49743360",
+        "content": {
+          "text": "You're going to have more success working with the providers of the other accounts and services rather than Google. That means a lot more legwork on your part but banks and other online services all have processes to deal with lost passwords and 2FA devices. In some cases you may have to physically go somewhere with ID and other documents. Consider it a learning experience. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.019535",
+        "updated_at": "2026-09-23T16:04:11.019535",
+        "author": {
+          "id": "09e4935f62f4a4b1c17fb25be787e5cf",
+          "source_id": "SoftTalker",
+          "username": "SoftTalker",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4c66ea218db4d667d37c3dfd936bf7df",
+        "source_id": "49744889",
+        "content": {
+          "text": "I had similar issues: https://news.ycombinator.com/item?id=45451567 (including my personal domain, Dropbox; my Apple account is still MIA...) We've all been reduced to a passphrase. When I've lobbed this scenario to the security managers/employees at these companies, they all give me a really great answer: Q: What happens if a sitting senator gets mugged and they have their printed 2fa codes sitting in their wallet? A: They have a special number they can call. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.021170",
+        "updated_at": "2026-09-23T16:04:11.021170",
+        "author": {
+          "id": "0b486fc37cc81abef9e9e3b2950ef348",
+          "source_id": "joshmn",
+          "username": "joshmn",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "107538dcbb8620e2be6b33fab40e7b9a",
+        "source_id": "49745611",
+        "content": {
+          "text": "After they go get a second phone reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.022774",
+        "updated_at": "2026-09-23T16:04:11.022774",
+        "author": {
+          "id": "1f93202ca595b16c06129a059d2598b8",
+          "source_id": "bshaughn",
+          "username": "bshaughn",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7780175f2667303e19d64e5fd1f6a749",
+        "source_id": "49743749",
+        "content": {
+          "text": "It's a good reminder to everyone who uses 2FA. Be sure you have multiple ways in for when your phone becomes unusable. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.024468",
+        "updated_at": "2026-09-23T16:04:11.024468",
+        "author": {
+          "id": "6cb9d0c21dc68b1341a7271af616685e",
+          "source_id": "beej71",
+          "username": "beej71",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "95dde8e7946608d7868bbce789c8afd8",
+        "source_id": "49745763",
+        "content": {
+          "text": "Yeah I lost my phone some months ago. Quite the panick because I am also MS365 admin for 2 orgs... 3 hr later a trucker called my wife using the iPhone emergency contact feature (what a hero). Now I bought an iPad that stays at home and has all the apps. Honestly, I should also put a second phone somewhere else. Also frees me up to experiment a bit more on the Phone side (just got a Pixel 10 with GrapheneOS), although, so far it all just works (with Google Services of course). It's annoying that you really do need either Android or iOS nowadays. If only we could virtualize one of those platforms properly (and free as in freedomly). reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.026178",
+        "updated_at": "2026-09-23T16:04:11.026178",
+        "author": {
+          "id": "59baf08e11906165ee446de7acf59603",
+          "source_id": "teekert",
+          "username": "teekert",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "bd35cbf6941d2ac940a31f30c6d82903",
+        "source_id": "49763934",
+        "content": {
+          "text": "At one time I heeded advice not to rely on 2FA SMS because you know it's not secure, so I kept everything in a 2FA app. Well through an unfortunate sequence of button clicks I wiped my 2FA state and had a hell of a time getting into the apps that I removed my SMS from. In theory yes SMS is an attack vector but personally the safety and convenience of SMS is more valuable than the odds that someone impersonates me at my mobile provider. (Also I stopped using that 2FA app and just use a keepass db stored in onedrive). reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.027916",
+        "updated_at": "2026-09-23T16:04:11.027916",
+        "author": {
+          "id": "b1ad6d9dd4b0fc3d92acaea70db95629",
+          "source_id": "bentcorner",
+          "username": "bentcorner",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d305dbc95b999fe1e4d482270096240a",
+        "source_id": "49745964",
+        "content": {
+          "text": "Doesn't help obviously if you already lost your phone, but I recommend anyone to use a third party authenticator app. Most services offer to scan a QR code to set up MFA, which can easily be backed up. Don't use Google/Microsoft authenticator apps directly. Personally I use Stratum, but any that allows export/import will do. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.029646",
+        "updated_at": "2026-09-23T16:04:11.029646",
+        "author": {
+          "id": "f76f1cad0725fa4995eb742317a511ed",
+          "source_id": "emaro",
+          "username": "emaro",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4f84326752b84af4fe076778440238d7",
+        "source_id": "49746253",
+        "content": {
+          "text": "This. Authy and a throwaway phone added in that sits in a safe place. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.031413",
+        "updated_at": "2026-09-23T16:04:11.031413",
+        "author": {
+          "id": "2a7ab3cd19e7991b6f8ce5dc3e12d282",
+          "source_id": "varispeed",
+          "username": "varispeed",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "42c7b29e9b994ec0e2ba509d8e6cd8e1",
+        "source_id": "49752871",
+        "content": {
+          "text": "I stopped using Authy when they were bought by Twilio and stopped supporting their desktop client (thus eliminating my alternate device backups). I can highly recommend Ente Auth though. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.033216",
+        "updated_at": "2026-09-23T16:04:11.033216",
+        "author": {
+          "id": "52df6e8a77c30137ae025f699d514027",
+          "source_id": "croon",
+          "username": "croon",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "85aa13dc3a0a610ea025e191772957a4",
+        "source_id": "49744054",
+        "content": {
+          "text": "All those times you logged in and were prompted to verify your backup email address, and when you set up 2FA and were given recovery codes, and when given the option to sync 2FA codes to another copy of the authenticator app:  This Is Why. I'm sorry you're dealing with this - hopefully everyone else here can take it as a cautionary tale. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.035041",
+        "updated_at": "2026-09-23T16:04:11.035041",
+        "author": {
+          "id": "511718d074558c7ec7454c79f3706bb1",
+          "source_id": "happyopossum",
+          "username": "happyopossum",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "cc7d134f9b0ca6a4b03e1b79acf12a2a",
+        "source_id": "49744286",
+        "content": {
+          "text": "I'll fill out a \"help my friend\" form internally unless someone beats me to it (I have a 1hr meeting coming up). The gmail address in question is the same one as on your website? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.036875",
+        "updated_at": "2026-09-23T16:04:11.036875",
+        "author": {
+          "id": "978f6e67058640b56e3089a73e3a8fb5",
+          "source_id": "luka",
+          "username": "luka",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "601bda073140aba665f4ebd25a7a54d2",
+        "source_id": "49744442",
+        "content": {
+          "text": "That's nice of you, but I'd urge anyone with influence at Google to consider 1) many many many more people who use Google services probably don't know or run in the same circles as Googlers who can bail them out of such a scenario, and 2) these people, being much less likely to understand 2FA, are also more likely to accidentally lock themselves out. An separate class of people who know how a system works or have connections to its operators become nose blind to its terrible UX because they have access to workarounds. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.038736",
+        "updated_at": "2026-09-23T16:04:11.038736",
+        "author": {
+          "id": "673d873cc351bd713d76177fb28681bc",
+          "source_id": "dgunay",
+          "username": "dgunay",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5747b4f20a93b76efa891692d59b492c",
+        "source_id": "49744576",
+        "content": {
+          "text": "All true, but I’m guessing the set of people at Google who can fill out that form is about 1000x larger than the ones who have the ability to influence the underlying product decisions that led to this situation. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.040625",
+        "updated_at": "2026-09-23T16:04:11.040625",
+        "author": {
+          "id": "8fbff9d9b487c8ea58472032d1e169a4",
+          "source_id": "senordevnyc",
+          "username": "senordevnyc",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "cce457eb84555cdffddd5bb4049a4c46",
+        "source_id": "49745369",
+        "content": {
+          "text": "Consider the fact that they have made this difficult a sign that they have no interest in making it easy. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.042558",
+        "updated_at": "2026-09-23T16:04:11.042558",
+        "author": {
+          "id": "294b1933551ab2d03b95a2ded3fb77ae",
+          "source_id": "asdff",
+          "username": "asdff",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5c8fc71ef889063bea118c2b99645538",
+        "source_id": "49744752",
+        "content": {
+          "text": "Sorry to bother, but I have been without access to the account I use for my YouTube channel for months because I stupidly entered a random phone number many years ago and it is now demanding access to it. If you would be willing to fill out that form for me, I would greatly appreciate it. Account is this username at gmail. Thanks! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.044507",
+        "updated_at": "2026-09-23T16:04:11.044507",
+        "author": {
+          "id": "2fc3b5749e18cdbb37d5858d3fc6818f",
+          "source_id": "ihg5000mrtnav",
+          "username": "ihg5000mrtnav",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c90167c3f7154bcb6fda00ab79a46c46",
+        "source_id": "49745340",
+        "content": {
+          "text": "Did you try going through the normal account recovery procedure?\nDuring that procedure, did you have to provide an alternative email address that you have access to? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.046492",
+        "updated_at": "2026-09-23T16:04:11.046492",
+        "author": {
+          "id": "978f6e67058640b56e3089a73e3a8fb5",
+          "source_id": "luka",
+          "username": "luka",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a12693f894c9b094effc143adea99655",
+        "source_id": "49745497",
+        "content": {
+          "text": "The account recovery procedure only asks for the last password I remember (which I know is correct) and then says \"You can’t recover your account at this time because Google doesn’t have enough info to be sure this account is yours.\" I know the email, password, (wrong) phone number on file, and associated YouTube channel. I am logging in from a different IP address but on the same ASN and approximate geolocation that I always logged in and used the account from. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.048509",
+        "updated_at": "2026-09-23T16:04:11.048509",
+        "author": {
+          "id": "2fc3b5749e18cdbb37d5858d3fc6818f",
+          "source_id": "ihg5000mrtnav",
+          "username": "ihg5000mrtnav",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1c1fca93c3299afe79848fb9161c302a",
+        "source_id": "49745861",
+        "content": {
+          "text": "\"Try another way\" until you can give an alternative email address that you have access to. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.050544",
+        "updated_at": "2026-09-23T16:04:11.050544",
+        "author": {
+          "id": "978f6e67058640b56e3089a73e3a8fb5",
+          "source_id": "luka",
+          "username": "luka",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b7fc7035a5eda20c5bd9455b33304b26",
+        "source_id": "49746078",
+        "content": {
+          "text": "I have tried all combinations of entering password, entering the phone number, try another way, etc., and it never lets me enter an alternative email address. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.052616",
+        "updated_at": "2026-09-23T16:04:11.052616",
+        "author": {
+          "id": "2fc3b5749e18cdbb37d5858d3fc6818f",
+          "source_id": "ihg5000mrtnav",
+          "username": "ihg5000mrtnav",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c3ecff3f09dc76b5006592686e8bfa35",
+        "source_id": "49746308",
+        "content": {
+          "text": "I have to click \"Try another way\" at least twice on g.co/AccountRecoveryRequest to get the option to provide an alternative contact email address. Maybe try a private session to make sure coookies aren't taken into account. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.054772",
+        "updated_at": "2026-09-23T16:04:11.054772",
+        "author": {
+          "id": "978f6e67058640b56e3089a73e3a8fb5",
+          "source_id": "luka",
+          "username": "luka",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c0a1526c123c6b92e245aff2e208794c",
+        "source_id": "49748444",
+        "content": {
+          "text": "Attempt 1: Entered email, got captcha, clicked \"try another way\". Result: Google couldn’t verify this account belongs to you. Try again later or use Account Recovery for help. Attempt 2: Entered email, got captcha, completed captcha, got enter last password screen, clicked \"try another way\". Form asked to confirm phone number. Entered phone number, sent code (which I can't get), clicked \"I don't have my phone\". Site asked for alternate email, which I provided and supplied the code. Result: \"Reply to your Google support email or contact to let the team know you've successfully completed your account recovery request. To try signing in again, follow the steps in our Help Center on how to recover your account.\" Attempt 3: Entered email, got captcha, completed captcha, got enter last password screen, entered password, got asked to confirm phone number, clicked \"I don't have my phone\". Site asked for alternate email, which I provided and supplied the code. Result: \"Reply to your Google support email or contact to let the team know you've successfully completed your account recovery request. To try signing in again, follow the steps in our Help Center on how to recover your account.\" All attempts were done with new Chrome Incognito windows and no other Incognito windows open. I still can't sign in at all. Is this account just permanently locked? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.056928",
+        "updated_at": "2026-09-23T16:04:11.056928",
+        "author": {
+          "id": "2fc3b5749e18cdbb37d5858d3fc6818f",
+          "source_id": "ihg5000mrtnav",
+          "username": "ihg5000mrtnav",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "81ca125a388e6b751c34487976d62684",
+        "source_id": "49755424",
+        "content": {
+          "text": "Attempt 2 enabled the potential internal escalation to proceed. The form is now asking me for details that we best talk non-publicly about. What's the best place to contact you privately, other than HN? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.059086",
+        "updated_at": "2026-09-23T16:04:11.059086",
+        "author": {
+          "id": "978f6e67058640b56e3089a73e3a8fb5",
+          "source_id": "luka",
+          "username": "luka",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "eaaf027eda8e7cbc88c5f7a168a3d8a6",
+        "source_id": "49755576",
+        "content": {
+          "text": "Discord, please. Username is on my profile here. If you don't use Discord, please use the email on my profile. I will remove them once you send me a friend request on Discord or email. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.061262",
+        "updated_at": "2026-09-23T16:04:11.061262",
+        "author": {
+          "id": "2fc3b5749e18cdbb37d5858d3fc6818f",
+          "source_id": "ihg5000mrtnav",
+          "username": "ihg5000mrtnav",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "98ad610f94a635eff30a323307b50f30",
+        "source_id": "49755879",
+        "content": {
+          "text": "Sent on Discord! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.063494",
+        "updated_at": "2026-09-23T16:04:11.063494",
+        "author": {
+          "id": "978f6e67058640b56e3089a73e3a8fb5",
+          "source_id": "luka",
+          "username": "luka",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "60f5b28f7bb1f6a65926575afb66824d",
+        "source_id": "49744444",
+        "content": {
+          "text": "Recovery is similar to leaving a copy of your door keys to a trusted neighbour (a tradition in some places, it comes in handy when someone goes out and realizes they forgot the keys inside...), so in that comparison, having a recovery email unused for 12 years feels like leaving your backup keys to a neighbor that you never saw ever again in more than a decade. This kind of posts are a valuable trigger for all others who are reading it. To the author: good luck, I hope you sort your situation soon! I'm now headed to check my accounts for what recovery options I left in there. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.065769",
+        "updated_at": "2026-09-23T16:04:11.065769",
+        "author": {
+          "id": "95c86d7010a8cc93745e89b346ab3603",
+          "source_id": "j1elo",
+          "username": "j1elo",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9e3facd66d318bc6c21f9d3e77b18142",
+        "source_id": "49744243",
+        "content": {
+          "text": "This happened to me on my iPhone 8 many years ago. I reset it to let my son use it, and did not have google authenticator in mind. I had to reset each account with the providers. Now I use a cloud account to sync these. I reset most accounts with an SMS or email one time code -- which led me to remove SMS and email as recovery options from google. And, I put a code on t-mobile to prevent sim transfer. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.068039",
+        "updated_at": "2026-09-23T16:04:11.068039",
+        "author": {
+          "id": "29fd2c4856f98bb65b59147d168569fb",
+          "source_id": "splitwheel",
+          "username": "splitwheel",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4df0793e8c6a5ac2193ec515926f7621",
+        "source_id": "49743341",
+        "content": {
+          "text": "Everything you listed, plus a recovery email option, plus backup codes, plus SMS. That's already a lot and anything easier would allow people to just take over accounts that they don't have a right to. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.070345",
+        "updated_at": "2026-09-23T16:04:11.070345",
+        "author": {
+          "id": "d6c592a6e75e8fa966dc55adec842614",
+          "source_id": "wccrawford",
+          "username": "wccrawford",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "584d79cb74bfcbe25226bf01a78f1b29",
+        "source_id": "49747761",
+        "content": {
+          "text": "I'm not saying it's the best option or anything but I use authy authenticator which I have on multiple devices. I got burned by Google authenticator in the past and had to jump through hoops to regain access to my accounts (non Google ones). It was painful. I learned the hard way I suppose. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.072687",
+        "updated_at": "2026-09-23T16:04:11.072687",
+        "author": {
+          "id": "bb529f4b4132de2fcf5419fcad0c1236",
+          "source_id": "karim79",
+          "username": "karim79",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b9c331a509181979c8b47353412d5acd",
+        "source_id": "49743086",
+        "content": {
+          "text": "The only secret option I know of is to have a popular social media account and complain online. Other than that, I copy/pasted your post into Claude and it had some good ideas. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.075045",
+        "updated_at": "2026-09-23T16:04:11.075045",
+        "author": {
+          "id": "05370b441130fa037368d3902b7fe968",
+          "source_id": "runjake",
+          "username": "runjake",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "6b77844f419a13a7fb4e4352d1a66603",
+        "source_id": "49744500",
+        "content": {
+          "text": "Well that’s why you should have software 2FA and even backing up the tokens so you can generate that one time code even if you lost access to your main authenticator, having your phone as the only 2FA is like having those yubikey hardware used as 2FA without making a redundant one, losing it, you lost access, which is usually known since no one would use yubikey without being tech savvy to start with, now google or other companies are turning phones as an attestation method for the crowd, you might soon in the future become citizen-less because your digital ID can only be proven in the lost phone. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.077433",
+        "updated_at": "2026-09-23T16:04:11.077433",
+        "author": {
+          "id": "bb2c9c8e173173b33d96c3279c9253c1",
+          "source_id": "tamimio",
+          "username": "tamimio",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f374b55b315f6933674dc6c79381cedb",
+        "source_id": "49777827",
+        "content": {
+          "text": "I am the OP: Special shout-out to HN-member, luka! After finding me online, he diligently helped me regain access to my account! As of just now I have logged into my gmail account! So all's well that ends well. It sure helps to know where to find smart and considerate people that can actually help, like on HN. I don't know what I would've done had I not had that option. Now I just need to verify myself with my brand new phone which is used and there's no info about the previous owner. So now I'm into chapter 2 of my phone adventure. That's a lot better than it was when I made this post! reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.079869",
+        "updated_at": "2026-09-23T16:04:11.079869",
+        "author": {
+          "id": "6e956d9b40c709d477739c7ac2f29959",
+          "source_id": "keymasta",
+          "username": "keymasta",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b6f11c52916cbe1816f99ea8ca908344",
+        "source_id": "49745829",
+        "content": {
+          "text": "It's a \"feature\" that you can't call google to help with getting \"locked out\": \"For your security, you can't call Google for help to sign into your account. We don’t work with any service that claims to provide account or password support. Do not give out your passwords or verification codes.\" for the future: https://support.google.com/accounts/answer/7684753 reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.082355",
+        "updated_at": "2026-09-23T16:04:11.082355",
+        "author": {
+          "id": "60157dff91e95941b2d53e9071c9059f",
+          "source_id": "throw7",
+          "username": "throw7",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "62ef5fcae8175d039b62106995681926",
+        "source_id": "49743909",
+        "content": {
+          "text": "You can add a passkey (preferably a physical one) to authenticate. You can also add a software passkey but that kind of defeats the purpose. Actually keeping your recovery options recent is the trick. Print out your recovery codes or store them somewhere safe. Check regularly (yearly, maybe more often) that there's a way to access your critical accounts. For Google, you can also grab the cheapest Android phone you can find, sign in, and maybe boot it once a month or so to keep the tokens active. If you've set up your account to only accept one source of 2FA and you lose thst source of 2FA, you lose your account. Same happens when you set up your account to only accept your password and then lose your password. If you lose your recovery email/2FA backup codes, you lose access, unless you're special enough to convince customer support that you are who you claim you are and not just a bot trying to hack you. If you've lost your account and haven't set up any recovery mechanisms, you're probably out of luck. Your best bet will be looking for an old browser session with enough trust from Google's side to get access without reconfirming your 2FA trust. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.084884",
+        "updated_at": "2026-09-23T16:04:11.084884",
+        "author": {
+          "id": "b8b50dc0cdbfd0cafe06f408308c2b81",
+          "source_id": "jeroenhd",
+          "username": "jeroenhd",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b5908373b650f9c8e6747dbbcfb90c4a",
+        "source_id": "49743996",
+        "content": {
+          "text": "Yup, having _two_ active devices which are logged in to Google (and possibly other services that you rely on that opt you in to app-based 2FA) + with backups of 2FA is a must at this point. When I buy a new phone, I make it a \"primary\", and keep my old phone as \"backup\". If you're not into cloud-based password/2FA syncing, Google Authenticator supports local export/import across devices via a QR code. For passwords, I use KeePass Portable / Keepass2Android + syncing between devices from time to time through a USB-C pendrive (The source of truth KP DB is on pendrive, and both phones work off a local on-device cache). You don't need to have your phone stolen for things to get messed up. If your screen breaks, you can't type in a PIN anymore, can't unblock with a fingerprint, and you effectively can't access anything on the phone. ADB won't connect because screen is off, and you can't unlock / accept a new external connection etc. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.087400",
+        "updated_at": "2026-09-23T16:04:11.087400",
+        "author": {
+          "id": "b4ab53228fc99ec9f5145ba3b15c0d01",
+          "source_id": "jakub_g",
+          "username": "jakub_g",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "86a9c471a396c32d87e71f396fbb3ed6",
+        "source_id": "49744184",
+        "content": {
+          "text": "> buy a new phone, I make it a \"primary\", and keep my old phone as \"backup\". Sadly this is why I never end up trading in my phone. Always feels too risky to not have an overlap period. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.089933",
+        "updated_at": "2026-09-23T16:04:11.089933",
+        "author": {
+          "id": "e17a0108b5528c26455be4cab57a4f13",
+          "source_id": "cj",
+          "username": "cj",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "abc34c5820d7448cb28f3a75edd12f8c",
+        "source_id": "49746530",
+        "content": {
+          "text": "I can't help you but my comment may help others... As a techie you should have known better: you first learn how 2FA using TOTP works. You understand what happens when you create an entry in Google Authenticator (or whatever app). You reproduce the procedure: you verify that you end up with the same 6-digit numbers. If you've got a partner, you register your secret keys for each service on your partner's device and vice-versa. Then you've got backups of your secret keys on paper, in a safe at your bank. Next to each secret key there's a checkbox: \"Successfully initialized from this secret key?\" . When those TOTP became ubiquitous (way, way, way before Yubikeys or passkeys were a thing), 2FA was a godsend compared to just passwords. I understood they were here to stay for years, and years. And then more years. So I learned how they worked. When later on QR code generalized to initialize those (IIRC it wasn't a thing in the early days of 2FA TOTP: you'd just always get the secret key as characters, not as a QR code), I refused to ever scan a QR code: I always first decode the QR code (for the services only showing the secret key as a QR code, without also showing it as text), extract a copy of the secret key and then register it from my copy. Stuff like that. Now... As most services are deeply broken and have completely insecure practices you just say \"I lost my 2FA, I want to reset it\" and because they're clueless when it comes to security, they'll allow you to reset it. If someone hacks your email, they pretty much can reset every single of your account (at least those tied to that email). reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.092685",
+        "updated_at": "2026-09-23T16:04:11.092685",
+        "author": {
+          "id": "77409d69a156c97b1fdf8ab69eb08380",
+          "source_id": "TacticalCoder",
+          "username": "TacticalCoder",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "52ac323c1bd780da371a9f60d6308be7",
+        "source_id": "49743219",
+        "content": {
+          "text": "The same way you recover any other deleted data for which you didn't make a backup: you don't. You eat the loss & make new accounts. Then you remember to make and test backups for the future. Even if they had customer support, if that customer support had a backdoor to unlock your account it would be regularly used by malicious parties to steal people's accounts & data. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.095271",
+        "updated_at": "2026-09-23T16:04:11.095271",
+        "author": {
+          "id": "019f516f7ce85afa0e86e4d55322d867",
+          "source_id": "SAI_Peregrinus",
+          "username": "SAI_Peregrinus",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "12b40f7febbf498cdbc64f65bbbb86e7",
+        "source_id": "49743442",
+        "content": {
+          "text": "They could do ID verification reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.097902",
+        "updated_at": "2026-09-23T16:04:11.097902",
+        "author": {
+          "id": "4318a3123b95fd0e90402be05c40af61",
+          "source_id": "dvngnt_",
+          "username": "dvngnt_",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "c74526e052f6fa7ae58264de530dbc83",
+        "source_id": "49743118",
+        "content": {
+          "text": "There's no way, no human contact. That's why I de-googled myself. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.100559",
+        "updated_at": "2026-09-23T16:04:11.100559",
+        "author": {
+          "id": "8c9dc84f002646867a3477fb1977c90e",
+          "source_id": "mococa",
+          "username": "mococa",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "90a2e2cd38b69a3105a500480b9432be",
+        "source_id": "49743218",
+        "content": {
+          "text": "No human contact is a plus for security, as the human is the weakest link that can give up your authentication to someone that isn’t you. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.103225",
+        "updated_at": "2026-09-23T16:04:11.103225",
+        "author": {
+          "id": "2c52418e39bc8cd23355dd4fb279c868",
+          "source_id": "lotsofpulp",
+          "username": "lotsofpulp",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1e329d1d1f7818014d549a52c3671c50",
+        "source_id": "49743618",
+        "content": {
+          "text": "The human factor is walking into your local branch with your face and an ID - something that can’t be done on a large scale by bots. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.105978",
+        "updated_at": "2026-09-23T16:04:11.105978",
+        "author": {
+          "id": "3cd5a7e7de8c1bc36e34ed88d94509ae",
+          "source_id": "ks2048",
+          "username": "ks2048",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b020368bd54d3a29abfd63474d22b3d0",
+        "source_id": "49744100",
+        "content": {
+          "text": "This has often been abused with mobile phone carriers to get SIM cards issued for targets by just knowing enough customer details. This then allowed them to intercept SMS 2FA challenges and access even more sensitive accounts. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.108709",
+        "updated_at": "2026-09-23T16:04:11.108709",
+        "author": {
+          "id": "25a7ea4abe83f5f6396d1e35940aa44d",
+          "source_id": "vel0city",
+          "username": "vel0city",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0622a728dcaee1e88229a36f29c8058b",
+        "source_id": "49743324",
+        "content": {
+          "text": "\"I am permanently locked out of my account with no recourse\" is also a security issue. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.111526",
+        "updated_at": "2026-09-23T16:04:11.111526",
+        "author": {
+          "id": "59f7a2e9b256a08b6506c77e787725bd",
+          "source_id": "tempfile",
+          "username": "tempfile",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ee23f7f0194683d4cd69f3380bf6d52c",
+        "source_id": "49743311",
+        "content": {
+          "text": "Have you heard about Meta AI doing support? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.114301",
+        "updated_at": "2026-09-23T16:04:11.114301",
+        "author": {
+          "id": "8c9dc84f002646867a3477fb1977c90e",
+          "source_id": "mococa",
+          "username": "mococa",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e0dd4c450177b345dfa768919dffd538",
+        "source_id": "49744370",
+        "content": {
+          "text": "Only if you can log in.  I am Meta Verified, but I cannot log in to get support. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.117119",
+        "updated_at": "2026-09-23T16:04:11.117119",
+        "author": {
+          "id": "9a1e5df4549f713429c4ad381a950984",
+          "source_id": "rationalist",
+          "username": "rationalist",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ed3498e2f1c40d5a9d01835eddfa05b0",
+        "source_id": "49744599",
+        "content": {
+          "text": "While we are on this, is there a comprehensive guide on how to \"theft-proof\" your iPhone? Not in the sense of preventing the theft, but rather the fallout on all our various online service access. Using the iPhone backup to setup a new phone is a good reminder every time that not half of the stuff comes back correctly.. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.119980",
+        "updated_at": "2026-09-23T16:04:11.119980",
+        "author": {
+          "id": "e6e90219bf7f27738177d2de26a2747b",
+          "source_id": "stefan_",
+          "username": "stefan_",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "bdb3e6278c29a2af01c8961fa5d7bca2",
+        "source_id": "49745449",
+        "content": {
+          "text": "I'm not sure you'd really need a guide. Just use the phone as a phone and pretend like it isn't a smartphone. Suddenly you are teleported back into 2005: physical credit cards, physical transit passes, online banking via a desktop website. It is still up to you what era you decide to live in technologically today. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.122855",
+        "updated_at": "2026-09-23T16:04:11.122855",
+        "author": {
+          "id": "294b1933551ab2d03b95a2ded3fb77ae",
+          "source_id": "asdff",
+          "username": "asdff",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0e6e3e7e6919988a565622a9c24abae8",
+        "source_id": "49743089",
+        "content": {
+          "text": "need to save your recovery keys (text file) before you lost the phone reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.125752",
+        "updated_at": "2026-09-23T16:04:11.125752",
+        "author": {
+          "id": "f18a1fe1c202762d5a51dc3170356283",
+          "source_id": "phildougherty",
+          "username": "phildougherty",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "39dc9a43ae261ee443eef47bc0e14763",
+        "source_id": "49745100",
+        "content": {
+          "text": "Excellent idea... shit my house just burned down with my phone. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.128673",
+        "updated_at": "2026-09-23T16:04:11.128673",
+        "author": {
+          "id": "01422871a1c44aedf7e7b63dc234207b",
+          "source_id": "pixl97",
+          "username": "pixl97",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "651e50c83e7535ad2a55151ea857df13",
+        "source_id": "49745263",
+        "content": {
+          "text": "Backups, backups, backups. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.131658",
+        "updated_at": "2026-09-23T16:04:11.131658",
+        "author": {
+          "id": "962235490a8cbe099b41329816b4d68d",
+          "source_id": "Telaneo",
+          "username": "Telaneo",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a8c2ae2be870f5c98d574de94b9ce617",
+        "source_id": "49745551",
+        "content": {
+          "text": "Now on to how to keep those backups secure. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.134646",
+        "updated_at": "2026-09-23T16:04:11.134646",
+        "author": {
+          "id": "01422871a1c44aedf7e7b63dc234207b",
+          "source_id": "pixl97",
+          "username": "pixl97",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "819420acd8f815a502b4cf0c9d9c2f88",
+        "source_id": "49746036",
+        "content": {
+          "text": "need to save your recovery keys (text file) before you lost the backups reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.137663",
+        "updated_at": "2026-09-23T16:04:11.137663",
+        "author": {
+          "id": "bbbc476c58eeff711d16e822d179ea12",
+          "source_id": "butlike",
+          "username": "butlike",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "78758b6a9f72fe83347c15f395185909",
+        "source_id": "49743633",
+        "content": {
+          "text": "Honestly.... This is why I have everything in Bitwarden. All 2FA runs through it so even if my phone got stolen, I could still access everything. I honestly don't understand why more people don't pay the $10 a year and just use Bitwarden. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.140701",
+        "updated_at": "2026-09-23T16:04:11.140701",
+        "author": {
+          "id": "4b1fa3fc1621c9ee22f1f6c434fbed19",
+          "source_id": "thrownaway561",
+          "username": "thrownaway561",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "085a6ca0e74c4f6c459297350dd3c3a7",
+        "source_id": "49743755",
+        "content": {
+          "text": "Having your passwords and 2FA with the same provider carries some risk. If someone can access your Bitwarden account they will have full access to all your accounts. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.143789",
+        "updated_at": "2026-09-23T16:04:11.143789",
+        "author": {
+          "id": "abc6568297164097fc6974ec73a8cdd3",
+          "source_id": "phainopepla2",
+          "username": "phainopepla2",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9ac3939949d0de47b4557ad4fd635cfa",
+        "source_id": "49751898",
+        "content": {
+          "text": "I always feel conflicted with this. Using my password manager to store 2FA codes is convenient, but it adds a layer of indirection if they are elsewhere. But if you've compromised my password manager, you almost certainly have enough access to my machines to get to the alternatives. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.146916",
+        "updated_at": "2026-09-23T16:04:11.146916",
+        "author": {
+          "id": "aed7d75ba39fbc385749443eb8d2fa46",
+          "source_id": "ectoloph",
+          "username": "ectoloph",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1b6a4038e5d945b202fe6870cc113dc7",
+        "source_id": "49744140",
+        "content": {
+          "text": "What's your plan when you lose access to Bitwarden? What happens when your Bitwarden gets compromised? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.150043",
+        "updated_at": "2026-09-23T16:04:11.150043",
+        "author": {
+          "id": "25a7ea4abe83f5f6396d1e35940aa44d",
+          "source_id": "vel0city",
+          "username": "vel0city",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d08ca7af68e12202ac429bb8f96189c2",
+        "source_id": "49744657",
+        "content": {
+          "text": "> All 2FA runs through it I hope that isn't true, because I sure can't think of a good way to use Bitwarden's TOTP as 2FA for Bitwarden! :) reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.153211",
+        "updated_at": "2026-09-23T16:04:11.153211",
+        "author": {
+          "id": "225f5c84fc9b0e2c3cdab5200fed31ec",
+          "source_id": "patshead",
+          "username": "patshead",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9231dc197f0729a8281399a28da3276d",
+        "source_id": "49744918",
+        "content": {
+          "text": "FIDO2 USB Security key -> Bitwarden (With master password) -> Every other 2FA method I have 3 FIDO2 USB Security keys, One I carry with my persons at all times, one that stays with my main machine at all times and an offsite backup that is sitting in a friend's server, if my house burns down, I can either physically collect the key or use USB-IP to authenticate back into bitwarden and enroll a new key. (Actually all 3 are at home right now but that's ok) My phone is logged into Bitwarden so even then I can recover my passwords and data in case of a serious incident immediately. Even if both my house and my friend's house burn down at the same time, I can still recover my data from my phone unless my phone is left in the house, all of which to say I still have the recovery phrase written down in a box somewhere in a different country reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.156443",
+        "updated_at": "2026-09-23T16:04:11.156443",
+        "author": {
+          "id": "35d1363d500c95c1eab0a9d6804d56f5",
+          "source_id": "vablings",
+          "username": "vablings",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2cf14a47306c97198b1434779e8b1bc3",
+        "source_id": "49745632",
+        "content": {
+          "text": "Dumb question, does backing up my iphone to icloud help solve this? Assuming im willing and able to get a brand new phone? What 2fa would the Apple store need, if hypothetically my lost iphone was my only apple product? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.159667",
+        "updated_at": "2026-09-23T16:04:11.159667",
+        "author": {
+          "id": "1f93202ca595b16c06129a059d2598b8",
+          "source_id": "bshaughn",
+          "username": "bshaughn",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1e02291fe20aca4afc851a396188bcb2",
+        "source_id": "49746018",
+        "content": {
+          "text": "It's not a dumb question, but there isn't any single answer. It depends on what protections you have on your iCloud account. For most users, if you've lost your phone, but remember your iCloud password and have a new phone with the same number, you can get in. It's made even easier if you have another device already signed in, such as a laptop. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.162962",
+        "updated_at": "2026-09-23T16:04:11.162962",
+        "author": {
+          "id": "4d760e3b2c70cfcc39ca973c9f149219",
+          "source_id": "thesuitonym",
+          "username": "thesuitonym",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "73007485a1b3074d205f92f648664973",
+        "source_id": "49746652",
+        "content": {
+          "text": "Luckily I do have a macbook, and try to put all my passwords in a \"neutral\" password manager, but this post has made me think about the edge cases of this sort of thing. Ive always said, the number one reason I will stick with an iphone - despite any present for future dumb ux changes - is that I will always be able to physically go to an apple store and get someone to help me. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.166313",
+        "updated_at": "2026-09-23T16:04:11.166313",
+        "author": {
+          "id": "1f93202ca595b16c06129a059d2598b8",
+          "source_id": "bshaughn",
+          "username": "bshaughn",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "45da89d66bbd88ba0cd63ad28a354738",
+        "source_id": "49746026",
+        "content": {
+          "text": "This situation is why I don't use authenticator apps, or passkeys linked to a device. Single point of failure, and obviously with any of the big tech companies, zero recourse. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.169639",
+        "updated_at": "2026-09-23T16:04:11.169639",
+        "author": {
+          "id": "9d398e0d4c6b08564fb9ddd4594babc1",
+          "source_id": "ifh-hn",
+          "username": "ifh-hn",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "f0b55f5a704e9f7c4869ae6e4ed6fffa",
+        "source_id": "49752935",
+        "content": {
+          "text": "I have Ente Auth on my phone, desktop and laptop (on top of printed recovery keys for each service using the authenticator). reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:11.173003",
+        "updated_at": "2026-09-23T16:04:11.173003",
+        "author": {
+          "id": "52df6e8a77c30137ae025f699d514027",
+          "source_id": "croon",
+          "username": "croon",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-09-23T16:04:11.290689",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "0b4372a36e25a430735d47f93cf91787",
+      "source_id": "49793381",
+      "title": "Ask HN: Why does it matter if no one reads your novel as long as the AIs do?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">AI can in principle surface content that you create that no humans consume directly. And it could even credit and financially compensate you whenever this happens.<p>So it seems that you can have a creator-only economy where all humans create and the AIs do most of the consuming.<p>And stuff that the AIs surface in their replies allows humans to indirectly consume some of your content (in which case you would be credited and financially compensated) and perhaps even lead to them directly consuming it as a result of the free advertising.<p>Do you think this is workable as a future model for creation and consumption (and not just for novels)?</p></p></p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-23T16:03:43.719218",
+      "updated_at": "2026-09-23T16:03:43.719218",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "9fbfc99674a659d2f2b0af967455b589",
+        "source_id": "amichail",
+        "username": "amichail",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 10,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49793381",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "58ab8d1c0e6ce5459d45091ed9cc7658",
+        "source_id": "49793978",
+        "content": {
+          "text": "We're already at the point where, for the vast majority of novelists (which is where I'm most knowledgeable), writing is not a primary source of income.  With the exception of the very few bestsellers who are super-famous, most have other jobs or a spouse to provide income (and, in the US, health insurance).  So most authors aren't doing it only for the money. It's also hard to imagine a situation where authors are paid when AI ingests or remixes their work; this is already not the case.  Legal cases have slapped down _piracy_, but it seems that _training_ is considered fair use, so long as the AI company buys at least one copy of the book. There's no reason for the AI companies to bother paying anyone for their work. But let's ignore all of that. I write so I can tell the story.  I write so other people can enjoy it -- so I can gross them out, or shock them with a clever plot twist they should've seen coming, or make them think about something differently, or let them have a moment of heartwarming joy, or just escape into a wild adventure of my own imagining.  Otherwise, I'd just say \"Odysseus had a long trip home\" and be done. If nobody reads my book unless it's been processed by an AI and mashed up with the writing of others... then nobody's actually reading _my_ book, and I see no purpose to throwing my work into the grinder. Disclosure: I write novels, have one published, and plan to publish more, but I very much do not make a living off of them.  Most of the (unlikely) futures in which I rely on writing income alone assume massive savings from my current tech job. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:12.595082",
+        "updated_at": "2026-09-23T16:04:12.595082",
+        "author": {
+          "id": "b07dc904a2b5c35db24dbfe809be03a7",
+          "source_id": "rznicolet",
+          "username": "rznicolet",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0c9ab7167ca46549ea35f41003c16934",
+        "source_id": "49794503",
+        "content": {
+          "text": "Ai can be that somebody with exquisite taste and it can probably tell a good novel versus a bad one.  It can also figure if an idea is unique or generic.   I can understand Ai as a paying consumer. Generic stuff: $5.. superb: $100k.. That way quality of human writing can be appreciated at least by some entity since many humans will eventually give up. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:12.595618",
+        "updated_at": "2026-09-23T16:04:12.595618",
+        "author": {
+          "id": "be9e01d2881f9bd690048243d087d119",
+          "source_id": "silverFork",
+          "username": "silverFork",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "43a89f1a4075cbe140dc9967353b6da7",
+        "source_id": "49794772",
+        "content": {
+          "text": "Alas, at present, AI mostly serves to fill my email folder with vapid praise that clumsily restates the back-of-the-book blurb and then tries to get me to give someone else money for dubious (nonexistent) marketing services. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:12.596149",
+        "updated_at": "2026-09-23T16:04:12.596149",
+        "author": {
+          "id": "b07dc904a2b5c35db24dbfe809be03a7",
+          "source_id": "rznicolet",
+          "username": "rznicolet",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "cd0d66bf9bcdcfc9c7339093e273f17f",
+        "source_id": "49794914",
+        "content": {
+          "text": "LOL.. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:12.596712",
+        "updated_at": "2026-09-23T16:04:12.596712",
+        "author": {
+          "id": "be9e01d2881f9bd690048243d087d119",
+          "source_id": "silverFork",
+          "username": "silverFork",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "421ec78600f916dca4d3a87332a2929a",
+        "source_id": "49800139",
+        "content": {
+          "text": "I can only see this making sense for reference books, not novels. I don’t know why an AI would ever be bringing up a novel that no one has read. As it stands, it’s only going to bring up novels that I’m asking about or asking for ideas on what to read. Having it tell me to read random novels no other human has read is not valuable, that’s just an ad for a book that probably isn’t any good. Novels are made for people, not for AI. I also don’t know where this payment model comes from. These AI companies have all shown that they can and will use the collective works of humanity to train, while giving nothing back to the writers, artists, scientists, developers, etc who created it all. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:12.597313",
+        "updated_at": "2026-09-23T16:04:12.597313",
+        "author": {
+          "id": "fb6fae387d9dabe783668f9009982cf3",
+          "source_id": "al_borland",
+          "username": "al_borland",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e80ad6ddc8b8c11d48905205a7cf0260",
+        "source_id": "49803352",
+        "content": {
+          "text": "The novel might have some interesting ideas that are relevant to the user’s prompt. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:12.597970",
+        "updated_at": "2026-09-23T16:04:12.597970",
+        "author": {
+          "id": "9fbfc99674a659d2f2b0af967455b589",
+          "source_id": "amichail",
+          "username": "amichail",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d5c754f9249886434ce65593578cad8c",
+        "source_id": "49808581",
+        "content": {
+          "text": "If it’s not something anyone has read or heard of before, it would be indistinguishable from the AI just making it up. When people use quotes from fiction, a big part of the value is the recognizability of the book/author. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:12.598634",
+        "updated_at": "2026-09-23T16:04:12.598634",
+        "author": {
+          "id": "fb6fae387d9dabe783668f9009982cf3",
+          "source_id": "al_borland",
+          "username": "al_borland",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "98f67a62f516b57c7bf15d39f3459483",
+        "source_id": "49806938",
+        "content": {
+          "text": "Might.  But most users want answers that are accurate, not fiction. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:12.599281",
+        "updated_at": "2026-09-23T16:04:12.599281",
+        "author": {
+          "id": "4cbca4a5fa16748dbdfd70b770eba7a3",
+          "source_id": "AnimalMuppet",
+          "username": "AnimalMuppet",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d608e0c26f254459d7c25edc45bb1fd6",
+        "source_id": "49793871",
+        "content": {
+          "text": "If your world only revolves around money and nothing else and you have no interest in, I don't know, actual contact with your readers, then why not, I guess... But I think even purely economically this won't work: For starters, who would set the price for your book? Your book would become an exchangeable commodity, with the \"purchase decision\" done solely by AIs (and their companies), not the \"readers\". The financial success of your book would depend on whatever criteria AIs use to decide about including your content or not, not your (human) readers (or what's left of them). As with most commodities, this would enter a \"race to the bottom\" that would probably leave you with pennies - or steer your writing into a direction that you were never intending to go in. Just a question: In such a system, why would you still write the book yourself and not have an LLM write it? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:12.600017",
+        "updated_at": "2026-09-23T16:04:12.600017",
+        "author": {
+          "id": "5bab883c6848d6736af7d4ccdc7e83bf",
+          "source_id": "xg15",
+          "username": "xg15",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9a3d90460583a2b39bc3195aa5bf1f87",
+        "source_id": "49793802",
+        "content": {
+          "text": "That should have already happened. The AI companies should had first created a market where people submit there stuff to be included in the training. It would have been slower progress but it would have been better for public adoption and their own reputation. I've heard people are getting paid now, not sure, but they definitely yoinked all the content without permission, when it could have been an entire market around it. So yeah, I think that's a good idea, and why I want AI to stay away from being used for one-shot creative output. Luckily that is still not very good, at least not for unique and creative applications. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:12.600767",
+        "updated_at": "2026-09-23T16:04:12.600767",
+        "author": {
+          "id": "8c56a54bd37833598325e72d61ba65c0",
+          "source_id": "proc0",
+          "username": "proc0",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "358fcc0b245cd62b99d322fb262180d3",
+        "source_id": "49795285",
+        "content": {
+          "text": "AI is incredible for consumption. Using it as an assistant for summarisation and learning I think is fine. But it should stay very far away from creation of anything. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:12.601630",
+        "updated_at": "2026-09-23T16:04:12.601630",
+        "author": {
+          "id": "34c608499cd15faae6bd20cd734069d6",
+          "source_id": "devilsdata",
+          "username": "devilsdata",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7168d7a1c622500392fe9b9879c9d35a",
+        "source_id": "49797608",
+        "content": {
+          "text": "No, of course not. Unless by writing a novel, you mean that the writing is done fully by a LLM and the author is just doing it for the money. This is a very silly question, it should be obvious that the writing itself is important, it's like asking a musician if they are okay that their recorded song is never heard, but instead people will hear some LLM generated garble similar to it. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:12.602439",
+        "updated_at": "2026-09-23T16:04:12.602439",
+        "author": {
+          "id": "adcbf30ea9eed9c0d94a9debeb9e001b",
+          "source_id": "iamsaitam",
+          "username": "iamsaitam",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0273e8fb10c915c7fd9e710b70c4cefc",
+        "source_id": "49793439",
+        "content": {
+          "text": "> And it could even credit and financially compensate you whenever this happens. It could, but it doesn't. Also, have you considered that perhaps creative people who write novels actually want people to directly consume their work, and not indirectly? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:12.603285",
+        "updated_at": "2026-09-23T16:04:12.603285",
+        "author": {
+          "id": "c8d2122337a8595577f0f31ee07bb26d",
+          "source_id": "pavel_lishin",
+          "username": "pavel_lishin",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "bf17c000ec524ce9fde86426790b9740",
+        "source_id": "49793488",
+        "content": {
+          "text": "Mathematicians seem content with having only a few people read and understand their proofs in full. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:12.604117",
+        "updated_at": "2026-09-23T16:04:12.604117",
+        "author": {
+          "id": "9fbfc99674a659d2f2b0af967455b589",
+          "source_id": "amichail",
+          "username": "amichail",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ffecb914b7ee3559820ffed72bb123bd",
+        "source_id": "49793556",
+        "content": {
+          "text": "That sort of writing is very different, with very different motivations, than something like a novel. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:12.604986",
+        "updated_at": "2026-09-23T16:04:12.604986",
+        "author": {
+          "id": "98f9b9ba1cc5c4d684462d480b2982a4",
+          "source_id": "JohnFen",
+          "username": "JohnFen",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a732865d154e6dbe9c396bf95dafad04",
+        "source_id": "49793590",
+        "content": {
+          "text": "A novel not read by humans could still influence future novels indirectly because its ideas are mentioned in AI responses. And you would get credit and financial compensation for those ideas that are mentioned. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:12.605873",
+        "updated_at": "2026-09-23T16:04:12.605873",
+        "author": {
+          "id": "9fbfc99674a659d2f2b0af967455b589",
+          "source_id": "amichail",
+          "username": "amichail",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "09988e79a4e027072597b7a952658e92",
+        "source_id": "49793619",
+        "content": {
+          "text": "> A novel not read by humans could still influence future novels That isn't at all relevant to why I engage in creative writing. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:12.606801",
+        "updated_at": "2026-09-23T16:04:12.606801",
+        "author": {
+          "id": "98f9b9ba1cc5c4d684462d480b2982a4",
+          "source_id": "JohnFen",
+          "username": "JohnFen",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "11790874227d26edaf36e09242d2beb2",
+        "source_id": "49793613",
+        "content": {
+          "text": "I really do wonder sometimes whether these questions you post are trolling or if you truly don't understand how humans work on a fundamental level. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:12.607747",
+        "updated_at": "2026-09-23T16:04:12.607747",
+        "author": {
+          "id": "14d688e3a965535c98d7ae36741a9df8",
+          "source_id": "krapp",
+          "username": "krapp",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "73f8f56c23dfc3ecd9fc53032d433bd1",
+        "source_id": "49793576",
+        "content": {
+          "text": "Have you considered that mathematicians aren't writers? Or that your original framing was having no one , rather than \"only a few people,\" read your work? Do you think mathematicians would be content with having no one but AIs read their work? I don't think so. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:12.608765",
+        "updated_at": "2026-09-23T16:04:12.608765",
+        "author": {
+          "id": "14d688e3a965535c98d7ae36741a9df8",
+          "source_id": "krapp",
+          "username": "krapp",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "348a70cc731496c3c2368793becfba29",
+        "source_id": "49793609",
+        "content": {
+          "text": "This will be the reality of math soon. Complicated proofs will only be checked completely by AI. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:12.609769",
+        "updated_at": "2026-09-23T16:04:12.609769",
+        "author": {
+          "id": "9fbfc99674a659d2f2b0af967455b589",
+          "source_id": "amichail",
+          "username": "amichail",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "b56a3498575896ea7e8a1e2df4b05d83",
+        "source_id": "49793646",
+        "content": {
+          "text": "That doesn't actually answer any questions, but I doubt mathematicians are entirely thrilled about the prospect of having their field automated, even if they still get paid. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:12.610807",
+        "updated_at": "2026-09-23T16:04:12.610807",
+        "author": {
+          "id": "14d688e3a965535c98d7ae36741a9df8",
+          "source_id": "krapp",
+          "username": "krapp",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "563d33cccd809248435d49bb521ba7fa",
+        "source_id": "49795891",
+        "content": {
+          "text": "Damn. I was accessing HN on another device, and missed who the author of this post was. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:12.611868",
+        "updated_at": "2026-09-23T16:04:12.611868",
+        "author": {
+          "id": "c8d2122337a8595577f0f31ee07bb26d",
+          "source_id": "pavel_lishin",
+          "username": "pavel_lishin",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "8316a536129ab9322cc309d2d78c2353",
+        "source_id": "49793526",
+        "content": {
+          "text": "If no human is reading what I write, then there's no point in publishing it. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:12.612949",
+        "updated_at": "2026-09-23T16:04:12.612949",
+        "author": {
+          "id": "98f9b9ba1cc5c4d684462d480b2982a4",
+          "source_id": "JohnFen",
+          "username": "JohnFen",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "adfc58f612395599210af72f30bfb49f",
+        "source_id": "49793544",
+        "content": {
+          "text": "But you could still get credit and financial compensation. Mathematicians write proofs that only a few people read in full and understand. And yet, they are fine with that. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:12.614079",
+        "updated_at": "2026-09-23T16:04:12.614079",
+        "author": {
+          "id": "9fbfc99674a659d2f2b0af967455b589",
+          "source_id": "amichail",
+          "username": "amichail",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "545231f84af7ac8141ba1b8e7261b589",
+        "source_id": "49793577",
+        "content": {
+          "text": "> But you could still get credit and financial compensation. Sure, but that doesn't make up for the loss of the primary reason for writing the material in the first place. > Mathematicians write proofs that only a few people read in full and understand. And yet, they are fine with that. As I said in another comment (before I saw this), that sort of writing is very different, with different motivations and target audiences, than writing something like a novel. Apples and oranges. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:12.615265",
+        "updated_at": "2026-09-23T16:04:12.615265",
+        "author": {
+          "id": "98f9b9ba1cc5c4d684462d480b2982a4",
+          "source_id": "JohnFen",
+          "username": "JohnFen",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "9fd6602fb6b49190d38cdc533e34672e",
+        "source_id": "49803575",
+        "content": {
+          "text": "I write for humans. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:12.616454",
+        "updated_at": "2026-09-23T16:04:12.616454",
+        "author": {
+          "id": "95c7810f5068a7f6553a5ebcb0e954d1",
+          "source_id": "nicbou",
+          "username": "nicbou",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "058b41871d89617c74305574ad459b9e",
+        "source_id": "49793421",
+        "content": {
+          "text": "Interesting concept.  But who pays Ai?  there has to be an ultimate consumer no matter who the creator is.  Humans are the only ones that would take the credit.  Can Ai say, it was my idea, nope!  LOL reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:12.617674",
+        "updated_at": "2026-09-23T16:04:12.617674",
+        "author": {
+          "id": "be9e01d2881f9bd690048243d087d119",
+          "source_id": "silverFork",
+          "username": "silverFork",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-09-23T16:04:12.618535",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "d8a5ed8a6e09d7c0c473c78707be021c",
+      "source_id": "49768826",
+      "title": "Ask HN: How do you interview devs in a post-AI world?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-23T16:03:43.719899",
+      "updated_at": "2026-09-23T16:03:43.719899",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "81442dfa29615ebf6ca205f86dab3d23",
+        "source_id": "mdwelsh",
+        "username": "mdwelsh",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 46,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49768826",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-09-23T16:04:17.181042",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "48ae2eb304ef62433174ad4991a50df7",
+      "source_id": "49793764",
+      "title": "Ask HN: Dead Internet",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-23T16:03:43.720694",
+      "updated_at": "2026-09-23T16:03:43.720694",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "8ad8fda9fa08b58e039e9cf985fda2f7",
+        "source_id": "basilikum",
+        "username": "basilikum",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 15,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49793764",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-09-23T16:04:20.315011",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "b2d64881412386a21519938ce4cacb3c",
+      "source_id": "49807227",
+      "title": "Ask HN: Ideas for getting more GitHub stars?",
+      "content": {
+        "text": "",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-23T16:03:43.721310",
+      "updated_at": "2026-09-23T16:03:43.721310",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "5ad71531f20be8154736139ca49b08cc",
+        "source_id": "NatalieTrono",
+        "username": "NatalieTrono",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 3,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49807227",
+      "section": "Ask HN"
+    },
+    "replies": [],
+    "metadata": {
+      "crawled_at": "2026-09-23T16:04:23.998574",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "bf190fed2036e6923537ca18d28dbc94",
+      "source_id": "49763466",
+      "title": "Ask HN: Remember N8n? Anyone?",
+      "content": {
+        "text": "<div class=\"toptext\" style=\"margin-top:4px\">Wonder what happened to all their hype and agentic connector workflow?<p>Did Claude/GPT ate that market for good?</p></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-23T16:03:43.721861",
+      "updated_at": "2026-09-23T16:03:43.721861",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "4e29f1dff2761af701bacabc8feffa95",
+        "source_id": "sankalpdomore",
+        "username": "sankalpdomore",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 15,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49763466",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "71678834df046052d682c06f90c3f1b8",
+        "source_id": "49794349",
+        "content": {
+          "text": "I don't think Vibecode can completely replace workflow. For example, Langgraph still need wrting workflow in its software. To conclude, AI  cannot absolutely follow my plan, but a workflow can. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:26.585952",
+        "updated_at": "2026-09-23T16:04:26.585952",
+        "author": {
+          "id": "7a9949edd960d0dfc19928d07dd3503b",
+          "source_id": "LittleFishK",
+          "username": "LittleFishK",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "00a93c3e0b8aa5dae547c6fd0584574d",
+        "source_id": "49797768",
+        "content": {
+          "text": "Been using Claude for most of my work and it's been doing pretty good. I've made most of the workflows into their own .md files reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:26.586493",
+        "updated_at": "2026-09-23T16:04:26.586493",
+        "author": {
+          "id": "4e29f1dff2761af701bacabc8feffa95",
+          "source_id": "sankalpdomore",
+          "username": "sankalpdomore",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "291aa3b669117205b80a7ff952379a7f",
+        "source_id": "49779798",
+        "content": {
+          "text": "Yes I use it for a few workflows for a client. Been using their hosted version since it was dirt cheap (and grandfathered in to that pricing). It’s been very reliable, I would continue to use it for workflow automations now as it’s simpler to reason with than LLM generated spaghetti code. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:26.587010",
+        "updated_at": "2026-09-23T16:04:26.587010",
+        "author": {
+          "id": "ad886b214856f6a1201027a8714f60bb",
+          "source_id": "scrivna",
+          "username": "scrivna",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "1f9e5dc7f7ba2087b214ea165fefdd88",
+        "source_id": "49764442",
+        "content": {
+          "text": "I'm still using it just fine. I'm not sure how well the cloud business is doing, though. It's great as open source. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:26.587561",
+        "updated_at": "2026-09-23T16:04:26.587561",
+        "author": {
+          "id": "f3e803c20c811043584dfaf0cdc1543a",
+          "source_id": "haebom",
+          "username": "haebom",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "69b2cb10efa3f40275c04086f17e2bc4",
+        "source_id": "49771088",
+        "content": {
+          "text": "Dito. Running on my mac mini: Local LLM and n8n reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:26.588132",
+        "updated_at": "2026-09-23T16:04:26.588132",
+        "author": {
+          "id": "340dd406ff412a4435de7ae5c5a4e2c5",
+          "source_id": "eMpHaSe",
+          "username": "eMpHaSe",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "d90deb9a8fbe9483e3f1d4a01f7f0902",
+        "source_id": "49773391",
+        "content": {
+          "text": "I remember 38400, 8, n, 1 38400 bits per second, 8 bits per character, no parity, 1 stop bit reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:26.588772",
+        "updated_at": "2026-09-23T16:04:26.588772",
+        "author": {
+          "id": "cf2bd8bbc1ac7fac6aa1daa41272d5d3",
+          "source_id": "mikewarot",
+          "username": "mikewarot",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "37c2453c7a4b558c662f8c5171254eec",
+        "source_id": "49797359",
+        "content": {
+          "text": "Look at this fancy lad with his 36.6 while the rest of us are cruising at 14.4 reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:26.589402",
+        "updated_at": "2026-09-23T16:04:26.589402",
+        "author": {
+          "id": "6c7c2a50bb85586397391839c57c35ec",
+          "source_id": "mikestorrent",
+          "username": "mikestorrent",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "49439b11e8f8eedc4577372692eff46a",
+        "source_id": "49763988",
+        "content": {
+          "text": "No, lots of job postings still ask for them reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:26.590051",
+        "updated_at": "2026-09-23T16:04:26.590051",
+        "author": {
+          "id": "2845ad0a586c89a9cc07525be66375d7",
+          "source_id": "chistev",
+          "username": "chistev",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "3e21f061fefb15db80e2aabe1c78b87b",
+        "source_id": "49778835",
+        "content": {
+          "text": "haven't seen a lot - which was the one you saw last? reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:26.590737",
+        "updated_at": "2026-09-23T16:04:26.590737",
+        "author": {
+          "id": "4e29f1dff2761af701bacabc8feffa95",
+          "source_id": "sankalpdomore",
+          "username": "sankalpdomore",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "a3200bad99ec6d393571e8608c49b386",
+        "source_id": "49764394",
+        "content": {
+          "text": "n8n - nodemation, a workflow automation platform and the Berlin company, n8n GmbH, that develops it. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:26.591448",
+        "updated_at": "2026-09-23T16:04:26.591448",
+        "author": {
+          "id": "69f0767ab0add52d50578e72caf83fb6",
+          "source_id": "pestatije",
+          "username": "pestatije",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-09-23T16:04:26.591797",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
+  },
+  {
+    "post": {
+      "id": "82f2f87a2ca9fa8c2293defd806c1aea",
+      "source_id": "49798435",
+      "title": "Ask HN: What do you expect from the next 5 years of AI?",
+      "content": {
+        "text": "<div class=\"toptext\"></div>",
+        "format": "html",
+        "media": []
+      },
+      "created_at": "2026-09-23T16:03:43.722356",
+      "updated_at": "2026-09-23T16:03:43.722356",
+      "category": {
+        "id": "f31af88693e43c7e98a65941d54a8cd6",
+        "name": "Ask HN"
+      },
+      "tags": [
+        "Ask HN",
+        "hacker news",
+        "tech"
+      ],
+      "author": {
+        "id": "26c79264e9c6ef18db68021785c6ddb1",
+        "source_id": "msuniverse2026",
+        "username": "msuniverse2026",
+        "avatar": "",
+        "role": "user",
+        "signature": ""
+      },
+      "stats": {
+        "views": 0,
+        "likes": 8,
+        "dislikes": 0,
+        "replies": 0,
+        "shares": 0
+      }
+    },
+    "source": {
+      "forum": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49798435",
+      "section": "Ask HN"
+    },
+    "replies": [
+      {
+        "id": "325f7e077a68f86dd7cc38d54a02c14e",
+        "source_id": "49815361",
+        "content": {
+          "text": "One of my personal “pelican riding a bicycle” tests for an LLM was to prompt for the script of a Seinfeld episode with a contrived plot device. While hilarious, I doubt the rights holders to the Seinfeld franchise would approve of this use case. In the next five years, I expect that LLMs will detect and prevent (or charge extra for) even “fair use” of registered copyright, the same way YouTube does today. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:28.667712",
+        "updated_at": "2026-09-23T16:04:28.667712",
+        "author": {
+          "id": "aa05e90c2ac53a35be9864b71bbb9123",
+          "source_id": "elevation",
+          "username": "elevation",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e960d022de200d1ee226b59c47aa6496",
+        "source_id": "49814013",
+        "content": {
+          "text": "I think it will become deeply integrated into all spheres of life, and we won’t be able to imagine life without it (just as we can’t imagine life without the internet now).\nPeople get used to convenience. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:28.668217",
+        "updated_at": "2026-09-23T16:04:28.668217",
+        "author": {
+          "id": "2eeefe893ede39746cbe4b4957ab9d3c",
+          "source_id": "AlisaYoki",
+          "username": "AlisaYoki",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e832e0ae641f45f7413dcf82f2b38b5b",
+        "source_id": "49798827",
+        "content": {
+          "text": "HNers are the last people I'd ask: they're the most cynical group about AI (and technology in general) there is. You might as well ask horses in 1908 what they expect from the next 5 years of combustion engines reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:28.668784",
+        "updated_at": "2026-09-23T16:04:28.668784",
+        "author": {
+          "id": "d8cfefaf385df1927f38489ada82b356",
+          "source_id": "unsupp0rted",
+          "username": "unsupp0rted",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7e6ab7de2e1aef0405c72717eef4a507",
+        "source_id": "49812723",
+        "content": {
+          "text": "Speaking of horses... the internets tells me that the US horse population didn't peak until 1920 (at 25 million), so in 1908 they were still doing great, even though horses were beginning to be replaced by cars in the early 1900s. Millions were killed during WW1 though, which might have been avoided if ICE cars and trucks had been more advanced earlier. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:28.669325",
+        "updated_at": "2026-09-23T16:04:28.669325",
+        "author": {
+          "id": "fae67c8a79d589b74b61b88f9ef38029",
+          "source_id": "perilunar",
+          "username": "perilunar",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4c0699b96101bdde184acb25c2c6768d",
+        "source_id": "49802164",
+        "content": {
+          "text": "Are we reading the same site? Are you saying HN is not pro-AI enough for your tastes? Jesus. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:28.669902",
+        "updated_at": "2026-09-23T16:04:28.669902",
+        "author": {
+          "id": "7d0b39bf6b7f729c8f9c43a6da410109",
+          "source_id": "sph",
+          "username": "sph",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "653239fb33a892f079096ae6efba842f",
+        "source_id": "49803662",
+        "content": {
+          "text": "Read the comments: it's people angry that AI is everywhere and pessimistic about its current and future use. Not in the \"it'll become too powerful\" sense but in the \"it's now and always will be far less useful than people think\" sense. This is the least pro-AI tech community on the internet. Some years ago when I was more willing to waste time, I used to argue with people on here who disabled javascript in their web browsers and complained that websites didn't work. That wasn't the dark ages... it was around covid era times. HNers are often proud luddites, or at least proud tech minimalists. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:28.670543",
+        "updated_at": "2026-09-23T16:04:28.670543",
+        "author": {
+          "id": "d8cfefaf385df1927f38489ada82b356",
+          "source_id": "unsupp0rted",
+          "username": "unsupp0rted",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "11593a71812c97a13926a9b15ed62974",
+        "source_id": "49806859",
+        "content": {
+          "text": "Read the rest of the comments.  There are massive AI boosters on here - strong enough boosters that it seems legitimate to wonder whether they are shills.  There are also massive skeptics. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:28.671176",
+        "updated_at": "2026-09-23T16:04:28.671176",
+        "author": {
+          "id": "4cbca4a5fa16748dbdfd70b770eba7a3",
+          "source_id": "AnimalMuppet",
+          "username": "AnimalMuppet",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "98b62c50a6b299e4358929e325c96b94",
+        "source_id": "49816192",
+        "content": {
+          "text": "It might be that OP is implying most of the boosters are bots themselves. I don't doubt it: AI equals money and ycombinator is a startup accelerator. I think this might just be a Brandolini's Law thing, as the \"indifferent and/or against\" people are just too goddamn tired of it all. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:28.671848",
+        "updated_at": "2026-09-23T16:04:28.671848",
+        "author": {
+          "id": "798a964b845144e7bd928bb0a5f74405",
+          "source_id": "dormento",
+          "username": "dormento",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "2caa71273516f8c52619b1e594d554e3",
+        "source_id": "49803569",
+        "content": {
+          "text": "The flood of LLM-generated content, code and communications might drown a lot of the things we love in noise. It will slip into every crevice of our existence, and people will adjust their behaviour accordingly. Sure, it will make the bullshit part of our jobs more convenient, but for the most part it will just make the bullshitters a lot more prolific. I'm already feeling it. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:28.672550",
+        "updated_at": "2026-09-23T16:04:28.672550",
+        "author": {
+          "id": "95c7810f5068a7f6553a5ebcb0e954d1",
+          "source_id": "nicbou",
+          "username": "nicbou",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "22558d97aac7c80bbbcf7caa6cc82d5e",
+        "source_id": "49803563",
+        "content": {
+          "text": "I predict it will be regulated in the west, with approved models only to the public. Corporate and verified individuals only for the high-end level models. Most likely the end of open source competitive models. Not sure what the east will do. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:28.673249",
+        "updated_at": "2026-09-23T16:04:28.673249",
+        "author": {
+          "id": "04e5449ab394fb484db678c8a7e1228a",
+          "source_id": "FloatArtifact",
+          "username": "FloatArtifact",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "272a855d2cfd0d20cd88e8bb897745dd",
+        "source_id": "49811271",
+        "content": {
+          "text": "Doubtful. When you can use an equivalent Chinese model, even a closed one, it’s hard to regulate local ones. It’s basically the Napster era of AI at that point. “You wouldn’t query a Chinese vector database, would you?” reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:28.674024",
+        "updated_at": "2026-09-23T16:04:28.674024",
+        "author": {
+          "id": "d8cfefaf385df1927f38489ada82b356",
+          "source_id": "unsupp0rted",
+          "username": "unsupp0rted",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ceb9a16ed9e2d4a544aad59dd6760049",
+        "source_id": "49798666",
+        "content": {
+          "text": "It will tell lies more convincingly. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:28.674789",
+        "updated_at": "2026-09-23T16:04:28.674789",
+        "author": {
+          "id": "9b9be5b590f3c6552c888ea93e21ebfd",
+          "source_id": "mdlxxv",
+          "username": "mdlxxv",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "5c43aadff092370a39dec5453ecec57c",
+        "source_id": "49798670",
+        "content": {
+          "text": "A big loss of money reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:28.675582",
+        "updated_at": "2026-09-23T16:04:28.675582",
+        "author": {
+          "id": "a05874eeb76ab61db9c955be5fd5ab18",
+          "source_id": "mwiede",
+          "username": "mwiede",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "4b33e348afb079092fdcddbbda850bd5",
+        "source_id": "49806550",
+        "content": {
+          "text": "Robots / physical AI displacing workforce reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:28.676400",
+        "updated_at": "2026-09-23T16:04:28.676400",
+        "author": {
+          "id": "59324493544c5e19b03e6810168eda87",
+          "source_id": "aprdm",
+          "username": "aprdm",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "31453705deb437392261e2bdd8f9fdba",
+        "source_id": "49798499",
+        "content": {
+          "text": "Division, violence, some possibly interesting theorems proved reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:28.677228",
+        "updated_at": "2026-09-23T16:04:28.677228",
+        "author": {
+          "id": "a784c88ffb0da230666f9dce452b4e2c",
+          "source_id": "jjgreen",
+          "username": "jjgreen",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "e724d4e7c8000d06ffc771640f6fa6f5",
+        "source_id": "49798749",
+        "content": {
+          "text": "Small, local models approach frontier-level prowess and reliability and so every person runs their own personal and private AI system. Frontier labs switch to serving large corporations and governments exclusively. An AI bifurcation, free AI for the masses and dangerously powerful AI for the psychopathic leaders of industry and global politics. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:28.678119",
+        "updated_at": "2026-09-23T16:04:28.678119",
+        "author": {
+          "id": "366b15f7f3df8931b2a1db60a6f9fb0c",
+          "source_id": "spottedmarley",
+          "username": "spottedmarley",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "7c210b5178fcb2ec5fce40aa9317468c",
+        "source_id": "49803012",
+        "content": {
+          "text": "> An AI bifurcation, free AI for the masses and dangerously powerful AI for the psychopathic leaders of industry and global politics. We got a small taste of that when Claude pulled Opus 4.6 from public use. You either paid a lot more to access better models or you were restricted to extremely limited access. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:28.679039",
+        "updated_at": "2026-09-23T16:04:28.679039",
+        "author": {
+          "id": "fd09b94226bfd07bc7e2819ceb2a4e6f",
+          "source_id": "scaredreally",
+          "username": "scaredreally",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "0dcc93bcc47c85e8854ceabb6da43ea6",
+        "source_id": "49806893",
+        "content": {
+          "text": "Major steps forward come less often, as the low-hanging fruit gets picked and further improvement becomes harder. Self-improvement turns out to be mostly a mirage, not a one-way ticket to the promised land. Mind you, I'm only 60% convinced of these two predictions. reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:28.680004",
+        "updated_at": "2026-09-23T16:04:28.680004",
+        "author": {
+          "id": "4cbca4a5fa16748dbdfd70b770eba7a3",
+          "source_id": "AnimalMuppet",
+          "username": "AnimalMuppet",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      },
+      {
+        "id": "ea711b02efa815a15b3c0d8861d48526",
+        "source_id": "49805634",
+        "content": {
+          "text": "I can't see governments not somehow getting more involved I think large amounts of compute are big strategic asset for a country and governments will partner with the labs reply",
+          "format": "text",
+          "media": []
+        },
+        "created_at": "2026-09-23T16:04:28.680987",
+        "updated_at": "2026-09-23T16:04:28.680987",
+        "author": {
+          "id": "a9a2a5f05ea1ec03572c069094ebe64c",
+          "source_id": "ex-aws-dude",
+          "username": "ex-aws-dude",
+          "avatar": "",
+          "role": "user"
+        },
+        "parent_id": "",
+        "quote_id": "",
+        "stats": {
+          "likes": 0,
+          "dislikes": 0
+        },
+        "quoted_users": []
+      }
+    ],
+    "metadata": {
+      "crawled_at": "2026-09-23T16:04:28.681605",
+      "language": "en-US",
+      "keywords": [
+        "tech",
+        "startup",
+        "programming",
+        "ask",
+        "question"
+      ],
+      "is_nsfw": false
+    }
   }
 ]
